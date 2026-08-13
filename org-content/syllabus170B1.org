@@ -23,6 +23,9 @@ so please reach out to schedule an appointment. Email is the best way
 to get in touch with me, but given my schedule, I may not respond for
 a full business day. Please plan ahead.
 
+* Required textbook and resources
+/The Cosmic Perspective/, 10 th edition By Bennett, et al. (Pearson)
+with /Mastering Astronomy/ website accessible through [[https://d2l.arizona.edu/d2l/home/1802755][D2L]].
 * TODO Expected learning outcomes
 
 These learning outcomes will be met through attendance at lectures,
@@ -34,10 +37,6 @@ needed. It is to your advantage to seek help when you encounter
 problems rather than at the last minute before a deadline. We are here
 to help you understand something about science and the subject of
 astronomy!
-
-* Required textbook and resources
-/The Cosmic Perspective/, 10 th edition By Bennett, et al. (Pearson)
-with /Mastering Astronomy/ website accessible through [[https://d2l.arizona.edu/d2l/home/1802755][D2L]].
 
 * TODO Exams and grading
 
@@ -71,14 +70,21 @@ Section 003H.
 * Statement on Generative AI
 You are welcome to use generative AI tools as part of your learning
 process in this course. These tools can be valuable aids for exploring
-concepts, organizing your thoughts, and supporting your research.
-However, /all work you submit must represent your own understanding,
-analysis, and intellectual effort/. When you use generative AI in
-preparing an assignment, you must:
+concepts and organizing your thoughts. However we *strongly* encourage
+you to try to solve all problems on your own first and to instead
+consult a verified source like your lecture notes or course textbook.
+Ultimately, you are responsible for your own understanding of the
+course material. Use of any AI tool during an exam is prohibited.
 
-1. Declare its use and describe how you employed it
+/All work you submit must represent your own understanding, analysis,
+and intellectual effort/. When you use generative AI in preparing an
+assignment, you must:
+
+1. Declare its use and describe how you employed it, for example:
+   "I acknowledge the use of <insert AI> to <describe specific use> with the following <link or copy paste prompt>."
+   (see also [[https://libguides.library.arizona.edu/students-chatgpt/citing][the University Libraries Guidelines]])
 2. Provide answers, solutions, and interpretations that reflect your
-   own reasoning and expertise
+   own reasoning and expertise.
 
 Submitting AI-generated content as your own work - whether in whole or
 in part - constitutes a violation of the [[https://deanofstudents.arizona.edu/policies/code-academic-integrity][Code of Academic Integrity]],

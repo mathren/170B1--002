@@ -42,11 +42,13 @@ if [ $? -eq 0 ]; then
     if [ "$yn" = "y" ] || [ "$yn" = "Y" ]; then
 	git remote -v
 	if [ -z "$1" ]; then # if $1 is a null string
+	    echo "one"
 	    # make up a commit message
 	    git add .
 	    git commit -am "Update website"
 	    git push
 	else
+	    echo "two"
 	    git add .
 	    git commit -am "$@"
 	    git push
