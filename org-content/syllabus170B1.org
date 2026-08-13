@@ -1,6 +1,10 @@
 #+title: ASTR170 B1 Session 002 - Syllabus
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: index.org
+#+NEXT_PAGE: schedule.org
+
+
 
 * Description of the course
 

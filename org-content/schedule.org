@@ -2,6 +2,8 @@
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+options: title:nil
+#+PREVIOUS_PAGE: syllabus170B1.org
+#+NEXT_PAGE: schedule.org
 #+BEGIN_EXPORT html
 <script>
 function jumpToNearestDate() {
