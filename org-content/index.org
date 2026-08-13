@@ -10,6 +10,10 @@ Material developed for a one-semester undergraduate general-education
 course at the Department of Astronomy and Steward Observatory of the
 University of Arizona.
 
+[[./.org_notes_figures/The_astronomer.jpg]]
+#+Caption: [[https://en.wikipedia.org/wiki/The_Astronomer][The Astronomer, J. Vermeer]]
+
+
 ** Disclaimer
 
 All the pages of this website are under active construction, may
