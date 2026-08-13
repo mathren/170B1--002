@@ -12,7 +12,7 @@ University of Arizona.
 
 #+CAPTION: [[https://en.wikipedia.org/wiki/The_Astronomer][The Astronomer, J. Vermeer]]
 #+ATTR_HTML: :width 75%
-[[./.org_notes_figures/The_astronomer.jpg]]
+[[./images/The_astronomer.jpg]]
 
 
 ** Disclaimer
