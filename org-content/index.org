@@ -1,0 +1,34 @@
+#+title: ASTR170B1 -- Section 2
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: index.org
+#+NEXT_PAGE: syllabus.org
+
+* ASTR170B1 - Section 2: Exploring Our Universe
+
+Material developed for a one-semester undergraduate general-education
+course at the Department of Astronomy and Steward Observatory of the
+University of Arizona.
+
+** Disclaimer
+
+All the pages of this website are under active construction, may
+contain errors and/or change without notice. If you find an error
+please let me know and feel free to open an issue/PR on [[https://github.com/mathren/stellar_phys_545][GitHub]].
+
+** How to use this website
+
+This are my notes for lectures, and are intended to *complement* (not
+substitute!) [[./syllabus170B1.org::* Required textbook and resources][other resources]].
+
+On the right, you can access:
+ - [[./syllabus170B1.org][Syllabus]]: updated version
+ - [[./schedule.org][Lectures]]: detailed schedule, with link to materials for each lecture
+
+At the bottom below, there is a light/dark mode toggle, a link to the
+previous lecture, top of the page, and next lecture, and the link to
+the repository of this website.
+
+*** Only for students at University of Arizona
+
+Homework assignments and other official communications will be on [[https://d2l.arizona.edu/d2l/home/1802755][D2L]].

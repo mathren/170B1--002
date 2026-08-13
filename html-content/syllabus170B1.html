@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2026-08-13 Thu 13:47 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ASTR170 B1 Session 002 - Syllabus</title>
+<meta name="author" content="Mathieu Renzo" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="./css/style.css" />
+<link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.min.css">
+<meta name="keywords" content="Mathieu, Renzo, Mathieu Renzo,
+			       stellar evolution, ASTR170B1, University of
+			       Arizona, Steward Observatory">
+</head>
+<body>
+<div id="preamble" class="status">
+<!-- Preamble -->
+<!-- The header -->
+<div class="header">
+
+  <!-- The site name -->
+  <div class="site-name">
+    <a id="top" href="./index.html">ASTR170B1 - Section 2</a>
+  </div>
+
+  <!-- The hamburger -->
+  <div class="hamburger">
+    <div id="myLinks" class="menu">
+      <a href="./index.html">Home</a>
+      <a href="./syllabus.html">Syllabus</a>
+      <a href="./lectures.html">Lectures</a>
+      <!-- <a href="./projects.html">Projects</a> -->
+    </div>
+    <a  href="javascript:void(0);" class="icon" onclick="HamburgerMenuFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="navbar">
+    <a href="./syllabus.html">Syllabus</a>
+    <a href="./lectures.html">Lectures</a>
+    <!-- <a href="./projects.html">Projects</a> -->
+  </div>
+</div>
+
+<!-- scripts -->
+<!-- menu  -->
+<script>
+  function HamburgerMenuFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+	  x.style.display = "none";
+      } else {
+	  x.style.display = "block";
+      }
+  }
+</script>
+
+<!-- toggle drawers -->
+<script>
+  function toggleDrawer(id) {
+      const drawer = document.getElementById(id);
+      drawer.style.display = drawer.style.display === "none" ? "block" : "none";
+  }
+</script>
+
+<!-- toggle dark mode -->
+<script>
+  window.onload = () => {
+      const toggleButton = document.getElementById("light-dark-toggle");
+      const body = document.body;
+      const html = document.documentElement;
+
+
+      // Check localStorage for user preference
+      if (localStorage.getItem("theme") === "dark") {
+          body.classList.add("dark-mode");
+	  html.classList.toggle("dark-mode");
+      }
+
+      // Toggle theme on click
+      toggleButton.addEventListener("click", () => {
+          body.classList.toggle("dark-mode");
+  html.classList.toggle("dark-mode");
+
+          // Save user preference
+          if (body.classList.contains("dark-mode")) {
+              localStorage.setItem("theme", "dark");
+          } else {
+              localStorage.setItem("theme", "light");
+          }
+      });
+  };
+</script>
+<!-- end scripts-->
+</div>
+<div id="content" class="content">
+<div id="outline-container-description-of-the-course" class="outline-2">
+<h2 id="description-of-the-course"><a href="#description-of-the-course">Description of the course</a></h2>
+</div>
+
+<div id="outline-container-where-and-when" class="outline-2">
+<h2 id="where-and-when"><a href="#where-and-when">Where and when</a></h2>
+<div class="outline-text-2" id="text-org-element-1">
+<p>
+Steward Observatory, room N210, Monday-Wednesday 2:00pm-3:15pm
+</p>
+</div>
+</div>
+<div id="outline-container-instructors" class="outline-2">
+<h2 id="instructors"><a href="#instructors">Instructors</a></h2>
+<div class="outline-text-2" id="text-instructors">
+</div>
+<div id="outline-container-prof-a-href-https-lavinia-as-arizona-edu-mrenzo-index-html-mathieu-renzo-a" class="outline-3">
+<h3 id="prof-a-href-https-lavinia-as-arizona-edu-mrenzo-index-html-mathieu-renzo-a"><a href="#prof-a-href-https-lavinia-as-arizona-edu-mrenzo-index-html-mathieu-renzo-a">Prof. <a href="https://lavinia.as.arizona.edu/~mrenzo/index.html">Mathieu Renzo</a></a></h3>
+<div class="outline-text-3" id="text-org-element-2">
+<ul class="org-ul">
+<li>Office: Steward Observatory N506</li>
+<li>Email: <a href="mailto:mrenzo@arizona.edu">mrenzo@arizona.edu</a></li>
+<li>Office hours: by appointment to be scheduled by email</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-ta-neev-shah" class="outline-3">
+<h3 id="ta-neev-shah"><a href="#ta-neev-shah">TA Neev Shah</a></h3>
+<div class="outline-text-3" id="text-org-element-3">
+<ul class="org-ul">
+<li>Office: Steward Observatory 302</li>
+<li>Email: <a href="mailto:neevshah@arizona.edu">neevshah@arizona.edu</a></li>
+<li>Office hours: Wednesday 1:00pm-2:00pm</li>
+</ul>
+
+<p>
+<b>N.B.:</b> <b>Office hours are times set aside to help you!</b> Please come and
+ask any questions you have. My availability is different every week,
+so please reach out to schedule an appointment. Email is the best way
+to get in touch with me, but given my schedule, I may not respond for
+a full business day. Please plan ahead.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-expected-learning-outcomes" class="outline-2">
+<h2 id="expected-learning-outcomes"><a href="#expected-learning-outcomes"><span class="todo TODO">TODO</span> Expected learning outcomes</a></h2>
+<div class="outline-text-2" id="text-org-element-4">
+<p>
+These learning outcomes will be met through attendance at lectures,
+in-class activities, homework and writing assignments, and a final
+project.
+</p>
+
+<p>
+<b>N.B.:</b> You are encouraged to ask questions in class and to seek help if
+needed. It is to your advantage to seek help when you encounter
+problems rather than at the last minute before a deadline. We are here
+to help you understand something about science and the subject of
+astronomy!
+</p>
+</div>
+</div>
+<div id="outline-container-required-textbook-and-resources" class="outline-2">
+<h2 id="required-textbook-and-resources"><a href="#required-textbook-and-resources">Required textbook and resources</a></h2>
+<div class="outline-text-2" id="text-org-element-5">
+<p>
+<i>The Cosmic Perspective</i>, 10 th edition By Bennett, et al. (Pearson)
+with <i>Mastering Astronomy</i> website accessible through <a href="https://d2l.arizona.edu/d2l/home/1802755">D2L</a>.
+</p>
+</div>
+</div>
+<div id="outline-container-exams-and-grading" class="outline-2">
+<h2 id="exams-and-grading"><a href="#exams-and-grading"><span class="todo TODO">TODO</span> Exams and grading</a></h2>
+<div class="outline-text-2" id="text-org-element-6">
+<ul class="org-ul">
+<li>A: 90-100%</li>
+<li>B: 80-89%</li>
+<li>C: 65-79%</li>
+<li>D: 50-64%</li>
+<li>E: &lt;50%</li>
+</ul>
+
+<p>
+We reserve the right to make the grading slightly easier, but will not
+raise these thresholds. Under no circumstances will anyone doing less
+than 50% work pass this class.
+</p>
+</div>
+<div id="outline-container-assignments" class="outline-3">
+<h3 id="assignments"><a href="#assignments"><span class="todo TODO">TODO</span> Assignments</a></h3>
+</div>
+
+<div id="outline-container-signature-assignment" class="outline-3">
+<h3 id="signature-assignment"><a href="#signature-assignment"><span class="todo TODO">TODO</span> Signature Assignment</a></h3>
+<div class="outline-text-3" id="text-org-element-7">
+<p>
+Using Telescopes to Explore our Universe is the title of your
+Signature Assignment. You will use the Steward Observatory 21-Inch
+Telescope, the Seestar S50 telescope/camera, and your smart phone to
+make astronomical observations. The assignment, accessed through D2L,
+will begin in September and last all semester. Final reports will be
+due by Nov. 26 at 5:00 p.m. MST.
+</p>
+</div>
+</div>
+<div id="outline-container-honors-credit" class="outline-3">
+<h3 id="honors-credit"><a href="#honors-credit">Honors credit</a></h3>
+<div class="outline-text-3" id="text-org-element-8">
+<p>
+This course is <b>not</b> available for Honors credit via an Honors contract.
+We are offering an Honors section of ASTR 170B1 (Sec 003H) which meets
+on TTh 9:30 – 10:45 a.m. in SO N210. Should you wish to receive Honors
+credit for ASTR 170B1, please drop this course section and enroll in
+Section 003H.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-statement-on-generative-ai" class="outline-2">
+<h2 id="statement-on-generative-ai"><a href="#statement-on-generative-ai">Statement on Generative AI</a></h2>
+<div class="outline-text-2" id="text-org-element-9">
+<p>
+You are welcome to use generative AI tools as part of your learning
+process in this course. These tools can be valuable aids for exploring
+concepts, organizing your thoughts, and supporting your research.
+However, <i>all work you submit must represent your own understanding,
+analysis, and intellectual effort</i>. When you use generative AI in
+preparing an assignment, you must:
+</p>
+
+<ol class="org-ol">
+<li>Declare its use and describe how you employed it</li>
+<li>Provide answers, solutions, and interpretations that reflect your
+own reasoning and expertise</li>
+</ol>
+
+<p>
+Submitting AI-generated content as your own work - whether in whole or
+in part - constitutes a violation of the <a href="https://deanofstudents.arizona.edu/policies/code-academic-integrity">Code of Academic Integrity</a>,
+specifically the prohibition against submitting work that is not your
+own. This includes text, code, calculations, or analyses that you have
+not personally verified, understood, and made your own through genuine
+intellectual engagement. If you have questions about appropriate use
+of AI tools for a particular assignment, please ask before engaging
+with the tool.
+</p>
+</div>
+</div>
+<div id="outline-container-classroom-behavior" class="outline-2">
+<h2 id="classroom-behavior"><a href="#classroom-behavior">Classroom Behavior</a></h2>
+<div class="outline-text-2" id="text-org-element-10">
+<p>
+To foster a positive learning environment, students and instructors
+have a shared responsibility. We want a safe, welcoming, and inclusive
+environment where all of us feel comfortable with each other and where
+we can challenge ourselves to succeed. To that end, our focus is on
+the tasks at hand and not on extraneous activities (e.g., texting,
+chatting, web surfing, etc.). Students are asked to refrain from
+disruptive conversations with people sitting around them during
+lecture. Students observed engaging in disruptive activity will be
+asked to cease this behavior. Those who continue to disrupt the class
+will be asked to leave lecture or discussion and may be reported to
+the Dean of Students.
+</p>
+
+<p>
+The Arizona Board of Regents’ Student Code of Conduct, ABOR Policy
+5‐308, prohibits threats of physical harm to any member of the
+University community, including to one’s self. See:
+<a href="http://policy.web.arizona.edu/threatening%E2%80%90behavior%E2%80%90students">http://policy.web.arizona.edu/threatening%E2%80%90behavior%E2%80%90students</a>
+</p>
+
+<p>
+Any social media groups generated using university-sponsored tools
+(e.g., D2L class lists, slack workspaces) should be treated as an
+extension of the classroom. This means that they will need to abide by
+the University’s student code of conduct policies, and be respectful,
+inclusive environments.
+</p>
+</div>
+<div id="outline-container-nondiscrimination-and-anti-harassment-policy" class="outline-3">
+<h3 id="nondiscrimination-and-anti-harassment-policy"><a href="#nondiscrimination-and-anti-harassment-policy">Nondiscrimination and Anti-harassment Policy</a></h3>
+<div class="outline-text-3" id="text-org-element-11">
+<p>
+The University of Arizona is committed to creating and maintaining an
+environment free of discrimination. In support of this commitment, the
+University prohibits discrimination, including harassment and
+retaliation, based on a protected classification, including race,
+color, religion, sex, national origin, age, disability, veteran
+status, sexual orientation, gender identity, or genetic information.
+For more information, including how to report a concern, please see
+<a href="http://policy.arizona.edu/human-resources/nondiscrimination-and-anti-harassment-policy">http://policy.arizona.edu/human-resources/nondiscrimination-and-anti-harassment-policy</a>
+</p>
+</div>
+</div>
+<div id="outline-container-accessibility-and-accommodations" class="outline-3">
+<h3 id="accessibility-and-accommodations"><a href="#accessibility-and-accommodations">Accessibility and accommodations</a></h3>
+<div class="outline-text-3" id="text-org-element-12">
+<p>
+At the University of Arizona, we strive to make learning
+experiences as accessible as possible. If you anticipate or
+experience barriers based on disability or pregnancy, please
+contact the Disability Resource Center (520-621-3268,
+<a href="https://drc.arizona.edu/">https://drc.arizona.edu/</a>) to establish reasonable accommodations.
+</p>
+</div>
+</div>
+<div id="outline-container-class-recordings" class="outline-3">
+<h3 id="class-recordings"><a href="#class-recordings">Class recordings</a></h3>
+<div class="outline-text-3" id="text-org-element-13">
+<p>
+To facilitate everyone's participation, audio and/or video recording
+of in class activities is <b>not allowed</b> unless explicitly agreed upon by
+all present students <i>and</i> instructors. In no case sharing on public
+platforms of the recordings will be allowed.
+</p>
+</div>
+</div>
+<div id="outline-container-preferred-name-and-pronoun" class="outline-3">
+<h3 id="preferred-name-and-pronoun"><a href="#preferred-name-and-pronoun">Preferred Name and Pronoun</a></h3>
+<div class="outline-text-3" id="text-org-element-14">
+<p>
+This course affirms people of all gender expressions and gender
+identities. If you prefer to be called a different name than what is
+on the class roster, please let me know. Feel free to correct
+instructors on your preferred gender pronoun.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-attendance-policy" class="outline-2">
+<h2 id="attendance-policy"><a href="#attendance-policy">Attendance Policy</a></h2>
+<div class="outline-text-2" id="text-org-element-15">
+<p>
+All holidays or special events observed by organized religions will be
+honored for those students who show affiliation with that particular
+religion. Absences pre‐approved by the UA Dean of Students (or Dean's
+designee) will be honored.
+</p>
+
+<p>
+It is important to attend all classes, as what is discussed in class
+is pertinent to adequate performance on assignments and exams. If you
+must be absent, it is your responsibility to obtain and review the
+information you missed.
+</p>
+</div>
+</div>
+<div id="outline-container-academic-integrity" class="outline-2">
+<h2 id="academic-integrity"><a href="#academic-integrity">Academic Integrity</a></h2>
+<div class="outline-text-2" id="text-org-element-16">
+<p>
+Integrity is expected of every student in all academic work. The
+guiding principle of academic integrity is that a student’s submitted
+work must be the student’s own. Students are encouraged to share
+intellectual views and discuss freely the principles and applications
+of course materials. However, <b>graded work/exercises must be the
+product of your own effort unless otherwise instructed</b>. Students are
+expected to adhere to the UA Code of Academic Integrity as described
+in the UA General Catalog. See:
+<a href="https://deanofstudents.arizona.edu/student-rights-responsibilities/academic-integrity">https://deanofstudents.arizona.edu/student-rights-responsibilities/academic-integrity</a>
+</p>
+
+<p>
+Misappropriation of exams before or after they are given will be
+considered academic misconduct. Misconduct of any kind will be
+prosecuted and may result in any or all of the following:
+</p>
+<ul class="org-ul">
+<li>Reduction of grade</li>
+<li>Failing grade</li>
+<li>Referral to the Dean of Students for consideration of additional
+penalty, i.e. notation on a student’s transcript re. academic
+integrity violation, etc. <a href="http://deanofstudents.arizona.edu/policies%E2%80%90and%E2%80%90codes/code%E2%80%90academic%E2%80%90integrity">http://deanofstudents.arizona.edu/policies%E2%80%90and%E2%80%90codes/code%E2%80%90academic%E2%80%90integrity</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-additional-resources-for-students" class="outline-2">
+<h2 id="additional-resources-for-students"><a href="#additional-resources-for-students">Additional resources for students</a></h2>
+<div class="outline-text-2" id="text-org-element-17">
+<p>
+UA Academic policies and procedures are available at
+<a href="http://catalog.arizona.edu/policies">http://catalog.arizona.edu/policies</a>
+</p>
+</div>
+<div id="outline-container-campus-health" class="outline-3">
+<h3 id="campus-health"><a href="#campus-health">Campus Health</a></h3>
+<div class="outline-text-3" id="text-org-element-18">
+<p>
+<a href="http://www.health.arizona.edu/">http://www.health.arizona.edu/</a>
+</p>
+
+<p>
+Campus Health provides quality medical and mental health care services
+through virtual and in-person care.
+</p>
+
+<ul class="org-ul">
+<li>Phone: 520-621-9202</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-counseling-and-psych-services-caps" class="outline-3">
+<h3 id="counseling-and-psych-services-caps"><a href="#counseling-and-psych-services-caps">Counseling and Psych Services (CAPS)</a></h3>
+<div class="outline-text-3" id="text-org-element-19">
+<p>
+<a href="https://health.arizona.edu/counseling-psych-services">https://health.arizona.edu/counseling-psych-services</a>
+</p>
+
+<p>
+CAPS provides mental health care, including short-term counseling
+services.
+</p>
+
+<ul class="org-ul">
+<li>Phone: 520-621-3334</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-the-dean-of-students-office-s-student-assistance-program" class="outline-3">
+<h3 id="the-dean-of-students-office-s-student-assistance-program"><a href="#the-dean-of-students-office-s-student-assistance-program">The Dean of Students Office’s Student Assistance Program</a></h3>
+<div class="outline-text-3" id="text-org-element-20">
+<p>
+<a href="http://deanofstudents.arizona.edu/student-assistance/students/student-assistance">http://deanofstudents.arizona.edu/student-assistance/students/student-assistance</a>
+</p>
+
+<p>
+Student Assistance helps students manage crises, life traumas, and
+other barriers that impede success. The staff addresses the needs of
+students who experience issues related to social adjustment, academic
+challenges, psychological health, physical health, victimization, and
+relationship issues, through a variety of interventions, referrals,
+and follow up services.
+</p>
+
+<ul class="org-ul">
+<li>Email: <a href="mailto:DOS-deanofstudents@email.arizona.edu">DOS-deanofstudents@email.arizona.edu</a></li>
+<li>Phone: 520-621-7057</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-survivor-advocacy-program" class="outline-3">
+<h3 id="survivor-advocacy-program"><a href="#survivor-advocacy-program">Survivor Advocacy Program</a></h3>
+<div class="outline-text-3" id="text-org-element-21">
+<p>
+<a href="https://survivoradvocacy.arizona.edu/">https://survivoradvocacy.arizona.edu/</a>
+</p>
+
+<p>
+The Survivor Advocacy Program provides confidential support and
+advocacy services to student survivors of sexual and gender-based
+violence. The Program can also advise students about relevant non-UA
+resources available within the local community for support.
+</p>
+
+<ul class="org-ul">
+<li>Email: <a href="mailto:survivoradvocacy@email.arizona.edu">survivoradvocacy@email.arizona.edu</a></li>
+<li>Phone: 520-621-5767</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-support-outreach-success-sos" class="outline-3">
+<h3 id="support-outreach-success-sos"><a href="#support-outreach-success-sos">Support Outreach Success (SOS)</a></h3>
+<div class="outline-text-3" id="text-org-element-22">
+<p>
+<a href="https://sos.arizona.edu/about">https://sos.arizona.edu/about</a>
+</p>
+
+<p>
+Students who ask for help are more successful. If you have questions,
+concerns or challenges and are unsure about where to go for answers or
+support you can ask SOS. The SOS staff will answer questions, find you
+resources or connect you with the correct people. Whether you’re
+brand-new to campus or have been around for a while, just reach out to
+SOS for support.
+</p>
+
+<ul class="org-ul">
+<li>Chat: <a href="http://sos.arizona.edu">sos.arizona.edu</a></li>
+<li>Email: <a href="mailto:sos@arizona.edu">sos@arizona.edu</a></li>
+<li>Text: SOS to 70542</li>
+<li>Call: 520-621-2327</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-confidentiality-of-student-records" class="outline-2">
+<h2 id="confidentiality-of-student-records"><a href="#confidentiality-of-student-records">Confidentiality of Student Records</a></h2>
+<div class="outline-text-2" id="text-org-element-23">
+<p>
+<a href="http://www.registrar.arizona.edu/ferpa">http://www.registrar.arizona.edu/ferpa</a>
+</p>
+</div>
+</div>
+<div id="outline-container-safety-on-campus-and-in-the-classroom" class="outline-2">
+<h2 id="safety-on-campus-and-in-the-classroom"><a href="#safety-on-campus-and-in-the-classroom">Safety on Campus and in the Classroom</a></h2>
+<div class="outline-text-2" id="text-org-element-24">
+<p>
+For a list of emergency procedures for all types of incidents, please visit the website of the Critical
+Incident Response Team (CIRT): <a href="https://cirt.arizona.edu/case-emergency/overview">https://cirt.arizona.edu/case-emergency/overview</a>
+</p>
+
+<p>
+Also watch the video available at
+<a href="https://arizona.sabacloud.com/Saba/Web_spf/NA7P1PRD161/common/learningeventdetail/crtfy000000000003560">https://arizona.sabacloud.com/Saba/Web_spf/NA7P1PRD161/common/learningeventdetail/crtfy000000000003560</a>
+</p>
+</div>
+</div>
+<div id="outline-container-subject-to-change-statement" class="outline-2">
+<h2 id="subject-to-change-statement"><a href="#subject-to-change-statement">Subject to change statement</a></h2>
+<div class="outline-text-2" id="text-org-element-25">
+<p>
+The information contained in this syllabus, other than the grade and absence
+policies, may be subject to change with reasonable advance notice, as deemed
+appropriate by the instructor.
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<div class="footer">
+  <hr>
+  <a href="#light-dark-toggle"><i id="light-dark-toggle"><i class="fa-solid fa-circle-half-stroke"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="#"><i class="fa-solid fa-arrow-left" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="#top"><i class="fa-solid fa-arrow-up" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="#"><i class="fa-solid fa-arrow-right" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/mathren/stellar_phys_545"><i class="fa-brands fa-github" style="font-size:16px"></i></a><hr>
+  <br>
+  Last updated on 13 August 2026 <br>
+  Made with Emacs 30.1 - Org mode 9.7.11
+  <br>
+</div>
+</div>
+</body>
+</html>

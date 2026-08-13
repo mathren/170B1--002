@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2026-08-13 Thu 13:47 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ASTR170B1 &#x2013; Section 2</title>
+<meta name="author" content="Mathieu Renzo" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="./css/style.css" />
+<link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.min.css">
+<meta name="keywords" content="Mathieu, Renzo, Mathieu Renzo,
+			       stellar evolution, ASTR170B1, University of
+			       Arizona, Steward Observatory">
+</head>
+<body>
+<div id="preamble" class="status">
+<!-- Preamble -->
+<!-- The header -->
+<div class="header">
+
+  <!-- The site name -->
+  <div class="site-name">
+    <a id="top" href="./index.html">ASTR170B1 - Section 2</a>
+  </div>
+
+  <!-- The hamburger -->
+  <div class="hamburger">
+    <div id="myLinks" class="menu">
+      <a href="./index.html">Home</a>
+      <a href="./syllabus.html">Syllabus</a>
+      <a href="./lectures.html">Lectures</a>
+      <!-- <a href="./projects.html">Projects</a> -->
+    </div>
+    <a  href="javascript:void(0);" class="icon" onclick="HamburgerMenuFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="navbar">
+    <a href="./syllabus.html">Syllabus</a>
+    <a href="./lectures.html">Lectures</a>
+    <!-- <a href="./projects.html">Projects</a> -->
+  </div>
+</div>
+
+<!-- scripts -->
+<!-- menu  -->
+<script>
+  function HamburgerMenuFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+	  x.style.display = "none";
+      } else {
+	  x.style.display = "block";
+      }
+  }
+</script>
+
+<!-- toggle drawers -->
+<script>
+  function toggleDrawer(id) {
+      const drawer = document.getElementById(id);
+      drawer.style.display = drawer.style.display === "none" ? "block" : "none";
+  }
+</script>
+
+<!-- toggle dark mode -->
+<script>
+  window.onload = () => {
+      const toggleButton = document.getElementById("light-dark-toggle");
+      const body = document.body;
+      const html = document.documentElement;
+
+
+      // Check localStorage for user preference
+      if (localStorage.getItem("theme") === "dark") {
+          body.classList.add("dark-mode");
+	  html.classList.toggle("dark-mode");
+      }
+
+      // Toggle theme on click
+      toggleButton.addEventListener("click", () => {
+          body.classList.toggle("dark-mode");
+  html.classList.toggle("dark-mode");
+
+          // Save user preference
+          if (body.classList.contains("dark-mode")) {
+              localStorage.setItem("theme", "dark");
+          } else {
+              localStorage.setItem("theme", "light");
+          }
+      });
+  };
+</script>
+<!-- end scripts-->
+</div>
+<div id="content" class="content">
+<div id="outline-container-astr170b1-section-2-exploring-our-universe" class="outline-2">
+<h2 id="astr170b1-section-2-exploring-our-universe"><a href="#astr170b1-section-2-exploring-our-universe">ASTR170B1 - Section 2: Exploring Our Universe</a></h2>
+<div class="outline-text-2" id="text-org-element-1">
+<p>
+Material developed for a one-semester undergraduate general-education
+course at the Department of Astronomy and Steward Observatory of the
+University of Arizona.
+</p>
+</div>
+<div id="outline-container-disclaimer" class="outline-3">
+<h3 id="disclaimer"><a href="#disclaimer">Disclaimer</a></h3>
+<div class="outline-text-3" id="text-org-element-2">
+<p>
+All the pages of this website are under active construction, may
+contain errors and/or change without notice. If you find an error
+please let me know and feel free to open an issue/PR on <a href="https://github.com/mathren/stellar_phys_545">GitHub</a>.
+</p>
+</div>
+</div>
+<div id="outline-container-how-to-use-this-website" class="outline-3">
+<h3 id="how-to-use-this-website"><a href="#how-to-use-this-website">How to use this website</a></h3>
+<div class="outline-text-3" id="text-org-element-3">
+<p>
+This are my notes for lectures, and are intended to <b>complement</b> (not
+substitute!) <a href="./syllabus170B1.html#org-element-4">other resources</a>.
+</p>
+
+<p>
+On the right, you can access:
+</p>
+<ul class="org-ul">
+<li><a href="./syllabus170B1.html">Syllabus</a>: updated version</li>
+<li><a href="./schedule.html">Lectures</a>: detailed schedule, with link to materials for each lecture</li>
+</ul>
+
+<p>
+At the bottom below, there is a light/dark mode toggle, a link to the
+previous lecture, top of the page, and next lecture, and the link to
+the repository of this website.
+</p>
+</div>
+<div id="outline-container-only-for-students-at-university-of-arizona" class="outline-4">
+<h4 id="only-for-students-at-university-of-arizona"><a href="#only-for-students-at-university-of-arizona">Only for students at University of Arizona</a></h4>
+<div class="outline-text-4" id="text-org-element-5">
+<p>
+Homework assignments and other official communications will be on <a href="https://d2l.arizona.edu/d2l/home/1802755">D2L</a>.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<div class="footer">
+  <hr>
+  <a href="#light-dark-toggle"><i id="light-dark-toggle"><i class="fa-solid fa-circle-half-stroke"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="index.html"><i class="fa-solid fa-arrow-left" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="#top"><i class="fa-solid fa-arrow-up" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="syllabus.html"><i class="fa-solid fa-arrow-right" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/mathren/stellar_phys_545"><i class="fa-brands fa-github" style="font-size:16px"></i></a><hr>
+  <br>
+  Last updated on 13 August 2026 <br>
+  Made with Emacs 30.1 - Org mode 9.7.11
+  <br>
+</div>
+</div>
+</body>
+</html>
