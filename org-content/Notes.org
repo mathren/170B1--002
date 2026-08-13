@@ -1,0 +1,18 @@
+#+title: 170B1
+#+author: Mathieu Renzo
+
+
+This course tells the story of how astronomers explore our Universe.
+You will engage in a variety of activities that illustrate historical
+and contemporary ideas and methods which reveal the mysteries of the
+Cosmos. Astronomy will be placed in a cultural context that allows you
+to reflect on the relevance of science in society today.
+
+
+* Chat with Kate
+#+date: <2026-06-10 Wed>
+
+- [X] submit textbook requirement
+- [X] get pearsons book (email Deena Reynolds: [[mailto:deena.reynolds@pearson.com]])
+- assignemts autograded
+- final assignments and in class lab need manual grading (TA)
