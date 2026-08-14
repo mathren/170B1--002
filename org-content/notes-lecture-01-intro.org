@@ -25,6 +25,10 @@ understand the world.
 - Have a *growth mindset*
 
 
+* Class composition
+
+#+CAPTION: Distribution of students in class as of <2026-08-14 Fri>.
+[[./images/class_distribution.png]]
 
 * How many planets are in the solar system?
 
