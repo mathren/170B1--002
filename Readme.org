@@ -1,0 +1,10 @@
+#+title: Materials for website for ASTR170B1 - Section 02
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+
+[[https://lavinia.as.arizona.edu/~mrenzo/courses/170B1--02/index.html][https://img.shields.io/website-up-down-green-red/http/shields.io.svg]]
+
+
+Material developed for a one-semester undergraduate general-education
+course at the Department of Astronomy and Steward Observatory of the
+University of Arizona.

@@ -44,4 +44,10 @@ Pluto was discovered in 1930 from Lowell observatory in Arizona.
 
 :Question:
 - How much is 10^{4} ?
+- What is 10^{2}\times10^{8}?
+- What is $\sqrt{10^{6}}$?
+
+To review this, do the "Optional Mathematics Review (not for credit)"
+on Mastering Astronomy. The "Introduction to Mastering Astronomy (not
+for credit)" can walk you through using the question system.
 :end:

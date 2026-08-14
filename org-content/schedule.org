@@ -122,15 +122,11 @@ function jumpToNearestDate() {
 - In class quiz
 
 *** <2026-11-02 Mon> - Dead stars and black holes
-
-
 *** <2026-11-04 Wed> - The Milky Way
 
 ** Week 12
 MATERIALS: Chapter 20, 21
 *** <2026-11-09 Mon> - Galaxy evolution
-
-
 *** <2026-11-11 Wed> - *No class: Veteran's day*
 
 ** Week 13
@@ -138,17 +134,13 @@ MATERIALS: Chapter 20, 21
 - DEADLINE: Homework
 - In class quiz
 *** <2026-11-16 Mon> - Hubble's law
-
-
 *** <2026-11-18 Wed> - Active Galaxies
 
 
 ** Week 14
-- DEADLINE: *Signature assignment
-*** <2026-11-23 Mon> - *No lecture: Thanksgiving*
-
-*** <2026-11-25 Wed> - *No lecture: Thanksgiving*
-
+- DEADLINE: Signature assignment
+*** <2026-11-23 Mon> - buffer
+*** <2026-11-25 Wed> - buffer (day before Thanksgiving)
 
 
 ** Week 15
@@ -164,5 +156,5 @@ MATERIALS: Chapter 20, 21
 ** Week 16
 - MATERIALS: Chapter 13, 24
 *** <2026-12-07 Mon> - Exoplanets & Astrobiology
-*** TODO <2026-12-09 Wed> - *Final exam*
+*** <2026-12-09 Wed> - *Final exam*
 - In class exam
