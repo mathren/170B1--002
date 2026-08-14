@@ -2,7 +2,7 @@
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: syllabus170B1.org
-#+NEXT_PAGE: notes-lecture-002-scale.org
+#+NEXT_PAGE: notes-lecture-02-scale.org
 
 [[./syllabus170B1.org][Syllabus]]
 

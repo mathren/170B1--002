@@ -2,7 +2,7 @@
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: schedule.org
-#+NEXT_PAGE: access_howto.org
+#+NEXT_PAGE: notes-lectures-01-intro.org
 
 * How to access course material from D2L
 
