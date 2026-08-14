@@ -1,0 +1,19 @@
+#+title: ASTR 170B1 -- How to
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: schedule.org
+#+NEXT_PAGE: access_howto.org
+
+* How to access course material from D2L
+
+The following steps describe how to access the course material from
+your browser and within D2L. This is known to work best on Firefox or
+Chrome/ium and derivatives (avoid using Safari).
+
+1. Log in to [[https://d2l.arizona.edu/d2l/home/1802755][D2L course website]].
+2. Go to "Content" and on the left, click "Pay One Price and Inclusive Access Materials"
+3. Under it, click "Textbook Access or Opt Out".
+4. On the right now, you should see and click on [[./images/screenshot_access_D2L.png]]
+5. This will open a new tab in your browser, directing you to the
+   course materials, click "Open" on the right.
+6. Finally, click on "Open Mylab & Mastering".

@@ -3,7 +3,7 @@
 #+email: mrenzo@arizona.edu
 #+options: title:nil
 #+PREVIOUS_PAGE: syllabus170B1.org
-#+NEXT_PAGE: schedule.org
+#+NEXT_PAGE: access_howto.org
 #+BEGIN_EXPORT html
 <script>
 function jumpToNearestDate() {
@@ -43,7 +43,7 @@ function jumpToNearestDate() {
 Chapter 1
 *** <2026-08-26 Wed> - Scale of The Universe
 Chapter 1-2
-
+https://www.joshworth.com/dev/pixelspace/pixelspace_solarsystem.html
 ** Week 2
 *** <2026-08-31 Mon> - Celestial motions
 Chapter 1-2
@@ -75,7 +75,6 @@ Chapter 6
 Chapter 7
 
 ** Week 7
-#+Conflict: ITC workshop harvard
 *** <2026-10-05 Mon> - Planet formation
 Chapter 7, 8, 9
 
@@ -99,6 +98,7 @@ Chapter 14
 
 *** <2026-10-28 Wed> - Star Formation and Stellar evolution
 Chapter 15, 16, 17
+
 ** Week 11
 *** <2026-11-02 Mon> - Dead stars and black holes
 Chapter 18

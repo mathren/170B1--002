@@ -4,9 +4,13 @@
 #+PREVIOUS_PAGE: index.org
 #+NEXT_PAGE: schedule.org
 
-
-
 * Description of the course
+
+This course tells the story of how astronomers explore our Universe.
+You will engage in a variety of activities that illustrate historical
+and contemporary ideas and methods which reveal the mysteries of the
+Cosmos. Astronomy will be placed in a cultural context that allows you
+to reflect on the relevance of science in society today.
 
 * Where and when
 Steward Observatory, room N210, Monday-Wednesday 2:00pm-3:15pm
@@ -16,21 +20,70 @@ Steward Observatory, room N210, Monday-Wednesday 2:00pm-3:15pm
 - Office: Steward Observatory N506
 - Email: [[mailto:mrenzo@arizona.edu][mrenzo@arizona.edu]]
 - Office hours: by appointment to be scheduled by email
+
 ** TA Neev Shah
 - Office: Steward Observatory 302
 - Email: [[mailto:neevshah@arizona.edu][neevshah@arizona.edu]]
-- Office hours: Wednesday 1:00pm-2:00pm
+- Office hours: Wednesday 1:00pm-2:00pm or by appointment
 
 *N.B.:* *Office hours are times set aside to help you!* Please come and
 ask any questions you have. My availability is different every week,
 so please reach out to schedule an appointment. Email is the best way
-to get in touch with me, but given my schedule, I may not respond for
-a full business day. Please plan ahead.
+to get in touch with us, but given our schedule, we may not respond
+for a full business day. Please plan ahead.
 
 * Required textbook and resources
 /The Cosmic Perspective/, 10 th edition By Bennett, et al. (Pearson)
-with /Mastering Astronomy/ website accessible through [[https://d2l.arizona.edu/d2l/home/1802755][D2L]].
+with /Mastering Astronomy/ website.
+
+Course materials are being delivered digitally via [[https://d2l.arizona.edu/d2l/home/1802755][D2L]] through the
+“[[https://shop.arizona.edu/payoneprice_student][Pay One Price]]” program. If you are registered for a main campus
+undergraduate course, you are automatically enrolled in Pay One Price
+each semester. *Please access the material through Brightspace on the
+first day of class* to make sure that there are no issues with delivery
+so any problems can be addressed quickly. You can opt out via
+Brightspace to receive a refund by September 6th, 2026. Note that if
+you choose to opt out, you will have to purchase /both/ the textbook and
+Mastering Astronomy to continue in this course – if you are taking a
+full course load, we encourage you to remain opted-in to Pay One
+Price, as it is unlikely that you will be able to purchase all
+materials for all of your courses for less than $275.
+
+Prof. Renzo may also publish his
+notes at
+https://lavinia.as.arizona.edu/~mrenzo/courses/170B1--02/index.html
+(if relevant).
+
 * TODO Expected learning outcomes
+ASTR 170B1 is an "Exploring Perspectives: Natural Scientist course" in
+the *new* University of Arizona General Education program (Tier 1
+Natural Sciences). Upon completion of this course, students will be
+able to:
+- identify the approaches and methodologies of Natural Scientists,
+  using evidence to critically analyze questions and arguments, and
+  consider contributions of this perspective to finding solutions to
+  global and/or local challenges. (Exploring Perspectives: Natural
+  Scientist SLO)
+- demonstrate competency in working with numerical information by
+  critically analyzing quantitative information, generate ideas that
+  are supported by quantitative evidence, assess the relevance of data
+  and its associated implications in a variety of contexts, and
+  communicate those ideas and/or associated interpretations using
+  various formats (graphs, data tables, equations, oral presentations,
+  or written reflections. (Quantitative Reasoning Attribute SLO)
+
+More specifically, upon completion of this course you should be able
+to:
+1. Describe the unique perspective of astronomy
+2. Apply this perspective to understand and evaluate current models of
+   the structure and scale of the Universe
+3. Summarize and evaluate arguments used to explain astronomical
+   phenomena
+4. Understand physical processes at play in our Universe and use this
+   knowledge to draw conclusions from data about astronomical questions
+5. Communicate quantitative ideas in verbal, graphical, and written form
+6. Critically analyze quantitative information to identify
+   inconsistencies.
 
 These learning outcomes will be met through attendance at lectures,
 in-class activities, homework and writing assignments, and a final
@@ -44,6 +97,18 @@ astronomy!
 
 * TODO Exams and grading
 
+|------------------+-----------------------+--------+------------|
+|                  | Number                | Points | % of Total |
+|------------------+-----------------------+--------+------------|
+| Midterm          | 1                     |    100 |            |
+| Final exam       | 1                     |    200 |            |
+| Homework/Labs    | 14 (lowest 2 dropped) |     10 |            |
+| Quizzes          | 13 (lowest 1 dropped) |     10 |            |
+| Participation    | 25 (lowest 4 dropped) |      8 |            |
+| Final assignment | 1                     |    150 |            |
+|------------------+-----------------------+--------+------------|
+
+
 - A: 90-100%
 - B: 80-89%
 - C: 65-79%
@@ -54,7 +119,9 @@ We reserve the right to make the grading slightly easier, but will not
 raise these thresholds. Under no circumstances will anyone doing less
 than 50% work pass this class.
 
-** TODO Assignments
+** TODO Homework & Quizzes
+
+** TODO Labs
 
 ** TODO Signature Assignment
 Using Telescopes to Explore our Universe is the title of your
