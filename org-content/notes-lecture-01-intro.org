@@ -16,7 +16,7 @@ divisions, but with sometimes very large and very small numbers!),
 since this is necessary for science, which is a *quantitative* effort to
 understand the world.
 
--[[file:syllabus170B1.org::*Required textbook and resources][ Required textbook and resources]]
+- [[file:syllabus170B1.org::*Required textbook and resources][Required textbook and resources]]
 - [[file:syllabus170B1.org::*Expected learning outcomes][Expected learning outcomes]]
 
 * Expected behavior
