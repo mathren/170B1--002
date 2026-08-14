@@ -120,9 +120,20 @@ We reserve the right to make the grading slightly easier, but will not
 raise these thresholds. Under no circumstances will anyone doing less
 than 50% work pass this class.
 
-** TODO Homework & Quizzes
+** TODO Homework
+
+*** Quizzes
+Each Thursday, we will start class with a “homework quiz.” One
+question from the assignment due the night before will be administered
+on Top Hat and graded for correctness. Mastering Astronomy allows you
+to view the correct answer after completion, so this should be easy if
+you have actually done (and understood) the homework.
+
 
 ** TODO Labs
+There are two graded in-class labs throughout the semester. A lab makeup will only be
+allowed for an excused absence as defined below; please contact Prof.
+Alexander.
 
 ** TODO Signature Assignment
 Using Telescopes to Explore our Universe is the title of your

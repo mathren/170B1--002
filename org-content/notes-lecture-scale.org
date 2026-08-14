@@ -1,7 +1,7 @@
 #+title: ASTR170 B1 Scale
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
-#+PREVIOUS_PAGE: syllabus170B1.org
+#+PREVIOUS_PAGE: notes-lecture-001-intro.org
 #+NEXT_PAGE:
 
 

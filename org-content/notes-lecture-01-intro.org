@@ -1,0 +1,33 @@
+#+title: ASTR170 B1 Intro
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: syllabus170B1.org
+#+NEXT_PAGE: notes-lecture-002-scale.org
+
+[[./syllabus170B1.org][Syllabus]]
+
+* Introduction to Astronomy
+
+The idea is to introduce the scientific method through an overview of
+astronomy/astrophysics.
+
+There will be some math (not much more than multiplications and
+divisions, but with sometimes very large and very small numbers!),
+since this is necessary for science, which is a *quantitative* effort to
+understand the world.
+
+-[[file:syllabus170B1.org::*Required textbook and resources][ Required textbook and resources]]
+- [[file:syllabus170B1.org::*Expected learning outcomes][Expected learning outcomes]]
+- Expected class behavior
+
+
+
+
+* TODO Ask
+
+- Last math course they took?
+-
+
+:Question:
+- How much is 10^{4} ?
+:end:
