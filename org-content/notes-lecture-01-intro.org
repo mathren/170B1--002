@@ -28,6 +28,7 @@ understand the world.
 * Class composition
 
 #+CAPTION: Distribution of students in class as of <2026-08-14 Fri>.
+#+ATTR_HTML: :width 75%
 [[./images/class_distribution.png]]
 
 * How many planets are in the solar system?
