@@ -111,7 +111,7 @@ problems rather than at the last minute before a deadline. We are here
 to help you understand something about science and the subject of
 astronomy!
 
-* TODO Exams and grading
+* Exams and grading
 
 |---------------+-----------------------+--------+-------+------|
 |               | Number                | Points | Total |    % |
@@ -173,8 +173,7 @@ ePortfolio.If you have extenuating circumstances which cannot be met
 by this policy, please inform the Professor. The final deadline to
 turn in any late work is Saturday, December 12 at 11:59pm.
 
-** TODO Participation
-# buffer lecture doesn't count. 16 weeks x2 -6 (holidays) - 1 buffer = 25
+** Participation
 This is an in-person class and regular attendance is expected.
 *N.B.:* You may miss up to 4 lectures for any reason without affecting
 your participation grade.
