@@ -126,11 +126,8 @@ astronomy!
 | Total         |                       |        |   800 |  100 |
 |---------------+-----------------------+--------+-------+------|
 
-- A: 90-100%
-- B: 80-89%
-- C: 65-79%
-- D: 50-64%
-- E: <50%
+** Letter Grading
+A: 90-100%; B: 80-89%; C: 65-79%; D: 50-64%; E: <50%
 
 We reserve the right to make the grading slightly easier, but will not
 raise these thresholds. Under no circumstances will anyone doing less
