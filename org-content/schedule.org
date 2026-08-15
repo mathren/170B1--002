@@ -51,7 +51,6 @@ function jumpToNearestDate() {
 ** Week 1
 Chapter 1-2
 
-
 *** <2026-08-24 Mon> - Scale of The Universe
 
 [[./notes-lecture-01-intro.org][Notes]]

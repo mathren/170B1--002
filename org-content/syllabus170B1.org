@@ -18,12 +18,12 @@ Steward Observatory, room N210, Monday-Wednesday 2:00pm-3:15pm
 * Instructors
 ** Prof. [[https://lavinia.as.arizona.edu/~mrenzo/index.html][Mathieu Renzo]]
 - Office: Steward Observatory N506
-- Email: [[mailto:mrenzo@arizona.edu][mrenzo@arizona.edu]]
+- Email: [[mailto:mrenzo@arizona.edu][mrenzo@arizona.edu]], please include "170B1" in email subject
 - Office hours: by appointment to be scheduled by email
 
 ** TA Neev Shah
 - Office: Steward Observatory 302
-- Email: [[mailto:neevshah@arizona.edu][neevshah@arizona.edu]]
+- Email: [[mailto:neevshah@arizona.edu][neevshah@arizona.edu]], please include "170B1" in email subject
 - Office hours: Wednesday 1:00pm-2:00pm Steward Observatory library
   (N304) or by appointment
 
@@ -155,14 +155,14 @@ your own work on these assignments.
 
 Grades will be posted on Brightspace as soon as possible after the
 assignment is collected. Any questions, disputes, or mistakes must be
-identified and brought to Neev and/or Prof. Renzo’s attention within 3
-business days of the grade being posted. After that, all grades are
-finalized, although questions are still answered.
+identified and brought to Neev Shah and/or Prof. Renzo’s attention
+within 3 business days of the grade being posted. After that, all
+grades are finalized, although questions are still answered.
 
 You have *one free no questions asked 3-day-late* (72 hours after the
 due date/time) turn in for one homework assignment that can be used by
 you in case of dire need. Note that this CANNOT be used for the
-Signature Assignment. Please inform Neev and Prof. Renzo on the day
+Signature Assignment. Please inform Neev Shah and Prof. Renzo on the day
 the assignment is due to use this late turn in. Sometimes everyone has
 a difficult day. Assignments can be turned in early if desired. Please
 do not provide any details. Otherwise, homework turned in late will be
@@ -303,12 +303,12 @@ the Dean of Students.
 # For more information, including how to report a concern, please see
 # http://policy.arizona.edu/human-resources/nondiscrimination-and-anti-harassment-policy
 
-# ** Accessibility and accommodations
-# At the University of Arizona, we strive to make learning
-# experiences as accessible as possible. If you anticipate or
-# experience barriers based on disability or pregnancy, please
-# contact the Disability Resource Center (520-621-3268,
-# https://drc.arizona.edu/) to establish reasonable accommodations.
+** Accessibility and accommodations
+At the University of Arizona, we strive to make learning
+experiences as accessible as possible. If you anticipate or
+experience barriers based on disability or pregnancy, please
+contact the Disability Resource Center (520-621-3268,
+https://drc.arizona.edu/) to establish reasonable accommodations.
 
 ** Class recordings
 To facilitate everyone's participation, audio and/or video recording
@@ -316,100 +316,36 @@ of in class activities is *not allowed* unless explicitly agreed upon by
 all present students /and/ instructors. In no case sharing on public
 platforms of the recordings will be allowed.
 
-# ** Preferred Name and Pronoun
-# This course affirms people of all gender expressions and gender
-# identities. If you prefer to be called a different name than what is
-# on the class roster, please let me know. Feel free to correct
-# instructors on your preferred gender pronoun.
-
 * Academic Integrity
-Integrity is expected of every student in all academic work. The
-guiding principle of academic integrity is that a student’s submitted
-work must be the student’s own. Students are encouraged to share
-intellectual views and discuss freely the principles and applications
-of course materials. However, *graded work/exercises must be the
-product of your own effort unless otherwise instructed*. Students are
-expected to adhere to the UA Code of Academic Integrity as described
-in the UA General Catalog. See:
-[[https://deanofstudents.arizona.edu/student-rights-responsibilities/academic-integrity]]
 
-Misappropriation of exams before or after they are given will be
-considered academic misconduct. Misconduct of any kind will be
-prosecuted and may result in any or all of the following:
-- Reduction of grade
-- Failing grade
-- Referral to the Dean of Students for consideration of additional
-  penalty, i.e. notation on a student’s transcript re. academic
-  integrity violation, etc. [[http://deanofstudents.arizona.edu/policies‐and‐codes/code‐academic‐integrity]]
+Students are encouraged to share intellectual views and discuss freely
+the principles and applications of course materials. However, graded
+work/exercises must be the product of independent effort unless
+otherwise instructed. /Presentation of any work other than your own is
+considered academic dishonesty/. This includes copying test answers or
+homework assignments, failing to cite external references consulted or
+quoted in assignments, other persons taking exams for you, or
+reference to any unauthorized materials during an exam. All students
+must be prepared to present valid picture identification if requested
+during an exam period.
 
-# * Additional resources for students
-# UA Academic policies and procedures are available at
-# http://catalog.arizona.edu/policies
+The University Libraries have some excellent tips for avoiding
+plagiarism, available at
+https://lib.arizona.edu/research/citing/plagiarism Any other technique
+that gains unfair advantage over other students is also considered
+academically dishonest. Any incidents of academic dishonesty will be
+dealt with according to the University of Arizona's Code of Academic
+Integrity. This Code can be viewed at the Dean of Students website:
+https://deanofstudents.arizona.edu/policies/code-academic-integrity
+The consequences can range from loss of credit on an assignment to
+dismissal from the University, depending on the severity of the
+offense. In our class, the penalty for intentional plagiarism,
+cheating on an exam, or computer fraud will be automatic failure of
+the course and, depending on the circumstances, Prof. Renzomay
+seek your suspension or expulsion from the University.
 
-# ** Campus Health
-# http://www.health.arizona.edu/
-
-# Campus Health provides quality medical and mental health care services
-# through virtual and in-person care.
-
-# - Phone: 520-621-9202
-
-# ** Counseling and Psych Services (CAPS)
-# https://health.arizona.edu/counseling-psych-services
-
-# CAPS provides mental health care, including short-term counseling
-# services.
-
-# - Phone: 520-621-3334
-
-# ** The Dean of Students Office’s Student Assistance Program
-# http://deanofstudents.arizona.edu/student-assistance/students/student-assistance
-
-# Student Assistance helps students manage crises, life traumas, and
-# other barriers that impede success. The staff addresses the needs of
-# students who experience issues related to social adjustment, academic
-# challenges, psychological health, physical health, victimization, and
-# relationship issues, through a variety of interventions, referrals,
-# and follow up services.
-
-# - Email: [[mailto:DOS-deanofstudents@email.arizona.edu][DOS-deanofstudents@email.arizona.edu]]
-# - Phone: 520-621-7057
-
-# ** Survivor Advocacy Program
-# https://survivoradvocacy.arizona.edu/
-
-# The Survivor Advocacy Program provides confidential support and
-# advocacy services to student survivors of sexual and gender-based
-# violence. The Program can also advise students about relevant non-UA
-# resources available within the local community for support.
-
-# - Email: [[mailto:survivoradvocacy@email.arizona.edu][survivoradvocacy@email.arizona.edu]]
-# - Phone: 520-621-5767
-
-# ** Support Outreach Success (SOS)
-# https://sos.arizona.edu/about
-
-# Students who ask for help are more successful. If you have questions,
-# concerns or challenges and are unsure about where to go for answers or
-# support you can ask SOS. The SOS staff will answer questions, find you
-# resources or connect you with the correct people. Whether you’re
-# brand-new to campus or have been around for a while, just reach out to
-# SOS for support.
-
-# - Chat: [[http://sos.arizona.edu][sos.arizona.edu]]
-# - Email: [[mailto:sos@arizona.edu][sos@arizona.edu]]
-# - Text: SOS to 70542
-# - Call: 520-621-2327
-
-# * Confidentiality of Student Records
-# http://www.registrar.arizona.edu/ferpa
-
-# * Safety on Campus and in the Classroom
-# For a list of emergency procedures for all types of incidents, please visit the website of the Critical
-# Incident Response Team (CIRT): https://cirt.arizona.edu/case-emergency/overview
-
-# Also watch the video available at
-# https://arizona.sabacloud.com/Saba/Web_spf/NA7P1PRD161/common/learningeventdetail/crtfy000000000003560
+* Confidentiality of Student Records
+http://www.registrar.arizona.edu/ferpa
 
 * University policies
 All students must familiarize themselves with the policies and resources at
