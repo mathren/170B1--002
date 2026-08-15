@@ -34,10 +34,9 @@ to get in touch with us, but given our schedule, we may not respond
 for a full business day. Please plan ahead.
 
 * Required textbook and resources
-/The Cosmic Perspective/, 10^{th} edition By Bennett, et al. (Pearson)
-with /Mastering Astronomy/ website.
-
-See [[./access_howto.org][detailed instructions on how to access the materials]].
+/The Cosmic Perspective/, 10^{th} edition By Bennett, et al. (Pearson) with
+/Mastering Astronomy/ website. See [[./access_howto.org][detailed instructions on how to
+access the materials]].
 
 # Course materials are being delivered digitally via [[https://d2l.arizona.edu/d2l/home/1802755][D2L]] through the
 # “[[https://shop.arizona.edu/payoneprice_student][Pay One Price]]” program (see [[./access_howto.org][detailed instructions]]). If you are
@@ -198,7 +197,7 @@ for informing Prof. Renzo promptly if this is the case.
   Drops:https://catalog.arizona.edu/policy/class-attendance-and-participation.
   The UA policy regarding absences for any sincerely held religious
   belief, observance or practice will be accommodated where
-  reasonable:
+  reasonable,
   http://policy.arizona.edu/human-resources/religious-accommodation-policy.
 - Absences pre-approved by the UA Dean of Students (or Dean Designee)
   will be honored. See: https://deanofstudents.arizona.edu/absences
@@ -254,9 +253,10 @@ course material. Use of any AI tool during an exam is prohibited.
 and intellectual effort/. When you use generative AI in preparing an
 assignment, you must:
 
-1. Declare its use and describe how you employed it, for example:
-   "I acknowledge the use of <insert AI> to <describe specific use> with the following <link or copy paste prompt>."
-   (see also [[https://libguides.library.arizona.edu/students-chatgpt/citing][the University Libraries Guidelines]])
+1. Declare its use and describe how you employed it, for example: /"I
+   acknowledge the use of/ <insert AI> /t/o <describe specific use>
+   /with the following/ <link or copy paste prompt>." (see also [[https://libguides.library.arizona.edu/students-chatgpt/citing][the
+   University Libraries Guidelines]])
 2. Provide answers, solutions, and interpretations that reflect your
    own reasoning and expertise.
 
