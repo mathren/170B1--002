@@ -24,7 +24,8 @@ Steward Observatory, room N210, Monday-Wednesday 2:00pm-3:15pm
 ** TA Neev Shah
 - Office: Steward Observatory 302
 - Email: [[mailto:neevshah@arizona.edu][neevshah@arizona.edu]]
-- Office hours: Wednesday 1:00pm-2:00pm or by appointment
+- Office hours: Wednesday 1:00pm-2:00pm Steward Observatory library
+  (N304) or by appointment
 
 *N.B.:* *Office hours are times set aside to help you!* Please come and
 ask any questions you have. My availability is different every week,
@@ -36,19 +37,21 @@ for a full business day. Please plan ahead.
 /The Cosmic Perspective/, 10 th edition By Bennett, et al. (Pearson)
 with /Mastering Astronomy/ website.
 
-Course materials are being delivered digitally via [[https://d2l.arizona.edu/d2l/home/1802755][D2L]] through the
-“[[https://shop.arizona.edu/payoneprice_student][Pay One Price]]” program (see [[./access_howto.org][detailed instructions]]). If you are
-registered for a main campus undergraduate course, you are
-automatically enrolled in Pay One Price each semester. *Please access
-the material through Brightspace on the first day of class* to make
-sure that there are no issues with delivery so any problems can be
-addressed quickly. You can opt out via Brightspace to receive a refund
-by September 6th, 2026. Note that if you choose to opt out, you will
-have to purchase /both/ the textbook and Mastering Astronomy to continue
-in this course – if you are taking a full course load, we encourage
-you to remain opted-in to Pay One Price, as it is unlikely that you
-will be able to purchase all materials for all of your courses for
-less than $275.
+See [[./access_howto.org][detailed instructions on how to access the materials]].
+
+# Course materials are being delivered digitally via [[https://d2l.arizona.edu/d2l/home/1802755][D2L]] through the
+# “[[https://shop.arizona.edu/payoneprice_student][Pay One Price]]” program (see [[./access_howto.org][detailed instructions]]). If you are
+# registered for a main campus undergraduate course, you are
+# automatically enrolled in Pay One Price each semester. *Please access
+# the material through Brightspace on the first day of class* to make
+# sure that there are no issues with delivery so any problems can be
+# addressed quickly. You can opt out via Brightspace to receive a refund
+# by September 6th, 2026. Note that if you choose to opt out, you will
+# have to purchase /both/ the textbook and Mastering Astronomy to continue
+# in this course – if you are taking a full course load, we encourage
+# you to remain opted-in to Pay One Price, as it is unlikely that you
+# will be able to purchase all materials for all of your courses for
+# less than $275.
 
 Prof. Renzo may also publish his
 notes at
