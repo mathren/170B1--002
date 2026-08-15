@@ -53,10 +53,9 @@ See [[./access_howto.org][detailed instructions on how to access the materials]]
 # will be able to purchase all materials for all of your courses for
 # less than $275.
 
-Prof. Renzo may also publish his
-notes at
-https://lavinia.as.arizona.edu/~mrenzo/courses/170B1--02/index.html
-(if relevant).
+# Prof. Renzo may also publish his notes at
+# https://lavinia.as.arizona.edu/~mrenzo/courses/170B1--02/index.html
+# (if relevant), whi
 
 * Expected learning outcomes
 ASTR 170B1 is an "Exploring Perspectives: Natural Scientist course" in
@@ -78,22 +77,29 @@ able to:
 
 More specifically, upon completion of this course you should be able
 to:
-1. Describe the unique perspective of astronomy
-2. Apply this perspective to understand and evaluate current models of
-   the structure and scale of the Universe
-3. Summarize and evaluate arguments used to explain astronomical
-   phenomena
-4. Understand physical processes at play in our Universe and use this
-   knowledge to draw conclusions from data about astronomical questions
-5. Communicate quantitative ideas in verbal, graphical, and written form
-6. Critically analyze quantitative information to identify
-   inconsistencies
+1. Practice taking the unique perspectives of the astronomer.
+2. Apply the perspective of the astronomer to understand and evaluate
+   our current concepts of the structure and scale of our Universe.
+3. Demonstrate knowledge of the physical processes (e.g., gravity,
+   nuclear reactions, light) that operate in our Universe and use this
+   knowledge to draw conclusions from data that answer astronomical
+   questions.
+4. Communicate ideas in various ways including verbally, with
+   drawings, diagrams, in writing, and in quantitative formats such as
+   graphs, tables and equations.
+5. Critically analyze astronomical data presented in various
+   quantitative formats to identify inconsistencies, contradictions &
+   inaccuracies.
+6. Collaborate with their peers to analyze, evaluate, and interpret
+   these data.
 7. Summarize and evaluate competing arguments that have been made to
-   explain astronomical phenomena
-8. Discern the meaning of discipline representations and develop
-   discipline fluency
-9. Reflect on the role and importance and contributions of science and
-   astronomy in our society
+   explain astronomical phenomena.
+8. Engage in discourse, develop explanatory models, and make
+   scientific predictions.
+9. Discern the meaning of discipline representations and develop
+   discipline fluency.
+10. Reflect on the role and importance and contributions of science
+    and astronomy in our society
 
 These learning outcomes will be met through attendance at lectures,
 in-class activities, homework and writing assignments, and a final
@@ -131,13 +137,6 @@ class.
 - D: 50-64%
 - E: <50%
 
-*All assignments will be submitted electronically*. Grades will be
-posted on Brightspace as soon as possible after the assignment is
-collected. Any questions, disputes, or mistakes must be identified and
-brought to Neev and/or Prof. Renzo’s attention within 3 business days
-of the grade being posted. After that, all grades are finalized,
-although questions are still answered.
-
 ** Exams
 Midterm and final exam will be in class closed-book/notes exams.
 Nothing may be on your desk aside from your TopHat device during the
@@ -148,7 +147,7 @@ exam to work out any accommodations.
 
 ** Weekly online homework
 On most Tuesdays at 11:59pm an homework assignment will be due (see
-[[./schedule.org][schedule]]).
+[[./schedule.org][schedule]]). *All assignments will be submitted electronically*.
 # Two attempts per questions should be possible.
 Late submissions are allowed until Wednesday 11:59pm, but with 50%
 penalty on the grade for the parts submitted late.
@@ -157,6 +156,67 @@ You should access Mastering Astronomy through Brightspace from the
 Content tab of our course webpage (see [[./access_howto.org][how to]]). You may discuss the
 astronomy concepts with your classmates, but you are expected to do
 your own work on these assignments.
+
+Grades will be posted on Brightspace as soon as possible after the
+assignment is collected. Any questions, disputes, or mistakes must be
+identified and brought to Neev and/or Prof. Renzo’s attention within 3
+business days of the grade being posted. After that, all grades are
+finalized, although questions are still answered.
+
+You have *one free no questions asked 3-day-late* (72 hours after the
+due date/time) turn in for one homework assignment that can be used by
+you in case of dire need. Note that this CANNOT be used for the
+Signature Assignment. Please inform Neev and Prof. Renzo on the day
+the assignment is due to use this late turn in. Sometimes everyone has
+a difficult day. Assignments can be turned in early if desired. Please
+do not provide any details. Otherwise, homework turned in late will be
+graded, with a 50% late penalty. This applies to all Mastering
+Astronomy assignments, Labs, and the Mastering tutorials of the
+Signature Assignment, but NOT the Signature Assignment Digication
+ePortfolio.If you have extenuating circumstances which cannot be met
+by this policy, please inform the Professor. The final deadline to
+turn in any late work is Saturday, December 12 at 11:59pm.
+
+** TODO Participation
+# buffer lecture doesn't count. 16 weeks x2 -6 (holidays) - 1 buffer = 25
+
+This is an in-person class and regular attendance is expected.
+
+*N.B.:* You may miss up to 4 lectures for any reason without affecting
+your participation grade.
+
+Participation will be measured electronically at each lecture using
+the Top Hat app. Top Hat will run on a phone, tablet or laptop. You
+are responsible to bring your device to every class period. In order
+to encourage you to do so, we will give you participation points for
+using your device in class. Students who forget to bring their device
+to class will not receive participation points. You will receive
+points if you have an official excuse from the Dean of Students
+Office, a note from a health care provider, or you are observing a
+religious holiday which is associated with an organized religion to
+which you belong, as outlined in the links below. You are responsible
+for informing Prof. Renzo promptly if this is the case.
+- Participation points will be awarded for completion not correctness.
+  These questions are designed to improve your understanding of the
+  material and lead to a better grade. So be smart, attend class!
+- Students are responsible for all information given out in the
+  lecture, including schedule changes. The UA’s policy concerning
+  Class Attendance, Participation, and Administrative
+  Drops:https://catalog.arizona.edu/policy/class-attendance-and-participation.
+  The UA policy regarding absences for any sincerely held religious
+  belief, observance or practice will be accommodated where
+  reasonable:
+  http://policy.arizona.edu/human-resources/religious-accommodation-policy.
+- Absences pre-approved by the UA Dean of Students (or Dean Designee)
+  will be honored. See: https://deanofstudents.arizona.edu/absences
+- If you feel sick or may have been in contact with someone who is
+  infectious, stay home. Except for seeking medical care, avoid
+  contact with others.
+- Notify your instructors if you will be missing a lecture. If you
+  miss a lab or exam for documented illness or another allowed reason,
+  it is your responsibility to contact Prof. Alexander for a makeup
+  option. *DO THIS EARLY*, do not wait until the end of the semester.
+  All lecture slides will be posted to D2L.
 
 ** TODO Labs
 There are three labs throughout the semester (see [[./schedule.org][schedule]]),
@@ -229,33 +289,33 @@ asked to cease this behavior. Those who continue to disrupt the class
 will be asked to leave lecture or discussion and may be reported to
 the Dean of Students.
 
-The Arizona Board of Regents’ Student Code of Conduct, ABOR Policy
-5‐308, prohibits threats of physical harm to any member of the
-University community, including to one’s self. See:
-[[http://policy.web.arizona.edu/threatening‐behavior‐students]]
+# The Arizona Board of Regents’ Student Code of Conduct, ABOR Policy
+# 5‐308, prohibits threats of physical harm to any member of the
+# University community, including to one’s self. See:
+# [[http://policy.web.arizona.edu/threatening‐behavior‐students]]
 
-Any social media groups generated using university-sponsored tools
-(e.g., D2L class lists, slack workspaces) should be treated as an
-extension of the classroom. This means that they will need to abide by
-the University’s student code of conduct policies, and be respectful,
-inclusive environments.
+# Any social media groups generated using university-sponsored tools
+# (e.g., D2L class lists, slack workspaces) should be treated as an
+# extension of the classroom. This means that they will need to abide by
+# the University’s student code of conduct policies, and be respectful,
+# inclusive environments.
 
-** Nondiscrimination and Anti-harassment Policy
-The University of Arizona is committed to creating and maintaining an
-environment free of discrimination. In support of this commitment, the
-University prohibits discrimination, including harassment and
-retaliation, based on a protected classification, including race,
-color, religion, sex, national origin, age, disability, veteran
-status, sexual orientation, gender identity, or genetic information.
-For more information, including how to report a concern, please see
-http://policy.arizona.edu/human-resources/nondiscrimination-and-anti-harassment-policy
+# ** Nondiscrimination and Anti-harassment Policy
+# The University of Arizona is committed to creating and maintaining an
+# environment free of discrimination. In support of this commitment, the
+# University prohibits discrimination, including harassment and
+# retaliation, based on a protected classification, including race,
+# color, religion, sex, national origin, age, disability, veteran
+# status, sexual orientation, gender identity, or genetic information.
+# For more information, including how to report a concern, please see
+# http://policy.arizona.edu/human-resources/nondiscrimination-and-anti-harassment-policy
 
-** Accessibility and accommodations
-At the University of Arizona, we strive to make learning
-experiences as accessible as possible. If you anticipate or
-experience barriers based on disability or pregnancy, please
-contact the Disability Resource Center (520-621-3268,
-https://drc.arizona.edu/) to establish reasonable accommodations.
+# ** Accessibility and accommodations
+# At the University of Arizona, we strive to make learning
+# experiences as accessible as possible. If you anticipate or
+# experience barriers based on disability or pregnancy, please
+# contact the Disability Resource Center (520-621-3268,
+# https://drc.arizona.edu/) to establish reasonable accommodations.
 
 ** Class recordings
 To facilitate everyone's participation, audio and/or video recording
@@ -263,22 +323,11 @@ of in class activities is *not allowed* unless explicitly agreed upon by
 all present students /and/ instructors. In no case sharing on public
 platforms of the recordings will be allowed.
 
-** Preferred Name and Pronoun
-This course affirms people of all gender expressions and gender
-identities. If you prefer to be called a different name than what is
-on the class roster, please let me know. Feel free to correct
-instructors on your preferred gender pronoun.
-
-* Attendance Policy
-All holidays or special events observed by organized religions will be
-honored for those students who show affiliation with that particular
-religion. Absences pre‐approved by the UA Dean of Students (or Dean's
-designee) will be honored.
-
-It is important to attend all classes, as what is discussed in class
-is pertinent to adequate performance on assignments and exams. If you
-must be absent, it is your responsibility to obtain and review the
-information you missed.
+# ** Preferred Name and Pronoun
+# This course affirms people of all gender expressions and gender
+# identities. If you prefer to be called a different name than what is
+# on the class roster, please let me know. Feel free to correct
+# instructors on your preferred gender pronoun.
 
 * Academic Integrity
 Integrity is expected of every student in all academic work. The
@@ -300,74 +349,78 @@ prosecuted and may result in any or all of the following:
   penalty, i.e. notation on a student’s transcript re. academic
   integrity violation, etc. [[http://deanofstudents.arizona.edu/policies‐and‐codes/code‐academic‐integrity]]
 
-* Additional resources for students
-UA Academic policies and procedures are available at
-http://catalog.arizona.edu/policies
+# * Additional resources for students
+# UA Academic policies and procedures are available at
+# http://catalog.arizona.edu/policies
 
-** Campus Health
-http://www.health.arizona.edu/
+# ** Campus Health
+# http://www.health.arizona.edu/
 
-Campus Health provides quality medical and mental health care services
-through virtual and in-person care.
+# Campus Health provides quality medical and mental health care services
+# through virtual and in-person care.
 
-- Phone: 520-621-9202
+# - Phone: 520-621-9202
 
-** Counseling and Psych Services (CAPS)
-https://health.arizona.edu/counseling-psych-services
+# ** Counseling and Psych Services (CAPS)
+# https://health.arizona.edu/counseling-psych-services
 
-CAPS provides mental health care, including short-term counseling
-services.
+# CAPS provides mental health care, including short-term counseling
+# services.
 
-- Phone: 520-621-3334
+# - Phone: 520-621-3334
 
-** The Dean of Students Office’s Student Assistance Program
-http://deanofstudents.arizona.edu/student-assistance/students/student-assistance
+# ** The Dean of Students Office’s Student Assistance Program
+# http://deanofstudents.arizona.edu/student-assistance/students/student-assistance
 
-Student Assistance helps students manage crises, life traumas, and
-other barriers that impede success. The staff addresses the needs of
-students who experience issues related to social adjustment, academic
-challenges, psychological health, physical health, victimization, and
-relationship issues, through a variety of interventions, referrals,
-and follow up services.
+# Student Assistance helps students manage crises, life traumas, and
+# other barriers that impede success. The staff addresses the needs of
+# students who experience issues related to social adjustment, academic
+# challenges, psychological health, physical health, victimization, and
+# relationship issues, through a variety of interventions, referrals,
+# and follow up services.
 
-- Email: [[mailto:DOS-deanofstudents@email.arizona.edu][DOS-deanofstudents@email.arizona.edu]]
-- Phone: 520-621-7057
+# - Email: [[mailto:DOS-deanofstudents@email.arizona.edu][DOS-deanofstudents@email.arizona.edu]]
+# - Phone: 520-621-7057
 
-** Survivor Advocacy Program
-https://survivoradvocacy.arizona.edu/
+# ** Survivor Advocacy Program
+# https://survivoradvocacy.arizona.edu/
 
-The Survivor Advocacy Program provides confidential support and
-advocacy services to student survivors of sexual and gender-based
-violence. The Program can also advise students about relevant non-UA
-resources available within the local community for support.
+# The Survivor Advocacy Program provides confidential support and
+# advocacy services to student survivors of sexual and gender-based
+# violence. The Program can also advise students about relevant non-UA
+# resources available within the local community for support.
 
-- Email: [[mailto:survivoradvocacy@email.arizona.edu][survivoradvocacy@email.arizona.edu]]
-- Phone: 520-621-5767
+# - Email: [[mailto:survivoradvocacy@email.arizona.edu][survivoradvocacy@email.arizona.edu]]
+# - Phone: 520-621-5767
 
-** Support Outreach Success (SOS)
-https://sos.arizona.edu/about
+# ** Support Outreach Success (SOS)
+# https://sos.arizona.edu/about
 
-Students who ask for help are more successful. If you have questions,
-concerns or challenges and are unsure about where to go for answers or
-support you can ask SOS. The SOS staff will answer questions, find you
-resources or connect you with the correct people. Whether you’re
-brand-new to campus or have been around for a while, just reach out to
-SOS for support.
+# Students who ask for help are more successful. If you have questions,
+# concerns or challenges and are unsure about where to go for answers or
+# support you can ask SOS. The SOS staff will answer questions, find you
+# resources or connect you with the correct people. Whether you’re
+# brand-new to campus or have been around for a while, just reach out to
+# SOS for support.
 
-- Chat: [[http://sos.arizona.edu][sos.arizona.edu]]
-- Email: [[mailto:sos@arizona.edu][sos@arizona.edu]]
-- Text: SOS to 70542
-- Call: 520-621-2327
+# - Chat: [[http://sos.arizona.edu][sos.arizona.edu]]
+# - Email: [[mailto:sos@arizona.edu][sos@arizona.edu]]
+# - Text: SOS to 70542
+# - Call: 520-621-2327
 
-* Confidentiality of Student Records
-http://www.registrar.arizona.edu/ferpa
+# * Confidentiality of Student Records
+# http://www.registrar.arizona.edu/ferpa
 
-* Safety on Campus and in the Classroom
-For a list of emergency procedures for all types of incidents, please visit the website of the Critical
-Incident Response Team (CIRT): https://cirt.arizona.edu/case-emergency/overview
+# * Safety on Campus and in the Classroom
+# For a list of emergency procedures for all types of incidents, please visit the website of the Critical
+# Incident Response Team (CIRT): https://cirt.arizona.edu/case-emergency/overview
 
-Also watch the video available at
-https://arizona.sabacloud.com/Saba/Web_spf/NA7P1PRD161/common/learningeventdetail/crtfy000000000003560
+# Also watch the video available at
+# https://arizona.sabacloud.com/Saba/Web_spf/NA7P1PRD161/common/learningeventdetail/crtfy000000000003560
+
+* University policies
+All students must familiarize themselves with the policies and resources at
+the following link: https://catalog.arizona.edu/syllabus-policies.
 
 * Subject to change statement
 The information contained in this syllabus, other than the grade and absence
