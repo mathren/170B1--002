@@ -52,129 +52,134 @@ function jumpToNearestDate() {
 Chapter 1-2
 
 
-*** <2026-08-24 Mon> Scale of The Universe
+*** <2026-08-24 Mon> - Scale of The Universe
 
 [[./notes-lecture-01-intro.org][Notes]]
 
-*** <2026-08-26 Wed> Celestial motions
+*** <2026-08-26 Wed> - Celestial motions
 
 [[./notes-lecture-scale.org][Notes]]
 
 
 ** Week 2
-Chapter 3, Lab 1, in class quiz
+Chapter 3; Lab 1
 # Assign Homework 1
-*** <2026-08-31 Mon> History of Astronomy
-*** <2026-09-02 Wed> Nature of Science
+*** <2026-08-31 Mon> - History of Astronomy
+*** <2026-09-02 Wed> - Nature of Science
+in class quiz
 
 ** Week 3
-Chapter 4, DEADLINE: Homework, in class quiz
-# Homework 1, Assign Homework 2
+Chapter 4
+# Deadline Homework 1, Assign Homework 2
 
-*** <2026-09-07 Mon> *No lecture: Labor day*
-*** <2026-09-09 Wed> Motion and gravity
-
+*** <2026-09-07 Mon> - *No lecture: Labor day*
+*** <2026-09-09 Wed> - Motion and gravity
+DEADLINE: Homework, in class quiz
 
 ** Week 4
-Chapter 4, 5, DEADLINE: Homework, in class quiz
-# Homework 2, Assign Homework 3
+Chapter 4, 5
+# Deadline Homework 2, Assign Homework 3
 
-*** <2026-09-14 Mon> Motion and Gravity
-*** <2026-09-16 Wed> Light and matter
-
+*** <2026-09-14 Mon> - Motion and Gravity
+*** <2026-09-16 Wed> - Light and matter
+DEADLINE: Homework, in class quiz
 
 ** Week 5
-Chapter 5, 6, Lab 2, DEADLINE: Homework, in class quiz
-# Homework 3, Assign Homework 4
+Chapter 5, 6; Lab 2
+# Deadline Homework 3, Assign Homework 4
 
-*** <2026-09-21 Mon> Light, Matter
-*** <2026-09-23 Wed> Telescopes
-
+*** <2026-09-21 Mon> - Light, Matter
+*** <2026-09-23 Wed> - Telescopes
+DEADLINE: Homework, in class quiz
 
 ** Week 6
-Chapter 7, DEADLINE: Homework, in class quiz
-# Homework 4, Assign Homework 5
+Chapter 7
+# Deadline Homework 4, Assign Homework 5
 
-*** <2026-09-28 Mon> Our Solar System
-*** <2026-09-30 Wed> Midterm
-In class exam
+*** <2026-09-28 Mon> - Our Solar System
+*** <2026-09-30 Wed> - Midterm
+DEADLINE: Homework, In class exam
 
 ** Week 7
-Chapter 8, 9, 10, DEADLINE: Homework, in class quiz
-# Homework 5, Assign Homework 6
+Chapter 8, 9, 10
+# Deadline Homework 5, Assign Homework 6
 
-*** <2026-10-05 Mon> Our Solar System
-*** <2026-10-07 Wed> Planet formation, Terrestrial planets
-
+*** <2026-10-05 Mon> - Our Solar System
+*** <2026-10-07 Wed> - Planet formation, Terrestrial planets
+DEADLINE: Homework, in class quiz
 
 ** Week 8
-Chapter 11, 12, 14, DEADLINE: Homework, in class quiz,
-# Homework 6, Assign Homework 7
+Chapter 11, 12, 14
+# Deadline Homework 6, Assign Homework 7
 
-*** <2026-10-12 Mon> Jovian planets
-*** <2026-10-14 Wed> Asteroids
-
+*** <2026-10-12 Mon> - Jovian planets
+*** <2026-10-14 Wed> - Asteroids
+DEADLINE: Homework, in class quiz
 
 ** Week 9
-Chapter 14, 15, DEADLINE: Homework, in class quiz
-# Homework 7, Assign Homework 8
+Chapter 14, 15
+# Deadline Homework 7, Assign Homework 8
 
-*** <2026-10-19 Mon> Sun
-*** <2026-10-21 Wed> HR diagram
-
+*** <2026-10-19 Mon> - Sun
+*** <2026-10-21 Wed> - HR diagram
+DEADLINE: Homework, in class quiz
 
 ** Week 10
-Chapter 15, 16, 17, 18, DEADLINE: Homework, in class quiz
-# Homework 8, Assign Homework 9
+Chapter 15, 16, 17, 18
+# Deadline Homework 8, Assign Homework 9
 
-*** <2026-10-26 Mon> Star Formation and Stellar evolution
-*** <2026-10-28 Wed> Dead stars and black holes
+*** <2026-10-26 Mon> - Star Formation and Stellar evolution
+*** <2026-10-28 Wed> - Dead stars and black holes
+DEADLINE: Homework, in class quiz
 
 ** Week 11
-Chapter 18, DEADLINE: Homework, in class quiz
-# Homework 9, Assign Homework 10
+Chapter 18
+# Deadline Homework 9, Assign Homework 10
 
-*** <2026-11-02 Mon> Dead stars and black holes
-*** <2026-11-04 Wed> Midterm
-In class exam
+*** <2026-11-02 Mon> - Dead stars and black holes
+*** <2026-11-04 Wed> - Midterm
+DEADLINE: Homework, In class exam
 
 ** Week 12
-Chapter 19, 20, DEADLINE: Homework, in class quiz
-# Homework 10, Assign Homework 11
+Chapter 19, 20
+# Deadline Homework 10, Assign Homework 11
 
-*** <2026-11-09 Mon> The Milty way, Galaxy evolution
-*** <2026-11-11 Wed> *No class: Veteran's day*
+*** <2026-11-09 Mon> - The Milty way, Galaxy evolution
+*** <2026-11-11 Wed> - *No class: Veteran's day*
+DEADLINE: Homework, in class quiz
 
 ** Week 13
-Chapter 21, 22, DEADLINE: Homework, in class quiz
-# Homework 11, Assign Homework 12
+Chapter 21, 22
+# Deadline Homework 11, Assign Homework 12
 
-*** <2026-11-16 Mon> Hubble's law
-*** <2026-11-18 Wed> Active Galaxies
-
+*** <2026-11-16 Mon> - Hubble's law
+*** <2026-11-18 Wed> - Active Galaxies
+DEADLINE: Homework, in class quiz
 
 ** Week 14
-DEADLINE: Homework + Signature assignment, in class quiz
-# Homework 12, assign Homework 13
-*** <2026-11-23 Mon> buffer
-(No attendance)
-*** <2026-11-25 Wed> buffer (day before Thanksgiving)
 
+# Deadline Homework 12, assign Homework 13
+*** <2026-11-23 Mon> - buffer
+(No attendance)
+
+*** <2026-11-25 Wed> - buffer (day before Thanksgiving)
+DEADLINE: Homework + Signature assignment, in class quiz
 
 ** Week 15
-Chapter 22, 23, Lab 3, DEADLINE: Homework, in class quiz
-# Homework 13, Assign Homework 14
+Chapter 22, 23; Lab 3
+# Deadline Homework 13, Assign Homework 14
 
-*** <2026-11-30 Mon> Cosmology
-*** <2026-12-02 Wed> Cosmology
-
+*** <2026-11-30 Mon> - Cosmology
+*** <2026-12-02 Wed> - Cosmology
+DEADLINE: Homework, in class quiz
 
 ** Week 16
-Chapter 13, 24, DEADLINE: Homework, in class quiz
-# Homework 14
+Chapter 13, 24
+# Deadline Homework 14
 
-*** <2026-12-07 Mon> Exoplanets
-*** <2026-12-09 Wed> Astrobiology
+*** <2026-12-07 Mon> - Exoplanets
+*** <2026-12-09 Wed> - Astrobiology
+DEADLINE: Homework, in class quiz
 
-** <2026-12-14 Mon> *Final Exam*
+** <2026-12-14 Mon> - *Final Exam*
 In class exam
