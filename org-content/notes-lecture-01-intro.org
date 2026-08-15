@@ -25,11 +25,15 @@ understand the world.
 - Have a *growth mindset*
 
 
-* Class composition
+* Know thyself
 
 #+CAPTION: Distribution of students in class as of <2026-08-14 Fri>.
 #+ATTR_HTML: :width 75%
 [[./images/class_distribution.png]]
+
+#+CAPTION: Distribution of colleges in class as of <2026-08-14 Fri>
+#+ATTR_HTML: :width 75%
+[[./images/college_distribution_pie.png]]
 
 * How many planets are in the solar system?
 
