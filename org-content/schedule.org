@@ -81,17 +81,17 @@ function jumpToNearestDate() {
 
 ** Week 6
 - MATERIALS: Chapter 7
-- DEADLINE: Homework
-- In class quiz
 *** <2026-09-28 Mon> - Our Solar System
-*** <2026-09-30 Wed> - Our Solar System
-
+*** <2026-09-30 Wed> - Midterm
+In class exam
 
 ** Week 7
-- MATERIALS: Chapter 8, 9,10
-*** <2026-10-05 Mon> - Planet formation, Terrestrial planets
-*** TODO <2026-10-07 Wed> - *Midterm*
-*In class exam*
+- MATERIALS: Chapter 8, 9, 10
+- DEADLINE: Homework
+- In class quiz
+*** <2026-10-05 Mon> - Our Solar System
+*** <2026-10-07 Wed> - Planet formation, Terrestrial planets
+
 
 ** Week 8
 - MATERIALS: Chapter 10, 11, 12
@@ -117,16 +117,17 @@ function jumpToNearestDate() {
 *** <2026-10-28 Wed> - Dead stars and black holes
 
 ** Week 11
-- MATERIALS: Chapter 18, 19, 20
-- DEADLINE: Homework
-- In class quiz
+- MATERIALS: Chapter 18
 
 *** <2026-11-02 Mon> - Dead stars and black holes
-*** <2026-11-04 Wed> - The Milky Way
+*** <2026-11-04 Wed> - Midterm
+In class exam
 
 ** Week 12
-MATERIALS: Chapter 20, 21
-*** <2026-11-09 Mon> - Galaxy evolution
+- MATERIALS: Chapter 19, 20
+- DEADLINE: Homework
+- In class quiz
+*** <2026-11-09 Mon> - The Milty way, Galaxy evolution
 *** <2026-11-11 Wed> - *No class: Veteran's day*
 
 ** Week 13
@@ -140,6 +141,7 @@ MATERIALS: Chapter 20, 21
 ** Week 14
 - DEADLINE: Signature assignment
 *** <2026-11-23 Mon> - buffer
+(No attendance)
 *** <2026-11-25 Wed> - buffer (day before Thanksgiving)
 
 

@@ -55,7 +55,7 @@ notes at
 https://lavinia.as.arizona.edu/~mrenzo/courses/170B1--02/index.html
 (if relevant).
 
-* TODO Expected learning outcomes
+* Expected learning outcomes
 ASTR 170B1 is an "Exploring Perspectives: Natural Scientist course" in
 the *new* University of Arizona General Education program (Tier 1
 Natural Sciences). Upon completion of this course, students will be
@@ -84,7 +84,13 @@ to:
    knowledge to draw conclusions from data about astronomical questions
 5. Communicate quantitative ideas in verbal, graphical, and written form
 6. Critically analyze quantitative information to identify
-   inconsistencies.
+   inconsistencies
+7. Summarize and evaluate competing arguments that have been made to
+   explain astronomical phenomena
+8. Discern the meaning of discipline representations and develop
+   discipline fluency
+9. Reflect on the role and importance and contributions of science and
+   astronomy in our society
 
 These learning outcomes will be met through attendance at lectures,
 in-class activities, homework and writing assignments, and a final
@@ -98,19 +104,23 @@ astronomy!
 
 * TODO Exams and grading
 
-|---------------+-----------------------+--------+-----------|
-|               | Number                | Points | Total (%) |
-|---------------+-----------------------+--------+-----------|
-| Midterm       | 1                     |    150 |       100 |
-| Final exam    | 1                     |    150 |       200 |
-| Homework/Labs | 10 (lowest 2 dropped) |     10 |       100 |
-| Quizzes       | 10 (lowest 1 dropped) |      4 |        40 |
-| Participation | 26 (lowest 4 dropped) |      4 |       104 |
-| Signature Lab | 1                     |    100 |       100 |
-|---------------+-----------------------+--------+-----------|
-| Total         |                       |        |           |
-|---------------+-----------------------+--------+-----------|
+|---------------+-----------------------+--------+-------+-----|
+|               | Number                | Points | Total | %   |
+|---------------+-----------------------+--------+-------+-----|
+| Midterm       | 2                     |    100 |   200 | ~28 |
+| Final exam    | 1                     |    100 |   100 | ~15 |
+| Homework/Labs | 10 (lowest 2 dropped) |     20 |   160 | ~23 |
+| Quizzes       | 10 (lowest 2 dropped) |      5 |    40 | ~6  |
+| Participation | 25 (lowest 5 dropped) |      3 |    60 | ~8  |
+| Signature Lab | 1                     |    140 |   140 | ~20 |
+|---------------+-----------------------+--------+-------+-----|
+| Total         |                       |        |   700 |     |
+|---------------+-----------------------+--------+-------+-----|
 
+(Percentages of the total are rounded). We reserve the right to make
+the grading slightly easier, but will not raise these thresholds.
+Under no circumstances will anyone doing less than 50% work pass this
+class.
 
 - A: 90-100%
 - B: 80-89%
@@ -118,46 +128,50 @@ astronomy!
 - D: 50-64%
 - E: <50%
 
-We reserve the right to make the grading slightly easier, but will not
-raise these thresholds. Under no circumstances will anyone doing less
-than 50% work pass this class.
 
-** TODO Weekly online homework
+All assignments will be submitted electronically. Grades will be
+posted on Brightspace as soon as possible after the assignment is
+collected. Any questions, disputes, or mistakes must be identified and
+brought to Neev and/or Prof. Renzo’s attention within 3 business days of
+the grade being posted. After that, all grades are finalized, although
+questions are still answered.
 
+** Exams
+Midterm and final exam will be in class closed-book/notes exams.
+Nothing may be on your desk aside from your TopHat device during the
+exam. Any attempt to access non-exam materials will result in an
+immediate failure. If you have any accessibility concerns about the
+exam format, please reach out to the DRC and Prof. Alexander prior to
+the exam to work out any accommodations.
+
+** Weekly online homework
 On most Tuesdays at 11:59pm an homework assignment will be due (see
 [[./schedule.org][schedule]]).
 # Two attempts per questions should be possible.
-Late submissions are allowed, but with 50% penalty on the
-grade for the parts submitted late.
+Late submissions are allowed until Wednesday 11:59pm, but with 50%
+penalty on the grade for the parts submitted late.
 
 You should access Mastering Astronomy through Brightspace from the
 Content tab of our course webpage (see [[./access_howto.org][how to]]). You may discuss the
 astronomy concepts with your classmates, but you are expected to do
 your own work on these assignments.
 
-
 ** TODO Labs
-There are three labs throughout the semester, consisting of an
-in-class activity and follow up questions. Each lab worksheet will be
-distributed in class and must be completed, scanned, and turned in
-electronically via Brightspace. A lab makeup will only be allowed for
-an excused absence as defined below; please contact Prof. Renzo.
+There are three labs throughout the semester (see [[./schedule.org][schedule]]),
+consisting of an in-class activity and follow up questions. Each lab
+worksheet will be distributed in class and must be completed, scanned,
+and turned in electronically via Brightspace. A lab makeup will only
+be allowed for an excused absence as defined below; please contact
+Prof. Renzo.
 
-** TODO In-class quizzes
-Each Thursday, we will start class with a “homework quiz.” One
-question from the assignment due the night before will be administered
-on Top Hat and graded for correctness. Mastering Astronomy allows you
-to view the correct answer after completion, so this should be easy if
-you have actually done (and understood) the homework.
-
-
+** In-class quizzes
 Most Wednesdays we are going to start with a "homework quiz". One
 question from the assignment due the night before will be administered
 on Top Hat and graded for correctness. Mastering Astronomy allows you
 to view the correct answer after completion, so this should be easy if
 you have actually done (and understood) the homework.
 
-** TODO Signature Assignment
+** Signature Assignment
 Using Telescopes to Explore our Universe is the title of your
 Signature Assignment. You will use the Steward Observatory 21-Inch
 Telescope, the Seestar S50 telescope/camera, and your smart phone to
