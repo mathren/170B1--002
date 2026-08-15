@@ -34,7 +34,7 @@ to get in touch with us, but given our schedule, we may not respond
 for a full business day. Please plan ahead.
 
 * Required textbook and resources
-/The Cosmic Perspective/, 10 th edition By Bennett, et al. (Pearson)
+/The Cosmic Perspective/, 10^{th} edition By Bennett, et al. (Pearson)
 with /Mastering Astronomy/ website.
 
 See [[./access_howto.org][detailed instructions on how to access the materials]].
