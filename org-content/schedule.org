@@ -37,6 +37,17 @@ function jumpToNearestDate() {
 
 * Exploring Our Universe - Tentative Schedule
 
+#+BEGIN_EXPORT html
+<div style="text-align: center;">
+<button onclick="jumpToNearestDate()" title="Jump to today">
+  <a href="javascript:void(0);" title="Jump to today">
+    <i class="fa-solid fa-calendar-day"> Jump to today </i> <i class="fa-solid fa-calendar-day"></i>
+  </a>
+</button>
+</div>
+#+END_EXPORT
+
+
 ** Week 1
 - MATERIALS: Chapter 1-2
 
