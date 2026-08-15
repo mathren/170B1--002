@@ -113,29 +113,28 @@ astronomy!
 
 * TODO Exams and grading
 
-|---------------+-----------------------+--------+-------+-----|
-|               | Number                | Points | Total | %   |
-|---------------+-----------------------+--------+-------+-----|
-| Midterm       | 2                     |    100 |   200 | ~28 |
-| Final exam    | 1                     |    100 |   100 | ~15 |
-| Homework/Labs | 10 (lowest 2 dropped) |     20 |   160 | ~23 |
-| Quizzes       | 10 (lowest 2 dropped) |      5 |    40 | ~6  |
-| Participation | 25 (lowest 5 dropped) |      3 |    60 | ~8  |
-| Signature Lab | 1                     |    140 |   140 | ~20 |
-|---------------+-----------------------+--------+-------+-----|
-| Total         |                       |        |   700 |     |
-|---------------+-----------------------+--------+-------+-----|
-
-(Percentages of the total are rounded). We reserve the right to make
-the grading slightly easier, but will not raise these thresholds.
-Under no circumstances will anyone doing less than 50% work pass this
-class.
+|---------------+-----------------------+--------+-------+------|
+|               | Number                | Points | Total |    % |
+|---------------+-----------------------+--------+-------+------|
+| Midterms      | 2                     |    100 |   200 |   25 |
+| Final exam    | 1                     |    100 |   100 | 12.5 |
+| Homework/Labs | 14 (lowest 2 dropped) |     20 |   240 |   30 |
+| Quizzes       | 13 (lowest 1 dropped) |      5 |    60 |  7.5 |
+| Participation | 24 (lowest 4 dropped) |      3 |    60 |  7.5 |
+| Signature Lab | 1                     |    140 |   140 | 17.5 |
+|---------------+-----------------------+--------+-------+------|
+| Total         |                       |        |   800 |  100 |
+|---------------+-----------------------+--------+-------+------|
 
 - A: 90-100%
 - B: 80-89%
 - C: 65-79%
 - D: 50-64%
 - E: <50%
+
+We reserve the right to make the grading slightly easier, but will not
+raise these thresholds. Under no circumstances will anyone doing less
+than 50% work pass this class.
 
 ** Exams
 Midterm and final exam will be in class closed-book/notes exams.
@@ -179,16 +178,14 @@ turn in any late work is Saturday, December 12 at 11:59pm.
 
 ** TODO Participation
 # buffer lecture doesn't count. 16 weeks x2 -6 (holidays) - 1 buffer = 25
-
 This is an in-person class and regular attendance is expected.
-
 *N.B.:* You may miss up to 4 lectures for any reason without affecting
 your participation grade.
 
 Participation will be measured electronically at each lecture using
 the Top Hat app. Top Hat will run on a phone, tablet or laptop. You
-are responsible to bring your device to every class period. In order
-to encourage you to do so, we will give you participation points for
+are responsible to bring your device to every class period. To
+encourage you to do so, we will give you participation points for
 using your device in class. Students who forget to bring their device
 to class will not receive participation points. You will receive
 points if you have an official excuse from the Dean of Students
