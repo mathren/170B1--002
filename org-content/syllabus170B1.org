@@ -38,78 +38,6 @@ for a full business day. Please plan ahead.
 /Mastering Astronomy/ website. See [[./access_howto.org][detailed instructions on how to
 access the materials]].
 
-# Course materials are being delivered digitally via [[https://d2l.arizona.edu/d2l/home/1802755][D2L]] through the
-# “[[https://shop.arizona.edu/payoneprice_student][Pay One Price]]” program (see [[./access_howto.org][detailed instructions]]). If you are
-# registered for a main campus undergraduate course, you are
-# automatically enrolled in Pay One Price each semester. *Please access
-# the material through Brightspace on the first day of class* to make
-# sure that there are no issues with delivery so any problems can be
-# addressed quickly. You can opt out via Brightspace to receive a refund
-# by September 6th, 2026. Note that if you choose to opt out, you will
-# have to purchase /both/ the textbook and Mastering Astronomy to continue
-# in this course – if you are taking a full course load, we encourage
-# you to remain opted-in to Pay One Price, as it is unlikely that you
-# will be able to purchase all materials for all of your courses for
-# less than $275.
-
-# Prof. Renzo may also publish his notes at
-# https://lavinia.as.arizona.edu/~mrenzo/courses/170B1--02/index.html
-# (if relevant), whi
-
-* Expected learning outcomes
-ASTR 170B1 is an "Exploring Perspectives: Natural Scientist course" in
-the *new* University of Arizona General Education program (Tier 1
-Natural Sciences). Upon completion of this course, students will be
-able to:
-- identify the approaches and methodologies of Natural Scientists,
-  using evidence to critically analyze questions and arguments, and
-  consider contributions of this perspective to finding solutions to
-  global and/or local challenges. (Exploring Perspectives: Natural
-  Scientist SLO)
-- demonstrate competency in working with numerical information by
-  critically analyzing quantitative information, generate ideas that
-  are supported by quantitative evidence, assess the relevance of data
-  and its associated implications in a variety of contexts, and
-  communicate those ideas and/or associated interpretations using
-  various formats (graphs, data tables, equations, oral presentations,
-  or written reflections. (Quantitative Reasoning Attribute SLO)
-
-More specifically, upon completion of this course you should be able
-to:
-1. Practice taking the unique perspectives of the astronomer.
-2. Apply the perspective of the astronomer to understand and evaluate
-   our current concepts of the structure and scale of our Universe.
-3. Demonstrate knowledge of the physical processes (e.g., gravity,
-   nuclear reactions, light) that operate in our Universe and use this
-   knowledge to draw conclusions from data that answer astronomical
-   questions.
-4. Communicate ideas in various ways including verbally, with
-   drawings, diagrams, in writing, and in quantitative formats such as
-   graphs, tables and equations.
-5. Critically analyze astronomical data presented in various
-   quantitative formats to identify inconsistencies, contradictions &
-   inaccuracies.
-6. Collaborate with their peers to analyze, evaluate, and interpret
-   these data.
-7. Summarize and evaluate competing arguments that have been made to
-   explain astronomical phenomena.
-8. Engage in discourse, develop explanatory models, and make
-   scientific predictions.
-9. Discern the meaning of discipline representations and develop
-   discipline fluency.
-10. Reflect on the role and importance and contributions of science
-    and astronomy in our society
-
-These learning outcomes will be met through attendance at lectures,
-in-class activities, homework and writing assignments, and a final
-project.
-
-*N.B.:* You are encouraged to ask questions in class and to seek help if
-needed. It is to your advantage to seek help when you encounter
-problems rather than at the last minute before a deadline. We are here
-to help you understand something about science and the subject of
-astronomy!
-
 * Exams and grading
 
 |---------------+-----------------------+--------+-------+------|
@@ -210,7 +138,7 @@ for informing Prof. Renzo promptly if this is the case.
   option. *DO THIS EARLY*, do not wait until the end of the semester.
   All lecture slides will be posted to D2L.
 
-** TODO Labs
+** In-class Labs
 There are three labs throughout the semester (see [[./schedule.org][schedule]]),
 consisting of an in-class activity and follow up questions. Each lab
 worksheet will be distributed in class and must be completed, scanned,
@@ -239,6 +167,60 @@ We are offering an Honors section of ASTR 170B1 (Sec 003H) which meets
 on TTh 9:30 – 10:45 a.m. in SO N210. Should you wish to receive Honors
 credit for ASTR 170B1, please drop this course section and enroll in
 Section 003H.
+
+* Expected learning outcomes
+ASTR 170B1 is an "Exploring Perspectives: Natural Scientist course" in
+the *new* University of Arizona General Education program (Tier 1
+Natural Sciences). Upon completion of this course, students will be
+able to:
+- identify the approaches and methodologies of Natural Scientists,
+  using evidence to critically analyze questions and arguments, and
+  consider contributions of this perspective to finding solutions to
+  global and/or local challenges. (Exploring Perspectives: Natural
+  Scientist SLO)
+- demonstrate competency in working with numerical information by
+  critically analyzing quantitative information, generate ideas that
+  are supported by quantitative evidence, assess the relevance of data
+  and its associated implications in a variety of contexts, and
+  communicate those ideas and/or associated interpretations using
+  various formats (graphs, data tables, equations, oral presentations,
+  or written reflections. (Quantitative Reasoning Attribute SLO)
+
+More specifically, upon completion of this course you should be able
+to:
+1. Practice taking the unique perspectives of the astronomer.
+2. Apply the perspective of the astronomer to understand and evaluate
+   our current concepts of the structure and scale of our Universe.
+3. Demonstrate knowledge of the physical processes (e.g., gravity,
+   nuclear reactions, light) that operate in our Universe and use this
+   knowledge to draw conclusions from data that answer astronomical
+   questions.
+4. Communicate ideas in various ways including verbally, with
+   drawings, diagrams, in writing, and in quantitative formats such as
+   graphs, tables and equations.
+5. Critically analyze astronomical data presented in various
+   quantitative formats to identify inconsistencies, contradictions &
+   inaccuracies.
+6. Collaborate with their peers to analyze, evaluate, and interpret
+   these data.
+7. Summarize and evaluate competing arguments that have been made to
+   explain astronomical phenomena.
+8. Engage in discourse, develop explanatory models, and make
+   scientific predictions.
+9. Discern the meaning of discipline representations and develop
+   discipline fluency.
+10. Reflect on the role and importance and contributions of science
+    and astronomy in our society
+
+These learning outcomes will be met through attendance at lectures,
+in-class activities, homework and writing assignments, and a final
+project.
+
+*N.B.:* You are encouraged to ask questions in class and to seek help if
+needed. It is to your advantage to seek help when you encounter
+problems rather than at the last minute before a deadline. We are here
+to help you understand something about science and the subject of
+astronomy!
 
 * Statement on Generative AI
 You are welcome to use generative AI tools as part of your learning
