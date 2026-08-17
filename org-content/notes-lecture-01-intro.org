@@ -32,6 +32,11 @@ observable/experimental data.
 
 [[file:syllabus170B1.org::*Required textbook and resources][Required textbook and resources]]
 
+I will also publish my own notes on this website, but these are by no
+means a /substitute/ for the textbook material (they are, if you will,
+my own reading of the textbook with the additions/spins I may put on
+the content).
+
 ** Expected behavior
 - Be respectful and encourage a welcoming environment for everyone
 - No vaping/smoking, eating
@@ -47,23 +52,42 @@ observable/experimental data.
 [[./images/QR-schedule.png]]
 
 
-** TODO Homework
+** Homework
 Reading (not graded) assigned per lecture, homework based on the
-textbook. Due /each week/ (11 assignments + 3 lab writeups) starting on
-<2026-09-02 Wed>. Late submissions graded with 50% penalty.
+textbook.
+
+Starting from next week, one homework /each week/ (11 assignments + 3
+lab writeups) starting on <2026-09-02 Wed>. Late submissions graded
+with 50% penalty.
 
 ** TODO Labs
 
-** TODO Mid terms
+** Mid terms
+There will be two mid-terms, in class closed-book/notes, on
+<2026-09-30 Wed> and <2026-09-30 Wed>.
 
 ** TODO Signature assignment
 
-
-** TODO Final exam
-Comprehensive of all topics covered in the course.
+** Final exam
+Comprehensive of all topics covered in the course, held on
+<2026-12-14 Mon> at the usual class time (2pm).
 
 ** Participation
+Starting from next lecture, attendance will be logged with a top hat
+code to be given in class each time. You have up to 4 absence
+unjustified (no question asked, attendance grade dropped).
 
+/Presence, and preferably, active participation is expected/: by
+interacting we can all learn more and better! Learning is an active
+process, it requires engaging with the materials, asking questions,
+being puzzled and confused, and resolving this confusion. The
+questions of others can open up more directions to develop into and
+are relevant.
+
+During lessons I will try to cover the material in the text book with
+additions/adaptations, but I will not try to read the book for you:
+you are /expected/ to do your own reading to be able to perform well in
+homework and exams, and ultimately in this class.
 
 * Know thyself
 
