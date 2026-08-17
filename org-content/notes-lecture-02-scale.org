@@ -85,9 +85,7 @@ as seen from Earth, or in other words, the plane of the orbit of the
 Earth around the Sun.
 
 
-
-
-** Angular distances
+** Angular distances and size
 Because stars are at different distances along the radial direction of
 the celestial sphere, it is hard to tell their distance in 3D. But in
 projection on the celestial sphere, we can tell the angle between
@@ -110,6 +108,17 @@ moves about \sim 180/ 12 = 15 degrees/hour. When the Sun is about 3 fists
 height above the horizon, there is still about one hour before it sets
 (adjustments due to local topography, e.g., presence of a mountain,
 time of the year and latitude are needed to be precise).
+
+We can also define the angular size: a disk of radius $D$ at a
+distance $s$ will have an angular size of $\theta = D\frac{\mathrm{360
+degrees}}{2\pi * s}$. If the angular size of an object is smaller than
+the smallest angle we can measure, typically the diffraction limit,
+then it will appear to us like a point-source.
+
+This is true for all stars but the Sun as seen by the naked eye
+(because despite their large radii, recall $D\sim R_{\odot}\sim 10^{10}$ cm, their
+distances are even larger, $s\sim$ 1-10^{4} ly = 1-10^{4}\times 10^{18} cm) .
+
 
 ** Constellations
 We have already referred indirectly to the concept of a
@@ -209,6 +218,11 @@ It is often misunderstood to be an effect of the small deformation
 it closer/farther, but that is /incorrect/. If it were so, there would
 not be an anti-synchrony between Northern and Southern emisphere.
 
+In fact this year, Earth has reached aphelion - the farthest point
+from the sun in its elliptical orbit - on July 6, 2026, at 17:31 UTC
+(1:31 p.m. EDT). Meaning it was closer to the Sun during Tucson's
+winter than during the summer!
+
 The correct reason is *because of the inclination of Earth's rotation
 axis with respect to the ecliptic plane*.
 
@@ -228,19 +242,115 @@ different angle and for a different amount of time.
 #+CAPTION: The apparent height of the Sun at a given time in the day depends on the time of the year, because the rotation axis of Earth always points in the same direction from each side of its orbit.
 [[file:images/equinoxes.png]]
 
-The change in daily energy input from the Sun causes the atmosphere
-and Earth below it to be "forced" differently, creating different
-climate conditions along the year.
 
 #+CAPTION: Depending on the angle between the Sun and the surface of the Earth, only a fraction of the energy can be harvested by the Earth. Specifically, the cosine of the inclination angle enters in the calculation of the energy flux (amount of energy incoming per unit surface area and time).
 [[file:images/sun_irradiance.png]]
 
+The change in daily energy input  from the Sun (due to inclination) and duration of
+such input (due to the length of the path on the sky) causes the atmosphere
+and Earth below it to be "forced" differently, creating different
+climate conditions along the year.
 
 
 * Phases of the moon
 
+
+
 ** Eclipses
 
-*** Angular size
+The apparent angular size of Moon and Sun is the same, this is a
+cosmic coincidence. Eclipses on other planets can be impossible (no
+Moon, misaligned moon orbit), only anular (smaller angular diameter
+of Moon cf. Sun) or partial.
+
+
+*** Lunar
+The moon is hidden in the shade of the Sun:
+
+Moon ---- Earth ----------------- Sun
+
+*** Solar
+The Sun is hidden in the shade of the Moon:
+
+Earth ---- Moon ----------------- Sun
+
+
+
+*** Why not every month?
+
+#+CAPTION: The orbital plane of the Earth around the Sun is in blue, the orbital plane of the Moon around the Earth is inclined w.r.t. to it, meaning we don't get one eclipse per month.
+[[file:images/phases_eclipses.png]]
+
+
 
 * The puzzle of planet motion
+
+** What is a planet?
+The word comes from greek "wanderer" because their motion on the
+celestial sphere as observed through the years from Earth seems
+irregular, relative to background stars.
+
+
+#+CAPTION: example of retrograde portion of the orbit of Mars, each picture taken at 5-9 days of interval at the same time. Note the planet is brighter at the bottom of the loop, when it is closest to Earth!
+[[file:images/mars_retrograde.png]]
+
+
+In fact, planets exibit /retrograde/ periods of motion, where instead of
+going East-to-west, they appear to move in the opposite side. This
+always posed a challenge for cosmological models putting the Earth at
+the center of the Universe and everything rotating around it -- this
+is why epicycles and other modifications to geocentric theories were
+always needed to reconcile them with the observations of planets.
+
+*N.B.:* This is the motion as the year progresses, that is as the
+planets move around the Sun. Their nightly motion apparent due to
+Earths' rotation is always rising at the East and Setting at the west.
+
+***  A faster way to find planets
+To use this to identify a planet, one needs several nights of
+observations. However, planets have also another visible feature that
+one can discern quickly by naked eye: /unlike stars, planets don't
+twinkle/.
+
+The reason is that while planets are smaller (recall for the Earth $R\sim
+6000$ km) than stars, they are also much closer (distances on the
+scale 1-10 au, instead of 1-1000 light years). This means their
+*apparent size* (see above) is larger. To our eyes, a planet appears as
+a marginally extended source (if your eyes were digital cameras,
+imagine they would be 4 pixels instead of 1), unlike stars that are
+true point-like sources (size less than a pixel).
+
+When the light (from the Sun bouncing off a planet, or another star)
+crosses the atmosphere, it will interact with the gas in Earth's
+atmosphere. This has a finite temperature (meaning each molecule of
+gas moves around a bit) and constant small turbulent motion. If the
+light only goes through one patch of the atmosphere moving coherently,
+as the patch changes, the light changes, causing the /twinkling/ of the
+stars. But for a planet, it doesn't go through one patch only, but a
+little bundle of patches. The "wiggling" of the air in the atmosphere
+in front of a planet averages to zero and the planet doesn't twinkle.
+You can test this tonight!
+
+#+CAPTION: Alignment of 5 naked-eye visible planets from New Jersey
+[[file:images/planets.png]]
+
+** An heliocentric perspective on retrograde planet motion
+Several people had proposed heliocentric models of the cosmos
+throughout history, and it was known it would simplify explaining the
+motion of planets. However, accepting an anomaly for a handful of
+astronomical object seemed like a good cognitive trade off compared to
+other problems heliocentric models produced at the time (see below).
+
+In a heliocentric perspective, the planets (including Earth) go around
+the Sun, and the inner planets orbit faster than the outer ones (this
+is one of Kepler's laws). Whenever a planet *inside* the orbit of
+another (e.g., the Earth's orbit inside Mars'), it will take over, and
+at the moment it takes over, relative to the inner planet, the outer
+will appear to move backwards.
+
+
+#+CAPTION: Heliocentric explanation of the retrograde apparent motion of planets.
+[[file:images/planet_take_over.png]]
+
+** Why hold on to a geocentric perspective until the 1600s?
+Parallax!

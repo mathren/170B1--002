@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-08-17 Mon 12:05 -->
+<!-- 2026-08-17 Mon 12:43 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Scale &amp; motion</title>
@@ -12,6 +12,38 @@
 <meta name="keywords" content="Mathieu, Renzo, Mathieu Renzo,
 			       stellar evolution, ASTR170B1, University of
 			       Arizona, Steward Observatory">
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 </head>
 <body>
 <div id="preamble" class="status">
@@ -226,8 +258,8 @@ Earth around the Sun.
 </p>
 </div>
 </div>
-<div id="outline-container-angular-distances" class="outline-3">
-<h3 id="angular-distances"><a href="#angular-distances">Angular distances</a></h3>
+<div id="outline-container-angular-distances-and-size" class="outline-3">
+<h3 id="angular-distances-and-size"><a href="#angular-distances-and-size">Angular distances and size</a></h3>
 <div class="outline-text-3" id="text-org-element-9">
 <p>
 Because stars are at different distances along the radial direction of
@@ -260,6 +292,20 @@ moves about &sim; 180/ 12 = 15 degrees/hour. When the Sun is about 3 fists
 height above the horizon, there is still about one hour before it sets
 (adjustments due to local topography, e.g., presence of a mountain,
 time of the year and latitude are needed to be precise).
+</p>
+
+<p>
+We can also define the angular size: a disk of radius \(D\) at a
+distance \(s\) will have an angular size of \(\theta = D\frac{\mathrm{360
+degrees}}{2\pi * s}\). If the angular size of an object is smaller than
+the smallest angle we can measure, typically the diffraction limit,
+then it will appear to us like a point-source.
+</p>
+
+<p>
+This is true for all stars but the Sun as seen by the naked eye
+(because despite their large radii, recall \(D\sim R_{☉}\sim 10^{10}\) cm, their
+distances are even larger, \(s\sim\) 1-10<sup>4</sup> ly = 1-10<sup>4</sup>&times; 10<sup>18</sup> cm) .
 </p>
 </div>
 </div>
@@ -413,6 +459,13 @@ not be an anti-synchrony between Northern and Southern emisphere.
 </p>
 
 <p>
+In fact this year, Earth has reached aphelion - the farthest point
+from the sun in its elliptical orbit - on July 6, 2026, at 17:31 UTC
+(1:31 p.m. EDT). Meaning it was closer to the Sun during Tucson's
+winter than during the summer!
+</p>
+
+<p>
 The correct reason is <b>because of the inclination of Earth's rotation
 axis with respect to the ecliptic plane</b>.
 </p>
@@ -443,11 +496,6 @@ different angle and for a different amount of time.
 <figcaption><span class="figure-number">Figure 10: </span>The apparent height of the Sun at a given time in the day depends on the time of the year, because the rotation axis of Earth always points in the same direction from each side of its orbit.</figcaption>
 </figure>
 
-<p>
-The change in daily energy input from the Sun causes the atmosphere
-and Earth below it to be "forced" differently, creating different
-climate conditions along the year.
-</p>
 
 
 <figure id="org-element-19">
@@ -455,6 +503,13 @@ climate conditions along the year.
 
 <figcaption><span class="figure-number">Figure 11: </span>Depending on the angle between the Sun and the surface of the Earth, only a fraction of the energy can be harvested by the Earth. Specifically, the cosine of the inclination angle enters in the calculation of the energy flux (amount of energy incoming per unit surface area and time).</figcaption>
 </figure>
+
+<p>
+The change in daily energy input  from the Sun (due to inclination) and duration of
+such input (due to the length of the path on the sky) causes the atmosphere
+and Earth below it to be "forced" differently, creating different
+climate conditions along the year.
+</p>
 </div>
 </div>
 <div id="outline-container-phases-of-the-moon" class="outline-2">
@@ -463,15 +518,167 @@ climate conditions along the year.
 </div>
 <div id="outline-container-eclipses" class="outline-3">
 <h3 id="eclipses"><a href="#eclipses">Eclipses</a></h3>
-<div class="outline-text-3" id="text-eclipses">
+<div class="outline-text-3" id="text-org-element-20">
+<p>
+The apparent angular size of Moon and Sun is the same, this is a
+cosmic coincidence. Eclipses on other planets can be impossible (no
+Moon, misaligned moon orbit), only anular (smaller angular diameter
+of Moon cf. Sun) or partial.
+</p>
 </div>
-<div id="outline-container-angular-size" class="outline-4">
-<h4 id="angular-size"><a href="#angular-size">Angular size</a></h4>
+<div id="outline-container-lunar" class="outline-4">
+<h4 id="lunar"><a href="#lunar">Lunar</a></h4>
+<div class="outline-text-4" id="text-org-element-21">
+<p>
+The moon is hidden in the shade of the Sun:
+</p>
+
+<p>
+Moon -&#x2014; Earth ------------&#x2013;&#x2014; Sun
+</p>
+</div>
+</div>
+<div id="outline-container-solar" class="outline-4">
+<h4 id="solar"><a href="#solar">Solar</a></h4>
+<div class="outline-text-4" id="text-org-element-22">
+<p>
+The Sun is hidden in the shade of the Moon:
+</p>
+
+<p>
+Earth -&#x2014; Moon ------------&#x2013;&#x2014; Sun
+</p>
+</div>
+</div>
+<div id="outline-container-why-not-every-month" class="outline-4">
+<h4 id="why-not-every-month"><a href="#why-not-every-month">Why not every month?</a></h4>
+<div class="outline-text-4" id="text-org-element-23">
+
+<figure id="org-element-24">
+<img src="images/phases_eclipses.png" alt="phases_eclipses.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 12: </span>The orbital plane of the Earth around the Sun is in blue, the orbital plane of the Moon around the Earth is inclined w.r.t. to it, meaning we don't get one eclipse per month.</figcaption>
+</figure>
+</div>
 </div>
 </div>
 </div>
 <div id="outline-container-the-puzzle-of-planet-motion" class="outline-2">
 <h2 id="the-puzzle-of-planet-motion"><a href="#the-puzzle-of-planet-motion">The puzzle of planet motion</a></h2>
+<div class="outline-text-2" id="text-the-puzzle-of-planet-motion">
+</div>
+<div id="outline-container-what-is-a-planet" class="outline-3">
+<h3 id="what-is-a-planet"><a href="#what-is-a-planet">What is a planet?</a></h3>
+<div class="outline-text-3" id="text-org-element-25">
+<p>
+The word comes from greek "wanderer" because their motion on the
+celestial sphere as observed through the years from Earth seems
+irregular, relative to background stars.
+</p>
+
+
+
+<figure id="org-element-26">
+<img src="images/mars_retrograde.png" alt="mars_retrograde.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 13: </span>example of retrograde portion of the orbit of Mars, each picture taken at 5-9 days of interval at the same time. Note the planet is brighter at the bottom of the loop, when it is closest to Earth!</figcaption>
+</figure>
+
+
+<p>
+In fact, planets exibit <i>retrograde</i> periods of motion, where instead of
+going East-to-west, they appear to move in the opposite side. This
+always posed a challenge for cosmological models putting the Earth at
+the center of the Universe and everything rotating around it &#x2013; this
+is why epicycles and other modifications to geocentric theories were
+always needed to reconcile them with the observations of planets.
+</p>
+
+<p>
+<b>N.B.:</b> This is the motion as the year progresses, that is as the
+planets move around the Sun. Their nightly motion apparent due to
+Earths' rotation is always rising at the East and Setting at the west.
+</p>
+</div>
+<div id="outline-container-a-faster-way-to-find-planets" class="outline-4">
+<h4 id="a-faster-way-to-find-planets"><a href="#a-faster-way-to-find-planets">A faster way to find planets</a></h4>
+<div class="outline-text-4" id="text-org-element-27">
+<p>
+To use this to identify a planet, one needs several nights of
+observations. However, planets have also another visible feature that
+one can discern quickly by naked eye: <i>unlike stars, planets don't
+twinkle</i>.
+</p>
+
+<p>
+The reason is that while planets are smaller (recall for the Earth \(R\sim
+6000\) km) than stars, they are also much closer (distances on the
+scale 1-10 au, instead of 1-1000 light years). This means their
+<b>apparent size</b> (see above) is larger. To our eyes, a planet appears as
+a marginally extended source (if your eyes were digital cameras,
+imagine they would be 4 pixels instead of 1), unlike stars that are
+true point-like sources (size less than a pixel).
+</p>
+
+<p>
+When the light (from the Sun bouncing off a planet, or another star)
+crosses the atmosphere, it will interact with the gas in Earth's
+atmosphere. This has a finite temperature (meaning each molecule of
+gas moves around a bit) and constant small turbulent motion. If the
+light only goes through one patch of the atmosphere moving coherently,
+as the patch changes, the light changes, causing the <i>twinkling</i> of the
+stars. But for a planet, it doesn't go through one patch only, but a
+little bundle of patches. The "wiggling" of the air in the atmosphere
+in front of a planet averages to zero and the planet doesn't twinkle.
+You can test this tonight!
+</p>
+
+
+<figure id="org-element-28">
+<img src="images/planets.png" alt="planets.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 14: </span>Alignment of 5 naked-eye visible planets from New Jersey</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div id="outline-container-an-heliocentric-perspective-on-retrograde-planet-motion" class="outline-3">
+<h3 id="an-heliocentric-perspective-on-retrograde-planet-motion"><a href="#an-heliocentric-perspective-on-retrograde-planet-motion">An heliocentric perspective on retrograde planet motion</a></h3>
+<div class="outline-text-3" id="text-org-element-29">
+<p>
+Several people had proposed heliocentric models of the cosmos
+throughout history, and it was known it would simplify explaining the
+motion of planets. However, accepting an anomaly for a handful of
+astronomical object seemed like a good cognitive trade off compared to
+other problems heliocentric models produced at the time (see below).
+</p>
+
+<p>
+In a heliocentric perspective, the planets (including Earth) go around
+the Sun, and the inner planets orbit faster than the outer ones (this
+is one of Kepler's laws). Whenever a planet <b>inside</b> the orbit of
+another (e.g., the Earth's orbit inside Mars'), it will take over, and
+at the moment it takes over, relative to the inner planet, the outer
+will appear to move backwards.
+</p>
+
+
+
+<figure id="org-element-30">
+<img src="images/planet_take_over.png" alt="planet_take_over.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 15: </span>Heliocentric explanation of the retrograde apparent motion of planets.</figcaption>
+</figure>
+</div>
+</div>
+<div id="outline-container-why-hold-on-to-a-geocentric-perspective-until-the-1600s" class="outline-3">
+<h3 id="why-hold-on-to-a-geocentric-perspective-until-the-1600s"><a href="#why-hold-on-to-a-geocentric-perspective-until-the-1600s">Why hold on to a geocentric perspective until the 1600s?</a></h3>
+<div class="outline-text-3" id="text-org-element-31">
+<p>
+Parallax!
+</p>
+</div>
+</div>
 </div>
 </div>
 <div id="postamble" class="status">
