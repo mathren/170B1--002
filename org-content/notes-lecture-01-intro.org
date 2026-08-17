@@ -266,7 +266,18 @@ southern Emisphere).
 
 The immediate solar neighborhood is relatively low density in stars
 compared to the Galactic center: stellar "crowding" decreases with
-distance to the Galactic center.
+distance to the Galactic center. This is located in the Southern
+Emisphere.
+
+When you see the "stream of stars" in a very dark night sky, you are
+seeing one of the arms of the Milky way, a grand-spiral galaxy, from
+within:
+
+#+CAPTION: Arm of the milky way above Saguaro national park.
+#+ATTR_HTML: :width 100%
+[[./images/saguaro.jpg]]
+
+
 
 *** Order of magnitude estimate: how many stars in the Milky way?
 The order of magnitude is the power of 10 corresponding to a number,
@@ -274,14 +285,18 @@ which allows to round up/down to the nearest decade for approximate
 calculations.
 
 Examples:
-- order 1
+- order 1 (numbers between say \sim0.7-9)
 - order 2 = 10^{2} = 100s (hundreds)
 - order 3 = 10^{3} = 1000s, k (thousands)
 - order 4 = 10^{4} = 10 000s, 10k (tens of thousands)
-- etc...
+- ...
+- order 33 = 10^{33} = 1+{33 zeros}
+- ...
+- order -2 = 10^{-2} = 0.01
+- order -4 = 10^{-4} = 0.0001
 
 Often in astrophysics one can find numbers that are hard to imagine
-(e.g., 10^{51}).
+(e.g., 10^{33}, 10^{51}).
 
 The size of the Milkyway is $R\sim$10000pc=10 kpc=10^{4} pc, so it has a
 volume $V\sim R^{3} \sim (10^{4})^{3}=10^{12}$ pc^{3}. Consider the distance from the Sun
@@ -454,5 +469,5 @@ The universe however doesn't expand /into/ something (no oven to its
 cake!), in this sense it is an "edgeless" infinite cake.
 
 #+CAPTION: Raisin cake analogy for the Hubble flow. The analogy breaks down because there is no external oven for the Universe to grow /into/ filling a "pre-existing" space.
-#+ATTR_HTML: :width 50%
+#+ATTR_HTML: :width 75%
 [[file:images/raisin_cake.png]]

@@ -1,10 +1,14 @@
 #+title: ASTR170 B1 Scale
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
-#+PREVIOUS_PAGE: notes-lecture-001-intro.org
-#+NEXT_PAGE:
+#+PREVIOUS_PAGE: notes-lecture-01-intro.org
+#+NEXT_PAGE: notes-lecture-03-.org
 
+*Reading:* Chapter 2
+:Recap-Question:
+- What motion of the Earth defines the north and south pole?
+:end:
 
-* Scale of the Universe
-
-https://www.joshworth.com/dev/pixelspace/pixelspace_solarsystem.html
+- Celestial sphere
+- Constellation
+- north pole
