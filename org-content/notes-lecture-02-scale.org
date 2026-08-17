@@ -21,12 +21,77 @@ where we are:
 - What motion of the Earth defines the north and south pole?
 :end:
 
-- Celestial sphere
-- Constellation
-- north pole
-- angular distances
+* Naked eye observations
 
+Every night, you can see in a long-exposure image, the apparent motion
+due to the Earth rotation:
 
+#+CAPTION: Long exposure picture showing circular tracks along the north direction. These are just the reflected motion due to the rotation of the Earth. Note the stars have different colors! Credits: G. Inchingolo.
+#+ATTR_HTML: :width 100%
+[[./images/night_rotation.jpg]]
+
+The star around which every other star seems to turn around is
+Polaris, the north star. It actually only coincidentally is close to
+the direction pointed at by Earth's rotation rate! This star is not
+even particularly bright, but identifying it helps finding the
+direction of North, which is useful for navigation.
+
+It can be found identifying this /asterism/ (which is a "piece of a
+constellation") in the sky
+
+#+CAPTION: Big dipper asterism, the last two stars define a visual "pointer": going in that direction for about \sim 5\times the angular distance between the two stars one finds the North star.
+#+ATTR_HTML: :width 100%
+[[./images/big_dipper.png]]
+[[./images/big_dipper_north.png]]
+
+This constellation was also used as a "test" to see if your eyesight
+was sufficiently good to be an astronomer in hellenistic times
+(pre-telescopes!). The test was to /find among the 7 stars which is a
+visual binary/, i.e., two separate distinguishable sources.
+
+You can try to do this tonight -- it should be possible only with
+perfect vision.
+
+:Answer:
+The second star in the handle is actually two stars, Mizar and Alcor
+(the latter from the Arabic meaning "hard one to see"). Nowadays, with
+telescopes we see that Mizar is actually a "binary of binaries", i.e.
+four stars organized as two orbiting pairs, in turn orbiting each
+other, and Alcor may be a triple. This puts up to 7 individual stars
+in what most see only as one dot of light.
+
+#+CAPTION: Mizar and Alcor.
+#+ATTR_HTML: :width 100%
+[[./images/mizar_alcor_complete.png]]
+:end:
+
+** Celestial sphere
  [[https://stellarium-web.org/][stellarium web]]
 
-*
+- projection
+- motion of the Sun
+
+** Constellations
+We have already referred indirectly to the concept of a
+"constellation". Many different cultures have created narratives about
+figures apparently drawn in the sky by stars projected on the
+celestial sphere. These have been useful story-telling devices, and
+mnemonic tools, but the figures they are based on are just apparent
+and temporary.
+
+In fact brighter sources can be seen farther, and in 3D, members of
+the same constellation may be extremely far from each other! Moreover,
+stars in the Galaxy move around (orbiting the galaxy and because of
+their local peculiar velocity), with speeds that depend on their
+position. Given enough time (the relevant scale is 100s of millions of
+years, short compared to the age of the Sun!), the drawings will
+stretch, deform and disappear.
+
+Moreover, our own point of view drifts in time: the Sun and solar
+system move. But while this takes millions of years, there are other
+smaller motion that happen faster that influence how the sky appears
+to us. The Earth's rotation "wobbles" (precess) with a period of 10s
+of thousands of years: what was at certain celestial coordinates 2000
+years ago is not the same as today! The orbit of the Earth around the
+Sun also "wobbles", changing the plane of the ecliptic (i.e., the
+plane of the apparent motion of the Sun on the celestial sphere).

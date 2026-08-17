@@ -381,13 +381,6 @@ planet's surface *defines* the North and South poles
 #+ATTR_HTML: width :100%
 [[file:images/Rotation.png]]
 
-Every night, you can see in a long-exposure image, the apparent motion
-due to the Earth rotation:
-
-#+CAPTION: Long exposure picture showing circular tracks along the north direction. These are just the reflected motion due to the rotation of the Earth. Note the stars have different colors! Credits: G. Inchingolo.
-#+ATTR_HTML: :width 100%
-[[./images/night_rotation.jpg]]
-
 
 ** Earth's revolution around the Sun \rightarrow year
 During the year, the Earth orbits the Sun along an elliptical orbit
