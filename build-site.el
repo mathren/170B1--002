@@ -200,7 +200,8 @@ All other random IDs (figures, latex blocks, etc.) get a counter-based ID."
       org-html-preamble mr/site-html-preamble
       org-html-postamble #'mr/html-postamble
       org-display-custom-times t
-      )
+      org-latex-image-default-width "0.5\\textwidth"
+)
 
 ;; define the publishing project
 (setq org-publish-project-alist
