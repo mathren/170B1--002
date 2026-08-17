@@ -78,18 +78,18 @@ Comprehensive of all topics covered in the course.
 ** TODO Top hat test
 
 - [ ] QR code
-:Question:
+:To-ask:
 - Name
 - what is your favorite astronomical object? (only public answer)
 - Anything they want to learn in particular?
 - How much is 10^{4} ?
 - What is 10^{2}\times10^{8}?
 - What is $\sqrt{10^{6}}$?
+:end:
 
 To review this, do the "Optional Mathematics Review (not for credit)"
 on Mastering Astronomy. The "Introduction to Mastering Astronomy (not
 for credit)" can walk you through using the question system.
-:end:
 
 
 
@@ -141,13 +141,13 @@ Average distance between the Sun and Earth along the year: 1 au \simeq 150
 000 000 km. This unit is useful to describe things on
 planetary/stellar-system scale.
 
-** Light year
+** Light year (ly)
 A light /year/ is a measure of *distance*. It is possible to define this
 (which effectively connects the definition of space through distances
 to the definition of time, the year) because /the speed of light in
-vacuum/ is a fundamental constant of nature: $c = 3\times 10^{10}$ cm s^{-1}. No
-matter how fast an observer is moving, they will always measure this
-value of $c$ for the speed of light in vacuum.
+vacuum/ is a fundamental constant of nature: $c = 3\times 10^{10}$ cm s^{-1} $= 3\times
+10^{5}$ km s^{-1}. /No matter how fast an observer is moving/, they will
+always measure this value of $c$ for the speed of light in vacuum.
 
 *N.B.:* Being a "fundamental constant of nature" means that as far as we
 can test it with experiments and observations, its value does not
@@ -179,7 +179,7 @@ Since $c$ is constant, the larger the distance, the longer the time it
 takes for light to reach us:
 
 #+CAPTION: The farther we look, the longer ago we see (longer lookback time)
-#+ATTR_HTML: width 100%
+#+ATTR_HTML: :width 100%
 [[file:images/light_travel_time.png]]
 
 
@@ -242,7 +242,7 @@ to horizontally scroll through a solar-system model to scale such that
 each pixel corresponds to the size of the moon.
 
 #+CAPTION: The distance between Tucson (AZ) and Denver (CO) is about 1000 km.
-#+ATTR_HTML: :width 50%
+#+ATTR_HTML: :width 75%
 [[file:images/tucson-denver-1000km.png]]
 
 
@@ -255,8 +255,9 @@ The solar system is composed of:
   their orbits.
 
 ** Galactic
+
 #+CAPTION: Artist impression of the position of the solar system within the Milkyway.
-#+ATTR_HTML :width 100%
+#+ATTR_HTML: :width 100%
 [[./images/MW_artist_impression.png]]
 
 The size of the Milkyway galaxy is about 10kpc = 30 000ly. The Solar
@@ -287,7 +288,7 @@ volume $V\sim R^{3} \sim (10^{4})^{3}=10^{12}$ pc^{3}. Consider the distance fro
 to the nearest star, $d\sim4$ ly\sim1 pc. So on average we can estimate a
 star occupies about $d^{3}$ of volume in the Galaxy, and the number of
 star to be the Volume of the Galaxy divided the volume for each star,
-$N\simeq V/ d^{3} = 10^{12} pc^{3}^{}/(1 pc)^{3} = 10^{12}$.
+$N\simeq V/ d^{3} = 10^{12} pc^{3}/(1 pc)^{3} = 10^{12}$.
 
 There are about 10^{12} = 1 000 000 000 000 = 1 Trillion stars in the
 Milky way Galaxy, which is roughly the correct answer!
@@ -349,7 +350,7 @@ Galaxy super-clusters are like "knots" in this web.
 
 Zooming further out, the universe at large is extremely "homogeneous",
 meaning, at every point everything looks "the same", every point has
-the same density $\rho$.
+the same density $\rho$. It all started from /very small/ wiggles!
 
 #+CAPTION: Planck image of the Cosmic Microwave Background. The Universe had a certain temperature (\sim 3000 K) at the time it produced this light, about 380 000 years after the Big bang. The color indicate deviations in one part 10^{9} from the average temperature, which trace equally small deviation from homogeneity. These are the "seed perturbations" from which Galaxies and clusters grow.
 #+ATTR_HTML: :width 100%
@@ -394,7 +395,7 @@ the Galaxy. We can measure this rotation rate as a function of the
 distance from the center of a galaxy, and we wind that the stars move
 too fast!
 #+CAPTION: Rotational curve of galaxies.
-#+ATTR_HTML: width :100%
+#+ATTR_HTML: :width :100%
 [[./images/galaxy_rotational_curve.jpg]]
 
 This observation can be explained /if/ one postulates the presence of
@@ -412,7 +413,7 @@ galactocentric orbital motion) random velocity -- similar to the
 thermal velocity of molecules of a gas.
 
 #+DOWNLOADED: screenshot @ 2026-08-16 18:12:23
-#+ATTR_HTML: width :100%
+#+ATTR_HTML: :width 100%
 [[file:images/thermal_v_stars.png]]
 
 The "thermal velocity" of the Sun is \sim 10 km s^{-1}.
@@ -424,8 +425,14 @@ galaxies, each in turn collections of stars, possibly orbited by
 planets. The galaxies within a cluster feel strongly each other's
 gravity being pulled and stretched, compressed, with large velocities.
 
-#+HTML: <iframe width="600" height="400" src="https://player.vimeo.com/video/44583216" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+#+HTML: <iframe width="1200" height="800" src="https://player.vimeo.com/video/44583216" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 # https://vimeo.com/44583216
+
+The animation above shows a simulation of most of the /mass/ of the
+Universe, which is /dark matter/. Lighter clumps indicate more dark
+matter forming the "cosmic web" and moving internally, forming and
+disrupting, merging. Imagine each light dot as a cluster of galaxies
+to get the right idea.
 
 ** Expansion of the Universe
 Thanks to a regular relation between the /period/ of pulsations of a
