@@ -327,23 +327,81 @@ edge of large regions empty of structure. These form the "Cosmic web":
 #+ATTR_HTML: :width 100%
 [[./images/Cosmic_web.jpg]]
 
+Galaxy super-clusters are like "knots" in this web.
+
 Zooming further out, the universe at large is extremely "homogeneous",
 meaning, at every point everything looks "the same", every point has
 the same density $\rho$.
 
 #+CAPTION: Planck image of the Cosmic Microwave Background. The Universe had a certain temperature (\sim 3000 K) at the time it produced this light, about 380 000 years after the Big bang. The color indicate deviations in one part 10^{9} from the average temperature, which trace equally small deviation from homogeneity. These are the "seed perturbations" from which Galaxies and clusters grow.
+#+ATTR_HTML: :width 100%
 [[./images/Planck_CMB.jpg]]
 
 * Motion of the Universe
 
 ** Earth's rotation \rightarrow day
+Along it's axis with a period of \sim 24h. Where the axis intersects the
+planet's surface *defines* the North and South poles
+
+#+CAPTION: Earth's rotation
+#+ATTR_HTML: width :100%
+[[file:images/Rotation.png]]
 
 ** Earth's revolution around the Sun \rightarrow year
+During the year, the Earth orbits the Sun along an elliptical orbit
+(but very close to a circle). The /rotation/ axis for the day and the
+/orbital/ axis for the year are misaligned by about 23.5 degrees.
+
+This misalignment is constant towards the year and is the cause for
+the seasonal weather variations away from the Equator.
+
+#+CAPTION: Earth's orbit around the Sun
+#+ATTR_HTML: width :100%
+[[file:images/Obit.png]]
+
 
 ** Sun around center of Milky way \rightarrow P\sim250 Myr
+
+Much like planets orbit the Sun, stars in a galaxy orbit the center of
+the Galaxy. We can measure this rotation rate as a function of the
+distance from the center of a galaxy, and we wind that the stars move
+too fast!
+#+CAPTION: Rotational curve of galaxies.
+#+ATTR_HTML: width :100%
+[[./images/galaxy_rotational_curve.jpg]]
+
+This observation can be explained /if/ one postulates the presence of
+more /mass/ that does not /shine/ i.e., does not produce light. This /dark
+matter/ is therefore not visible, if not indirectly for its
+gravitational effect on the orbit of stars around galaxies. The fact
+that galactic rotation curves require invisible matter was first
+observed by [[https://en.wikipedia.org/wiki/Vera_Rubin][Prof. Vera Rubin]], and explaining observations requires 23%
+of the Universe to be made of this /dark matter/, despite of the lack of
+detections of dark matter /particles/.
+
+On top of this, you can think of all the stars in a galaxy like
+molecules of a gas: each has a ("small" with respect their
+galactocentric orbital motion) random velocity -- similar to the
+thermal velocity of molecules of a gas.
+
+
+#+DOWNLOADED: screenshot @ 2026-08-16 18:12:23
+#+ATTR_HTML: width :100%
+[[file:images/thermal_v_stars.png]]
+
+
+
 Mention dark matter?
 
 ** Milky-way within Virgo cluster
+Clusters of galaxies are gravitationally bound collections of
+galaxies, each in turn collections of stars, possibly orbited by
+planets. The galaxies within a cluster feel strongly each other's
+gravity being pulled and stretched, compressed, with large velocities.
+
+#+HTML: <iframe width="600" height="400" src="https://player.vimeo.com/video/44583216" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+# https://vimeo.com/44583216
+
 
 ** Expansion of the Universe
 
