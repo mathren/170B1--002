@@ -257,6 +257,14 @@ The radius of Earth is $R\sim6000$ km.
 #+ATTR_HTML: :width 100%
 [[./images/solar_system.jpg]]
 
+The solar system is composed of:
+- a central star: the Sun (\odot)
+- planets: rocky and gaseous, formed clearing materials from the
+  proto-stellar disk
+- moons: bodies orbiting not the Sun, but planets
+- dwarf planets: (almost) planet-sized bodies that have not clear
+  their orbits.
+
 The cartoon above is not to scale! The size of the Solar system is
 about 60 au \simeq 10^{10} km, the radius of the Earth is about 6000 km = 6 \times
 10^{3} km, and the radius of the Sun is $R_{\odot} \sim 7\times 10^{10}\mathrm{cm} = 7 \times
@@ -269,14 +277,6 @@ each pixel corresponds to the size of the moon.
 #+ATTR_HTML: :width 75%
 [[file:images/tucson-denver-1000km.png]]
 
-
-The solar system is composed of:
-- a central star: the Sun (\odot)
-- planets: rocky and gaseous, formed clearing materials from the
-  proto-stellar disk
-- moons: bodies orbiting not the Sun, but planets
-- dwarf planets: (almost) planet-sized bodies that have not clear
-  their orbits.
 
 ** Galactic
 
@@ -327,7 +327,7 @@ volume $V\sim R^{3} \sim (10^{4})^{3}=10^{12}$ pc^{3}. Consider the distance fro
 to the nearest star, $d\sim4$ ly\sim1 pc. So on average we can estimate a
 star occupies about $d^{3}$ of volume in the Galaxy, and the number of
 star to be the Volume of the Galaxy divided the volume for each star,
-$N\simeq V/ d^{3} = 10^{12} pc^{3}/(1 pc)^{3} = 10^{12}$.
+$N\simeq V/ d^{3} = 10^{12} \mathrm{pc}^{3}/(1 \mathrm{pc})^{3} = 10^{12}$.
 
 There are about 10^{12} = 1 000 000 000 000 = 1 Trillion stars in the
 Milky way Galaxy, which is roughly the correct answer!
