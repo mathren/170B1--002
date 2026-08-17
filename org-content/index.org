@@ -34,9 +34,10 @@ please let me know and feel free to open an issue/PR on [[https://github.com/mat
 This are my notes for lectures, and are intended to *complement* (not
 substitute!) [[./syllabus170B1.org::* Required textbook and resources][other resources]].
 
-On the right, you can access:
+On the top right, you can access:
  - [[./syllabus170B1.org][Syllabus]]: updated version
- - [[./schedule.org][Lectures]]: detailed schedule, with link to materials for each lecture
+ - [[./access_howto.org][Detailed instructions on how to access the materials]]
+ - [[./schedule.org][Lectures]]: detailed schedule, with link to notes when applicable
 
 At the bottom below, there is a light/dark mode toggle, a link to the
 previous lecture, top of the page, and next lecture, and the link to

@@ -5,6 +5,18 @@
 #+NEXT_PAGE: notes-lecture-03-.org
 
 *Reading:* Chapter 2
+
+* Recap
+
+Welcome or welcome back! Last time we have seen an overview of where
+we are in the Universe and what kind of motions are we going by being
+where we are:
+
+#+CAPTION: Recap figure.
+#+ATTR_HTML: :width 100%
+[[file:images/scale_motion.png]]
+
+
 :Recap-Question:
 - What motion of the Earth defines the north and south pole?
 :end:
@@ -12,3 +24,9 @@
 - Celestial sphere
 - Constellation
 - north pole
+- angular distances
+
+
+ [[https://stellarium-web.org/][stellarium web]]
+
+*
