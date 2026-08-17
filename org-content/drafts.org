@@ -1,0 +1,6 @@
+Enrico Fermi was a physicist in the 20^{th} century known for being the
+last great theorist /and/ experimentalist. One of the things he excelled
+in and that is now named after him are so-called "Fermi problems":
+these are questions to which it is possible to get to a reasonable
+answer (say within a factor of \sim10\times) with only few assumptions. The
+key is to break down the question into manageable components.

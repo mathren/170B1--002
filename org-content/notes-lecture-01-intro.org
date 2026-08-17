@@ -85,41 +85,161 @@ Comprehensive of all topics covered in the course.
 
 * Who am I?
 
-My favorite astronomical object is [[https://en.wikipedia.org/wiki/Zeta_Ophiuchi][$\zeta$ Ophiuchi]], the nearest massive
-star to Earth. I moved to Arizona to work here at Steward Observatory
-as a theoretical and computational astrophysicist. I use computer
+#+CAPTION: My favorite astronomical object is [[https://en.wikipedia.org/wiki/Zeta_Ophiuchi][$\zeta$ Ophiuchi]], the nearest massive star to Earth.
+#+ATTR_HTML: :width 75%
+[[./images/zetaoph]]
+
+
+I moved to Arizona to work here at Steward Observatory as a
+theoretical and computational astrophysicist. I use computer
 simulations to solve the physical processes in the evolution of stars,
 and I focus on the ones big enough to explode as supernovae, forming
 the densest objects in the Universe, neutron stars and black holes.
+
+
+* Units and physical quantities
+In this course we will deal with physical quantities (e.g., mass,
+time, distances), which are measured in certain units (e.g., pounds or
+grams, seconds or years, miles or meters). Like in life you chose your
+units for the context at hand (e.g., you wouldn't tell your height in
+miles or kilometers, or viceversa use inches or centimeters to measure
+an intercontinental air trip), in astronomical context we have to pick
+appropriate units for describing quantities. Scientists pick the /units
+adapted to the problem/: this typically means choosing units such that
+the numbers you are managing are "small" (of order unity).
+
+In astrophysics, most commonly we use the "centimeter, gram, second"
+system of units (cgs) to describe most physical quantities. There are
+at least a few reasons:
+- historical
+- practical: electromagnetism, i.e., studying
+  how light interacts with matter, is slightly less cumbersome
+- coincidental: in these units the mass of the Sun is 2\times 10^{33} g and
+  its luminosity 4\times10^{33} erg/s, so there is only one order of magnitude
+  to remember - 33.
+
+However, it is also often convenient to define units characteristic
+for the scale of a specific problem, or astronomical object.
+
+** Astronomical Unit (au)
+
+:Hint:
+1 km = 0.6213712 miles
+:end:
+
+Average distance between the Sun and Earth along the year: 1 au \simeq 150
+000 000 km. This unit is useful to describe things on
+planetary/stellar-system scale.
+
+** Light year
+A light /year/ is a measure of *distance*. It is possible to define this
+(which effectively connects the definition of space through distances
+to the definition of time, the year) because /the speed of light in
+vacuum/ is a fundamental constant of nature: $c = 3\times 10^{10}$ cm s^{-1}. No
+matter how fast an observer is moving, they will always measure this
+value of $c$ for the speed of light in vacuum.
+
+*N.B.:* Being a "fundamental constant of nature" means that as far as we
+can test it with experiments and observations, its value does not
+change measurably. Assuming that the speed of light in vacuum, $c$, is
+a constant allows also several physical results in electromagnetism,
+special and general relativity.
+
+1 light year = *distance* traveled by light in vacuum in one year \simeq
+9.56\times10^{12} km.
+
+
+In astrophysics we also use the parsec, which corresponds roughly to 1
+pc = 3.2 ly.
+
+*** Observations as a time machine
+Because the speed of light in vacuum is constant and /finite/, it takes
+time for a particle of light (/photon/) emitted somewhere a to reach
+somewhere else, say your eye or telescope.
+
+For example, it takes a photon emitted at the "surface" of the Sun
+about \sim 1 au/ $c$ = 8 minutes to reach Earth, that is: 1 au \simeq 8 light
+minutes.
+
+Since $c$ is constant, the larger the distance, the longer the time it
+takes for light to reach us:
+
+#+CAPTION: The farther we look, the longer ago we see (longer lookback time)
+[[file:images/light_travel_time.png]]
+
 
 * Where are we?
 Aim: exploring the scale of the Universe in relation to our positon.
 
 ** Earth
-- [[https://earth.google.com/web/search/Steward+Observatory+(University+of+Arizona),+North+Cherry+Avenue,+Tucson,+AZ/@6.09639401,-131.68026984,-4361.85328319a,25080901.5610528d,35y,359.99983171h,0t,0r/data=CiwiJgokCZgkaeIDH0BAEf0npklZHEBAGXRehQTau1vAIS_Kv6CMvVvAQgIIAUICCABKDQj___________8BEAA?authuser=0][Steward Observatory on google Earth]]
 
-- Earth in solar-system
+[[https://earth.google.com/web/search/Steward+Observatory+(University+of+Arizona),+North+Cherry+Avenue,+Tucson,+AZ/@6.09639401,-131.68026984,-4361.85328319a,25080901.5610528d,35y,359.99983171h,0t,0r/data=CiwiJgokCZgkaeIDH0BAEf0npklZHEBAGXRehQTau1vAIS_Kv6CMvVvAQgIIAUICCABKDQj___________8BEAA?authuser=0][Steward Observatory on google Earth]] (zoom out).
+
+Geocentrism was a theory of the structure of the Universe dominant in
+western science until the 17^{th} century. We still use it today, for
+example if you ever estimate the time based on the position of the Sun
+(apparent on the sky). Often scientific theories are super-seeded by
+newer points of view that can explain all the old phenomena (e.g.,
+reducing to the previous theory in some special case), while enabling
+investigation of new phenomena.
+
+Today, the positions of objects in the sky /can/ be described from a
+reference frame centered on Earth, but the math quickly becomes more
+cumbersome. It is much easier to think of the Earth as orbiting the
+Sun, within a system of planets.
+
+The radius of Earth is $R\sim6000$ km.
 
 ** Solar system
-- Solar system in Milky way
 
-[[https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html][This website]] lets you horizontally scroll through a solar-system model
-to scale such that each pixel corresponds to the size of the moon.
+#+CAPTION: Artist impression of solar system (not to scale).
+#+ATTR_HTML :width 100%
+[[./images/solar_system.jpg]]
+
+The cartoon above is not to scale: [[https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html][this website]] lets you horizontally
+scroll through a solar-system model to scale such that each pixel
+corresponds to the size of the moon. The size of the Solar system is
+about 60 au \simeq 10^{10} km.
+
+The solar system is composed of:
+- a central star: the Sun (\odot)
+- planets: rocky and gaseous, formed clearing materials from the
+  proto-stellar disk
+- moons: bodies orbiting not the Sun, but planets
+- dwarf planets: (almost) planet-sized bodies that have not clear
+  their orbits.
 
 ** Galactic
-- Milky way and SMC/LMC satellites.
+#+CAPTION: Artist impression of the position of the solar system within the Milkyway.
+#+ATTR_HTML :width 100%
+[[./images/MW_artist_impression.png]]
 
-*** Fermi problem: how many stars in the Milky way?
-Enrico Fermi was a physicist in the 20^{th} century known for being the
-last great theorist /and/ experimentalist. One of the things he excelled
-in and that is now named after him are so-called "Fermi problems":
-these are questions to which it is possible to get to a reasonable
-answer (say within a factor of \sim10\times) with only few assumptions. The
-key is to break down the question into manageable components.
+The size of the Milkyway galaxy is about 10kpc = 30 000ly. The Solar
+system is about 8kpc away from the Galactic center (which is in the
+southern Emisphere).
 
-The size of the Milkyway is $R$\sim10000pc=10 kpc=10^{4} pc, so it has a
+The immediate solar neighborhood is relatively low density in stars
+compared to the Galactic center: stellar "crowding" decreases with
+distance to the Galactic center.
+
+*** Order of magnitude estimate: how many stars in the Milky way?
+The order of magnitude is the power of 10 corresponding to a number,
+which allows to round up/down to the nearest decade for approximate
+calculations.
+
+Examples:
+- order 1
+- order 2 = 10^{2} = 100s (hundreds)
+- order 3 = 10^{3} = 1000s, k (thousands)
+- order 4 = 10^{4} = 10 000s, 10k (tens of thousands)
+- etc...
+
+Often in astrophysics one can find numbers that are hard to imagine
+(e.g., 10^{51}).
+
+The size of the Milkyway is $R\sim$10000pc=10 kpc=10^{4} pc, so it has a
 volume $V\sim R^{3} \sim (10^{4})^{3}=10^{12}$ pc^{3}. Consider the distance from the Sun
-to the nearest star, $d$\sim4 ly\sim1 pc. So on average we can estimate a
+to the nearest star, $d\sim4$ ly\sim1 pc. So on average we can estimate a
 star occupies about $d^{3}$ of volume in the Galaxy, and the number of
 star to be the Volume of the Galaxy divided the volume for each star,
 $N\simeq V/ d^{3} = 10^{12} pc^{3}^{}/(1 pc)^{3} = 10^{12}$.
@@ -138,14 +258,54 @@ clouds of interstellar dust, in too crowded areas to stand out, etc.
 [[./images/Gaia.jpg]]
 
 
+Note the two bright spots in the southern emisphere. These are the LMC
+and SMC, two satellite galaxies of the Milky way.
+
+** Extra-galactic
+
+Galaxies are /not/ isolated: the distance between two large galaxies is
+often comparable to the size of the galaxies themselves, causing
+constant imbalances between the internal gravitational pull within a
+galaxy and the perturbations coming from the other.
+
+This leads to the formation of "clusters" of galaxies, bound together
+gravitationally, but with chaotic orbits of galaxies zooming past each
+other (instead of a nice organized flow in a plane!).
+
+#+CAPTION: Artist impression of the Local Group within the Virgo galaxy cluster. Each dot represents a galaxy.
+#+ATTR_HTML: :width 100%
+[[./images/Virgo.jpg]]
+
+The Milky way as a galaxy is part of, in turn:
+- Local Group (together, for example with Andromeda, M31), on a scale
+  of millions of ly.
+- Virgo Galaxy cluster, on a scale of hundreds of millions of ly
+- Laniakea Supercluster
 
 :Hint:
-How many stars are in the Milky way?
+Laniakea comes from Hawai'ian for "Immense Heaven"
 :end:
-** Extra-galactic
-- Local Galactic Group
-- Virgo cluster
-- Laniakea Supercluster
+
+#+CAPTION: Artist impression of the Laniakea supercluster. Each dot represents a galaxy.
+#+ATTR_HTML: :width 100%
+[[./images/Laniakea.jpg]]
+
+
+** The very large scale
+
+Galaxy clusters and superclusters are organized along "strings" at the
+edge of large regions empty of structure. These form the "Cosmic web":
+
+#+CAPTION: Distribution of (dark) matter in the cosmic web in a cosmological numerical simulation.
+#+ATTR_HTML: :width 100%
+[[./images/Cosmic_web.jpg]]
+
+Zooming further out, the universe at large is extremely "homogeneous",
+meaning, at every point everything looks "the same", every point has
+the same density $\rho$.
+
+#+CAPTION: Planck image of the Cosmic Microwave Background. The Universe had a certain temperature (\sim 3000 K) at the time it produced this light, about 380 000 years after the Big bang. The color indicate deviations in one part 10^{9} from the average temperature, which trace equally small deviation from homogeneity. These are the "seed perturbations" from which Galaxies and clusters grow.
+[[./images/Planck_CMB.jpg]]
 
 * Motion of the Universe
 
