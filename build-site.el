@@ -123,6 +123,14 @@ INFO is the export plist."
 
 (advice-add 'org-html-drawer :override #'mr/format-drawer-html)
 
+;; set default image width 100% in html
+(defun mr/org-html-default-image-width (orig-fun source attributes info)
+  (unless (plist-get attributes :width)
+    (setq attributes (plist-put attributes :width "100%")))
+  (funcall orig-fun source attributes info))
+
+(advice-add 'org-html--format-image :around #'mr/org-html-default-image-width)
+
 ;; ---------------------------------------------------------------------------
 ;; Deterministic HTML IDs (override in-memory, never touch *.org files)
 ;; ---------------------------------------------------------------------------

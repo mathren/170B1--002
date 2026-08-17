@@ -1,4 +1,4 @@
-#+title: ASTR170 B1 Scale
+#+title: ASTR170 Scale & motion
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-01-intro.org
@@ -64,33 +64,183 @@ in what most see only as one dot of light.
 [[./images/mizar_alcor_complete.png]]
 :end:
 
+Each star rises towards the East and sets towards the West because of
+the West-to-East rotation of Earth, dragging you and your point of
+view around with it.
+
 ** Celestial sphere
+
+The celestial sphere is an idealized surface of a sphere of infinite
+radius centered on Earth over which the images of stars is projected.
+
+#+CAPTION: Depiction of the celestial sphere with constellations and reference points.
+#+DOWNLOADED: screenshot @ 2026-08-17 11:18:03
+[[file:images/celestial_sphere.png]]
+
+
  [[https://stellarium-web.org/][stellarium web]]
 
-- projection
-- motion of the Sun
+The plane of the ecliptic is the plane traced by the orbit of the Sun
+as seen from Earth, or in other words, the plane of the orbit of the
+Earth around the Sun.
+
+
+
+
+** Angular distances
+Because stars are at different distances along the radial direction of
+the celestial sphere, it is hard to tell their distance in 3D. But in
+projection on the celestial sphere, we can tell the angle between
+them. This is a measure of their *apparent* distance, but for example,
+it needs to be sufficiently large for two stars to be distinguishable!
+
+#+CAPTION: We measure angles in degrees, each degree is divided in 60 minutes, and each minute in 60 seconds. Using a base-60 system dates back to Babylonians, which use this number because it has a lot of divisors (1, 2, 3, 4, 5, 6, 12, 15, 20, 30, 60) allowing for many integer sub-divisions.
+#+DOWNLOADED: screenshot @ 2026-08-17 11:24:59
+[[file:images/angles_measurements.png]]
+
+Roughly, at arm's length, the angle of sky covered
+- by one finger \sim 1 degree
+- by one fist \sim 10 degrees
+- by a stretched hand \sim 20 degrees
+
+This can be used, for example, to measure the time to sun set: the Sun
+goes around \sim 180 degrees every day (half a full circle, the other
+half happens during the night), which lasts about 12 hours, so it
+moves about \sim 180/ 12 = 15 degrees/hour. When the Sun is about 3 fists
+height above the horizon, there is still about one hour before it sets
+(adjustments due to local topography, e.g., presence of a mountain,
+time of the year and latitude are needed to be precise).
 
 ** Constellations
 We have already referred indirectly to the concept of a
 "constellation". Many different cultures have created narratives about
 figures apparently drawn in the sky by stars projected on the
-celestial sphere. These have been useful story-telling devices, and
-mnemonic tools, but the figures they are based on are just apparent
-and temporary.
+celestial sphere.
 
-In fact brighter sources can be seen farther, and in 3D, members of
-the same constellation may be extremely far from each other! Moreover,
-stars in the Galaxy move around (orbiting the galaxy and because of
-their local peculiar velocity), with speeds that depend on their
-position. Given enough time (the relevant scale is 100s of millions of
-years, short compared to the age of the Sun!), the drawings will
-stretch, deform and disappear.
+Humans are biologically good at finding patterns, and patterns among
+the stars have been useful story-telling devices, and mnemonic tools.
+
+#+CAPTION: Orion constellation, visible in the winter in the Northern Emisphere.
+[[./images/orion_marked.jpeg]]
+
+However, the figures they are based on are just apparent and
+temporary. In fact brighter sources can be seen farther, and in 3D,
+members of the same constellation may be extremely far from each
+other! Moreover, stars in the Galaxy move around (orbiting the galaxy
+and because of their local peculiar velocity), with speeds that depend
+on their position. Given enough time (the relevant scale is 100s of
+millions of years, short compared to the age of the Sun!), the
+drawings will stretch, deform and disappear.
 
 Moreover, our own point of view drifts in time: the Sun and solar
-system move. But while this takes millions of years, there are other
+system move. But while this takes millions of years.
+#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/ia0s1G8cdv0?si=HGu_MjUpLIeTv3v8&amp;start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+# https://www.youtube.com/watch?v=ia0s1G8cdv0&t=6s
+
+But there are other
 smaller motion that happen faster that influence how the sky appears
 to us. The Earth's rotation "wobbles" (precess) with a period of 10s
 of thousands of years: what was at certain celestial coordinates 2000
 years ago is not the same as today! The orbit of the Earth around the
 Sun also "wobbles", changing the plane of the ecliptic (i.e., the
 plane of the apparent motion of the Sun on the celestial sphere).
+
+#+CAPTION: Precession of the Earth's rotational axis.
+[[file:images/precession.png]]
+
+
+Modern astronomy still uses constellations as a useful reference
+point, for example many stars visible by naked eye can be referred to
+as =<greek letter indicating brightness>= + =<greek name of
+constellation>=. The letters are assigned in order of brightness (e.g.,
+\alpha Orionis = Betelgeuse is the brightest star in the constellation
+Orionis, \zeta Ophiuchi is the 26^{th} brightest in the constellation
+Ophiuchus). But each constellation is a specific patch of the
+celestial sphere defined as a polygon on it.
+
+The zodiacal constellations are those that at a given point in the
+year are "hidden behind the Sun", that is the ones along the ecliptic
+plane.
+
+#+CAPTION: Zodiacal constellation as those along the ecliptic plane.
+[[file:images/zodiac_constellations.png]]
+
+
+Which constellations one sees varies with latitude on Earth (i.e., how
+far north/south one is), but not longitude (how far east/west one is).
+This is because Earth's rotation is in the West-to-East direction:
+different points at different longitudes will see the same patch of
+the sky at the zenith at different times (i.e., different phases of
+the Earth's rotation). Conventionally, longitude is measured starting
+from the Greenwich meridian (from the British empire).
+
+Viceversa, the latitude determines what part of the sky is above the
+horizon at any given rotation. The simple example is: could you see
+Polaris from the South pole?
+
+:Answer:
+No: it is always below your feet at any time of the day! Instead in
+the Southern emisphere there is another notable asterism, the
+"Southern Cross" that acts as a "pointer" to a star close to the South
+pole.
+:end:
+
+As one moves along the surface of the Earth southward, what stays
+above the horizon changes.
+
+#+CAPTION: Visibility of stars across the year.
+[[file:images/constellation_visibility.png]]
+
+- North and south poles are projection of the Earth's rotation axis on
+  the celestial sphere
+- The celestial equator is the intersection between the Earth
+  rotational equator and the celestial sphere
+- zenith is the point right above on the celestial sphere, varies with
+  the position of the observer (zenith at the north pole = north star)
+- nadir is the opposite point, never visible.
+
+* Seasons
+
+*Q*: What is the reason for seasonal variations in weather patterns?
+
+:Answer:
+It is often misunderstood to be an effect of the small deformation
+(eccentricity) of the orbit of the Earth around the Sun which brings
+it closer/farther, but that is /incorrect/. If it were so, there would
+not be an anti-synchrony between Northern and Southern emisphere.
+
+The correct reason is *because of the inclination of Earth's rotation
+axis with respect to the ecliptic plane*.
+
+
+#+CAPTION: The inclination of the rotation axis of the Eath w.r.t. the perpendicular to its orbital plane around the Sun.
+#+ATTR_HTML: :width 75%
+[[file:images/incl_angle.png]]
+:end:
+
+Since the Earth's rotation axis maintains it's inclination of \sim 23
+degrees w.r.t. the direction perpendicular to the plane of its orbit
+around the Sun, depending on whether an emisphere is pointing
+"towards" the Sun or "away" from it, it will receive Sun light at a
+different angle and for a different amount of time.
+
+
+#+CAPTION: The apparent height of the Sun at a given time in the day depends on the time of the year, because the rotation axis of Earth always points in the same direction from each side of its orbit.
+[[file:images/equinoxes.png]]
+
+The change in daily energy input from the Sun causes the atmosphere
+and Earth below it to be "forced" differently, creating different
+climate conditions along the year.
+
+#+CAPTION: Depending on the angle between the Sun and the surface of the Earth, only a fraction of the energy can be harvested by the Earth. Specifically, the cosine of the inclination angle enters in the calculation of the energy flux (amount of energy incoming per unit surface area and time).
+[[file:images/sun_irradiance.png]]
+
+
+
+* Phases of the moon
+
+** Eclipses
+
+*** Angular size
+
+* The puzzle of planet motion
