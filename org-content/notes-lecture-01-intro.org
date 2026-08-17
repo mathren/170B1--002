@@ -395,7 +395,7 @@ the Galaxy. We can measure this rotation rate as a function of the
 distance from the center of a galaxy, and we wind that the stars move
 too fast!
 #+CAPTION: Rotational curve of galaxies.
-#+ATTR_HTML: :width :100%
+#+ATTR_HTML: :width 100%
 [[./images/galaxy_rotational_curve.jpg]]
 
 This observation can be explained /if/ one postulates the presence of
@@ -425,7 +425,7 @@ galaxies, each in turn collections of stars, possibly orbited by
 planets. The galaxies within a cluster feel strongly each other's
 gravity being pulled and stretched, compressed, with large velocities.
 
-#+HTML: <iframe width=1000pt, src="https://player.vimeo.com/video/44583216" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+#+HTML: <iframe width="1000" height="800" src="https://player.vimeo.com/video/44583216" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 # https://vimeo.com/44583216
 
 The animation above shows a simulation of most of the /mass/ of the
