@@ -85,9 +85,9 @@ Comprehensive of all topics covered in the course.
 
 * Who am I?
 
-#+CAPTION: My favorite astronomical object is [[https://en.wikipedia.org/wiki/Zeta_Ophiuchi][$\zeta$ Ophiuchi]], the nearest massive star to Earth.
+#+CAPTION: My favorite astronomical object is [[https://en.wikipedia.org/wiki/Zeta_Ophiuchi][$\zeta$ Ophiuchi]], the nearest massive star to Earth. Infrared image from Spitzer space telescope.
 #+ATTR_HTML: :width 75%
-[[./images/zetaoph]]
+[[./images/zetaoph.jpg]]
 
 
 I moved to Arizona to work here at Steward Observatory as a
