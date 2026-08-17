@@ -408,7 +408,7 @@ too fast!
 
 The rotation rate around the Galaxy depends on the position in the
 Galaxy itself (and the amount of mass contained within that orbit!).
-For the Sun it takes about \sim 250 million years (Myrs) to complete the
+For the Sun it takes about \sim 230 million years (Myrs) to complete the
 rotation.
 
 This observation can be explained /if/ one postulates the presence of

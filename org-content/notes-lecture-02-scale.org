@@ -39,9 +39,8 @@ direction of North, which is useful for navigation.
 It can be found identifying this /asterism/ (which is a "piece of a
 constellation") in the sky
 
-#+CAPTION: Big dipper asterism, the last two stars define a visual "pointer": going in that direction for about \sim 5\times the angular distance between the two stars one finds the North star.
+#+CAPTION: Big dipper asterism, the last two stars define a visual "pointer": going in that direction for about \sim 5\times the angular distance between the two stars one finds the North star (aligned with the Earth's rotation axis, so all other stars appear to go around it each night).
 #+ATTR_HTML: :width 100%
-[[./images/big_dipper.png]]
 [[./images/big_dipper_north.png]]
 
 This constellation was also used as a "test" to see if your eyesight
