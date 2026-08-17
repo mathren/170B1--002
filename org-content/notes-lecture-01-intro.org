@@ -191,7 +191,7 @@ if it were one single year (one loop of the Earth around the Sun):
 
 #+Caption: History of the Universe rescaled to 1 year. Fig. 1.12 in book.
 #+DOWNLOADED: screenshot @ 2026-08-16 18:00:36
-#+ATTR_HTML :width 100%
+#+ATTR_HTML: :width 100%
 [[file:images/calendar.png]]
 
 
@@ -220,7 +220,7 @@ The radius of Earth is $R\sim6000$ km.
 ** Solar system
 
 #+CAPTION: Artist impression of solar system (not to scale).
-#+ATTR_HTML :width 100%
+#+ATTR_HTML: :width 100%
 [[./images/solar_system.jpg]]
 
 The cartoon above is not to scale: [[https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html][this website]] lets you horizontally
