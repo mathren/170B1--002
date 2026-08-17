@@ -2,8 +2,78 @@
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-02-scale.org
-#+NEXT_PAGE: notes-lecture-04-.org
+#+NEXT_PAGE: notes-lecture-04-gravity-motion.org
 
 *Reading:* Chapter 3
 
+
 * History and philosophy of science
+
+Scientific investigation is one of the key skills that allow human
+communities to adapt their environments to their own needs and lead to
+the apex role humans have in their environment.
+
+Defining precisely what science is is not a trivial question, and an
+entire field of philosophy concerns itself with this question. But in
+the broadest sense, science is the collective process of organizing
+known and quantitatively verifiable facts about natural phenomena in a
+coherent framework that allows us to understand, explain, and predict
+said phenomena.
+
+How this is done in detail throughout the history of humanity is
+inextricably intertwined with technological developments that allow
+the quantitative verification of factual information.
+
+** A brief history of astronomy
+As the record-keeping and description of the motion of celestial
+objects (though the course of a night, a month, and years), astronomy
+must be one of the oldest scientific endeavor of humanity.
+
+Every community on Earth has observed the sky, and every community has
+needed time-keeping (the regularity in the apparent motion of the sky
+provide a natural clock) or navigation! Knowing when cold or harvest season are
+coming, or being able to navigate in the night are needs that can be
+met with naked eye observations of the sky, and we can be sure that
+every community in the history of humanity has developed some form of
+astronomical understanding (and associated mythology to transmit this
+knowledge across generations, see [[./notes-lecture-02-scale.org::*Constellations][Constellations]]).
+
+As a "system of organizing knowledge", scientific thinking lived under
+the broader umbrella of philosophy for most of human history. However,
+within (western) philosophy one would typically distinguish /astronomy/
+as the description of /celestial/ (as in non-Earthly) phenomena and
+/physics/ as the study of nature as it works on Earth. These two were
+clearly distinguished and separated in the Aristotelian framework of a
+sub-lunar (Earthly) world and the super-lunar ideal world made of
+geometrically perfect circles, and seeking the same explanations for
+both "classes" of phenomena was an absurd program in context.
+
+It took about 200 years for astronomy and physics to converge into
+/astrophysics/, that is the application of the physical laws that apply
+on Earth and in laboratories to explain the observed astronomical
+phenomena.
+
+This occurred first with:
+- 16-17^{th} century scientific revolution: unification of gravity on Earth and orbital motion of planets by Newton
+- 19^{th} century technological advance: the ability to use spectra of
+  light to determine the chemical composition of stars revealed the
+  same materials in astronomical setting and on Earth.
+
+** Astronomical time-keeping
+
+A common example of use of astronomy for timekeeping are the name of
+the week days: in English, they are named after the Sun, Moon and the
+5 naked-eye planets. By the classical definition, a planet
+("wanderer") is anything moving in a "special way" in the sky
+including the Sun and the Moon!
+
+*** Sun dials
+
+*** Seasons
+
+But there are more sophisticated examples. In central africa, certain
+cultures used the orientation of the illuminated part of the Moon to
+foresee the advent of the rainy seasons:
+
+#+Caption: the orientation of the illuminated side of the Moon depends primarily on the latitude on Earth. At a given latitude though, it depends on the time of the year, because of the relative inclination of the Moon-around-the-Earth and Earth-around-the-Sun orbital planes.
+[[file:images/monsoon_season.png]]

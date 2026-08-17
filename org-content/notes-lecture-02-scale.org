@@ -2,7 +2,7 @@
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-01-intro.org
-#+NEXT_PAGE: notes-lecture-03-.org
+#+NEXT_PAGE: notes-lecture-03-history_and_philosophy_of_science.org
 
 *Reading:* Chapter 2
 
