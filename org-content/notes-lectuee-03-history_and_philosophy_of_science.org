@@ -1,0 +1,9 @@
+#+title: ASTR170 Hist \& Phil of Science
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: notes-lecture-02-scale.org
+#+NEXT_PAGE: notes-lecture-04-.org
+
+*Reading:* Chapter 3
+
+* History and philosophy of science

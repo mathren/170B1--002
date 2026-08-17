@@ -469,3 +469,20 @@ cake!), in this sense it is an "edgeless" infinite cake.
 #+CAPTION: Raisin cake analogy for the Hubble flow. The analogy breaks down because there is no external oven for the Universe to grow /into/ filling a "pre-existing" space.
 #+ATTR_HTML: :width 75%
 [[file:images/raisin_cake.png]]
+
+In [[https://www.nobelprize.org/prizes/physics/2011/summary/][2011 the physics Nobel prize]], was awarded to Saul Perlmutter, Brian
+P. Schmidt (a UoA undergraduate alumnus), and Adam G. Riess for their
+discovery of the /accelerated/ expansion of the Universe.
+
+They used a particular kind of stellar explosions (SNIa) to
+demonstrate that not only the farthest objects move faster (Hubble's
+law), but that the faster/farther galaxy /accelerate/ more. This as-yet
+unexplained phenomenology can be reconciled with our present picture
+of the Universe invoking a "dark energy" contribution.
+
+Like "dark matter" is stuff we don't see shining but that is
+postulated based on its gravitational effects on what we do see, "dark
+energy" is a contribution to the Universe that we cannot quite
+describe, except that we see something acting like a distributed
+energy density throughout the Universe resulting in its accelerated
+expansion.
