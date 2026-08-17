@@ -312,15 +312,22 @@ Examples:
 - order 1 (numbers between say \sim0.7-9)
 - order 2 = 10^{2} = 100s (hundreds)
 - order 3 = 10^{3} = 1000s, k (thousands)
-- order 4 = 10^{4} = 10 000s, 10k (tens of thousands)
+- ...
+- order 6 = 10^{6} = 1 000 000s, M (millions)
+- ...
+- order 9 = 10^{9} = 1 000 000 000s, (billions)
+- ...
+- order 12 = 10^{12} = 1 000 000 000 000, (trillions)
 - ...
 - order 33 = 10^{33} = 1+{33 zeros}
 - ...
+- order -1 = 10^{-1} = 0.1
 - order -2 = 10^{-2} = 0.01
 - order -4 = 10^{-4} = 0.0001
 
 Often in astrophysics one can find numbers that are hard to imagine
-(e.g., 10^{33}, 10^{51}).
+for how big (e.g., 10^{24}, 10^{33}, 10^{51}) or how small (e.g., 10^{-15}) they
+are, orders of magnitude are easier to keep track of.
 
 The size of the Milkyway is $R\sim$10000pc=10 kpc=10^{4} pc, so it has a
 volume $V\sim R^{3} \sim (10^{4})^{3}=10^{12}$ pc^{3}. Consider the distance from the Sun
