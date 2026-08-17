@@ -400,11 +400,16 @@ The orbital velocity of Earth around the Sun is about 30 km s^{1}.
 
 Much like planets orbit the Sun, stars in a galaxy orbit the center of
 the Galaxy. We can measure this rotation rate as a function of the
-distance from the center of a galaxy, and we wind that the stars move
+distance from the center of a galaxy, and we find that the stars move
 too fast!
 #+CAPTION: Rotational curve of galaxies.
 #+ATTR_HTML: :width 100%
 [[./images/galaxy_rotational_curve.jpg]]
+
+The rotation rate around the Galaxy depends on the position in the
+Galaxy itself (and the amount of mass contained within that orbit!).
+For the Sun it takes about \sim 250 million years (Myrs) to complete the
+rotation.
 
 This observation can be explained /if/ one postulates the presence of
 more /mass/ that does not /shine/ i.e., does not produce light. This /dark

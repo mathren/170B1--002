@@ -116,8 +116,7 @@ DEADLINE: Homework, In class exam
 
 ** Week 7
 Chapter 8, 9, 10
-
-
+# ITC workshop
 *** <2026-10-05 Mon> - Our Solar System
 # in class attendance
 *** <2026-10-07 Wed> - Planet formation, Terrestrial planets
