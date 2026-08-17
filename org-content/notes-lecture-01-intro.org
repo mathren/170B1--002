@@ -78,12 +78,22 @@ Comprehensive of all topics covered in the course.
 ** TODO Top hat test
 
 - [ ] QR code
+:Question:
 - Name
 - what is your favorite astronomical object? (only public answer)
-- Last math course they took?
 - Anything they want to learn in particular?
+- How much is 10^{4} ?
+- What is 10^{2}\times10^{8}?
+- What is $\sqrt{10^{6}}$?
 
-* Who am I?
+To review this, do the "Optional Mathematics Review (not for credit)"
+on Mastering Astronomy. The "Introduction to Mastering Astronomy (not
+for credit)" can walk you through using the question system.
+:end:
+
+
+
+** Who am I?
 
 #+CAPTION: My favorite astronomical object is [[https://en.wikipedia.org/wiki/Zeta_Ophiuchi][$\zeta$ Ophiuchi]], the nearest massive star to Earth. Infrared image from Spitzer space telescope.
 #+ATTR_HTML: :width 75%
@@ -223,10 +233,18 @@ The radius of Earth is $R\sim6000$ km.
 #+ATTR_HTML: :width 100%
 [[./images/solar_system.jpg]]
 
-The cartoon above is not to scale: [[https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html][this website]] lets you horizontally
-scroll through a solar-system model to scale such that each pixel
-corresponds to the size of the moon. The size of the Solar system is
-about 60 au \simeq 10^{10} km.
+The cartoon above is not to scale! The size of the Solar system is
+about 60 au \simeq 10^{10} km, the radius of the Earth is about 6000 km = 6 \times
+10^{3} km, and the radius of the Sun is $R_{\odot} \sim 7\times 10^{10}\mathrm{cm} = 7 \times
+10^{5} \mathrm{km}$. [[https://www.solartoscale.com/][This website]] allows you to scroll the solar system
+at a scale of 1 pixel = 1000 km. Alternatively, see also [[https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html][this]] website
+to horizontally scroll through a solar-system model to scale such that
+each pixel corresponds to the size of the moon.
+
+#+CAPTION: The distance between Tucson (AZ) and Denver (CO) is about 1000 km.
+#+ATTR_HTML: :width 50%
+[[file:images/tucson-denver-1000km.png]]
+
 
 The solar system is composed of:
 - a central star: the Sun (\odot)
@@ -347,6 +365,14 @@ planet's surface *defines* the North and South poles
 #+ATTR_HTML: width :100%
 [[file:images/Rotation.png]]
 
+Every night, you can see in a long-exposure image, the apparent motion
+due to the Earth rotation:
+
+#+CAPTION: Long exposure picture showing circular tracks along the north direction. These are just the reflected motion due to the rotation of the Earth. Note the stars have different colors! Credits: G. Inchingolo.
+#+ATTR_HTML: :width 100%
+[[./images/night_rotation.jpg]]
+
+
 ** Earth's revolution around the Sun \rightarrow year
 During the year, the Earth orbits the Sun along an elliptical orbit
 (but very close to a circle). The /rotation/ axis for the day and the
@@ -359,6 +385,7 @@ the seasonal weather variations away from the Equator.
 #+ATTR_HTML: width :100%
 [[file:images/Obit.png]]
 
+The orbital velocity of Earth around the Sun is about 30 km s^{1}.
 
 ** Sun around center of Milky way \rightarrow P\sim250 Myr
 
@@ -384,14 +411,12 @@ molecules of a gas: each has a ("small" with respect their
 galactocentric orbital motion) random velocity -- similar to the
 thermal velocity of molecules of a gas.
 
-
 #+DOWNLOADED: screenshot @ 2026-08-16 18:12:23
 #+ATTR_HTML: width :100%
 [[file:images/thermal_v_stars.png]]
 
+The "thermal velocity" of the Sun is \sim 10 km s^{-1}.
 
-
-Mention dark matter?
 
 ** Milky-way within Virgo cluster
 Clusters of galaxies are gravitationally bound collections of
@@ -402,19 +427,25 @@ gravity being pulled and stretched, compressed, with large velocities.
 #+HTML: <iframe width="600" height="400" src="https://player.vimeo.com/video/44583216" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 # https://vimeo.com/44583216
 
-
 ** Expansion of the Universe
+Thanks to a regular relation between the /period/ of pulsations of a
+certain type of stars and its /luminosity/ discovered by [[https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt][Henrietta
+Leavitt]], Hubble discovered that galaxies were moving away from each
+other, and furthermore, /the farther a galaxy, the farther its speed/:
+$v = H \times D$, with $H$ the constant (in every direction) of
+proportionality between the speed $v$ and the distance $D$. This is
+the /Hubble/ "law".
 
+To understand it, see the Raisin cake analogy: each galaxy is a
+raisin. As the cake bakes and it inflates, the distance between the
+raisins grows. Consider being in one raisin, the distance to the
+nearest raisin grows by 2\times in a given time. The raisin one over, it
+grows by 3\times, etc. Larger distances imply faster motion seen from
+inside.
 
+The universe however doesn't expand /into/ something (no oven to its
+cake!), in this sense it is an "edgeless" infinite cake.
 
-* TODO Ask
-
-:Question:
-- How much is 10^{4} ?
-- What is 10^{2}\times10^{8}?
-- What is $\sqrt{10^{6}}$?
-
-To review this, do the "Optional Mathematics Review (not for credit)"
-on Mastering Astronomy. The "Introduction to Mastering Astronomy (not
-for credit)" can walk you through using the question system.
-:end:
+#+CAPTION: Raisin cake analogy for the Hubble flow. The analogy breaks down because there is no external oven for the Universe to grow /into/ filling a "pre-existing" space.
+#+ATTR_HTML: :width 50%
+[[file:images/raisin_cake.png]]
