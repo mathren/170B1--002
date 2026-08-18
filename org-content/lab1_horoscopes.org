@@ -1,0 +1,8 @@
+#+title: ASTR170 - Lab 1 horoscopes
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: lab1_astrology_and_pseudosciences.org
+#+NEXT_PAGE: notes-lecture-04-gravity-motion.org
+
+
+* TODO procure horoscopes for <2026-09-01 Tue>

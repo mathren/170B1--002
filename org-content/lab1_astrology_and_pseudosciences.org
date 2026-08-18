@@ -24,16 +24,187 @@ What is science? What is pseudoscience? Why is it important to know
 the distinction as you navigate today’s world? /Discuss with your
 classmates and briefly note your initial thoughts on this topic/. How
 would you explain the difference between science and pseudoscience to
-a friend?
+a friend? (max 4 lines) ______
 
-________________________________________________________________________
-________________________________________________________________________
-________________________________________________________________________
-________________________________________________________________________
+** Astrology
+There are various astrological traditions throughout the world. Most
+originated in a context where it was intrinsically intertwined with
+astronomy. Both disciplines require to measure the positions of
+celestial bodies in the sky as a function of time - a need still very
+much existing today, with some of the most advanced space telescopes
+(e.g., the /Gaia/ satellite) pushing technological limits of today to
+achieve unprecedented precision in this very same task.
+
+However, while astronomy was always concerned with the explanation of
+the motion observed in the sky, and its prediction, all astrology is
+in some formed based on /assuming/ that the positions of celestial
+objects at the time of one's birth influences their person and
+behavior.
+
+Note how this is not an absurd hypothesis to begin with: the position
+of the Sun and Moon do influence phenomena on Earth (is it day or not?
+Is it high-tide or low-tide?), and the basic hypothesis of astrology
+just extends this to all celestial bodies.
+
+** Applying the scientific method
+
+*** Step 1: Make an observation
+This class contains students with different personalities and life experiences, born at
+different times and in different locations. As we learned in class, the stars, planets, and
+moon appear to move in the sky, so their positions at each of our births was different.
+These are both observational facts; to test astrology, we need to design an experiment to
+test if one can explain the other.
+
+*** Step 2: Suggest an hypothesis
+An hypothesis here is just a "guess", typically educated by your
+existing knowledge. In this case we can make two opposite hypothesis:
+/The positions of the sun, moon, planets, and other astronomical
+objects at the time of one’s birth/
+
+- [ ] does (= astrology works)
+- [ ] does *not* (=astrology does *not* work)
+
+/affect one’s personality and predict one’s future/.
+
+Select one of the two options above. Note that a priori neither is
+right or wrong. We will have to make our own test of it.
+
+*** Step 3: Based on the hypothesis, make a prediction
+I have collected [[./lab1_horoscopes.org][here]] horoscopes from 3 sources for yesterday
+<2026-09-01 Tue> and removed the "signs", i.e. the birthdate windows
+that indicate which horoscope is yours. Each of you will read through
+all of the horoscopes and choose the 1 from each set that best
+describes your day.
+
+For reference, these are the signs (recall [[file:notes-lecture-02-scale.org::*Constellations][the connection with zodiacal constellations]]):
+|-------------+---------------------------|
+| Sign        | Birthdates                |
+|-------------+---------------------------|
+| Aries       | March 21 – April 19       |
+| Taurus      | April 20 – May 20         |
+| Gemini      | May 21 – June 20          |
+| Cancer      | June 21 – July 22         |
+| Leo         | July 23 – August 22       |
+| Virgo       | August 23 – September 22  |
+| Libra       | September 23 – October 22 |
+| Scorpio     | October 23 – November 21  |
+| Sagittarius | November 22 – December 19 |
+| Capricorn   | December 22 – January 19  |
+| Aquarius    | January 20 – February 18  |
+| Pisces      | February 19 – March 20    |
+|-------------+---------------------------|
+
+Circle the sign corresponding to your birthday, and based on the
+hypothesis you selected above (does/does not), what do you predict
+will be the outcome of this experiment? (max 3 lines).
+
+*** Step 4: Perform a test (the experiment)
+First read through the three sets of horoscopes for <2026-09-02 Wed>. Write
+down the number for each horoscope that best applies to you:
+
+Set 1: __________
+Set 2: ___________
+Set 3: ___________
+
+Now, I will reveal the sign that corresponds to each horoscope. Write down the signs that
+correspond to the numbers you selected above:
+
+Sign 1: ______________
+Sign 2: ________________
+Sign 3: ______________
+
+How many of the horoscopes did you identify correctly? ____________
+
+Now, we will collect data from the entire class. Please add your result to the Top Hat poll
+and copy results for the full class below.
+Percentage of students who correctly identified:
+
+0 horoscopes: ______
+1 horoscope: _______
+2 horoscopes: ______
+3 horoscopes: _______
+
+*** Step 5: Analyze the results
+If astrology is correct, we would expect everyone to pick all of the
+answers that correspond to their sign. But if astrology is incorrect,
+does that mean everyone will choose all of the wrong horoscopes? Of
+course not – it is possible to pick the correct horoscope by chance.
+
+We can compute the probability that you chose correctly by pure chance
+any number of times using the Binomial Theorem.
+
+The probability ($P$) for $k$ successes from $N$ trials where the
+probability of success is $p$ is given by:
+
+#+begin_equation
+\begin{equation}
+P(k, N, p) = \frac{N!}{k!(N-k)!} p^{k} (1-p)^{n-k} \ \ ,
+\end{equation}
+#+end_equation
+where that exclamation point ! indicates “factorial”, that is is the
+product of all integers equal to or less than a number.
+For instance, $4! = 4 \times 3 \times 2 \times 1 = 24$, and by definition, 0! = 1.
+
+The probability of success $p$ is the chance that you achieve an
+outcome once in one trial. For example, if you flip a fair coin, the
+probability of it coming up heads is one in two, or $p = 1/2 = 0.5$.
+
+- What are $p$ and $N$ in our experiment? ______
+- What is the probability that you would choose zero, one, two or
+  three correct horoscopes by guessing at random? ______
+:Hint:
+Use the binomial theorem with k = 0, 1, 2, and 3. This online calculator may be helpful:
+https://www.desmos.com/scientific
+:end:
+- Comparing with your classmates, do your correct guess numbers follow the
+  binomial distribution?  ______
+- What do you conclude about the efficacy of horoscopes? Does this outcome support
+  your original hypothesis? If not, create a new one.
+
+* Additional questions
+
+** Science
+Science seeks explanations that rely solely on natural causes and
+progresses through the creation and testing of models of nature. A
+theory, model, prediction, measurement, observation, etc. is
+“scientific” if it has these characteristics:
+
+- Repeatable
+- Objective
+- Predictive
+- Falsifiable (can be tested and updated if necessary!)
+
+A scientific theory is a simple yet powerful model that explains a
+wide variety of observations using just a few general principles and
+has been verified by repeated and varied testing.” Theories begin as
+hypotheses: testable predictions that can be corroborated or falsified
+via the scientific method. One common misconception is that scientific
+theories are "just theories".
+
+Can you think of a modern instance in which people have incorrectly
+argued that a scientific theory is “just a theory” with no more
+validity than an alternative belief? (max 4 lines) _______
+
+** Pseudoscience
+The term ‘pseudoscience’ refers to any belief, claim, practice, etc.
+that is presented as being ‘scientific’, but does not follow the
+scientific method or possess the characteristics discussed above.
+There are many examples of pseudoscience in our modern society.
+Pseudoscientific ideas range from the relatively harmless (such as
+cryptozoology, the belief that creatures like the Loch Ness monster
+and unicorns exist) to the downright evil (such as “scientific
+racism”, the belief that certain races of humans are biologically
+superior).
+
+- How easy or hard did you find it to compare the different horoscope “predictions”
+to your lived experience (and why)? Would you classify astrology as science or
+pseudoscience? (max 4 lines) ______
+- Think of two more examples of pseudoscience and explain why they are
+  pseudoscientific. (max 4 lines) ______
 
 
 
-* Pseudoscience vs. Science
+** Pseudoscience vs. Science
 
 |------------------------------------------------------------------------+-------------------------------------------------------------|
 | Science                                                                | Pseudoscience                                               |

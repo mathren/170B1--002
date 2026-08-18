@@ -60,7 +60,9 @@ Starting from next week, one homework /each week/ (11 assignments + 3
 lab writeups) starting on <2026-09-02 Wed>. Late submissions graded
 with 50% penalty.
 
-** TODO Labs
+** Labs
+There will be 2 or 3 in-class lab activities (one starting next week),
+with a report due as a homework assignment.
 
 ** Mid terms
 There will be two mid-terms, in class closed-book/notes, on

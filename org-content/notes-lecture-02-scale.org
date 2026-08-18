@@ -146,13 +146,13 @@ system move. But while this takes millions of years.
 #+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/ia0s1G8cdv0?si=HGu_MjUpLIeTv3v8&amp;start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 # https://www.youtube.com/watch?v=ia0s1G8cdv0&t=6s
 
-But there are other
-smaller motion that happen faster that influence how the sky appears
-to us. The Earth's rotation "wobbles" (precess) with a period of 10s
-of thousands of years: what was at certain celestial coordinates 2000
-years ago is not the same as today! The orbit of the Earth around the
-Sun also "wobbles", changing the plane of the ecliptic (i.e., the
-plane of the apparent motion of the Sun on the celestial sphere).
+But there are other smaller motion that happen faster that influence
+how the sky appears to us. The Earth's rotation "wobbles" (precess)
+with a period of 10s of thousands of years: what was at certain
+celestial coordinates 2000 years ago is not the same as today! The
+orbit of the Earth around the Sun also "wobbles", changing the plane
+of the ecliptic (i.e., the plane of the apparent motion of the Sun on
+the celestial sphere).
 
 #+CAPTION: Precession of the Earth's rotational axis.
 [[file:images/precession.png]]
