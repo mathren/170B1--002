@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2026-08-18 Tue 11:55 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ASTR170 Hist \&amp; Phil of Science</title>
+<meta name="author" content="Mathieu Renzo" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="./css/style.css" />
+<link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.min.css">
+<meta name="keywords" content="Mathieu, Renzo, Mathieu Renzo,
+			       stellar evolution, ASTR170B1, University of
+			       Arizona, Steward Observatory">
+</head>
+<body>
+<div id="preamble" class="status">
+<!-- Preamble -->
+<!-- The header -->
+<div class="header">
+
+  <!-- The site name -->
+  <div class="site-name">
+    <a id="top" href="./index.html">ASTR170B1</a>
+  </div>
+
+  <!-- The hamburger -->
+  <div class="hamburger">
+    <div id="myLinks" class="menu">
+      <a href="./index.html">Home</a>
+      <a href="./syllabus170B1.html">Syllabus</a>
+      <a href="./access_howto.html">How to</a>
+      <a href="./schedule.html">Schedule</a>
+      <!-- <a href="./projects.html">Projects</a> -->
+    </div>
+    <a  href="javascript:void(0);" class="icon" onclick="HamburgerMenuFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="navbar">
+    <a href="./syllabus170B1.html">Syllabus</a>
+    <a href="./access_howto.html">How to access</a>
+    <a href="./schedule.html">Schedule</a>
+    <!-- <a href="./projects.html">Projects</a> -->
+  </div>
+</div>
+
+<!-- scripts -->
+<!-- menu  -->
+<script>
+  function HamburgerMenuFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+	  x.style.display = "none";
+      } else {
+	  x.style.display = "block";
+      }
+  }
+</script>
+
+<!-- toggle drawers -->
+<script>
+  function toggleDrawer(id) {
+      const drawer = document.getElementById(id);
+      drawer.style.display = drawer.style.display === "none" ? "block" : "none";
+  }
+</script>
+
+<!-- toggle dark mode -->
+<script>
+  window.onload = () => {
+      const toggleButton = document.getElementById("light-dark-toggle");
+      const body = document.body;
+      const html = document.documentElement;
+
+
+      // Check localStorage for user preference
+      if (localStorage.getItem("theme") === "dark") {
+          body.classList.add("dark-mode");
+	  html.classList.toggle("dark-mode");
+      }
+
+      // Toggle theme on click
+      toggleButton.addEventListener("click", () => {
+          body.classList.toggle("dark-mode");
+  html.classList.toggle("dark-mode");
+
+          // Save user preference
+          if (body.classList.contains("dark-mode")) {
+              localStorage.setItem("theme", "dark");
+          } else {
+              localStorage.setItem("theme", "light");
+          }
+      });
+  };
+</script>
+<!-- end scripts-->
+</div>
+<div id="content" class="content">
+<p>
+<b>Reading:</b> Chapter 3
+</p>
+<div id="outline-container-history-and-philosophy-of-science" class="outline-2">
+<h2 id="history-and-philosophy-of-science"><a href="#history-and-philosophy-of-science">History and philosophy of science</a></h2>
+<div class="outline-text-2" id="text-org-element-1">
+<p>
+Scientific investigation is one of the key skills that allow human
+communities to adapt their environments to their own needs and lead to
+the apex role humans have in their environment.
+</p>
+
+<p>
+Defining precisely what science is is not a trivial question, and an
+entire field of philosophy concerns itself with this question. But in
+the broadest sense, science is the collective process of organizing
+known and quantitatively verifiable facts about natural phenomena in a
+coherent framework that allows us to understand, explain, and predict
+said phenomena.
+</p>
+
+<p>
+How this is done in detail throughout the history of humanity is
+inextricably intertwined with technological developments that allow
+the quantitative verification of factual information.
+</p>
+</div>
+<div id="outline-container-a-brief-history-of-astronomy" class="outline-3">
+<h3 id="a-brief-history-of-astronomy"><a href="#a-brief-history-of-astronomy">A brief history of astronomy</a></h3>
+<div class="outline-text-3" id="text-org-element-2">
+<p>
+As the record-keeping and description of the motion of celestial
+objects (though the course of a night, a month, and years), astronomy
+must be one of the oldest scientific endeavor of humanity.
+</p>
+
+<p>
+This is because:
+</p>
+<ol class="org-ol">
+<li>the sky night was accessible to every culture (before light pollution was a thing)</li>
+<li>knowledge of the sky night offered solutions to practical
+time-keeping and navigation issues</li>
+</ol>
+
+<p>
+Every community on Earth has observed the sky, and every community has
+needed time-keeping (the regularity in the apparent motion of the sky
+provide a natural clock) or navigation! Knowing when cold or harvest
+season are coming, or being able to navigate in the night are needs
+that can be met with naked eye observations of the sky, and we can be
+sure that every community in the history of humanity has developed
+some form of astronomical understanding (and associated mythology to
+transmit this knowledge across generations, see <a href="./notes-lecture-02-scale.html#org-element-3">Constellations</a>).
+</p>
+
+<p>
+As a "system of organizing knowledge", scientific thinking lived under
+the broader umbrella of philosophy for most of human history. However,
+within (western) philosophy one would typically distinguish <i>astronomy</i>
+as the description of <i>celestial</i> (as in non-Earthly) phenomena and
+<i>physics</i> as the study of nature as it works on Earth. These two were
+clearly distinguished and separated in the Aristotelian framework of a
+sub-lunar (Earthly) world and the super-lunar ideal world made of
+geometrically perfect circles. Seeking the same explanations for both
+"classes" of phenomena was an absurd program in context.
+</p>
+
+<p>
+It took about 200 years, starting in the 1600s, for astronomy and
+physics to converge into <i>astrophysics</i>, that is the application of the
+physical laws that apply on Earth and in laboratories to explain the
+observed astronomical phenomena.
+</p>
+
+<p>
+This occurred first with:
+</p>
+<ul class="org-ul">
+<li>16-17<sup>th</sup> century scientific revolution: unification of gravity on Earth and orbital motion of planets by Newton</li>
+<li>19<sup>th</sup> century technological advance: the ability to use spectra of
+light to determine the chemical composition of stars revealed the
+same materials in astronomical setting and on Earth.</li>
+</ul>
+
+<p>
+Astrophysics allows to test a lot of our physical understanding of
+natural processes in conditions that cannot be replicated in a
+laboratory experiment (e.g., the highest energy particles ever
+detected are cosmic rays, not at LHC or Fermilab, or it is impossible
+to make experiments on amounts of mass larger than the mass of the
+Earth on this planet, etc.), which have often probed and exposed the
+limits of understanding at a given time, allowing for further
+refinement and progress.
+</p>
+</div>
+</div>
+<div id="outline-container-ancient-astronomy" class="outline-3">
+<h3 id="ancient-astronomy"><a href="#ancient-astronomy">Ancient astronomy</a></h3>
+<div class="outline-text-3" id="text-org-element-4">
+<p>
+Most cultures have developed some investigation of astronomical
+phenomena for both practical and religious/ceremonial purposes. All
+these have as a pre-requisite careful observations and an organized
+system to verify and pass-on knowledge, the roots of scientific
+endeavors.
+</p>
+
+<p>
+While all these culture live(d) on the same planet under the same sky
+(modulo variations due to their position on Earth), not all focused on
+and recorded the same phenomena.
+</p>
+
+<p>
+For example, western culture strongly influenced by Aristotelian
+thought, was mostly concerned in finding perfect regularities in the
+"super lunar" world. This framework lead to a lot of recording of
+repeating regular phenomena and hard to predict patterns (planet
+motion, eclipse predictions, etc.).
+</p>
+
+<p>
+Viceversa eastern-Asian cultures (China, Korea, Japan) were interested
+in documenting the <i>changes</i> in the sky, which left much better record
+of unusual, non-repeating phenomena (e.g., the appearance of "new
+sources", such as the explosion of a star becoming visible from
+Earth), which although presumably visible in the western sky too, were
+largely ignored.
+</p>
+
+<p>
+The knowledge and use of astronomy by ancient cultures still reflects
+on many aspects of language, commonly used units (degrees, weeks,
+months, etc.), and archaeological evidence.
+</p>
+</div>
+<div id="outline-container-architecture" class="outline-4">
+<h4 id="architecture"><a href="#architecture">Architecture</a></h4>
+<div class="outline-text-4" id="text-org-element-5">
+<p>
+Lots of architecture across many disparate cultures is organized
+around astronomical events. Many buildings and even entire
+cities/citadels built across the world by very different cultures are
+aligned along the East-West or North-South direction, so that sunrise
+and/or sunset can produce particular light alignments and effects.
+</p>
+
+
+<figure id="org-element-6">
+<img src="./images/architecture.png" alt="architecture.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 1: </span>In clockwise order from the top left: Giza pyramids, Stonehenge, reconstruction of the Templo Mayor of Tenochtitlán, Macchu Picchu. These are examples of astronomically oriented architecture and urban planning.</figcaption>
+</figure>
+
+<p>
+A modern example is NYC, whose grid is not perfectly aligned in the
+North-South/East-West directions, and therefore experiences
+"Manhattanhenge" a few days before/after the equinoxes:
+</p>
+
+
+<figure id="org-element-7">
+<img src="./images/manhattanhenge.png" alt="manhattanhenge.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 2: </span>Manhattanhenge seen from 32<sup>nd</sup> street.</figcaption>
+</figure>
+</div>
+</div>
+<div id="outline-container-astronomical-time-keeping" class="outline-4">
+<h4 id="astronomical-time-keeping"><a href="#astronomical-time-keeping">Astronomical time-keeping</a></h4>
+<div class="outline-text-4" id="text-org-element-8">
+<p>
+Within the day, shades cast by long objects can be calibrated to make
+a sun-dial. This is one of the primary uses of, for example, Egyptian
+obelisks. The division of day-time in 12h (i.e., a full day in 24h)
+rather than 5 or 10h/day dates back to ancient Egypt choices (again
+mathematically justified by the large number of integer divisors of
+12, allowing for easy sub-divisions.)
+</p>
+
+
+
+<figure id="org-element-9">
+<img src="images/obelisk.png" alt="obelisk.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 3: </span>Obelisks from ancient Egypt were used as Sun dials.</figcaption>
+</figure>
+
+<p>
+A common example of use of astronomy for timekeeping are the name of
+the week days: in English, they are named after the Sun, Moon and the
+5 naked-eye planets. By the classical definition, a planet
+("wanderer") is anything moving in a "special way" in the sky
+including the Sun and the Moon!
+</p>
+
+
+<figure id="org-element-10">
+<img src="images/week_days.png" alt="week_days.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 4: </span>The names of the week days are based on astronomical objects notable for their peculiar motion, namely, the "planets".</figcaption>
+</figure>
+
+<p>
+The word "month" itself is related to "Moon", as it is approximately
+the amount of time it takes between a new and full moon (i.e., for the
+satellite to go around the Earth).
+</p>
+
+<p>
+On a longer timescale of several months, astronomy allows to predict
+seasons and likely weather conditions - a great help for agricultural
+planning. In central Africa, certain cultures used the orientation of
+the illuminated part of the Moon to foresee the advent of the rainy
+seasons:
+</p>
+
+
+<figure id="org-element-11">
+<img src="images/monsoon_season.png" alt="monsoon_season.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 5: </span>the orientation of the illuminated side of the Moon depends primarily on the latitude on Earth. At a given latitude though, it depends on the time of the year, because of the relative inclination of the Moon-around-the-Earth and Earth-around-the-Sun orbital planes.</figcaption>
+</figure>
+
+<p>
+Note that at the equator (central Africa), specifically between the
+tropics, the variations in Sun exposure and inclination during the
+year are fairly minor, resulting typically in just two seasons, rainy
+and dry.
+</p>
+
+<p>
+<b>N.B.:</b> The astronomical observations relevant to a specific culture
+correlate with and are influenced by the geographic position of that
+culture which determine what observations are more relevant. Another
+example is Polynesian explorers who combined knowledge of
+currents/swells and astronomical positions to navigate enormous
+distances.
+</p>
+
+<p>
+Some cultures were so precise in their observations that they became
+aware of secondary cycles in astronomical phenomena. For example, the
+orbit of the Moon around the Earth is slightly deformed (eccentric),
+and the most elongated direction slowly rotates too (precession of the
+nodes) with an 18.6 years period. This causes a periodic shift in the
+position of the rise of a full moon over this time, which is marked by
+the "Sun Dagger" made by Ancestral Pueblo people:
+</p>
+
+
+
+<figure id="org-element-12">
+<img src="images/Sundagger.png" alt="Sundagger.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 6: </span>Ancestral Pueblo people carved rocks in front of a spiral pattern to cast a specific shade. The position of the light w.r.t. the spiral changes throughout the years, and reaches the extremes only on long-period astronomical cycles.</figcaption>
+</figure>
+</div>
+</div>
+<div id="outline-container-calendars" class="outline-4">
+<h4 id="calendars"><a href="#calendars">Calendars</a></h4>
+<div class="outline-text-4" id="text-org-element-13">
+<p>
+Various people in antiquity tracked long-lasting astronomical changes
+to create calendars, and keep track of time throughout a year, and as
+the years pass.
+</p>
+
+<p>
+The modern standard calendar is based on the motion of the Earth
+around the Sun (<i>solar</i> calendar), but calendars based on the motion of
+the Moon around the Earth exist and are still in use (e.g., muslim or
+jewish calendars).
+</p>
+
+<p>
+Because the Moon's period is 29.5 days, 12 rounds of the Moon around
+the Earth take 12&times; 29.5 = 354 days, 11-less than it takes the Earth to
+go around the Sun. This explains why <i>lunar</i> calendars drift by this
+amount every year w.r.t. the solar calendar, requiring periodic
+"adjustments" to maintain certain astronomical events (e.g.,
+solstice/equinoxes) in the same month.
+</p>
+
+
+<figure id="org-element-14">
+<img src="./images/mayan_calendar.jpg" alt="mayan_calendar.jpg" width="100%">
+
+<figcaption><span class="figure-number">Figure 7: </span>Mayan Calendar.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-scientific-models" class="outline-2">
+<h2 id="scientific-models"><a href="#scientific-models">Scientific models</a></h2>
+<div class="outline-text-2" id="text-org-element-15">
+<p>
+To achieve this level of predictions of astronomical phenomena and
+competency in using them (for navigation, time-keeping, and cerimonial
+effect), all these cultures engaged in some form of scientific
+investigation.
+</p>
+
+<p>
+What "science" is exactly is surprisingly hard to define, and
+certainly has evolved with human cultures. Still in the 20<sup>th</sup> and 21<sup>st</sup>
+century, philosophers debate important details of the definition,
+while most scientists are not directly concerned with the general
+definition.
+</p>
+
+<p>
+Fundamentally, science requires making objective observations (e.g.,
+where the Sun rises on a given day), and formulating a hypothesis that
+may explain said observation without resorting to super-natural
+explanations. From the hypothesis, testable consequences should
+follow. This is <a href="https://en.wikipedia.org/wiki/Karl_Popper">Karl Popper</a>'s <i>falsificationism</i>: an hypothesis need to
+lead to testable predictions to be scientific, something typically
+missing in anything trying to "predict the future". The hypothesis can
+thus be tested on its predictions of observations/experiments, and
+either refined or confirmed.
+</p>
+
+
+<figure id="org-element-16">
+<img src="images/scientific_method.png" alt="scientific_method.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 8: </span>Simplified scheme of the scientific method (Popper's vision). In the grander scheme, diverse observations also need to fit together in a coherent picture, and there may be some observations that do not fit that are temporarily ignored or addressed as "special cases" (e.g., the motion of planets for geocentrism)</figcaption>
+</figure>
+
+<p>
+However, Popper's falsificationism is only a part of the story: many
+scientific theories have remained fashionable and dominant for
+centuries while observations falsifying them were available.
+</p>
+
+<p>
+The most notable example is perhaps the <i>precession of Mercury</i>: the
+small deformation in Mercury's orbit shifts position every year at a
+rate incompatible with Newton's law of Gravity, a fact that was well
+known and waved away for centuries before Einstein's theory of general
+relativity could reconcile the understanding of gravity with the
+observations.
+</p>
+
+<p>
+Therefore, while the basic process of falsificationism governs the
+day-to-day performing of experiments, there is an overarching
+scientific <i>culture</i> which determines on which problems to focus and
+which problems can be set aside and/or explained away as "special
+cases" during <i>normal science</i>. Only when technological and/or
+theoretical advances allow a new point of view on these normally
+ignored problems they become of interest and this can lead to a
+<i>scientific revolution</i> (these are the ideas of <a href="https://en.wikipedia.org/wiki/Thomas_Kuhn">Thomas Kuhn</a>, <a href="https://en.wikipedia.org/wiki/Imre_Lakatos">Imre
+Lakatos</a>, etc.).
+</p>
+
+<p>
+Note how every culture has applied consistently seeds of these method
+in various settings, suggesting maybe that the successfulness of this
+approach will naturally be recognized by human cultures, which will
+always tend towards understanding the world in a quantitative and
+actionable way.
+</p>
+</div>
+<div id="outline-container-example-of-evolution-of-a-scientific-model-planets-and-the-solar-system" class="outline-3">
+<h3 id="example-of-evolution-of-a-scientific-model-planets-and-the-solar-system"><a href="#example-of-evolution-of-a-scientific-model-planets-and-the-solar-system">Example of evolution of a scientific model: planets and the Solar system</a></h3>
+<div class="outline-text-3" id="text-org-element-17">
+<ul class="org-ul">
+<li>Anaximander: geocentrism with spheres moving Sun, Moon, and planets</li>
+<li>Plato: idealization of the <i>super-lunar</i> world</li>
+<li>Aristotle: physical nature of spheres</li>
+<li>Ptolemy: add epicycles to explain retrograde motion</li>
+<li>Copernicus: revives Aristarchus heliocentric idea to calculate
+planet positions, but keeps perfect circles.</li>
+<li>Tycho: naked eye precise observations</li>
+<li>Kepler: abandons circular orbits, enunciates phenomenological
+descriptive laws of the planetary motion</li>
+<li>Galileo: demonstrates <i>Galilean</i> invariance, no need to feel a "wind"
+if Earth moves, finds Medicean satellites, phases of Venus</li>
+<li>Newton:</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<div class="footer">
+  <hr>
+  <a href="#light-dark-toggle"><i id="light-dark-toggle"><i class="fa-solid fa-circle-half-stroke"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-02-scale.html"><i class="fa-solid fa-arrow-left" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="#top"><i class="fa-solid fa-arrow-up" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-04-gravity-motion.html"><i class="fa-solid fa-arrow-right" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/mathren/170B1--002"><i class="fa-brands fa-github" style="font-size:16px"></i></a><hr>
+  <br>
+  Last updated on 18 August 2026 <br>
+  Made with Emacs 30.1 - Org mode 9.7.11
+  <br>
+</div>
+</div>
+</body>
+</html>

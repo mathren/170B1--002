@@ -63,12 +63,16 @@ Chapter 1-2
 
 # Assign Homework 1
 
+[[./notes-lecture-02-scale.org][Notes]]
+
 
 ** Week 2
 Chapter 3; Lab 1
 
 *** <2026-08-31 Mon> - History of Astronomy
 # in class attendance
+
+[[./notes-lectuere-03-history_and_philosophy_of_science.org][Notes]]
 *** <2026-09-02 Wed> - Nature of Science
 # in class attendance
 DEADLINE: Homework, in class quiz
