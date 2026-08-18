@@ -1,0 +1,46 @@
+#+title: ASTR170 Lab 1
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: notes-lecture-03-history_and_philosophy_of_science.org
+#+NEXT_PAGE:
+
+*Reading*: Chapter 3
+
+This is an in-class lab activity to be completed in groups of 2-3
+people, but you should each turn in your own paper. You should answer
+all of the questions in the space provided. Each group member should
+participate equally in the lab.
+
+*Aim*: /Introduce the concept of pseudoscience and to begin to identify
+the qualities that distinguish it from true science/.
+
+
+* Case study: Astrology
+
+
+** Initial question
+
+What is science? What is pseudoscience? Why is it important to know
+the distinction as you navigate today’s world? /Discuss with your
+classmates and briefly note your initial thoughts on this topic/. How
+would you explain the difference between science and pseudoscience to
+a friend?
+
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+
+
+
+* Pseudoscience vs. Science
+
+|------------------------------------------------------------------------+-------------------------------------------------------------|
+| Science                                                                | Pseudoscience                                               |
+|------------------------------------------------------------------------+-------------------------------------------------------------|
+| based on objective observations                                        | not necessarily (e.g., interpretation of coffee left-overs) |
+|------------------------------------------------------------------------+-------------------------------------------------------------|
+| makes quantitative and testable predictions                            | makes vague predictions adaptable to many outcomes          |
+|------------------------------------------------------------------------+-------------------------------------------------------------|
+| Prefers the simple explanations exclusively based on natural phenomena | does not change in the face of new evidence                 |                                                                        |                                                             |
+|------------------------------------------------------------------------+-------------------------------------------------------------|

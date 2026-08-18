@@ -1,11 +1,10 @@
-#+title: ASTR170 Hist \& Phil of Science
+#+title: ASTR170 History & Philosophy of Science
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-02-scale.org
-#+NEXT_PAGE: notes-lecture-04-gravity-motion.org
+#+NEXT_PAGE: lab1_astrology_and_pseudosciences.org
 
 *Reading:* Chapter 3
-
 
 * History and philosophy of science
 
@@ -29,7 +28,6 @@ As the record-keeping and description of the motion of celestial
 objects (though the course of a night, a month, and years), astronomy
 must be one of the oldest scientific endeavor of humanity.
 
-This is because:
 1. the sky night was accessible to every culture (before light pollution was a thing)
 2. knowledge of the sky night offered solutions to practical
    time-keeping and navigation issues
@@ -43,6 +41,12 @@ sure that every community in the history of humanity has developed
 some form of astronomical understanding (and associated mythology to
 transmit this knowledge across generations, see [[./notes-lecture-02-scale.org::*Constellations][Constellations]]).
 
+This is because:
+It took about 200 years, starting in the 1600s, for astronomy and
+physics to converge into /astrophysics/, that is the application of the
+physical laws that apply on Earth and in laboratories to explain the
+observed astronomical phenomena.
+
 As a "system of organizing knowledge", scientific thinking lived under
 the broader umbrella of philosophy for most of human history. However,
 within (western) philosophy one would typically distinguish /astronomy/
@@ -52,11 +56,6 @@ clearly distinguished and separated in the Aristotelian framework of a
 sub-lunar (Earthly) world and the super-lunar ideal world made of
 geometrically perfect circles. Seeking the same explanations for both
 "classes" of phenomena was an absurd program in context.
-
-It took about 200 years, starting in the 1600s, for astronomy and
-physics to converge into /astrophysics/, that is the application of the
-physical laws that apply on Earth and in laboratories to explain the
-observed astronomical phenomena.
 
 This occurred first with:
 - 16-17^{th} century scientific revolution: unification of gravity on Earth and orbital motion of planets by Newton
@@ -199,7 +198,25 @@ solstice/equinoxes) in the same month.
 #+CAPTION: Mayan Calendar.
 [[./images/mayan_calendar.jpg]]
 
-* Scientific models
+* Development of scientific ideas
+
+
+- Anaximander: geocentrism with spheres moving Sun, Moon, and planets
+- Plato: idealization of the /super-lunar/ world
+- Aristotle: physical nature of spheres
+- Ptolemy: add epicycles to explain retrograde motion
+- Copernicus: revives Aristarchus heliocentric idea to calculate
+  planet positions, but keeps perfect circles.
+- Tycho: naked eye precise observations
+- Kepler: abandons circular orbits, enunciates phenomenological
+  descriptive laws of the planetary motion
+- Galileo: demonstrates /Galilean/ invariance, no need to feel a "wind"
+  if Earth moves, finds Medicean satellites, phases of Venus
+- Newton:
+
+
+
+** Scientific models
 
 To achieve this level of predictions of astronomical phenomena and
 competency in using them (for navigation, time-keeping, and cerimonial
@@ -246,23 +263,41 @@ ignored problems they become of interest and this can lead to a
 /scientific revolution/ (these are the ideas of [[https://en.wikipedia.org/wiki/Thomas_Kuhn][Thomas Kuhn]], [[https://en.wikipedia.org/wiki/Imre_Lakatos][Imre
 Lakatos]], etc.).
 
+
+#+CAPTION: Characteristics of valid science
+[[file:images/hallmarks.png]]
+
+
 Note how every culture has applied consistently seeds of these method
 in various settings, suggesting maybe that the successfulness of this
 approach will naturally be recognized by human cultures, which will
 always tend towards understanding the world in a quantitative and
 actionable way.
 
-** Example of evolution of a scientific model: planets and the Solar system
+** Occam Razor
+Another key tenant of scientific investigation is to strive for
+/simplicity/. This doesn't mean shying away from complex math (often
+physicists have had to develop or rediscover new forms of math for
+their needs), but it means that a good scientific /theory/ has to make
+the smallest possible number of assumptions to explain the largest
+number of phenomena.
 
-- Anaximander: geocentrism with spheres moving Sun, Moon, and planets
-- Plato: idealization of the /super-lunar/ world
-- Aristotle: physical nature of spheres
-- Ptolemy: add epicycles to explain retrograde motion
-- Copernicus: revives Aristarchus heliocentric idea to calculate
-  planet positions, but keeps perfect circles.
-- Tycho: naked eye precise observations
-- Kepler: abandons circular orbits, enunciates phenomenological
-  descriptive laws of the planetary motion
-- Galileo: demonstrates /Galilean/ invariance, no need to feel a "wind"
-  if Earth moves, finds Medicean satellites, phases of Venus
-- Newton:
+This is often referred to as "Occam's razor", because the simplicity
+criterion allows to shave off most explanation and prefer always the
+simplest one.
+
+
+#+CAPTION: Occam was a monk who proposed that all else being equal, the simplest explanation should be preferred.
+[[https://en.wikipedia.org/wiki/Occam%27s_razor#/media/File:William_of_Ockham.png]]
+
+For example: in ancient Greece most thinkers favored a geocentric
+model of the Universe. This was the simplest at the time: it did not
+require to explain the lack of parallax observed for stars, despite
+requiring adjustments (in the form of epicycles) for 5 special objects
+(the planets), the Sun and the Moon.
+
+But with Copernicus calculations and Kepler's laws, the simpler model
+became a heliocentric one, where no object required any special
+explanation (planet motion is perfectly explained), as the main
+argument against geocentrism became progressively weaker with the
+realization that stars are much farther than originally thought.
