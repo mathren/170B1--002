@@ -50,8 +50,7 @@ The schedule below is subject to adjustments as needed.
 #+END_EXPORT
 
 
-** Week 1
-Chapter 1-2
+** Week 1: Chapter 1-2
 
 *** <2026-08-24 Mon> - Scale of The Universe
 
@@ -63,11 +62,8 @@ Chapter 1-2
 
 # Assign Homework 1
 
-[[./notes-lecture-02-scale.org][Notes]]
 
-
-** Week 2
-Chapter 3; Lab 1
+** Week 2: Chapter 3; Lab 1
 
 *** <2026-08-31 Mon> - History of Astronomy
 # in class attendance
@@ -79,8 +75,7 @@ DEADLINE: Homework, in class quiz
 # Deadline Homework 1, Assign Homework 2 (Lab1)
 in class quiz
 
-** Week 3
-Chapter 4
+** Week 3: Chapter 4
 
 *** <2026-09-07 Mon> - *No lecture: Labor day*
 *** <2026-09-09 Wed> - Motion and gravity
@@ -88,8 +83,7 @@ Chapter 4
 # Deadline Homework 2 (Lab1), Assign Homework 3
 DEADLINE: Homework, in class quiz
 
-** Week 4
-Chapter 4, 5
+** Week 4: Chapter 4, 5
 
 *** <2026-09-14 Mon> - Motion and Gravity
 # in class attendance
@@ -98,8 +92,7 @@ Chapter 4, 5
 # Deadline Homework 3, Assign Homework 4
 DEADLINE: Homework, in class quiz
 
-** Week 5
-Chapter 5, 6; Lab 2
+** Week 5: Chapter 5, 6; Lab 2
 
 *** <2026-09-21 Mon> - Light, Matter
 # in class attendance
@@ -108,8 +101,7 @@ Chapter 5, 6; Lab 2
 # Deadline Homework 4, Assign Homework 5
 DEADLINE: Homework, in class quiz
 
-** Week 6
-Chapter 7
+** Week 6: Chapter 7
 
 *** <2026-09-28 Mon> - Our Solar System
 
@@ -118,8 +110,7 @@ Chapter 7
 # Deadline Homework 5 (Lab 2), Assign Homework 6
 DEADLINE: Homework, In class exam
 
-** Week 7
-Chapter 8, 9, 10
+** Week 7: Chapter 8, 9, 10
 # ITC workshop
 *** <2026-10-05 Mon> - Our Solar System
 # in class attendance
@@ -128,8 +119,7 @@ Chapter 8, 9, 10
 # Deadline Homework 6, Assign Homework 7
 DEADLINE: Homework, in class quiz
 
-** Week 8
-Chapter 11, 12, 14
+** Week 8: Chapter 11, 12, 14
 
 *** <2026-10-12 Mon> - Jovian planets
 # in class attendance
@@ -138,8 +128,7 @@ Chapter 11, 12, 14
 # Deadline Homework 7, Assign Homework 8
 DEADLINE: Homework, in class quiz
 
-** Week 9
-Chapter 14, 15
+** Week 9: Chapter 14, 15
 
 *** <2026-10-19 Mon> - Sun
 # in class attendance
@@ -148,8 +137,7 @@ Chapter 14, 15
 # Deadline Homework 8, Assign Homework 9
 DEADLINE: Homework, in class quiz
 
-** Week 10
-Chapter 15, 16, 17, 18
+** Week 10: Chapter 15, 16, 17, 18
 
 *** <2026-10-26 Mon> - Star Formation and Stellar evolution
 # in class attendance
@@ -158,8 +146,7 @@ Chapter 15, 16, 17, 18
 # Deadline Homework 9, Assign Homework 10
 DEADLINE: Homework, in class quiz
 
-** Week 11
-Chapter 18
+** Week 11: Chapter 18
 
 *** <2026-11-02 Mon> - Dead stars and black holes
 # in class attendance
@@ -167,8 +154,7 @@ Chapter 18
 # Deadline Homework 10, Assign Homework 11
 DEADLINE: Homework, In class exam
 
-** Week 12
-Chapter 19, 20
+** Week 12: Chapter 19, 20
 
 *** <2026-11-09 Mon> - The Milty way, Galaxy evolution
 # in class attendance
@@ -176,8 +162,7 @@ Chapter 19, 20
 # Deadline Homework 11, Assign Homework 12
 DEADLINE: Homework, in class quiz
 
-** Week 13
-Chapter 21, 22
+** Week 13: Chapter 21, 22
 
 *** <2026-11-16 Mon> - Hubble's law
 # in class attendance
@@ -186,15 +171,15 @@ Chapter 21, 22
 # Deadline Homework 12, assign Homework 13
 DEADLINE: Homework, in class quiz
 
-** Week 14
+** Week 14:
+
 *** <2026-11-23 Mon> - buffer
 # in class attendance
 *** <2026-11-25 Wed> - buffer (day before Thanksgiving)
 # in class attendance
 DEADLINE: Signature assignment, in class quiz
 
-** Week 15
-Chapter 22, 23; Lab 3
+** Week 15: Chapter 22, 23; Lab 3
 
 *** <2026-11-30 Mon> - Cosmology
 # in class attendance
@@ -203,8 +188,7 @@ Chapter 22, 23; Lab 3
 # Deadline Homework 13, Assign Homework 14
 DEADLINE: Homework, in class quiz
 
-** Week 16
-Chapter 13, 24
+** Week 16: Chapter 13, 24
 
 *** <2026-12-07 Mon> - Exoplanets
 # in class attendance
