@@ -29,14 +29,19 @@ As the record-keeping and description of the motion of celestial
 objects (though the course of a night, a month, and years), astronomy
 must be one of the oldest scientific endeavor of humanity.
 
+This is because:
+1. the sky night was accessible to every culture (before light pollution was a thing)
+2. knowledge of the sky night offered solutions to practical
+   time-keeping and navigation issues
+
 Every community on Earth has observed the sky, and every community has
 needed time-keeping (the regularity in the apparent motion of the sky
-provide a natural clock) or navigation! Knowing when cold or harvest season are
-coming, or being able to navigate in the night are needs that can be
-met with naked eye observations of the sky, and we can be sure that
-every community in the history of humanity has developed some form of
-astronomical understanding (and associated mythology to transmit this
-knowledge across generations, see [[./notes-lecture-02-scale.org::*Constellations][Constellations]]).
+provide a natural clock) or navigation! Knowing when cold or harvest
+season are coming, or being able to navigate in the night are needs
+that can be met with naked eye observations of the sky, and we can be
+sure that every community in the history of humanity has developed
+some form of astronomical understanding (and associated mythology to
+transmit this knowledge across generations, see [[./notes-lecture-02-scale.org::*Constellations][Constellations]]).
 
 As a "system of organizing knowledge", scientific thinking lived under
 the broader umbrella of philosophy for most of human history. However,
@@ -45,13 +50,13 @@ as the description of /celestial/ (as in non-Earthly) phenomena and
 /physics/ as the study of nature as it works on Earth. These two were
 clearly distinguished and separated in the Aristotelian framework of a
 sub-lunar (Earthly) world and the super-lunar ideal world made of
-geometrically perfect circles, and seeking the same explanations for
-both "classes" of phenomena was an absurd program in context.
+geometrically perfect circles. Seeking the same explanations for both
+"classes" of phenomena was an absurd program in context.
 
-It took about 200 years for astronomy and physics to converge into
-/astrophysics/, that is the application of the physical laws that apply
-on Earth and in laboratories to explain the observed astronomical
-phenomena.
+It took about 200 years, starting in the 1600s, for astronomy and
+physics to converge into /astrophysics/, that is the application of the
+physical laws that apply on Earth and in laboratories to explain the
+observed astronomical phenomena.
 
 This occurred first with:
 - 16-17^{th} century scientific revolution: unification of gravity on Earth and orbital motion of planets by Newton
@@ -59,7 +64,73 @@ This occurred first with:
   light to determine the chemical composition of stars revealed the
   same materials in astronomical setting and on Earth.
 
-** Astronomical time-keeping
+Astrophysics allows to test a lot of our physical understanding of
+natural processes in conditions that cannot be replicated in a
+laboratory experiment (e.g., the highest energy particles ever
+detected are cosmic rays, not at LHC or Fermilab, or it is impossible
+to make experiments on amounts of mass larger than the mass of the
+Earth on this planet, etc.), which have often probed and exposed the
+limits of understanding at a given time, allowing for further
+refinement and progress.
+
+** Ancient astronomy
+Most cultures have developed some investigation of astronomical
+phenomena for both practical and religious/ceremonial purposes. All
+these have as a pre-requisite careful observations and an organized
+system to verify and pass-on knowledge, the roots of scientific
+endeavors.
+
+While all these culture live(d) on the same planet under the same sky
+(modulo variations due to their position on Earth), not all focused on
+and recorded the same phenomena.
+
+For example, western culture strongly influenced by Aristotelian
+thought, was mostly concerned in finding perfect regularities in the
+"super lunar" world. This framework lead to a lot of recording of
+repeating regular phenomena and hard to predict patterns (planet
+motion, eclipse predictions, etc.).
+
+Viceversa eastern-Asian cultures (China, Korea, Japan) were interested
+in documenting the /changes/ in the sky, which left much better record
+of unusual, non-repeating phenomena (e.g., the appearance of "new
+sources", such as the explosion of a star becoming visible from
+Earth), which although presumably visible in the western sky too, were
+largely ignored.
+
+The knowledge and use of astronomy by ancient cultures still reflects
+on many aspects of language, commonly used units (degrees, weeks,
+months, etc.), and archaeological evidence.
+
+
+*** Architecture
+Lots of architecture across many disparate cultures is organized
+around astronomical events. Many buildings and even entire
+cities/citadels built across the world by very different cultures are
+aligned along the East-West or North-South direction, so that sunrise
+and/or sunset can produce particular light alignments and effects.
+
+#+CAPTION: In clockwise order from the top left: Giza pyramids, Stonehenge, reconstruction of the Templo Mayor of Tenochtitlán, Macchu Picchu. These are examples of astronomically oriented architecture and urban planning.
+[[./images/architecture.png]]
+
+A modern example is NYC, whose grid is not perfectly aligned in the
+North-South/East-West directions, and therefore experiences
+"Manhattanhenge" a few days before/after the equinoxes:
+
+#+Caption: Manhattanhenge seen from 32^{nd} street.
+[[./images/manhattanhenge.png]]
+
+
+*** Astronomical time-keeping
+Within the day, shades cast by long objects can be calibrated to make
+a sun-dial. This is one of the primary uses of, for example, Egyptian
+obelisks. The division of day-time in 12h (i.e., a full day in 24h)
+rather than 5 or 10h/day dates back to ancient Egypt choices (again
+mathematically justified by the large number of integer divisors of
+12, allowing for easy sub-divisions.)
+
+
+#+CAPTION: Obelisks from ancient Egypt were used as Sun dials.
+[[file:images/obelisk.png]]
 
 A common example of use of astronomy for timekeeping are the name of
 the week days: in English, they are named after the Sun, Moon and the
@@ -67,13 +138,131 @@ the week days: in English, they are named after the Sun, Moon and the
 ("wanderer") is anything moving in a "special way" in the sky
 including the Sun and the Moon!
 
-*** Sun dials
+#+CAPTION: The names of the week days are based on astronomical objects notable for their peculiar motion, namely, the "planets".
+[[file:images/week_days.png]]
 
-*** Seasons
+The word "month" itself is related to "Moon", as it is approximately
+the amount of time it takes between a new and full moon (i.e., for the
+satellite to go around the Earth).
 
-But there are more sophisticated examples. In central africa, certain
-cultures used the orientation of the illuminated part of the Moon to
-foresee the advent of the rainy seasons:
+On a longer timescale of several months, astronomy allows to predict
+seasons and likely weather conditions - a great help for agricultural
+planning. In central Africa, certain cultures used the orientation of
+the illuminated part of the Moon to foresee the advent of the rainy
+seasons:
 
 #+Caption: the orientation of the illuminated side of the Moon depends primarily on the latitude on Earth. At a given latitude though, it depends on the time of the year, because of the relative inclination of the Moon-around-the-Earth and Earth-around-the-Sun orbital planes.
 [[file:images/monsoon_season.png]]
+
+Note that at the equator (central Africa), specifically between the
+tropics, the variations in Sun exposure and inclination during the
+year are fairly minor, resulting typically in just two seasons, rainy
+and dry.
+
+*N.B.:* The astronomical observations relevant to a specific culture
+correlate with and are influenced by the geographic position of that
+culture which determine what observations are more relevant. Another
+example is Polynesian explorers who combined knowledge of
+currents/swells and astronomical positions to navigate enormous
+distances.
+
+Some cultures were so precise in their observations that they became
+aware of secondary cycles in astronomical phenomena. For example, the
+orbit of the Moon around the Earth is slightly deformed (eccentric),
+and the most elongated direction slowly rotates too (precession of the
+nodes) with an 18.6 years period. This causes a periodic shift in the
+position of the rise of a full moon over this time, which is marked by
+the "Sun Dagger" made by Ancestral Pueblo people:
+
+
+#+CAPTION: Ancestral Pueblo people carved rocks in front of a spiral pattern to cast a specific shade. The position of the light w.r.t. the spiral changes throughout the years, and reaches the extremes only on long-period astronomical cycles.
+[[file:images/Sundagger.png]]
+
+*** Calendars
+
+Various people in antiquity tracked long-lasting astronomical changes
+to create calendars, and keep track of time throughout a year, and as
+the years pass.
+
+The modern standard calendar is based on the motion of the Earth
+around the Sun (/solar/ calendar), but calendars based on the motion of
+the Moon around the Earth exist and are still in use (e.g., muslim or
+jewish calendars).
+
+Because the Moon's period is 29.5 days, 12 rounds of the Moon around
+the Earth take 12\times 29.5 = 354 days, 11-less than it takes the Earth to
+go around the Sun. This explains why /lunar/ calendars drift by this
+amount every year w.r.t. the solar calendar, requiring periodic
+"adjustments" to maintain certain astronomical events (e.g.,
+solstice/equinoxes) in the same month.
+
+#+CAPTION: Mayan Calendar.
+[[./images/mayan_calendar.jpg]]
+
+* Scientific models
+
+To achieve this level of predictions of astronomical phenomena and
+competency in using them (for navigation, time-keeping, and cerimonial
+effect), all these cultures engaged in some form of scientific
+investigation.
+
+What "science" is exactly is surprisingly hard to define, and
+certainly has evolved with human cultures. Still in the 20^{th} and 21^{st}
+century, philosophers debate important details of the definition,
+while most scientists are not directly concerned with the general
+definition.
+
+Fundamentally, science requires making objective observations (e.g.,
+where the Sun rises on a given day), and formulating a hypothesis that
+may explain said observation without resorting to super-natural
+explanations. From the hypothesis, testable consequences should
+follow. This is [[https://en.wikipedia.org/wiki/Karl_Popper][Karl Popper]]'s /falsificationism/: an hypothesis need to
+lead to testable predictions to be scientific, something typically
+missing in anything trying to "predict the future". The hypothesis can
+thus be tested on its predictions of observations/experiments, and
+either refined or confirmed.
+
+#+Caption: Simplified scheme of the scientific method (Popper's vision). In the grander scheme, diverse observations also need to fit together in a coherent picture, and there may be some observations that do not fit that are temporarily ignored or addressed as "special cases" (e.g., the motion of planets for geocentrism)
+[[file:images/scientific_method.png]]
+
+However, Popper's falsificationism is only a part of the story: many
+scientific theories have remained fashionable and dominant for
+centuries while observations falsifying them were available.
+
+The most notable example is perhaps the /precession of Mercury/: the
+small deformation in Mercury's orbit shifts position every year at a
+rate incompatible with Newton's law of Gravity, a fact that was well
+known and waved away for centuries before Einstein's theory of general
+relativity could reconcile the understanding of gravity with the
+observations.
+
+Therefore, while the basic process of falsificationism governs the
+day-to-day performing of experiments, there is an overarching
+scientific /culture/ which determines on which problems to focus and
+which problems can be set aside and/or explained away as "special
+cases" during /normal science/. Only when technological and/or
+theoretical advances allow a new point of view on these normally
+ignored problems they become of interest and this can lead to a
+/scientific revolution/ (these are the ideas of [[https://en.wikipedia.org/wiki/Thomas_Kuhn][Thomas Kuhn]], [[https://en.wikipedia.org/wiki/Imre_Lakatos][Imre
+Lakatos]], etc.).
+
+Note how every culture has applied consistently seeds of these method
+in various settings, suggesting maybe that the successfulness of this
+approach will naturally be recognized by human cultures, which will
+always tend towards understanding the world in a quantitative and
+actionable way.
+
+** Example of evolution of a scientific model: planets and the Solar system
+
+- Anaximander: geocentrism with spheres moving Sun, Moon, and planets
+- Plato: idealization of the /super-lunar/ world
+- Aristotle: physical nature of spheres
+- Ptolemy: add epicycles to explain retrograde motion
+- Copernicus: revives Aristarchus heliocentric idea to calculate
+  planet positions, but keeps perfect circles.
+- Tycho: naked eye precise observations
+- Kepler: abandons circular orbits, enunciates phenomenological
+  descriptive laws of the planetary motion
+- Galileo: demonstrates /Galilean/ invariance, no need to feel a "wind"
+  if Earth moves, finds Medicean satellites, phases of Venus
+- Newton:

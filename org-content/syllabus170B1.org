@@ -60,46 +60,6 @@ We reserve the right to make the grading slightly easier, but will not
 raise these thresholds. Under no circumstances will anyone doing less
 than 50% work pass this class.
 
-** Exams
-Midterm and final exam will be in class closed-book/notes exams.
-Nothing may be on your desk aside from your TopHat device during the
-exam. Any attempt to access non-exam materials will result in an
-immediate failure. If you have any accessibility concerns about the
-exam format, please reach out to the DRC and Prof. Renzo prior to the
-exam to work out any accommodations.
-
-** Weekly online homework
-On most Tuesdays at 11:59pm an homework assignment will be due (see
-[[./schedule.org][schedule]]). *All assignments will be submitted electronically*.
-# Two attempts per questions should be possible.
-Late submissions are allowed until Wednesday 11:59pm, but with 50%
-penalty on the grade for the parts submitted late.
-
-You should access Mastering Astronomy through Brightspace from the
-Content tab of our course webpage (see [[./access_howto.org][how to]]). You may discuss the
-astronomy concepts with your classmates, but you are expected to do
-your own work on these assignments.
-
-Grades will be posted on Brightspace as soon as possible after the
-assignment is collected. Any questions, disputes, or mistakes must be
-identified and brought to Neev Shah and/or Prof. Renzo’s attention
-within 3 business days of the grade being posted. After that, all
-grades are finalized, although questions are still answered.
-
-You have *one free no questions asked 3-day-late* (72 hours after the
-due date/time) turn in for one homework assignment that can be used by
-you in case of dire need. Note that this CANNOT be used for the
-Signature Assignment. Please inform Neev Shah and Prof. Renzo on the day
-the assignment is due to use this late turn in. Sometimes everyone has
-a difficult day. Assignments can be turned in early if desired. Please
-do not provide any details. Otherwise, homework turned in late will be
-graded, with a 50% late penalty. This applies to all Mastering
-Astronomy assignments, Labs, and the Mastering tutorials of the
-Signature Assignment, but NOT the Signature Assignment Digication
-ePortfolio.If you have extenuating circumstances which cannot be met
-by this policy, please inform the Professor. The final deadline to
-turn in any late work is Saturday, December 12 at 11:59pm.
-
 ** Participation
 This is an in-person class and regular attendance is expected.
 *N.B.:* You may miss up to 4 lectures for any reason without affecting
@@ -137,6 +97,46 @@ for informing Prof. Renzo promptly if this is the case.
   it is your responsibility to contact Prof. Renzo for a makeup
   option. *DO THIS EARLY*, do not wait until the end of the semester.
   All lecture slides will be posted to D2L.
+
+** Exams
+Midterm and final exam will be in class closed-book/notes exams.
+Nothing may be on your desk aside from your [[https://help.intech.arizona.edu/article/397-what-is-top-hat][Top Hat]] device during the
+exam. Any attempt to access non-exam materials will result in an
+immediate failure. If you have any accessibility concerns about the
+exam format, please reach out to the DRC and Prof. Renzo prior to the
+exam to work out any accommodations.
+
+** Weekly online homework
+On most Tuesdays at 11:59pm an homework assignment will be due (see
+[[./schedule.org][schedule]]). *All assignments will be submitted electronically*.
+# Two attempts per questions should be possible.
+Late submissions are allowed until Wednesday 11:59pm, but with 50%
+penalty on the grade for the parts submitted late.
+
+You should access Mastering Astronomy through Brightspace from the
+Content tab of our course webpage (see [[./access_howto.org][how to]]). You may discuss the
+astronomy concepts with your classmates, but you are expected to do
+your own work on these assignments.
+
+Grades will be posted on Brightspace as soon as possible after the
+assignment is collected. Any questions, disputes, or mistakes must be
+identified and brought to Neev Shah and/or Prof. Renzo’s attention
+within 3 business days of the grade being posted. After that, all
+grades are finalized, although questions are still answered.
+
+You have *one free no questions asked 3-day-late* (72 hours after the
+due date/time) turn in for one homework assignment that can be used by
+you in case of dire need. Note that this CANNOT be used for the
+Signature Assignment. Please inform Neev Shah and Prof. Renzo on the day
+the assignment is due to use this late turn in. Sometimes everyone has
+a difficult day. Assignments can be turned in early if desired. Please
+do not provide any details. Otherwise, homework turned in late will be
+graded, with a 50% late penalty. This applies to all Mastering
+Astronomy assignments, Labs, and the Mastering tutorials of the
+Signature Assignment, but NOT the Signature Assignment Digication
+ePortfolio.If you have extenuating circumstances which cannot be met
+by this policy, please inform the Professor. The final deadline to
+turn in any late work is Saturday, December 12 at 11:59pm.
 
 ** In-class Labs
 There are three labs throughout the semester (see [[./schedule.org][schedule]]),

@@ -251,6 +251,23 @@ such input (due to the length of the path on the sky) causes the atmosphere
 and Earth below it to be "forced" differently, creating different
 climate conditions along the year.
 
+** Equinoxes and Solstices
+\sim21 March and \sim 21 September approximately mark the day of the Spring
+and Fall equinoxes, which are the days in which the Sun shines for the
+same amount of time on both hemispheres. In these days the Sun rises
+and sets exactly at East and West, respectively.
+
+\sim 21 June and ~21 December are instead the Summer and Winter
+solstices, the days where in the northern hemisphere the sunlight is
+longest and shortest respectively.
+
+These approximate dates, or more precisely, the astronomical events
+occurring on these dates have influenced religions all over the world,
+with every culture having some form of winter solstice celebration
+(amount of daylight bouncing back and increasing again), equinoxes,
+etc.
+
+
 
 * The moon
 
@@ -367,7 +384,6 @@ ability to manipulate Native americans on his arrival).
 The word comes from greek "wanderer" because their motion on the
 celestial sphere as observed through the years from Earth seems
 irregular, relative to background stars.
-
 
 #+CAPTION: example of retrograde portion of the orbit of Mars, each picture taken at 5-9 days of interval at the same time. Note the planet is brighter at the bottom of the loop, when it is closest to Earth!
 [[file:images/mars_retrograde.png]]
