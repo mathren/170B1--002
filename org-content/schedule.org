@@ -75,6 +75,8 @@ DEADLINE: Homework, in class quiz
 # Deadline Homework 1, Assign Homework 2 (Lab1)
 in class quiz
 
+[[./lab1_astrology_and_pseudosciences.org][Notes]]
+
 ** Week 3: Chapter 4
 
 *** <2026-09-07 Mon> - *No lecture: Labor day*
