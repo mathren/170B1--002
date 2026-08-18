@@ -62,20 +62,20 @@ than 50% work pass this class.
 
 ** Participation
 This is an in-person class and regular attendance is expected.
-*N.B.:* You may miss up to 4 lectures for any reason without affecting
-your participation grade.
-
 Participation will be measured electronically at each lecture using
-the Top Hat app. Top Hat will run on a phone, tablet or laptop. You
-are responsible to bring your device to every class period. To
-encourage you to do so, we will give you participation points for
-using your device in class. Students who forget to bring their device
-to class will not receive participation points. You will receive
-points if you have an official excuse from the Dean of Students
-Office, a note from a health care provider, or you are observing a
-religious holiday which is associated with an organized religion to
-which you belong, as outlined in the links below. You are responsible
-for informing Prof. Renzo promptly if this is the case.
+the [[https://help.intech.arizona.edu/article/397-what-is-top-hat][Top Hat]] app. *N.B.:* You may miss up to 4 lectures for any reason
+without affecting your participation grade.
+
+Top Hat will run on a phone, tablet or laptop. You are responsible to
+bring your device to every class period. To encourage you to do so, we
+will give you participation points for using your device in class.
+Students who forget to bring their device to class will not receive
+participation points. You will receive points if you have an official
+excuse from the Dean of Students Office, a note from a health care
+provider, or you are observing a religious holiday which is associated
+with an organized religion to which you belong, as outlined in the
+links below. You are responsible for informing Prof. Renzo promptly if
+this is the case.
 - Participation points will be awarded for completion not correctness.
   These questions are designed to improve your understanding of the
   material and lead to a better grade. So be smart, attend class!
@@ -100,7 +100,7 @@ for informing Prof. Renzo promptly if this is the case.
 
 ** Exams
 Midterm and final exam will be in class closed-book/notes exams.
-Nothing may be on your desk aside from your [[https://help.intech.arizona.edu/article/397-what-is-top-hat][Top Hat]] device during the
+Nothing may be on your desk aside from your Top Hat device during the
 exam. Any attempt to access non-exam materials will result in an
 immediate failure. If you have any accessibility concerns about the
 exam format, please reach out to the DRC and Prof. Renzo prior to the
