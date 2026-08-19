@@ -2,7 +2,7 @@
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-03-history_and_philosophy_of_science.org
-#+NEXT_PAGE:
+#+NEXT_PAGE: notes-lecture-04-gravity.org
 
 *Reading*: Chapter 3
 

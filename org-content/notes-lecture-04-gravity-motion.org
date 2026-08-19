@@ -1,0 +1,9 @@
+#+title: ASTR170 Gravity
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: notes-lecture-03-history_and_philosophy_of_science.org
+#+NEXT_PAGE:
+
+*Reading:* Chapter 4
+
+*
