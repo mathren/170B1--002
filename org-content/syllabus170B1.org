@@ -126,12 +126,12 @@ grades are finalized, although questions are still answered.
 
 You have *one free no questions asked 3-day-late* (72 hours after the
 due date/time) turn in for one homework assignment that can be used by
-you in case of dire need. Note that this CANNOT be used for the
-Signature Assignment. Please inform Neev Shah and Prof. Renzo on the day
-the assignment is due to use this late turn in. Sometimes everyone has
-a difficult day. Assignments can be turned in early if desired. Please
-do not provide any details. Otherwise, homework turned in late will be
-graded, with a 50% late penalty. This applies to all Mastering
+you in case of dire need. Note that this *CANNOT* be used for the
+Signature Assignment. Please inform Neev Shah and Prof. Renzo on the
+day the assignment is due to use this late turn in. Sometimes everyone
+has a difficult day. Assignments can be turned in early if desired.
+Please do not provide any details. Otherwise, homework turned in late
+will be graded, with a 50% late penalty. This applies to all Mastering
 Astronomy assignments, Labs, and the Mastering tutorials of the
 Signature Assignment, but NOT the Signature Assignment Digication
 ePortfolio.If you have extenuating circumstances which cannot be met

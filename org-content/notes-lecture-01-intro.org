@@ -33,7 +33,7 @@ observable/experimental data.
 [[file:syllabus170B1.org::*Required textbook and resources][Required textbook and resources]]
 
 I will also publish my own notes on this website, but these are by no
-means a /substitute/ for the textbook material (they are, if you will,
+means a /substitute/ for the textbook material (they are, in a sense,
 my own reading of the textbook with the additions/spins I may put on
 the content).
 
@@ -60,19 +60,22 @@ Starting from next week, one homework /each week/ (11 assignments + 3
 lab writeups) starting on <2026-09-02 Wed>. Late submissions graded
 with 50% penalty.
 
+You have *one free no questions asked 3-day-late* (72 hours after the
+due date/time) turn in for one homework assignment that can be used by
+you in case of dire need. Note that this *CANNOT* be used for the
+Signature Assignment. Please inform Neev Shah and Prof. Renzo on the
+day the assignment is due to use this late turn in.
+
 ** Labs
-There will be 2 or 3 in-class lab activities (one starting next week),
-with a report due as a homework assignment.
+There will be 3 in-class lab activities (one starting next week),
+including the "signature assignment" with a report due as a homework
+assignment.
 
-** Mid terms
-There will be two mid-terms, in class closed-book/notes, on
-<2026-09-30 Wed> and <2026-09-30 Wed>.
-
-** TODO Signature assignment
-
-** Final exam
-Comprehensive of all topics covered in the course, held on
-<2026-12-14 Mon> at the usual class time (2pm).
+*** Signature assignment
+More information will follow later in the course, but in short you
+will use both the Steward Observatory 21-inches telescope and a
+seestar S50 modern camera controlled via your smartphone to compare
+observations with different tools and detectors.
 
 ** Participation
 Starting from next lecture, attendance will be logged with a top hat
@@ -91,6 +94,12 @@ additions/adaptations, but I will not try to read the book for you:
 you are /expected/ to do your own reading to be able to perform well in
 homework and exams, and ultimately in this class.
 
+** Exams: Mid terms and final
+There will be two mid-terms, in class closed-book/notes, on
+<2026-09-30 Wed> and <2026-09-30 Wed>. There will also be a final
+exam, comprehensive of all topics covered in the course, on
+<2026-12-14 Mon> at the usual class time (2pm).
+
 * Know thyself
 
 #+CAPTION: Distribution of students in class as of <2026-08-14 Fri>.
@@ -101,7 +110,9 @@ homework and exams, and ultimately in this class.
 #+ATTR_HTML: :width 75%
 [[./images/college_distribution_pie.png]]
 
-** TODO Top hat test
+** Top hat test
+
+
 
 - [ ] QR code
 :To-ask:
@@ -119,6 +130,11 @@ for credit)" can walk you through using the question system.
 
 
 
+1. Log in into [[https://app.tophat.com/e/214705/content/course-work/item/1477906::ddaeb2a1-5ade-4bf4-9531-b079c2a3e25b][Top hat]]
+2. find Intro \rightarrow "Top hat intro test"
+3. Answer the questions, we will look at the results of the second one
+   only today (the others are more for me)
+
 ** Who am I?
 
 #+CAPTION: My favorite astronomical object is [[https://en.wikipedia.org/wiki/Zeta_Ophiuchi][$\zeta$ Ophiuchi]], the nearest massive star to Earth. Infrared image from Spitzer space telescope.
@@ -131,7 +147,6 @@ theoretical and computational astrophysicist. I use computer
 simulations to solve the physical processes in the evolution of stars,
 and I focus on the ones big enough to explode as supernovae, forming
 the densest objects in the Universe, neutron stars and black holes.
-
 
 * Units and physical quantities
 In this course we will deal with physical quantities (e.g., mass,
@@ -229,7 +244,6 @@ if it were one single year (one loop of the Earth around the Sun):
 #+DOWNLOADED: screenshot @ 2026-08-16 18:00:36
 #+ATTR_HTML: :width 100%
 [[file:images/calendar.png]]
-
 
 * Where are we?
 Aim: exploring the scale of the Universe in relation to our positon.
