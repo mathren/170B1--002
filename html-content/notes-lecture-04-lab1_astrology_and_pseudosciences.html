@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2026-08-21 Fri 09:34 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ASTR170 Lab 1</title>
+<meta name="author" content="Mathieu Renzo" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="./css/style.css" />
+<link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.min.css">
+<meta name="keywords" content="Mathieu, Renzo, Mathieu Renzo,
+			       stellar evolution, ASTR170B1, University of
+			       Arizona, Steward Observatory">
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="preamble" class="status">
+<!-- Preamble -->
+<!-- The header -->
+<div class="header">
+
+  <!-- The site name -->
+  <div class="site-name">
+    <a id="top" href="./index.html">ASTR170B1</a>
+  </div>
+
+  <!-- The hamburger -->
+  <div class="hamburger">
+    <div id="myLinks" class="menu">
+      <a href="./index.html">Home</a>
+      <a href="./syllabus170B1.html">Syllabus</a>
+      <a href="./access_howto.html">How to</a>
+      <a href="./schedule.html">Schedule</a>
+      <!-- <a href="./projects.html">Projects</a> -->
+    </div>
+    <a  href="javascript:void(0);" class="icon" onclick="HamburgerMenuFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="navbar">
+    <a href="./syllabus170B1.html">Syllabus</a>
+    <a href="./access_howto.html">How to access</a>
+    <a href="./schedule.html">Schedule</a>
+    <!-- <a href="./projects.html">Projects</a> -->
+  </div>
+</div>
+
+<!-- scripts -->
+<!-- menu  -->
+<script>
+  function HamburgerMenuFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+	  x.style.display = "none";
+      } else {
+	  x.style.display = "block";
+      }
+  }
+</script>
+
+<!-- toggle drawers -->
+<script>
+  function toggleDrawer(id) {
+      const drawer = document.getElementById(id);
+      drawer.style.display = drawer.style.display === "none" ? "block" : "none";
+  }
+</script>
+
+<!-- toggle dark mode -->
+<script>
+  window.onload = () => {
+      const toggleButton = document.getElementById("light-dark-toggle");
+      const body = document.body;
+      const html = document.documentElement;
+
+
+      // Check localStorage for user preference
+      if (localStorage.getItem("theme") === "dark") {
+          body.classList.add("dark-mode");
+	  html.classList.toggle("dark-mode");
+      }
+
+      // Toggle theme on click
+      toggleButton.addEventListener("click", () => {
+          body.classList.toggle("dark-mode");
+  html.classList.toggle("dark-mode");
+
+          // Save user preference
+          if (body.classList.contains("dark-mode")) {
+              localStorage.setItem("theme", "dark");
+          } else {
+              localStorage.setItem("theme", "light");
+          }
+      });
+  };
+</script>
+<!-- end scripts-->
+</div>
+<div id="content" class="content">
+<p>
+<b>Reading</b>: Chapter 3
+</p>
+
+<p>
+This is an in-class lab activity to be completed in groups of 2-3
+people, but you should each turn in your own paper. You should answer
+all of the questions in the space provided. Each group member should
+participate equally in the lab.
+</p>
+
+<p>
+<b>Aim</b>: <i>Introduce the concept of pseudoscience and to begin to identify
+the qualities that distinguish it from true science</i>.
+</p>
+<div id="outline-container-case-study-astrology" class="outline-2">
+<h2 id="case-study-astrology"><a href="#case-study-astrology">Case study: Astrology</a></h2>
+<div class="outline-text-2" id="text-case-study-astrology">
+</div>
+<div id="outline-container-initial-question" class="outline-3">
+<h3 id="initial-question"><a href="#initial-question">Initial question</a></h3>
+<div class="outline-text-3" id="text-org-element-1">
+<p>
+What is science? What is pseudoscience? Why is it important to know
+the distinction as you navigate today’s world? <i>Discuss with your
+classmates and briefly note your initial thoughts on this topic</i>. How
+would you explain the difference between science and pseudoscience to
+a friend? (max 4 lines) <span class="underline"><span class="underline">__</span></span>
+</p>
+</div>
+</div>
+<div id="outline-container-astrology" class="outline-3">
+<h3 id="astrology"><a href="#astrology">Astrology</a></h3>
+<div class="outline-text-3" id="text-org-element-2">
+<p>
+There are various astrological traditions throughout the world. Most
+originated in a context where it was intrinsically intertwined with
+astronomy. Both disciplines require to measure the positions of
+celestial bodies in the sky as a function of time - a need still very
+much existing today, with some of the most advanced space telescopes
+(e.g., the <i>Gaia</i> satellite) pushing technological limits of today to
+achieve unprecedented precision in this very same task.
+</p>
+
+<p>
+However, while astronomy was always concerned with the explanation of
+the motion observed in the sky, and its prediction, all astrology is
+in some formed based on <i>assuming</i> that the positions of celestial
+objects at the time of one's birth influences their person and
+behavior.
+</p>
+
+<p>
+Note how this is not an absurd hypothesis to begin with: the position
+of the Sun and Moon do influence phenomena on Earth (is it day or not?
+Is it high-tide or low-tide?), and the basic hypothesis of astrology
+just extends this to all celestial bodies.
+</p>
+</div>
+</div>
+<div id="outline-container-applying-the-scientific-method" class="outline-3">
+<h3 id="applying-the-scientific-method"><a href="#applying-the-scientific-method">Applying the scientific method</a></h3>
+<div class="outline-text-3" id="text-applying-the-scientific-method">
+</div>
+<div id="outline-container-step-1-make-an-observation" class="outline-4">
+<h4 id="step-1-make-an-observation"><a href="#step-1-make-an-observation">Step 1: Make an observation</a></h4>
+<div class="outline-text-4" id="text-org-element-3">
+<p>
+This class contains students with different personalities and life experiences, born at
+different times and in different locations. As we learned in class, the stars, planets, and
+moon appear to move in the sky, so their positions at each of our births was different.
+These are both observational facts; to test astrology, we need to design an experiment to
+test if one can explain the other.
+</p>
+</div>
+</div>
+<div id="outline-container-step-2-suggest-an-hypothesis" class="outline-4">
+<h4 id="step-2-suggest-an-hypothesis"><a href="#step-2-suggest-an-hypothesis">Step 2: Suggest an hypothesis</a></h4>
+<div class="outline-text-4" id="text-org-element-4">
+<p>
+An hypothesis here is just a "guess", typically educated by your
+existing knowledge. In this case we can make two opposite hypothesis:
+<i>The positions of the sun, moon, planets, and other astronomical
+objects at the time of one’s birth</i>
+</p>
+
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> does (= astrology works)</li>
+<li class="off"><code>[&#xa0;]</code> does <b>not</b> (=astrology does <b>not</b> work)</li>
+</ul>
+
+<p>
+<i>affect one’s personality and predict one’s future</i>.
+</p>
+
+<p>
+Select one of the two options above. Note that a priori neither is
+right or wrong. We will have to make our own test of it.
+</p>
+</div>
+</div>
+<div id="outline-container-step-3-based-on-the-hypothesis-make-a-prediction" class="outline-4">
+<h4 id="step-3-based-on-the-hypothesis-make-a-prediction"><a href="#step-3-based-on-the-hypothesis-make-a-prediction">Step 3: Based on the hypothesis, make a prediction</a></h4>
+<div class="outline-text-4" id="text-org-element-5">
+<p>
+I have collected <a href="./lab1_horoscopes.html">here</a> horoscopes from 3 sources for yesterday
+<span class="timestamp-wrapper"><span class="timestamp">2026-09-01 Tue </span></span> and removed the "signs", i.e. the birthdate windows
+that indicate which horoscope is yours. Each of you will read through
+all of the horoscopes and choose the 1 from each set that best
+describes your day.
+</p>
+
+<p>
+For reference, these are the signs (recall <a href="notes-lecture-02-scale.html#org-element-6">the connection with zodiacal constellations</a>):
+</p>
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Sign</th>
+<th scope="col" class="org-left">Birthdates</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Aries</td>
+<td class="org-left">March 21 – April 19</td>
+</tr>
+
+<tr>
+<td class="org-left">Taurus</td>
+<td class="org-left">April 20 – May 20</td>
+</tr>
+
+<tr>
+<td class="org-left">Gemini</td>
+<td class="org-left">May 21 – June 20</td>
+</tr>
+
+<tr>
+<td class="org-left">Cancer</td>
+<td class="org-left">June 21 – July 22</td>
+</tr>
+
+<tr>
+<td class="org-left">Leo</td>
+<td class="org-left">July 23 – August 22</td>
+</tr>
+
+<tr>
+<td class="org-left">Virgo</td>
+<td class="org-left">August 23 – September 22</td>
+</tr>
+
+<tr>
+<td class="org-left">Libra</td>
+<td class="org-left">September 23 – October 22</td>
+</tr>
+
+<tr>
+<td class="org-left">Scorpio</td>
+<td class="org-left">October 23 – November 21</td>
+</tr>
+
+<tr>
+<td class="org-left">Sagittarius</td>
+<td class="org-left">November 22 – December 19</td>
+</tr>
+
+<tr>
+<td class="org-left">Capricorn</td>
+<td class="org-left">December 22 – January 19</td>
+</tr>
+
+<tr>
+<td class="org-left">Aquarius</td>
+<td class="org-left">January 20 – February 18</td>
+</tr>
+
+<tr>
+<td class="org-left">Pisces</td>
+<td class="org-left">February 19 – March 20</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Circle the sign corresponding to your birthday, and based on the
+hypothesis you selected above (does/does not), what do you predict
+will be the outcome of this experiment? (max 3 lines).
+</p>
+</div>
+</div>
+<div id="outline-container-step-4-perform-a-test-the-experiment" class="outline-4">
+<h4 id="step-4-perform-a-test-the-experiment"><a href="#step-4-perform-a-test-the-experiment">Step 4: Perform a test (the experiment)</a></h4>
+<div class="outline-text-4" id="text-org-element-7">
+<p>
+First read through the three sets of horoscopes for <span class="timestamp-wrapper"><span class="timestamp">2026-09-02 Wed</span></span>. Write
+down the number for each horoscope that best applies to you:
+</p>
+
+<p>
+Set 1: <span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span>
+Set 2: <span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span>
+Set 3: <span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span>
+</p>
+
+<p>
+Now, I will reveal the sign that corresponds to each horoscope. Write down the signs that
+correspond to the numbers you selected above:
+</p>
+
+<p>
+Sign 1: <span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></span>
+Sign 2: <span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></span></span>
+Sign 3: <span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></span>
+</p>
+
+<p>
+How many of the horoscopes did you identify correctly? <span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span>
+</p>
+
+<p>
+Now, we will collect data from the entire class. Please add your result to the Top Hat poll
+and copy results for the full class below.
+Percentage of students who correctly identified:
+</p>
+
+<p>
+0 horoscopes: <span class="underline"><span class="underline">__</span></span>
+1 horoscope: <span class="underline"><span class="underline"><span class="underline">_</span></span></span>
+2 horoscopes: <span class="underline"><span class="underline">__</span></span>
+3 horoscopes: <span class="underline"><span class="underline"><span class="underline">_</span></span></span>
+</p>
+</div>
+</div>
+<div id="outline-container-step-5-analyze-the-results" class="outline-4">
+<h4 id="step-5-analyze-the-results"><a href="#step-5-analyze-the-results">Step 5: Analyze the results</a></h4>
+<div class="outline-text-4" id="text-org-element-8">
+<p>
+If astrology is correct, we would expect everyone to pick all of the
+answers that correspond to their sign. But if astrology is incorrect,
+does that mean everyone will choose all of the wrong horoscopes? Of
+course not – it is possible to pick the correct horoscope by chance.
+</p>
+
+<p>
+We can compute the probability that you chose correctly by pure chance
+any number of times using the Binomial Theorem.
+</p>
+
+<p>
+The probability (\(P\)) for \(k\) successes from \(N\) trials where the
+probability of success is \(p\) is given by:
+</p>
+
+<div class="equation" id="org-element-9">
+\begin{equation}
+P(k, N, p) = \frac{N!}{k!(N-k)!} p^{k} (1-p)^{n-k} \ \ ,
+\end{equation}
+
+</div>
+<p>
+where that exclamation point ! indicates “factorial”, that is is the
+product of all integers equal to or less than a number.
+For instance, \(4! = 4 \times 3 \times 2 \times 1 = 24\), and by definition, 0! = 1.
+</p>
+
+<p>
+The probability of success \(p\) is the chance that you achieve an
+outcome once in one trial. For example, if you flip a fair coin, the
+probability of it coming up heads is one in two, or \(p = 1/2 = 0.5\).
+</p>
+
+<ul class="org-ul">
+<li>What are \(p\) and \(N\) in our experiment? <span class="underline"><span class="underline">__</span></span></li>
+<li>What is the probability that you would choose zero, one, two or
+three correct horoscopes by guessing at random? <span class="underline"><span class="underline">__</span></span></li>
+</ul>
+<div class="org-drawer-container">
+  <button class="org-drawer-toggle" onclick="toggleDrawer('drawer-Hint-1')">Hint ▼</button>
+  <div id="drawer-Hint-1" class="org-drawer-content" style="display: none;"><p>
+Use the binomial theorem with k = 0, 1, 2, and 3. This online calculator may be helpful:
+<a href="https://www.desmos.com/scientific">https://www.desmos.com/scientific</a>
+</p>
+</div>
+</div>
+<ul class="org-ul">
+<li>Comparing with your classmates, do your correct guess numbers follow the
+binomial distribution?  <span class="underline"><span class="underline">__</span></span></li>
+<li>What do you conclude about the efficacy of horoscopes? Does this outcome support
+your original hypothesis? If not, create a new one.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-additional-questions" class="outline-2">
+<h2 id="additional-questions"><a href="#additional-questions">Additional questions</a></h2>
+<div class="outline-text-2" id="text-additional-questions">
+</div>
+<div id="outline-container-science" class="outline-3">
+<h3 id="science"><a href="#science">Science</a></h3>
+<div class="outline-text-3" id="text-org-element-10">
+<p>
+Science seeks explanations that rely solely on natural causes and
+progresses through the creation and testing of models of nature. A
+theory, model, prediction, measurement, observation, etc. is
+“scientific” if it has these characteristics:
+</p>
+
+<ul class="org-ul">
+<li>Repeatable</li>
+<li>Objective</li>
+<li>Predictive</li>
+<li>Falsifiable (can be tested and updated if necessary!)</li>
+</ul>
+
+<p>
+A scientific theory is a simple yet powerful model that explains a
+wide variety of observations using just a few general principles and
+has been verified by repeated and varied testing.” Theories begin as
+hypotheses: testable predictions that can be corroborated or falsified
+via the scientific method. One common misconception is that scientific
+theories are "just theories".
+</p>
+
+<p>
+Can you think of a modern instance in which people have incorrectly
+argued that a scientific theory is “just a theory” with no more
+validity than an alternative belief? (max 4 lines) <span class="underline"><span class="underline"><span class="underline">_</span></span></span>
+</p>
+</div>
+</div>
+<div id="outline-container-pseudoscience" class="outline-3">
+<h3 id="pseudoscience"><a href="#pseudoscience">Pseudoscience</a></h3>
+<div class="outline-text-3" id="text-org-element-11">
+<p>
+The term ‘pseudoscience’ refers to any belief, claim, practice, etc.
+that is presented as being ‘scientific’, but does not follow the
+scientific method or possess the characteristics discussed above.
+There are many examples of pseudoscience in our modern society.
+Pseudoscientific ideas range from the relatively harmless (such as
+cryptozoology, the belief that creatures like the Loch Ness monster
+and unicorns exist) to the downright evil (such as “scientific
+racism”, the belief that certain races of humans are biologically
+superior).
+</p>
+
+<ul class="org-ul">
+<li>How easy or hard did you find it to compare the different horoscope “predictions”</li>
+</ul>
+<p>
+to your lived experience (and why)? Would you classify astrology as science or
+pseudoscience? (max 4 lines) <span class="underline"><span class="underline">__</span></span>
+</p>
+<ul class="org-ul">
+<li>Think of two more examples of pseudoscience and explain why they are
+pseudoscientific. (max 4 lines) <span class="underline"><span class="underline">__</span></span></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-pseudoscience-vs-science" class="outline-3">
+<h3 id="pseudoscience-vs-science"><a href="#pseudoscience-vs-science">Pseudoscience vs. Science</a></h3>
+<div class="outline-text-3" id="text-org-element-12">
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Science</th>
+<th scope="col" class="org-left">Pseudoscience</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">based on objective observations</td>
+<td class="org-left">not necessarily (e.g., interpretation of coffee left-overs)</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">makes quantitative and testable predictions</td>
+<td class="org-left">makes vague predictions adaptable to many outcomes</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Prefers the simple explanations exclusively based on natural phenomena</td>
+<td class="org-left">does not change in the face of new evidence</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<div class="footer">
+  <hr>
+  <a href="#light-dark-toggle"><i id="light-dark-toggle"><i class="fa-solid fa-circle-half-stroke"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-03-history_and_philosophy_of_science.html"><i class="fa-solid fa-arrow-left" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="#top"><i class="fa-solid fa-arrow-up" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-05-gravity-motion.html"><i class="fa-solid fa-arrow-right" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/mathren/170B1--002"><i class="fa-brands fa-github" style="font-size:16px"></i></a><hr>
+  <br>
+  Last updated on 21 August 2026 <br>
+  Made with Emacs 30.1 - Org mode 9.7.11
+  <br>
+</div>
+</div>
+</body>
+</html>

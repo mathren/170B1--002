@@ -1,0 +1,9 @@
+#+title: ASTR170 Gravity
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: notes-lecture-04-lab1_astrology_and_pseudosciences.org
+#+NEXT_PAGE: notes-lecture-06.org
+
+*Reading:* Chapter 4
+
+*

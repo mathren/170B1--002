@@ -2,7 +2,7 @@
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-02-scale.org
-#+NEXT_PAGE: lab1_astrology_and_pseudosciences.org
+#+NEXT_PAGE: notes-lecture-04-lab1_astrology_and_pseudosciences.org
 
 *Reading:* Chapter 3
 
@@ -118,7 +118,6 @@ North-South/East-West directions, and therefore experiences
 #+Caption: Manhattanhenge seen from 32^{nd} street.
 [[./images/manhattanhenge.png]]
 
-
 *** Astronomical time-keeping
 Within the day, shades cast by long objects can be calibrated to make
 a sun-dial. This is one of the primary uses of, for example, Egyptian
@@ -199,22 +198,103 @@ solstice/equinoxes) in the same month.
 [[./images/mayan_calendar.jpg]]
 
 * Development of scientific ideas
+Scientific ideas, developed based on quantitative and objective
+observations and aiming at explaining them without any super-natural
+element, have come with human societies all along their history.
 
+We can follow a specific example, which is models of the Solar system
+to see how they developed.
 
-- Anaximander: geocentrism with spheres moving Sun, Moon, and planets
-- Plato: idealization of the /super-lunar/ world
-- Aristotle: physical nature of spheres
-- Ptolemy: add epicycles to explain retrograde motion
+** Ancient greece
+By being at the intersection between Africa, Asia, and Europe, ancient
+Greece was a place where ideas and cultures mixed which produced a lot
+of innovative and foundational ideas.
+
+Among these, also ideas on the structure of the Universe based on
+mathematical (which at the time meant /geometrical/) models. These
+models were spread through Asia and North Africa by Alexander the
+great (who had been Aristotle's student), and refined and expanded
+especially in Alexandria in Egypt, famous for its library as a
+cultural center, while most of the Greek's and Hellenistic
+philosopher's thoughts were lost in western Europe. With the burning
+of the library, the major cultural center in the world moved from
+Alexandria to Baghdad, where influences from Persian, Indian and
+eastern Asian's thought mixed in. With the advent in the Ottoman
+empire (ruling over Baghdad) of more religious conservative regimes, a
+lot of intellectuals fled towards Europe (especially through merchant
+routes towards Italy). They brought with themselves translations in
+modern languages of the ancient Greek texts and this was crucial to
+seed the renaissance and the Scientific revolution of the 1600s often
+ailed as the "birth of modern science".
+
+*N.B.:* Science has always been a collective, multi-cultural,
+across-borders endeavour throughout history, that advances through
+small contributions by multiple individuals.
+
+Skipping through a lot of important steps:
+- Aristarchus: first philosopher to consider heliocentric models of
+  the Solar System (at the time there is no distinction between Solar
+  System and whole Universe!), however this does not gain traction
+  because of the lack of stellar parallax in a year, interpreted as
+  evidence that the Earth cannot be moving around the Sun.
+- Anaximander: introduced the idea of Earth sitting at the center of
+  space (geocentrism), surrounded by concentic spheres moving Sun, Moon, and planets.
+#+CAPTION: Schematic map of a geocentric universe from 1539, note the Sun orbiting the Earth (in the center) between Venus and Mars.
+[[file:images/geocentrism.png]]
+- Pythagoras: The Earth itself is a sphere (more for ideological reasons than empirical ones)
+- Eratosthenes: First measurement of the radius of the Earth using the
+  shade cast by a stick across two cities in Egypt (reaching \sim few %
+  precision)
+#+CAPTION: Schematic representation Erathostene's method to calculate Earth's radius. The biggest source of error was the measure of the distance between Alexandia and Syene (modern-day Aswan).
+[[file:images/Erathostenes_method.png]]
+- Plato: idealization of the /super-lunar/ world, which should be described only with perfect shapes (spheres)
+- Aristotle: introduces the concept that the spheres are /not/ just an
+  idealization, but real physical objects.
+#+DOWNLOADED:Schematic representation of a Geogentric universe with each celestial body in its sphere.
+[[file:images/spheres.png]]
+- Ptolemy: this geocentric always had issues with the motion of
+  planets, but was naturally explaining the lack of parallax. To
+  explain retrograde motion of the planets, Ptolemy added the idea of
+  /epicycles/: planets don't orbit the Earth on a circle in a sphere,
+  but they orbit a circle whose center is on the sphere:
+#+CAPTION: Schematic illustration of how epicicles may explain the retrograde phases of motion of planets.
+[[file:images/epicycles.png]]
 - Copernicus: revives Aristarchus heliocentric idea to calculate
   planet positions, but keeps perfect circles.
-- Tycho: naked eye precise observations
+- Tycho Brahe: naked eye precise observations from Danemark allow for
+  unprecedented precision astrometry (especially of Mars). Wanted to
+  generate a heliocentric model to explain the data, but still only
+  using circles.
 - Kepler: abandons circular orbits, enunciates phenomenological
-  descriptive laws of the planetary motion
-- Galileo: demonstrates /Galilean/ invariance, no need to feel a "wind"
-  if Earth moves, finds Medicean satellites, phases of Venus
-- Newton:
-
-
+  descriptive laws of the planetary motion /abandoning the idea of
+  perfect circles/. The orbits of planets must be on eccentric orbits
+  with the Sun occupying one of the foci. Kepler's laws explain the
+  motion of planets and allow for unprecedented precision in
+  astronomical observation. Empirical evidence supports it, and the
+  only last argument against it is the lack of parallax of stars in
+  the night sky.
+- Galileo:
+  - demonstrates /Galilean/ invariance, no need to feel a "wind"
+  if Earth moves,
+  - finds Medicean satellites
+    #+CAPTION: Notes by Galileo Galilei from 1610 showing the first detection of 4 satellites of Jupiter (the circle) clearly /not/ orbiting the Earth but something else.
+    [[file:images/Galileo_medicean_satellites.png]]
+  - phases of Venus, evidence that Venus orbits the Sun and not the Earth
+  - mountains on the moon, evidence that the "super-lunar" world is
+    not perfect, but ragged as everywhere on Earth
+    #+CAPTION: Moon's mountains demonstrate that it is not a perfect sphere as postulated in Aristotelian thought.
+    [[file:images/moon.png]]
+  - and shows how the Milky way is made of a lot of tiny stars,
+    suggesting that stars may be much farther than previously thought
+    and possibly explaining the lack of parallax.
+  Note how technological advances (the invention of the telescope in
+  the Netherlands, and the conceptualization and improvements brought
+  to it by Galileo) that allow new evidence that changes which model
+  is favored.
+- Newton: makes the first big step in unifying astronomy and physics
+  by unifying the law of gravity on Earth (how object fall) with the
+  orbits of planets and showing how Kepler's laws are a natural
+  consequence of the "Universal law of gravitation"
 
 ** Scientific models
 
