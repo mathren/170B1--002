@@ -135,7 +135,7 @@ the total angular momentum:
 
 #+BEGIN_LATEX
 \begin{equation}
-J = m v \times r
+\mathbb{J} = m \mathbb{v} \times \mathbb{r}
 \end{equation}
 #+END_LATEX
 
