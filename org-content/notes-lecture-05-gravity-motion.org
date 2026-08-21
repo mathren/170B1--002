@@ -182,3 +182,36 @@ applied at a certain distance from a rotation axis.
  the book. A torque is the product of the applied force \times the lever
  arm w.r.t. a specified rotation point (e.g., the hinges of a door).
  It has the dimensions of a [F] \times [L]  \neq [F].
+
+** Newton's laws
+In the /Philosophiae Naturalis Principia Mathematica/, Newton formalized
+the three laws now named after him which connect physics across
+sub- and super-lunar worlds (making the distinction moot), and unify
+/kinematics/ and /dynamics/.
+
+1. A body moves at constant velocity unless there is a /net/ force applied to it
+2. Force is the change of momentum of an object $\mathbf{F}= d\mathbf{p}/dt = m\mathbf{a}$
+3. For each applied force, there is an equal and opposite reaction.
+
+
+The first law formalizes mathematically /Galilean invariance/: in
+absence of forces an object keeps its velocity. For example, the
+object dropped from the mast of a boat in Galileo's gedanken
+experiment does not feel any forces in the horizontal direction.
+Therefore it keeps the horizontal velocity it had (from the boat
+motion), and falls exactly below the mast, because it keeps on moving
+as fast as the mast throughout its fall.
+
+The second law /defines/ formally the concept of force. Note that there
+must be a force every time there is an acceleration, so when you take
+a turn with the car (changing the direction of the car and thus
+accelerating it), there needs to be a force applied (the friction
+between the wheels and the road). If that force disappear, the car
+would stop turning, e.g., if there is a patch of ice along the curve,
+it would decrease the friction and lead to the car turning less (or
+not at all!).
+
+The third law explains, for example, why rockets fly: they push out
+exhaust gas, which in turns pushes the rockets up.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zctTKdQcmVA?si=XT_vT9nEjQxw-k5_&amp;start=54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

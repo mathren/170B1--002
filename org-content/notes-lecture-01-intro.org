@@ -220,7 +220,7 @@ Since $c$ is constant, the larger the distance, the longer the time it
 takes for light to reach us:
 
 #+CAPTION: The farther we look, the longer ago we see (longer lookback time)
-#+ATTR_HTML: :width 100%
+
 [[file:images/light_travel_time.png]]
 
 
@@ -234,7 +234,7 @@ galaxies observed by /JWST/ seen very early in the evolution of the
 Universe (baby galaxies in formation!)
 
 #+CAPTION: NASA infographic based on James Webb Space Telescope (/JWST/) NIRCam image.
-#+ATTR_HTML: :width 100%
+
 [[./images/JWST_highz.jpg]]
 
 To gain intuition, lets /rescale/ the entire history of the Universe as
@@ -242,7 +242,7 @@ if it were one single year (one loop of the Earth around the Sun):
 
 #+Caption: History of the Universe rescaled to 1 year. Fig. 1.12 in book.
 #+DOWNLOADED: screenshot @ 2026-08-16 18:00:36
-#+ATTR_HTML: :width 100%
+
 [[file:images/calendar.png]]
 
 * Where are we?
@@ -270,7 +270,7 @@ The radius of Earth is $R\sim6000$ km.
 ** Solar system
 
 #+CAPTION: Artist impression of solar system (not to scale).
-#+ATTR_HTML: :width 100%
+
 [[./images/solar_system.jpg]]
 
 The solar system is composed of:
@@ -297,7 +297,7 @@ each pixel corresponds to the size of the moon.
 ** Galactic
 
 #+CAPTION: Artist impression of the position of the solar system within the Milkyway.
-#+ATTR_HTML: :width 100%
+
 [[./images/MW_artist_impression.png]]
 
 The size of the Milkyway galaxy is about 10kpc = 30 000ly. The Solar
@@ -314,7 +314,7 @@ seeing one of the arms of the Milky way, a grand-spiral galaxy, from
 within:
 
 #+CAPTION: Arm of the milky way above Saguaro national park.
-#+ATTR_HTML: :width 100%
+
 [[./images/saguaro.jpg]]
 
 
@@ -362,7 +362,7 @@ Not all these stars are visible: many are too faint, hidden behind
 clouds of interstellar dust, in too crowded areas to stand out, etc.
 
 #+CAPTION: Optical view of the sky from the [[https://www.esa.int/Science_Exploration/Space_Science/Gaia][Gaia]] space telescope. Dark areas are clouds of interstellar material blocking the light from stars behind. At the bottom, the LMC and SMC satellite galaxies are visible.
-#+ATTR_HTML: :width 100%
+
 [[./images/Gaia.jpg]]
 
 
@@ -381,7 +381,7 @@ gravitationally, but with chaotic orbits of galaxies zooming past each
 other (instead of a nice organized flow in a plane!).
 
 #+CAPTION: Artist impression of the Local Group within the Virgo galaxy cluster. Each dot represents a galaxy.
-#+ATTR_HTML: :width 100%
+
 [[./images/Virgo.jpg]]
 
 The Milky way as a galaxy is part of, in turn:
@@ -395,7 +395,7 @@ Laniakea comes from Hawai'ian for "Immense Heaven"
 :end:
 
 #+CAPTION: Artist impression of the Laniakea supercluster. Each dot represents a galaxy.
-#+ATTR_HTML: :width 100%
+
 [[./images/Laniakea.jpg]]
 
 
@@ -405,7 +405,7 @@ Galaxy clusters and superclusters are organized along "strings" at the
 edge of large regions empty of structure. These form the "Cosmic web":
 
 #+CAPTION: Distribution of (dark) matter in the cosmic web in a cosmological numerical simulation.
-#+ATTR_HTML: :width 100%
+
 [[./images/Cosmic_web.jpg]]
 
 Galaxy super-clusters are like "knots" in this web.
@@ -415,7 +415,7 @@ meaning, at every point everything looks "the same", every point has
 the same density $\rho$. It all started from /very small/ wiggles!
 
 #+CAPTION: Planck image of the Cosmic Microwave Background. The Universe had a certain temperature (\sim 3000 K) at the time it produced this light, about 380 000 years after the Big bang. The color indicate deviations in one part 10^{9} from the average temperature, which trace equally small deviation from homogeneity. These are the "seed perturbations" from which Galaxies and clusters grow.
-#+ATTR_HTML: :width 100%
+
 [[./images/Planck_CMB.jpg]]
 
 * Motion of the Universe
@@ -450,7 +450,7 @@ the Galaxy. We can measure this rotation rate as a function of the
 distance from the center of a galaxy, and we find that the stars move
 too fast!
 #+CAPTION: Rotational curve of galaxies.
-#+ATTR_HTML: :width 100%
+
 [[./images/galaxy_rotational_curve.jpg]]
 
 The rotation rate around the Galaxy depends on the position in the
@@ -473,7 +473,6 @@ galactocentric orbital motion) random velocity -- similar to the
 thermal velocity of molecules of a gas.
 
 #+DOWNLOADED: screenshot @ 2026-08-16 18:12:23
-#+ATTR_HTML: :width 100%
 [[file:images/thermal_v_stars.png]]
 
 The "thermal velocity" of the Sun is \sim 10 km s^{-1}.

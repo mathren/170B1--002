@@ -100,7 +100,6 @@ The knowledge and use of astronomy by ancient cultures still reflects
 on many aspects of language, commonly used units (degrees, weeks,
 months, etc.), and archaeological evidence.
 
-
 *** Architecture
 Lots of architecture across many disparate cultures is organized
 around astronomical events. Many buildings and even entire
@@ -272,7 +271,8 @@ Skipping through a lot of important steps:
   motion of planets and allow for unprecedented precision in
   astronomical observation. Empirical evidence supports it, and the
   only last argument against it is the lack of parallax of stars in
-  the night sky.
+  the night sky. The full dataset used by Kepler is [[https://www.pafko.com/tycho/index.html][available online]]
+  and weighs only 400kB.
 - Galileo:
   - demonstrates /Galilean/ invariance, no need to feel a "wind" if Earth moves,
   - finds Medicean satellites
