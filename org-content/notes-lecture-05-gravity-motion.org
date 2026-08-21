@@ -6,4 +6,164 @@
 
 *Reading:* Chapter 4
 
-*
+* Newton's laws of motion
+
+:Quote:
+/If I have seen farther than others, it is because I have stood on the
+shoulders of giants./ I. Newton
+
+Note that this quote was a [[https://www.kroneckerwallis.com/newton-vs-hooke-the-scientific-rivalry-that-changed-physics/][diss]] to Robert Hooke, a contemporary
+colleague of Newton who had a disease causing a back hump.
+:end:
+
+We are able to describe ballistic motion (i.e., under the only
+influence of gravity) with extreme precision, enough to land a probe
+on a comet or asteroid. This achievement of humanity /started/ with
+trying to understand planetary motion, the enunciation of Kepler's
+laws, and their physical explanation by Newton.
+
+*N.B.:* Unfortunately, this achievement was also reached through a lot
+of military research, to understand how to shoot cannons best.
+
+As we have already seen, describing how things move was a central task
+of ancient astronomy - with the whole issue of planetary motion.
+
+Let's start by introducing basic concepts to characterize motion:
+- position: it's a vector quantity that describes where something is
+  w.r.t. a specified coordinate system (e.g., an ordered triplet of
+  numbers $\mathbb{x} = (x,y,z)$ determines space in 3 dimensions with
+  respect to an orthogonal grid). It has the dimensions of /length/ [L]
+  (measured in cm, inches, or light years).
+- velocity: $\mathbb{v} = d\mathbb{x}/dt$ it's the time-derivative of
+  the position, that is it describes how the position change w.r.t.
+  time. This is /also/ a vector quantity. The "length" of the vector is
+  the speed, which only says the overall rate of change in position as
+  a function of time, without having the direction. It has the
+  dimensions of a /length divided by time/ [L/t].
+- acceleration: $\mathrbb{a} = d\mathbb{v}/dt$ is also a vector
+  quantity describing the change in time of the velocity. It has the
+  dimensions of a /length divided times squared/ [L/t^{2}]
+#+CAPTION: Which of these cars is accelerating?
+  [[file:images/car_acceleration.png]]
+:Hint:
+$\mathbb{a}\neq0$ as long as there is a change in $\mathbb{v}$, whether
+this change is in speed (how long the vector is), or direction
+(possibly at constant speed, e.g., for a turning object).
+:end:
+
+Position, velocity, and acceleration describe the /kinematics/ of
+objects, that is their position and how it changes in time.
+
+** Galilean invariance
+While it is easy to "feel" an acceleration (think of a car turning a
+corner, the turning is a change in the direction of velocity, thus an
+acceleration), there is no way for an isolated observer to tell at
+what velocity they are moving.
+
+This is the concept of /Galilean invariance/ which Galileo argued for
+(in vulgar, to be understood by anyone!) using examples such as:
+- if we drop an object from the mast of a moving ship, it doesn't fall
+  behind the mast, but still in front of it. The object dropped
+  "inherits" the velocity of the ship, it moves with it, and there is
+  no way from within the ship to use this to measure how fast it is
+  going.
+- a group of butterflies in the haul of a ship will fly exactly in the
+  same whether the ship moves or not, the butterflies don't get pushed
+  to the end of the ship if it moves forward at constant speed!
+
+This is the realization that allowed to bypass a lot of arguments
+against the motion of the Earth around the Sun.
+
+The observations by Galileo and following experimental tests by his
+students and successors were later formalized into the first law of
+motion by Newton: /an object keeps its velocity unless something
+changes it/.
+
+** Falling motion
+The acceleration of gravity is the /change in velocity/ of an object
+falling. This is roughly constant on Earth (because the mass of the
+Earth is constant), and usually indicated with $g\simeq10$ m s^{-2}.
+
+Galileo first proposed that objects of different masses will fall at
+the same speed in absence of friction (e.g., air). While it is unclear
+whether he really performed the experiment, this was performed a few
+years later from the bell-tower of Delft's church, and a simple
+experiment can be done with an object and a crumbled piece of paper.
+
+#+CAPTION: Niewe Kerk in Delft.
+[[./images/Nieuwe_kerk.jpg]]
+
+** From kinematics to dynamics
+The quantities introduced above only /describe/ motion, without
+/explaining/ its causes. This is the task of the subfield of physics
+called /dynamics/.
+
+Let's first introduce some more key quantities and see what is the
+relation between kinematics and dynamics.
+*** Mass and weight
+Mass is a fundamental quantity [M], measured e.g., in kg or pounds, and it
+measures the /resistance to changes in velocity of a body/.
+A truck has a larger mass than a ping pong ball, and it's much easier
+to move the latter because of its smaller mass.
+
+Note that mass and weight are in principle two different things: mass
+is just the resistance to the change of velocity of a body, weight is
+the gravitational force that it feels. Mass is the same anywhere in
+the Universe, weight depends on the mass of the body exerting gravity,
+you would have the same mass on the Moon, but your weight would be lower.
+*** Momentum
+This is a physical quantity that "mixes" kinematic and dynamic
+quantities, and will be central in connecting the two.
+The momentum is the product of an object mass times its velocity, $p =
+m \times v$, which has units [M L t^{-1}].
+
+To understand why it's important, imagine you're crossing a street and
+a bike hits you at a certain speed $v$ vs. a truck hitting you at the
+same speed $v$. While the speed is the same in both cases, the truck
+has much more momentum and will hurt you much more!
+*** Angular momentum
+If a body (regardless of its mass) has $v=0$ in some reference frame,
+then it has also zero momentum. But what about a body rotating on
+itself? Even if overall it is not moving, every part of it has a
+velocity and a mass!
+
+We can define an /angular momentum/ usually indicated with $J$ by
+considering the rotation axis of an object. The cross product between
+the (rotational) velocity of a point and the distance to the rotation
+axis $r$ defines the /specific/ angular momentum, times its mass, it gives
+the total angular momentum:
+
+#+BEGIN_LATEX
+\begin{equation}
+J = m v \times r
+\end{equation}
+#+END_LATEX
+
+This quantity has the dimensions of [M L t^{-1}], and it is also a vector
+quantity, perpendicular to the rotation plane. In absence of external
+torques, it is constant: the conservation of angular momentum is why
+you don't fall from a bike moving (to fall the angular momentum should
+change - direction - by changing the rotation plane of the wheels),
+but you do fall from a still bike ($v=0 \Rightarrow J=0$, no angular momentum to
+conserve).
+
+*** Force and torque
+A force is by definition the change in momentum of an object.
+#+BEGIN_LATEX
+\begin{equation}
+\mathbb{F} = \frac{d\mathbb{p}}{dt} = \frac{d(m\mathbb{v})}{dt} \ \ ,
+\end{equation}
+#+END_LATEX
+If an object has a constant mass $m$, then
+#+BEGIN_LATEX
+\begin{equation}
+\frac{d(m\mathbb{v})}{dt} = m \frac{d\mathbb{v}}{dt} = m \mathbb{a}\ \ ,
+\end{equation}
+#+END_LATEX
+which is the famous "second law of dynamics" formulated by Newton.
+
+
+*N.B.:* A "torque" is /not/ a force, unlike what is incorrectly written in
+ the book. A torque is the product of the applied force \times the lever
+ arm w.r.t. a specified rotation point (e.g., the hinges of a door).
+ It has the dimensions of a force \times length \neq force.

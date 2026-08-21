@@ -274,8 +274,7 @@ Skipping through a lot of important steps:
   only last argument against it is the lack of parallax of stars in
   the night sky.
 - Galileo:
-  - demonstrates /Galilean/ invariance, no need to feel a "wind"
-  if Earth moves,
+  - demonstrates /Galilean/ invariance, no need to feel a "wind" if Earth moves,
   - finds Medicean satellites
     #+CAPTION: Notes by Galileo Galilei from 1610 showing the first detection of 4 satellites of Jupiter (the circle) clearly /not/ orbiting the Earth but something else.
     [[file:images/Galileo_medicean_satellites.png]]
@@ -294,7 +293,8 @@ Skipping through a lot of important steps:
 - Newton: makes the first big step in unifying astronomy and physics
   by unifying the law of gravity on Earth (how object fall) with the
   orbits of planets and showing how Kepler's laws are a natural
-  consequence of the "Universal law of gravitation"
+  consequence of the "Universal law of gravitation". We will discuss
+  this in more detail [[./notes-lecture-05-gravity-motion.org][later]].
 
 ** Scientific models
 
@@ -366,9 +366,9 @@ This is often referred to as "Occam's razor", because the simplicity
 criterion allows to shave off most explanation and prefer always the
 simplest one.
 
-
 #+CAPTION: Occam was a monk who proposed that all else being equal, the simplest explanation should be preferred.
-[[https://en.wikipedia.org/wiki/Occam%27s_razor#/media/File:William_of_Ockham.png]]
+[[file:images/occam.png]]
+
 
 For example: in ancient Greece most thinkers favored a geocentric
 model of the Universe. This was the simplest at the time: it did not

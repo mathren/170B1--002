@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-08-21 Fri 09:34 -->
+<!-- 2026-08-21 Fri 11:06 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Gravity</title>
@@ -12,6 +12,38 @@
 <meta name="keywords" content="Mathieu, Renzo, Mathieu Renzo,
 			       stellar evolution, ASTR170B1, University of
 			       Arizona, Steward Observatory">
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 </head>
 <body>
 <div id="preamble" class="status">
@@ -101,10 +133,267 @@
 <p>
 <b>Reading:</b> Chapter 4
 </p>
+<div id="outline-container-newton-s-laws-of-motion" class="outline-2">
+<h2 id="newton-s-laws-of-motion"><a href="#newton-s-laws-of-motion">Newton's laws of motion</a></h2>
+<div class="outline-text-2" id="text-org-element-1">
+<div class="org-drawer-container">
+  <button class="org-drawer-toggle" onclick="toggleDrawer('drawer-Quote-1')">Quote ▼</button>
+  <div id="drawer-Quote-1" class="org-drawer-content" style="display: none;"><p>
+<i>If I have seen farther than others, it is because I have stood on the
+shoulders of giants.</i> I. Newton
+</p>
 
 <p>
-*
+Note that this quote was a <a href="https://www.kroneckerwallis.com/newton-vs-hooke-the-scientific-rivalry-that-changed-physics/">diss</a> to Robert Hooke, a contemporary
+colleague of Newton who had a disease causing a back hump.
 </p>
+</div>
+</div>
+
+<p>
+We are able to describe ballistic motion (i.e., under the only
+influence of gravity) with extreme precision, enough to land a probe
+on a comet or asteroid. This achievement of humanity <i>started</i> with
+trying to understand planetary motion, the enunciation of Kepler's
+laws, and their physical explanation by Newton.
+</p>
+
+<p>
+<b>N.B.:</b> Unfortunately, this achievement was also reached through a lot
+of military research, to understand how to shoot cannons best.
+</p>
+
+<p>
+As we have already seen, describing how things move was a central task
+of ancient astronomy - with the whole issue of planetary motion.
+</p>
+
+<p>
+Let's start by introducing basic concepts to characterize motion:
+</p>
+<ul class="org-ul">
+<li>position: it's a vector quantity that describes where something is
+w.r.t. a specified coordinate system (e.g., an ordered triplet of
+numbers \(\mathbb{x} = (x,y,z)\) determines space in 3 dimensions with
+respect to an orthogonal grid). It has the dimensions of <i>length</i> [L]
+(measured in cm, inches, or light years).</li>
+<li>velocity: \(\mathbb{v} = d\mathbb{x}/dt\) it's the time-derivative of
+the position, that is it describes how the position change w.r.t.
+time. This is <i>also</i> a vector quantity. The "length" of the vector is
+the speed, which only says the overall rate of change in position as
+a function of time, without having the direction. It has the
+dimensions of a <i>length divided by time</i> [L/t].</li>
+<li>acceleration: \(\mathrbb{a} = d\mathbb{v}/dt\) is also a vector
+quantity describing the change in time of the velocity. It has the
+dimensions of a <i>length divided times squared</i> [L/t<sup>2</sup>]</li>
+</ul>
+
+<figure id="org-element-2">
+<img src="images/car_acceleration.png" alt="car_acceleration.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 1: </span>Which of these cars is accelerating?</figcaption>
+</figure>
+<div class="org-drawer-container">
+  <button class="org-drawer-toggle" onclick="toggleDrawer('drawer-Hint-2')">Hint ▼</button>
+  <div id="drawer-Hint-2" class="org-drawer-content" style="display: none;"><p>
+\(\mathbb{a}\neq0\) as long as there is a change in \(\mathbb{v}\), whether
+this change is in speed (how long the vector is), or direction
+(possibly at constant speed, e.g., for a turning object).
+</p>
+</div>
+</div>
+
+<p>
+Position, velocity, and acceleration describe the <i>kinematics</i> of
+objects, that is their position and how it changes in time.
+</p>
+</div>
+<div id="outline-container-galilean-invariance" class="outline-3">
+<h3 id="galilean-invariance"><a href="#galilean-invariance">Galilean invariance</a></h3>
+<div class="outline-text-3" id="text-org-element-3">
+<p>
+While it is easy to "feel" an acceleration (think of a car turning a
+corner, the turning is a change in the direction of velocity, thus an
+acceleration), there is no way for an isolated observer to tell at
+what velocity they are moving.
+</p>
+
+<p>
+This is the concept of <i>Galilean invariance</i> which Galileo argued for
+(in vulgar, to be understood by anyone!) using examples such as:
+</p>
+<ul class="org-ul">
+<li>if we drop an object from the mast of a moving ship, it doesn't fall
+behind the mast, but still in front of it. The object dropped
+"inherits" the velocity of the ship, it moves with it, and there is
+no way from within the ship to use this to measure how fast it is
+going.</li>
+<li>a group of butterflies in the haul of a ship will fly exactly in the
+same whether the ship moves or not, the butterflies don't get pushed
+to the end of the ship if it moves forward at constant speed!</li>
+</ul>
+
+<p>
+This is the realization that allowed to bypass a lot of arguments
+against the motion of the Earth around the Sun.
+</p>
+
+<p>
+The observations by Galileo and following experimental tests by his
+students and successors were later formalized into the first law of
+motion by Newton: <i>an object keeps its velocity unless something
+changes it</i>.
+</p>
+</div>
+</div>
+<div id="outline-container-falling-motion" class="outline-3">
+<h3 id="falling-motion"><a href="#falling-motion">Falling motion</a></h3>
+<div class="outline-text-3" id="text-org-element-4">
+<p>
+The acceleration of gravity is the <i>change in velocity</i> of an object
+falling. This is roughly constant on Earth (because the mass of the
+Earth is constant), and usually indicated with \(g\simeq10\) m s<sup>-2</sup>.
+</p>
+
+<p>
+Galileo first proposed that objects of different masses will fall at
+the same speed in absence of friction (e.g., air). While it is unclear
+whether he really performed the experiment, this was performed a few
+years later from the bell-tower of Delft's church, and a simple
+experiment can be done with an object and a crumbled piece of paper.
+</p>
+
+
+<figure id="org-element-5">
+<img src="./images/Nieuwe_kerk.jpg" alt="Nieuwe_kerk.jpg" width="100%">
+
+<figcaption><span class="figure-number">Figure 2: </span>Niewe Kerk in Delft.</figcaption>
+</figure>
+</div>
+</div>
+<div id="outline-container-from-kinematics-to-dynamics" class="outline-3">
+<h3 id="from-kinematics-to-dynamics"><a href="#from-kinematics-to-dynamics">From kinematics to dynamics</a></h3>
+<div class="outline-text-3" id="text-org-element-6">
+<p>
+The quantities introduced above only <i>describe</i> motion, without
+<i>explaining</i> its causes. This is the task of the subfield of physics
+called <i>dynamics</i>.
+</p>
+
+<p>
+Let's first introduce some more key quantities and see what is the
+relation between kinematics and dynamics.
+</p>
+</div>
+<div id="outline-container-mass-and-weight" class="outline-4">
+<h4 id="mass-and-weight"><a href="#mass-and-weight">Mass and weight</a></h4>
+<div class="outline-text-4" id="text-org-element-7">
+<p>
+Mass is a fundamental quantity [M], measured e.g., in kg or pounds, and it
+measures the <i>resistance to changes in velocity of a body</i>.
+A truck has a larger mass than a ping pong ball, and it's much easier
+to move the latter because of its smaller mass.
+</p>
+
+<p>
+Note that mass and weight are in principle two different things: mass
+is just the resistance to the change of velocity of a body, weight is
+the gravitational force that it feels. Mass is the same anywhere in
+the Universe, weight depends on the mass of the body exerting gravity,
+you would have the same mass on the Moon, but your weight would be lower.
+</p>
+</div>
+</div>
+<div id="outline-container-momentum" class="outline-4">
+<h4 id="momentum"><a href="#momentum">Momentum</a></h4>
+<div class="outline-text-4" id="text-org-element-8">
+<p>
+This is a physical quantity that "mixes" kinematic and dynamic
+quantities, and will be central in connecting the two.
+The momentum is the product of an object mass times its velocity, \(p =
+m \times v\), which has units [M L t<sup>-1</sup>].
+</p>
+
+<p>
+To understand why it's important, imagine you're crossing a street and
+a bike hits you at a certain speed \(v\) vs. a truck hitting you at the
+same speed \(v\). While the speed is the same in both cases, the truck
+has much more momentum and will hurt you much more!
+</p>
+</div>
+</div>
+<div id="outline-container-angular-momentum" class="outline-4">
+<h4 id="angular-momentum"><a href="#angular-momentum">Angular momentum</a></h4>
+<div class="outline-text-4" id="text-org-element-9">
+<p>
+If a body (regardless of its mass) has \(v=0\) in some reference frame,
+then it has also zero momentum. But what about a body rotating on
+itself? Even if overall it is not moving, every part of it has a
+velocity and a mass!
+</p>
+
+<p>
+We can define an <i>angular momentum</i> usually indicated with \(J\) by
+considering the rotation axis of an object. The cross product between
+the (rotational) velocity of a point and the distance to the rotation
+axis \(r\) defines the <i>specific</i> angular momentum, times its mass, it gives
+the total angular momentum:
+</p>
+
+<div class="LATEX" id="org-element-10">
+\begin{equation}
+J = m v \times r
+\end{equation}
+
+</div>
+
+<p>
+This quantity has the dimensions of [M L t<sup>-1</sup>], and it is also a vector
+quantity, perpendicular to the rotation plane. In absence of external
+torques, it is constant: the conservation of angular momentum is why
+you don't fall from a bike moving (to fall the angular momentum should
+change - direction - by changing the rotation plane of the wheels),
+but you do fall from a still bike (\(v=0 \Rightarrow J=0\), no angular momentum to
+conserve).
+</p>
+</div>
+</div>
+<div id="outline-container-force-and-torque" class="outline-4">
+<h4 id="force-and-torque"><a href="#force-and-torque">Force and torque</a></h4>
+<div class="outline-text-4" id="text-org-element-11">
+<p>
+A force is by definition the change in momentum of an object.
+</p>
+<div class="LATEX" id="org-element-12">
+\begin{equation}
+\mathbb{F} = \frac{d\mathbb{p}}{dt} = \frac{d(m\mathbb{v})}{dt} \ \ ,
+\end{equation}
+
+</div>
+<p>
+If an object has a constant mass \(m\), then
+</p>
+<div class="LATEX" id="org-element-13">
+\begin{equation}
+\frac{d(m\mathbb{v})}{dt} = m \frac{d\mathbb{v}}{dt} = m \mathbb{a}\ \ ,
+\end{equation}
+
+</div>
+<p>
+which is the famous "second law of dynamics" formulated by Newton.
+</p>
+
+
+<p>
+<b>N.B.:</b> A "torque" is <i>not</i> a force, unlike what is incorrectly written in
+ the book. A torque is the product of the applied force &times; the lever
+ arm w.r.t. a specified rotation point (e.g., the hinges of a door).
+ It has the dimensions of a force &times; length &ne; force.
+</p>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <div class="footer">
