@@ -198,5 +198,5 @@ DEADLINE: Homework, in class quiz
 # in class attendance
 DEADLINE: Homework, in class quiz
 
-** <2026-12-14 Mon> - *Final Exam*
-In class exam
+** <2026-12-11 Fri> - *Final Exam*
+In class exam - 1:00-3:00pm
