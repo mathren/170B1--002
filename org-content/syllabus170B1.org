@@ -154,12 +154,12 @@ to view the correct answer after completion, so this should be easy if
 you have actually done (and understood) the homework.
 
 ** Signature Assignment
-Using Telescopes to Explore our Universe is the title of your
-Signature Assignment. You will use the Steward Observatory 21-Inch
-Telescope, the Seestar S50 telescope/camera, and your smart phone to
-make astronomical observations. The assignment, accessed through D2L,
-will begin in September and last all semester. Final reports will be
-due by Nov. 26 at 5:00 p.m. MST.
+The title will be /Using Telescopes to Explore our Universe/. You will
+use the Steward Observatory 21-Inch Telescope, the Seestar S50
+telescope/camera, and your smart phone to make astronomical
+observations. The assignment, accessed through D2L, will begin in
+September and last all semester. Final reports will be due
+<2026-11-25 Wed>.
 
 ** Honors credit
 This course is *not* available for Honors credit via an Honors contract.
