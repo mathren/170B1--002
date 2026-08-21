@@ -31,22 +31,22 @@ of ancient astronomy - with the whole issue of planetary motion.
 Let's start by introducing basic concepts to characterize motion:
 - position: it's a vector quantity that describes where something is
   w.r.t. a specified coordinate system (e.g., an ordered triplet of
-  numbers $\mathbb{x} = (x,y,z)$ determines space in 3 dimensions with
+  numbers $\mathbf{x} = (x,y,z)$ determines space in 3 dimensions with
   respect to an orthogonal grid). It has the dimensions of /length/ [L]
   (measured in cm, inches, or light years).
-- velocity: $\mathbb{v} = d\mathbb{x}/dt$ it's the time-derivative of
+- velocity: $\mathbf{v} = d\mathbf{x}/dt$ it's the time-derivative of
   the position, that is it describes how the position change w.r.t.
   time. This is /also/ a vector quantity. The "length" of the vector is
   the speed, which only says the overall rate of change in position as
   a function of time, without having the direction. It has the
   dimensions of a /length divided by time/ [L/t].
-- acceleration: $\mathrbb{a} = d\mathbb{v}/dt$ is also a vector
+- acceleration: $\mathrbb{a} = d\mathbf{v}/dt$ is also a vector
   quantity describing the change in time of the velocity. It has the
   dimensions of a /length divided times squared/ [L/t^{2}]
 #+CAPTION: Which of these cars is accelerating?
   [[file:images/car_acceleration.png]]
 :Hint:
-$\mathbb{a}\neq0$ as long as there is a change in $\mathbb{v}$, whether
+$\mathbf{a}\neq0$ as long as there is a change in $\mathbf{v}$, whether
 this change is in speed (how long the vector is), or direction
 (possibly at constant speed, e.g., for a turning object).
 :end:
@@ -135,7 +135,7 @@ the total angular momentum:
 
 #+BEGIN_LATEX
 \begin{equation}
-\mathbb{J} = m \mathbb{v} \times \mathbb{r}
+\mathbf{J} = \mathbf{p}\cross \mathbf{r} = m \mathbf{v} \times \mathbf{r} \ \ ,
 \end{equation}
 #+END_LATEX
 
@@ -151,16 +151,31 @@ conserve).
 A force is by definition the change in momentum of an object.
 #+BEGIN_LATEX
 \begin{equation}
-\mathbb{F} = \frac{d\mathbb{p}}{dt} = \frac{d(m\mathbb{v})}{dt} \ \ ,
+\mathbf{F} = \frac{d\mathbf{p}}{dt} = \frac{d(m\mathbf{v})}{dt} \ \ ,
 \end{equation}
 #+END_LATEX
 If an object has a constant mass $m$, then
 #+BEGIN_LATEX
 \begin{equation}
-\frac{d(m\mathbb{v})}{dt} = m \frac{d\mathbb{v}}{dt} = m \mathbb{a}\ \ ,
+\frac{d(m\mathbf{v})}{dt} = m \frac{d\mathbf{v}}{dt} = m \mathbf{a}\ \ ,
 \end{equation}
 #+END_LATEX
-which is the famous "second law of dynamics" formulated by Newton.
+which is the famous "second law of dynamics" formulated by Newton. A
+force is thus an acceleration per unit mass, that is a change in
+velocity per unit mass.
+
+By analogy we can consider what can change the angular momentum, e.g.,
+when you try to open a door and make it turn around its hinges. Like
+$\mathbf{J}$ is the cross product of the momentum times the distance
+to the rotation axis, we can take the cross product of a force with
+the distance to the rotation axis to define a /torque/:
+#+BEGIN_LATEX
+\begin{equation}
+\mathbf{T} = \mathbf{F}\cross \mathbf{r} \ \ ,
+\end{equation}
+
+
+
 
 
 *N.B.:* A "torque" is /not/ a force, unlike what is incorrectly written in

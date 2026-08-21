@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-08-21 Fri 11:07 -->
+<!-- 2026-08-21 Fri 11:10 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Gravity</title>
@@ -174,16 +174,16 @@ Let's start by introducing basic concepts to characterize motion:
 <ul class="org-ul">
 <li>position: it's a vector quantity that describes where something is
 w.r.t. a specified coordinate system (e.g., an ordered triplet of
-numbers \(\mathbb{x} = (x,y,z)\) determines space in 3 dimensions with
+numbers \(\mathbf{x} = (x,y,z)\) determines space in 3 dimensions with
 respect to an orthogonal grid). It has the dimensions of <i>length</i> [L]
 (measured in cm, inches, or light years).</li>
-<li>velocity: \(\mathbb{v} = d\mathbb{x}/dt\) it's the time-derivative of
+<li>velocity: \(\mathbf{v} = d\mathbf{x}/dt\) it's the time-derivative of
 the position, that is it describes how the position change w.r.t.
 time. This is <i>also</i> a vector quantity. The "length" of the vector is
 the speed, which only says the overall rate of change in position as
 a function of time, without having the direction. It has the
 dimensions of a <i>length divided by time</i> [L/t].</li>
-<li>acceleration: \(\mathrbb{a} = d\mathbb{v}/dt\) is also a vector
+<li>acceleration: \(\mathrbb{a} = d\mathbf{v}/dt\) is also a vector
 quantity describing the change in time of the velocity. It has the
 dimensions of a <i>length divided times squared</i> [L/t<sup>2</sup>]</li>
 </ul>
@@ -196,7 +196,7 @@ dimensions of a <i>length divided times squared</i> [L/t<sup>2</sup>]</li>
 <div class="org-drawer-container">
   <button class="org-drawer-toggle" onclick="toggleDrawer('drawer-Hint-2')">Hint ▼</button>
   <div id="drawer-Hint-2" class="org-drawer-content" style="display: none;"><p>
-\(\mathbb{a}\neq0\) as long as there is a change in \(\mathbb{v}\), whether
+\(\mathbf{a}\neq0\) as long as there is a change in \(\mathbf{v}\), whether
 this change is in speed (how long the vector is), or direction
 (possibly at constant speed, e.g., for a turning object).
 </p>
@@ -342,7 +342,7 @@ the total angular momentum:
 
 <div class="LATEX" id="org-element-10">
 \begin{equation}
-\mathbb{J} = m \mathbb{v} \times \mathbb{r}
+\mathbf{J} = \mathbf{p}\cross \mathbf{r} = m \mathbf{v} \times \mathbf{r} \ \ ,
 \end{equation}
 
 </div>
@@ -366,7 +366,7 @@ A force is by definition the change in momentum of an object.
 </p>
 <div class="LATEX" id="org-element-12">
 \begin{equation}
-\mathbb{F} = \frac{d\mathbb{p}}{dt} = \frac{d(m\mathbb{v})}{dt} \ \ ,
+\mathbf{F} = \frac{d\mathbf{p}}{dt} = \frac{d(m\mathbf{v})}{dt} \ \ ,
 \end{equation}
 
 </div>
@@ -375,13 +375,30 @@ If an object has a constant mass \(m\), then
 </p>
 <div class="LATEX" id="org-element-13">
 \begin{equation}
-\frac{d(m\mathbb{v})}{dt} = m \frac{d\mathbb{v}}{dt} = m \mathbb{a}\ \ ,
+\frac{d(m\mathbf{v})}{dt} = m \frac{d\mathbf{v}}{dt} = m \mathbf{a}\ \ ,
 \end{equation}
 
 </div>
 <p>
-which is the famous "second law of dynamics" formulated by Newton.
+which is the famous "second law of dynamics" formulated by Newton. A
+force is thus an acceleration per unit mass, that is a change in
+velocity per unit mass.
 </p>
+
+<p>
+By analogy we can consider what can change the angular momentum, e.g.,
+when you try to open a door and make it turn around its hinges. Like
+\(\mathbf{J}\) is the cross product of the momentum times the distance
+to the rotation axis, we can take the cross product of a force with
+the distance to the rotation axis to define a <i>torque</i>:
+#+BEGIN<sub>LATEX</sub>
+</p>
+\begin{equation}
+\mathbf{T} = \mathbf{F}\cross \mathbf{r} \ \ ,
+\end{equation}
+
+
+
 
 
 <p>
