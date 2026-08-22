@@ -8,14 +8,6 @@
 
 * Newton's laws of motion
 
-:Quote:
-/If I have seen farther than others, it is because I have stood on the
-shoulders of giants./ I. Newton
-
-Note that this quote was a [[https://www.kroneckerwallis.com/newton-vs-hooke-the-scientific-rivalry-that-changed-physics/][diss]] to Robert Hooke, a contemporary
-colleague of Newton who had a disease causing a back hump.
-:end:
-
 We are able to describe ballistic motion (i.e., under the only
 influence of gravity) with extreme precision, enough to land a probe
 on a comet or asteroid. This achievement of humanity /started/ with
@@ -92,6 +84,10 @@ experiment can be done with an object and a crumbled piece of paper.
 
 #+CAPTION: Niewe Kerk in Delft.
 [[./images/Nieuwe_kerk.jpg]]
+
+The same experiment has been repeated in absence of atmosphere and
+lower gravity on the Moon:
+#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/Oo8TaPVsn9Y?si=LLtYpSsMdTOD4rfv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ** From kinematics to dynamics
 The quantities introduced above only /describe/ motion, without
@@ -183,7 +179,7 @@ applied at a certain distance from a rotation axis.
  arm w.r.t. a specified rotation point (e.g., the hinges of a door).
  It has the dimensions of a [F] \times [L]  \neq [F].
 
-** Newton's laws
+** The laws
 In the /Philosophiae Naturalis Principia Mathematica/, Newton formalized
 the three laws now named after him which connect physics across
 sub- and super-lunar worlds (making the distinction moot), and unify
@@ -214,4 +210,94 @@ not at all!).
 The third law explains, for example, why rockets fly: they push out
 exhaust gas, which in turns pushes the rockets up.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zctTKdQcmVA?si=XT_vT9nEjQxw-k5_&amp;start=54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/zctTKdQcmVA?si=XT_vT9nEjQxw-k5_&amp;start=54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+* Universal law of Gravitation
+:Quote:
+/If I have seen farther than others, it is because I have stood on the
+shoulders of giants./ I. Newton
+
+Note that this quote was a [[https://www.kroneckerwallis.com/newton-vs-hooke-the-scientific-rivalry-that-changed-physics/][diss]] to Robert Hooke, a contemporary
+colleague of Newton who had a disease causing a back hump.
+:end:
+
+There are a lot of legends on how Newton came up with the first /great
+unification/ of physics and astronomy by demonstrating that the laws
+governing how objects fall on Earth also explain the Keplerian laws
+describing the /kinematics/ of planets.
+
+What is certainly true is that during a pandemic in 1666, Newton, far
+from being /isolated/, and instead in constant and sustained
+communication with the scientific community, started to develop this
+unification model.
+
+#+CAPTION: Isaac Newton
+[[file:images/newton.png]]
+
+
+The key insight is that the /force/ causing the acceleration of a
+falling object (e.g., an apple in Earth's own gravity, a metaphor used
+to highlight Newton's landowning noble status most likely), is the
+same force as the one governing the orbit of the planets.
+#+BEGIN_LATEX
+\begin{equation}
+\mathbf{F_{1}} = \frac{Gm_{1}_{}m_{2}}{r^{2}} \ \ ,
+\end{equation}
+#+END_LATEX
+where $F_{1}$ is the attraction of $m_{1}$ applied to $m_{2}$, $r$
+is their distance and $G$ is a constant, which Newton determined
+analyzing the orbital motion of the planets and the Moon, $G=6.67 \times
+10^{-8}$ cm^{3} g^{-1} s^{-2}.
+
+#+CAPTION: Schematic of the gravitational attraction between two point masses
+[[./images/NewtonsLawOfUniversalGravitation.svg]]
+
+Of course, corresponding to $F_{1}$, by the third law, there is an equal
+and opposite $F_{2} = - F_{1}$: when you jump up, the Earth pulls you down,
+but at the same time you pull up the Earth! Why is it that you move a
+lot, but the Earth barely does?
+
+:Hint:
+Think about the definition of mass as the "resistance of an object to
+change in its velocity". Who has more mass between you and the Earth?
+So given the same (by the third law) force, who will accelerate more?
+:end:
+
+* Conservation laws in physics
+In my opinion, one of the most beautiful results of theoretical
+physics is due to [[https://en.wikipedia.org/wiki/Emmy_Noether][Emmy Noether]], which states that /for every symmetry
+in nature, there is a corresponding conserved physical quantity/.
+
+** Conservation of energy
+This is a consequence of the symmetry of space-time for temporal
+translation (yesterday is the same as today).
+
+Energy is by definition the capacity of a system to /do work/, where
+/work/ is the product of a force $F$ times a displacement $d$:
+
+#+BEGIN_LATEX
+\begin{equation}
+W = \mathbf{F}\cdot\mathbf{d}
+\end{equation}
+#+END_LATEX
+
+Since this is a dot-product, it produces from two vectors (force and
+displacement) a scalar. Energy is also a scalar, and it can come in
+various forms
+*** Kinematic
+
+*** Thermal
+
+*** Potential
+
+
+#+CAPTION: Energy can transform from one form to another, but the total is conserved. In this example the kinetic and potential energy of the ball can transform into one-another along the path. Note that the zero-point for the potential energy is arbitrary.
+[[file:images/potential_vs_kinetics.png]]
+
+
+
+** Conservation of momentum
+This is a consequence of the symmetry of space-time with translations.
+
+** Conservation of angular momentum
+This is a consequence of symmetry of space-time w.r.t. rotations.

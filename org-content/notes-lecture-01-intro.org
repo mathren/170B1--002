@@ -19,7 +19,6 @@ observable/experimental data.
 
 ** Learning outcomes
 (see [[file:syllabus170B1.org::*Expected learning outcomes][Expected learning outcomes]] in syllabus).
-
 * Syllabus
 #+CAPTION: [[./syllabus170B1.org][Link to syllabus]]
 #+ATTR_HTML: :width 50%
@@ -42,8 +41,13 @@ the content).
 - No vaping/smoking, eating
 - Don't be disruptive or dismissive
 - Listen if others have questions, the answer may benefit you too
-- Have a *growth mindset*
+- Have a *growth mindset*: the point of getting an education is
+  improving your knowledge and competences
+- Use of AI tools: not forbidden and I don't want to police it. Your
+  submissions should be a reflection of your own work, and copy
+  pasting output of an LLM without digesting it will be considered cheating
 - Interact with me, TAs and each other, approach learning in an active way
+- *It is your responsibility to keep track of assignments, deadlines, etc*
 
 * Tentative schedule
 
@@ -56,9 +60,9 @@ the content).
 Reading (not graded) assigned per lecture, homework based on the
 textbook.
 
-Starting from next week, one homework /each week/ (11 assignments + 3
-lab writeups) starting on <2026-09-02 Wed>. Late submissions graded
-with 50% penalty.
+There will be /one homework due each week/ (11 assignments + 3 lab
+writeups) starting on <2026-09-02 Wed>. Late submissions graded with
+50% penalty. These will be on "Mastering Astronomy" web interface.
 
 You have *one free no questions asked 3-day-late* (72 hours after the
 due date/time) turn in for one homework assignment that can be used by
@@ -72,15 +76,21 @@ including the "signature assignment" with a report due as a homework
 assignment.
 
 *** Signature assignment
-More information will follow later in the course, but in short you
-will use both the Steward Observatory 21-inches telescope and a
-seestar S50 modern camera controlled via your smartphone to compare
-observations with different tools and detectors.
+This can be part of your portfolio at the end of college. More
+information will follow later in the course, but in short you will use
+both the Steward Observatory 21-inches telescope and a Seestar S50
+modern camera controlled via your smartphone to compare observations
+with different tools and detectors.
 
 ** Participation
-Starting from next lecture, attendance will be logged with a top hat
-code to be given in class each time. You have up to 4 absence
-unjustified (no question asked, attendance grade dropped).
+During lessons I will try to cover the material in the text book with
+additions/adaptations, but I will not try to read the book for you:
+you are /expected/ to do your own reading to be able to perform well in
+homework and exams, and ultimately in this class.
+
+Starting from next lecture, attendance will be logged through top hat.
+You have up to 4 absence unjustified (no question asked, attendance
+grade dropped).
 
 /Presence, and preferably, active participation is expected/: by
 interacting we can all learn more and better! Learning is an active
@@ -88,11 +98,6 @@ process, it requires engaging with the materials, asking questions,
 being puzzled and confused, and resolving this confusion. The
 questions of others can open up more directions to develop into and
 are relevant.
-
-During lessons I will try to cover the material in the text book with
-additions/adaptations, but I will not try to read the book for you:
-you are /expected/ to do your own reading to be able to perform well in
-homework and exams, and ultimately in this class.
 
 ** Exams: Mid terms and final
 There will be two mid-terms, in class closed-book/notes, on
@@ -112,28 +117,24 @@ exam, comprehensive of all topics covered in the course, on
 
 ** Top hat test
 
+1. Go on [[https://d2l.arizona.edu/d2l/home/1802755][D2L]]
+2. and access this course in  [[https://app.tophat.com/e/214705/content/course-work/item/1477906::ddaeb2a1-5ade-4bf4-9531-b079c2a3e25b][Top hat]]: =ASTR170B1-02-MR=, number =214705=.
+2. find Intro \rightarrow "Top hat intro test"
+3. Answer the questions, we will look at the results of the second one
+   only today (the others are more for me to understand you)
 
-
-- [ ] QR code
-:To-ask:
+:Top-Hat-Questions:
 - Name
 - what is your favorite astronomical object? (only public answer)
 - Anything they want to learn in particular?
 - How much is 10^{4} ?
 - What is 10^{2}\times10^{8}?
 - What is $\sqrt{10^{6}}$?
-:end:
 
 To review this, do the "Optional Mathematics Review (not for credit)"
 on Mastering Astronomy. The "Introduction to Mastering Astronomy (not
 for credit)" can walk you through using the question system.
-
-
-
-1. Log in into [[https://app.tophat.com/e/214705/content/course-work/item/1477906::ddaeb2a1-5ade-4bf4-9531-b079c2a3e25b][Top hat]]
-2. find Intro \rightarrow "Top hat intro test"
-3. Answer the questions, we will look at the results of the second one
-   only today (the others are more for me)
+:end:
 
 ** Who am I?
 
@@ -141,23 +142,28 @@ for credit)" can walk you through using the question system.
 #+ATTR_HTML: :width 75%
 [[./images/zetaoph.jpg]]
 
-
-I moved to Arizona to work here at Steward Observatory as a
-theoretical and computational astrophysicist. I use computer
-simulations to solve the physical processes in the evolution of stars,
-and I focus on the ones big enough to explode as supernovae, forming
-the densest objects in the Universe, neutron stars and black holes.
+My name is Mathieu Renzo, I moved to Arizona to work here at Steward
+Observatory as a theoretical and computational astrophysicist. This
+means I use computer to simulate the physical processes in the
+evolution of stars, and I focus on the ones big enough to explode as
+supernovae, forming the densest objects in the Universe, neutron stars
+and black holes.
 
 * Units and physical quantities
 In this course we will deal with physical quantities (e.g., mass,
 time, distances), which are measured in certain units (e.g., pounds or
-grams, seconds or years, miles or meters). Like in life you chose your
-units for the context at hand (e.g., you wouldn't tell your height in
-miles or kilometers, or viceversa use inches or centimeters to measure
-an intercontinental air trip), in astronomical context we have to pick
-appropriate units for describing quantities. Scientists pick the /units
-adapted to the problem/: this typically means choosing units such that
-the numbers you are managing are "small" (of order unity).
+grams, seconds or years, miles or meters).
+
+*N.B.:* For an equation to make sense, the two sides need to be of the
+/same units/: a /length/ cannot be equal to a mass!
+
+Like in life you chose your units for the context at hand (e.g., you
+wouldn't tell your height in miles or kilometers, or viceversa use
+inches or centimeters to measure an intercontinental air trip), in
+astronomical context we have to pick appropriate units for describing
+quantities. Scientists pick the /units adapted to the problem/: this
+typically means choosing units such that the numbers you are managing
+are "small" (of order unity).
 
 In astrophysics, most commonly we use the "centimeter, gram, second"
 system of units (cgs) to describe most physical quantities. There are
@@ -178,9 +184,9 @@ for the scale of a specific problem, or astronomical object.
 1 km = 0.6213712 miles
 :end:
 
-Average distance between the Sun and Earth along the year: 1 au \simeq 150
-000 000 km. This unit is useful to describe things on
-planetary/stellar-system scale.
+Average distance between the Sun and Earth along the year: $1
+\mathrm{au} \simeq 150 000 000 \mathrm{km}$. This unit is useful to
+describe things on planetary/stellar-system scale.
 
 ** Light year (ly)
 A light /year/ is a measure of *distance*. It is possible to define this
@@ -200,12 +206,12 @@ for the communication (at the speed of light) between your phone and
 satellites. Without these corrections, your GPS would be too
 inaccurate to be usable.
 
-1 light year = *distance* traveled by light in vacuum in one year \simeq
-9.56\times10^{12} km.
+1 light year = *distance* traveled by light in vacuum in one year $\simeq
+9.56\times10^{12} \mathrm{km}$.
 
 
-In astrophysics we also use the parsec, which corresponds roughly to 1
-pc = 3.2 ly.
+In astrophysics we also use the parsec, which corresponds roughly to
+$1 \mathrm{pc} = 3.2 \mathrm{ly}$.
 
 *** Observations as a time machine
 Because the speed of light in vacuum is constant and /finite/, it takes
@@ -219,8 +225,7 @@ minutes.
 Since $c$ is constant, the larger the distance, the longer the time it
 takes for light to reach us:
 
-#+CAPTION: The farther we look, the longer ago we see (longer lookback time)
-
+#+CAPTION: The farther we look, the longer ago we see (longer "lookback time").
 [[file:images/light_travel_time.png]]
 
 
@@ -234,7 +239,6 @@ galaxies observed by /JWST/ seen very early in the evolution of the
 Universe (baby galaxies in formation!)
 
 #+CAPTION: NASA infographic based on James Webb Space Telescope (/JWST/) NIRCam image.
-
 [[./images/JWST_highz.jpg]]
 
 To gain intuition, lets /rescale/ the entire history of the Universe as
@@ -242,7 +246,6 @@ if it were one single year (one loop of the Earth around the Sun):
 
 #+Caption: History of the Universe rescaled to 1 year. Fig. 1.12 in book.
 #+DOWNLOADED: screenshot @ 2026-08-16 18:00:36
-
 [[file:images/calendar.png]]
 
 * Where are we?
@@ -345,24 +348,27 @@ Often in astrophysics one can find numbers that are hard to imagine
 for how big (e.g., 10^{24}, 10^{33}, 10^{51}) or how small (e.g., 10^{-15}) they
 are, orders of magnitude are easier to keep track of.
 
-The size of the Milkyway is $R\sim$10000pc=10 kpc=10^{4} pc, so it has a
-volume $V\sim R^{3} \sim (10^{4})^{3}=10^{12}$ pc^{3}. Consider the distance from the Sun
-to the nearest star, $d\sim4$ ly\sim1 pc. So on average we can estimate a
-star occupies about $d^{3}$ of volume in the Galaxy, and the number of
-star to be the Volume of the Galaxy divided the volume for each star,
-$N\simeq V/ d^{3} = 10^{12} \mathrm{pc}^{3}/(1 \mathrm{pc})^{3} = 10^{12}$.
+The size of the Milkyway is
+$R\sim10\,000\,\mathrm{pc}=10\,\mathrm{kpc}=10^{4}\,\mathrm{pc}, so it has a
+volume $V\sim R^{3} \sim (10^{4})^{3}=10^{12}\,\mathrm{pc^{3}}. Consider the distance from
+the Sun to the nearest star, $d\sim4 \,athrm{ly}\sim1 \mathrm{pc}$. So on
+average we can estimate a star occupies about $d^{3}$ of volume in the
+Galaxy, and the number of star to be the Volume of the Galaxy divided
+the volume for each star, $N\simeq V/ d^{3} = 10^{12} \mathrm{pc}^{3}/(1
+\mathrm{pc})^{3} = 10^{12}$.
 
 There are about 10^{12} = 1 000 000 000 000 = 1 Trillion stars in the
 Milky way Galaxy, which is roughly the correct answer!
 
 *N.B.:* Chose the right units (pc = parsecs) to keep the calculations
-simple.
+simple. We were looking for a number without units (the number of
+stars), and the $\mathrm{pc^{3}}$ term appeared at the numerator and
+denominator, canceling out.
 
 Not all these stars are visible: many are too faint, hidden behind
 clouds of interstellar dust, in too crowded areas to stand out, etc.
 
 #+CAPTION: Optical view of the sky from the [[https://www.esa.int/Science_Exploration/Space_Science/Gaia][Gaia]] space telescope. Dark areas are clouds of interstellar material blocking the light from stars behind. At the bottom, the LMC and SMC satellite galaxies are visible.
-
 [[./images/Gaia.jpg]]
 
 
@@ -370,7 +376,6 @@ Note the two bright spots in the southern emisphere. These are the LMC
 and SMC, two satellite galaxies of the Milky way.
 
 ** Extra-galactic
-
 Galaxies are /not/ isolated: the distance between two large galaxies is
 often comparable to the size of the galaxies themselves, causing
 constant imbalances between the internal gravitational pull within a
@@ -405,7 +410,6 @@ Galaxy clusters and superclusters are organized along "strings" at the
 edge of large regions empty of structure. These form the "Cosmic web":
 
 #+CAPTION: Distribution of (dark) matter in the cosmic web in a cosmological numerical simulation.
-
 [[./images/Cosmic_web.jpg]]
 
 Galaxy super-clusters are like "knots" in this web.
@@ -415,7 +419,6 @@ meaning, at every point everything looks "the same", every point has
 the same density $\rho$. It all started from /very small/ wiggles!
 
 #+CAPTION: Planck image of the Cosmic Microwave Background. The Universe had a certain temperature (\sim 3000 K) at the time it produced this light, about 380 000 years after the Big bang. The color indicate deviations in one part 10^{9} from the average temperature, which trace equally small deviation from homogeneity. These are the "seed perturbations" from which Galaxies and clusters grow.
-
 [[./images/Planck_CMB.jpg]]
 
 * Motion of the Universe
@@ -442,6 +445,7 @@ the seasonal weather variations away from the Equator.
 [[file:images/Obit.png]]
 
 The orbital velocity of Earth around the Sun is about 30 km s^{1}.
+
 
 ** Sun around center of Milky way \rightarrow P\sim250 Myr
 
@@ -492,6 +496,7 @@ Universe, which is /dark matter/. Lighter clumps indicate more dark
 matter forming the "cosmic web" and moving internally, forming and
 disrupting, merging. Imagine each light dot as a cluster of galaxies
 to get the right idea.
+
 
 ** Expansion of the Universe
 Thanks to a regular relation between the /period/ of pulsations of a
