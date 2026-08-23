@@ -281,6 +281,21 @@ if it were one single year (one loop of the Earth around the Sun):
 #+DOWNLOADED: screenshot @ 2026-08-16 18:00:36
 [[file:images/calendar.png]]
 
+As a species /homo/ we have been around for only \sim 3 million years, a
+very small fraction of the \sim 14 billion-year-long Universe's history.
+
+
+Note how before the \sim 1840s, before the community of physicists
+started investigating the concept of /entropy/ and irreversibility,
+cosmological theories did /not/ concern themselves with /evolution/ or
+/formation/: the simple assumption of a static and always existing
+Universe was satisfying enough. With the realization that for
+something to /shine/ (e.g., a star) it has to lose energy, and thus its
+interior has to compensate for such a loss and consequently evolve is
+a spark igniting the question of then how did things look in the
+past/future, thus /evolution/ and consequently /beginning/ of stellar
+objects.
+
 * Where are we?
 Aim: exploring the scale of the Universe in relation to our positon.
 
