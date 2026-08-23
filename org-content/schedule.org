@@ -37,8 +37,9 @@ function jumpToNearestDate() {
 
 * Exploring Our Universe - Tentative Schedule
 
-Homework deadlines are the day /before/ the lecture at 11:59pm
-(typically Tuesday). The schedule below is subject to adjustments as
+- Homework deadlines are the day /before/ the lecture at 11:59pm
+(typically Tuesday).
+- The schedule below is subject to adjustments as
 needed.
 
 #+BEGIN_EXPORT html
