@@ -40,5 +40,5 @@ Pearson online help: https://help.pearsoncmg.com/integration/cg/student/.
 Prof. Renzo may publish his own notes, linked in the [[./schedule.org][schedule]]. These
 by no means substitute the course book or online materials.
 
-#+Caption: QR code link to [[./index.org][Home page]].
+#+Caption: QR code link to [[./index.org][Home page]], also accessible from the top left =ASTR170B1=.
 [[./images/QR-index.png]]

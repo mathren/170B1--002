@@ -1,4 +1,4 @@
-#+title: ASTR170 B1 Session 002 - Schedule
+#+title: ASTR170 B1 - Schedule
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+options: title:nil
@@ -57,7 +57,6 @@ The schedule below is subject to adjustments as needed.
 [[./notes-lecture-01-intro.org][Notes]]
 
 *** <2026-08-26 Wed> - Celestial motions
-
 [[./notes-lecture-scale.org][Notes]]
 
 # Assign Homework 1
@@ -90,7 +89,7 @@ DEADLINE: Homework, in class quiz
 # in class attendance
 *** <2026-09-16 Wed> - Light and matter
 # in class attendance
-# Deadline Homework 3, Assign Homework 4
+# Deadline Homework 3, Final deadline Homework 1, Assign Homework 4
 DEADLINE: Homework, in class quiz
 
 ** Week 5: Chapter 5, 6; Lab 2

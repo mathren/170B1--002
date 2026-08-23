@@ -1,4 +1,4 @@
-#+title: ASTR170 B1 Session 002 - Syllabus
+#+title: ASTR170 B1 - Syllabus
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: index.org
@@ -107,11 +107,13 @@ exam format, please reach out to the DRC and Prof. Renzo prior to the
 exam to work out any accommodations.
 
 ** Weekly online homework
-On most Tuesdays at 11:59pm an homework assignment will be due (see
-[[./schedule.org][schedule]]). *All assignments will be submitted electronically*.
+On most /Tuesdays/ at 11:59pm an homework assignment will be due -- the
+day /before/ the second class of the week (see [[./schedule.org][schedule]]). *All
+assignments will be submitted electronically*.
 # Two attempts per questions should be possible.
-Late submissions are allowed until Wednesday 11:59pm, but with 50%
-penalty on the grade for the parts submitted late.
+Late submissions are allowed for up to two weeks (or <2026-12-11 Fri>,
+if it comes first), but with 50% penalty on the grade for the parts
+submitted late.
 
 You should access Mastering Astronomy through Brightspace from the
 Content tab of our course webpage (see [[./access_howto.org][how to]]). You may discuss the
@@ -133,7 +135,7 @@ has a difficult day. Assignments can be turned in early if desired.
 Please do not provide any details. Otherwise, homework turned in late
 will be graded, with a 50% late penalty. This applies to all Mastering
 Astronomy assignments, Labs, and the Mastering tutorials of the
-Signature Assignment, but NOT the Signature Assignment Digication
+Signature Assignment, but /not/ the Signature Assignment Digication
 ePortfolio.If you have extenuating circumstances which cannot be met
 by this policy, please inform the Professor. The final deadline to
 turn in any late work is Saturday, December 12 at 11:59pm.
@@ -154,10 +156,11 @@ to view the correct answer after completion, so this should be easy if
 you have actually done (and understood) the homework.
 
 ** Signature Assignment
-The title will be /Using Telescopes to Explore our Universe/. You will
-use the Steward Observatory 21-Inch Telescope, the Seestar S50
-telescope/camera, and your smart phone to make astronomical
-observations. The assignment, accessed through D2L, will begin in
+The title will be /Using Telescopes to Explore our Universe/, and you
+will produce a ePortfolio through Digication using your own
+astronomical observations. You will use the Steward Observatory
+21-Inch Telescope and the Seestar S50 telescope/camera controlled with
+your smart phone. The assignment, accessed through D2L, will begin in
 September and last all semester. Final reports will be due
 <2026-11-25 Wed>.
 
