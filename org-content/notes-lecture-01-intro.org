@@ -271,7 +271,7 @@ galaxies in space, etc.), we think the Universe as a whole is about
 galaxies observed by /JWST/ seen very early in the evolution of the
 Universe (baby galaxies in formation!)
 
-#+CAPTION: NASA infographic based on James Webb Space Telescope (/JWST/) NIRCam image.
+#+CAPTION: NASA infographic based on James Webb Space Telescope (/JWST/) NIRCam image (which measures the amount of light coming) and NIRSpect spectrograph (which measures the energy distribution of the light, in other words how many photons of each given energy/wavelength make up the signal). We will discuss both techniques later in this course.
 [[./images/JWST_highz.jpg]]
 
 To gain intuition, lets /rescale/ the entire history of the Universe as
