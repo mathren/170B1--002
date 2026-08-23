@@ -115,7 +115,7 @@ additions/adaptations, but I will not try to read the book for you:
 you are /expected/ to do your own reading to be able to perform well in
 homework and exams, and ultimately in this class.
 
-Starting from next lecture, attendance will be logged through top hat.
+Starting from next lecture, attendance will be logged through [[https://app.tophat.com/e/214705/content/course-work/item/1477906::ddaeb2a1-5ade-4bf4-9531-b079c2a3e25b][Top hat]].
 You have up to 4 absence unjustified (no question asked, attendance
 grade dropped).
 
@@ -143,6 +143,12 @@ exam, comprehensive of all topics covered in the course, on
 [[./images/college_distribution_pie.png]]
 
 ** Top hat test
+
+
+#+CAPTION: Link to Top hat for this lecture
+#+ATTR_HTML: :width 50%
+[[file:images/QR-top-hat-intro.png]]
+
 
 1. Go on [[https://d2l.arizona.edu/d2l/home/1802755][D2L]]
 2. and access this course in  [[https://app.tophat.com/e/214705/content/course-work/item/1477906::ddaeb2a1-5ade-4bf4-9531-b079c2a3e25b][Top hat]]: =ASTR170B1-02-MR=, number =214705=.
