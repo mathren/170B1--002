@@ -76,7 +76,9 @@ textbook with the additions I may put on context/content).
 
 * Tentative schedule
 
-#+CAPTION: Link to [[./schedule.org][schedule]]
+We will meet in Steward Observatory N210, Monday/Wednesday 2-3:15pm.
+
+#+CAPTION: Link to [[./schedule.org][schedule]].
 #+ATTR_HTML: :width 50%
 [[./images/QR-schedule.png]]
 
