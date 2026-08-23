@@ -35,6 +35,10 @@ Chrome/ium and derivatives (avoid using Safari).
 
 Pearson online help: https://help.pearsoncmg.com/integration/cg/student/.
 
+
 * Other notes
-Prof. Renzo may publish his own notes, linked in the schedule. These
+Prof. Renzo may publish his own notes, linked in the [[./schedule.org][schedule]]. These
 by no means substitute the course book or online materials.
+
+#+Caption: QR code link to [[./index.org][Home page]].
+[[./images/QR-index.png]]
