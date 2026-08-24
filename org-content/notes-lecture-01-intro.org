@@ -513,6 +513,11 @@ the seasonal weather variations away from the Equator.
 
 The orbital velocity of Earth around the Sun is about 30 km s^{1}.
 
+The animated gif below adds also the Moon orbiting the Earth and puts
+rotation and revolution around the Sun together:
+#+CAPTION: Combination of the rotation of the Earth, revolution around the Sun, and revolution of the Moon around the Earth (not to scale).
+[[./images/Earth-Moon-Orbit-Sun.gif]]
+
 
 ** Sun around center of Milky way \rightarrow P\sim250 Myr
 
