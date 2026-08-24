@@ -310,12 +310,12 @@ that takes time!
 
 *** How old is the Universe?
 
-Based on several lines of observations that we will cover at the end
-of the course (cosmic microwave background, the distribution of
-galaxies in space, etc.), we think the Universe as a whole is about
-13.7\times10^{9} yr = 13.7 Gyr old. The image below tags some specific
-galaxies observed by /JWST/ seen very early in the evolution of the
-Universe (baby galaxies in formation!)
+Based on several lines of observations we will discuss later in the
+course (cosmic microwave background, the distribution of galaxies in
+space, etc.), we think the Universe as a whole is about 13.7\times10^{9} yr =
+13.7 Gyr old. The image below tags some specific galaxies observed by
+/JWST/ seen very early in the evolution of the Universe (baby galaxies
+in formation!)
 
 #+CAPTION: NASA infographic based on James Webb Space Telescope (/JWST/) and two different instruments mounted on the telescope: the image on the left from NIRCam (which measures the amount of light coming, instrument developed here at Steward Observatory) and NIRSpect spectrograph (which measures how many photons of each given wavelength - or energy - make up the signal). We will discuss both techniques later in this course. By combining the information we can /image/ galaxies and /time/ when the light that we are seeing left them, in this image up to 13.1 Gyr ago: these are /baby galaxies in the early Universe/!
 [[./images/JWST_highz.jpg]]
@@ -330,17 +330,17 @@ if it were one single year (one loop of the Earth around the Sun):
 As a species /homo/ we have been around for only \sim 3 million years, a
 very small fraction of the \sim 14 billion-year-long Universe's history.
 
-
-Note how before the \sim 1840s, before the community of physicists
-started investigating the concept of /entropy/ and irreversibility,
-cosmological theories did /not/ concern themselves with /evolution/ or
-/formation/: the simple assumption of a static and always existing
-Universe was satisfying enough. With the realization that for
-something to /shine/ (e.g., a star) it has to lose energy, and thus its
-interior has to compensate for such a loss and consequently evolve is
-a spark igniting the question of then how did things look in the
-past/future, thus /evolution/ and consequently /beginning/ of stellar
-objects.
+*N.B.:* /Scientific questions/ are dependent on the cultural and
+contextual knowledge. Before the \sim 1840s, when the community of
+physicists started investigating the concept of /entropy/ and
+irreversibility in time of processes, cosmological theories did /not/
+concern themselves with /evolution/ or /formation/: the simple assumption
+of a static and always existing Universe was satisfying enough. With
+the realization that for something to /shine/ (e.g., a star) it has to
+lose energy, and thus its interior has to compensate for such a loss
+and consequently evolve is a spark igniting the question of then how
+did things look in the past/future, thus /evolution/ and consequently
+/beginning/ of stellar objects.
 
 * Where are we?
 Aim: exploring the scale of the Universe in relation to our positon.
