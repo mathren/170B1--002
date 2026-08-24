@@ -443,10 +443,6 @@ clouds of interstellar dust, in too crowded areas to stand out, etc.
 #+CAPTION: Optical view of the sky from the [[https://www.esa.int/Science_Exploration/Space_Science/Gaia][Gaia]] space telescope. Dark areas are clouds of interstellar material blocking the light from stars behind. At the bottom, the LMC and SMC satellite galaxies are visible.
 [[./images/Gaia.jpg]]
 
-
-Note the two bright spots in the southern emisphere. These are the LMC
-and SMC, two satellite galaxies of the Milky way.
-
 ** Extra-galactic
 Galaxies are /not/ isolated: the distance between two large galaxies is
 often comparable to the size of the galaxies themselves, causing
