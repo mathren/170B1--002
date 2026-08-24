@@ -10,7 +10,7 @@
 
 ** Overview of the class
 The idea is to introduce the scientific method through an overview of
-astronomy/astrophysics.
+the historical development of modern ideas in astronomy and astrophysics.
 
 There will be some math and literally /astronomical/ numbers. Science is
 a *quantitative* effort to understand the world, and mathematics is the
@@ -23,10 +23,6 @@ observable/experimental data.
 #+CAPTION: [[./syllabus170B1.org][Link to syllabus]]
 #+ATTR_HTML: :width 50%
 [[./images/QR-syllabus.png]]
-** Grades
-
-[[./syllabus170B1.org::*Exams and grading][Exams and grading]]
-
 ** Textbooks
 
 [[file:syllabus170B1.org::*Required textbook and resources][Required textbook and resources]]
@@ -36,11 +32,11 @@ the bottom here]]), but these are by no means a /substitute/ for the
 textbook material (they are, in a sense, my own reading of the
 textbook with the additions I may put on context/content).
 
+** Grades
+
+[[./syllabus170B1.org::*Exams and grading][Exams and grading]]
+
 ** Expected behavior
-- Be respectful and encourage a welcoming environment for everyone
-- No vaping/smoking, eating, drinking (except water)
-- Don't be disruptive or dismissive
-- Listen if others have questions, the answer may benefit you too
 - Have a *growth mindset*: the point of getting an education is
   improving your knowledge and competences, not getting a letter
   grade. Some things should be challenging, and it is by working
@@ -49,14 +45,18 @@ textbook with the additions I may put on context/content).
   yourselves with each other, take a mental note of your knowledge
   now, and as the semester goes, compare your (future) self to your
   current status.
+- Don't be disruptive or dismissive
+- No vaping/smoking, eating, drinking (except water)
 - You can help each other, discuss, compare: science is ultimately a
   /collective/ enterprise, it is through the dialectic engagement of
   individuals and communities that refined understanding, new ideas,
   and better models are developed.
-- Naturally, the best discussions occur in a respectful environment,
+- The best the best discussions occur in a respectful environment,
   where everyone feels their opinion is valued, but also where no one
   is holding the discussion "hostage" by being disruptive. Try to act
-  as an /ideal/ scientist.
+  as an /ideal/ scientist: be respectful and encourage a welcoming
+  environment for everyone. Listen if others have questions, the answer
+  may benefit you too
 - Nevertheless, you are expected to submit your own work. Because the
   amount of cumulated knowledge in the history of humanity is vast, no
   single scientist can test and verify /all/ hypothesis and /also/ make
