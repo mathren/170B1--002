@@ -250,7 +250,7 @@ units for the problem!/).
 :end:
 
 Average distance between the Sun and Earth along the year: $1
-\mathrm{au} \simeq 150 000 000 \mathrm{km}$ = 150 million kilometers. This
+\mathrm{au} \simeq 150 000 000 \mathrm{km} = 150$ million kilometers. This
 unit is useful to describe things on planetary/stellar-system scale.
 
 ** Light year (ly)
