@@ -183,10 +183,14 @@ evolution of stars, and I focus on the ones 10\times more massive than the
 Sun, big enough to explode as supernovae and form the densest objects
 in the Universe, neutron stars and black holes.
 
+
 * Units and physical quantities
-In this course we will deal with physical quantities (e.g., mass,
-time, distances), which are measured in certain units (e.g., pounds or
-grams, seconds or years, miles or meters).
+Let's now start by having an overview of /where/ and /when/ in the
+Universe we are, and paint a broad-brush map of the Universe.
+
+In this course we will deal with physical quantities (position, time,
+distances, masses, ...), which are measured in certain units (e.g.,
+inches or meters, pounds or grams, seconds or years).
 
 *N.B.:* For an equation to make sense, the two sides need to be of the
 /same units/: a /length/ cannot be equal to a /mass/! Or a /velocity/ cannot
@@ -289,10 +293,20 @@ minutes.
 
 Since $c$ is constant, the larger the distance, the longer the time it
 takes for light to reach us:
-
 #+CAPTION: The farther we look, the longer ago we see (longer "lookback time").
 [[file:images/light_travel_time.png]]
 
+In fact, light seen today must have left the source a $D/c$ ago, with
+$D$ distance between us and the source, and $c$ the speed of light.
+Note that we are implicitly assuming that there is vacuum between us
+and the source, which is not /correct/ but acceptable. However, $D/c\le$
+age of the Universe (otherwise the light would have needed to leave
+the source before the Universe existed!), which sets a limit on the
+size of the /observable/ Universe.
+
+*N.B.:* think of light as a "snail mail" from the source: it has to
+physically move between two points to be delivering a message, and
+that takes time!
 
 *** How old is the Universe?
 
