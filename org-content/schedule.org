@@ -50,7 +50,6 @@ function jumpToNearestDate() {
 </div>
 #+END_EXPORT
 
-
 ** Week 1: Chapter 1-2
 
 *** <2026-08-24 Mon> - Scale of The Universe
@@ -58,9 +57,8 @@ function jumpToNearestDate() {
 [[./notes-lecture-01-intro.org][Notes]]
 
 *** <2026-08-26 Wed> - Celestial motions
-[[./notes-lecture-scale.org][Notes]]
-
 # Assign Homework 1
+[[./notes-lecture-02-scale.org][Notes]]
 
 ** Week 2: Chapter 3; Lab 1
 
@@ -72,7 +70,6 @@ function jumpToNearestDate() {
 # in class attendance
 DEADLINE: Homework, in class quiz
 # Deadline Homework 1, Assign Homework 2 (Lab1)
-in class quiz
 
 [[./lab1_astrology_and_pseudosciences.org][Notes]]
 

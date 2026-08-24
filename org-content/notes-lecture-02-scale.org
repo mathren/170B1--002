@@ -17,9 +17,11 @@ where we are:
 [[file:images/scale_motion.png]]
 
 
-:Recap-Question:
-- What motion of the Earth defines the north and south pole?
-:end:
+** Questions
+Go to Top Hat, folder 02-Scale, and answer the 3 questions. These are
+graded for /participation/ and not correctness, and count towards your
+participation grade.
+
 
 * Naked eye observations
 
@@ -266,7 +268,6 @@ occurring on these dates have influenced religions all over the world,
 with every culture having some form of winter solstice celebration
 (amount of daylight bouncing back and increasing again), equinoxes,
 etc.
-
 
 
 * The moon
