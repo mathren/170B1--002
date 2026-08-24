@@ -84,14 +84,14 @@ We will meet in Steward Observatory N210, Monday/Wednesday 2-3:15pm.
 #+ATTR_HTML: :width 50%
 [[./images/QR-schedule.png]]
 
-
 ** Homework
 Reading (not graded) assigned per lecture, homework based on the
 textbook.
 
 There will be /one homework due each week/ (11 assignments + 3 lab
-writeups) starting on <2026-09-02 Wed>. Late submissions graded with
-50% penalty. These will be on "Mastering Astronomy" web interface.
+writeups) starting on <2026-09-02 Wed>. These will be on "Mastering
+Astronomy" web interface. Late submissions graded with 50% penalty up
+to one week late.
 
 You have *one free no questions asked 3-day-late* (72 hours after the
 due date/time) turn in for one homework assignment that can be used by
@@ -101,8 +101,8 @@ day the assignment is due to use this late turn in.
 
 ** Labs
 There will be 3 in-class lab activities (one starting next week),
-including the "signature assignment" with a report due as a homework
-assignment.
+including the "signature assignment" (see below). Each will have a report due as a
+homework assignment.
 
 *** Signature assignment
 This can be part of your portfolio at the end of college. More
