@@ -421,7 +421,7 @@ within:
 
 *** Order of magnitude estimate: how many stars in the Milky way?
 The size of the Milkyway is
-$R\sim10000\mathrm{pc}=10\mathrm{kpc}=10^{4,\mathrm{pc}$, so it has a
+$R\sim10000\mathrm{pc}=10\mathrm{kpc}=10^{4},\mathrm{pc}$, so it has a
 volume $V\sim R^{3} \sim (10^{4})^{3}=10^{12}\,\mathrm{pc^{3}}. Consider the distance from
 the Sun to the nearest star, $d\sim4 \,athrm{ly}\sim1 \mathrm{pc}$. So on
 average we can estimate a star occupies about $d^{3}$ of volume in the
