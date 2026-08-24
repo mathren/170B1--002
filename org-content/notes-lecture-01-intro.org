@@ -399,7 +399,6 @@ each pixel corresponds to the size of the moon.
 ** Galactic
 
 #+CAPTION: Artist impression of the position of the solar system within the Milkyway.
-
 [[./images/MW_artist_impression.png]]
 
 The size of the Milkyway galaxy is about 10kpc = 30 000ly. The Solar
@@ -416,7 +415,6 @@ seeing one of the arms of the Milky way, a grand-spiral galaxy, from
 within:
 
 #+CAPTION: Arm of the milky way above Saguaro national park.
-
 [[./images/saguaro.jpg]]
 
 
@@ -460,7 +458,6 @@ gravitationally, but with chaotic orbits of galaxies zooming past each
 other (instead of a nice organized flow in a plane!).
 
 #+CAPTION: Artist impression of the Local Group within the Virgo galaxy cluster. Each dot represents a galaxy.
-
 [[./images/Virgo.jpg]]
 
 The Milky way as a galaxy is part of, in turn:
@@ -474,7 +471,6 @@ Laniakea comes from Hawai'ian for "Immense Heaven"
 :end:
 
 #+CAPTION: Artist impression of the Laniakea supercluster. Each dot represents a galaxy.
-
 [[./images/Laniakea.jpg]]
 
 
