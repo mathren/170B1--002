@@ -366,16 +366,22 @@ The radius of Earth is $R\sim6000$ km.
 
 ** Solar system
 
-#+CAPTION: Artist impression of solar system (not to scale). "Dwarf Planets" are a category of celestial objects introduces in 2006 after the discovery of /Eris/ (here labeled as 2003 UB_{313}) orbiting farther than Pluto: these are planet-size bodies held together by their own gravity, but which have not cleared their orbit around the host star.
+#+CAPTION: Artist impression of solar system (not to scale).
 [[./images/solar_system.jpg]]
 
 The solar system is composed of:
 - a central star: the Sun (\odot)
-- planets: rocky and gaseous, formed clearing materials from the
-  proto-stellar disk
-- moons: bodies orbiting not the Sun, but planets
-- dwarf planets: (almost) planet-sized bodies that have not clear
-  their orbits.
+- planets: These are self-gravitating objects, too small to power
+  their own internal energy sources, in orbit around a star, and have
+  cleared their orbits. They come in two
+  broad categories: rocky and gaseous.
+- moons: bodies orbiting not the Sun, but planets, they can exceed the
+  size of certain planets.
+- dwarf planets: planet-sized bodies (self-gravitating), orbiting a
+  star, but that have not cleared their orbits. This class was
+  introduced at the 2006 International Astronomical Union General
+  Assembly, after the discovery of /Eris/ (here labeled as 2003 UB_{313})
+  orbiting farther than Pluto.
 
 The cartoon above is not to scale! The size of the Solar system is
 about 60 au \simeq 10^{10} km, the radius of the Earth is about 6000 km = 6 \times
