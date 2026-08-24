@@ -71,7 +71,7 @@ function jumpToNearestDate() {
 DEADLINE: Homework, in class quiz
 # Deadline Homework 1, Assign Homework 2 (Lab1)
 
-[[./lab1_astrology_and_pseudosciences.org][Notes]]
+[[./notes-lecture-04-lab1_astrology_and_pseudosciences.org][Notes]]
 
 ** Week 3: Chapter 4
 
@@ -80,6 +80,8 @@ DEADLINE: Homework, in class quiz
 # in class attendance
 # Deadline Homework 2 (Lab1), Assign Homework 3
 DEADLINE: Homework, in class quiz
+
+[[./notes-lecture-05-gravity-motion.org][Notes]]
 
 ** Week 4: Chapter 4, 5
 
