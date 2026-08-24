@@ -485,6 +485,11 @@ the same density $\rho$. It all started from /very small/ wiggles!
 
 * Motion of the Universe
 
+Let's now have a brief overview of how all these things move around
+each other: /don't get motion sick!/ You don't feel all these motions
+because you go along with them together with all your reference
+points that move with you.
+
 ** Earth's rotation \rightarrow day
 Along it's axis with a period of \sim 24h. Where the axis intersects the
 planet's surface *defines* the North and South poles
