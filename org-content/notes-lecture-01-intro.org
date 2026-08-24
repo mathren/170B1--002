@@ -190,7 +190,9 @@ grams, seconds or years, miles or meters).
 
 *N.B.:* For an equation to make sense, the two sides need to be of the
 /same units/: a /length/ cannot be equal to a /mass/! Or a /velocity/ cannot
-be equal to an /energy/.
+be equal to an /energy/. This is something you are actually familiar
+with in other context, the following intuitively does not make sense
+ "I am 6 seconds tall"!
 
 Like in life you chose your units for the context at hand (e.g., you
 wouldn't tell your height in miles or kilometers, or viceversa use
