@@ -104,7 +104,7 @@ There will be 3 in-class lab activities (one starting next week),
 including the "signature assignment" (see below). Each will have a report due as a
 homework assignment.
 
-*** Signature assignment
+*** Signature assignment: making your own astronomical observations
 This can be part of your portfolio at the end of college. More
 information will follow later in the course, but in short you will use
 both the Steward Observatory 21-inches telescope and a Seestar S50
@@ -124,9 +124,7 @@ grade dropped).
 /Presence, and preferably, active participation is expected/: by
 interacting we can all learn more and better! Learning is an active
 process, it requires engaging with the materials, asking questions,
-being puzzled and confused, and resolving this confusion. The
-questions of others can open up more directions to develop into and
-are relevant.
+being puzzled and confused, and resolving this confusion.
 
 ** Exams: Mid terms and final
 There will be two mid-terms, in class closed-book/notes, on
