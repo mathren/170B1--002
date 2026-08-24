@@ -164,9 +164,10 @@ exam, comprehensive of all topics covered in the course, on
 - What is 10^{2}\times10^{8}?
 - What is $\sqrt{10^{6}}$?
 
-To review this, do the "Optional Mathematics Review (not for credit)"
-on Mastering Astronomy. The "Introduction to Mastering Astronomy (not
-for credit)" can walk you through using the question system.
+To review the maths needed, do the "Optional Mathematics Review (not
+for credit)" on Mastering Astronomy. The "Introduction to Mastering
+Astronomy (not for credit)" can walk you through using the question
+system.
 :end:
 
 ** Who am I?
@@ -178,9 +179,9 @@ for credit)" can walk you through using the question system.
 My name is Mathieu Renzo, I moved to Arizona to work here at Steward
 Observatory as a theoretical and computational astrophysicist. This
 means I use computer to simulate the physical processes in the
-evolution of stars, and I focus on the ones big enough to explode as
-supernovae, forming the densest objects in the Universe, neutron stars
-and black holes.
+evolution of stars, and I focus on the ones 10\times more massive than the
+Sun, big enough to explode as supernovae and form the densest objects
+in the Universe, neutron stars and black holes.
 
 * Units and physical quantities
 In this course we will deal with physical quantities (e.g., mass,
