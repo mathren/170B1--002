@@ -402,13 +402,13 @@ each pixel corresponds to the size of the moon.
 [[./images/MW_artist_impression.png]]
 
 The size of the Milkyway galaxy is about 10kpc = 30 000ly. The Solar
-system is about 8kpc away from the Galactic center (which is in the
-southern Emisphere).
+system is about 8kpc \simeq 26000 ly away from the Galactic center (which
+is in the southern hemisphere).
 
 The immediate solar neighborhood is relatively low density in stars
 compared to the Galactic center: stellar "crowding" decreases with
 distance to the Galactic center. This is located in the Southern
-Emisphere.
+hemisphere.
 
 When you see the "stream of stars" in a very dark night sky, you are
 seeing one of the arms of the Milky way, a grand-spiral galaxy, from
