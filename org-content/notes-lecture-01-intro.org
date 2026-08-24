@@ -548,10 +548,11 @@ observed by [[https://en.wikipedia.org/wiki/Vera_Rubin][Prof. Vera Rubin]], and 
 of the Universe to be made of this /dark matter/, despite of the lack of
 detections of dark matter /particles/.
 
-On top of this, you can think of all the stars in a galaxy like
-molecules of a gas: each has a ("small" with respect their
-galactocentric orbital motion) random velocity -- similar to the
-thermal velocity of molecules of a gas.
+On top of this "ordered" rotation around the center of a galaxy, you
+can think of all the stars in a galaxy like molecules of a gas: each
+has a ("small" with respect their galactocentric orbital motion)
+random velocity -- similar to the thermal velocity of molecules of a
+gas.
 
 #+DOWNLOADED: screenshot @ 2026-08-16 18:12:23
 [[file:images/thermal_v_stars.png]]
@@ -583,6 +584,9 @@ other, and furthermore, /the farther a galaxy, the farther its speed/:
 $v = H \times D$, with $H$ the constant (in every direction) of
 proportionality between the speed $v$ and the distance $D$. This is
 the /Hubble/ "law".
+
+*N.B.:* $H$ is constant in all /spatial/ directions but can vary in /time/
+as the Universe evolve.
 
 To understand it, see the Raisin cake analogy: each galaxy is a
 raisin. As the cake bakes and it inflates, the distance between the
