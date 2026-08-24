@@ -323,7 +323,7 @@ in formation!)
 To gain intuition, lets /rescale/ the entire history of the Universe as
 if it were one single year (one loop of the Earth around the Sun):
 
-#+Caption: History of the Universe rescaled to 1 year. Fig. 1.12 in book.
+#+CAPTION: History of the Universe rescaled to 1 year. Fig. 1.12 in book.
 #+DOWNLOADED: screenshot @ 2026-08-16 18:00:36
 [[file:images/calendar.png]]
 
@@ -367,7 +367,6 @@ The radius of Earth is $R\sim6000$ km.
 ** Solar system
 
 #+CAPTION: Artist impression of solar system (not to scale).
-
 [[./images/solar_system.jpg]]
 
 The solar system is composed of:
