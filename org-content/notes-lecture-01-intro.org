@@ -460,11 +460,7 @@ The Milky way as a galaxy is part of, in turn:
 - Local Group (together, for example with Andromeda, M31), on a scale
   of millions of ly.
 - Virgo Galaxy cluster, on a scale of hundreds of millions of ly
-- Laniakea Supercluster
-
-:Hint:
-Laniakea comes from Hawai'ian for "Immense Heaven"
-:end:
+- Laniakea Supercluster, the name comes from Hawai'ian for "Immense Heaven"
 
 #+CAPTION: Artist impression of the Laniakea supercluster. Each dot represents a galaxy.
 [[./images/Laniakea.jpg]]
