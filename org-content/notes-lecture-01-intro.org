@@ -498,6 +498,11 @@ planet's surface *defines* the North and South poles
 #+ATTR_HTML: width :100%
 [[file:images/Rotation.png]]
 
+The rotational speed $v=\omega d$ at the surface depends on the rotational
+frequency $\omega= 2\pi/P$ (same everywhere) and the distance $d$ from the
+rotation axis: it is larger at the equator $v\sim1500\mathrm{km s^{-1}}$
+because the distance is the full radius of the Earth, while moving up
+in latitude the distance to the axis of rotation decreases.
 
 ** Earth's revolution around the Sun \rightarrow year
 During the year, the Earth orbits the Sun along an elliptical orbit
