@@ -72,7 +72,9 @@ textbook with the additions I may put on context/content).
   submissions should be a reflection of your own work, and copy
   pasting output of an LLM without digesting it will be considered cheating
 - Interact with me, TAs and each other, approach learning in an active way
-- *It is your responsibility to keep track of assignments, deadlines, etc*
+- *It is your responsibility to keep track of assignments, deadlines,
+  etc*. Official communication will occur through D2L, homework
+  assignments through the "Mastering Astronomy" interface.
 
 * Tentative schedule
 
