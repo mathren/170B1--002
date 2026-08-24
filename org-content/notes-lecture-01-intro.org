@@ -239,8 +239,9 @@ for how big (e.g., 10^{24}, 10^{33}, 10^{51}) or how small (e.g., 10^{-15}) they
 are, orders of magnitude are easier to keep track of.
 :end:
 
-However, it is also often convenient to define units characteristic
-for the scale of a specific problem, or astronomical object.
+It is also often convenient to define units characteristic for the
+scale of a specific problem or astronomical object (/chose the right
+units for the problem!/).
 
 ** Astronomical Unit (au)
 
@@ -249,8 +250,8 @@ for the scale of a specific problem, or astronomical object.
 :end:
 
 Average distance between the Sun and Earth along the year: $1
-\mathrm{au} \simeq 150 000 000 \mathrm{km}$. This unit is useful to
-describe things on planetary/stellar-system scale.
+\mathrm{au} \simeq 150 000 000 \mathrm{km}$ = 150 million kilometers. This
+unit is useful to describe things on planetary/stellar-system scale.
 
 ** Light year (ly)
 A light /year/ is a measure of *distance*. It is possible to define this
