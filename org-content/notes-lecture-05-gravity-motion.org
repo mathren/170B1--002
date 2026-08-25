@@ -32,7 +32,7 @@ Let's start by introducing basic concepts to characterize motion:
   the speed, which only says the overall rate of change in position as
   a function of time, without having the direction. It has the
   dimensions of a /length divided by time/ [L/t].
-- acceleration: $\mathrbb{a} = d\mathbf{v}/dt$ is also a vector
+- acceleration: $\mathbb{a} = d\mathbf{v}/dt$ is also a vector
   quantity describing the change in time of the velocity. It has the
   dimensions of a /length divided times squared/ [L/t^{2}]
 #+CAPTION: Which of these cars is accelerating?
@@ -45,6 +45,20 @@ this change is in speed (how long the vector is), or direction
 
 Position, velocity, and acceleration describe the /kinematics/ of
 objects, that is their position and how it changes in time.
+
+Mind the /notation/ here:
+- $\mathbf{x}$ in *bold* indicates /vector/ quantities. Think of this as
+  something that has a direction (e.g., *velocity*,
+  $\mathbf{x}=\mathbf{v}$). More in general, it's a mathematical
+  object that can be described with an ordered list of numbers (e.g.,
+  for *velocity*, the speed and two angles to define the direction in
+  three-dimensional space)
+- $x$ in $\mathrm{math font}$ or just normal is a /scalar/ quantity,
+  something that is entirely described by a number (e.g., a mass,
+  $x=m$, or an energy $x=E$).
+For an equation to make sense it also has to be /mathematically/
+consistent (not only /dimensionally/ in terms of the physical units): a
+*vector* cannot be equal to a /scalar/.
 
 ** Galilean invariance
 While it is easy to "feel" an acceleration (think of a car turning a
