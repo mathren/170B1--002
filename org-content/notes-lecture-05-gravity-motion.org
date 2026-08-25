@@ -57,8 +57,8 @@ Mind the /notation/ here:
   something that is entirely described by a number (e.g., a mass,
   $x=m$, or a time $x=t$).
 For an equation to make sense it also has to be /mathematically/
-consistent (not only /dimensionally/ in terms of the physical units): a
-*vector* cannot be equal to a /scalar/.
+consistent (not only /dimensionally/ in terms of the physical units):
+for example, a *vector* cannot be equal or summed to a /scalar/.
 
 ** Galilean invariance
 While it is easy to "feel" an acceleration (think of a car turning a
@@ -96,7 +96,8 @@ whether he really performed the experiment, this was performed a few
 years later from the bell-tower of Delft's church, and a simple
 experiment can be done with an object and a crumbled piece of paper.
 
-#+CAPTION: Niewe Kerk in Delft.
+#+CAPTION: Niewe Kerk in Delft, where the experiment of dropping a cannon-ball and a feather was actually realized (Galileo only proposed it as a thought experiment).
+#+ATTR_HTML: :width 50%
 [[./images/Nieuwe_kerk.jpg]]
 
 The same experiment has been repeated in absence of atmosphere and
@@ -104,9 +105,9 @@ lower gravity on the Moon:
 #+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/Oo8TaPVsn9Y?si=LLtYpSsMdTOD4rfv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ** From kinematics to dynamics
-The quantities introduced above only /describe/ motion, without
-/explaining/ its causes. This is the task of the subfield of physics
-called /dynamics/.
+The quantities introduced above only /describe/ motion (/kinematics),
+without /explaining/ its causes, which is the task of the subfield of
+physics called /dynamics/.
 
 Let's first introduce some more key quantities and see what is the
 relation between kinematics and dynamics.
@@ -145,7 +146,7 @@ the total angular momentum:
 
 #+BEGIN_LATEX
 \begin{equation}
-\mathbf{J} = \mathbf{p}\cross \mathbf{r} = m \mathbf{v} \times \mathbf{r} \ \ ,
+\mathbf{J} = \mathbf{r} \times \mathbf{p}  = m \mathbf{r} \times \mathbf{v}\ \ ,
 \end{equation}
 #+END_LATEX
 
@@ -187,11 +188,17 @@ the distance to the rotation axis to define a /torque/:
 The torque is what changes the angular momentum, and it a force
 applied at a certain distance from a rotation axis.
 
+*N.B.:* The /torque/ here is exactly what is reported in car
+advertisement, a measure of how the engine can impart rotation by
+"twisting".
 
 *N.B.:* A "torque" is /not/ a force, unlike what is incorrectly written in
  the book. A torque is the product of the applied force \times the lever
  arm w.r.t. a specified rotation point (e.g., the hinges of a door).
- It has the dimensions of a [F] \times [L]  \neq [F].
+ It has the dimensions of a [F] \times [L]  \neq [F]. It is in a sense the
+ "rotational equivalent" of what a force is in a "linear" context.
+
+
 
 ** The "laws" of dynamics
 In the /Philosophiae Naturalis Principia Mathematica/, Newton formalized
@@ -252,6 +259,7 @@ communication with the scientific community, started to develop this
 unification model.
 
 #+CAPTION: Isaac Newton
+#+ATTR_HTML: :width 50%
 [[file:images/newton.png]]
 
 
@@ -261,7 +269,7 @@ to highlight Newton's landowning noble status most likely), is the
 same force as the one governing the orbit of the planets.
 #+BEGIN_LATEX
 \begin{equation}
-\mathbf{F_{1}} = \frac{Gm_{1}_{}m_{2}}{r^{2}} \ \ ,
+\mathbf{F_{1}} = \frac{Gm_{1}m_{2}}{r^{2}} \ \ ,
 \end{equation}
 #+END_LATEX
 where $F_{1}$ is the attraction of $m_{1}$ applied to $m_{2}$, $r$
