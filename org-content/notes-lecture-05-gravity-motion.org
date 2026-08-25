@@ -233,7 +233,8 @@ In a "Newton's pendulum", ball 1 hits ball 2, exerting a force on ball
 2 that accelerates it, and at the same time ball 2 exerts a "reaction"
 force (but there is no time delay) on ball 1 that accelerates it too,
 from it's velocity to zero. Then ball 2 and 3 interact in the same way and so on:
-#+HTTP: <iframe width="560" height="315" src="https://www.youtube.com/embed/QQc8nRPkwUM?si=DxHXzwv3TTc_O0y-&amp;start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/QQc8nRPkwUM?si=DxHXzwv3TTc_O0y-&amp;start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *N.B.:* In our discussion on this pendulum we are explicitly leaving out
 the air and the connection parts with the strings, where friction is
