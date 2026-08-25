@@ -32,7 +32,7 @@ Let's start by introducing basic concepts to characterize motion:
   the speed, which only says the overall rate of change in position as
   a function of time, without having the direction. It has the
   dimensions of a /length divided by time/ [L/t].
-- acceleration: $\mathbb{a} = d\mathbf{v}/dt$ is also a vector
+- acceleration: $\mathbf{a} = d\mathbf{v}/dt$ is also a vector
   quantity describing the change in time of the velocity. It has the
   dimensions of a /length divided times squared/ [L/t^{2}]
 #+CAPTION: Which of these cars is accelerating?
@@ -55,7 +55,7 @@ Mind the /notation/ here:
   three-dimensional space)
 - $x$ in $\mathrm{math font}$ or just normal is a /scalar/ quantity,
   something that is entirely described by a number (e.g., a mass,
-  $x=m$, or an energy $x=E$).
+  $x=m$, or a time $x=t$).
 For an equation to make sense it also has to be /mathematically/
 consistent (not only /dimensionally/ in terms of the physical units): a
 *vector* cannot be equal to a /scalar/.
