@@ -228,9 +228,21 @@ would stop turning, e.g., if there is a patch of ice along the curve,
 it would decrease the friction and lead to the car turning less (or
 not at all!).
 
+
+In a "Newton's pendulum", ball 1 hits ball 2, exerting a force on ball
+2 that accelerates it, and at the same time ball 2 exerts a "reaction"
+force (but there is no time delay) on ball 1 that accelerates it too,
+from it's velocity to zero. Then ball 2 and 3 interact in the same way and so on:
+#+HTTP: <iframe width="560" height="315" src="https://www.youtube.com/embed/QQc8nRPkwUM?si=DxHXzwv3TTc_O0y-&amp;start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+*N.B.:* In our discussion on this pendulum we are explicitly leaving out
+the air and the connection parts with the strings, where friction is
+/another/ force in the system. Friction complicates significantly the
+description and explains why ultimately, on a desk, these toys will
+stop.
+
 The third law explains, for example, why rockets fly: they push out
 exhaust gas, which in turns pushes the rockets up.
-
 #+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/zctTKdQcmVA?si=XT_vT9nEjQxw-k5_&amp;start=54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *N.B.:* In physics the use of the term /law/ is different than in the
@@ -296,6 +308,34 @@ In my opinion, one of the most beautiful results of theoretical
 physics is due to [[https://en.wikipedia.org/wiki/Emmy_Noether][Emmy Noether]], which states that /for every symmetry
 in nature, there is a corresponding conserved physical quantity/.
 
+Newton's laws are a consequence of the conservation of these physical
+quantities due to the symmetries of nature!
+
+*N.B.:* What does it mean to be conserved for a quantity? It literally
+means that it does /not/ change (in time or under certain
+transformation). For an example not involving time: the "shape" of an
+object is conserved under rotation.
+
+** Conservation of momentum
+This is a consequence of the symmetry of space-time with translations
+(side-ways motions): the /dynamics/ of a system, what causes its motion,
+does /not/ depend on where you are, you can shift around in any
+direction and observe the same phenomena related to momentum.
+
+The laws of dynamics follow from this: in absence of an external force
+a body maintains its velocity and its mass, therefore also its
+momentum $\mathbf{p}=m\mathbf{v}$, which is /conserved/ (1^{st} Newton's
+law^{}). And if there is an external force on a body (a source term for
+its /momentum/), there is an equal and opposite force exerted by this
+body on the forcing agent, so that in /total/ the net force on both body
+and agent is zero and the /total/ momentum remains constant (3^{rd} law).
+
+** Conservation of angular momentum
+This is a consequence of symmetry of space-time w.r.t. rotations.
+
+
+
+
 ** Conservation of energy
 This is a consequence of the symmetry of space-time for temporal
 translation (yesterday is the same as today).
@@ -322,12 +362,3 @@ various forms
 
 #+CAPTION: Energy can transform from one form to another, but the total is conserved. In this example the kinetic and potential energy of the ball can transform into one-another along the path. Note that the zero-point for the potential energy is arbitrary.
 [[file:images/potential_vs_kinetics.png]]
-
-
-
-** Conservation of momentum
-This is a consequence of the symmetry of space-time with translations.
-
-
-** Conservation of angular momentum
-This is a consequence of symmetry of space-time w.r.t. rotations.

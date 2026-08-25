@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-08-25 Tue 10:21 -->
+<!-- 2026-08-25 Tue 10:42 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Gravity</title>
@@ -469,11 +469,25 @@ it would decrease the friction and lead to the car turning less (or
 not at all!).
 </p>
 
+
+<p>
+In a "Newton's pendulum", ball 1 hits ball 2, exerting a force on ball
+2 that accelerates it, and at the same time ball 2 exerts a "reaction"
+force (but there is no time delay) on ball 1 that accelerates it too,
+from it's velocity to zero. Then ball 2 and 3 interact in the same way and so on:
+</p>
+<p>
+<b>N.B.:</b> In our discussion on this pendulum we are explicitly leaving out
+the air and the connection parts with the strings, where friction is
+<i>another</i> force in the system. Friction complicates significantly the
+description and explains why ultimately, on a desk, these toys will
+stop.
+</p>
+
 <p>
 The third law explains, for example, why rockets fly: they push out
 exhaust gas, which in turns pushes the rockets up.
 </p>
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zctTKdQcmVA?si=XT_vT9nEjQxw-k5_&amp;start=54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <p>
@@ -577,10 +591,51 @@ In my opinion, one of the most beautiful results of theoretical
 physics is due to <a href="https://en.wikipedia.org/wiki/Emmy_Noether">Emmy Noether</a>, which states that <i>for every symmetry
 in nature, there is a corresponding conserved physical quantity</i>.
 </p>
+
+<p>
+Newton's laws are a consequence of the conservation of these physical
+quantities due to the symmetries of nature!
+</p>
+
+<p>
+<b>N.B.:</b> What does it mean to be conserved for a quantity? It literally
+means that it does <i>not</i> change (in time or under certain
+transformation). For an example not involving time: the "shape" of an
+object is conserved under rotation.
+</p>
+</div>
+<div id="outline-container-conservation-of-momentum" class="outline-3">
+<h3 id="conservation-of-momentum"><a href="#conservation-of-momentum">Conservation of momentum</a></h3>
+<div class="outline-text-3" id="text-org-element-21">
+<p>
+This is a consequence of the symmetry of space-time with translations
+(side-ways motions): the <i>dynamics</i> of a system, what causes its motion,
+does <i>not</i> depend on where you are, you can shift around in any
+direction and observe the same phenomena related to momentum.
+</p>
+
+<p>
+The laws of dynamics follow from this: in absence of an external force
+a body maintains its velocity and its mass, therefore also its
+momentum \(\mathbf{p}=m\mathbf{v}\), which is <i>conserved</i> (1<sup>st</sup> Newton's
+law<sup>nil</sup>). And if there is an external force on a body (a source term for
+its <i>momentum</i>), there is an equal and opposite force exerted by this
+body on the forcing agent, so that in <i>total</i> the net force on both body
+and agent is zero and the <i>total</i> momentum remains constant (3<sup>rd</sup> law).
+</p>
+</div>
+</div>
+<div id="outline-container-conservation-of-angular-momentum" class="outline-3">
+<h3 id="conservation-of-angular-momentum"><a href="#conservation-of-angular-momentum">Conservation of angular momentum</a></h3>
+<div class="outline-text-3" id="text-org-element-22">
+<p>
+This is a consequence of symmetry of space-time w.r.t. rotations.
+</p>
+</div>
 </div>
 <div id="outline-container-conservation-of-energy" class="outline-3">
 <h3 id="conservation-of-energy"><a href="#conservation-of-energy">Conservation of energy</a></h3>
-<div class="outline-text-3" id="text-org-element-21">
+<div class="outline-text-3" id="text-org-element-23">
 <p>
 This is a consequence of the symmetry of space-time for temporal
 translation (yesterday is the same as today).
@@ -591,7 +646,7 @@ Energy is by definition the capacity of a system to <i>do work</i>, where
 <i>work</i> is the product of a force \(F\) times a displacement \(d\):
 </p>
 
-<div class="LATEX" id="org-element-22">
+<div class="LATEX" id="org-element-24">
 \begin{equation}
 W = \mathbf{F}\cdot\mathbf{d}
 \end{equation}
@@ -614,30 +669,14 @@ various forms
 
 <div id="outline-container-potential" class="outline-4">
 <h4 id="potential"><a href="#potential">Potential</a></h4>
-<div class="outline-text-4" id="text-org-element-23">
+<div class="outline-text-4" id="text-org-element-25">
 
-<figure id="org-element-24">
+<figure id="org-element-26">
 <img src="images/potential_vs_kinetics.png" alt="potential_vs_kinetics.png" width="100%">
 
 <figcaption><span class="figure-number">Figure 5: </span>Energy can transform from one form to another, but the total is conserved. In this example the kinetic and potential energy of the ball can transform into one-another along the path. Note that the zero-point for the potential energy is arbitrary.</figcaption>
 </figure>
 </div>
-</div>
-</div>
-<div id="outline-container-conservation-of-momentum" class="outline-3">
-<h3 id="conservation-of-momentum"><a href="#conservation-of-momentum">Conservation of momentum</a></h3>
-<div class="outline-text-3" id="text-org-element-25">
-<p>
-This is a consequence of the symmetry of space-time with translations.
-</p>
-</div>
-</div>
-<div id="outline-container-conservation-of-angular-momentum" class="outline-3">
-<h3 id="conservation-of-angular-momentum"><a href="#conservation-of-angular-momentum">Conservation of angular momentum</a></h3>
-<div class="outline-text-3" id="text-org-element-26">
-<p>
-This is a consequence of symmetry of space-time w.r.t. rotations.
-</p>
 </div>
 </div>
 </div>
