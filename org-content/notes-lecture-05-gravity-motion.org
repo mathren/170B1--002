@@ -269,7 +269,7 @@ to highlight Newton's landowning noble status most likely), is the
 same force as the one governing the orbit of the planets.
 #+BEGIN_LATEX
 \begin{equation}
-\mathbf{F_{1}} = \frac{Gm_{1}m_{2}}{r^{2}} \ \ ,
+\mathbf{F_{1}} = \frac{Gm_{1}m_{2}}{r^{2}}\mathbf{\hat{r}} \ \ ,
 \end{equation}
 #+END_LATEX
 where $F_{1}$ is the attraction of $m_{1}$ applied to $m_{2}$, $r$
