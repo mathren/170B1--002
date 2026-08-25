@@ -201,6 +201,12 @@ advertisement, a measure of how the engine can impart rotation by
 
 
 ** The "laws" of dynamics
+*N.B.:* In physics the use of the term /law/ is different than in the
+common language. There is no legislative body prescribing a norm as a
+/law/, in physics a law is a minimal and clear enunciation of
+empirically sound facts, and they are usually (though not always)
+named after the person who formulated this phrasing.
+
 In the /Philosophiae Naturalis Principia Mathematica/, Newton formalized
 the three laws now named after him which connect physics across
 sub- and super-lunar worlds (making the distinction moot), and unify
@@ -232,7 +238,8 @@ not at all!).
 In a "Newton's pendulum", ball 1 hits ball 2, exerting a force on ball
 2 that accelerates it, and at the same time ball 2 exerts a "reaction"
 force (but there is no time delay) on ball 1 that accelerates it too,
-from it's velocity to zero. Then ball 2 and 3 interact in the same way and so on:
+from it's velocity to zero. Then ball 2 and 3 interact in the same way
+and so on:
 
 #+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/QQc8nRPkwUM?si=DxHXzwv3TTc_O0y-&amp;start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -242,15 +249,9 @@ the air and the connection parts with the strings, where friction is
 description and explains why ultimately, on a desk, these toys will
 stop.
 
-The third law explains, for example, why rockets fly: they push out
+The third law explains also why rockets fly: they push out
 exhaust gas, which in turns pushes the rockets up.
 #+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/zctTKdQcmVA?si=XT_vT9nEjQxw-k5_&amp;start=54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-*N.B.:* In physics the use of the term /law/ is different than in the
-common language. There is no legislative body prescribing a norm as a
-/law/, in physics a law is a minimal and clear enunciation of
-empirically sound facts, and they are usually (though not always)
-named after the person who formulated this phrasing.
 
 * Universal law of Gravitation
 :Quote:
@@ -334,7 +335,9 @@ and agent is zero and the /total/ momentum remains constant (3^{rd} law).
 ** Conservation of angular momentum
 This is a consequence of symmetry of space-time w.r.t. rotations.
 
-
+- bike
+- ballerina
+- Earth's rotation
 
 
 ** Conservation of energy
@@ -354,12 +357,62 @@ Since this is a dot-product, it produces from two vectors (force and
 displacement) a scalar. Energy is also a scalar, and it can come in
 various forms
 
-*** Kinematic
+*** Kinetic
 
-*** Thermal
+$E_{kin} = \frac{1}{2}mv^{2}$
+
+**** Thermal
+Thermal energy is a form of kinetic energy due to the random agitation
+of constituents (e.g., molecules of a gas).
+$E_{th} = k_{b}T$
+
+What distinguishes the "thermal" energy is the randomness of the
+motion, as opposed to the ordered motion of a system: for example,
+throwing a ball in a direction causes an "ordered" global motion of
+each molecule of the ball in that direction (by throwing you gave a
+global kinetic energy and momentum to the ball), but every molecule is
+also wiggling in a random direction, often much "faster" than the
+global velocity, but leading to a very small displacement before
+molecules "bump" into each other and change their (random) direction
+of motion.
+
+To calculate the "thermal velocity" (the random component of the
+velocity due to thermal motion), see [[https://calculator.academy/thermal-velocity-calculator/][this online tool]]. for example air
+is mostly (\sim70%) made of nitrogen molecules $\mathrm{N}_{2}$, made of two
+nitrogen atoms, each having a mass of $\sim14$ atomic units (7 protons +
+7 neutrons), so the molecule has a mass $\sim28$ atomic units, or in
+other units, 4.651734\times10^{−26} kg. At a room temperature of 300K, this
+corresponds to random velocities of the air of 516 m/s!
+
+*** Radiative
+Energy in the radiation field, i.e., carried by the light (photons)
+
+$E_{rad}=\frac{1}{3}a T^{4}$
 
 *** Potential
+It comes in many form, depending on the kind of process that can
+release it (e.g., transform it into kinetic energy), e.g. chemical
+potential energy for an explosive.
 
+For gravitational potential energy in a constant gravity $g$ (e.g. on
+Earth $g\simeq 10\mathrm{m s^{-2}^{}}$): $E_{pot }= mgh$
+
+*** Binding energy
+The amount of energy you have to provide to a system for breaking it
+into its component and pull them apart at infinity, or in other words
+the amount of energy that had to be spent to assemble it. This concept
+is important because often astrophysical processes are powered by
+breaking objects and releasing this energy (e.g., the explosion of a
+star!), or viceversa a system /loses/ energy storing it into the binding
+energy of something being assembled.
+
+*** Rest-energy
+
+$E=m c^{2}$
+
+*N.B.:* In reality the formula is $E=m\gamma c^{2}$ where $\gamma=1/\sqrt{1-v^{2}/c^{2}}$
+and $v$ is the velocity of the object of mass $m$ in the current
+reference frame.
 
 #+CAPTION: Energy can transform from one form to another, but the total is conserved. In this example the kinetic and potential energy of the ball can transform into one-another along the path. Note that the zero-point for the potential energy is arbitrary.
 [[file:images/potential_vs_kinetics.png]]
