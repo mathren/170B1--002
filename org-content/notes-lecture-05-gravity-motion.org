@@ -179,7 +179,7 @@ applied at a certain distance from a rotation axis.
  arm w.r.t. a specified rotation point (e.g., the hinges of a door).
  It has the dimensions of a [F] \times [L]  \neq [F].
 
-** The laws
+** The "laws" of dynamics
 In the /Philosophiae Naturalis Principia Mathematica/, Newton formalized
 the three laws now named after him which connect physics across
 sub- and super-lunar worlds (making the distinction moot), and unify
@@ -211,6 +211,12 @@ The third law explains, for example, why rockets fly: they push out
 exhaust gas, which in turns pushes the rockets up.
 
 #+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/zctTKdQcmVA?si=XT_vT9nEjQxw-k5_&amp;start=54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+*N.B.:* In physics the use of the term /law/ is different than in the
+common language. There is no legislative body prescribing a norm as a
+/law/, in physics a law is a minimal and clear enunciation of
+empirically sound facts, and they are usually (though not always)
+named after the person who formulated this phrasing.
 
 * Universal law of Gravitation
 :Quote:
@@ -284,6 +290,7 @@ W = \mathbf{F}\cdot\mathbf{d}
 Since this is a dot-product, it produces from two vectors (force and
 displacement) a scalar. Energy is also a scalar, and it can come in
 various forms
+
 *** Kinematic
 
 *** Thermal
@@ -298,6 +305,7 @@ various forms
 
 ** Conservation of momentum
 This is a consequence of the symmetry of space-time with translations.
+
 
 ** Conservation of angular momentum
 This is a consequence of symmetry of space-time w.r.t. rotations.
