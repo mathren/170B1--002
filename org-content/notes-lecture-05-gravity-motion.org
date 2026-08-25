@@ -291,6 +291,11 @@ is their distance and $G$ is a constant, which Newton determined
 analyzing the orbital motion of the planets and the Moon, $G=6.67 \times
 10^{-8}$ cm^{3} g^{-1} s^{-2}.
 
+This force is directed along $\mathbf{\hat{r}}$ which denotes the line
+connecting $m_{1}$ and $m_{2}$, and decreases with the /square/ of the distance
+$r$: if $m_{1}$ and $m_{2}$ increase their distance by 2\times or 10\times, the
+gravitational force between them decreases by 2^{2}=4\times or (10)^{2}=100\times.
+
 #+CAPTION: Schematic of the gravitational attraction between two point masses
 [[./images/NewtonsLawOfUniversalGravitation.svg]]
 
@@ -413,6 +418,8 @@ $E=m c^{2}$
 *N.B.:* In reality the formula is $E=m\gamma c^{2}$ where $\gamma=1/\sqrt{1-v^{2}/c^{2}}$
 and $v$ is the velocity of the object of mass $m$ in the current
 reference frame.
+
+** Energy transforms from one form or the other
 
 #+CAPTION: Energy can transform from one form to another, but the total is conserved. In this example the kinetic and potential energy of the ball can transform into one-another along the path. Note that the zero-point for the potential energy is arbitrary.
 [[file:images/potential_vs_kinetics.png]]

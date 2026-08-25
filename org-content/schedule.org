@@ -87,6 +87,8 @@ DEADLINE: Homework, in class quiz
 
 *** <2026-09-14 Mon> - Motion and Gravity
 # in class attendance
+
+[[./notes-lecture-06-gravity-motion.org][Notes]]
 *** <2026-09-16 Wed> - Light and matter
 # in class attendance
 # Deadline Homework 3, Final deadline Homework 1, Assign Homework 4

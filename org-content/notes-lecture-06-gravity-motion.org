@@ -1,0 +1,10 @@
+#+title: ASTR170 Gravity 2/2
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: notes-lecture-05-gravity-motion.org
+#+NEXT_PAGE: notes-lecture-07.org
+
+
+* Orbital motion
+
+* Tides
