@@ -180,7 +180,9 @@ constellation>=. The letters are assigned in order of brightness (e.g.,
 \alpha Orionis = Betelgeuse is the brightest star in the constellation
 Orionis, \zeta Ophiuchi is the 26^{th} brightest in the constellation
 Ophiuchus). But each constellation is a specific patch of the
-celestial sphere defined as a polygon on it.
+celestial sphere defined as a polygon on it: astronomers /tassellate/
+the celestial sphere with arbitrarily defined "constellations" that
+roughly match historical constellations.
 
 The zodiacal constellations are those that at a given point in the
 year are "hidden behind the Sun", that is the ones along the ecliptic
