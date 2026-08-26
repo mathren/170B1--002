@@ -192,13 +192,13 @@ plane.
 [[file:images/zodiac_constellations.png]]
 
 
-Which constellations one sees varies with latitude on Earth (i.e., how
-far north/south one is), but not longitude (how far east/west one is).
-This is because Earth's rotation is in the West-to-East direction:
-different points at different longitudes will see the same patch of
-the sky at the zenith at different times (i.e., different phases of
-the Earth's rotation). Conventionally, longitude is measured starting
-from the Greenwich meridian (from the British empire).
+*Which constellations one sees varies with latitude* on Earth (i.e.,
+how far north/south one is), *but not longitude* (how far east/west one
+is). This is because Earth's rotation is in the West-to-East
+direction: different points at different longitudes will see the same
+patch of the sky at the zenith at different times (i.e., different
+phases of the Earth's rotation). Conventionally, longitude is measured
+starting from the Greenwich meridian (from the British empire).
 
 Viceversa, the latitude determines what part of the sky is above the
 horizon at any given rotation. The simple example is: could you see
