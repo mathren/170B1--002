@@ -225,7 +225,7 @@ above the horizon changes.
 #+CAPTION: Visibility of stars across the year.
 [[file:images/constellation_visibility.png]]
 
-* Seasons
+* The reason for the seasons
 
 *Q*: What is the reason for seasonal variations in weather patterns?
 
