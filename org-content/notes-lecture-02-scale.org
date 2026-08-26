@@ -413,6 +413,10 @@ always needed to reconcile them with the observations of planets.
 planets move around the Sun. Their nightly motion apparent due to
 Earths' rotation is always rising at the East and Setting at the west.
 
+*N.B.:* The /historical/ definition based on their peculiar motion in the
+night sky /includes/ the Sun and the Moon which also move in a peculiar
+way!
+
 ***  A faster way to find planets
 To use this to identify a planet, one needs several nights of
 observations. However, planets have also another visible feature that
