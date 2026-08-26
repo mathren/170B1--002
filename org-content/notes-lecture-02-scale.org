@@ -1,4 +1,4 @@
-#+title: ASTR170 Scale & motion
+#+title: ASTR170 Celestial sphere
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-01-intro.org
