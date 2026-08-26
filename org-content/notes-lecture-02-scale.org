@@ -288,6 +288,9 @@ etc.
 
 * The moon
 
+#+CAPTION: The moon is Earth's satellite, which is quite big w.r.t. to Earth itself.
+[[./images/moon_detailed.png]]
+
 The moon is a /satellite/, a major astronomical body of the Solar system
 that does /not/ orbit the Sun, but a planet instead, Earth. It likely
 formed from the impact between Earth and a Mars-sized planet in the
