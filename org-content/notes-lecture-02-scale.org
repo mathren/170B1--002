@@ -275,7 +275,7 @@ and Fall equinoxes, which are the days in which the Sun shines for the
 same amount of time on both hemispheres. In these days the Sun rises
 and sets exactly at East and West, respectively.
 
-\sim 21 June and ~21 December are instead the Summer and Winter
+\sim 21 June and \sim 21 December are instead the Summer and Winter
 solstices, the days where in the northern hemisphere the sunlight is
 longest and shortest respectively.
 
