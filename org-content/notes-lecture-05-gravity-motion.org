@@ -2,7 +2,7 @@
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-04-lab1_astrology_and_pseudosciences.org
-#+NEXT_PAGE: notes-lecture-06.org
+#+NEXT_PAGE: notes-lecture-06-gravity-motion.org
 
 *Reading:* Chapter 4
 
@@ -310,6 +310,18 @@ change in its velocity". Who has more mass between you and the Earth?
 So given the same (by the third law) force, who will accelerate more?
 :end:
 
+** Connection with Kepler's laws
+Kepler's laws are an /empirical/ description of the /kinematics/ of Mars
+and (by extension) the other planets. Newton's theory of gravity gives
+a /dynamical/ explanation of these empirical observed facts, explaining
+and extending the observations of (..., Tycho Brahe,) Kepler.
+
+*** Conical orbits
+
+*** 3^{rd} law
+
+
+
 * Conservation laws in physics
 In my opinion, one of the most beautiful results of theoretical
 physics is due to [[https://en.wikipedia.org/wiki/Emmy_Noether][Emmy Noether]], which states that /for every symmetry
@@ -366,7 +378,7 @@ various forms
 
 $E_{kin} = \frac{1}{2}mv^{2}$
 
-**** Thermal
+*** Thermal
 Thermal energy is a form of kinetic energy due to the random agitation
 of constituents (e.g., molecules of a gas).
 $E_{th} = k_{b}T$
@@ -400,7 +412,7 @@ release it (e.g., transform it into kinetic energy), e.g. chemical
 potential energy for an explosive.
 
 For gravitational potential energy in a constant gravity $g$ (e.g. on
-Earth $g\simeq 10\mathrm{m s^{-2}^{}}$): $E_{pot }= mgh$
+Earth $g \simeq 10\mathrm{m s^{-2}^{}}$): $E_{pot }= mgh$
 
 *** Binding energy
 The amount of energy you have to provide to a system for breaking it

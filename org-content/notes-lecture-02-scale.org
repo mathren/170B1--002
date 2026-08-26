@@ -427,6 +427,7 @@ in front of a planet averages to zero and the planet doesn't twinkle.
 You can test this tonight!
 
 #+CAPTION: Alignment of 5 naked-eye visible planets from New Jersey
+#+ATTR_HTML: :width 50%
 [[file:images/planets.png]]
 
 ** An heliocentric perspective on retrograde planet motion
