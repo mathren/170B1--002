@@ -251,9 +251,10 @@ axis with respect to the ecliptic plane*.
 
 Since the Earth's rotation axis maintains it's inclination of \sim 23
 degrees w.r.t. the direction perpendicular to the plane of its orbit
-around the Sun, depending on whether an emisphere is pointing
-"towards" the Sun or "away" from it, it will receive Sun light at a
-different angle and for a different amount of time.
+around the Sun (i.e., the ecliptic plane), depending on whether an
+emisphere is pointing "towards" the Sun or "away" from it, it will
+receive Sun light at a different angle and for a different amount of
+time.
 
 
 #+CAPTION: The apparent height of the Sun at a given time in the day depends on the time of the year, because the rotation axis of Earth always points in the same direction from each side of its orbit.
