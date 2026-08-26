@@ -84,10 +84,11 @@ radius centered on Earth over which the images of stars are projected.
 
 
 [[https://stellarium-web.org/][Stellarium web]] allows one to see the celestial sphere from different
-points of views (on the Surface of Earth /and/ other solar system
-planets!), which can be used to plan observations. The button in the
-bottom left allows to change location of the observer, and the button
-in the bottom right allows to move the sky forward/backward in time.
+points of views (on the Surface of Earth, the non-online open-source
+application allows also from other solar system bodies!), which can be
+used to plan observations. The button in the bottom left allows to
+change location of the observer, and the button in the bottom right
+allows to move the sky forward/backward in time.
 
 The plane of the ecliptic is the plane traced by the orbit of the Sun
 as seen from Earth, or in other words, the plane of the orbit of the
@@ -115,7 +116,7 @@ Roughly, at arm's length, the angle of sky covered
 This can be used, for example, to measure the time to sun set: the Sun
 goes around \sim 180 degrees every day (half a full circle, the other
 half happens during the night), which lasts about 12 hours, so it
-moves about \sim 180/ 12 = 15 degrees/hour. When the Sun is about 3 fists
+moves about \sim 180/ 12 = 15 degrees/hour. When the Sun is about 1.5 fists
 height above the horizon, there is still about one hour before it sets
 (adjustments due to local topography, e.g., presence of a mountain,
 time of the year and latitude are needed to be precise).
