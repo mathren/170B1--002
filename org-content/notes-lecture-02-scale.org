@@ -440,7 +440,11 @@ as the patch changes, the light changes, causing the /twinkling/ of the
 stars. But for a planet, it doesn't go through one patch only, but a
 little bundle of patches. The "wiggling" of the air in the atmosphere
 in front of a planet averages to zero and the planet doesn't twinkle.
-You can test this tonight!
+You can test this tonight if it is not cloudy! Look at the stars, and
+find bright ones that are /not/ twinkling: there is a good chance they
+are a planet. Use =stellarium-web= or any other "night-sky" app to
+verify your hypothesis.
+
 
 #+CAPTION: Alignment of 5 naked-eye visible planets from New Jersey
 #+ATTR_HTML: :width 50%
