@@ -355,12 +355,8 @@ Eclipses on other planets can be impossible (no Moon, misaligned moon
 orbit), only anular (smaller angular diameter of Moon cf. Sun) or
 partial.
 
-
 *** Lunar
 The moon is hidden in the shade of the Sun:
-
-Moon ---- Earth ----------------- Sun
-
 
 #+Cartoon of lunar eclipses.
 [[file:images/Lunar_eclipse.png]]
@@ -368,9 +364,6 @@ Moon ---- Earth ----------------- Sun
 
 *** Solar
 The Sun is hidden in the shade of the Moon:
-
-Earth ---- Moon ----------------- Sun
-
 
 #+CAPTION: Cartoon of Solar eclipse.
 [[file:images/Solar_eclipse.png]]
@@ -401,9 +394,9 @@ ability to manipulate Native americans on his arrival).
 * The puzzle of planet motion
 
 ** What is a planet?
-The word comes from greek "wanderer" because their motion on the
-celestial sphere as observed through the years from Earth seems
-irregular, relative to background stars.
+The word comes from greek "wanderer" because, unlike all other stars,
+their motion on the celestial sphere as observed through the years
+from Earth seems irregular, relative to background stars.
 
 #+CAPTION: example of retrograde portion of the orbit of Mars, each picture taken at 5-9 days of interval at the same time. Note the planet is brighter at the bottom of the loop, when it is closest to Earth!
 [[file:images/mars_retrograde.png]]
