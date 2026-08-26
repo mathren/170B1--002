@@ -82,6 +82,14 @@ radius centered on Earth over which the images of stars are projected.
 #+DOWNLOADED: screenshot @ 2026-08-17 11:18:03
 [[file:images/celestial_sphere.png]]
 
+- North and south poles are projection of the Earth's rotation axis on
+  the celestial sphere
+- The celestial equator is the intersection between the Earth
+  rotational equator and the celestial sphere
+- zenith is the point right above on the celestial sphere, varies with
+  the position of the observer (zenith at the north pole = north star)
+- nadir is the opposite point, never visible.
+
 
 [[https://stellarium-web.org/][Stellarium web]] allows one to see the celestial sphere from different
 points of views (on the Surface of Earth, the non-online open-source
@@ -216,14 +224,6 @@ above the horizon changes.
 
 #+CAPTION: Visibility of stars across the year.
 [[file:images/constellation_visibility.png]]
-
-- North and south poles are projection of the Earth's rotation axis on
-  the celestial sphere
-- The celestial equator is the intersection between the Earth
-  rotational equator and the celestial sphere
-- zenith is the point right above on the celestial sphere, varies with
-  the position of the observer (zenith at the north pole = north star)
-- nadir is the opposite point, never visible.
 
 * Seasons
 
