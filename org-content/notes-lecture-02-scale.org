@@ -444,8 +444,8 @@ another (e.g., the Earth's orbit inside Mars'), it will take over, and
 at the moment it takes over, relative to the inner planet, the outer
 will appear to move backwards.
 
-
 #+CAPTION: Heliocentric explanation of the retrograde apparent motion of planets.
+#+ATTR_HTML: :width 50%
 [[file:images/planet_take_over.png]]
 
 ** Why hold on to a geocentric perspective until the 1600s?
@@ -459,6 +459,7 @@ timescale, which is called /parallax/.
 
 
 #+DOWNLOADED: screenshot @ 2026-08-17 14:25:01
+#+ATTR_HTML: :width 50%
 [[file:images/parallax.png]]
 
 The parallax is just the "apparent motion" of nearby objects (w.r.t.
