@@ -9,12 +9,16 @@
 * History and philosophy of science
 
 Scientific investigation is one of the key skills that allow human
-communities to adapt their environments to their own needs and lead to
-the apex role humans have in their environment.
+communities to adapt (and adapt to) their environments to their own
+needs.
 
 Defining precisely what science is is not a trivial question, and an
-entire field of philosophy concerns itself with this question. But in
-the broadest sense, science is the collective process of organizing
+entire field of philosophy concerns itself with this question
+(/epistemology/, or the philosophy of /what is knowledge and how we
+acquire it/). Surprisingly, a lot of professional scientists carry out
+their research without concerning themselves too much with this.
+
+In the broadest sense, science is the /collective process/ of organizing
 known and quantitatively verifiable facts about natural phenomena in a
 coherent framework that allows us to understand, explain, and predict
 said phenomena.
@@ -23,7 +27,33 @@ How this is done in detail throughout the history of humanity is
 inextricably intertwined with technological developments that allow
 the quantitative verification of factual information.
 
-** A brief history of astronomy
+** My favorite definition of science
+I really like the definition of science by [[https://en.wikipedia.org/wiki/Mertonian_norms][Robert Merton]], who was a
+sociologist, not a philosopher, and in 1942 enunciated a set of
+"ethical standards" for the scientific community, summarized by an
+acronym: CUDOS
+- *Communism* (sometimes re-phrased as "communalism" to avoid the
+  political connotation): science should be done for the benefit of
+  everyone, and ideas do not belong to any specific scientist, but to
+  the community as a whole
+- *Universalism*: scientific validity is independent of location,
+  institutions, status
+- *Disinterestedness*: scientific research should be driven by
+  curiosity, not profit or desired outcome (Note how applied research
+  in a company or for defense purposes does not count as /science/ by
+  this definition!)
+- *Organized Skepticism*: the scientific community, collectively, tests
+  ideas and claims through an /organized/ process that can/should/does
+  question all hypothesis and steps, but in an organized and
+  methodological way that allows for progress.
+
+What I particularly like of this framing is that it leaves the agency
+with the scientific community, allowing for progress and evolution of
+the scientific method without prescribing and forcing anything, while
+at the same time it gives a responsibility to the community as a
+whole.
+
+* A brief history of astronomy
 As the record-keeping and description of the motion of celestial
 objects (though the course of a night, a month, and years), astronomy
 must be one of the oldest scientific endeavor of humanity.
@@ -209,7 +239,7 @@ solstice/equinoxes) in the same month.
 #+CAPTION: Mayan Calendar.
 [[./images/mayan_calendar.jpg]]
 
-* Development of scientific ideas
+** Development of scientific ideas
 Scientific ideas, developed based on quantitative and objective
 observations and aiming at explaining them without any super-natural
 element, have come with human societies all along their history.
@@ -217,7 +247,7 @@ element, have come with human societies all along their history.
 We can follow a specific example, which is models of the Solar system
 to see how they developed.
 
-** From Ancient Greece, through Hellenistic and Muslim world, to modern ideas
+*** From Ancient Greece, through Hellenistic and Muslim world, to modern ideas
 By being at the intersection between Africa, Asia, and Europe, ancient
 Greece was a place where ideas and cultures mixed which produced a lot
 of innovative and foundational ideas.
