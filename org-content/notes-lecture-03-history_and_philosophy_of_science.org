@@ -311,8 +311,76 @@ Skipping through a lot of important steps:
   orbits of planets and showing how Kepler's laws are a natural
   consequence of the "Universal law of gravitation". We will discuss
   this in more detail [[./notes-lecture-05-gravity-motion.org][later]].
+* Kepler's laws
 
-** Scientific models
+Last time we have briefly mentioned the achievement of Kepler based on
+Tycho Brahe's long observational campaign of the position of Mars.
+Kepler's laws are an /empirical/ description of the observations, which
+does not explain /why/, but allows to make /quantitative/ predictions
+/testable/ with further observations - and tested they were,
+consistently outperforming any other available model at the time in
+predicting orbits of planets
+
+*N.B.:* In physics the use of the term /law/ is different than in the
+common language. There is no legislative body prescribing a norm as a
+/law/, in physics a law is a minimal and clear enunciation of
+empirically sound facts, and they are usually (though not always)
+named after the person who formulated this phrasing.
+
+** 1^{st} Kepler law
+The orbit of planets are /ellipses/ with the Sun occupying one of the foci.
+
+Conceptually, this may be the most revolutionary contribution of
+Kepler: it does away with the idea of "perfection" of the super-lunar
+world held since Aristotle.
+
+An ellipse is by definition the /locus of points for which the sum of
+distance to each focus is constant/. It is characterized by a semimajor
+axis $a$ and a semiminor axis $b$, or equivalently, by $a$ and the
+eccentricity $e=\sqrt{1-b^{2}/a^{2}}$. An ellipse of $e=0$ ($\Rightarrow a=b$) is a
+special case of a circle.
+
+#+CAPTION: Planet's orbit are elliptical, with the Sun in one focus
+[[file:images/ellipse.png]]
+
+
+** 2^{nd} Kepler law
+The radius from the Sun to the planet spans equal areas in equal
+times, meaning, when it is shorter (closer to the star), the planet
+needs to move faster!
+
+
+#+CAPTION: Graphical representation of Kepler's 2^{nd} law.
+[[file:images/2nd_law.png]]
+
+
+** 3^{rd} Kepler law
+Kepler also worked out a mathematical relation between the orbital frequency
+of a planet $\omega=2\pi/P$ (where $P$ is the period, $P=1$ year for Earth),
+and the semimajor axis of the planet's orbit.
+
+
+#+BEGIN_LATEX
+\begin{equation}
+\label{eq:3rd_Kepler}
+\omega^{2} a^{3} = G(m_{1}+m_{2}) \ \ ,
+\end{equation}
+#+END_LATEX
+
+where $a$ is the semimajor axis of the elliptical orbit,
+is the orbital frequency, and $m_{1}\gg m_{ 2}$ are the
+masses of the star and planet respectively.
+
+*N.B.*: While the formula on the book focuses your attention on the
+important scaling $\omega \propto a^{3/2}$, it is definitely /wrong/ because if
+equates a period (indicated with $p$ on the book) squared, which has
+the units of [t^{2}] to a semimajor axis ($a$) cubed, which has the
+dimensions [L^{3}]. This is /not/ physically sound, it's like saying you
+are 1h tall! What the book is doing is glossing over important
+physical constants, in this case G which fix the dimensions.
+
+
+* Scientific models
 
 To achieve this level of predictions of astronomical phenomena and
 competency in using them (for navigation, time-keeping, and cerimonial
