@@ -1,15 +1,20 @@
-#+title: ASTR170 Lab 1
-#+author: Mathieu Renzo
-#+date: <2026-09-02 Wed>
+#+title: Astrology: Science or Pseudoscience?
+#+author:
+#+date:
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-03-history_and_philosophy_of_science.org
 #+NEXT_PAGE: notes-lecture-05-gravity-motion.org
-#+MACRO: blank @@latex:\rule{$1}{0.4pt}@@
+#+MACRO: blank @@latex:\noindent\rule{$1}{0.4pt}@@
 
-This is an in-class lab activity to be completed in groups of 2-3
-people, but you should each turn in your own results. You should
-answer all of the questions in the space provided. Each group member
-should participate equally in the lab.
+This is an in-class lab activity for =ASTR170B1 - Introduction to
+Astronomy=, to be completed in groups of 2-3 people, but you should
+each turn in your own results. You should answer all of the questions
+in the space provided. Each group member should participate equally in
+the lab.
+
+If you finish all of the questions, you may turn in your lab in class
+today. Otherwise, this assignment is due <2026-09-09 Wed> at the
+start of class.
 
 *Aim*: /Introduce the concept of pseudoscience and to begin to identify
 the qualities that distinguish it from true science/.
@@ -196,9 +201,10 @@ and unicorns exist) to the downright evil (such as “scientific
 racism”, the belief that certain races of humans are biologically
 superior).
 
-- How easy or hard did you find it to compare the different horoscope “predictions”
+- How easy is it to compare the different horoscope “predictions”
 to your lived experience (and why)? Would you classify astrology as science or
 pseudoscience? (max 4 lines)
+
 {{{blank(\textwidth)}}}
 {{{blank(\textwidth)}}}
 {{{blank(\textwidth)}}}
@@ -206,6 +212,7 @@ pseudoscience? (max 4 lines)
 
 - Think of two more examples of pseudoscience and explain why they are
   pseudoscientific. (max 4 lines)
+
 {{{blank(\textwidth)}}}
 {{{blank(\textwidth)}}}
 {{{blank(\textwidth)}}}
@@ -215,12 +222,16 @@ pseudoscience? (max 4 lines)
 
 ** Summary table
 
-|--------------------------------------------------------------------+-------------------------------------------------------------+
-| Science                                                            | Pseudoscience                                               |
-|--------------------------------------------------------------------+-------------------------------------------------------------+
-| based on objective quantitative observations                       | not necessarily (e.g., interpretation of coffee left-overs) |
-|--------------------------------------------------------------------+-------------------------------------------------------------+
-| makes quantitative and testable predictions                        | makes vague predictions adaptable to many outcomes          |
-|--------------------------------------------------------------------+-------------------------------------------------------------+
-| Prefers simple explanations exclusively based on natural phenomena | does not change in the face of new evidence                 |
-|--------------------------------------------------------------------+-------------------------------------------------------------+
+|--------------------------------------------------------------------|
+| *Science*                                                            |
+|--------------------------------------------------------------------|
+| based on objective quantitative observations                       |
+| makes quantitative and testable predictions                        |
+| Prefers simple explanations exclusively based on natural phenomena |
+|--------------------------------------------------------------------|
+| *Pseudoscience*                                                      |
+|--------------------------------------------------------------------|
+| not necessarily based on /objective/ or /quantitative/ observations    |
+| makes vague predictions adaptable to many outcomes                 |
+| does not change if new evidence emerges                            |
+|--------------------------------------------------------------------|
