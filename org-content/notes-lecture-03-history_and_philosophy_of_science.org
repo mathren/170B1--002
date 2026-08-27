@@ -288,7 +288,11 @@ Skipping through a lot of important steps:
   shade cast by a stick across two cities in Egypt (reaching \sim few %
   precision)
 #+CAPTION: Schematic representation Erathostene's method to calculate Earth's radius. The biggest source of error was the measure of the distance between Alexandia and Syene (modern-day Aswan).
-[[file:images/Erathostenes_method.png]]
+[[file:images/Erathostenes_method.png]] *N.B.:* that the Earth is round has
+  been known for thousands of years, and is easily verified looking
+  at, for example, the shade of the Earth on the Moon during a lunar
+  eclipse, or seeing the mast of a ship disappearing below the horizon
+  for much longer than the hull!
 - Plato: idealization of the /super-lunar/ world, which should be described only with perfect shapes (spheres)
 - Aristotle: introduces the concept that the spheres are /not/ just an
   idealization, but real physical objects.
