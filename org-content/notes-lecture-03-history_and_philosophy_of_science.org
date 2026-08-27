@@ -116,11 +116,18 @@ and/or sunset can produce particular light alignments and effects.
 #+CAPTION: In clockwise order from the top left: Giza pyramids, Stonehenge, reconstruction of the Templo Mayor of Tenochtitlán, Macchu Picchu. These are examples of astronomically oriented architecture and urban planning.
 [[./images/architecture.png]]
 
+Closer to Tucson, the Chaco Canyon structure from Pueblo cultures over
+1000 years ago in present-day New Mexico are also aligned with the
+North direction:
+
+#+CAPTION: Top: kiva in Chaco Canyon. Bottom: long-exposure night-time picture showing the alignment with the north direction.
+[[./images/chaco_canyon.png]]
+
 A modern example is NYC, whose grid is not perfectly aligned in the
 North-South/East-West directions, and therefore experiences
 "Manhattanhenge" a few days before/after the equinoxes:
 
-#+Caption: Manhattanhenge seen from 32^{nd} street.
+#+Caption: /Manhattanhenge/ seen from 32^{nd} street.
 [[./images/manhattanhenge.png]]
 
 *** Astronomical time-keeping
@@ -210,7 +217,7 @@ element, have come with human societies all along their history.
 We can follow a specific example, which is models of the Solar system
 to see how they developed.
 
-** Ancient greece
+** From Ancient Greece, through Hellenistic and Muslim world, to modern ideas
 By being at the intersection between Africa, Asia, and Europe, ancient
 Greece was a place where ideas and cultures mixed which produced a lot
 of innovative and foundational ideas.
