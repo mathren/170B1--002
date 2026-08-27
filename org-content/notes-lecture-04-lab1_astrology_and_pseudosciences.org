@@ -22,7 +22,7 @@ What is science? What is pseudoscience? Why is it important to know
 the distinction as you navigate today’s world? /Discuss with your
 classmates and briefly note your initial thoughts on this topic/. How
 would you explain the difference between science and pseudoscience to
-a friend?
+a friend? (max 4 lines)
 {{{blank(\textwidth)}}}
 {{{blank(\textwidth)}}}
 {{{blank(\textwidth)}}}
@@ -98,7 +98,7 @@ For reference, these are the signs (recall [[file:notes-lecture-02-scale.org::*C
 
 Circle the sign corresponding to your birthday, and based on the
 hypothesis you selected above (does/does not), what do you predict
-will be the outcome of this experiment?
+will be the outcome of this experiment? (max 3 lines)
 
 {{{blank(\textwidth)}}}
 {{{blank(\textwidth)}}}
@@ -198,14 +198,14 @@ superior).
 
 - How easy or hard did you find it to compare the different horoscope “predictions”
 to your lived experience (and why)? Would you classify astrology as science or
-pseudoscience?
+pseudoscience? (max 4 lines)
 {{{blank(\textwidth)}}}
 {{{blank(\textwidth)}}}
 {{{blank(\textwidth)}}}
 {{{blank(\textwidth)}}}
 
 - Think of two more examples of pseudoscience and explain why they are
-  pseudoscientific.
+  pseudoscientific. (max 4 lines)
 {{{blank(\textwidth)}}}
 {{{blank(\textwidth)}}}
 {{{blank(\textwidth)}}}
