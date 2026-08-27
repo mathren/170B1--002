@@ -239,6 +239,7 @@ solstice/equinoxes) in the same month.
 #+CAPTION: Mayan Calendar.
 [[./images/mayan_calendar.jpg]]
 
+
 ** Development of scientific ideas
 Scientific ideas, developed based on quantitative and objective
 observations and aiming at explaining them without any super-natural

@@ -1,15 +1,15 @@
 #+title: ASTR170 Lab 1
 #+author: Mathieu Renzo
+#+date: <2026-09-02 Wed>
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-03-history_and_philosophy_of_science.org
 #+NEXT_PAGE: notes-lecture-05-gravity-motion.org
-
-*Reading*: Chapter 3
+#+MACRO: blank @@latex:\rule{$1}{0.4pt}@@
 
 This is an in-class lab activity to be completed in groups of 2-3
-people, but you should each turn in your own paper. You should answer
-all of the questions in the space provided. Each group member should
-participate equally in the lab.
+people, but you should each turn in your own results. You should
+answer all of the questions in the space provided. Each group member
+should participate equally in the lab.
 
 *Aim*: /Introduce the concept of pseudoscience and to begin to identify
 the qualities that distinguish it from true science/.
@@ -22,7 +22,11 @@ What is science? What is pseudoscience? Why is it important to know
 the distinction as you navigate today’s world? /Discuss with your
 classmates and briefly note your initial thoughts on this topic/. How
 would you explain the difference between science and pseudoscience to
-a friend? (max 4 lines) ______
+a friend?
+{{{blank(\textwidth)}}}
+{{{blank(\textwidth)}}}
+{{{blank(\textwidth)}}}
+{{{blank(\textwidth)}}}
 
 ** Astrology
 There are various astrological traditions throughout the world. Most
@@ -94,33 +98,31 @@ For reference, these are the signs (recall [[file:notes-lecture-02-scale.org::*C
 
 Circle the sign corresponding to your birthday, and based on the
 hypothesis you selected above (does/does not), what do you predict
-will be the outcome of this experiment? (max 3 lines).
+will be the outcome of this experiment?
+
+{{{blank(\textwidth)}}}
+{{{blank(\textwidth)}}}
+{{{blank(\textwidth)}}}
 
 *** Step 4: Perform a test (the experiment)
 First read through the three sets of horoscopes for <2026-09-02 Wed>. Write
 down the number for each horoscope that best applies to you:
 
-Set 1: __________
-Set 2: ___________
-Set 3: ___________
+Set 1: {{{blank(1cm)}}} Set 2: {{{blank(1cm)}}} Set 3: {{{blank(1cm)}}}
 
 Now, I will reveal the sign that corresponds to each horoscope. Write down the signs that
 correspond to the numbers you selected above:
 
-Sign 1: ______________
-Sign 2: ________________
-Sign 3: ______________
+Sign 1: {{{blank(1cm)}}} Sign 2: {{{blank(1cm)}}} Sign 3: {{{blank(1cm)}}}
 
-How many of the horoscopes did you identify correctly? ____________
+How many of the horoscopes did you identify correctly? {{{blank(1cm)}}}
 
 Now, we will collect data from the entire class. Please add your result to the Top Hat poll
 and copy results for the full class below.
 Percentage of students who correctly identified:
 
-0 horoscopes: ______
-1 horoscope: _______
-2 horoscopes: ______
-3 horoscopes: _______
+0 horoscopes: {{{blank(1cm)}}} 1 horoscope: {{{blank(1cm)}}} 2
+horoscopes: {{{blank(1cm)}}} 3 horoscopes: {{{blank(1cm)}}}
 
 *** Step 5: Analyze the results
 If astrology is correct, we would expect everyone to pick all of the
@@ -147,15 +149,15 @@ The probability of success $p$ is the chance that you achieve an
 outcome once in one trial. For example, if you flip a fair coin, the
 probability of it coming up heads is one in two, or $p = 1/2 = 0.5$.
 
-- What are $p$ and $N$ in our experiment? ______
+- What are $p$ and $N$ in our experiment? {{{blank(2cm)}}}
 - What is the probability that you would choose zero, one, two or
-  three correct horoscopes by guessing at random? ______
+  three correct horoscopes by guessing at random? {{{blank(2cm)}}}
 :Hint:
 Use the binomial theorem with k = 0, 1, 2, and 3. This online calculator may be helpful:
 https://www.desmos.com/scientific
 :end:
 - Comparing with your classmates, do your correct guess numbers follow the
-  binomial distribution?  ______
+  binomial distribution?  {{{blank(2cm)}}}
 - What do you conclude about the efficacy of horoscopes? Does this outcome support
   your original hypothesis? If not, create a new one.
 
@@ -196,20 +198,29 @@ superior).
 
 - How easy or hard did you find it to compare the different horoscope “predictions”
 to your lived experience (and why)? Would you classify astrology as science or
-pseudoscience? (max 4 lines) ______
+pseudoscience?
+{{{blank(\textwidth)}}}
+{{{blank(\textwidth)}}}
+{{{blank(\textwidth)}}}
+{{{blank(\textwidth)}}}
+
 - Think of two more examples of pseudoscience and explain why they are
-  pseudoscientific. (max 4 lines) ______
+  pseudoscientific.
+{{{blank(\textwidth)}}}
+{{{blank(\textwidth)}}}
+{{{blank(\textwidth)}}}
+{{{blank(\textwidth)}}}
 
 
 
-** Pseudoscience vs. Science
+** Summary table
 
-|------------------------------------------------------------------------+-------------------------------------------------------------|
-| Science                                                                | Pseudoscience                                               |
-|------------------------------------------------------------------------+-------------------------------------------------------------|
-| based on objective observations                                        | not necessarily (e.g., interpretation of coffee left-overs) |
-|------------------------------------------------------------------------+-------------------------------------------------------------|
-| makes quantitative and testable predictions                            | makes vague predictions adaptable to many outcomes          |
-|------------------------------------------------------------------------+-------------------------------------------------------------|
-| Prefers the simple explanations exclusively based on natural phenomena | does not change in the face of new evidence                 |                                                                        |                                                             |
-|------------------------------------------------------------------------+-------------------------------------------------------------|
+|--------------------------------------------------------------------+-------------------------------------------------------------+
+| Science                                                            | Pseudoscience                                               |
+|--------------------------------------------------------------------+-------------------------------------------------------------+
+| based on objective quantitative observations                       | not necessarily (e.g., interpretation of coffee left-overs) |
+|--------------------------------------------------------------------+-------------------------------------------------------------+
+| makes quantitative and testable predictions                        | makes vague predictions adaptable to many outcomes          |
+|--------------------------------------------------------------------+-------------------------------------------------------------+
+| Prefers simple explanations exclusively based on natural phenomena | does not change in the face of new evidence                 |
+|--------------------------------------------------------------------+-------------------------------------------------------------+
