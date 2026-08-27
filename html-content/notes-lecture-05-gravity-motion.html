@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-08-26 Wed 09:35 -->
+<!-- 2026-08-27 Thu 09:49 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Gravity</title>
@@ -605,16 +605,67 @@ and extending the observations of (&#x2026;, Tycho Brahe,) Kepler.
 </div>
 <div id="outline-container-conical-orbits" class="outline-4">
 <h4 id="conical-orbits"><a href="#conical-orbits">Conical orbits</a></h4>
-</div>
+<div class="outline-text-4" id="text-org-element-21">
+<p>
+For instance, Kepler correctly realized that the orbit of Mars (and by
+extension all planets) are <i>ellipses</i> with the Sun occupying a focus.
+</p>
 
-<div id="outline-container-3-sup-rd-sup-law" class="outline-4">
-<h4 id="3-sup-rd-sup-law"><a href="#3-sup-rd-sup-law">3<sup>rd</sup> law</a></h4>
+<p>
+Solving the equations of motion for two point masses (representing,
+e.g., Sun and Mars) interacting just through gravity according to
+Newton's laws
+</p>
+<div class="LATEX" id="org-element-22">
+\begin{equation}
+\mathbf{F} = m \mathrm{a} = \frac{GMm}{r^{2}} \ \ ,
+\end{equation}
+
+</div>
+<p>
+one obtains a more general solution that the one empirically derived
+by Kepler: the solution of the <i>two body problem</i>!
+</p>
+
+<p>
+Elliptical orbits are just one of the possibilities, which are in
+general all <i>conic section</i>:
+</p>
+
+
+<figure id="org-element-23">
+<img src="images/conic.png" alt="conic.png" width="100%">
+
+</figure>
+
+<ul class="org-ul">
+<li>Planets orbit on ellipses (and the special case of an ellipse with
+zero eccentricity, \(e=0\), that is a circle)</li>
+<li>increasing the orbital energy, orbits become <i>parabolic</i>, meaning they
+are open: an object on a parabolic orbit passes by the Sun once and
+never returns (e.g., some comets)</li>
+<li>increasing the energy even further, the orbits become hyperbolae,
+which are also open curves (no return). For example, [][Omuamua],
+the first <i>interstellar</i> object observed passing through the solar
+system was on an hyperbolic orbit. <b>N.B.:</b> Especially in the debate on
+Omuamua's orbit, factors <i>other</i> than gravity play a role (e.g., the
+loss of mass by the object due to the Sun heating it up and causing
+evaporation)</li>
+</ul>
+
+<p>
+This is a perfect example of <i>scientific progress</i>: the theoretical
+<i>update</i> formulated by Newton <i>explains and extends</i> the empirical
+observations fitted by Kepler and recovers the previous result as a
+particular case (here: bound orbits).
+</p>
+</div>
 </div>
 </div>
 </div>
 <div id="outline-container-conservation-laws-in-physics" class="outline-2">
 <h2 id="conservation-laws-in-physics"><a href="#conservation-laws-in-physics">Conservation laws in physics</a></h2>
-<div class="outline-text-2" id="text-org-element-21">
+<div class="outline-text-2" id="text-org-element-24">
 <p>
 In my opinion, one of the most beautiful results of theoretical
 physics is due to <a href="https://en.wikipedia.org/wiki/Emmy_Noether">Emmy Noether</a>, which states that <i>for every symmetry
@@ -635,7 +686,7 @@ object is conserved under rotation.
 </div>
 <div id="outline-container-conservation-of-momentum" class="outline-3">
 <h3 id="conservation-of-momentum"><a href="#conservation-of-momentum">Conservation of momentum</a></h3>
-<div class="outline-text-3" id="text-org-element-22">
+<div class="outline-text-3" id="text-org-element-25">
 <p>
 This is a consequence of the symmetry of space-time with translations
 (side-ways motions): the <i>dynamics</i> of a system, what causes its motion,
@@ -656,21 +707,100 @@ and agent is zero and the <i>total</i> momentum remains constant (3<sup>rd</sup>
 </div>
 <div id="outline-container-conservation-of-angular-momentum" class="outline-3">
 <h3 id="conservation-of-angular-momentum"><a href="#conservation-of-angular-momentum">Conservation of angular momentum</a></h3>
-<div class="outline-text-3" id="text-org-element-23">
+<div class="outline-text-3" id="text-org-element-26">
 <p>
-This is a consequence of symmetry of space-time w.r.t. rotations.
+This is a consequence of symmetry of space-time w.r.t. rotations, and
+it is a vector quantity:
+</p>
+<div class="latex" id="org-element-27">
+\begin{equation}
+\mathbf{J} = \mathbf{r}\times \mathbf{p} = \mathbf{r}\times m\mathbf{v}  \ \ ,
+\end{equation}
+
+</div>
+<p>
+where \(\mathbf{p}=m\mathbf{v}\) is the momentum discussed above and
+\(\mathbf{r}\) is the distance to the rotation axis.
 </p>
 
+<p>
+Because it is a vector, it is characterized by multiple components
+(\(x,y,z\)): conservation of angular momentum requires the <i>total</i> angular
+momentum to be conserved, which means also in <i>direction</i> and not only
+in <i>amplitude</i>.
+</p>
+
+
+<figure id="org-element-28">
+<img src="images/am.png" alt="am.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 5: </span>Angular momentum is the conserved quantity related to "rotation": its conservation comes from the symmetry of a system w.r.t. rotation and it leads to rotating objects to keep rotating in the same way.</figcaption>
+</figure>
+
+<p>
+Conservation of angular momentum examples:
+</p>
 <ul class="org-ul">
-<li>bike</li>
-<li>ballerina</li>
-<li>Earth's rotation</li>
+<li>bike: if not moving (\(v=0\Rightarrow p=mv=0\)) there is no angular momentum
+(\(J=r\times p\equiv0\)) and it is very hard to stand on it without falling. If
+moving, then \(J\neq0\) needs to be constant, including in direction: it
+gets easier to ride without falling because to fall the direction of
+the angular momentum!</li>
+<li>ballerina: a spinning ballerina closes their arms, this decreases
+\(\mathbf{r}\), so to keep the angular momentum constant, the velocity
+\(\mathbf{v}\) has to increase.</li>
+<li>Earth's rotation: this carries angular momentum too, which is
+conserved. In absence of any perturbation, Earth would continue to
+rotate with the same \(\mathbf{r}\) and \(\mathbf{p}\) around the Sun
+(same for the Moon around the Earth, other planets, etc.)</li>
 </ul>
+</div>
+<div id="outline-container-3-sup-rd-sup-kepler-law" class="outline-4">
+<h4 id="3-sup-rd-sup-kepler-law"><a href="#3-sup-rd-sup-kepler-law">3<sup>rd</sup> Kepler law</a></h4>
+<div class="outline-text-4" id="text-org-element-29">
+<p>
+We can understand the 3<sup>rd</sup> Kepler's law as a consequence of angular
+momentum conservation: if the orbit is elliptic, then the distance
+planet-Sun is varying along the orbit, \(\mathrm{r} \equiv \mathrm{r}(t)\).
+To keep \(\mathrm{J} = \mathrm{r}\times\mathrm{p}\) constant then, also the
+momentum \(\mathrm{p}\equiv\mathrm{p}(t)\). Since \(\mathrm{p}=m\mathrm{v}\),
+and since the \(m\) of the planet does not change year-by-year, then the
+velocity \(\mathrm{v}\equiv\mathrm{v}(t)\): the orbital velocity of the
+planet cannot be constant!
+</p>
+
+<p>
+Specifically, from the conservation of \(\mathrm{J}\) one finds that
+when \(\mathrm{r}\) is smaller (at pericenter, closer to the star), then
+\(\mathrm{v}\) needs to be larger: planets pass faster at their closest
+point to the Sun, and spend more time farther away.
+</p>
+
+<p>
+Note that Kepler's 3<sup>rd</sup> law already <i>described</i> this empirically, but
+conservation of angular momentum provides the theoretical basis to
+understand this observed phenomenon:
+</p>
+
+<div class="LATEX" id="org-element-30">
+\begin{equation}
+\label{eq:3rd_Kepler}
+\omega^{2} a^{3} = G(m_{1}+m_{2}) \ \ ,
+\end{equation}
+
+</div>
+
+<p>
+where \(a\) is the semimajor axis of the elliptical orbit, \(\omega=2\pi/P\) is
+the orbital frequency, and \(m_{1}\gg m_{2}\) are the masses of the star and
+planet respectively.
+</p>
+</div>
 </div>
 </div>
 <div id="outline-container-conservation-of-energy" class="outline-3">
 <h3 id="conservation-of-energy"><a href="#conservation-of-energy">Conservation of energy</a></h3>
-<div class="outline-text-3" id="text-org-element-24">
+<div class="outline-text-3" id="text-org-element-31">
 <p>
 This is a consequence of the symmetry of space-time for temporal
 translation (yesterday is the same as today).
@@ -681,7 +811,7 @@ Energy is by definition the capacity of a system to <i>do work</i>, where
 <i>work</i> is the product of a force \(F\) times a displacement \(d\):
 </p>
 
-<div class="LATEX" id="org-element-25">
+<div class="LATEX" id="org-element-32">
 \begin{equation}
 W = \mathbf{F}\cdot\mathbf{d}
 \end{equation}
@@ -696,7 +826,7 @@ various forms
 </div>
 <div id="outline-container-kinetic" class="outline-4">
 <h4 id="kinetic"><a href="#kinetic">Kinetic</a></h4>
-<div class="outline-text-4" id="text-org-element-26">
+<div class="outline-text-4" id="text-org-element-33">
 <p>
 \(E_{kin} = \frac{1}{2}mv^{2}\)
 </p>
@@ -704,7 +834,7 @@ various forms
 </div>
 <div id="outline-container-thermal" class="outline-4">
 <h4 id="thermal"><a href="#thermal">Thermal</a></h4>
-<div class="outline-text-4" id="text-org-element-27">
+<div class="outline-text-4" id="text-org-element-34">
 <p>
 Thermal energy is a form of kinetic energy due to the random agitation
 of constituents (e.g., molecules of a gas).
@@ -736,7 +866,7 @@ corresponds to random velocities of the air of 516 m/s!
 </div>
 <div id="outline-container-radiative" class="outline-4">
 <h4 id="radiative"><a href="#radiative">Radiative</a></h4>
-<div class="outline-text-4" id="text-org-element-28">
+<div class="outline-text-4" id="text-org-element-35">
 <p>
 Energy in the radiation field, i.e., carried by the light (photons)
 </p>
@@ -748,7 +878,7 @@ Energy in the radiation field, i.e., carried by the light (photons)
 </div>
 <div id="outline-container-potential" class="outline-4">
 <h4 id="potential"><a href="#potential">Potential</a></h4>
-<div class="outline-text-4" id="text-org-element-29">
+<div class="outline-text-4" id="text-org-element-36">
 <p>
 It comes in many form, depending on the kind of process that can
 release it (e.g., transform it into kinetic energy), e.g. chemical
@@ -763,7 +893,7 @@ Earth \(g \simeq 10\mathrm{m s^{-2}^{}}\)): \(E_{pot }= mgh\)
 </div>
 <div id="outline-container-binding-energy" class="outline-4">
 <h4 id="binding-energy"><a href="#binding-energy">Binding energy</a></h4>
-<div class="outline-text-4" id="text-org-element-30">
+<div class="outline-text-4" id="text-org-element-37">
 <p>
 The amount of energy you have to provide to a system for breaking it
 into its component and pull them apart at infinity, or in other words
@@ -777,7 +907,7 @@ energy of something being assembled.
 </div>
 <div id="outline-container-rest-energy" class="outline-4">
 <h4 id="rest-energy"><a href="#rest-energy">Rest-energy</a></h4>
-<div class="outline-text-4" id="text-org-element-31">
+<div class="outline-text-4" id="text-org-element-38">
 <p>
 \(E=m c^{2}\)
 </p>
@@ -792,12 +922,12 @@ reference frame.
 </div>
 <div id="outline-container-energy-transforms-from-one-form-or-the-other" class="outline-3">
 <h3 id="energy-transforms-from-one-form-or-the-other"><a href="#energy-transforms-from-one-form-or-the-other">Energy transforms from one form or the other</a></h3>
-<div class="outline-text-3" id="text-org-element-32">
+<div class="outline-text-3" id="text-org-element-39">
 
-<figure id="org-element-33">
+<figure id="org-element-40">
 <img src="images/potential_vs_kinetics.png" alt="potential_vs_kinetics.png" width="100%">
 
-<figcaption><span class="figure-number">Figure 5: </span>Energy can transform from one form to another, but the total is conserved. In this example the kinetic and potential energy of the ball can transform into one-another along the path. Note that the zero-point for the potential energy is arbitrary.</figcaption>
+<figcaption><span class="figure-number">Figure 6: </span>Energy can transform from one form to another, but the total is conserved. In this example the kinetic and potential energy of the ball can transform into one-another along the path. Note that the zero-point for the potential energy is arbitrary.</figcaption>
 </figure>
 </div>
 </div>
@@ -808,7 +938,7 @@ reference frame.
   <hr>
   <a href="#light-dark-toggle"><i id="light-dark-toggle"><i class="fa-solid fa-circle-half-stroke"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-04-lab1_astrology_and_pseudosciences.html"><i class="fa-solid fa-arrow-left" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="#top"><i class="fa-solid fa-arrow-up" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-06-gravity-motion.html"><i class="fa-solid fa-arrow-right" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/mathren/170B1--002"><i class="fa-brands fa-github" style="font-size:16px"></i></a><hr>
   <br>
-  Last updated on 26 August 2026 <br>
+  Last updated on 27 August 2026 <br>
   Made with Emacs 30.1 - Org mode 9.7.11
   <br>
 </div>

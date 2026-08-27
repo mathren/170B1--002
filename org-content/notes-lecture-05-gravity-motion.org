@@ -253,6 +253,7 @@ The third law explains also why rockets fly: they push out
 exhaust gas, which in turns pushes the rockets up.
 #+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/zctTKdQcmVA?si=XT_vT9nEjQxw-k5_&amp;start=54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
 * Universal law of Gravitation
 :Quote:
 /If I have seen farther than others, it is because I have stood on the
@@ -317,10 +318,43 @@ a /dynamical/ explanation of these empirical observed facts, explaining
 and extending the observations of (..., Tycho Brahe,) Kepler.
 
 *** Conical orbits
+For instance, Kepler correctly realized that the orbit of Mars (and by
+extension all planets) are /ellipses/ with the Sun occupying a focus.
 
-*** 3^{rd} law
+Solving the equations of motion for two point masses (representing,
+e.g., Sun and Mars) interacting just through gravity according to
+Newton's laws
+#+BEGIN_LATEX
+\begin{equation}
+\mathbf{F} = m \mathrm{a} = \frac{GMm}{r^{2}} \ \ ,
+\end{equation}
+#+END_LATEX
+one obtains a more general solution that the one empirically derived
+by Kepler: the solution of the /two body problem/!
 
+Elliptical orbits are just one of the possibilities, which are in
+general all /conic section/:
 
+#+DOWNLOADED: screenshot @ 2026-08-27 09:21:20
+[[file:images/conic.png]]
+
+- Planets orbit on ellipses (and the special case of an ellipse with
+  zero eccentricity, $e=0$, that is a circle)
+- increasing the orbital energy, orbits become /parabolic/, meaning they
+  are open: an object on a parabolic orbit passes by the Sun once and
+  never returns (e.g., some comets)
+- increasing the energy even further, the orbits become hyperbolae,
+  which are also open curves (no return). For example, [][Omuamua],
+  the first /interstellar/ object observed passing through the solar
+  system was on an hyperbolic orbit. *N.B.:* Especially in the debate on
+  Omuamua's orbit, factors /other/ than gravity play a role (e.g., the
+  loss of mass by the object due to the Sun heating it up and causing
+  evaporation)
+
+This is a perfect example of /scientific progress/: the theoretical
+/update/ formulated by Newton /explains and extends/ the empirical
+observations fitted by Kepler and recovers the previous result as a
+particular case (here: bound orbits).
 
 * Conservation laws in physics
 In my opinion, one of the most beautiful results of theoretical
@@ -350,11 +384,67 @@ body on the forcing agent, so that in /total/ the net force on both body
 and agent is zero and the /total/ momentum remains constant (3^{rd} law).
 
 ** Conservation of angular momentum
-This is a consequence of symmetry of space-time w.r.t. rotations.
+This is a consequence of symmetry of space-time w.r.t. rotations, and
+it is a vector quantity:
+#+Begin_latex
+\begin{equation}
+\mathbf{J} = \mathbf{r}\times \mathbf{p} = \mathbf{r}\times m\mathbf{v}  \ \ ,
+\end{equation}
+#+End_latex
+where $\mathbf{p}=m\mathbf{v}$ is the momentum discussed above and
+$\mathbf{r}$ is the distance to the rotation axis.
 
-- bike
-- ballerina
-- Earth's rotation
+Because it is a vector, it is characterized by multiple components
+($x,y,z$): conservation of angular momentum requires the /total/ angular
+momentum to be conserved, which means also in /direction/ and not only
+in /amplitude/.
+
+#+CAPTION: Angular momentum is the conserved quantity related to "rotation": its conservation comes from the symmetry of a system w.r.t. rotation and it leads to rotating objects to keep rotating in the same way.
+[[file:images/am.png]]
+
+Conservation of angular momentum examples:
+- bike: if not moving ($v=0\Rightarrow p=mv=0$) there is no angular momentum
+  ($J=r\times p\equiv0$) and it is very hard to stand on it without falling. If
+  moving, then $J\neq0$ needs to be constant, including in direction: it
+  gets easier to ride without falling because to fall the direction of
+  the angular momentum!
+- ballerina: a spinning ballerina closes their arms, this decreases
+  $\mathbf{r}$, so to keep the angular momentum constant, the velocity
+  $\mathbf{v}$ has to increase.
+- Earth's rotation: this carries angular momentum too, which is
+  conserved. In absence of any perturbation, Earth would continue to
+  rotate with the same $\mathbf{r}$ and $\mathbf{p}$ around the Sun
+  (same for the Moon around the Earth, other planets, etc.)
+
+*** 3^{rd} Kepler law
+We can understand the 3^{rd} Kepler's law as a consequence of angular
+momentum conservation: if the orbit is elliptic, then the distance
+planet-Sun is varying along the orbit, $\mathrm{r} \equiv \mathrm{r}(t)$.
+To keep $\mathrm{J} = \mathrm{r}\times\mathrm{p}$ constant then, also the
+momentum $\mathrm{p}\equiv\mathrm{p}(t)$. Since $\mathrm{p}=m\mathrm{v}$,
+and since the $m$ of the planet does not change year-by-year, then the
+velocity $\mathrm{v}\equiv\mathrm{v}(t)$: the orbital velocity of the
+planet cannot be constant!
+
+Specifically, from the conservation of $\mathrm{J}$ one finds that
+when $\mathrm{r}$ is smaller (at pericenter, closer to the star), then
+$\mathrm{v}$ needs to be larger: planets pass faster at their closest
+point to the Sun, and spend more time farther away.
+
+Note that Kepler's 3^{rd} law already /described/ this empirically, but
+conservation of angular momentum provides the theoretical basis to
+understand this observed phenomenon:
+
+#+BEGIN_LATEX
+\begin{equation}
+\label{eq:3rd_Kepler}
+\omega^{2} a^{3} = G(m_{1}+m_{2}) \ \ ,
+\end{equation}
+#+END_LATEX
+
+where $a$ is the semimajor axis of the elliptical orbit, $\omega=2\pi/P$ is
+the orbital frequency, and $m_{1}\gg m_{2}$ are the masses of the star and
+planet respectively.
 
 
 ** Conservation of energy

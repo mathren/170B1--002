@@ -4,6 +4,8 @@
 #+PREVIOUS_PAGE: notes-lecture-05-gravity-motion.org
 #+NEXT_PAGE: notes-lecture-07.org
 
+*Reading:* Chapter 4
+
 * Orbital motion
 
 * Tides

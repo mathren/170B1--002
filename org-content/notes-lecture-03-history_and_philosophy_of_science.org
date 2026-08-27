@@ -58,8 +58,14 @@ geometrically perfect circles. Seeking the same explanations for both
 "classes" of phenomena was an absurd program in context.
 
 This occurred first with:
-- 16-17^{th} century scientific revolution: unification of gravity on Earth and orbital motion of planets by Newton
-- 19^{th} century technological advance: the ability to use spectra of
+- 16-18^{th} century scientific revolution: unification of gravity on
+  Earth and orbital motion of planets by Newton
+- early 19^{th}: physics becomes concerned with entropy and
+  irreversibility, which suggests that /luminous things/ need evolve to
+  /keep up with their energy losses/, meaning things in the sky must
+  change and evolve - the stars (and maybe the Universe) cannot be
+  static and immutable.
+- mid 19^{th} century technological advance: the ability to use spectra of
   light to determine the chemical composition of stars revealed the
   same materials in astronomical setting and on Earth.
 
