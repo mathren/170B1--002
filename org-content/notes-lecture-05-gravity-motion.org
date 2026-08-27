@@ -63,7 +63,7 @@ and the semimajor axis of the planet's orbit.
 #+END_LATEX
 
 where $a$ is the semimajor axis of the elliptical orbit,
-is the orbital frequency, and $m_{1}\ggm_{ 2}$ are the
+is the orbital frequency, and $m_{1}\gg m_{ 2}$ are the
 masses of the star and planet respectively.
 
 *N.B.*: While the formula on the book focuses your attention on the
@@ -495,19 +495,7 @@ point to the Sun, and spend more time farther away.
 
 Note that Kepler's 3^{rd} law already /described/ this empirically, but
 conservation of angular momentum provides the theoretical basis to
-understand this observed phenomenon:
-
-#+BEGIN_LATEX
-\begin{equation}
-\label{eq:3rd_Kepler}
-\omega^{2} a^{3} = G(m_{1}+m_{2}) \ \ ,
-\end{equation}
-#+END_LATEX
-
-where $a$ is the semimajor axis of the elliptical orbit, $\omega=2\pi/P$ is
-the orbital frequency, and $m_{1}\gg m_{2}$ are the masses of the star and
-planet respectively.
-
+understand this observed phenomenon.
 
 ** Conservation of energy
 This is a consequence of the symmetry of space-time for temporal
