@@ -74,7 +74,7 @@ obtain:
 
 #+BEGIN_LATEX
 \begin{equation}
-a_{z} \simeq -GM_{\rm Earth}/R_{\rm Earth} \simeq 10 \mathrm{cm s^{-2}}\ \ ,
+a_{z} \simeq -GM_{\rm Earth}/R_{\rm Earth} \simeq 9.8\,\mathrm{cm s^{-2}} \simeq 10\, \mathrm{cm s^{-2}}\ \ ,
 \end{equation}
 #+END_LATEX
 which is *constant* (all the quantities are constant!) for small
