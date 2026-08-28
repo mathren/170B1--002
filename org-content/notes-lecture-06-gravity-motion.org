@@ -84,7 +84,7 @@ becomes:
 
 #+BEGIN_LATEX
 \begin{equation}
-v_{z}(t) = v_{z}_{}(t=0)+a_{z} \times t
+v_{z}(t) = v_{z}(t=0) + a_{z} \times t
 \end{equation}
 #+END_LATEX
 that is the /initial/ vertical velocity $v_{z}(t=0)$ plus the acceleration
