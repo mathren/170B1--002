@@ -199,7 +199,6 @@ advertisement, a measure of how the engine can impart rotation by
  It has the dimensions of a [F] \times [L]  \neq [F]. It is in a sense the
  "rotational equivalent" of what a force is in a "linear" context.
 
-
 ** The "laws" of dynamics
 In the /Philosophiae Naturalis Principia Mathematica/, Newton formalized
 the three laws now named after him which connect physics across
@@ -246,7 +245,6 @@ stop.
 The third law explains also why rockets fly: they push out
 exhaust gas, which in turns pushes the rockets up.
 #+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/zctTKdQcmVA?si=XT_vT9nEjQxw-k5_&amp;start=54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 * Universal law of Gravitation
 :Quote:

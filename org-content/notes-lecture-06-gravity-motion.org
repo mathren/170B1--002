@@ -6,6 +6,89 @@
 
 *Reading:* Chapter 4
 
-* Orbital motion
+* TODO Recap
+
+
+
+Top hat questions.
+
+* Example: dynamics of falling objects
+
+$\mathbf{F} = m\mathbf{a}$ is a vector equation. For a physics problem
+in three dimension treated in Cartesian coordinates, this equation is
+equivalent to:
+
+#+BEGIN_LATEX
+\begin{equation}
+F_{x} = m a_{x} \ \ , F_{y} = m a_{y} \ \ , F_{z} = m a_{z} \ \ .
+\end{equation}
+#+END_LATEX
+
+Each of these have to be individually true along the $x$, $y$, and $z$
+directions for the vectorial equation representing Newton's second law
+to be valid.
+
+Let's consider the case where $\mathbg{F}\equiv \mathbf{F}_{\rm grav}$ is
+gravity, for example a ski jumper going off a ramp in absence of
+friction:
+
+#+CAPTION: Ski jumper.
+#+ATTR_HTML: :width 50%
+[[./images/ski_jumper.png]]
+
+Let's chose a system of coordinates such that Earth's gravity is along
+the $z$ direction, and the ramp is along the $x$-direction. Then:
+
+#+BEGIN_LATEX
+\begin{equation}
+F_{x} = 0 \Rightarrow a_{x} = 0 \ \ , F_{y} = 0 \Rightarrow a_{y}=0 \ \ , F_{z} = -G{M_{\rm Earth} m_{\rm skier}}{r^{2}} = m_{\rm skier} a_{z} \ \ .
+\end{equation}
+#+END_LATEX
+
+Since there is no force in the $x$ and $y$ direction (we are
+neglecting friction with the air and between ground and skiis), there
+is no acceleration (2^{nd} Newton's laws of dynamics). But if there is no
+acceleration, there is by definition no change in velocity: whatever
+the initial velocity of the skier in the $x$ and $y$ direction is, it
+remains /constant/! In other words: gravity does not influence in any
+way the horizontal motion and by the 1^{st} law of dynamics, a body like
+the skier keeps its velocity.
+
+Gravity does act in the $z$ direction though (the skier is going to
+land at some point!). Considering only the equation along this
+direction, we note that $m_{\rm skier}$ appears on /both/ sides of the
+equation and it is a non-zero quantity (otherwise there is no skier!),
+so we can /divide/ each side by $m_{\rm skier}$ to make it go away:
+
+#+BEGIN_LATEX
+\begin{equation}
+-G{M_{\rm Earth}}{r^{2}} = a_{z} \ \ .
+\end{equation}
+#+END_LATEX
+
+This is in fact the /gravitational acceleration/! Note that $r$ here is
+the distance to the center of the Earth, $r=R_{\rm Earth}+\delta r$ where
+$\delta r\ll R_{\rm Earth}$ because the skier doesn't jump thousands of km high.
+Therefore we can also neglect the small $\delta r$ w.r.t. $R_{\rm Earth}$ and
+obtain:
+
+#+BEGIN_LATEX
+\begin{equation}
+a_{z} \simeq -GM_{\rm Earth}/R_{\rm Earth} \simeq 10 \mathrm{cm s^{-2}}\ \ ,
+\end{equation}
+#+END_LATEX
+which is *constant* (all the quantities are constant!) for small
+displacements w.r.t. the size of Earth (so for anything smaller than
+thousands of km). So the equation of motion in the vertical direction
+becomes:
+
+#+BEGIN_LATEX
+\begin{equation}
+v_{z}(t) = v_{z}_{}(t=0)+a_{Z} t \ \,
+\end{equation}
+#+END_LATEX
+that is the /initial/ vertical velocity $v_{z}(t=0)$ plus the acceleration
+term we just found. From the velocity we can find the position
+(integrating in time).
 
 * Tides

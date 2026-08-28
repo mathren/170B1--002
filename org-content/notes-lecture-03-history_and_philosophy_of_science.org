@@ -414,7 +414,6 @@ dimensions [L^{3}]. This is /not/ physically sound, it's like saying you
 are 1h tall! What the book is doing is glossing over important
 physical constants, in this case G which fix the dimensions.
 
-
 * Scientific models
 
 To achieve this level of predictions of astronomical phenomena and
