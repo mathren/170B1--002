@@ -204,7 +204,7 @@ including the Sun and the Moon!
 
 The word "month" itself is related to "Moon", as it is approximately
 the amount of time it takes between a new and full moon (i.e., for the
-satellite to go around the Earth).
+satellite to go around the Earth, $P=29.5$ days).
 
 On a longer timescale of several months, astronomy allows to predict
 seasons and likely weather conditions - a great help for agricultural
@@ -252,9 +252,9 @@ jewish calendars).
 
 Because the Moon's period is 29.5 days, 12 rounds of the Moon around
 the Earth take 12\times 29.5 = 354 days, 11-less than it takes the Earth to
-go around the Sun. This explains why /lunar/ calendars drift by this
-amount every year w.r.t. the solar calendar, requiring periodic
-"adjustments" to maintain certain astronomical events (e.g.,
+go around the Sun ($P=365.25$ days). This explains why /lunar/ calendars
+drift by this amount every year w.r.t. the solar calendar, requiring
+periodic "adjustments" to maintain certain astronomical events (e.g.,
 solstice/equinoxes) in the same month.
 
 #+CAPTION: Mayan Calendar.
