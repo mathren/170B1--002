@@ -31,6 +31,9 @@ How this is done in detail throughout the history of humanity is
 inextricably intertwined with technological developments that allow
 the quantitative verification of factual information!
 
+Today we will consider /what is a scientific idea/ through the
+historical development of modern ideas in astronomy.
+
 * A brief history of astronomy
 As the record-keeping and description of the motion of celestial
 objects (though the course of a night, a month, and years), astronomy
