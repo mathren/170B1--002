@@ -500,7 +500,7 @@ equates a period (indicated with $p$ on the book) squared, which has
 the units of [t^{2}] to a semimajor axis ($a$) cubed, which has the
 dimensions [L^{3}]. This is /not/ physically sound, it's like saying you
 are 1h tall! What the book is doing is glossing over important
-physical constants, in this case G which fix the dimensions.
+physical constants, in this case G \times a mass which fixes the dimensions.
 
 * Scientific models
 
