@@ -265,17 +265,17 @@ of the library, the major cultural center in the world moved from
 Alexandria to Baghdad, during the "Islamic Golden Age". In this time
 influences from Persian, Indian and eastern Asian's thought mixed in
 and shaped the evolution of ideas on the cosmos, and through merchants
-these ideas were slowly re-discovered in Western Europe. A lot of
-mathematical concept where developed, expanded, and refined in this
-time, explaining their names starting with /al/ (meaning /the/ in Arabic),
-like "algebra" or "algorithm" (which comes from the name of an Iranian
-scholar, [[https://en.wikipedia.org/wiki/Al-Khwarizmi][Al-Khwarizsmi]]). With the advent of more religious
-conservative regimes in the Ottoman Empire ruling over Baghdad, a lot
-of intellectuals fled towards Europe (especially through merchant
-routes towards Italy). They brought with themselves translations in
-modern languages of the ancient Greek texts and this was crucial to
-seed the renaissance and the Scientific revolution of the 1600s often
-ailed as the "birth of modern science".
+these ideas were slowly re-discovered in Western Europe (including the
+first latin translations of ancient Greek texts lost in Western
+Europe). A lot of mathematical concept where developed, expanded, and
+refined in this time, explaining their names starting with /al/ (meaning
+/the/ in Arabic), like "algebra" or "algorithm" (which comes from the
+name of an Iranian scholar, [[https://en.wikipedia.org/wiki/Al-Khwarizmi][Al-Khwarizsmi]]). With the advent of more
+religious conservative regimes in the Ottoman Empire ruling over
+Baghdad, a lot of intellectuals fled towards Europe (especially
+through merchant routes towards Italy). This was crucial to seed the
+renaissance and the Scientific revolution of the 1600s often ailed as
+the "birth of modern science".
 
 #+CAPTION: The maximum extent of Alexander the Great's empire, which spread hellenistic culture throughout the middle east and asia, and created the contact between this culture and Indian culture.
 [[./images/macedonian_empire.jpg]]
