@@ -185,8 +185,8 @@ North-South/East-West directions, and therefore experiences
 Within the day, shades cast by long objects can be calibrated to make
 a sun-dial. This is one of the primary uses of, for example, Egyptian
 obelisks. The division of day-time in 12h (i.e., a full day in 24h)
-rather than 5 or 10h/day dates back to ancient Egypt choices (again
-mathematically justified by the large number of integer divisors of
+rather than 5 or 10h/day dates back to ancient Egyptians' choices
+(mathematically justified by the large number of integer divisors of
 12, allowing for easy sub-divisions.)
 
 
@@ -199,7 +199,7 @@ the week days: in English, they are named after the Sun, Moon and the
 ("wanderer") is anything moving in a "special way" in the sky
 including the Sun and the Moon!
 
-#+CAPTION: The names of the week days are based on astronomical objects notable for their peculiar motion, namely, the "planets".
+#+CAPTION: In various languages, the names of the week days are based on astronomical objects notable for their peculiar motion, namely, the "planets".
 [[file:images/week_days.png]]
 
 The word "month" itself is related to "Moon", as it is approximately
