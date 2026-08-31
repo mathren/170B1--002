@@ -156,6 +156,9 @@ The knowledge and use of astronomy by ancient cultures still reflects
 on many aspects of language, commonly used units (degrees, weeks,
 months, etc.), and archaeological evidence.
 
+Let's first go over some of these achievements around the history and
+the world.
+
 *** Architecture
 Lots of architecture across many disparate cultures is organized
 around astronomical events. Many buildings and even entire
@@ -282,6 +285,10 @@ We can follow a specific example, which is models of the Solar system
 to see how they developed.
 
 *** From Ancient Greece, through Hellenistic and Muslim world, to modern ideas
+
+#+CAPTION: Ancient greek culture developed at the cross-road between Africa, Asia, and Europe, and was first to record investigating natural phenomena with a mathematical (at the time specifically geometric) description and without invoking super-natural causes.
+[[./images/ancient_greece.jpg]]
+
 By being at the intersection between Africa, Asia, and Europe, ancient
 Greece was a place where ideas and cultures mixed which produced a lot
 of innovative and foundational ideas.
