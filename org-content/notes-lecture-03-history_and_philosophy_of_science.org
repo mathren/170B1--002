@@ -268,6 +268,11 @@ cut \sim 6h every year, and every four we add a day to compensate. The
 remaining 9m 10s also need compensation but less often (leap seconds
 and extra leap days occasionally).
 
+The Mayan calendars also slowly drifted off-sync from the orbital
+motion of the Earth, which is why they were occasionally "changing
+calendar" to re-sync. This is what they had calculated would happen at
+the end of 2012.
+
 ** Development of scientific ideas
 Scientific ideas, developed based on quantitative and objective
 observations and aiming at explaining them without any super-natural
