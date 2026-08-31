@@ -284,7 +284,12 @@ the "birth of modern science".
 across-borders endeavour throughout history, that advances through
 small contributions by multiple individuals.
 
-Skipping through a lot of important steps:
+Skipping through a lot of important steps, below I list a few of the
+key contributions. Note that each individual's work was embedded in
+their community of the time, and relied on previous discoveries and
+data: science is a /collective/ enterprise where attribution is often
+problematic!
+
 - /Aristarchus/: first philosopher to consider heliocentric models of
   the Solar System (at the time there is no distinction between Solar
   System and whole Universe!), however this does not gain traction
