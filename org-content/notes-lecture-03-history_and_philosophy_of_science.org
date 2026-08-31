@@ -31,7 +31,6 @@ How this is done in detail throughout the history of humanity is
 inextricably intertwined with technological developments that allow
 the quantitative verification of factual information!
 
-
 * A brief history of astronomy
 As the record-keeping and description of the motion of celestial
 objects (though the course of a night, a month, and years), astronomy
@@ -468,13 +467,6 @@ To achieve this level of predictions of astronomical phenomena and
 competency in using them (for navigation, time-keeping, and cerimonial
 effect), all these cultures engaged in some form of scientific
 investigation.
-
-What "science" is exactly is surprisingly hard to define, and
-certainly has evolved with human cultures. Still in the 20^{th} and 21^{st}
-century, philosophers debate important details of the definition,
-while most scientists are not directly concerned with the general
-definition.
-
 
 Fundamentally, science requires making objective observations (e.g.,
 where the Sun rises on a given day), and formulating a hypothesis that
