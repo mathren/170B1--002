@@ -473,10 +473,9 @@ where the Sun rises on a given day), and formulating a hypothesis that
 may explain said observation without resorting to super-natural
 explanations. From the hypothesis, testable consequences should
 follow. This is [[https://en.wikipedia.org/wiki/Karl_Popper][Karl Popper]]'s /falsificationism/: an hypothesis need to
-lead to testable predictions to be scientific, something typically
-missing in anything trying to "predict the future". The hypothesis can
-thus be tested on its predictions of observations/experiments, and
-either refined or confirmed.
+lead to precise, testable, and possible-to-prove-wrong predictions to
+be scientific. The hypothesis can thus be tested on its predictions of
+observations/experiments, and either refined or confirmed.
 
 #+Caption: Simplified scheme of the scientific method (Popper's vision). In the grander scheme, diverse observations also need to fit together in a coherent picture, and there may be some observations that do not fit that are temporarily ignored or addressed as "special cases" (e.g., the motion of planets for geocentrism)
 [[file:images/scientific_method.png]]
