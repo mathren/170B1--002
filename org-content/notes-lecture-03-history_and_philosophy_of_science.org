@@ -91,11 +91,13 @@ every community in the history of humanity has developed some form of
 astronomical understanding (and associated mythology to transmit this
 knowledge across generations, see [[./notes-lecture-02-scale.org::*Constellations][Constellations]]).
 
-This is because:
-It took about 200 years, starting in the 1600s, for astronomy and
-physics to converge into /astrophysics/, that is the application of the
-physical laws that apply on Earth and in laboratories to explain the
-observed astronomical phenomena.
+For thousands of years, /astronomy/ and /physics/ remained distinct: the
+former dealing with things "in the sky", and the latter with "Earthly"
+phenomena, which many culture assumed would be fundamentally different
+and require different explanations. It took about 200 years, starting
+in the 1600s, for astronomy and physics to converge into /astrophysics/,
+that is the application of the physical laws that apply on Earth and
+in laboratories to explain the observed astronomical phenomena.
 
 As a "system of organizing knowledge", scientific thinking lived under
 the broader umbrella of philosophy for most of human history. However,
