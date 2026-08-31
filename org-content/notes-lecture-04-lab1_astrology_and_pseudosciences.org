@@ -137,7 +137,6 @@ course not – it is possible to pick the correct horoscope by chance.
 
 We can compute the probability that you chose correctly by pure chance
 any number of times using the Binomial Theorem.
-
 The probability ($P$) for $k$ successes from $N$ trials where the
 probability of success is $p$ is given by:
 

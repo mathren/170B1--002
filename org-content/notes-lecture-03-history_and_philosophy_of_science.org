@@ -343,7 +343,8 @@ problematic!
   Galileo), he solidified the heliocentric models and paved the way
   for a physical explanation of the observations:
   - demonstrates /Galilean/ invariance, no need to feel a "wind" if Earth moves,
-  - finds Medicean satellites
+  - finds Medicean satellites: these are moons of Jupiter that clearly
+    /do not/ orbit the Earth
     #+CAPTION: Notes by Galileo Galilei from 1610 showing the first detection of 4 satellites of Jupiter (the circle) clearly /not/ orbiting the Earth but something else.
     #+ATTR_HTML: :width 50%
     [[file:images/Galileo_medicean_satellites.png]]
