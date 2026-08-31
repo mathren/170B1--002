@@ -374,10 +374,12 @@ Skipping through a lot of important steps:
   - demonstrates /Galilean/ invariance, no need to feel a "wind" if Earth moves,
   - finds Medicean satellites
     #+CAPTION: Notes by Galileo Galilei from 1610 showing the first detection of 4 satellites of Jupiter (the circle) clearly /not/ orbiting the Earth but something else.
+    #+ATTR_HTML: :width 50%
     [[file:images/Galileo_medicean_satellites.png]]
   - phases of Venus, evidence that Venus orbits the Sun and not the
     Earth
     #+CAPTION: Phases of Venus as observed by Galileo proved that he does /not/ orbit the Earth. The top here shows the pre-Galileo hypothesis: Venus orbits the Earth within the orbit of the Sun, with a little "epicycle", and it can never be full. In the bottom panel we have the heliocentric model, where the phases of Venus (despite the fact it is always closer to the Sun) clearly suggests it orbits the Sun and /not/ the Earth.
+    #+ATTR_HTML: :width 50%
     [[./images/venus_phases.png]]
   - mountains on the moon, evidence that the "super-lunar" world is
     not perfect, but ragged as everywhere on Earth
