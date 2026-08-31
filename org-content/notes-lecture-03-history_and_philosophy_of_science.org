@@ -356,13 +356,13 @@ Skipping through a lot of important steps:
   but they orbit a circle whose center is on the sphere:
 #+CAPTION: Schematic illustration of how epicicles may explain the retrograde phases of motion of planets.
 [[file:images/epicycles.png]]
-- Copernicus: revives Aristarchus heliocentric idea to calculate
+- /Copernicus/: revives Aristarchus heliocentric idea to calculate
   planet positions, but keeps perfect circles.
-- Tycho Brahe: naked eye precise observations from Danemark allow for
+- /Tycho Brahe/: naked eye precise observations from Danemark allow for
   unprecedented precision astrometry (especially of Mars). Wanted to
   generate a heliocentric model to explain the data, but still only
   using circles.
-- Kepler: abandons circular orbits, enunciates phenomenological
+- /Kepler/: abandons circular orbits, enunciates phenomenological
   descriptive laws of the planetary motion /abandoning the idea of
   perfect circles/. The orbits of planets must be on eccentric orbits
   with the Sun occupying one of the foci. Kepler's laws explain the
@@ -371,7 +371,7 @@ Skipping through a lot of important steps:
   only last argument against it is the lack of parallax of stars in
   the night sky. The full dataset used by Kepler is [[https://www.pafko.com/tycho/index.html][available online]]
   and weighs only 400kB.
-- Galileo:
+- /Galileo/:
   - demonstrates /Galilean/ invariance, no need to feel a "wind" if Earth moves,
   - finds Medicean satellites
     #+CAPTION: Notes by Galileo Galilei from 1610 showing the first detection of 4 satellites of Jupiter (the circle) clearly /not/ orbiting the Earth but something else.
@@ -393,7 +393,7 @@ Skipping through a lot of important steps:
   the Netherlands, and the conceptualization and improvements brought
   to it by Galileo) that allow new evidence that changes which model
   is favored.
-- Newton: makes the first big step in unifying astronomy and physics
+- /Newton/: makes the first big step in unifying astronomy and physics
   by unifying the law of gravity on Earth (how object fall) with the
   orbits of planets and showing how Kepler's laws are a natural
   consequence of the "Universal law of gravitation". We will discuss
