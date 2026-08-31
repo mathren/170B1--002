@@ -261,6 +261,13 @@ solstice/equinoxes) in the same month.
 [[./images/mayan_calendar.jpg]]
 
 
+*N.B.:* The exact duration of a year (orbit of the Earth around the Sun)
+is 365d 6h 9m 10s, slightly longer than 365d! This is why roughly
+every 4 years we have a /leap year/ where we add a day in February: we
+cut \sim 6h every year, and every four we add a day to compensate. The
+remaining 9m 10s also need compensation but less often (leap seconds
+and extra leap days occasionally).
+
 ** Development of scientific ideas
 Scientific ideas, developed based on quantitative and objective
 observations and aiming at explaining them without any super-natural
