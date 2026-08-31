@@ -388,7 +388,14 @@ Skipping through a lot of important steps:
     [[file:images/moon.png]]
   - and shows how the Milky way is made of a lot of tiny stars,
     suggesting that stars may be much farther than previously thought
-    and possibly explaining the lack of parallax.
+    and possibly explaining the lack of parallax. Note how this did
+    not immediately solve the issue of lack of parallax detected by
+    eye due to the yearly motion of Earth, but it made it plausible
+    that this was caused by the larger-than-previously thought
+    distance to the stars. This paved the way for the acceptance of
+    /helio centrism/, which could naturally explain the phases of Venus
+    and the orbits of planets in a quantitative manner (compared to
+    /geocentrism/).
   Note how technological advances (the invention of the telescope in
   the Netherlands, and the conceptualization and improvements brought
   to it by Galileo) that allow new evidence that changes which model
