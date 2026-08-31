@@ -75,7 +75,8 @@ science.
 * A brief history of astronomy
 As the record-keeping and description of the motion of celestial
 objects (though the course of a night, a month, and years), astronomy
-must be one of the oldest scientific endeavor of humanity.
+must be one of the oldest scientific endeavor of humanity, for at
+least the following reasons:
 
 1. the sky night was accessible to every culture (before light pollution was a thing)
 2. knowledge of the sky night offered solutions to practical
