@@ -130,7 +130,7 @@ refinement and progress.
 
 ** Achievements of ancient astronomy
 Most cultures have developed some investigation of astronomical
-phenomena for both practical and religious/ceremonial purposes. All
+phenomena for both practical and religious or ceremonial purposes. All
 these have as a pre-requisite careful observations and an organized
 system to verify and pass-on knowledge, the roots of scientific
 endeavors.
