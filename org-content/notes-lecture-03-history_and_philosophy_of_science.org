@@ -178,7 +178,7 @@ A modern example is NYC, whose grid is not perfectly aligned in the
 North-South/East-West directions, and therefore experiences
 "Manhattanhenge" a few days before/after the equinoxes:
 
-#+Caption: /Manhattanhenge/ seen from 32^{nd} street.
+#+Caption: /Manhattanhenge/ seen from 42^{nd} street.
 [[./images/manhattanhenge.png]]
 
 *** Astronomical time-keeping
