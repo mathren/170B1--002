@@ -411,7 +411,11 @@ Skipping through a lot of important steps:
 common language. There is no legislative body prescribing a norm as a
 /law/, in physics a law is a minimal and clear enunciation of
 empirically sound facts, and they are usually (though not always)
-named after the person who formulated this phrasing.
+named after the person who formulated this phrasing or with a
+descriptive name (better! for example "Zero-th law of thermodynamics"
+vs. "Clausius law", the former name gives immediately the context in
+which this "law" exists, thermodynamics, the latter just names one
+guy which does not say much).
 
 [[./notes-lecture-02-scale.org][Last time]] we have briefly mentioned the achievement of Kepler based on
 Tycho Brahe's long observational campaign of the position of Mars.
