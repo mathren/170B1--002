@@ -342,11 +342,12 @@ Skipping through a lot of important steps:
   been known for thousands of years, and is easily verified looking
   at, for example, the shade of the Earth on the Moon during a lunar
   eclipse, or seeing the mast of a ship disappearing below the horizon
-  for much longer than the hull!
+  for much longer than the hull! Erathostenes also calculated the
+  radius of the Earth with surprising precision.
 - /Plato/: idealization of the /super-lunar/ world, which should be described only with perfect shapes (spheres)
 - /Aristotle/: introduces the concept that the spheres are /not/ just an
   idealization, but real physical objects.
-#+DOWNLOADED:Schematic representation of a Geogentric universe with each celestial body in its sphere.
+#+CAPTION: Schematic representation of a Geogentric universe with each celestial body in its sphere.
 [[file:images/spheres.png]]
 - /Ptolemy/: this geocentric always had issues with the motion of
   planets, but was naturally explaining the lack of parallax. To
