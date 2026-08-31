@@ -482,12 +482,11 @@ observations/experiments, and either refined or confirmed.
 
 However, Popper's falsificationism is only a part of the story: many
 scientific theories have remained fashionable and dominant for
-centuries while observations falsifying them were available.
-
-The most notable example is perhaps the /precession of Mercury/: the
-small deformation in Mercury's orbit shifts position every year at a
-rate incompatible with Newton's law of Gravity, a fact that was well
-known and waved away for centuries before Einstein's theory of general
+centuries while observations falsifying them were available. The most
+notable example is perhaps the /precession of Mercury/: the small
+deformation in Mercury's orbit shifts position every year at a rate
+incompatible with Newton's law of Gravity, a fact that was well known
+and waved away for centuries before Einstein's theory of general
 relativity could reconcile the understanding of gravity with the
 observations.
 
