@@ -310,6 +310,9 @@ modern languages of the ancient Greek texts and this was crucial to
 seed the renaissance and the Scientific revolution of the 1600s often
 ailed as the "birth of modern science".
 
+#+CAPTION: The maximum extent of Alexander the Great's empire, which spread hellenistic culture throughout the middle east and asia, and created the contact between this culture and Indian culture.
+[[./images/macedonian_empire.jpg]]
+
 *N.B.:* Science has always been a collective, multi-cultural,
 across-borders endeavour throughout history, that advances through
 small contributions by multiple individuals.
