@@ -239,12 +239,11 @@ calendar" to re-sync. This is what they had calculated would happen at
 the end of 2012.
 
 ** Development of scientific ideas
-Scientific ideas, developed based on quantitative and objective
-observations and aiming at explaining them without any super-natural
-element, have come with human societies all along their history.
-
-We can follow a specific example, which is models of the Solar system
-to see how they developed.
+Throughout history, human societies have developed scientific ideas,
+based on quantitative and objective observations and aiming at
+explaining them without any super-natural element. We can follow a
+specific example, which is models of the Solar system to see how they
+developed.
 
 *** From Ancient Greece, through Hellenistic and Muslim world, to modern ideas
 
