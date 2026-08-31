@@ -463,6 +463,8 @@ physical constants, in this case G \times a mass which fixes the dimensions.
 
 * Scientific models
 
+[[https://app.tophat.com/e/214705/content/course-work/item/1477906::dd455e21-7f1e-4fbf-aead-4eef5e3abe04][Second top hat question]]
+
 To achieve this level of predictions of astronomical phenomena and
 competency in using them (for navigation, time-keeping, and cerimonial
 effect), all these cultures engaged in some form of scientific
