@@ -75,21 +75,21 @@ science.
 * A brief history of astronomy
 As the record-keeping and description of the motion of celestial
 objects (though the course of a night, a month, and years), astronomy
-must be one of the oldest scientific endeavor of humanity, for at
-least the following reasons:
+must be one of the oldest scientific endeavor of humanity. There are
+at least two reasons:
 
 1. the sky night was accessible to every culture (before light pollution was a thing)
 2. knowledge of the sky night offered solutions to practical
-   time-keeping and navigation issues
+   /time-keeping/ and /navigation/ issues: the regularities in the
+   apparent motion of the sky provide a natural clock and compass!
 
 Every community on Earth has observed the sky, and every community has
-needed time-keeping (the regularity in the apparent motion of the sky
-provide a natural clock) or navigation! Knowing when cold or harvest
-season are coming, or being able to navigate in the night are needs
-that can be met with naked eye observations of the sky, and we can be
-sure that every community in the history of humanity has developed
-some form of astronomical understanding (and associated mythology to
-transmit this knowledge across generations, see [[./notes-lecture-02-scale.org::*Constellations][Constellations]]).
+needed time-keeping or navigation. Knowing when cold or harvest season
+are coming, or being able to navigate in the night are needs that can
+be met with naked eye observations of the sky, and we can be sure that
+every community in the history of humanity has developed some form of
+astronomical understanding (and associated mythology to transmit this
+knowledge across generations, see [[./notes-lecture-02-scale.org::*Constellations][Constellations]]).
 
 This is because:
 It took about 200 years, starting in the 1600s, for astronomy and
