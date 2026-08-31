@@ -31,46 +31,6 @@ How this is done in detail throughout the history of humanity is
 inextricably intertwined with technological developments that allow
 the quantitative verification of factual information!
 
-** My favorite definition of science
-I really like the definition of science by [[https://en.wikipedia.org/wiki/Mertonian_norms][Robert Merton]], who was a
-sociologist, not a philosopher, and in 1942 enunciated a set of
-"ethical standards" for the scientific community, summarized by an
-acronym, CUDOS:
-- *Communism* (sometimes re-phrased as "communalism" to avoid the
-  political connotation): science should be done for the benefit of
-  everyone, and ideas do not belong to any specific scientist, but to
-  the community as a whole
-- *Universalism*: scientific validity is independent of location,
-  institutions, status
-- *Disinterestedness*: scientific research should be driven by
-  curiosity, not profit or desired outcome (Note how applied research
-  in a company or for defense purposes does not count as /science/ by
-  this definition!)
-- *Organized Skepticism*: the scientific community, collectively, tests
-  ideas and claims through an /organized/ process that can/should/does
-  question all hypothesis and steps, but in an organized and
-  methodological way that allows for progress.
-
-What I particularly like of this framing is that it is /not/
-prescriptive, and it leaves the agency with the scientific community,
-allowing for progress and evolution of the scientific method, while at
-the same time it gives a responsibility to the community as a whole.
-
-Of course, science is a /human/ enterprise, therefore the "actors" are
-flawed human beings with their own personal motivations. The "Science"
-with a capital "S" doesn't belong to any specific individual, but to
-the whole community which with enough time and testing and
-verification tends to catch, identify, and shun frauds and unethical
-behaviors (e.g., [[https://en.wikipedia.org/wiki/Lancet_MMR_vaccine-autism_report][Vaccines cause autism fraudolent paper]], [[https://en.wikipedia.org/wiki/Weber_bar][Weber's
-resonant bar gravitational wave detectors]], various "cold fusion"
-claims, etc.).
-
-In other words: one single paper from one single author may be as
-wrong as anything. But the community consensus on a specific
-scientific issue is much slower to move, and harder to manipulate,
-which guarantees the /collective/ and /self-correcting/ mechanism of
-science.
-
 
 * A brief history of astronomy
 As the record-keeping and description of the motion of celestial
@@ -515,6 +475,7 @@ century, philosophers debate important details of the definition,
 while most scientists are not directly concerned with the general
 definition.
 
+
 Fundamentally, science requires making objective observations (e.g.,
 where the Sun rises on a given day), and formulating a hypothesis that
 may explain said observation without resorting to super-natural
@@ -587,3 +548,43 @@ became a heliocentric one, where no object required any special
 explanation (planet motion is perfectly explained), as the main
 argument against geocentrism became progressively weaker with the
 realization that stars are much farther than originally thought.
+
+* My favorite definition of science
+I really like the definition of science by [[https://en.wikipedia.org/wiki/Mertonian_norms][Robert Merton]], who was a
+sociologist, not a philosopher, and in 1942 enunciated a set of
+"ethical standards" for the scientific community, summarized by an
+acronym, CUDOS:
+- *Communism* (sometimes re-phrased as "communalism" to avoid the
+  political connotation): science should be done for the benefit of
+  everyone, and ideas do not belong to any specific scientist, but to
+  the community as a whole
+- *Universalism*: scientific validity is independent of location,
+  institutions, status
+- *Disinterestedness*: scientific research should be driven by
+  curiosity, not profit or desired outcome (Note how applied research
+  in a company or for defense purposes does not count as /science/ by
+  this definition!)
+- *Organized Skepticism*: the scientific community, collectively, tests
+  ideas and claims through an /organized/ process that can/should/does
+  question all hypothesis and steps, but in an organized and
+  methodological way that allows for progress.
+
+What I particularly like of this framing is that it is /not/
+prescriptive, and it leaves the agency with the scientific community,
+allowing for progress and evolution of the scientific method, while at
+the same time it gives a responsibility to the community as a whole.
+
+Of course, science is a /human/ enterprise, therefore the "actors" are
+flawed human beings with their own personal motivations. The "Science"
+with a capital "S" doesn't belong to any specific individual, but to
+the whole community which with enough time and testing and
+verification tends to catch, identify, and shun frauds and unethical
+behaviors (e.g., [[https://en.wikipedia.org/wiki/Lancet_MMR_vaccine-autism_report][Vaccines cause autism fraudolent paper]], [[https://en.wikipedia.org/wiki/Weber_bar][Weber's
+resonant bar gravitational wave detectors]], various "cold fusion"
+claims, etc.).
+
+In other words: one single paper from one single author may be as
+wrong as anything. But the community consensus on a specific
+scientific issue is much slower to move, and harder to manipulate,
+which guarantees the /collective/ and /self-correcting/ mechanism of
+science.
