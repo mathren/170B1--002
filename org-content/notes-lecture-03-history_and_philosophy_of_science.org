@@ -407,19 +407,19 @@ Skipping through a lot of important steps:
   this in more detail [[./notes-lecture-05-gravity-motion.org][later]].
 * Kepler's laws
 
-Last time we have briefly mentioned the achievement of Kepler based on
+*N.B.:* In physics the use of the term /law/ is different than in the
+common language. There is no legislative body prescribing a norm as a
+/law/, in physics a law is a minimal and clear enunciation of
+empirically sound facts, and they are usually (though not always)
+named after the person who formulated this phrasing.
+
+[[./notes-lecture-02-scale.org][Last time]] we have briefly mentioned the achievement of Kepler based on
 Tycho Brahe's long observational campaign of the position of Mars.
 Kepler's laws are an /empirical/ description of the observations, which
 does not explain /why/, but allows to make /quantitative/ predictions
 /testable/ with further observations - and tested they were,
 consistently outperforming any other available model at the time in
 predicting orbits of planets
-
-*N.B.:* In physics the use of the term /law/ is different than in the
-common language. There is no legislative body prescribing a norm as a
-/law/, in physics a law is a minimal and clear enunciation of
-empirically sound facts, and they are usually (though not always)
-named after the person who formulated this phrasing.
 
 ** 1^{st} Kepler law
 The orbit of planets are /ellipses/ with the Sun occupying one of the foci.
