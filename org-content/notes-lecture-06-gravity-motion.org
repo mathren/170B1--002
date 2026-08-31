@@ -74,7 +74,7 @@ obtain:
 
 #+BEGIN_LATEX
 \begin{equation}
-a_{z} \simeq -GM_{\rm Earth}/R_{\rm Earth} \simeq 9.8\,\mathrm{cm s^{-2}} \simeq 10\, \mathrm{cm s^{-2}}\ \ ,
+a_{z} \simeq -GM_{\rm Earth}/R_{\rm Earth}^{2}\simeq 9.8\,\mathrm{cm s^{-2}} \simeq 10\, \mathrm{cm s^{-2}}\ \ ,
 \end{equation}
 #+END_LATEX
 which is *constant* (all the quantities are constant!) for small
@@ -90,5 +90,16 @@ v_{z}(t) = v_{z}(t=0) + a_{z} \times t
 that is the /initial/ vertical velocity $v_{z}(t=0)$ plus the acceleration
 term we just found. From the velocity we can find the position
 (integrating in time).
+
+* Example: is there gravity in space?
+
+
+#+CAPTION: Astronauts in the space-station floating with fruits. Note how everything else is secured to the walls by some means.
+[[file:images/astronauts.png]]
+
+** Orbital motion
+
+
+
 
 * Tides

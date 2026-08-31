@@ -6,11 +6,15 @@
 
 *Reading:* Chapter 3
 
+* Recap questions
+
+See [[https://app.tophat.com/e/214705/content/course-work/item/1477906::dd455e21-7f1e-4fbf-aead-4eef5e3abe04][Top hat]].
+
 * History and philosophy of science
 
 Scientific investigation is one of the key skills that allow human
-communities to adapt (and adapt to) their environments to their own
-needs.
+communities to adapt their environments to their own
+needs and adapt to the environment themselves.
 
 Defining precisely what science is is not a trivial question, and an
 entire field of philosophy concerns itself with this question
@@ -21,17 +25,17 @@ their research without concerning themselves too much with this.
 In the broadest sense, science is the /collective process/ of organizing
 known and quantitatively verifiable facts about natural phenomena in a
 coherent framework that allows us to understand, explain, and predict
-said phenomena.
+further quantitatively verifiable facts.
 
 How this is done in detail throughout the history of humanity is
 inextricably intertwined with technological developments that allow
-the quantitative verification of factual information.
+the quantitative verification of factual information!
 
 ** My favorite definition of science
 I really like the definition of science by [[https://en.wikipedia.org/wiki/Mertonian_norms][Robert Merton]], who was a
 sociologist, not a philosopher, and in 1942 enunciated a set of
 "ethical standards" for the scientific community, summarized by an
-acronym: CUDOS
+acronym, CUDOS:
 - *Communism* (sometimes re-phrased as "communalism" to avoid the
   political connotation): science should be done for the benefit of
   everyone, and ideas do not belong to any specific scientist, but to
@@ -47,11 +51,26 @@ acronym: CUDOS
   question all hypothesis and steps, but in an organized and
   methodological way that allows for progress.
 
-What I particularly like of this framing is that it leaves the agency
-with the scientific community, allowing for progress and evolution of
-the scientific method without prescribing and forcing anything, while
-at the same time it gives a responsibility to the community as a
-whole.
+What I particularly like of this framing is that it is /not/
+prescriptive, and it leaves the agency with the scientific community,
+allowing for progress and evolution of the scientific method, while at
+the same time it gives a responsibility to the community as a whole.
+
+Of course, science is a /human/ enterprise, therefore the "actors" are
+flawed human beings with their own personal motivations. The "Science"
+with a capital "S" doesn't belong to any specific individual, but to
+the whole community which with enough time and testing and
+verification tends to catch, identify, and shun frauds and unethical
+behaviors (e.g., [[https://en.wikipedia.org/wiki/Lancet_MMR_vaccine-autism_report][Vaccines cause autism fraudolent paper]], [[https://en.wikipedia.org/wiki/Weber_bar][Weber's
+resonant bar gravitational wave detectors]], various "cold fusion"
+claims, etc.).
+
+In other words: one single paper from one single author may be as
+wrong as anything. But the community consensus on a specific
+scientific issue is much slower to move, and harder to manipulate,
+which guarantees the /collective/ and /self-correcting/ mechanism of
+science.
+
 
 * A brief history of astronomy
 As the record-keeping and description of the motion of celestial

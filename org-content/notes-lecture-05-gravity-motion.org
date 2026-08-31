@@ -471,6 +471,13 @@ nitrogen atoms, each having a mass of $\sim14$ atomic units (7 protons +
 other units, 4.651734\times10^{−26} kg. At a room temperature of 300K, this
 corresponds to random velocities of the air of 516 m/s!
 
+*N.B.*: the *temperature* measures the /average/ kinetic energy of particles
+in a system due to their random motion. The thermal energy measures
+/total/ energy of a system due to this, which also depends on the
+density of he system (think of putting your hand in an oven or in a
+pot of boiling water: the over is hotter, but the boiling water is
+denser and thus has a higher thermal energy).
+
 *** Radiative
 Energy in the radiation field, i.e., carried by the light (photons)
 
