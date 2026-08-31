@@ -145,12 +145,12 @@ thought, was mostly concerned in finding perfect regularities in the
 repeating regular phenomena and hard to predict patterns (planet
 motion, eclipse predictions, etc.).
 
-Viceversa eastern-Asian cultures (China, Korea, Japan) were interested
-in documenting the /changes/ in the sky, which left much better record
-of unusual, non-repeating phenomena (e.g., the appearance of "new
-sources", such as the explosion of a star becoming visible from
-Earth), which although presumably visible in the western sky too, were
-largely ignored.
+Viceversa eastern-Asian cultures (e.g., in what today is China, Korea,
+Japan) were interested in documenting the /changes/ in the sky, which
+left much better record of unusual, non-repeating phenomena (e.g., the
+appearance of "new sources", such as the explosion of a star becoming
+visible from Earth), which although presumably visible in the western
+sky too, were largely ignored.
 
 The knowledge and use of astronomy by ancient cultures still reflects
 on many aspects of language, commonly used units (degrees, weeks,
@@ -161,7 +161,8 @@ Lots of architecture across many disparate cultures is organized
 around astronomical events. Many buildings and even entire
 cities/citadels built across the world by very different cultures are
 aligned along the East-West or North-South direction, so that sunrise
-and/or sunset can produce particular light alignments and effects.
+and/or sunset can produce particular light alignments and effects at
+specific days of the year (e.g., equinoxes).
 
 #+CAPTION: In clockwise order from the top left: Giza pyramids, Stonehenge, reconstruction of the Templo Mayor of Tenochtitlán, Macchu Picchu. These are examples of astronomically oriented architecture and urban planning.
 [[./images/architecture.png]]
