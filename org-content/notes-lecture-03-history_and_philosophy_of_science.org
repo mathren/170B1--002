@@ -466,8 +466,34 @@ and the semimajor axis of the planet's orbit.
 #+END_LATEX
 
 where $a$ is the semimajor axis of the elliptical orbit,
-is the orbital frequency, and $m_{1}\gg m_{ 2}$ are the
+is the orbital frequency, and $m_{1}(\gg m_{ 2})$ are the
 masses of the star and planet respectively.
+
+Using the definition of $\omega$, this can be re-written as:
+#+BEGIN_LATEX
+\begin{equation}
+\frac{a^{3}}{P^{2}} = \frac{G(m_{1}+m_{2})}{4\pi^{2}} \ \ ,
+\end{equation}
+#+END_LATEX
+and for the Solar system, where $m_{1}=M_{\odot} \gg m_{2}$ is the mass of the Sun
+which is much larger than any other mass, we can use $m_{1}+m_{2}\simeq m_{1}$. The
+right hand side is now a constant that depends only on the mass of the
+Sun $m_{1}=M_{\odot}$, a physical constant ($G$) and a mathematical constant
+$\pi$, so it's the same for every body in the Solar system. To get that
+constant (which does have physical dimensions!) we can use the values
+on the left-hand side that we know for Earth: if $a$ is measured in
+astronomical units and $P$ in years, then $a=1\,\mathrm{au}$ and
+$P=1\,\mathrm{yr}$, so the equation becomes:
+#+BEGIN_LATEX
+\begin{equation}
+\label{eq:3rd_Kepler}
+\frac{a^{3}}{P^{2}} = \frac{G(m_{1}+m_{2})}{4\pi^{2}} \equiv \frac{1 \mathrm{au}^{3}}{1 \mathrm{yr^{2}}} \ \ .
+\end{equation}
+#+END_LATEX
+
+:Question:
+- how many km is 1 au?
+:end:
 
 *N.B.*: While the formula on the book focuses your attention on the
 important scaling $\omega \propto a^{3/2}$, it is definitely /wrong/ because if
