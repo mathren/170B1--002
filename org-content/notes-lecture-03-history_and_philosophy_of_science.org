@@ -81,7 +81,7 @@ This occurred first with:
   light to determine the chemical composition of stars revealed the
   same materials in astronomical setting and on Earth.
 
-Astrophysics allows to test a lot of our physical understanding of
+Astrophysics allows for testing a lot of our physical understanding of
 natural processes in conditions that cannot be replicated in a
 laboratory experiment (e.g., the highest energy particles ever
 detected are cosmic rays, not at LHC or Fermilab, or it is impossible
@@ -171,11 +171,11 @@ The word "month" itself is related to "Moon", as it is approximately
 the amount of time it takes between a new and full moon (i.e., for the
 satellite to go around the Earth, $P=29.5$ days).
 
-On a longer timescale of several months, astronomy allows to predict
-seasons and likely weather conditions - a great help for agricultural
-planning. In central Africa, certain cultures used the orientation of
-the illuminated part of the Moon to foresee the advent of the rainy
-seasons:
+On a longer timescale of several months, astronomy allows for
+predicting seasons and likely weather conditions - a great help for
+agricultural planning. In central Africa, certain cultures used the
+orientation of the illuminated part of the Moon to foresee the advent
+of the rainy seasons:
 
 #+Caption: the orientation of the illuminated side of the Moon depends primarily on the latitude on Earth. At a given latitude though, it depends on the time of the year, because of the relative inclination of the Moon-around-the-Earth and Earth-around-the-Sun orbital planes.
 [[file:images/monsoon_season.png]]
@@ -382,7 +382,7 @@ guy which does not say much).
 [[./notes-lecture-02-scale.org][Last time]] we have briefly mentioned the achievement of Kepler based on
 Tycho Brahe's long observational campaign of the position of Mars.
 Kepler's laws are an /empirical/ description of the observations, which
-does not explain /why/, but allows to make /quantitative/ predictions
+does not explain /why/, but allows one to make /quantitative/ predictions
 /testable/ with further observations - and tested they were,
 consistently outperforming any other available model at the time in
 predicting orbits of planets
@@ -525,8 +525,8 @@ the smallest possible number of assumptions to explain the largest
 number of phenomena.
 
 This is often referred to as "Occam's razor", because the simplicity
-criterion allows to shave off most explanation and prefer always the
-simplest one.
+criterion allows one to shave off most explanation and prefer always
+the simplest one.
 
 #+CAPTION: Occam was a monk who proposed that all else being equal, the simplest explanation should be preferred.
 [[file:images/occam.png]]
