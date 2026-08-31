@@ -366,6 +366,18 @@ Skipping through a lot of important steps:
   orbits of planets and showing how Kepler's laws are a natural
   consequence of the "Universal law of gravitation". We will discuss
   this in more detail [[./notes-lecture-05-gravity-motion.org][later]].
+
+In summary: throughout history, there has been a debate on whether the
+Earth or the Sun sit at the center of the Universe (later
+re-dimensioned to just the Solar system). The counter-argument to
+heliocentric models was the lack of parallax of stars along the year,
+the counter-argument to geocentric models was the description of the
+motion of /planets/ which requires special hypothesis. In the end,
+heliocentric models took over because the counter-argument to them
+falls once one realize that stars are much farther than previously
+thought.
+
+
 * Kepler's laws
 
 *N.B.:* In physics the use of the term /law/ is different than in the
