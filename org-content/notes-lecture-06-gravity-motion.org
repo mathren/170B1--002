@@ -91,9 +91,20 @@ term we just found. From the velocity we can find the position
 
 #+BEGIN_LATEX
 \begin{equation}
-z(t) = z(t=0) + v_{z}\times t _\frac{1}{2}a_{z} t^{2} \ \ .
+z(t) = z(t=0) + v_{z}\times t + \frac{1}{2}a_{z} t^{2} \ \ ,
 \end{equation}
 #+END_LATEX
+and analogously,
+#+BEGIN_LATEX
+\begin{equation}
+x(t) = x(t=0) + v_{x}\times t + \frac{1}{2}a_{x} t^{2} \ \ \\
+y(t) = y(t=0) + v_{y}\times t + \frac{1}{2}a_{y} t^{2} \ \ ,
+\end{equation}
+#+END_LATEX
+
+\end{equation}
+#+END_LATEX
+
 
 * Example: is there gravity in space?
 
