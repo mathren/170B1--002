@@ -18,7 +18,7 @@ equivalent to:
 
 #+BEGIN_LATEX
 \begin{equation}
-F_{x} = m\times a_{x} \ \ , F_{y} = m\times a_{y} \ \ , F_{z} = m\times a_{z} \ \ .
+\mathbf{F} = m \times \mathbf{a} \Rightarrow F_{x} = m\times a_{x} \ \ , F_{y} = m\times a_{y} \ \ , F_{z} = m\times a_{z} \ \ .
 \end{equation}
 #+END_LATEX
 
