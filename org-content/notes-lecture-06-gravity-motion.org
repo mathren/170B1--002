@@ -302,6 +302,11 @@ reference frame.
 ** TODO Kepler laws recap
 
 ** Center of mass
+
+#+CAPTION: Center of mass.
+#+ATTR_HTML: :width 50%
+[[file:images/com.png]]
+
 For an extended body, or system of bodies, on can imagine to divide it
 in many pieces and calculate the "average position of each piece"
 weighted by the mass of each piece. This is the center of mass!
@@ -331,6 +336,12 @@ gravity would be displaced towards Earth!
 
 
 ** Escape velocity
+
+
+#+CAPTION: Escape velocity gives the minimum kinetic energy to reach infinity (where the potential energy is zero) and does not depend on mass.
+[[file:images/escape_v.png]]
+
+
 The /escape velocity/ is the minimum velocity a body needs to leave a
 body (e.g., planet Earth) without falling back to it -- in Keplerian
 terms, to go from a stationary orbit (not moving), to an unbound orbit
@@ -341,7 +352,7 @@ energy to reach infinity?
 
 The /total/ energy of a body on Earth feeling only gravity (something
 like a dark matter particle!) is $E_{\rm tot}=E_{\rm pot}+E_{\rm kin}$ and at infinity
-E_{\rm pot} \propto r^{_1} = 1/r \rightarrow 0$, so $E_{\rm tot}(\infty)=E_{\rm kin}(\infty)\ge 0$ and the
+$E_{\rm pot} \propto r^{-1} = 1/r \rightarrow 0$, so $E_{\rm tot}(\infty)=E_{\rm kin}(\infty)\ge 0$ and the
 minimum total energy a body can have at infinity is zero.
 
 So what if we are /not/ at infinity with this energy? $E_{\rm pot} + E_{\rm
@@ -349,12 +360,18 @@ kin} = 0 \Rightarrow E_{\rm kin} = -E_{\rm pot} \rightarrow mv^{2}/2 = GM m/ r$,
 out.
 
 /The escape speed does not depend on mass/.
-
+Sr
 Doing some algebra, and assuming to be on the surface of Earth,
 $r=R_{\rm Earth}$ we get
 
 $v_{\rm esc} = \sqrt{\frac{2GM_{\rm Earth}}{R_{\rm Earth}}} \simeq 11 \,\mathrm{km\ s^{-1}}$
 
 We have used implicitly Newton's laws in writing $E_{\rm pot}=-GMm/r$.
+
+** What if I'm not that fast? Bound orbits
+
+#+CAPTION: Bound orbits correspond to continuously falling towards the central object and "missing" because of the "lateral" velocity component (which gravity does not act upon). On a satellite, you would fall at the same "rate" and float next to it.
+[[file:images/bound_orbits.png]]
+
 
 * Tides
