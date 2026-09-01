@@ -1,23 +1,28 @@
 #+title: Astrology: Science or Pseudoscience?
-#+author:
-#+date:
+#+author: \noauthor{}
+#+date: <2026-09-02 Wed>
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-03-history_and_philosophy_of_science.org
 #+NEXT_PAGE: notes-lecture-05-gravity-motion.org
 #+MACRO: blank @@latex:\noindent\rule{$1}{0.4pt}@@
 
+#+BEGIN_EXPORT html
+<p><a href="./notes-lecture-04-lab1_astrology_and_pseudoscience.pdf">Printable version</a></p>
+#+END_EXPORT
+
+
 This is an in-class lab activity for =ASTR170B1 - Introduction to
 Astronomy=, to be completed in groups of 2-3 people, but you should
 each turn in your own results. You should answer all of the questions
 in the space provided. Each group member should participate equally in
-the lab.
+the lab. If you finish all of the questions, you may turn in your lab
+in class today. Otherwise, this assignment is due <2026-09-09 Wed> at
+the start of class.
 
-If you finish all of the questions, you may turn in your lab in class
-today. Otherwise, this assignment is due <2026-09-09 Wed> at the
-start of class.
+* Do /not/ forget to put *your name* {{{blank(0.3\textwidth)}}}
 
 *Aim*: /Introduce the concept of pseudoscience and to begin to identify
-the qualities that distinguish it from true science/.
+the qualities that distinguish it from legitimate science/.
 
 * Case study: Astrology
 
