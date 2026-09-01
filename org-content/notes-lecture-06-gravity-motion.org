@@ -302,11 +302,59 @@ reference frame.
 ** TODO Kepler laws recap
 
 ** Center of mass
+For an extended body, or system of bodies, on can imagine to divide it
+in many pieces and calculate the "average position of each piece"
+weighted by the mass of each piece. This is the center of mass!
+For example, for the Earth+Moon system:
+
+#+BEGIN_LATEX
+\begin{equation}
+\mathbf{x}_{\rm c.o.m.} = \frac{M_{\rm Earth}\mathbf{x_{\rm Earth}}+M_{\rm Moon}\mathbf{x_{\rm Moon}}{M_{\rm Earth}+M_{\rm Moon}}
+\end{equation}
+#+END_LATEX
 
 *** Center of gravity
+Like mass $m$ is different from weight $F_{\rm grav} = mg$, the center of
+mass and the center of gravity are two related but different thing
+that coincide precisely only for constant gravity $g$ (small
+displacement from Earth).
+
+The center of gravity is the "weight-weighed average of the positions
+of the components of a system".
+
+For instance, since Earth's gravity is stronger on the closer side of
+the Moon than the farther (because it is closer and the $r^{-2}$
+proportionality), even if the Moon were a perfectly homogeneous
+sphere, its center of mass and gravity would not coincide! The center
+of mass would be, by symmetry, in the center, while the center of
+gravity would be displaced towards Earth!
+
 
 ** Escape velocity
+The /escape velocity/ is the minimum velocity a body needs to leave a
+body (e.g., planet Earth) without falling back to it -- in Keplerian
+terms, to go from a stationary orbit (not moving), to an unbound orbit
+(parabola or hyperbole)!
 
-**
+It can be derived from energetic terms: what is the minimum kinetic
+energy to reach infinity?
+
+The /total/ energy of a body on Earth feeling only gravity (something
+like a dark matter particle!) is $E_{\rm tot}=E_{\rm pot}+E_{\rm kin}$ and at infinity
+E_{\rm pot} \propto r^{_1} = 1/r \rightarrow 0$, so $E_{\rm tot}(\infty)=E_{\rm kin}(\infty)\ge 0$ and the
+minimum total energy a body can have at infinity is zero.
+
+So what if we are /not/ at infinity with this energy? $E_{\rm pot} + E_{\rm
+kin} = 0 \Rightarrow E_{\rm kin} = -E_{\rm pot} \rightarrow mv^{2}/2 = GM m/ r$, and $m$ cancels
+out.
+
+/The escape speed does not depend on mass/.
+
+Doing some algebra, and assuming to be on the surface of Earth,
+$r=R_{\rm Earth}$ we get
+
+$v_{\rm esc} = \sqrt{\frac{2GM_{\rm Earth}}{R_{\rm Earth}}} \simeq 11 \,\mathrm{km\ s^{-1}}$
+
+We have used implicitly Newton's laws in writing $E_{\rm pot}=-GMm/r$.
 
 * Tides
