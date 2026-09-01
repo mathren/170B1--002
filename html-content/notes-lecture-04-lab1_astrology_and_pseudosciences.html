@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-09-01 Tue 15:00 -->
+<!-- 2026-09-01 Tue 15:22 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Astrology: Science or Pseudoscience?</title>
@@ -146,8 +146,8 @@ the start of class.
 <h2 id="your-name-and-student-id"><a href="#your-name-and-student-id">⚠️ Your name and student ID</a></h2>
 <div class="outline-text-2" id="text-org-element-1">
 <p>
-<b>Aim</b>: <i>Introduce the concept of pseudoscience and to begin to identify
-the qualities that distinguish it from legitimate science</i>.
+<b>Aim</b>: <i>Introduce the concept of pseudoscience and to identify the
+qualities that distinguish it from legitimate science</i>.
 </p>
 </div>
 </div>
@@ -180,7 +180,7 @@ originated in a context where it was intrinsically intertwined with
 astronomy. Both disciplines require to measure the positions of
 celestial bodies in the sky as a function of time - a need still very
 much existing today, with some of the most advanced space telescopes
-(e.g., the <i>Gaia</i> satellite) pushing technological limits of today to
+(e.g., <a href="https://en.wikipedia.org/wiki/Gaia_(spacecraft)">the <i>Gaia</i> satellite</a>) pushing technological limits of today to
 achieve unprecedented precision in this very same task.
 </p>
 
@@ -188,8 +188,8 @@ achieve unprecedented precision in this very same task.
 However, while astronomy was always concerned with the explanation of
 the motion observed in the sky, and its prediction, all astrology is
 in some formed based on <i>assuming</i> that the positions of celestial
-objects at the time of one's birth influences their person and
-behavior.
+objects at the time of one's birth (or other special times in ones
+life) influence their person and behavior.
 </p>
 
 <p>
@@ -208,11 +208,12 @@ just extends this to all celestial bodies.
 <h4 id="step-1-make-an-observation"><a href="#step-1-make-an-observation">Step 1: Make an observation</a></h4>
 <div class="outline-text-4" id="text-org-element-4">
 <p>
-This class contains students with different personalities and life experiences, born at
-different times and in different locations. As we learned in class, the stars, planets, and
-moon appear to move in the sky, so their positions at each of our births was different.
-These are both observational facts; to test astrology, we need to design an experiment to
-test if one can explain the other.
+This class contains students with different personalities and life
+experiences, born at different times and in different locations. As we
+learned in class, the stars, planets, and moon appear to move in the
+sky, so their positions at each of our births was different. These are
+both observational facts; to test astrology, we need to design an
+experiment to test if one can explain the other.
 </p>
 </div>
 </div>
@@ -394,11 +395,10 @@ course not – it is possible to pick the correct horoscope by chance.
 
 <p>
 We can compute the probability that you chose correctly by pure chance
-any number of times using the Binomial Theorem.
-The probability (\(P\)) for \(k\) successes from \(N\) trials where the
-probability of success is \(p\) is given by:
+any number of times using the <a href="https://en.wikipedia.org/wiki/Binomial_distribution">Binomial Distribution</a>: the probability
+(\(P\)) for \(k\) successes from \(N\) trials where the probability of
+success is \(p\) is given by:
 </p>
-
 <div class="equation" id="org-element-10">
 \begin{equation}
 P(k, N, p) = \frac{N!}{k!(N-k)!} p^{k} (1-p)^{n-k} \ \ ,
@@ -406,9 +406,9 @@ P(k, N, p) = \frac{N!}{k!(N-k)!} p^{k} (1-p)^{n-k} \ \ ,
 
 </div>
 <p>
-where that exclamation point ! indicates “factorial”, that is is the
-product of all integers equal to or less than a number.
-For instance, \(4! = 4 \times 3 \times 2 \times 1 = 24\), and by definition, 0! = 1.
+where that exclamation point \(!\) indicates "factorial", that is is the
+product of all integers equal to or less than a number. For instance,
+\(4! = 4 \times 3 \times 2 \times 1 = 24\), and by definition, 0! = 1.
 </p>
 
 <p>
@@ -428,7 +428,8 @@ three correct horoscopes by guessing at random?</li>
 <div class="org-drawer-container">
   <button class="org-drawer-toggle" onclick="toggleDrawer('drawer-Hint-1')">Hint ▼</button>
   <div id="drawer-Hint-1" class="org-drawer-content" style="display: none;"><p>
-Use the binomial theorem with k = 0, 1, 2, and 3. This online calculator may be helpful:
+Hint: use the binomial theorem with k = 0, 1, 2, and 3.
+This online calculator may also be helpful:
 <a href="https://www.desmos.com/scientific">https://www.desmos.com/scientific</a>
 </p>
 </div>
