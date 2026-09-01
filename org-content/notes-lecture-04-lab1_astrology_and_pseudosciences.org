@@ -1,6 +1,6 @@
 #+title: Astrology: Science or Pseudoscience?
 #+author: \noauthor{}
-#+date: <2026-09-02 Wed>
+#+date: \nodate{}
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-03-history_and_philosophy_of_science.org
 #+NEXT_PAGE: notes-lecture-05-gravity-motion.org
@@ -21,8 +21,8 @@ the start of class.
 
 * ⚠️ Your name {{{blank(0.3\textwidth)}}} and student ID{{{blank(0.3\textwidth)}}}
 
-*Aim*: /Introduce the concept of pseudoscience and to begin to identify
-the qualities that distinguish it from legitimate science/.
+*Aim*: /Introduce the concept of pseudoscience and to identify the
+qualities that distinguish it from legitimate science/.
 
 * Case study: Astrology
 
@@ -44,14 +44,14 @@ originated in a context where it was intrinsically intertwined with
 astronomy. Both disciplines require to measure the positions of
 celestial bodies in the sky as a function of time - a need still very
 much existing today, with some of the most advanced space telescopes
-(e.g., the /Gaia/ satellite) pushing technological limits of today to
+(e.g., [[https://en.wikipedia.org/wiki/Gaia_(spacecraft)][the /Gaia/ satellite]]) pushing technological limits of today to
 achieve unprecedented precision in this very same task.
 
 However, while astronomy was always concerned with the explanation of
 the motion observed in the sky, and its prediction, all astrology is
 in some formed based on /assuming/ that the positions of celestial
-objects at the time of one's birth influences their person and
-behavior.
+objects at the time of one's birth (or other special times in ones
+life) influence their person and behavior.
 
 Note how this is not an absurd hypothesis to begin with: the position
 of the Sun and Moon do influence phenomena on Earth (is it day or not?
@@ -61,11 +61,12 @@ just extends this to all celestial bodies.
 ** Applying the scientific method
 
 *** Step 1: Make an observation
-This class contains students with different personalities and life experiences, born at
-different times and in different locations. As we learned in class, the stars, planets, and
-moon appear to move in the sky, so their positions at each of our births was different.
-These are both observational facts; to test astrology, we need to design an experiment to
-test if one can explain the other.
+This class contains students with different personalities and life
+experiences, born at different times and in different locations. As we
+learned in class, the stars, planets, and moon appear to move in the
+sky, so their positions at each of our births was different. These are
+both observational facts; to test astrology, we need to design an
+experiment to test if one can explain the other.
 
 *** Step 2: Suggest an hypothesis
 An hypothesis here is just a "guess", typically educated by your
@@ -120,6 +121,8 @@ down the number for each horoscope that best applies to you:
 
 Set 1: {{{blank(1cm)}}} Set 2: {{{blank(1cm)}}} Set 3: {{{blank(1cm)}}}
 
+# long pause
+
 Now, I will reveal the sign that corresponds to each horoscope. Write down the signs that
 correspond to the numbers you selected above:
 
@@ -141,18 +144,17 @@ does that mean everyone will choose all of the wrong horoscopes? Of
 course not – it is possible to pick the correct horoscope by chance.
 
 We can compute the probability that you chose correctly by pure chance
-any number of times using the Binomial Theorem.
-The probability ($P$) for $k$ successes from $N$ trials where the
-probability of success is $p$ is given by:
-
+any number of times using the [[https://en.wikipedia.org/wiki/Binomial_distribution][Binomial Distribution]]: the probability
+($P$) for $k$ successes from $N$ trials where the probability of
+success is $p$ is given by:
 #+begin_equation
 \begin{equation}
 P(k, N, p) = \frac{N!}{k!(N-k)!} p^{k} (1-p)^{n-k} \ \ ,
 \end{equation}
 #+end_equation
-where that exclamation point ! indicates “factorial”, that is is the
-product of all integers equal to or less than a number.
-For instance, $4! = 4 \times 3 \times 2 \times 1 = 24$, and by definition, 0! = 1.
+where that exclamation point $!$ indicates "factorial", that is is the
+product of all integers equal to or less than a number. For instance,
+$4! = 4 \times 3 \times 2 \times 1 = 24$, and by definition, 0! = 1.
 
 The probability of success $p$ is the chance that you achieve an
 outcome once in one trial. For example, if you flip a fair coin, the
@@ -165,7 +167,8 @@ is: $P(k=7, N=10, p=0.5) = \frac{10!}{7!3!}(0.5)^{0.7}(0.5)^{0.3} \simeq 0.11$.
 - What is the probability that you would choose zero, one, two or
   three correct horoscopes by guessing at random? {{{blank(2cm)}}}
 :Hint:
-Use the binomial theorem with k = 0, 1, 2, and 3. This online calculator may be helpful:
+Hint: use the binomial theorem with k = 0, 1, 2, and 3.
+This online calculator may also be helpful:
 https://www.desmos.com/scientific
 :end:
 - Comparing with your classmates, do your correct guess numbers follow the

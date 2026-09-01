@@ -69,7 +69,7 @@ function jumpToNearestDate() {
 
 *** <2026-09-02 Wed> - Nature of Science: Lab 1
 # in class attendance
-DEADLINE: Homework, in class quiz
+DEADLINE: Homework
 # Deadline Homework 1, Assign Homework 2 (Lab1)
 
 [[./notes-lecture-04-lab1_astrology_and_pseudosciences.org][Notes]]
@@ -80,7 +80,7 @@ DEADLINE: Homework, in class quiz
 *** <2026-09-09 Wed> - Motion and gravity
 # in class attendance
 # Deadline Homework 2 (Lab1), Assign Homework 3
-DEADLINE: Homework, in class quiz
+DEADLINE: Homework
 
 [[./notes-lecture-05-gravity-motion.org][Notes]]
 
@@ -93,7 +93,7 @@ DEADLINE: Homework, in class quiz
 *** <2026-09-16 Wed> - Light and matter
 # in class attendance
 # Deadline Homework 3, Final deadline Homework 1, Assign Homework 4
-DEADLINE: Homework, in class quiz
+DEADLINE: Homework
 
 ** Week 5: Chapter 5, 6; Lab 2
 
@@ -102,7 +102,7 @@ DEADLINE: Homework, in class quiz
 *** <2026-09-23 Wed> - Telescopes
 # in class attendance
 # Deadline Homework 4, Assign Homework 5
-DEADLINE: Homework, in class quiz
+DEADLINE: Homework
 
 ** Week 6: Chapter 7
 
@@ -120,7 +120,7 @@ DEADLINE: Homework, In class exam
 *** <2026-10-07 Wed> - Planet formation, Terrestrial planets
 # in class attendance
 # Deadline Homework 6, Assign Homework 7
-DEADLINE: Homework, in class quiz
+DEADLINE: Homework
 
 ** Week 8: Chapter 11, 12, 14
 
@@ -129,7 +129,7 @@ DEADLINE: Homework, in class quiz
 *** <2026-10-14 Wed> - Asteroids
 # in class attendance
 # Deadline Homework 7, Assign Homework 8
-DEADLINE: Homework, in class quiz
+DEADLINE: Homework
 
 ** Week 9: Chapter 14, 15
 
@@ -138,7 +138,7 @@ DEADLINE: Homework, in class quiz
 *** <2026-10-21 Wed> - HR diagram
 # in class attendance
 # Deadline Homework 8, Assign Homework 9
-DEADLINE: Homework, in class quiz
+DEADLINE: Homework
 
 ** Week 10: Chapter 15, 16, 17, 18
 
@@ -147,7 +147,7 @@ DEADLINE: Homework, in class quiz
 *** <2026-10-28 Wed> - Dead stars and black holes
 # in class attendance
 # Deadline Homework 9, Assign Homework 10
-DEADLINE: Homework, in class quiz
+DEADLINE: Homework
 
 ** Week 11: Chapter 18
 
@@ -163,7 +163,7 @@ DEADLINE: Homework, In class exam
 # in class attendance
 *** <2026-11-11 Wed> - *No lecture: Veteran's day*
 # Deadline Homework 11, Assign Homework 12
-DEADLINE: Homework, in class quiz
+DEADLINE: Homework
 
 ** Week 13: Chapter 21, 22
 
@@ -172,7 +172,7 @@ DEADLINE: Homework, in class quiz
 *** <2026-11-18 Wed> - Active Galaxies
 # in class attendance
 # Deadline Homework 12, assign Homework 13
-DEADLINE: Homework, in class quiz
+DEADLINE: Homework
 
 ** Week 14:
 
@@ -180,7 +180,7 @@ DEADLINE: Homework, in class quiz
 # in class attendance
 *** <2026-11-25 Wed> - buffer (day before Thanksgiving)
 # in class attendance
-DEADLINE: Signature assignment, in class quiz
+DEADLINE: Signature assignment
 
 ** Week 15: Chapter 22, 23; Lab 3
 
@@ -189,7 +189,7 @@ DEADLINE: Signature assignment, in class quiz
 *** <2026-12-02 Wed> - Cosmology
 # in class attendance
 # Deadline Homework 13, Assign Homework 14
-DEADLINE: Homework, in class quiz
+DEADLINE: Homework
 
 ** Week 16: Chapter 13, 24
 
@@ -198,7 +198,7 @@ DEADLINE: Homework, in class quiz
 *** <2026-12-09 Wed> - Astrobiology
 # Deadline Homework 14 (Lab3)
 # in class attendance
-DEADLINE: Homework, in class quiz
+DEADLINE: Homework
 
 ** <2026-12-11 Fri> - *Final Exam*
 In class exam - 1:00-3:00pm
