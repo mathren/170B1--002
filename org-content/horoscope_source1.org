@@ -22,18 +22,23 @@
 |   10 | This should be a fortunate day for you. Everything you try to do should go fairly smoothly. Relations with others are warm, friendly, and congenial. Any chores or other pending work should be completed quickly and efficiently. If you've been planning to start a new project, this is the day to get going. Romance should be intense and passionate now, so make the most of it!                    |
 |   11 | A couple you've known for a long time could visit you at your home today. Don't be surprised if they tell you how wonderful the place looks. Conversation should be lively and entertaining, though you should sidestep any discussion of controversial subjects. Debates on such matters could get rather heated. It might be wise to treat your guests to food rather than alcohol!                     |
 |   12 | Today, you might spend a great deal of time in the car running errands in the neighborhood. You're likely to see people you know who have interesting news. New businesses may open nearby. Doctors, dentists, and other professionals could be more accessible than you expect, making your daily routine more convenient. Some of them might be your neighbors or relatives.                            |
-|------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 # ** Key
-# 1. Scorpio
-# 2. Virgo
-# 3. Gemini
-# 4. Cancer
-# 5. Leo
-# 6. Libra
-# 7. Taurus
-# 8. Aries
-# 9. Sagittarius
-# 10. Capricorn
-# 11. Aquarius
-# 12. Pisces
+
+# |----+-------------|
+# |  # | Sign        |
+# |----+-------------|
+# |  1 | Scorpio     |
+# |  2 | Virgo       |
+# |  3 | Gemini      |
+# |  4 | Cancer      |
+# |  5 | Leo         |
+# |  6 | Libra       |
+# |  7 | Taurus      |
+# |  8 | Aries       |
+# |  9 | Sagittarius |
+# | 10 | Capricorn   |
+# | 11 | Aquarius    |
+# | 12 | Pisces      |
+# |----+-------------|
