@@ -203,9 +203,9 @@ and unicorns exist) to the downright evil (such as “scientific
 racism”, the belief that certain races of humans are biologically
 superior).
 
-- How easy is it to compare the different horoscope “predictions”
-to your lived experience (and why)? Would you classify astrology as science or
-pseudoscience? (max 4 lines)
+- How easy is it to compare the different horoscope “predictions” to
+  your lived experience (and why)? Would you classify astrology as
+  science or pseudoscience? (max 4 lines)
 
 {{{blank(\textwidth)}}}
 {{{blank(\textwidth)}}}
