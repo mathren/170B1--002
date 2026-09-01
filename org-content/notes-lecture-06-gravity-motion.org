@@ -309,7 +309,7 @@ For example, for the Earth+Moon system:
 
 #+BEGIN_LATEX
 \begin{equation}
-\mathbf{x}_{\rm c.o.m.} = \frac{M_{\rm Earth}\mathbf{x_{\rm Earth}}+M_{\rm Moon}\mathbf{x_{\rm Moon}}{M_{\rm Earth}+M_{\rm Moon}}
+\mathbf{x}_{\rm c.o.m.} = \frac{M_{\rm Earth}\mathbf{x}_{\rm Earth}+M_{\rm Moon}\mathbf{x}_{\rm Moon}}{M_{\rm Earth}+M_{\rm Moon}}
 \end{equation}
 #+END_LATEX
 
