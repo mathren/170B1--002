@@ -37,6 +37,8 @@ Chrome/ium and derivatives (avoid using Safari).
    course materials, click "Open" on the right.
 7. Finally, click on "Open Mylab & Mastering".
 
+*N.B.:* To be able to see the homework assignments you *need to allow for pop-ups from the "Mastering Astronomy" window*.
+
 Pearson online help: https://help.pearsoncmg.com/integration/cg/student/.
 
 
