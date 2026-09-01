@@ -18,7 +18,7 @@ equivalent to:
 
 #+BEGIN_LATEX
 \begin{equation}
-F_{x} = m a_{x} \ \ , F_{y} = m a_{y} \ \ , F_{z} = m a_{z} \ \ .
+F_{x} = m\times a_{x} \ \ , F_{y} = m\times a_{y} \ \ , F_{z} = m\times a_{z} \ \ .
 \end{equation}
 #+END_LATEX
 
@@ -26,7 +26,7 @@ Each of these have to be individually true along the $x$, $y$, and $z$
 directions for the vectorial equation representing Newton's second law
 to be valid.
 
-Let's consider the case where $\mathbg{F}\equiv \mathbf{F}_{\rm grav}$ is
+Let's consider the case where $\mathbf{F}\equiv \mathbf{F}_{\rm grav}$ is
 gravity, for example a ski jumper going off a ramp in absence of
 friction:
 
@@ -35,11 +35,11 @@ friction:
 [[./images/ski_jumper.png]]
 
 Let's chose a system of coordinates such that Earth's gravity is along
-the $z$ direction, and the ramp is along the $x$-direction. Then:
+the $z$ direction, and the ramp is along the $x$ direction. Then:
 
 #+BEGIN_LATEX
 \begin{equation}
-F_{x} = 0 \Rightarrow a_{x} = 0 \ \ , F_{y} = 0 \Rightarrow a_{y}=0 \ \ , F_{z} = -G{M_{\rm Earth} m_{\rm skier}}{r^{2}} = m_{\rm skier} a_{z} \ \ .
+F_{x} = 0 \Rightarrow a_{x} = 0 \ \ , F_{y} = 0 \Rightarrow a_{y}=0 \ \ , F_{z} = -G\frac{M_{\rm Earth} m_{\rm skier}}{r^{2}} = m_{\rm skier} a_{z} \ \ .
 \end{equation}
 #+END_LATEX
 
