@@ -19,7 +19,7 @@ the lab. If you finish all of the questions, you may turn in your lab
 in class today. Otherwise, this assignment is due <2026-09-09 Wed> at
 the start of class.
 
-* Do /not/ forget to put *your name* {{{blank(0.3\textwidth)}}}
+* ⚠️ Your name {{{blank(0.3\textwidth)}}} and student ID{{{blank(0.3\textwidth)}}}
 
 *Aim*: /Introduce the concept of pseudoscience and to begin to identify
 the qualities that distinguish it from legitimate science/.
