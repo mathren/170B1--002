@@ -1,21 +1,13 @@
-#+title: ASTR170 - Lab 1 horoscopes
+#+title: ASTR170 - Source 3
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
-#+PREVIOUS_PAGE: lab1_astrology_and_pseudosciences.org
-#+NEXT_PAGE: notes-lecture-04-gravity-motion.org
+#+PREVIOUS_PAGE: horoscope_source2.org
+#+NEXT_PAGE: lab1_horoscopes.org
 
-* Horoscopes for <2026-09-01 Tue>
-These have been collected from the three most-visited astrology
-website in the US and modified to remove phrasing revealing to which
-sign each horoscope corresponds to.
 
-Since this is the horoscope from /yesterday/, we shouldn't need to know
-for which sign it is, if horoscopes are predictive we should be able
-to identify each sign by the predictions (tested yesterday).
+* Source 3
+# # cafe astrology
 
-- [[./horoscope_source1.org][Source 1]] # horoscope.com
-- [[./horoscope_source2.org][Source 2]] # astrology.com
-- [[./horoscope_source3.org][Source 3]] # cafe astrology
 
 |------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sign | <2026-09-01 Tue> horoscope                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
@@ -34,7 +26,7 @@ to identify each sign by the predictions (tested yesterday).
 |   12 | With some tense aspects early today, your routines might suffer a little due to indecision, worry, or some minor off-timing. Emotions or nervous tension may be affecting your communication or output. Take a break from overthinking things since concentrating too much on the details or facts can obscure the bigger picture. The path to your goals is unlikely to be a straight line temporarily. Fortunately, you may be able to tune into today's Mercury-Mars transit that sharpens your thinking. It's straightforward energy that helps people get to the point. It makes sense to watch for too-direct conversations that can miss the mark emotionally. Otherwise, it can be quite charming to be a little bold or open. You can be driven to put an idea into action or to pursue a line of thought today, especially if it's related to family, home, health, and work.                                                                                                                                                                                                                                                                     |
 |------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-# Key
+# ** Key
 # 1. Scorpio
 # 2. Aquarius
 # 3. Leo
