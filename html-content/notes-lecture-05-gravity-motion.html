@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-08-31 Mon 10:09 -->
+<!-- 2026-09-01 Tue 11:31 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Gravity</title>
@@ -133,9 +133,20 @@
 <p>
 <b>Reading:</b> Chapter 4
 </p>
+<div id="outline-container-recap" class="outline-2">
+<h2 id="recap"><a href="#recap"><span class="todo TODO">TODO</span> Recap</a></h2>
+<div class="outline-text-2" id="text-org-element-1">
+<p>
+Top hat: individual questions!
+</p>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Kepler's laws</li>
+</ul>
+</div>
+</div>
 <div id="outline-container-newton-s-laws-of-motion" class="outline-2">
 <h2 id="newton-s-laws-of-motion"><a href="#newton-s-laws-of-motion">Newton's laws of motion</a></h2>
-<div class="outline-text-2" id="text-org-element-1">
+<div class="outline-text-2" id="text-org-element-2">
 <p>
 We are able to describe ballistic motion (i.e., under the only
 influence of gravity) with extreme precision, enough to land a probe
@@ -174,7 +185,7 @@ quantity describing the change in time of the velocity. It has the
 dimensions of a <i>length divided times squared</i> [L/t<sup>2</sup>]</li>
 </ul>
 
-<figure id="org-element-2">
+<figure id="org-element-3">
 <img src="images/car_acceleration.png" alt="car_acceleration.png" width="100%">
 
 <figcaption><span class="figure-number">Figure 1: </span>Which of these cars is accelerating?</figcaption>
@@ -213,15 +224,23 @@ For an equation to make sense it also has to be <i>mathematically</i>
 consistent (not only <i>dimensionally</i> in terms of the physical units):
 for example, a <b>vector</b> cannot be equal or summed to a <i>scalar</i>.
 </p>
+
+<p>
+<b>N.B.:</b> The 3<sup>rd</sup> Kepler law on the book is expressed in a way that <i>breaks</i>
+dimensional consistency as \(p^{2}\sim a^{3}\), which is the correct <i>scaling</i> (as
+in the powers at the exponents are correct), but holds only measuring
+\(a\) in au and \(p\) in years. The generally correct form is \((2\pi)^{2}a^{3}/p^{2}
+= G(m_{1}+m_{2})\).
+</p>
 </div>
 <div id="outline-container-galilean-invariance" class="outline-3">
 <h3 id="galilean-invariance"><a href="#galilean-invariance">Galilean invariance</a></h3>
-<div class="outline-text-3" id="text-org-element-3">
+<div class="outline-text-3" id="text-org-element-4">
 <p>
-While it is easy to "feel" an acceleration (think of a car turning a
-corner, the turning is a change in the direction of velocity, thus an
-acceleration), there is no way for an isolated observer to tell at
-what velocity they are moving.
+While it is easy to "feel" an <i>acceleration</i> (think of an elevator
+starting/stopping, or a car turning a corner, the turning is a change
+in the direction of velocity, thus an acceleration), there is no way
+for an isolated observer to tell at what <i>velocity</i> they are moving.
 </p>
 
 <p>
@@ -250,42 +269,73 @@ students and successors were later formalized into the first law of
 motion by Newton: <i>an object keeps its velocity unless something
 changes it</i>.
 </p>
-</div>
-</div>
-<div id="outline-container-falling-motion" class="outline-3">
-<h3 id="falling-motion"><a href="#falling-motion">Falling motion</a></h3>
-<div class="outline-text-3" id="text-org-element-4">
+
 <p>
-The acceleration of gravity is the <i>change in velocity</i> of an object
-falling. This is roughly constant on Earth (because the mass of the
-Earth is constant), and usually indicated with \(g\simeq10\) m s<sup>-2</sup>.
+Conceptually, Galilean invariance is more profound than just a
+statement about velocity remaining constant unless something acts. It
+establishes that <i>the physics is the same in every inertial reference
+frame</i>.
 </p>
 
 <p>
-Galileo first proposed that objects of different masses will fall at
-the same speed in absence of friction (e.g., air). While it is unclear
-whether he really performed the experiment, this was performed a few
-years later from the bell-tower of Delft's church, and a simple
-experiment can be done with an object and a crumbled piece of paper.
+A reference frame is the coordinate system w.r.t. which we measure the
+positions and velocities (you decide an origin and the \(x, y, z\)
+directions to decide the reference frame). Galilean invariance says
+that every <i>inertial reference frame</i>, which means that is <i>not</i>
+accelerating, <i>observe the same phenomena</i>.
+</p>
+
+<p>
+Consider an object moving. This statement only makes sense if we
+imagine it is moving w.r.t. some "observer" that is not moving w.r.t.
+to themselves. But in the frame <i>of</i> the object moving, the observer is
+the one moving in the opposite direction.
+</p>
+
+<p>
+<i>Both</i> have to see the same physics. If there is nothing accelerating
+the object in its own frame (where it is still), then there must be
+nothing accelerating the object in the frame of the observer: the
+object has to keep the velocity it has!
+</p>
+</div>
+<div id="outline-container-example-riding-a-car" class="outline-4">
+<h4 id="example-riding-a-car"><a href="#example-riding-a-car">Example: riding a car</a></h4>
+<div class="outline-text-4" id="text-org-element-5">
+<p>
+An object inside a car (e.g., water bottle in a cup holder) is in
+motion in the frame of reference of the rocks on the side of the road,
+but it is at rest in the frame of reference of the car. <i>If</i> the car is
+<i>not</i> accelerating but cruising at a constant speed, both the driver and
+the rock are <i>inertial</i> frames, and Galilean invariance says they see
+they should see the same physics.
 </p>
 
 
-<figure id="org-element-5">
-<img src="./images/Nieuwe_kerk.jpg" alt="Nieuwe_kerk.jpg" width="50%">
+<figure id="org-element-6">
+<img src="./images/car.jpg" alt="car.jpg" width="100%">
 
-<figcaption><span class="figure-number">Figure 2: </span>Niewe Kerk in Delft, where the experiment of dropping a cannon-ball and a feather was actually realized (Galileo only proposed it as a thought experiment).</figcaption>
+<figcaption><span class="figure-number">Figure 2: </span>Car driving on a road to Mount Lemmon.</figcaption>
 </figure>
 
 <p>
-The same experiment has been repeated in absence of atmosphere and
-lower gravity on the Moon:
+In reality, in a car ride there <i>are</i> forces at play that we are
+neglecting here, and that make you have to accelerate to keep a
+constant speed, namely friction with the road and the air.
 </p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Oo8TaPVsn9Y?si=LLtYpSsMdTOD4rfv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>
+<b>N.B.:</b> Galileo's examples on motion (kinematics+dynamics) use boats, as
+the metaphor of his day, Einstein used trains, etc. Scientists use
+their daily experiences as references to understand and explain
+concepts!
+</p>
+</div>
 </div>
 </div>
 <div id="outline-container-from-kinematics-to-dynamics" class="outline-3">
 <h3 id="from-kinematics-to-dynamics"><a href="#from-kinematics-to-dynamics">From kinematics to dynamics</a></h3>
-<div class="outline-text-3" id="text-org-element-6">
+<div class="outline-text-3" id="text-org-element-7">
 <p>
 The quantities introduced above only <i>describe</i> motion (<i>kinematics),
 without /explaining</i> its causes, which is the task of the subfield of
@@ -297,46 +347,66 @@ Let's first introduce some more key quantities and see what is the
 relation between kinematics and dynamics.
 </p>
 </div>
-<div id="outline-container-mass-and-weight" class="outline-4">
-<h4 id="mass-and-weight"><a href="#mass-and-weight">Mass and weight</a></h4>
-<div class="outline-text-4" id="text-org-element-7">
+<div id="outline-container-mass-m" class="outline-4">
+<h4 id="mass-m"><a href="#mass-m">Mass \(m\)</a></h4>
+<div class="outline-text-4" id="text-org-element-8">
 <p>
 Mass is a fundamental quantity [M], measured e.g., in kg or pounds, and it
-measures the <i>resistance to changes in velocity of a body</i>.
+measures the <i>inertia</i> or <i>resistance to changes in velocity of a body</i>.
 A truck has a larger mass than a ping pong ball, and it's much easier
 to move the latter because of its smaller mass.
 </p>
-
+</div>
+<ul class="org-ul">
+<li><a id="weight-ne-mass"></a><a href="#weight-ne-mass">Weight &ne; mass</a><br>
+<div class="outline-text-5" id="text-org-element-9">
 <p>
 Note that mass and weight are in principle two different things: mass
-is just the resistance to the change of velocity of a body, weight is
-the gravitational force that it feels. Mass is the same anywhere in
-the Universe, weight depends on the mass of the body exerting gravity,
-you would have the same mass on the Moon, but your weight would be lower.
+(or more precisely, <i>inertial mass</i>) is the resistance to the change of
+velocity of a body, while weight is the <i>gravitational force</i> that it
+feels, which as we will see, depends on what is pulling it.
+</p>
+
+<p>
+Inertial mass is the same anywhere in the Universe, while weight would
+depend on where you are: you would have the same mass on the Moon, but
+your weight would be lower.
+</p>
+
+<p>
+To be more precise, there is a relationship between the two. The
+weight force that you feel on Earth is \(F_{g} = \frac{m M_{\rm
+Earth}/R_{Earth}^{}^{2}}\) (as we will see) where \(m\) is your the <i>gravitational
+mass</i>, which <i>is</i> equal to the <i>inertial mass</i>. The fact that the two
+coincide to the best experimental precision available for the past
+400+ years is non-trivial, but happens to appear true as far as we can
+probe.
 </p>
 </div>
+</li>
+</ul>
 </div>
 <div id="outline-container-momentum" class="outline-4">
 <h4 id="momentum"><a href="#momentum">Momentum</a></h4>
-<div class="outline-text-4" id="text-org-element-8">
+<div class="outline-text-4" id="text-org-element-10">
 <p>
 This is a physical quantity that "mixes" kinematic and dynamic
 quantities, and will be central in connecting the two.
 The momentum is the product of an object mass times its velocity, \(p =
-m \times v\), which has units [M L t<sup>-1</sup>].
+m \times v\), which has units [Mxv]=[M L t<sup>-1</sup>].
 </p>
 
 <p>
 To understand why it's important, imagine you're crossing a street and
 a bike hits you at a certain speed \(v\) vs. a truck hitting you at the
 same speed \(v\). While the speed is the same in both cases, the truck
-has much more momentum and will hurt you much more!
+has much more mass, and thus, momentum and will hurt you much more!
 </p>
 </div>
 </div>
 <div id="outline-container-angular-momentum" class="outline-4">
 <h4 id="angular-momentum"><a href="#angular-momentum">Angular momentum</a></h4>
-<div class="outline-text-4" id="text-org-element-9">
+<div class="outline-text-4" id="text-org-element-11">
 <p>
 If a body (regardless of its mass) has \(v=0\) in some reference frame,
 then it has also zero momentum. But what about a body rotating on
@@ -352,7 +422,7 @@ axis \(r\) defines the <i>specific</i> angular momentum, times its mass, it give
 the total angular momentum:
 </p>
 
-<div class="LATEX" id="org-element-10">
+<div class="LATEX" id="org-element-12">
 \begin{equation}
 \mathbf{J} = \mathbf{r} \times \mathbf{p}  = m \mathbf{r} \times \mathbf{v}\ \ ,
 \end{equation}
@@ -360,23 +430,32 @@ the total angular momentum:
 </div>
 
 <p>
-This quantity has the dimensions of [M L t<sup>-1</sup>], and it is also a vector
-quantity, perpendicular to the rotation plane. In absence of external
-torques, it is constant: the conservation of angular momentum is why
-you don't fall from a bike moving (to fall the angular momentum should
-change - direction - by changing the rotation plane of the wheels),
-but you do fall from a still bike (\(v=0 \Rightarrow J=0\), no angular momentum to
-conserve).
+This quantity has the dimensions of [M L<sup>2</sup> t<sup>-1</sup>], and it is also a
+(pseudo-)vector quantity, perpendicular to the rotation plane.
+</p>
+
+<p>
+<b>N.B.:</b> A "pseudo-vector" is a vector that flips sign when mirrored.
+Angular momentum is because <i>clockwise</i> and <i>counterclockwise</i> depend on
+the point of view.
+</p>
+
+<p>
+In absence of external torques, it is constant: the conservation of
+angular momentum is why you don't fall from a bike moving (to fall the
+angular momentum should change - direction - by changing the rotation
+plane of the wheels), but you do fall from a still bike (\(v=0 \Rightarrow J=0\),
+no angular momentum to conserve).
 </p>
 </div>
 </div>
 <div id="outline-container-force-and-torque" class="outline-4">
 <h4 id="force-and-torque"><a href="#force-and-torque">Force and torque</a></h4>
-<div class="outline-text-4" id="text-org-element-11">
+<div class="outline-text-4" id="text-org-element-13">
 <p>
-A force is by definition the change in momentum of an object.
+A force is, by definition, the change in momentum of an object.
 </p>
-<div class="LATEX" id="org-element-12">
+<div class="LATEX" id="org-element-14">
 \begin{equation}
 \mathbf{F} = \frac{d\mathbf{p}}{dt} = \frac{d(m\mathbf{v})}{dt} \ \ ,
 \end{equation}
@@ -385,7 +464,7 @@ A force is by definition the change in momentum of an object.
 <p>
 If an object has a constant mass \(m\), then
 </p>
-<div class="LATEX" id="org-element-13">
+<div class="LATEX" id="org-element-15">
 \begin{equation}
 \frac{d(m\mathbf{v})}{dt} = m \frac{d\mathbf{v}}{dt} = m \mathbf{a}\ \ ,
 \end{equation}
@@ -404,9 +483,9 @@ when you try to open a door and make it turn around its hinges. Like
 to the rotation axis, we can take the cross product of a force with
 the distance to the rotation axis to define a <i>torque</i>:
 </p>
-<div class="LATEX" id="org-element-14">
+<div class="LATEX" id="org-element-16">
 \begin{equation}
-\mathbf{T} = \mathbf{F}\times \mathbf{r} \ \ ,
+\mathbf{T} = \mathbf{r} \times \mathbf{F} \ \ ,
 \end{equation}
 
 </div>
@@ -431,9 +510,40 @@ advertisement, a measure of how the engine can impart rotation by
 </div>
 </div>
 </div>
+<div id="outline-container-falling-motion" class="outline-3">
+<h3 id="falling-motion"><a href="#falling-motion">Falling motion</a></h3>
+<div class="outline-text-3" id="text-org-element-17">
+<p>
+The acceleration of gravity is the <i>change in velocity</i> of an object
+falling. This is roughly constant on Earth (because the mass of the
+Earth is constant), and usually indicated with \(g\simeq10\) m s<sup>-2</sup>.
+</p>
+
+<p>
+Galileo first proposed that objects of different masses will fall at
+the same speed in absence of friction (e.g., air). While it is unclear
+whether he really performed the experiment, this was performed a few
+years later from the bell-tower of Delft's church, and a simple
+experiment can be done with an object and a crumbled piece of paper.
+</p>
+
+
+<figure id="org-element-18">
+<img src="./images/Nieuwe_kerk.jpg" alt="Nieuwe_kerk.jpg" width="50%">
+
+<figcaption><span class="figure-number">Figure 3: </span>Niewe Kerk in Delft, where the experiment of dropping a cannon-ball and a feather was actually realized (Galileo only proposed it as a thought experiment).</figcaption>
+</figure>
+
+<p>
+The same experiment has been repeated in absence of atmosphere and
+lower gravity on the Moon:
+</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Oo8TaPVsn9Y?si=LLtYpSsMdTOD4rfv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
 <div id="outline-container-the-laws-of-dynamics" class="outline-3">
 <h3 id="the-laws-of-dynamics"><a href="#the-laws-of-dynamics">The "laws" of dynamics</a></h3>
-<div class="outline-text-3" id="text-org-element-15">
+<div class="outline-text-3" id="text-org-element-19">
 <p>
 In the <i>Philosophiae Naturalis Principia Mathematica</i>, Newton formalized
 the three laws now named after him which connect physics across
@@ -442,11 +552,13 @@ sub- and super-lunar worlds (making the distinction moot), and unify
 </p>
 
 <ol class="org-ol">
-<li>A body moves at constant velocity unless there is a <i>net</i> force applied to it</li>
-<li>Force is the change of momentum of an object \(\mathbf{F}= d\mathbf{p}/dt = m\mathbf{a}\)</li>
-<li>For each applied force, there is an equal and opposite reaction.</li>
+<li>A body moves at constant velocity unless there is a <i>net</i> force
+applied to it (<i>Galilean invariance</i>)</li>
+<li>Force is the change of momentum of an object \(\mathbf{F}=
+   d\mathbf{p}/dt = m\mathbf{a}\)</li>
+<li>For each applied force, there is an equal and opposite reaction
+\(\mathbf{F}_{1\rightarrow2}\Leftrightarrow \mathbf{F}_{2\rightarrow1}=-\mathbf{F}_{1\rightarrow2}\).</li>
 </ol>
-
 
 <p>
 The first law formalizes mathematically <i>Galilean invariance</i>: in
@@ -469,7 +581,6 @@ it would decrease the friction and lead to the car turning less (or
 not at all!).
 </p>
 
-
 <p>
 In a "Newton's pendulum", ball 1 hits ball 2, exerting a force on ball
 2 that accelerates it, and at the same time ball 2 exerts a "reaction"
@@ -481,7 +592,7 @@ and so on:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QQc8nRPkwUM?si=DxHXzwv3TTc_O0y-&amp;start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <p>
-<b>N.B.:</b> In our discussion on this pendulum we are explicitly leaving out
+<b>N.B.:</b> Again, in our discussion on this pendulum we are explicitly leaving out
 the air and the connection parts with the strings, where friction is
 <i>another</i> force in the system. Friction complicates significantly the
 description and explains why ultimately, on a desk, these toys will
@@ -498,7 +609,7 @@ exhaust gas, which in turns pushes the rockets up.
 </div>
 <div id="outline-container-universal-law-of-gravitation" class="outline-2">
 <h2 id="universal-law-of-gravitation"><a href="#universal-law-of-gravitation">Universal law of Gravitation</a></h2>
-<div class="outline-text-2" id="text-org-element-16">
+<div class="outline-text-2" id="text-org-element-20">
 <div class="org-drawer-container">
   <button class="org-drawer-toggle" onclick="toggleDrawer('drawer-Quote-2')">Quote ▼</button>
   <div id="drawer-Quote-2" class="org-drawer-content" style="display: none;"><p>
@@ -528,10 +639,10 @@ unification model.
 </p>
 
 
-<figure id="org-element-17">
+<figure id="org-element-21">
 <img src="images/newton.png" alt="newton.png" width="50%">
 
-<figcaption><span class="figure-number">Figure 3: </span>Isaac Newton</figcaption>
+<figcaption><span class="figure-number">Figure 4: </span>Isaac Newton</figcaption>
 </figure>
 
 
@@ -541,7 +652,7 @@ falling object (e.g., an apple in Earth's own gravity, a metaphor used
 to highlight Newton's landowning noble status most likely), is the
 same force as the one governing the orbit of the planets.
 </p>
-<div class="LATEX" id="org-element-18">
+<div class="LATEX" id="org-element-22">
 \begin{equation}
 \mathbf{F_{1}} = \frac{Gm_{1}m_{2}}{r^{2}}\mathbf{\hat{r}} \ \ ,
 \end{equation}
@@ -562,10 +673,10 @@ gravitational force between them decreases by 2<sup>2</sup>=4&times; or (10)<sup
 </p>
 
 
-<figure id="org-element-19">
+<figure id="org-element-23">
 <img src="./images/NewtonsLawOfUniversalGravitation.svg" alt="NewtonsLawOfUniversalGravitation.svg" class="org-svg" width="100%">
 
-<figcaption><span class="figure-number">Figure 4: </span>Schematic of the gravitational attraction between two point masses</figcaption>
+<figcaption><span class="figure-number">Figure 5: </span>Schematic of the gravitational attraction between two point masses</figcaption>
 </figure>
 
 <p>
@@ -587,7 +698,7 @@ So given the same (by the third law) force, who will accelerate more?
 </div>
 <div id="outline-container-connection-with-kepler-s-laws" class="outline-3">
 <h3 id="connection-with-kepler-s-laws"><a href="#connection-with-kepler-s-laws">Connection with Kepler's laws</a></h3>
-<div class="outline-text-3" id="text-org-element-20">
+<div class="outline-text-3" id="text-org-element-24">
 <p>
 Kepler's laws are an <i>empirical</i> description of the <i>kinematics</i> of Mars
 and (by extension) the other planets. Newton's theory of gravity gives
@@ -597,7 +708,7 @@ and extending the observations of (&#x2026;, Tycho Brahe,) Kepler.
 </div>
 <div id="outline-container-conical-orbits" class="outline-4">
 <h4 id="conical-orbits"><a href="#conical-orbits">Conical orbits</a></h4>
-<div class="outline-text-4" id="text-org-element-21">
+<div class="outline-text-4" id="text-org-element-25">
 <p>
 For instance, Kepler correctly realized that the orbit of Mars (and by
 extension all planets) are <i>ellipses</i> with the Sun occupying a focus.
@@ -608,7 +719,7 @@ Solving the equations of motion for two point masses (representing,
 e.g., Sun and Mars) interacting just through gravity according to
 Newton's laws
 </p>
-<div class="LATEX" id="org-element-22">
+<div class="LATEX" id="org-element-26">
 \begin{equation}
 \mathbf{F} = m \mathrm{a} = \frac{GMm}{r^{2}} \ \ ,
 \end{equation}
@@ -625,7 +736,7 @@ general all <i>conic section</i>:
 </p>
 
 
-<figure id="org-element-23">
+<figure id="org-element-27">
 <img src="images/conic.png" alt="conic.png" width="100%">
 
 </figure>
@@ -655,277 +766,13 @@ particular case (here: bound orbits).
 </div>
 </div>
 </div>
-<div id="outline-container-conservation-laws-in-physics" class="outline-2">
-<h2 id="conservation-laws-in-physics"><a href="#conservation-laws-in-physics">Conservation laws in physics</a></h2>
-<div class="outline-text-2" id="text-org-element-24">
-<p>
-In my opinion, one of the most beautiful results of theoretical
-physics is due to <a href="https://en.wikipedia.org/wiki/Emmy_Noether">Emmy Noether</a>, which states that <i>for every symmetry
-in nature, there is a corresponding conserved physical quantity</i>.
-</p>
-
-<p>
-Newton's laws are a consequence of the conservation of these physical
-quantities due to the symmetries of nature!
-</p>
-
-<p>
-<b>N.B.:</b> What does it mean to be conserved for a quantity? It literally
-means that it does <i>not</i> change (in time or under certain
-transformation). For an example not involving time: the "shape" of an
-object is conserved under rotation.
-</p>
-</div>
-<div id="outline-container-conservation-of-momentum" class="outline-3">
-<h3 id="conservation-of-momentum"><a href="#conservation-of-momentum">Conservation of momentum</a></h3>
-<div class="outline-text-3" id="text-org-element-25">
-<p>
-This is a consequence of the symmetry of space-time with translations
-(side-ways motions): the <i>dynamics</i> of a system, what causes its motion,
-does <i>not</i> depend on where you are, you can shift around in any
-direction and observe the same phenomena related to momentum.
-</p>
-
-<p>
-The laws of dynamics follow from this: in absence of an external force
-a body maintains its velocity and its mass, therefore also its
-momentum \(\mathbf{p}=m\mathbf{v}\), which is <i>conserved</i> (1<sup>st</sup> Newton's
-law<sup>nil</sup>). And if there is an external force on a body (a source term for
-its <i>momentum</i>), there is an equal and opposite force exerted by this
-body on the forcing agent, so that in <i>total</i> the net force on both body
-and agent is zero and the <i>total</i> momentum remains constant (3<sup>rd</sup> law).
-</p>
-</div>
-</div>
-<div id="outline-container-conservation-of-angular-momentum" class="outline-3">
-<h3 id="conservation-of-angular-momentum"><a href="#conservation-of-angular-momentum">Conservation of angular momentum</a></h3>
-<div class="outline-text-3" id="text-org-element-26">
-<p>
-This is a consequence of symmetry of space-time w.r.t. rotations, and
-it is a vector quantity:
-</p>
-<div class="latex" id="org-element-27">
-\begin{equation}
-\mathbf{J} = \mathbf{r}\times \mathbf{p} = \mathbf{r}\times m\mathbf{v}  \ \ ,
-\end{equation}
-
-</div>
-<p>
-where \(\mathbf{p}=m\mathbf{v}\) is the momentum discussed above and
-\(\mathbf{r}\) is the distance to the rotation axis.
-</p>
-
-<p>
-Because it is a vector, it is characterized by multiple components
-(\(x,y,z\)): conservation of angular momentum requires the <i>total</i> angular
-momentum to be conserved, which means also in <i>direction</i> and not only
-in <i>amplitude</i>.
-</p>
-
-
-<figure id="org-element-28">
-<img src="images/am.png" alt="am.png" width="100%">
-
-<figcaption><span class="figure-number">Figure 5: </span>Angular momentum is the conserved quantity related to "rotation": its conservation comes from the symmetry of a system w.r.t. rotation and it leads to rotating objects to keep rotating in the same way.</figcaption>
-</figure>
-
-<p>
-Conservation of angular momentum examples:
-</p>
-<ul class="org-ul">
-<li>bike: if not moving (\(v=0\Rightarrow p=mv=0\)) there is no angular momentum
-(\(J=r\times p\equiv0\)) and it is very hard to stand on it without falling. If
-moving, then \(J\neq0\) needs to be constant, including in direction: it
-gets easier to ride without falling because to fall the direction of
-the angular momentum!</li>
-<li>ballerina: a spinning ballerina closes their arms, this decreases
-\(\mathbf{r}\), so to keep the angular momentum constant, the velocity
-\(\mathbf{v}\) has to increase.</li>
-<li>Earth's rotation: this carries angular momentum too, which is
-conserved. In absence of any perturbation, Earth would continue to
-rotate with the same \(\mathbf{r}\) and \(\mathbf{p}\) around the Sun
-(same for the Moon around the Earth, other planets, etc.)</li>
-</ul>
-</div>
-<div id="outline-container-3-sup-rd-sup-kepler-law" class="outline-4">
-<h4 id="3-sup-rd-sup-kepler-law"><a href="#3-sup-rd-sup-kepler-law">3<sup>rd</sup> Kepler law</a></h4>
-<div class="outline-text-4" id="text-org-element-29">
-<p>
-We can understand the 3<sup>rd</sup> Kepler's law as a consequence of angular
-momentum conservation: if the orbit is elliptic, then the distance
-planet-Sun is varying along the orbit, \(\mathrm{r} \equiv \mathrm{r}(t)\).
-To keep \(\mathrm{J} = \mathrm{r}\times\mathrm{p}\) constant then, also the
-momentum \(\mathrm{p}\equiv\mathrm{p}(t)\). Since \(\mathrm{p}=m\mathrm{v}\),
-and since the \(m\) of the planet does not change year-by-year, then the
-velocity \(\mathrm{v}\equiv\mathrm{v}(t)\): the orbital velocity of the
-planet cannot be constant!
-</p>
-
-<p>
-Specifically, from the conservation of \(\mathrm{J}\) one finds that
-when \(\mathrm{r}\) is smaller (at pericenter, closer to the star), then
-\(\mathrm{v}\) needs to be larger: planets pass faster at their closest
-point to the Sun, and spend more time farther away.
-</p>
-
-<p>
-Note that Kepler's 3<sup>rd</sup> law already <i>described</i> this empirically, but
-conservation of angular momentum provides the theoretical basis to
-understand this observed phenomenon.
-</p>
-</div>
-</div>
-</div>
-<div id="outline-container-conservation-of-energy" class="outline-3">
-<h3 id="conservation-of-energy"><a href="#conservation-of-energy">Conservation of energy</a></h3>
-<div class="outline-text-3" id="text-org-element-30">
-<p>
-This is a consequence of the symmetry of space-time for temporal
-translation (yesterday is the same as today).
-</p>
-
-<p>
-Energy is by definition the capacity of a system to <i>do work</i>, where
-<i>work</i> is the product of a force \(F\) times a displacement \(d\):
-</p>
-
-<div class="LATEX" id="org-element-31">
-\begin{equation}
-W = \mathbf{F}\cdot\mathbf{d}
-\end{equation}
-
-</div>
-
-<p>
-Since this is a dot-product, it produces from two vectors (force and
-displacement) a scalar. Energy is also a scalar, and it can come in
-various forms
-</p>
-</div>
-<div id="outline-container-kinetic" class="outline-4">
-<h4 id="kinetic"><a href="#kinetic">Kinetic</a></h4>
-<div class="outline-text-4" id="text-org-element-32">
-<p>
-\(E_{kin} = \frac{1}{2}mv^{2}\)
-</p>
-</div>
-</div>
-<div id="outline-container-thermal" class="outline-4">
-<h4 id="thermal"><a href="#thermal">Thermal</a></h4>
-<div class="outline-text-4" id="text-org-element-33">
-<p>
-Thermal energy is a form of kinetic energy due to the random agitation
-of constituents (e.g., molecules of a gas).
-\(E_{th} = k_{b}T\)
-</p>
-
-<p>
-What distinguishes the "thermal" energy is the randomness of the
-motion, as opposed to the ordered motion of a system: for example,
-throwing a ball in a direction causes an "ordered" global motion of
-each molecule of the ball in that direction (by throwing you gave a
-global kinetic energy and momentum to the ball), but every molecule is
-also wiggling in a random direction, often much "faster" than the
-global velocity, but leading to a very small displacement before
-molecules "bump" into each other and change their (random) direction
-of motion.
-</p>
-
-<p>
-To calculate the "thermal velocity" (the random component of the
-velocity due to thermal motion), see <a href="https://calculator.academy/thermal-velocity-calculator/">this online tool</a>. for example air
-is mostly (&sim;70%) made of nitrogen molecules \(\mathrm{N}_{2}\), made of two
-nitrogen atoms, each having a mass of \(\sim14\) atomic units (7 protons +
-7 neutrons), so the molecule has a mass \(\sim28\) atomic units, or in
-other units, 4.651734&times;10<sup>−26</sup> kg. At a room temperature of 300K, this
-corresponds to random velocities of the air of 516 m/s!
-</p>
-
-<p>
-<b>N.B.</b>: the <b>temperature</b> measures the <i>average</i> kinetic energy of particles
-in a system due to their random motion. The thermal energy measures
-<i>total</i> energy of a system due to this, which also depends on the
-density of he system (think of putting your hand in an oven or in a
-pot of boiling water: the over is hotter, but the boiling water is
-denser and thus has a higher thermal energy).
-</p>
-</div>
-</div>
-<div id="outline-container-radiative" class="outline-4">
-<h4 id="radiative"><a href="#radiative">Radiative</a></h4>
-<div class="outline-text-4" id="text-org-element-34">
-<p>
-Energy in the radiation field, i.e., carried by the light (photons)
-</p>
-
-<p>
-\(E_{rad}=\frac{1}{3}a T^{4}\)
-</p>
-</div>
-</div>
-<div id="outline-container-potential" class="outline-4">
-<h4 id="potential"><a href="#potential">Potential</a></h4>
-<div class="outline-text-4" id="text-org-element-35">
-<p>
-It comes in many form, depending on the kind of process that can
-release it (e.g., transform it into kinetic energy), e.g. chemical
-potential energy for an explosive.
-</p>
-
-<p>
-For gravitational potential energy in a constant gravity \(g\) (e.g. on
-Earth \(g \simeq 10\mathrm{m s^{-2}^{}}\)): \(E_{pot }= mgh\)
-</p>
-</div>
-</div>
-<div id="outline-container-binding-energy" class="outline-4">
-<h4 id="binding-energy"><a href="#binding-energy">Binding energy</a></h4>
-<div class="outline-text-4" id="text-org-element-36">
-<p>
-The amount of energy you have to provide to a system for breaking it
-into its component and pull them apart at infinity, or in other words
-the amount of energy that had to be spent to assemble it. This concept
-is important because often astrophysical processes are powered by
-breaking objects and releasing this energy (e.g., the explosion of a
-star!), or viceversa a system <i>loses</i> energy storing it into the binding
-energy of something being assembled.
-</p>
-</div>
-</div>
-<div id="outline-container-rest-energy" class="outline-4">
-<h4 id="rest-energy"><a href="#rest-energy">Rest-energy</a></h4>
-<div class="outline-text-4" id="text-org-element-37">
-<p>
-\(E=m c^{2}\)
-</p>
-
-<p>
-<b>N.B.:</b> In reality the formula is \(E=m\gamma c^{2}\) where \(\gamma=1/\sqrt{1-v^{2}/c^{2}}\)
-and \(v\) is the velocity of the object of mass \(m\) in the current
-reference frame.
-</p>
-</div>
-</div>
-</div>
-<div id="outline-container-energy-transforms-from-one-form-or-the-other" class="outline-3">
-<h3 id="energy-transforms-from-one-form-or-the-other"><a href="#energy-transforms-from-one-form-or-the-other">Energy transforms from one form or the other</a></h3>
-<div class="outline-text-3" id="text-org-element-38">
-
-<figure id="org-element-39">
-<img src="images/potential_vs_kinetics.png" alt="potential_vs_kinetics.png" width="100%">
-
-<figcaption><span class="figure-number">Figure 6: </span>Energy can transform from one form to another, but the total is conserved. In this example the kinetic and potential energy of the ball can transform into one-another along the path. Note that the zero-point for the potential energy is arbitrary.</figcaption>
-</figure>
-</div>
-</div>
-</div>
 </div>
 <div id="postamble" class="status">
 <div class="footer">
   <hr>
   <a href="#light-dark-toggle"><i id="light-dark-toggle"><i class="fa-solid fa-circle-half-stroke"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-04-lab1_astrology_and_pseudosciences.html"><i class="fa-solid fa-arrow-left" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="#top"><i class="fa-solid fa-arrow-up" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-06-gravity-motion.html"><i class="fa-solid fa-arrow-right" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/mathren/170B1--002"><i class="fa-brands fa-github" style="font-size:16px"></i></a><hr>
   <br>
-  Last updated on 31 August 2026 <br>
+  Last updated on 1 September 2026 <br>
   Made with Emacs 30.1 - Org mode 9.7.11
   <br>
 </div>

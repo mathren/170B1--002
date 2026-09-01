@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-08-31 Mon 10:09 -->
+<!-- 2026-09-01 Tue 11:31 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Gravity 2/2</title>
@@ -251,15 +251,331 @@ term we just found. From the velocity we can find the position
 <div id="outline-container-example-is-there-gravity-in-space" class="outline-2">
 <h2 id="example-is-there-gravity-in-space"><a href="#example-is-there-gravity-in-space">Example: is there gravity in space?</a></h2>
 <div class="outline-text-2" id="text-org-element-9">
+<p>
+Netwonian's gravity says \(F_{\rm grav}\propto r^{-2}\), which means that it is
+non-zero everywhere! Gravity drops off quickly (power -2), but never
+completely. So everywhere one may look there is gravity!
+</p>
+
+<p>
+Why do things float "in space" then? Actually not everything floats,
+things in space constantly fall onto each other <i>because</i> there is
+gravity.
+</p>
+
+<p>
+What usually people think of is "why do things float in orbit?" For
+example, in the International Space Station:
+</p>
+
 
 <figure id="org-element-10">
 <img src="images/astronauts.png" alt="astronauts.png" width="100%">
 
 <figcaption><span class="figure-number">Figure 2: </span>Astronauts in the space-station floating with fruits. Note how everything else is secured to the walls by some means.</figcaption>
 </figure>
+
+<p>
+The reason is that <i>everything is falling at the same rate towards
+Earth</i>! The astronauts, the fruits, and the ship itself are all falling
+at the same <i>rate</i> (same acceleration), and thus do not experience an
+acceleration <i>relative to each other</i> while they are all accelerating
+<i>relative to Earth</i>.
+</p>
+
+<p>
+Recall that \(\mathbf{a} = d\mathbf{v}/dt \neq 0\) even if \(\mathbf{v}\) is
+only changing <i>direction</i>.
+</p>
 </div>
-<div id="outline-container-orbital-motion" class="outline-3">
-<h3 id="orbital-motion"><a href="#orbital-motion">Orbital motion</a></h3>
+</div>
+<div id="outline-container-conservation-laws-in-physics" class="outline-2">
+<h2 id="conservation-laws-in-physics"><a href="#conservation-laws-in-physics">Conservation laws in physics</a></h2>
+<div class="outline-text-2" id="text-org-element-11">
+<p>
+In my opinion, one of the most beautiful results of theoretical
+physics is due to <a href="https://en.wikipedia.org/wiki/Emmy_Noether">Emmy Noether</a>, which states that <i>for every symmetry
+in nature, there is a corresponding conserved physical quantity</i>.
+</p>
+
+<p>
+Newton's laws are a consequence of the conservation of these physical
+quantities due to the symmetries of nature!
+</p>
+
+<p>
+<b>N.B.:</b> What does it mean to be conserved for a quantity? It literally
+means that it does <i>not</i> change (in time or under certain
+transformation). For an example not involving time: the "shape" of an
+object is conserved under rotation.
+</p>
+</div>
+<div id="outline-container-conservation-of-momentum" class="outline-3">
+<h3 id="conservation-of-momentum"><a href="#conservation-of-momentum">Conservation of momentum</a></h3>
+<div class="outline-text-3" id="text-org-element-12">
+<p>
+This is a consequence of the symmetry of space-time with translations
+(side-ways motions): the <i>dynamics</i> of a system, what causes its motion,
+does <i>not</i> depend on where you are, you can shift around in any
+direction and observe the same phenomena related to momentum.
+</p>
+
+<p>
+The laws of dynamics follow from this: in absence of an external force
+a body maintains its velocity and its mass, therefore also its
+momentum \(\mathbf{p}=m\mathbf{v}\), which is <i>conserved</i> (1<sup>st</sup> Newton's
+law<sup>nil</sup>). And if there is an external force on a body (a source term for
+its <i>momentum</i>), there is an equal and opposite force exerted by this
+body on the forcing agent, so that in <i>total</i> the net force on both body
+and agent is zero and the <i>total</i> momentum remains constant (3<sup>rd</sup> law).
+</p>
+</div>
+</div>
+<div id="outline-container-conservation-of-angular-momentum" class="outline-3">
+<h3 id="conservation-of-angular-momentum"><a href="#conservation-of-angular-momentum">Conservation of angular momentum</a></h3>
+<div class="outline-text-3" id="text-org-element-13">
+<p>
+This is a consequence of symmetry of space-time w.r.t. rotations, and
+it is a vector quantity:
+</p>
+<div class="latex" id="org-element-14">
+\begin{equation}
+\mathbf{J} = \mathbf{r}\times \mathbf{p} = \mathbf{r}\times m\mathbf{v}  \ \ ,
+\end{equation}
+
+</div>
+<p>
+where \(\mathbf{p}=m\mathbf{v}\) is the momentum discussed above and
+\(\mathbf{r}\) is the distance to the rotation axis.
+</p>
+
+<p>
+Because it is a vector, it is characterized by multiple components
+(\(x,y,z\)): conservation of angular momentum requires the <i>total</i> angular
+momentum to be conserved, which means also in <i>direction</i> and not only
+in <i>amplitude</i>.
+</p>
+
+
+<figure id="org-element-15">
+<img src="images/am.png" alt="am.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 3: </span>Angular momentum is the conserved quantity related to "rotation": its conservation comes from the symmetry of a system w.r.t. rotation and it leads to rotating objects to keep rotating in the same way.</figcaption>
+</figure>
+
+<p>
+Conservation of angular momentum examples:
+</p>
+<ul class="org-ul">
+<li>bike: if not moving (\(v=0\Rightarrow p=mv=0\)) there is no angular momentum
+(\(J=r\times p\equiv0\)) and it is very hard to stand on it without falling. If
+moving, then \(J\neq0\) needs to be constant, including in direction: it
+gets easier to ride without falling because to fall the direction of
+the angular momentum!</li>
+<li>ballerina: a spinning ballerina closes their arms, this decreases
+\(\mathbf{r}\), so to keep the angular momentum constant, the velocity
+\(\mathbf{v}\) has to increase.</li>
+<li>Earth's rotation: this carries angular momentum too, which is
+conserved. In absence of any perturbation, Earth would continue to
+rotate with the same \(\mathbf{r}\) and \(\mathbf{p}\) around the Sun
+(same for the Moon around the Earth, other planets, etc.)</li>
+</ul>
+</div>
+<div id="outline-container-3-sup-rd-sup-kepler-law" class="outline-4">
+<h4 id="3-sup-rd-sup-kepler-law"><a href="#3-sup-rd-sup-kepler-law">3<sup>rd</sup> Kepler law</a></h4>
+<div class="outline-text-4" id="text-org-element-16">
+<p>
+We can understand the 3<sup>rd</sup> Kepler's law as a consequence of angular
+momentum conservation: if the orbit is elliptic, then the distance
+planet-Sun is varying along the orbit, \(\mathrm{r} \equiv \mathrm{r}(t)\).
+To keep \(\mathrm{J} = \mathrm{r}\times\mathrm{p}\) constant then, also the
+momentum \(\mathrm{p}\equiv\mathrm{p}(t)\). Since \(\mathrm{p}=m\mathrm{v}\),
+and since the \(m\) of the planet does not change year-by-year, then the
+velocity \(\mathrm{v}\equiv\mathrm{v}(t)\): the orbital velocity of the
+planet cannot be constant!
+</p>
+
+<p>
+Specifically, from the conservation of \(\mathrm{J}\) one finds that
+when \(\mathrm{r}\) is smaller (at pericenter, closer to the star), then
+\(\mathrm{v}\) needs to be larger: planets pass faster at their closest
+point to the Sun, and spend more time farther away.
+</p>
+
+<p>
+Note that Kepler's 3<sup>rd</sup> law already <i>described</i> this empirically, but
+conservation of angular momentum provides the theoretical basis to
+understand this observed phenomenon.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-conservation-of-energy" class="outline-3">
+<h3 id="conservation-of-energy"><a href="#conservation-of-energy">Conservation of energy</a></h3>
+<div class="outline-text-3" id="text-org-element-17">
+<p>
+This is a consequence of the symmetry of space-time for temporal
+translation (yesterday is the same as today).
+</p>
+
+<p>
+Energy is by definition the capacity of a system to <i>do work</i>, where
+<i>work</i> is the product of a force \(F\) times a displacement \(d\):
+</p>
+
+<div class="LATEX" id="org-element-18">
+\begin{equation}
+W = \mathbf{F}\cdot\mathbf{d}
+\end{equation}
+
+</div>
+
+<p>
+Since this is a dot-product, it produces from two vectors (force and
+displacement) a scalar. Energy is also a scalar, and it can come in
+various forms
+</p>
+</div>
+<div id="outline-container-kinetic" class="outline-4">
+<h4 id="kinetic"><a href="#kinetic">Kinetic</a></h4>
+<div class="outline-text-4" id="text-org-element-19">
+<p>
+\(E_{kin} = \frac{1}{2}mv^{2}\)
+</p>
+</div>
+</div>
+<div id="outline-container-thermal" class="outline-4">
+<h4 id="thermal"><a href="#thermal">Thermal</a></h4>
+<div class="outline-text-4" id="text-org-element-20">
+<p>
+Thermal energy is a form of kinetic energy due to the random agitation
+of constituents (e.g., molecules of a gas).
+\(E_{th} = k_{b}T\)
+</p>
+
+<p>
+What distinguishes the "thermal" energy is the randomness of the
+motion, as opposed to the ordered motion of a system: for example,
+throwing a ball in a direction causes an "ordered" global motion of
+each molecule of the ball in that direction (by throwing you gave a
+global kinetic energy and momentum to the ball), but every molecule is
+also wiggling in a random direction, often much "faster" than the
+global velocity, but leading to a very small displacement before
+molecules "bump" into each other and change their (random) direction
+of motion.
+</p>
+
+<p>
+To calculate the "thermal velocity" (the random component of the
+velocity due to thermal motion), see <a href="https://calculator.academy/thermal-velocity-calculator/">this online tool</a>. for example air
+is mostly (&sim;70%) made of nitrogen molecules \(\mathrm{N}_{2}\), made of two
+nitrogen atoms, each having a mass of \(\sim14\) atomic units (7 protons +
+7 neutrons), so the molecule has a mass \(\sim28\) atomic units, or in
+other units, 4.651734&times;10<sup>−26</sup> kg. At a room temperature of 300K, this
+corresponds to random velocities of the air of 516 m/s!
+</p>
+
+<p>
+<b>N.B.</b>: the <b>temperature</b> measures the <i>average</i> kinetic energy of particles
+in a system due to their random motion. The thermal energy measures
+<i>total</i> energy of a system due to this, which also depends on the
+density of he system (think of putting your hand in an oven or in a
+pot of boiling water: the over is hotter, but the boiling water is
+denser and thus has a higher thermal energy).
+</p>
+</div>
+</div>
+<div id="outline-container-radiative" class="outline-4">
+<h4 id="radiative"><a href="#radiative">Radiative</a></h4>
+<div class="outline-text-4" id="text-org-element-21">
+<p>
+Energy in the radiation field, i.e., carried by the light (photons)
+</p>
+
+<p>
+\(E_{rad}=\frac{1}{3}a T^{4}\)
+</p>
+</div>
+</div>
+<div id="outline-container-potential" class="outline-4">
+<h4 id="potential"><a href="#potential">Potential</a></h4>
+<div class="outline-text-4" id="text-org-element-22">
+<p>
+It comes in many form, depending on the kind of process that can
+release it (e.g., transform it into kinetic energy), e.g. chemical
+potential energy for an explosive.
+</p>
+
+<p>
+For gravitational potential energy in a constant gravity \(g\) (e.g. on
+Earth \(g \simeq 10\mathrm{m s^{-2}^{}}\)): \(E_{pot }= mgh\)
+</p>
+</div>
+</div>
+<div id="outline-container-binding-energy" class="outline-4">
+<h4 id="binding-energy"><a href="#binding-energy">Binding energy</a></h4>
+<div class="outline-text-4" id="text-org-element-23">
+<p>
+The amount of energy you have to provide to a system for breaking it
+into its component and pull them apart at infinity, or in other words
+the amount of energy that had to be spent to assemble it. This concept
+is important because often astrophysical processes are powered by
+breaking objects and releasing this energy (e.g., the explosion of a
+star!), or viceversa a system <i>loses</i> energy storing it into the binding
+energy of something being assembled.
+</p>
+</div>
+</div>
+<div id="outline-container-rest-energy" class="outline-4">
+<h4 id="rest-energy"><a href="#rest-energy">Rest-energy</a></h4>
+<div class="outline-text-4" id="text-org-element-24">
+<p>
+\(E=m c^{2}\)
+</p>
+
+<p>
+<b>N.B.:</b> In reality the formula is \(E=m\gamma c^{2}\) where \(\gamma=1/\sqrt{1-v^{2}/c^{2}}\)
+and \(v\) is the velocity of the object of mass \(m\) in the current
+reference frame.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-energy-transforms-from-one-form-or-the-other" class="outline-3">
+<h3 id="energy-transforms-from-one-form-or-the-other"><a href="#energy-transforms-from-one-form-or-the-other">Energy transforms from one form or the other</a></h3>
+<div class="outline-text-3" id="text-org-element-25">
+
+<figure id="org-element-26">
+<img src="images/potential_vs_kinetics.png" alt="potential_vs_kinetics.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 4: </span>Energy can transform from one form to another, but the total is conserved. In this example the kinetic and potential energy of the ball can transform into one-another along the path. Note that the zero-point for the potential energy is arbitrary.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div id="outline-container-orbital-motion" class="outline-2">
+<h2 id="orbital-motion"><a href="#orbital-motion">Orbital motion</a></h2>
+<div class="outline-text-2" id="text-orbital-motion">
+</div>
+<div id="outline-container-kepler-laws-recap" class="outline-3">
+<h3 id="kepler-laws-recap"><a href="#kepler-laws-recap"><span class="todo TODO">TODO</span> Kepler laws recap</a></h3>
+</div>
+
+<div id="outline-container-center-of-mass" class="outline-3">
+<h3 id="center-of-mass"><a href="#center-of-mass">Center of mass</a></h3>
+<div class="outline-text-3" id="text-center-of-mass">
+</div>
+<div id="outline-container-center-of-gravity" class="outline-4">
+<h4 id="center-of-gravity"><a href="#center-of-gravity">Center of gravity</a></h4>
+</div>
+</div>
+<div id="outline-container-escape-velocity" class="outline-3">
+<h3 id="escape-velocity"><a href="#escape-velocity">Escape velocity</a></h3>
+<div class="outline-text-3" id="text-org-element-27">
+<p>
+**
+</p>
+</div>
 </div>
 </div>
 <div id="outline-container-tides" class="outline-2">
@@ -271,7 +587,7 @@ term we just found. From the velocity we can find the position
   <hr>
   <a href="#light-dark-toggle"><i id="light-dark-toggle"><i class="fa-solid fa-circle-half-stroke"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-05-gravity-motion.html"><i class="fa-solid fa-arrow-left" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="#top"><i class="fa-solid fa-arrow-up" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-07.html"><i class="fa-solid fa-arrow-right" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/mathren/170B1--002"><i class="fa-brands fa-github" style="font-size:16px"></i></a><hr>
   <br>
-  Last updated on 31 August 2026 <br>
+  Last updated on 1 September 2026 <br>
   Made with Emacs 30.1 - Org mode 9.7.11
   <br>
 </div>

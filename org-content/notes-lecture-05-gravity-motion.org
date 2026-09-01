@@ -6,6 +6,10 @@
 
 *Reading:* Chapter 4
 
+* TODO Recap
+
+Top hat: individual questions!
+- [ ] Kepler's laws
 
 * Newton's laws of motion
 
@@ -61,11 +65,17 @@ For an equation to make sense it also has to be /mathematically/
 consistent (not only /dimensionally/ in terms of the physical units):
 for example, a *vector* cannot be equal or summed to a /scalar/.
 
+*N.B.:* The 3^{rd} Kepler law on the book is expressed in a way that /breaks/
+dimensional consistency as $p^{2}\sim a^{3}$, which is the correct /scaling/ (as
+in the powers at the exponents are correct), but holds only measuring
+$a$ in au and $p$ in years. The generally correct form is $(2\pi)^{2}a^{3}/p^{2}
+= G(m_{1}+m_{2})$.
+
 ** Galilean invariance
-While it is easy to "feel" an acceleration (think of a car turning a
-corner, the turning is a change in the direction of velocity, thus an
-acceleration), there is no way for an isolated observer to tell at
-what velocity they are moving.
+While it is easy to "feel" an /acceleration/ (think of an elevator
+starting/stopping, or a car turning a corner, the turning is a change
+in the direction of velocity, thus an acceleration), there is no way
+for an isolated observer to tell at what /velocity/ they are moving.
 
 This is the concept of /Galilean invariance/ which Galileo argued for
 (in vulgar, to be understood by anyone!) using examples such as:
@@ -86,24 +96,48 @@ students and successors were later formalized into the first law of
 motion by Newton: /an object keeps its velocity unless something
 changes it/.
 
-** Falling motion
-The acceleration of gravity is the /change in velocity/ of an object
-falling. This is roughly constant on Earth (because the mass of the
-Earth is constant), and usually indicated with $g\simeq10$ m s^{-2}.
+Conceptually, Galilean invariance is more profound than just a
+statement about velocity remaining constant unless something acts. It
+establishes that /the physics is the same in every inertial reference
+frame/.
 
-Galileo first proposed that objects of different masses will fall at
-the same speed in absence of friction (e.g., air). While it is unclear
-whether he really performed the experiment, this was performed a few
-years later from the bell-tower of Delft's church, and a simple
-experiment can be done with an object and a crumbled piece of paper.
+A reference frame is the coordinate system w.r.t. which we measure the
+positions and velocities (you decide an origin and the $x, y, z$
+directions to decide the reference frame). Galilean invariance says
+that every /inertial reference frame/, which means that is /not/
+accelerating, /observe the same phenomena/.
 
-#+CAPTION: Niewe Kerk in Delft, where the experiment of dropping a cannon-ball and a feather was actually realized (Galileo only proposed it as a thought experiment).
-#+ATTR_HTML: :width 50%
-[[./images/Nieuwe_kerk.jpg]]
+Consider an object moving. This statement only makes sense if we
+imagine it is moving w.r.t. some "observer" that is not moving w.r.t.
+to themselves. But in the frame /of/ the object moving, the observer is
+the one moving in the opposite direction.
 
-The same experiment has been repeated in absence of atmosphere and
-lower gravity on the Moon:
-#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/Oo8TaPVsn9Y?si=LLtYpSsMdTOD4rfv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+/Both/ have to see the same physics. If there is nothing accelerating
+the object in its own frame (where it is still), then there must be
+nothing accelerating the object in the frame of the observer: the
+object has to keep the velocity it has!
+
+*** Example: riding a car
+
+An object inside a car (e.g., water bottle in a cup holder) is in
+motion in the frame of reference of the rocks on the side of the road,
+but it is at rest in the frame of reference of the car. /If/ the car is
+/not/ accelerating but cruising at a constant speed, both the driver and
+the rock are /inertial/ frames, and Galilean invariance says they see
+they should see the same physics.
+
+#+CAPTION: Car driving on a road to Mount Lemmon.
+[[./images/car.jpg]]
+
+In reality, in a car ride there /are/ forces at play that we are
+neglecting here, and that make you have to accelerate to keep a
+constant speed, namely friction with the road and the air.
+
+*N.B.:* Galileo's examples on motion (kinematics+dynamics) use boats, as
+the metaphor of his day, Einstein used trains, etc. Scientists use
+their daily experiences as references to understand and explain
+concepts!
+
 
 ** From kinematics to dynamics
 The quantities introduced above only /describe/ motion (/kinematics),
@@ -112,27 +146,38 @@ physics called /dynamics/.
 
 Let's first introduce some more key quantities and see what is the
 relation between kinematics and dynamics.
-*** Mass and weight
+*** Mass $m$
 Mass is a fundamental quantity [M], measured e.g., in kg or pounds, and it
-measures the /resistance to changes in velocity of a body/.
+measures the /inertia/ or /resistance to changes in velocity of a body/.
 A truck has a larger mass than a ping pong ball, and it's much easier
 to move the latter because of its smaller mass.
-
+**** Weight \neq mass
 Note that mass and weight are in principle two different things: mass
-is just the resistance to the change of velocity of a body, weight is
-the gravitational force that it feels. Mass is the same anywhere in
-the Universe, weight depends on the mass of the body exerting gravity,
-you would have the same mass on the Moon, but your weight would be lower.
+(or more precisely, /inertial mass/) is the resistance to the change of
+velocity of a body, while weight is the /gravitational force/ that it
+feels, which as we will see, depends on what is pulling it.
+
+Inertial mass is the same anywhere in the Universe, while weight would
+depend on where you are: you would have the same mass on the Moon, but
+your weight would be lower.
+
+To be more precise, there is a relationship between the two. The
+weight force that you feel on Earth is $F_{g} = \frac{m M_{\rm
+Earth}/R_{Earth}^{}^{2}}$ (as we will see) where $m$ is your the /gravitational
+mass/, which /is/ equal to the /inertial mass/. The fact that the two
+coincide to the best experimental precision available for the past
+400+ years is non-trivial, but happens to appear true as far as we can
+probe.
 *** Momentum
 This is a physical quantity that "mixes" kinematic and dynamic
 quantities, and will be central in connecting the two.
 The momentum is the product of an object mass times its velocity, $p =
-m \times v$, which has units [M L t^{-1}].
+m \times v$, which has units [Mxv]=[M L t^{-1}].
 
 To understand why it's important, imagine you're crossing a street and
 a bike hits you at a certain speed $v$ vs. a truck hitting you at the
 same speed $v$. While the speed is the same in both cases, the truck
-has much more momentum and will hurt you much more!
+has much more mass, and thus, momentum and will hurt you much more!
 *** Angular momentum
 If a body (regardless of its mass) has $v=0$ in some reference frame,
 then it has also zero momentum. But what about a body rotating on
@@ -151,16 +196,21 @@ the total angular momentum:
 \end{equation}
 #+END_LATEX
 
-This quantity has the dimensions of [M L t^{-1}], and it is also a vector
-quantity, perpendicular to the rotation plane. In absence of external
-torques, it is constant: the conservation of angular momentum is why
-you don't fall from a bike moving (to fall the angular momentum should
-change - direction - by changing the rotation plane of the wheels),
-but you do fall from a still bike ($v=0 \Rightarrow J=0$, no angular momentum to
-conserve).
+This quantity has the dimensions of [M L^{2} t^{-1}], and it is also a
+(pseudo-)vector quantity, perpendicular to the rotation plane.
+
+*N.B.:* A "pseudo-vector" is a vector that flips sign when mirrored.
+Angular momentum is because /clockwise/ and /counterclockwise/ depend on
+the point of view.
+
+In absence of external torques, it is constant: the conservation of
+angular momentum is why you don't fall from a bike moving (to fall the
+angular momentum should change - direction - by changing the rotation
+plane of the wheels), but you do fall from a still bike ($v=0 \Rightarrow J=0$,
+no angular momentum to conserve).
 
 *** Force and torque
-A force is by definition the change in momentum of an object.
+A force is, by definition, the change in momentum of an object.
 #+BEGIN_LATEX
 \begin{equation}
 \mathbf{F} = \frac{d\mathbf{p}}{dt} = \frac{d(m\mathbf{v})}{dt} \ \ ,
@@ -183,7 +233,7 @@ to the rotation axis, we can take the cross product of a force with
 the distance to the rotation axis to define a /torque/:
 #+BEGIN_LATEX
 \begin{equation}
-\mathbf{T} = \mathbf{F}\times \mathbf{r} \ \ ,
+\mathbf{T} = \mathbf{r} \times \mathbf{F} \ \ ,
 \end{equation}
 #+END_LATEX
 The torque is what changes the angular momentum, and it a force
@@ -199,16 +249,37 @@ advertisement, a measure of how the engine can impart rotation by
  It has the dimensions of a [F] \times [L]  \neq [F]. It is in a sense the
  "rotational equivalent" of what a force is in a "linear" context.
 
+** Falling motion
+The acceleration of gravity is the /change in velocity/ of an object
+falling. This is roughly constant on Earth (because the mass of the
+Earth is constant), and usually indicated with $g\simeq10$ m s^{-2}.
+
+Galileo first proposed that objects of different masses will fall at
+the same speed in absence of friction (e.g., air). While it is unclear
+whether he really performed the experiment, this was performed a few
+years later from the bell-tower of Delft's church, and a simple
+experiment can be done with an object and a crumbled piece of paper.
+
+#+CAPTION: Niewe Kerk in Delft, where the experiment of dropping a cannon-ball and a feather was actually realized (Galileo only proposed it as a thought experiment).
+#+ATTR_HTML: :width 50%
+[[./images/Nieuwe_kerk.jpg]]
+
+The same experiment has been repeated in absence of atmosphere and
+lower gravity on the Moon:
+#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/Oo8TaPVsn9Y?si=LLtYpSsMdTOD4rfv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ** The "laws" of dynamics
 In the /Philosophiae Naturalis Principia Mathematica/, Newton formalized
 the three laws now named after him which connect physics across
 sub- and super-lunar worlds (making the distinction moot), and unify
 /kinematics/ and /dynamics/.
 
-1. A body moves at constant velocity unless there is a /net/ force applied to it
-2. Force is the change of momentum of an object $\mathbf{F}= d\mathbf{p}/dt = m\mathbf{a}$
-3. For each applied force, there is an equal and opposite reaction.
-
+1. A body moves at constant velocity unless there is a /net/ force
+   applied to it (/Galilean invariance/)
+2. Force is the change of momentum of an object $\mathbf{F}=
+   d\mathbf{p}/dt = m\mathbf{a}$
+3. For each applied force, there is an equal and opposite reaction
+   $\mathbf{F}_{1\rightarrow2}\Leftrightarrow \mathbf{F}_{2\rightarrow1}=-\mathbf{F}_{1\rightarrow2}$.
 
 The first law formalizes mathematically /Galilean invariance/: in
 absence of forces an object keeps its velocity. For example, the
@@ -227,7 +298,6 @@ would stop turning, e.g., if there is a patch of ice along the curve,
 it would decrease the friction and lead to the car turning less (or
 not at all!).
 
-
 In a "Newton's pendulum", ball 1 hits ball 2, exerting a force on ball
 2 that accelerates it, and at the same time ball 2 exerts a "reaction"
 force (but there is no time delay) on ball 1 that accelerates it too,
@@ -236,7 +306,7 @@ and so on:
 
 #+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/QQc8nRPkwUM?si=DxHXzwv3TTc_O0y-&amp;start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-*N.B.:* In our discussion on this pendulum we are explicitly leaving out
+*N.B.:* Again, in our discussion on this pendulum we are explicitly leaving out
 the air and the connection parts with the strings, where friction is
 /another/ force in the system. Friction complicates significantly the
 description and explains why ultimately, on a desk, these toys will
@@ -347,168 +417,3 @@ This is a perfect example of /scientific progress/: the theoretical
 /update/ formulated by Newton /explains and extends/ the empirical
 observations fitted by Kepler and recovers the previous result as a
 particular case (here: bound orbits).
-
-* Conservation laws in physics
-In my opinion, one of the most beautiful results of theoretical
-physics is due to [[https://en.wikipedia.org/wiki/Emmy_Noether][Emmy Noether]], which states that /for every symmetry
-in nature, there is a corresponding conserved physical quantity/.
-
-Newton's laws are a consequence of the conservation of these physical
-quantities due to the symmetries of nature!
-
-*N.B.:* What does it mean to be conserved for a quantity? It literally
-means that it does /not/ change (in time or under certain
-transformation). For an example not involving time: the "shape" of an
-object is conserved under rotation.
-
-** Conservation of momentum
-This is a consequence of the symmetry of space-time with translations
-(side-ways motions): the /dynamics/ of a system, what causes its motion,
-does /not/ depend on where you are, you can shift around in any
-direction and observe the same phenomena related to momentum.
-
-The laws of dynamics follow from this: in absence of an external force
-a body maintains its velocity and its mass, therefore also its
-momentum $\mathbf{p}=m\mathbf{v}$, which is /conserved/ (1^{st} Newton's
-law^{}). And if there is an external force on a body (a source term for
-its /momentum/), there is an equal and opposite force exerted by this
-body on the forcing agent, so that in /total/ the net force on both body
-and agent is zero and the /total/ momentum remains constant (3^{rd} law).
-
-** Conservation of angular momentum
-This is a consequence of symmetry of space-time w.r.t. rotations, and
-it is a vector quantity:
-#+Begin_latex
-\begin{equation}
-\mathbf{J} = \mathbf{r}\times \mathbf{p} = \mathbf{r}\times m\mathbf{v}  \ \ ,
-\end{equation}
-#+End_latex
-where $\mathbf{p}=m\mathbf{v}$ is the momentum discussed above and
-$\mathbf{r}$ is the distance to the rotation axis.
-
-Because it is a vector, it is characterized by multiple components
-($x,y,z$): conservation of angular momentum requires the /total/ angular
-momentum to be conserved, which means also in /direction/ and not only
-in /amplitude/.
-
-#+CAPTION: Angular momentum is the conserved quantity related to "rotation": its conservation comes from the symmetry of a system w.r.t. rotation and it leads to rotating objects to keep rotating in the same way.
-[[file:images/am.png]]
-
-Conservation of angular momentum examples:
-- bike: if not moving ($v=0\Rightarrow p=mv=0$) there is no angular momentum
-  ($J=r\times p\equiv0$) and it is very hard to stand on it without falling. If
-  moving, then $J\neq0$ needs to be constant, including in direction: it
-  gets easier to ride without falling because to fall the direction of
-  the angular momentum!
-- ballerina: a spinning ballerina closes their arms, this decreases
-  $\mathbf{r}$, so to keep the angular momentum constant, the velocity
-  $\mathbf{v}$ has to increase.
-- Earth's rotation: this carries angular momentum too, which is
-  conserved. In absence of any perturbation, Earth would continue to
-  rotate with the same $\mathbf{r}$ and $\mathbf{p}$ around the Sun
-  (same for the Moon around the Earth, other planets, etc.)
-
-*** 3^{rd} Kepler law
-We can understand the 3^{rd} Kepler's law as a consequence of angular
-momentum conservation: if the orbit is elliptic, then the distance
-planet-Sun is varying along the orbit, $\mathrm{r} \equiv \mathrm{r}(t)$.
-To keep $\mathrm{J} = \mathrm{r}\times\mathrm{p}$ constant then, also the
-momentum $\mathrm{p}\equiv\mathrm{p}(t)$. Since $\mathrm{p}=m\mathrm{v}$,
-and since the $m$ of the planet does not change year-by-year, then the
-velocity $\mathrm{v}\equiv\mathrm{v}(t)$: the orbital velocity of the
-planet cannot be constant!
-
-Specifically, from the conservation of $\mathrm{J}$ one finds that
-when $\mathrm{r}$ is smaller (at pericenter, closer to the star), then
-$\mathrm{v}$ needs to be larger: planets pass faster at their closest
-point to the Sun, and spend more time farther away.
-
-Note that Kepler's 3^{rd} law already /described/ this empirically, but
-conservation of angular momentum provides the theoretical basis to
-understand this observed phenomenon.
-
-** Conservation of energy
-This is a consequence of the symmetry of space-time for temporal
-translation (yesterday is the same as today).
-
-Energy is by definition the capacity of a system to /do work/, where
-/work/ is the product of a force $F$ times a displacement $d$:
-
-#+BEGIN_LATEX
-\begin{equation}
-W = \mathbf{F}\cdot\mathbf{d}
-\end{equation}
-#+END_LATEX
-
-Since this is a dot-product, it produces from two vectors (force and
-displacement) a scalar. Energy is also a scalar, and it can come in
-various forms
-
-*** Kinetic
-
-$E_{kin} = \frac{1}{2}mv^{2}$
-
-*** Thermal
-Thermal energy is a form of kinetic energy due to the random agitation
-of constituents (e.g., molecules of a gas).
-$E_{th} = k_{b}T$
-
-What distinguishes the "thermal" energy is the randomness of the
-motion, as opposed to the ordered motion of a system: for example,
-throwing a ball in a direction causes an "ordered" global motion of
-each molecule of the ball in that direction (by throwing you gave a
-global kinetic energy and momentum to the ball), but every molecule is
-also wiggling in a random direction, often much "faster" than the
-global velocity, but leading to a very small displacement before
-molecules "bump" into each other and change their (random) direction
-of motion.
-
-To calculate the "thermal velocity" (the random component of the
-velocity due to thermal motion), see [[https://calculator.academy/thermal-velocity-calculator/][this online tool]]. for example air
-is mostly (\sim70%) made of nitrogen molecules $\mathrm{N}_{2}$, made of two
-nitrogen atoms, each having a mass of $\sim14$ atomic units (7 protons +
-7 neutrons), so the molecule has a mass $\sim28$ atomic units, or in
-other units, 4.651734\times10^{−26} kg. At a room temperature of 300K, this
-corresponds to random velocities of the air of 516 m/s!
-
-*N.B.*: the *temperature* measures the /average/ kinetic energy of particles
-in a system due to their random motion. The thermal energy measures
-/total/ energy of a system due to this, which also depends on the
-density of he system (think of putting your hand in an oven or in a
-pot of boiling water: the over is hotter, but the boiling water is
-denser and thus has a higher thermal energy).
-
-*** Radiative
-Energy in the radiation field, i.e., carried by the light (photons)
-
-$E_{rad}=\frac{1}{3}a T^{4}$
-
-*** Potential
-It comes in many form, depending on the kind of process that can
-release it (e.g., transform it into kinetic energy), e.g. chemical
-potential energy for an explosive.
-
-For gravitational potential energy in a constant gravity $g$ (e.g. on
-Earth $g \simeq 10\mathrm{m s^{-2}^{}}$): $E_{pot }= mgh$
-
-*** Binding energy
-The amount of energy you have to provide to a system for breaking it
-into its component and pull them apart at infinity, or in other words
-the amount of energy that had to be spent to assemble it. This concept
-is important because often astrophysical processes are powered by
-breaking objects and releasing this energy (e.g., the explosion of a
-star!), or viceversa a system /loses/ energy storing it into the binding
-energy of something being assembled.
-
-*** Rest-energy
-
-$E=m c^{2}$
-
-*N.B.:* In reality the formula is $E=m\gamma c^{2}$ where $\gamma=1/\sqrt{1-v^{2}/c^{2}}$
-and $v$ is the velocity of the object of mass $m$ in the current
-reference frame.
-
-** Energy transforms from one form or the other
-
-#+CAPTION: Energy can transform from one form to another, but the total is conserved. In this example the kinetic and potential energy of the ball can transform into one-another along the path. Note that the zero-point for the potential energy is arbitrary.
-[[file:images/potential_vs_kinetics.png]]
