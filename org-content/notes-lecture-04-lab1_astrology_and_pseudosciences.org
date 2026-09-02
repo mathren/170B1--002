@@ -237,18 +237,18 @@ superior).
 {{{blank(\textwidth)}}}
 
 
-# ** Summary table
+** Summary table
 
-# |--------------------------------------------------------------------|
-# | *Science*                                                            |
-# |--------------------------------------------------------------------|
-# | based on objective quantitative observations                       |
-# | makes quantitative and testable predictions                        |
-# | Prefers simple explanations exclusively based on natural phenomena |
-# |--------------------------------------------------------------------|
-# | *Pseudoscience*                                                      |
-# |--------------------------------------------------------------------|
-# | not necessarily based on /objective/ or /quantitative/ observations    |
-# | makes vague predictions adaptable to many outcomes                 |
-# | does not change if new evidence emerges                            |
-# |--------------------------------------------------------------------|
+|--------------------------------------------------------------------|
+| *Science*                                                            |
+|--------------------------------------------------------------------|
+| based on objective quantitative observations                       |
+| makes quantitative and testable predictions                        |
+| Prefers simple explanations exclusively based on natural phenomena |
+|--------------------------------------------------------------------|
+| *Pseudoscience*                                                      |
+|--------------------------------------------------------------------|
+| not necessarily based on /objective/ or /quantitative/ observations    |
+| makes vague predictions adaptable to many outcomes                 |
+| does not change if new evidence emerges                            |
+|--------------------------------------------------------------------|
