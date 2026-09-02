@@ -70,9 +70,10 @@ experiment to test if one can explain the other.
 
 *** Step 2: Suggest an hypothesis
 An hypothesis here is just a "guess", typically educated by your
-existing knowledge. In this case we can make two opposite hypothesis:
-/The positions of the sun, moon, planets, and other astronomical
-objects at the time of one’s birth/
+existing knowledge -- this will be your "working hypothesis", which
+you will put to the test. In this case we can make two opposite hypothesis: /The
+positions of the sun, moon, planets, and other astronomical objects at
+the time of one’s birth/
 
 - [ ] does (= astrology works)
 - [ ] does *not* (=astrology does *not* work)
