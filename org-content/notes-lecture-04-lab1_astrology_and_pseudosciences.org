@@ -7,7 +7,7 @@
 #+MACRO: blank @@latex:\noindent\rule{$1}{0.4pt}@@
 
 #+BEGIN_EXPORT html
-<p><a href="./notes-lecture-04-lab1_astrology_and_pseudoscience.pdf">Printable version</a></p>
+<p><a href="../org-content/notes-lecture-04-lab1_astrology_and_pseudoscience.pdf">Printable version</a></p>
 #+END_EXPORT
 
 
