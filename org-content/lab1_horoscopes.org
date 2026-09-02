@@ -16,3 +16,7 @@ to identify each sign by the predictions (tested yesterday).
 - [[./horoscope_source1.org][Source 1]]
 - [[./horoscope_source2.org][Source 2]]
 - [[./horoscope_source3.org][Source 3]]
+
+** Keys
+
+Find [[./horoscope_keys.org][here]] the signs corresponding to each number for each of the sources above.
