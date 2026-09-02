@@ -4,22 +4,62 @@
 #+PREVIOUS_PAGE: lab1_horoscopes.org
 #+NEXT_PAGE: lab1_horoscopes.org
 
-|----------+-------------+----------+-------------+----+-------------|
-| Source 1               | Source 2               |    Source 3      |
-|----------+-------------+----------+-------------+----+-------------|
-|        # | Sign        |        # | Sign        |  # | Sign        |
-|----------+-------------+----------+-------------+----+-------------|
-|        1 | Scorpio     |        1 | Capricorn   |  1 | Scorpio     |
-|        2 | Virgo       |        2 | Taurus      |  2 | Aquarius    |
-|        3 | Gemini      |        3 | Gemini      |  3 | Leo         |
-|        4 | Cancer      |        4 | Pisces      |  4 | Cancer      |
-|        5 | Leo         |        5 | Leo         |  5 | Gemini      |
-|        6 | Libra       |        6 | Libra       |  6 | Libra       |
-|        7 | Taurus      |        7 | Virgo       |  7 | Virgo       |
-|        8 | Aries       |        8 | Sagittarius |  8 | Pisces      |
-|        9 | Sagittarius |        9 | Aries       |  9 | Sagittarius |
-|       10 | Capricorn   |       10 | Scorpio     | 10 | Capricorn   |
-|       11 | Aquarius    |       11 | Aquarius    | 11 | Taurus      |
-|       12 | Pisces      |       12 | Cancer      | 12 | Aries       |
-|          |             |          |             |    |             |
-|----------+-------------+----------+-------------+----+-------------|
+* Number \leftrightarrow Sign mapping
+
+** Source 1
+
+|----+-------------|
+|  # | Sign        |
+|----+-------------|
+|  1 | Scorpio     |
+|  2 | Virgo       |
+|  3 | Gemini      |
+|  4 | Cancer      |
+|  5 | Leo         |
+|  6 | Libra       |
+|  7 | Taurus      |
+|  8 | Aries       |
+|  9 | Sagittarius |
+| 10 | Capricorn   |
+| 11 | Aquarius    |
+| 12 | Pisces      |
+|----+-------------|
+
+** Source 2
+
+|----+-------------|
+|  # | Sign        |
+|----+-------------|
+|  1 | Capricorn   |
+|  2 | Taurus      |
+|  3 | Gemini      |
+|  4 | Pisces      |
+|  5 | Leo         |
+|  6 | Libra       |
+|  7 | Virgo       |
+|  8 | Sagittarius |
+|  9 | Aries       |
+| 10 | Scorpio     |
+| 11 | Aquarius    |
+| 12 | Cancer      |
+|----+-------------|
+
+** Source 3
+
+
+|----+-------------|
+|  # | Sign        |
+|----+-------------|
+|  1 | Scorpio     |
+|  2 | Aquarius    |
+|  3 | Leo         |
+|  4 | Cancer      |
+|  5 | Gemini      |
+|  6 | Libra       |
+|  7 | Virgo       |
+|  8 | Pisces      |
+|  9 | Sagittarius |
+| 10 | Capricorn   |
+| 11 | Taurus      |
+| 12 | Aries       |
+|----+-------------|
