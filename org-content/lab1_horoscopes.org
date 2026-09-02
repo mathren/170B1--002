@@ -19,4 +19,5 @@ to identify each sign by the predictions (tested yesterday).
 
 ** Keys
 
-Find [[./horoscope_keys.org][here]] the signs corresponding to each number for each of the sources above.
+At the end of this lecture, find [[./horoscope_keys.org][here]] the signs corresponding to each
+number for each of the sources above.
