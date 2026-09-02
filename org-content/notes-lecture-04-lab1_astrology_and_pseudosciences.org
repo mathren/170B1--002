@@ -132,8 +132,8 @@ Sign 1: {{{blank(1cm)}}} Sign 2: {{{blank(1cm)}}} Sign 3: {{{blank(1cm)}}}
 
 How many of the horoscopes did you identify correctly? {{{blank(1cm)}}}
 
-Now, we will collect data from the entire class. Please add your result to the Top Hat poll
-and copy results for the full class below.
+Now, we will collect data from the entire class. Please add your
+result to the Top Hat poll and copy results for the full class below.
 Percentage of students who correctly identified:
 
 0 horoscopes: {{{blank(1cm)}}} 1 horoscope: {{{blank(1cm)}}} 2
