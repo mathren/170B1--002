@@ -148,7 +148,7 @@ course not – it is possible to pick the correct horoscope by chance.
 We can compute the probability that you chose correctly by pure chance
 any number of times using the [[https://en.wikipedia.org/wiki/Binomial_distribution][Binomial Distribution]]: the probability
 ($P$) for $k$ successes from $N$ trials where the probability of
-success is $p$ is given by:
+success is $p$ is given by
 #+begin_equation
 \begin{equation}
 P(k, N, p) = \frac{N!}{k!(N-k)!} p^{k} (1-p)^{n-k} \ \ ,
