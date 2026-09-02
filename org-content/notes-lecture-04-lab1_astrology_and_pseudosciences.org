@@ -152,7 +152,7 @@ any number of times using the [[https://en.wikipedia.org/wiki/Binomial_distribut
 success is $p$ is given by
 #+begin_equation
 \begin{equation}
-P(k, N, p) = \frac{N!}{k!(N-k)!} p^{k} (1-p)^{n-k} \ \ ,
+P(k, N, p) = \frac{N!}{k!(N-k)!} p^{k} (1-p)^{N-k} \ \ ,
 \end{equation}
 #+end_equation
 where that exclamation point $!$ indicates "factorial", that is is the
