@@ -33,6 +33,7 @@ the distinction as you navigate today’s world? /Discuss with your
 classmates and briefly note your initial thoughts on this topic/. How
 would you explain the difference between science and pseudoscience to
 a friend? (max 4 lines)
+
 {{{blank(\textwidth)}}}
 {{{blank(\textwidth)}}}
 {{{blank(\textwidth)}}}
@@ -200,7 +201,12 @@ theories are "just theories".
 
 Can you think of a modern instance in which people have incorrectly
 argued that a scientific theory is “just a theory” with no more
-validity than an alternative belief? (max 4 lines) _______
+validity than an alternative belief? (max 4 lines)
+
+{{{blank(\textwidth)}}}
+{{{blank(\textwidth)}}}
+{{{blank(\textwidth)}}}
+{{{blank(\textwidth)}}}
 
 ** Pseudoscience
 The term ‘pseudoscience’ refers to any belief, claim, practice, etc.
@@ -231,18 +237,18 @@ superior).
 {{{blank(\textwidth)}}}
 
 
-** Summary table
+# ** Summary table
 
-|--------------------------------------------------------------------|
-| *Science*                                                            |
-|--------------------------------------------------------------------|
-| based on objective quantitative observations                       |
-| makes quantitative and testable predictions                        |
-| Prefers simple explanations exclusively based on natural phenomena |
-|--------------------------------------------------------------------|
-| *Pseudoscience*                                                      |
-|--------------------------------------------------------------------|
-| not necessarily based on /objective/ or /quantitative/ observations    |
-| makes vague predictions adaptable to many outcomes                 |
-| does not change if new evidence emerges                            |
-|--------------------------------------------------------------------|
+# |--------------------------------------------------------------------|
+# | *Science*                                                            |
+# |--------------------------------------------------------------------|
+# | based on objective quantitative observations                       |
+# | makes quantitative and testable predictions                        |
+# | Prefers simple explanations exclusively based on natural phenomena |
+# |--------------------------------------------------------------------|
+# | *Pseudoscience*                                                      |
+# |--------------------------------------------------------------------|
+# | not necessarily based on /objective/ or /quantitative/ observations    |
+# | makes vague predictions adaptable to many outcomes                 |
+# | does not change if new evidence emerges                            |
+# |--------------------------------------------------------------------|
