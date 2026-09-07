@@ -1,0 +1,7 @@
+#+title: ASTR170 Light & Matter
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: notes-lecture-06-gravity-motion.org
+#+NEXT_PAGE: notes-lecture-08
+
+*Reading*: Chapter 5

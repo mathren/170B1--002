@@ -2,13 +2,14 @@
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-05-gravity-motion.org
-#+NEXT_PAGE: notes-lecture-07.org
+#+NEXT_PAGE: notes-lecture-07-light-matter.org
 
 *Reading:* Chapter 4
 
 * TODO Recap
 
 Top hat questions.
+
 
 * Example: dynamics of falling objects
 
@@ -298,7 +299,6 @@ reference frame.
 
 * Orbital motion
 
-
 ** TODO Kepler laws recap
 
 ** Center of mass
@@ -368,6 +368,7 @@ $v_{\rm esc} = \sqrt{\frac{2GM_{\rm Earth}}{R_{\rm Earth}}} \simeq 11 \,\mathrm{
 
 We have used implicitly Newton's laws in writing $E_{\rm pot}=-GMm/r$.
 
+
 ** What if I'm not that fast? Bound orbits
 
 #+CAPTION: Bound orbits correspond to continuously falling towards the central object and "missing" because of the "lateral" velocity component (which gravity does not act upon). On a satellite, you would fall at the same "rate" and float next to it.
@@ -375,3 +376,160 @@ We have used implicitly Newton's laws in writing $E_{\rm pot}=-GMm/r$.
 
 
 * Tides
+
+When considering the effect of gravity across an /extended/ mass (i.e.,
+whose size is not negligible compared to the size of the system), we
+need to consider *tides due to the difference in gravitational forces
+across an extended body*.
+
+#+CAPTION: The Earth-Moon system is short separation ($a\sim 60R_{\rm Earth}$) compared to the size of the bodies, and tides are non-negligible.
+[[file:images/tides_earth_moon.png]]
+
+
+*N.B.:* Tides are /not/ another fundamental force, but a manifestation of
+the (vectorial) difference between the gravitational field across
+points of an extended object.
+
+Consider the simplest case of a binary system with masses $M$ and $m$
+at a separation $r$. For simplicity, let's assume $M$ to be a point
+mass so we don't have to deal with its structure.
+
+The gravitational force acting between the two bodies is
+#+begin_latex
+\begin{equation}\label{eq:newtonian_grav}
+\mathbf{F}_{\rm grav} = -\frac{GMm}{r^{2}}\mathbf{\hat{r}} \ \ .
+\end{equation}
+#+end_latex
+If the star $m$ has a radius $R_{\star}$, there is a difference in the
+gravitational force across the side facing the companion and the one
+facing away, hence a tidal field
+#+begin_latex
+\begin{equation}\label{eq:tide_Def}
+\mathbf{T}(\mathbf{r}) = \mathbf{F}_{\rm grav}(\mathbf{r}) - \mathbf{F}_{\rm grav}(\mathbf{r}+R_{\star}\mathbf{\hat{r}}) = -GMm\left(\frac{1}{r^{2}}-\frac{1}{(\mathbf{r}+R_{\star}\mathbf{\hat{r}})^{2}}\right)\mathbf{\hat{r}} \ \ .
+\end{equation}
+#+end_latex
+If the stellar radius is much smaller than the separation ($R_{\star}\ll r$,
+but still non-negligible), we can Taylor expand the parenthesis to
+obtain:
+#+begin_latex
+\begin{equation}
+\left(\frac{1}{r^{2}}-\frac{1}{(\mathbf{r}+R_{\star}\mathbf{\hat{r}})^{2}}\right) \simeq \frac{2R_{\star}}{r^{3}} \ \ ,
+\end{equation}
+#+end_latex
+and thus:
+#+begin_latex
+\begin{equation}
+\mathbf{T}(\mathbf{r}) = - \frac{2GMmR_{\star}}{r^{3}}\mathbf{\hat{r}} \propto \frac{1}{r^{3}} \ \ .
+\end{equation}
+#+end_latex
+To first order in $R_{\star}/r$, the tidal forces resulting from differences
+in the gravitational field scale like $\propto r^{-3}$,
+meaning the tidal field drops /faster/ than the gravitational field $\propto
+r^{-2}$. For wide systems tides are usually negligible (although this
+depends also on the masses and radii). Viceversa, for very close
+binaries, tides can be an important perturbation.
+
+Note also how the tidal force is directed along the separation between
+the two bodies.
+
+** Tidal deformation
+As a result of tidal forces, a body (e.g., the Earth) will be
+*deformed*, as shown in the figure above. The tidal "bulge" forms along
+the Earth-Moon orbital plane, and follows the Moon's orbital motion
+($P\sim$ month).
+
+Because fluids are more easily deformed than solid, the tidal bulge is
+bigger in the oceans, while the rocky-land moves less. Every day, the
+rotation of the Earth ($P\sim$ day) makes the rock "plow through" the
+oceanic bulges, giving high and low tide.
+
+Since this comes from the /combination/ of the Moon's month-long orbit
+and the Earth rotation, each point on Earth comes back under the same
+point on the Moon after 24h+ offset due to orbital motion.
+These two equations describe how the angle of a point on the surface
+of the Earth and the Moon's angle evolve in time:
+#+begin_latex
+\begin{equation}
+\varphi_{E} = \omega_{E} t \ \ , \\
+\varphi_{M} = \omega_{M} t \ \ , \\
+\end{equation}
+#+end_latex
+
+A point on Earth is below the moon when these two angles differ by an
+integer multiple of $2\pi$:
+#+begin_latex
+\begin{equation}
+\varphi_{E} = \varphi_{M} + 2k\pi
+\end{equation}
+#+end_latex
+
+Substituting $\omega_{i}= 2\pi/P_{i}$ we obtain:
+#+begin_latex
+\begin{equation}
+2\pi t (\frac{1}{P_{E}}-\frac{1}{P_{M}}) = 2k\pi \Rightarrow t = k\frac{P_{M}P_{E}}{P_{M}+P_{E}} \ \ ,
+\end{equation}
+#+end_latex
+
+So the minimum time $t$ after which a point on Earth returns exactly
+under the Moon is for $k=1$ ($k=0$ is the starting time!), and
+plugging in $P_{M}=29.5$ days and $P_{E}=24$ h one gets t \simeq 24h 50m. Since
+this corresponds to a full rotation, that carries that point through
+both sides of the tidal bulge, it corresponds to a cycle of 2 low and
+2 high tides: tide cycles have a period of 12h 25m.
+
+*N.B.:* in this discussion we are neglecting the Sun's gravity! Because
+of the Sun, the periodicity of the tides is not perfectly regular.
+Other effects that matter are the local topology that modulates the
+flow of water (affecting speed and height of a tide).
+
+
+#+CAPTION: Tide height forecast for Santa Barbara (CA), from [[https://www.tide-forecast.com][tide-forecast.com]].
+[[file:images/tides-SB.png]]
+
+
+** Misalignment of the tidal bulge
+
+So far we have thought about the Earth as a ball of rock and a watery
+bulgy that move relative to each other. But in reality, there will be
+friction between these two, which will slow down the motion.
+
+Specifically, the friction will slow the motion of the lightest and
+more mobile component: the watery bulge will be dragged *ahead* of the
+Earth-Moon line by the fast rotation.
+
+This means it will always precede the Moon, which drags it back. This
+interaction slowly takes angular momentum away from the Earth rotation
+and gives it through the Moon via torques due to the
+gravitational/tidal forces and slowly *increases* the angular momentum
+of the Moon, meaning widens its orbit.
+
+#+CAPTION: Because of Earth's rotation not being synchronized with the Moon's orbital period, the tidal bulge is "pulled ahead" of the Moon's orbit.
+[[file:images/tidal_bulge_lag.png]]
+
+*N.B.:* If the Earth's rotation were /slower/ than the orbital period of
+ the Moon, the bulge would lag, which would drain angular momentum
+ from the orbital motion and transform it into rotational angular
+ momentum of the Earth.
+
+This means that earlier on the Moon was /closer/ to Earth and it is
+going away!
+
+*** The equilibrium situation
+This lag/anticipation of the bulge is due to the mismatch between the
+Earth's rotation rate and the Moon's orbital period. If they were
+equal, then the bulge would be perfectly aligned, there would be no
+friction, no torques, and no angular momentum exchanges!
+
+Therefore, the equilibrium condition seems to be to have synchronicity
+$\omega_{\rm rot} \equiv \omega_{\rm orb}$, which is indeed the situation for the Moon:
+tidal equilibrium will evolve towards orbital synchronization!
+
+In fact, in its past probably there was a bulge on the Moon, which
+transferred angular momentum until the Moon reached the tidal
+equilibrium continuum. This happened first for the Moon than the Earth
+because of its lower mass and moment of inertia (which resist change
+in velocity and rotational velocity respectively).
+
+
+*N.B.:* The Earth-Moon system is just an example here. Any binary system
+ with tides will evolve according to these forces to these conditions!
