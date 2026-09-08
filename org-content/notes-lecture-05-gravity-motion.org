@@ -6,10 +6,10 @@
 
 *Reading:* Chapter 4
 
-* TODO Recap
+* Recap w/ Top Hat questions
 
-Top hat: individual questions!
-- [ ] Kepler's laws
+4 questions
+
 
 * Newton's laws of motion
 
