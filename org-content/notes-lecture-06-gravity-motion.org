@@ -61,7 +61,7 @@ so we can /divide/ each side by $m_{\rm skier}$ to make it go away:
 
 #+BEGIN_LATEX
 \begin{equation}
--G{M_{\rm Earth}}{r^{2}} = a_{z} \equiv g \ \ .
+-G\frac{M_{\rm Earth}}{r^{2}} = a_{z} \equiv g \ \ .
 \end{equation}
 #+END_LATEX
 
