@@ -242,7 +242,8 @@ A force is, by definition, the change in momentum of an object.
 \mathbf{F} = \frac{d\mathbf{p}}{dt} = \frac{d(m\mathbf{v})}{dt} \ \ ,
 \end{equation}
 #+END_LATEX
-If an object has a constant mass $m$, then
+where $m$ is the /inertial/ mass, that is the "resistance to changes in
+velocity". If an object has a constant mass $m$, then
 #+BEGIN_LATEX
 \begin{equation}
 \frac{d(m\mathbf{v})}{dt} = m \frac{d\mathbf{v}}{dt} = m \mathbf{a}\ \ ,
