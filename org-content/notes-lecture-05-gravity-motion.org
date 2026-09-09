@@ -420,7 +420,8 @@ and extending the observations of (..., Tycho Brahe,) Kepler.
 
 *** Conical orbits
 For instance, Kepler correctly realized that the orbit of Mars are
-/ellipses/ with the Sun occupying a focus.
+/ellipses/ with the Sun occupying a focus giving up on the idealized
+symmetry of a circular orbit.
 
 Solving the equations of motion for two point masses (representing,
 e.g., Sun and Mars) interacting just through gravity according to
@@ -435,7 +436,6 @@ by Kepler: the solution of the /two body problem/!
 
 Elliptical orbits are just one of the possibilities, which are in
 general all /conic section/:
-
 #+DOWNLOADED: screenshot @ 2026-08-27 09:21:20
 [[file:images/conic.png]]
 
@@ -443,14 +443,19 @@ general all /conic section/:
   zero eccentricity, $e=0$, that is a circle)
 - increasing the orbital energy, orbits become /parabolic/, meaning they
   are open: an object on a parabolic orbit passes by the Sun once and
-  never returns (e.g., some comets)
+  never returns (e.g., some comets). *N.B.:* The 2^{nd} Kepler law still
+  applies: when the object is closer it moves faster so that its
+  radius to the Sun spans equal areas in equal times.
 - increasing the energy even further, the orbits become hyperbolae,
-  which are also open curves (no return). For example, [][Omuamua],
+  which are also open curves (no return). For example, [[https://en.wikipedia.org/wiki/1I/%CA%BBOumuamua]['Omuamua]],
   the first /interstellar/ object observed passing through the solar
   system was on an hyperbolic orbit. *N.B.:* Especially in the debate on
   Omuamua's orbit, factors /other/ than gravity play a role (e.g., the
   loss of mass by the object due to the Sun heating it up and causing
   evaporation)
+
+#+CAPTION: Depiction of the orbit of the interstellar object 'Omuamua through the Solar system in late 2017. This is a hyperbolic orbit that will /not/ lead to a return of this object.
+[[./images/omuamua_orbit.png]]
 
 This is a perfect example of /scientific progress/: the theoretical
 /update/ formulated by Newton /explains and extends/ the empirical
