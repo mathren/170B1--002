@@ -6,10 +6,24 @@
 
 *Reading:* Chapter 4
 
+Last time, we have seen how we went from a prevalently geocentric view
+of the Universe (which requires special treatment of the "planets" but
+naturally explains the lack of yearly parallax of the stars) to a
+helio-centric view. Specifically, Kepler, based on the observations
+done by Tycho Brahe's group, enunciated /empirical laws/ that
+mathematically describe the orbit of planets. These were successfully
+tested on predicting astronomical events (e.g., transit of Mercury in
+front of the Sun), but did not provide any reason /why/ the planets'
+orbit are in this way.
+
+Today, we are going to follow the next conceptual steps, with the
+seminal contributions of Galileo and Newton, and see how the
+development of "classical mechanics" brings an explanation for the
+observations and following empirical laws of Kepler.
+
 * Recap w/ Top Hat questions
 
 4 questions
-
 
 * Newton's laws of motion
 
@@ -162,7 +176,7 @@ your weight would be lower.
 
 To be more precise, there is a relationship between the two. The
 weight force that you feel on Earth is $F_{g} = \frac{m M_{\rm
-Earth}/R_{Earth}^{}^{2}$ (as we will see) where $m$ is your the /gravitational
+Earth}}/R_{Earth}^{2}$ (as we will see) where $m$ is your the /gravitational
 mass/, which /is/ equal to the /inertial mass/. The fact that the two
 coincide to the best experimental precision available for the past
 400+ years is non-trivial, but happens to appear true as far as we can
@@ -314,7 +328,6 @@ stop.
 The third law explains also why rockets fly: they push out
 exhaust gas, which in turns pushes the rockets up.
 #+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/zctTKdQcmVA?si=XT_vT9nEjQxw-k5_&amp;start=54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 * Universal law of Gravitation
 :Quote:

@@ -4,3 +4,5 @@
 *.aux
 *.bib
 *.synctex.gz
+*.log
+auto/*
