@@ -88,7 +88,8 @@ for example, a *vector* cannot be equal or summed to a /scalar/.
 dimensional consistency as $p^{2}\sim a^{3}$, which is the correct /scaling/ (as
 in the powers at the exponents are correct), but holds only measuring
 $a$ in au and $p$ in years. The generally correct form is $(2\pi)^{2}a^{3}/p^{2}
-= G(m_{1}+m_{2})$.
+= G(m_{1}+m_{2})$. However, since both $p$ and $a$ are scalar quantities, it
+is still formally consistent from this point of view.
 
 ** Galilean invariance
 While it is easy to "feel" an /acceleration/ (think of an elevator
@@ -110,15 +111,10 @@ This is the concept of /Galilean invariance/ which Galileo argued for
 This is the realization that allowed to bypass a lot of arguments
 against the motion of the Earth around the Sun.
 
-The observations by Galileo and following experimental tests by his
-students and successors were later formalized into the first law of
-motion by Newton: /an object keeps its velocity unless something
-changes it/.
-
-Conceptually, Galilean invariance is more profound than just a
-statement about velocity remaining constant unless something acts. It
-establishes that /the physics is the same in every inertial reference
-frame/.
+Conceptually, Galilean invariance is more profound
+than just a statement about velocity remaining constant unless
+something acts. It establishes that /the physics is the same in every
+inertial reference frame/.
 
 A reference frame is the coordinate system w.r.t. which we measure the
 positions and velocities (you decide an origin and the $x, y, z$
@@ -129,12 +125,16 @@ accelerating, /observe the same phenomena/.
 Consider an object moving. This statement only makes sense if we
 imagine it is moving w.r.t. some "observer" that is not moving w.r.t.
 to themselves. But in the frame /of/ the object moving, the observer is
-the one moving in the opposite direction.
-
-/Both/ have to see the same physics. If there is nothing accelerating
-the object in its own frame (where it is still), then there must be
+the one moving in the opposite direction (motion is /relative/). /Both/
+have to see the same physics. If there is nothing accelerating the
+object in its own frame (where it is still), then there must be
 nothing accelerating the object in the frame of the observer: the
 object has to keep the velocity it has!
+
+The observations by Galileo and following experimental tests by his
+students and successors were later formalized into the first law of
+motion by Newton: /an object keeps its velocity unless something
+changes it/.
 
 *** Example: riding a car
 
@@ -159,7 +159,7 @@ concepts!
 
 ** From kinematics to dynamics
 The quantities introduced above only /describe/ motion (/kinematics),
-without /explaining/ its causes, which is the task of the subfield of
+without explaining/ its causes, which is the task of the subfield of
 physics called /dynamics/.
 
 Let's first introduce some more key quantities and see what is the
