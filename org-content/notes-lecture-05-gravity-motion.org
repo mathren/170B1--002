@@ -70,7 +70,8 @@ Position, velocity, and acceleration describe the /kinematics/ of
 objects, that is their position and how it changes in time.
 
 Mind the /notation/ here:
-- $\mathbf{b}$ in *bold* indicates /vector/ quantities. Think of this as
+- $\mathbf{b}$ in *bold* indicates /vector/ quantities (sometimes also
+  indicated with $\overset{\rightarrow}{b}$ instead). Think of this as
   something that has a direction (e.g., *velocity*,
   $\mathbf{b}=\mathbf{v}$). More in general, it's a mathematical
   object that can be described with an ordered list of numbers (e.g.,
