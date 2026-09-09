@@ -230,6 +230,10 @@ angular momentum should change - direction - by changing the rotation
 plane of the wheels), but you do fall from a still bike ($v=0 \Rightarrow J=0$,
 no angular momentum to conserve).
 
+
+#+CAPTION: Angular momentum conservation is also why a ballerina spins faster when she closes her arms: this reduces the distance to the rotation axis $r$, thus requiring an increase in rotational velocity $v$ to keep $J$ constant.
+[[./images/ballerina.gif]]
+
 *** Force and torque
 A force is, by definition, the change in momentum of an object.
 #+BEGIN_LATEX
