@@ -232,6 +232,7 @@ no angular momentum to conserve).
 
 
 #+CAPTION: Angular momentum conservation is also why a ballerina spins faster when she closes her arms: this reduces the distance to the rotation axis $r$, thus requiring an increase in rotational velocity $v$ to keep $J$ constant.
+#+ATTR_HTML: :width 50%
 [[./images/ballerina.gif]]
 
 *** Force and torque
