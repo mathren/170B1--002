@@ -181,7 +181,7 @@ your weight would be lower.
 
 To be more precise, there is a relationship between the two. The
 weight force that you feel on Earth is $F_{g} = G m M_{\rm
-Earth}/R_{Earth}^{2}$ (as we will see) where $m$ is your the /gravitational
+Earth}/R_{Earth}^{2}$ (as we will see) where $m$ is your /gravitational
 mass/, which /is/ equal to the /inertial mass/. The fact that the two
 coincide to the best experimental precision available for the past
 400+ years is non-trivial, but happens to appear true as far as we can
@@ -189,8 +189,9 @@ probe.
 *** Momentum
 This is a physical quantity that "mixes" kinematic and dynamic
 quantities, and will be central in connecting the two.
-The momentum is the product of an object mass times its velocity, $p =
-m \times v$, which has units [Mxv]=[M L t^{-1}].
+The momentum is the product of an object mass times its velocity, $\mathbf{p} =
+m \times \mathbf{v}$, which has units [M \times v]=[M L t^{-1}]. Because
+$\mathbf{p}\propto\mathbf{v}$ it is also a vector like $\mathbf{v}$.
 
 To understand why it's important, imagine you're crossing a street and
 a bike hits you at a certain speed $v$ vs. a truck hitting you at the
