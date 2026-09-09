@@ -458,6 +458,8 @@ general all /conic section/:
 [[./images/omuamua_orbit.png]]
 
 This is a perfect example of /scientific progress/: the theoretical
-/update/ formulated by Newton /explains and extends/ the empirical
-observations fitted by Kepler and recovers the previous result as a
-particular case (here: bound orbits).
+/update/ formulated by Newton, based on the results of Galileo before
+him, and his contemporaries like Robert Hooke, /explains and extends/
+the empirical observations fitted by Kepler and recovers the previous
+result as a particular case (here: elliptical bound orbits are a
+special case of orbits that are in general conic sections).
