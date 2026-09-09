@@ -56,27 +56,29 @@ Let's start by introducing basic concepts to characterize motion:
   vector, any change of any of the components implies an
   acceleration!). It has the dimensions of a /length divided times
   squared/ [L/t^{2}]
+
 #+CAPTION: Which of these cars is accelerating?
   [[file:images/car_acceleration.png]]
 :Hint:
 $\mathbf{a}\neq0$ as long as there is a change in $\mathbf{v}$, whether
 this change is in speed (how long the vector is), or direction
-(possibly at constant speed, e.g., for a turning object).
+(possibly at constant speed, e.g., for a turning object). A
+"deceleration" is a form of (negative) acceleration too!
 :end:
 
 Position, velocity, and acceleration describe the /kinematics/ of
 objects, that is their position and how it changes in time.
 
 Mind the /notation/ here:
-- $\mathbf{x}$ in *bold* indicates /vector/ quantities. Think of this as
+- $\mathbf{b}$ in *bold* indicates /vector/ quantities. Think of this as
   something that has a direction (e.g., *velocity*,
-  $\mathbf{x}=\mathbf{v}$). More in general, it's a mathematical
+  $\mathbf{b}=\mathbf{v}$). More in general, it's a mathematical
   object that can be described with an ordered list of numbers (e.g.,
   for *velocity*, the speed and two angles to define the direction in
   three-dimensional space)
-- $x$ in $\mathrm{math font}$ or just normal is a /scalar/ quantity,
+- $b$ in $\mathrm{math font}$ or just normal is a /scalar/ quantity,
   something that is entirely described by a number (e.g., a mass,
-  $x=m$, or a time $x=t$).
+  $b=m$, or a time $b=t$).
 For an equation to make sense it also has to be /mathematically/
 consistent (not only /dimensionally/ in terms of the physical units):
 for example, a *vector* cannot be equal or summed to a /scalar/.
