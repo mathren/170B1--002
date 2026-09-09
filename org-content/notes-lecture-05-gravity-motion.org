@@ -199,9 +199,9 @@ same speed $v$. While the speed is the same in both cases, the truck
 has much more mass, and thus, momentum and will hurt you much more!
 *** Angular momentum
 If a body (regardless of its mass) has $v=0$ in some reference frame,
-then it has also zero momentum. But what about a body rotating on
-itself? Even if overall it is not moving, every part of it has a
-velocity and a mass!
+then it has also zero momentum in that frame. But what about a body
+rotating on itself? Even if overall it is not moving, every part of it
+has a velocity and a mass!
 
 We can define an /angular momentum/ usually indicated with $J$ by
 considering the rotation axis of an object. The cross product between
@@ -216,7 +216,9 @@ the total angular momentum:
 #+END_LATEX
 
 This quantity has the dimensions of [M L^{2} t^{-1}], and it is also a
-(pseudo-)vector quantity, perpendicular to the rotation plane.
+(pseudo-)vector quantity constructed from vector quantities
+$\mathbf{r}$ and $\mathbf{p}$. It is perpendicular to the rotation
+plane.
 
 *N.B.:* A "pseudo-vector" is a vector that flips sign when mirrored.
 Angular momentum is because /clockwise/ and /counterclockwise/ depend on
