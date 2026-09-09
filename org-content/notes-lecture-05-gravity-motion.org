@@ -297,7 +297,8 @@ sub- and super-lunar worlds (making the distinction moot), and unify
 1. A body moves at constant velocity unless there is a /net/ force
    applied to it (/Galilean invariance/)
 2. Force is the change of momentum of an object $\mathbf{F}=
-   d\mathbf{p}/dt = m\mathbf{a}$
+   d\mathbf{p}/dt = m\mathbf{a}$ (where the last one holds for $m=$
+   constant)
 3. For each applied force, there is an equal and opposite reaction
    $\mathbf{F}_{1\rightarrow2}\Leftrightarrow \mathbf{F}_{2\rightarrow1}=-\mathbf{F}_{1\rightarrow2}$.
 
