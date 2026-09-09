@@ -401,21 +401,26 @@ and opposite $F_{2} = - F_{1}$: when you jump up, the Earth pulls you down,
 but at the same time you pull up the Earth! Why is it that you move a
 lot, but the Earth barely does?
 
-:Hint:
+:Hint-1:
 Think about the definition of mass as the "resistance of an object to
 change in its velocity". Who has more mass between you and the Earth?
 So given the same (by the third law) force, who will accelerate more?
 :end:
 
-** Connection with Kepler's laws
+:Hint-2:
+If $\mathbf{F} = m\mathbf{a} \Rightarrow \mathbf{a} = \mathbf{F}/m$, for a given
+$\mathbf{F}$, larger $m$ correspond to smaller \mathbf{a}.
+:end:
+
+** Connection with Kepler's laws and their extension
 Kepler's laws are an /empirical/ description of the /kinematics/ of Mars
 and (by extension) the other planets. Newton's theory of gravity gives
 a /dynamical/ explanation of these empirical observed facts, explaining
 and extending the observations of (..., Tycho Brahe,) Kepler.
 
 *** Conical orbits
-For instance, Kepler correctly realized that the orbit of Mars (and by
-extension all planets) are /ellipses/ with the Sun occupying a focus.
+For instance, Kepler correctly realized that the orbit of Mars are
+/ellipses/ with the Sun occupying a focus.
 
 Solving the equations of motion for two point masses (representing,
 e.g., Sun and Mars) interacting just through gravity according to
