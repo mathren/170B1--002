@@ -179,13 +179,6 @@ Inertial mass is the same anywhere in the Universe, while weight would
 depend on where you are: you would have the same mass on the Moon, but
 your weight would be lower.
 
-To be more precise, there is a relationship between the two. The
-weight force that you feel on Earth is $F_{g} = G m M_{\rm
-Earth}/R_{Earth}^{2}$ (as we will see) where $m$ is your /gravitational
-mass/, which /is/ equal to the /inertial mass/. The fact that the two
-coincide to the best experimental precision available for the past
-400+ years is non-trivial, but happens to appear true as far as we can
-probe.
 *** Momentum
 This is a physical quantity that "mixes" kinematic and dynamic
 quantities, and will be central in connecting the two.
@@ -381,10 +374,18 @@ is their distance and $G$ is a constant, which Newton determined
 analyzing the orbital motion of the planets and the Moon, $G=6.67 \times
 10^{-8}$ cm^{3} g^{-1} s^{-2}.
 
+*N.b.:* The masses here are in principle /gravitational/ masses, that is
+how a body interacts through gravity with other bodies. The fact that
+the /gravitational/ and /inertial/ mass coincide to the best experimental
+precision available for the past 400+ years is non-trivial, but
+happens to appear true as far as we can probe, and makes it so that if
+one uses the definition of $\mathbf{F_{1}} = m_{1} \mathbf{a_{1}}$, then $m_{1}$
+cancels out, which /is/ a non-obvious surprise of nature!
+
 This force is directed along $\mathbf{\hat{r}}$ which denotes the line
-connecting $m_{1}$ and $m_{2}$, and decreases with the /square/ of the distance
-$r$: if $m_{1}$ and $m_{2}$ increase their distance by 2\times or 10\times, the
-gravitational force between them decreases by 2^{2}=4\times or (10)^{2}=100\times.
+connecting $m_{1}$ and $m_{2}$, and decreases with the /square/ of the
+distance $r$: if $m_{1}$ and $m_{2}$ increase their distance by 2\times or 10\times,
+the gravitational force between them decreases by 2^{2}=4\times or (10)^{2}=100\times.
 
 #+CAPTION: Schematic of the gravitational attraction between two point masses
 [[./images/NewtonsLawOfUniversalGravitation.svg]]
