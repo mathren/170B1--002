@@ -473,12 +473,24 @@ $v_{\rm esc} = \sqrt{\frac{2GM_{\rm Earth}}{R_{\rm Earth}}} \simeq 11 \,\mathrm{
 
 We have used implicitly Newton's laws in writing $E_{\rm pot}=-GMm/r$.
 
-
 ** What if I'm not that fast? Bound orbits
 
 #+CAPTION: Bound orbits correspond to continuously falling towards the central object and "missing" because of the "lateral" velocity component (which gravity does not act upon). On a satellite, you would fall at the same "rate" and float next to it.
 [[file:images/bound_orbits.png]]
 
+If the velocity is lower than the escape velocity, the balance between
+kinetic and potential energy (which are the two terms in the /total/
+energy conserved) will lead to an orbital configuration where the
+gravity of the planet constantly accelerates the object (changing the
+/direction/ of its velocity), which keeps on "falling" towards the
+planet, but also keeps on missing because of the /tangential/ component
+of the velocity which is /not/ affected by gravity (recall that $F_{g}\propto
+\mathbf{\hat{r}}$)).
+
+On the space station, everything is falling towards Earth constantly,
+so inside the station there is no relative acceleration between
+objects that are falling in the same way, but gravity is definitely
+there to keep the space station in orbit!
 
 * Tides
 
@@ -492,8 +504,8 @@ across an extended body*.
 
 
 *N.B.:* Tides are /not/ another fundamental force, but a manifestation of
-the (vectorial) difference between the gravitational field across
-points of an extended object.
+the (vectorial) difference between the gravitational force field
+across points of an extended object.
 
 Consider the simplest case of a binary system with masses $M$ and $m$
 at a separation $r$. For simplicity, let's assume $M$ to be a point
@@ -505,7 +517,7 @@ The gravitational force acting between the two bodies is
 \mathbf{F}_{\rm grav} = -\frac{GMm}{r^{2}}\mathbf{\hat{r}} \ \ .
 \end{equation}
 #+end_latex
-If the star $m$ has a radius $R_{\star}$, there is a difference in the
+If the star of mass $M$ has a radius $R_{\star}$, there is a difference in the
 gravitational force across the side facing the companion and the one
 facing away, hence a tidal field
 #+begin_latex
@@ -514,7 +526,8 @@ facing away, hence a tidal field
 \end{equation}
 #+end_latex
 If the stellar radius is much smaller than the separation ($R_{\star}\ll r$,
-but still non-negligible), we can Taylor expand the parenthesis to
+but still non-negligible), we can [[https://en.wikipedia.org/wiki/Taylor_series][Taylor expand]] the parenthesis and
+only keep the first non-zero order to
 obtain:
 #+begin_latex
 \begin{equation}
