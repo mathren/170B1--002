@@ -37,3 +37,51 @@ overused buzzword of "multimessenger astrophysics".
 To be able to use the detection of any of these "messengers" to probe
 astrophysics we need to understand how they interact with the matter
 they have encountered from their origin to our detector.
+
+* White light \& Spectrum
+
+#+CAPTION: Pink Floyd's "Dark side of the moon" album cover.
+[[./images/pink_floyd.webp]]
+
+The Sun produces "white light", which is composed of particles that
+cover all energies from 0 to +\infty. Using a prism or a diffraction
+grating (e.g., an old CD where the spacing of the deformations is
+comparable to the wavelength of light), one can decompose white light
+in what we perceive as various colors.
+
+In the case of a rainbow, water droplets suspended in the air act as
+the prism:
+
+#+CAPTION: Double rainbow. The water droplets partly reflect and transmit the white light, and the transmitted light gets deflected a second time, which leads to two rainbows with inverted colors!
+[[./images/double_rainbow.jpg]]
+
+Each "color" of the rainbow corresponds to one of the /dominant/
+frequencies of light produced by the Sun. What we perceive as color is
+typically the /difference in intensity between light at two different
+frequencies/.
+
+
+
+* Light-matter interactions
+Light can interact with matter in several ways. Usually, these
+processes require an understanding of quantum mechanics (which is the
+theoretical framework to study processes at atomic and sub-atomic
+level).
+
+- Emission: matter produces a photon
+- Absorption: matter removes a photon and stores its energy
+- Transmission: matter lets photons through but modifies their
+  velocity and/or frequency
+- Scattering/Reflection: matter changes the direction of a photon (and
+  possibly other properties too)
+
+Typically, the interaction of matter and light depend on the energy of
+the light: the same material can be "transparent" for certain light
+frequencies and "opaque" to other frequencies. As an example: the
+windshield of a car is transparent to /optical/ light (you do need to
+see through it to drive), but it is opaque to UV light (you don't get
+a sunburn inside your car). Viceversa, your suitcase is opaque to
+optical light (you typically can't see inside) but not X-rays
+
+* Color
+Color bases
