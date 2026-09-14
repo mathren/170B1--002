@@ -229,7 +229,7 @@ Conservation of angular momentum examples:
   rotate with the same $\mathbf{r}$ and $\mathbf{p}$ around the Sun
   (same for the Moon around the Earth, other planets, etc.)
 
-*** 3^{rd} Kepler law
+*** 2^{nd} and 3^{rd} Kepler law
 We can understand the 2^{nd} and 3^{rd} Kepler's law as a consequence of angular
 momentum conservation: if the orbit is elliptic, then the distance
 planet-Sun is varying along the orbit, $\mathrm{r} \equiv \mathrm{r}(t)$.
@@ -269,10 +269,15 @@ various forms
 
 $E_{\rm kin} = \frac{1}{2}mv^{2}$
 
+This is a form of energy because one can use the motion (e.g., of
+pistons in an engine, or a turbine in a generator) to do work on a
+system (move a car, generate electricity).
+
 *** Thermal
 Thermal energy is a form of kinetic energy due to the random agitation
-of constituents (e.g., molecules of a gas).
-$E_{\rm th} = k_{b}T$
+of constituents (e.g., molecules of a gas), for a gas $E_{\rm th} = k_{B}T$
+where $K_{B}$ is the Boltzmann's constant, another fundamental constant
+of nature.
 
 What distinguishes the "thermal" energy is the randomness of the
 motion, as opposed to the ordered motion of a system: for example,
