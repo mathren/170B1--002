@@ -466,10 +466,8 @@ So what if we are /not/ at infinity with this energy? $E_{\rm pot} + E_{\rm
 kin} = 0 \Rightarrow E_{\rm kin} = -E_{\rm pot} \rightarrow mv^{2}/2 = GM m/ r$, and $m$ cancels
 out.
 
-/The escape speed does not depend on mass/.
-Sr
-Doing some algebra, and assuming to be on the surface of Earth,
-$r=R_{\rm Earth}$ we get
+/The escape speed does not depend on mass/. Doing some algebra, and
+assuming to be on the surface of Earth, $r=R_{\rm Earth}$ we get
 
 $v_{\rm esc} = \sqrt{\frac{2GM_{\rm Earth}}{R_{\rm Earth}}} \simeq 11 \,\mathrm{km\ s^{-1}}$
 
