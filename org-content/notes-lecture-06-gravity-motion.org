@@ -191,10 +191,9 @@ these directions remains constant. Viceversa, in the $z$ direction the
 gravitational force from Earth acts as a source of momentum,
 increasing the $z$ component $p_{z} = m_{\rm skier} v_{z}$.
 
-
 ** Conservation of angular momentum
 This is a consequence of symmetry of space-time w.r.t. rotations, and
-it is a vector quantity:
+the conserved quantity is also a vector:
 #+Begin_latex
 \begin{equation}
 \mathbf{J} = \mathbf{r}\times \mathbf{p} = \mathbf{r}\times m\mathbf{v}  \ \ ,
