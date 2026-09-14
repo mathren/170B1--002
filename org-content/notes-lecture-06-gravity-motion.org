@@ -485,7 +485,7 @@ gravity of the planet constantly accelerates the object (changing the
 /direction/ of its velocity), which keeps on "falling" towards the
 planet, but also keeps on missing because of the /tangential/ component
 of the velocity which is /not/ affected by gravity (recall that $F_{g}\propto
-\mathbf{\hat{r}}$)).
+\mathbf{\hat{r}}$).
 
 On the space station, everything is falling towards Earth constantly,
 so inside the station there is no relative acceleration between
@@ -541,11 +541,12 @@ and thus:
 \end{equation}
 #+end_latex
 To first order in $R_{\star}/r$, the tidal forces resulting from differences
-in the gravitational field scale like $\propto r^{-3}$,
-meaning the tidal field drops /faster/ than the gravitational field $\propto
-r^{-2}$. For wide systems tides are usually negligible (although this
-depends also on the masses and radii). Viceversa, for very close
-binaries, tides can be an important perturbation.
+in the gravitational field scale like $\propto r^{-3}$, meaning the tidal field
+drops /faster/ than the gravitational field $\propto r^{-2}$. For wide systems
+tides are usually negligible (although this depends also on the masses
+and radii): this makes intuitive sense, since from very far away $r\gg
+R_{\star}$ and thus $r+R_{\star}\simeq r$. Viceversa, for very close binaries, tides can be an
+important perturbation.
 
 Note also how the tidal force is directed along the separation between
 the two bodies.
@@ -611,9 +612,11 @@ So far we have thought about the Earth as a ball of rock and a watery
 bulgy that move relative to each other. But in reality, there will be
 friction between these two, which will slow down the motion.
 
-Specifically, the friction will slow the motion of the lightest and
-more mobile component: the watery bulge will be dragged *ahead* of the
-Earth-Moon line by the fast rotation.
+Specifically, the friction will slow the motion of the lightest
+($\mathbf{a}=\mathbf{F}/m$, smaller $m$ feel more acceleration for a
+given force $\mathbf{F}$) and thus more mobile component: the watery
+bulge will be dragged *ahead* of the Earth-Moon line by the fast
+rotation.
 
 This means it will always precede the Moon, which drags it back. This
 interaction slowly takes angular momentum away from the Earth rotation
