@@ -388,10 +388,10 @@ it's guaranteed we are wrong!):
 
 which is correct.
 
-
 * Orbital motion
-
-** TODO Kepler laws recap
+We can now use these conserved quantities (sometimes referred to as
+/integrals of motion/) to understand orbital mechanics and Kepler's laws
+better.
 
 ** Center of mass
 
@@ -409,6 +409,21 @@ For example, for the Earth+Moon system:
 \mathbf{x}_{\rm c.o.m.} = \frac{M_{\rm Earth}\mathbf{x}_{\rm Earth}+M_{\rm Moon}\mathbf{x}_{\rm Moon}}{M_{\rm Earth}+M_{\rm Moon}}
 \end{equation}
 #+END_LATEX
+
+In the frame of the center of mass, forces between parts of a system
+cannot generate motion because of the 3^{rd} Newton law: every force will
+be balances by an equal and opposite force, both forces apply to parts
+of the system and the total net force is /zero/. Therefore, by the 1^{st}
+law, the velocity cannot change.
+
+In other words, as I walk around the room, the center of mass between
+me and planet Earth is /not/ accelerating. I am accelerating and feeling
+the force, but there is an equal and opposite force on Earth that
+accelerates it in the opposite direction so that the c.o.m. stays put.
+Because $M_{\rm Earth}$ is so much larger than my mass, the displacement
+of Earth is smaller than mine by a factor of my mass divided the mass
+of the Earth, which makes Earth's motion due to my walking completely
+negligible.
 
 *** Center of gravity
 Like mass $m$ is different from weight $F_{\rm grav} = mg$, the center of

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-09-14 Mon 11:21 -->
+<!-- 2026-09-14 Mon 11:28 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Gravity 2/2</title>
@@ -703,17 +703,18 @@ which is correct.
 </div>
 <div id="outline-container-orbital-motion" class="outline-2">
 <h2 id="orbital-motion"><a href="#orbital-motion">Orbital motion</a></h2>
-<div class="outline-text-2" id="text-orbital-motion">
+<div class="outline-text-2" id="text-org-element-31">
+<p>
+We can now use these conserved quantities (sometimes referred to as
+<i>integrals of motion</i>) to understand orbital mechanics and Kepler's laws
+better.
+</p>
 </div>
-<div id="outline-container-kepler-laws-recap" class="outline-3">
-<h3 id="kepler-laws-recap"><a href="#kepler-laws-recap"><span class="todo TODO">TODO</span> Kepler laws recap</a></h3>
-</div>
-
 <div id="outline-container-center-of-mass" class="outline-3">
 <h3 id="center-of-mass"><a href="#center-of-mass">Center of mass</a></h3>
-<div class="outline-text-3" id="text-org-element-31">
+<div class="outline-text-3" id="text-org-element-32">
 
-<figure id="org-element-32">
+<figure id="org-element-33">
 <img src="images/com.png" alt="com.png" width="50%">
 
 <figcaption><span class="figure-number">Figure 7: </span>Center of mass.</figcaption>
@@ -726,16 +727,35 @@ weighted by the mass of each piece. This is the center of mass!
 For example, for the Earth+Moon system:
 </p>
 
-<div class="LATEX" id="org-element-33">
+<div class="LATEX" id="org-element-34">
 \begin{equation}
 \mathbf{x}_{\rm c.o.m.} = \frac{M_{\rm Earth}\mathbf{x}_{\rm Earth}+M_{\rm Moon}\mathbf{x}_{\rm Moon}}{M_{\rm Earth}+M_{\rm Moon}}
 \end{equation}
 
 </div>
+
+<p>
+In the frame of the center of mass, forces between parts of a system
+cannot generate motion because of the 3<sup>rd</sup> Newton law: every force will
+be balances by an equal and opposite force, both forces apply to parts
+of the system and the total net force is <i>zero</i>. Therefore, by the 1<sup>st</sup>
+law, the velocity cannot change.
+</p>
+
+<p>
+In other words, as I walk around the room, the center of mass between
+me and planet Earth is <i>not</i> accelerating. I am accelerating and feeling
+the force, but there is an equal and opposite force on Earth that
+accelerates it in the opposite direction so that the c.o.m. stays put.
+Because \(M_{\rm Earth}\) is so much larger than my mass, the displacement
+of Earth is smaller than mine by a factor of my mass divided the mass
+of the Earth, which makes Earth's motion due to my walking completely
+negligible.
+</p>
 </div>
 <div id="outline-container-center-of-gravity" class="outline-4">
 <h4 id="center-of-gravity"><a href="#center-of-gravity">Center of gravity</a></h4>
-<div class="outline-text-4" id="text-org-element-34">
+<div class="outline-text-4" id="text-org-element-35">
 <p>
 Like mass \(m\) is different from weight \(F_{\rm grav} = mg\), the center of
 mass and the center of gravity are two related but different thing
@@ -761,9 +781,9 @@ gravity would be displaced towards Earth!
 </div>
 <div id="outline-container-escape-velocity" class="outline-3">
 <h3 id="escape-velocity"><a href="#escape-velocity">Escape velocity</a></h3>
-<div class="outline-text-3" id="text-org-element-35">
+<div class="outline-text-3" id="text-org-element-36">
 
-<figure id="org-element-36">
+<figure id="org-element-37">
 <img src="images/escape_v.png" alt="escape_v.png" width="100%">
 
 <figcaption><span class="figure-number">Figure 8: </span>Escape velocity gives the minimum kinetic energy to reach infinity (where the potential energy is zero) and does not depend on mass.</figcaption>
@@ -813,9 +833,9 @@ We have used implicitly Newton's laws in writing \(E_{\rm pot}=-GMm/r\).
 </div>
 <div id="outline-container-what-if-i-m-not-that-fast-bound-orbits" class="outline-3">
 <h3 id="what-if-i-m-not-that-fast-bound-orbits"><a href="#what-if-i-m-not-that-fast-bound-orbits">What if I'm not that fast? Bound orbits</a></h3>
-<div class="outline-text-3" id="text-org-element-37">
+<div class="outline-text-3" id="text-org-element-38">
 
-<figure id="org-element-38">
+<figure id="org-element-39">
 <img src="images/bound_orbits.png" alt="bound_orbits.png" width="100%">
 
 <figcaption><span class="figure-number">Figure 9: </span>Bound orbits correspond to continuously falling towards the central object and "missing" because of the "lateral" velocity component (which gravity does not act upon). On a satellite, you would fall at the same "rate" and float next to it.</figcaption>
@@ -825,7 +845,7 @@ We have used implicitly Newton's laws in writing \(E_{\rm pot}=-GMm/r\).
 </div>
 <div id="outline-container-tides" class="outline-2">
 <h2 id="tides"><a href="#tides">Tides</a></h2>
-<div class="outline-text-2" id="text-org-element-39">
+<div class="outline-text-2" id="text-org-element-40">
 <p>
 When considering the effect of gravity across an <i>extended</i> mass (i.e.,
 whose size is not negligible compared to the size of the system), we
@@ -834,7 +854,7 @@ across an extended body</b>.
 </p>
 
 
-<figure id="org-element-40">
+<figure id="org-element-41">
 <img src="images/tides_earth_moon.png" alt="tides_earth_moon.png" width="100%">
 
 <figcaption><span class="figure-number">Figure 10: </span>The Earth-Moon system is short separation (\(a\sim 60R_{\rm Earth}\)) compared to the size of the bodies, and tides are non-negligible.</figcaption>
@@ -856,7 +876,7 @@ mass so we don't have to deal with its structure.
 <p>
 The gravitational force acting between the two bodies is
 </p>
-<div class="latex" id="org-element-41">
+<div class="latex" id="org-element-42">
 \begin{equation}\label{eq:newtonian_grav}
 \mathbf{F}_{\rm grav} = -\frac{GMm}{r^{2}}\mathbf{\hat{r}} \ \ .
 \end{equation}
@@ -867,7 +887,7 @@ If the star \(m\) has a radius \(R_{\star}\), there is a difference in the
 gravitational force across the side facing the companion and the one
 facing away, hence a tidal field
 </p>
-<div class="latex" id="org-element-42">
+<div class="latex" id="org-element-43">
 \begin{equation}\label{eq:tide_Def}
 \mathbf{T}(\mathbf{r}) = \mathbf{F}_{\rm grav}(\mathbf{r}) - \mathbf{F}_{\rm grav}(\mathbf{r}+R_{\star}\mathbf{\hat{r}}) = -GMm\left(\frac{1}{r^{2}}-\frac{1}{(\mathbf{r}+R_{\star}\mathbf{\hat{r}})^{2}}\right)\mathbf{\hat{r}} \ \ .
 \end{equation}
@@ -878,7 +898,7 @@ If the stellar radius is much smaller than the separation (\(R_{\star}\ll r\),
 but still non-negligible), we can Taylor expand the parenthesis to
 obtain:
 </p>
-<div class="latex" id="org-element-43">
+<div class="latex" id="org-element-44">
 \begin{equation}
 \left(\frac{1}{r^{2}}-\frac{1}{(\mathbf{r}+R_{\star}\mathbf{\hat{r}})^{2}}\right) \simeq \frac{2R_{\star}}{r^{3}} \ \ ,
 \end{equation}
@@ -887,7 +907,7 @@ obtain:
 <p>
 and thus:
 </p>
-<div class="latex" id="org-element-44">
+<div class="latex" id="org-element-45">
 \begin{equation}
 \mathbf{T}(\mathbf{r}) = - \frac{2GMmR_{\star}}{r^{3}}\mathbf{\hat{r}} \propto \frac{1}{r^{3}} \ \ .
 \end{equation}
@@ -909,7 +929,7 @@ the two bodies.
 </div>
 <div id="outline-container-tidal-deformation" class="outline-3">
 <h3 id="tidal-deformation"><a href="#tidal-deformation">Tidal deformation</a></h3>
-<div class="outline-text-3" id="text-org-element-45">
+<div class="outline-text-3" id="text-org-element-46">
 <p>
 As a result of tidal forces, a body (e.g., the Earth) will be
 <b>deformed</b>, as shown in the figure above. The tidal "bulge" forms along
@@ -931,7 +951,7 @@ point on the Moon after 24h+ offset due to orbital motion.
 These two equations describe how the angle of a point on the surface
 of the Earth and the Moon's angle evolve in time:
 </p>
-<div class="latex" id="org-element-46">
+<div class="latex" id="org-element-47">
 \begin{equation}
 \varphi_{E} = \omega_{E} t \ \ , \\
 \varphi_{M} = \omega_{M} t \ \ , \\
@@ -943,7 +963,7 @@ of the Earth and the Moon's angle evolve in time:
 A point on Earth is below the moon when these two angles differ by an
 integer multiple of \(2\pi\):
 </p>
-<div class="latex" id="org-element-47">
+<div class="latex" id="org-element-48">
 \begin{equation}
 \varphi_{E} = \varphi_{M} + 2k\pi
 \end{equation}
@@ -953,7 +973,7 @@ integer multiple of \(2\pi\):
 <p>
 Substituting \(\omega_{i}= 2\pi/P_{i}\) we obtain:
 </p>
-<div class="latex" id="org-element-48">
+<div class="latex" id="org-element-49">
 \begin{equation}
 2\pi t (\frac{1}{P_{E}}-\frac{1}{P_{M}}) = 2k\pi \Rightarrow t = k\frac{P_{M}P_{E}}{P_{M}+P_{E}} \ \ ,
 \end{equation}
@@ -978,7 +998,7 @@ flow of water (affecting speed and height of a tide).
 
 
 
-<figure id="org-element-49">
+<figure id="org-element-50">
 <img src="images/tides-SB.png" alt="tides-SB.png" width="100%">
 
 <figcaption><span class="figure-number">Figure 11: </span>Tide height forecast for Santa Barbara (CA), from <a href="https://www.tide-forecast.com">tide-forecast.com</a>.</figcaption>
@@ -987,7 +1007,7 @@ flow of water (affecting speed and height of a tide).
 </div>
 <div id="outline-container-misalignment-of-the-tidal-bulge" class="outline-3">
 <h3 id="misalignment-of-the-tidal-bulge"><a href="#misalignment-of-the-tidal-bulge">Misalignment of the tidal bulge</a></h3>
-<div class="outline-text-3" id="text-org-element-50">
+<div class="outline-text-3" id="text-org-element-51">
 <p>
 So far we have thought about the Earth as a ball of rock and a watery
 bulgy that move relative to each other. But in reality, there will be
@@ -1009,7 +1029,7 @@ of the Moon, meaning widens its orbit.
 </p>
 
 
-<figure id="org-element-51">
+<figure id="org-element-52">
 <img src="images/tidal_bulge_lag.png" alt="tidal_bulge_lag.png" width="100%">
 
 <figcaption><span class="figure-number">Figure 12: </span>Because of Earth's rotation not being synchronized with the Moon's orbital period, the tidal bulge is "pulled ahead" of the Moon's orbit.</figcaption>
@@ -1029,7 +1049,7 @@ going away!
 </div>
 <div id="outline-container-the-equilibrium-situation" class="outline-4">
 <h4 id="the-equilibrium-situation"><a href="#the-equilibrium-situation">The equilibrium situation</a></h4>
-<div class="outline-text-4" id="text-org-element-52">
+<div class="outline-text-4" id="text-org-element-53">
 <p>
 This lag/anticipation of the bulge is due to the mismatch between the
 Earth's rotation rate and the Moon's orbital period. If they were
