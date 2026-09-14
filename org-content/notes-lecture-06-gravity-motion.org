@@ -162,22 +162,35 @@ quantities due to the symmetries of nature!
 
 *N.B.:* What does it mean to be conserved for a quantity $X$? It
 literally means that it does /not/ change (in time or under certain
-transformation), $dX$=0. For an example not involving time: the
+transformation), $dX=0$. For an example not involving time: the
 "shape" of an object is conserved under rotation.
 
 ** Conservation of momentum
 This is a consequence of the symmetry of space-time with translations
-(side-ways motions): the /dynamics/ of a system, what causes its motion,
-does /not/ depend on where you are, you can shift around in any
-direction and observe the same phenomena related to momentum.
+(linear motion in any direction): the /dynamics/ of a system, what
+causes its motion, does /not/ depend on where you are, you can shift
+around in any direction and observe the same phenomena related to
+momentum.
 
-The laws of dynamics follow from this: in absence of an external force
-a body maintains its velocity and its mass, therefore also its
-momentum $\mathbf{p}=m\mathbf{v}$, which is /conserved/ (1^{st} Newton's
-law^{}). And if there is an external force on a body (a source term for
-its /momentum/), there is an equal and opposite force exerted by this
-body on the forcing agent, so that in /total/ the net force on both body
-and agent is zero and the /total/ momentum remains constant (3^{rd} law).
+The laws of dynamics follow from this:
+- in absence of an external force a body maintains its velocity and
+  its mass, therefore also its momentum $\mathbf{p}=m\mathbf{v}$,
+  which is /conserved/ (1^{st} Newton's law)
+- if there is an external force on a body (a source term for
+  its /momentum/, because of the 2^{nd} Newton's law)
+- there is an equal and opposite force exerted by this body on the
+  forcing agent, so that in /total/ the net force on the system made of
+  both body and agent is zero and the /total/ momentum remains constant
+  (3^{rd} law).
+
+The conservation of momentum is also a vector equation: $d
+\mathbf{p}=0 \Rightarrow \Delta p_{x} = \Delta p_{y} = \Delta p_{z} = 0$. In the $x$ and $y$ directions
+in the ski-jumper problem, there is no source of momentum, and the
+mass of the skier is constant, therefore the velocity of the skier in
+these directions remains constant. Viceversa, in the $z$ direction the
+gravitational force from Earth acts as a source of momentum,
+increasing the $z$ component $p_{z} = m_{\rm skier} v_{z}$.
+
 
 ** Conservation of angular momentum
 This is a consequence of symmetry of space-time w.r.t. rotations, and
