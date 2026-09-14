@@ -27,7 +27,8 @@ motions and tides.
 
 $\mathbf{F} = m\mathbf{a}$ is a vector equation. For a physics problem
 in three dimension treated in Cartesian coordinates, this equation is
-equivalent to:
+equivalent to three separate equations (one per each coordinate) that
+each have to hold:
 
 #+BEGIN_LATEX
 \begin{equation}
