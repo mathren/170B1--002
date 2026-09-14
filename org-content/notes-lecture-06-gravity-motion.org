@@ -129,17 +129,14 @@ y(t) = y(t=0) + v_{y}\times t + \frac{1}{2}a_{y} t^{2} \ \ .
 Netwonian's gravity says $F_{\rm grav}\propto r^{-2}$, which means that it is
 non-zero everywhere! Gravity drops off quickly (power -2), but never
 completely. So everywhere one may look there is gravity!
-
-Why do things float "in space" then? Actually not everything floats,
-things in space constantly fall onto each other /because/ there is
-gravity.
-
-What usually people think of is "why do things float in orbit?" For
-example, in the International Space Station:
+Why do things float "in space" then?
 
 #+CAPTION: Astronauts in the space-station floating with fruits. Note how everything else is secured to the walls by some means.
 [[file:images/astronauts.png]]
 
+Actually it is technically not "floating" (which implies a force
+exerted by a fluid canceling out the gravitational pull): things in
+space constantly fall onto each other /because/ there is gravity.
 The reason is that /everything is falling at the same rate towards
 Earth/! The astronauts, the fruits, and the ship itself are all falling
 at the same /rate/ (same acceleration), and thus do not experience an
