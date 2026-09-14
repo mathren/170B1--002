@@ -152,6 +152,10 @@ In my opinion, one of the most beautiful results of theoretical
 physics is due to [[https://en.wikipedia.org/wiki/Emmy_Noether][Emmy Noether]], which states that /for every symmetry
 in nature, there is a corresponding conserved physical quantity/.
 
+#+CAPTION: Emmi Noether, circa 1900-1910
+[[./images/noether.jpg]]
+
+
 Newton's laws are a consequence of the conservation of these physical
 quantities due to the symmetries of nature!
 
