@@ -153,6 +153,7 @@ physics is due to [[https://en.wikipedia.org/wiki/Emmy_Noether][Emmy Noether]], 
 in nature, there is a corresponding conserved physical quantity/.
 
 #+CAPTION: Emmi Noether, circa 1900-1910
+#+ATTR_HTML: :width 50%
 [[./images/noether.jpg]]
 
 
