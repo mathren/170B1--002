@@ -6,10 +6,22 @@
 
 *Reading:* Chapter 4
 
-* TODO Recap
+#+CAPTION: Top Hat participation/quizz link.
+[[file:images/top-hat-06.png]]
 
-Top hat questions.
+Last time, we have briefly introduced some concepts of mechanics
+(covering kinematics and dynamics), to describe how Newton's Universal
+law of gravity /explains/ and /extends/ Kepler's laws.
 
+The Universal law of gravity is the first major step in unifying
+/physics/ and /astronomy/ by stating that the force causing the
+acceleration of falling objects on Earth is the same as the force
+maintaining the planets in orbit.
+
+Today, we will continue expanding on concepts of mechanics, moving
+from 17^{th}/18^{th} century towards the language and formalism of the 19^{th}
+century, and at the end we will use these concepts to discuss orbital
+motions and tides.
 
 * Example: dynamics of falling objects
 
