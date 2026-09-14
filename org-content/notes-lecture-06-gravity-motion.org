@@ -160,10 +160,10 @@ in nature, there is a corresponding conserved physical quantity/.
 Newton's laws are a consequence of the conservation of these physical
 quantities due to the symmetries of nature!
 
-*N.B.:* What does it mean to be conserved for a quantity? It literally
-means that it does /not/ change (in time or under certain
-transformation). For an example not involving time: the "shape" of an
-object is conserved under rotation.
+*N.B.:* What does it mean to be conserved for a quantity $X$? It
+literally means that it does /not/ change (in time or under certain
+transformation), $dX$=0. For an example not involving time: the
+"shape" of an object is conserved under rotation.
 
 ** Conservation of momentum
 This is a consequence of the symmetry of space-time with translations
