@@ -333,17 +333,57 @@ of protons and neutrons in the nuclei, and it can be released by
 fusion or fission (depending on the nucleus).
 
 *** Rest-energy
-
-$E=m c^{2}$
+This is a form of potential energy, in the frame of a body of mass
+$m$, $E_{\rm rest}=m c^{2}$. In Newtonian mechanics this is /never/ released,
+and it is just a constant energy term that any mass $m$ has but cannot
+really use. In relativistic mechanics, when speeds $v\rightarrow c$ approach the
+speed of light, this energy needs to be accounted for as it can change.
 
 *N.B.:* In reality the formula is $E=m\gamma c^{2}$ where $\gamma=1/\sqrt{1-v^{2}/c^{2}}$
 and $v$ is the velocity of the object of mass $m$ in the current
-reference frame.
+reference frame. If we are in the frame of the object, by definition
+its $v=0$ and $\gamma=1$ producing the more famous version of this equation.
 
 ** Energy transforms from one form or the other
 
+The /total/ energy of an isolated system is /constant/. This means we need
+to account for /all/ forms of energy of a system $E_{\rm tot} = E_{\rm
+kin}+E_{\rm pot}+E_{\rm th}+...$, and $E_{\rm tot}$ is /conserved/, but that does
+not mean that each individual term on the right is constant. Instead
+/energy can transform from one form to another/!
+
+Thus, the total energy gives a tool to study a system comparing
+initial and final state (which both need to have the same $E_{\rm tot}$)
+without worrying about the details of the "in between" states.
+
 #+CAPTION: Energy can transform from one form to another, but the total is conserved. In this example the kinetic and potential energy of the ball can transform into one-another along the path. Note that the zero-point for the potential energy is arbitrary.
 [[file:images/potential_vs_kinetics.png]]
+
+*** Reverse example: how high will something reach if I throw it?
+Let's assume an object of mass $m$ starts from height $h=0$ in our
+reference frame. I throw it vertically with an initial velocity
+$\mathbf{v} = (0,0,v_{z})$,
+so its initial kinetic energy is $E_{\rm kin}= mv_{z}^{2}/2$ and its initial
+gravitational potential energy is $E_{\rm pot}=mgh=0$. All other forms of
+energy are going to remain constant (object doesn't change mass,
+temperature, etc. along the travel).
+
+What is the maximum height reached? This is going to be when /all/ the
+kinetic energy is transformed into potential energy (the point at the
+top is where the object will momentarily stop, transitioning from the
+initially $v_{z}>0$ to $v_{z}<0$), so $E_{\rm pot}(h_{\rm max}) = mgh_{\rm max} \equiv
+E_{\rm tot}(h_{\rm max})$.
+
+Applying conservation of energy:
+
+$E_{\rm tot}(h_{\rm max}) = E_{\rm tot, initial} \Rightarrow mgh_{\rm max} = \frac{1}{2}mv_{z}^{2}
+\Rightarrow h_{\rm max} = v_{z}^{2}/g$.
+
+*N.B.:* We expect $h_{\rm max}$ to be a height, with the dimensions of
+length. We can check if our answer /can/ be correct verifying that the
+r.h.s. has the dimensions of length (if yes, we may be right, if no,
+it's guaranteed we are wrong!): [v_{z}] = [L]/[t], [g] = [L]/[t^{2}] \Rightarrow
+[v_{z}^{2}/g] = [L]^{2}/[t^{2}] / [L]/[t^{2}]= [L] which is correct.
 
 
 * Orbital motion
