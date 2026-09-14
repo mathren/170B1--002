@@ -205,7 +205,12 @@ $\mathbf{r}$ is the distance to the rotation axis.
 Because it is a vector, it is characterized by multiple components
 ($x,y,z$): conservation of angular momentum requires the /total/ angular
 momentum to be conserved, which means also in /direction/ and not only
-in /amplitude/.
+in /amplitude/. For both momentum and angular momentum the intrinsic
+symmetry of space-time w.r.t. translation and rotation implies that
+they are /conserved/ quantities, to change them we need a source term
+(Newton's 2^{nd} laws says it's a force for the momentum, and taking the
+$\times$ product of the 2^{nd} law by $r$ distance to a rotation center, one
+finds that torques are the sources of angular momentum).
 
 #+CAPTION: Angular momentum is the conserved quantity related to "rotation": its conservation comes from the symmetry of a system w.r.t. rotation and it leads to rotating objects to keep rotating in the same way.
 [[file:images/am.png]]
