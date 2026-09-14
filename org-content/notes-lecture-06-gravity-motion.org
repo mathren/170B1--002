@@ -449,10 +449,10 @@ gravity would be displaced towards Earth!
 [[file:images/escape_v.png]]
 
 
-The /escape velocity/ is the minimum velocity a body needs to leave a
-body (e.g., planet Earth) without falling back to it -- in Keplerian
-terms, to go from a stationary orbit (not moving), to an unbound orbit
-(parabola or hyperbole)!
+The /escape velocity/ is the minimum velocity a mass needs to leave the
+gravitational pull of a body (e.g., planet Earth) without falling back
+to it -- in Keplerian terms, to go from a bound orbit ($\max(r)$
+remains finite), to an unbound orbit (parabola or hyperbole)!
 
 It can be derived from energetic terms: what is the minimum kinetic
 energy to reach infinity?
