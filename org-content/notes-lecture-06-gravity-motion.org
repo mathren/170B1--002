@@ -230,7 +230,7 @@ Conservation of angular momentum examples:
   (same for the Moon around the Earth, other planets, etc.)
 
 *** 3^{rd} Kepler law
-We can understand the 3^{rd} Kepler's law as a consequence of angular
+We can understand the 2^{nd} and 3^{rd} Kepler's law as a consequence of angular
 momentum conservation: if the orbit is elliptic, then the distance
 planet-Sun is varying along the orbit, $\mathrm{r} \equiv \mathrm{r}(t)$.
 To keep $\mathrm{J} = \mathrm{r}\times\mathrm{p}$ constant then, also the
@@ -244,7 +244,7 @@ when $\mathrm{r}$ is smaller (at pericenter, closer to the star), then
 $\mathrm{v}$ needs to be larger: planets pass faster at their closest
 point to the Sun, and spend more time farther away.
 
-Note that Kepler's 3^{rd} law already /described/ this empirically, but
+Note that Kepler's 2^{rd} law already /described/ this empirically, but
 conservation of angular momentum provides the theoretical basis to
 understand this observed phenomenon.
 
