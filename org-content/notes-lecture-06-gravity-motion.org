@@ -262,8 +262,8 @@ W = \mathbf{F}\cdot\mathbf{d}
 #+END_LATEX
 
 Since this is a dot-product, it produces from two vectors (force and
-displacement) a scalar. Energy is also a scalar, and it can come in
-various forms
+displacement) a scalar. Energy is also a scalar measured in Joules
+[J] or [erg], and it can come in various forms.
 
 *** Kinetic
 
@@ -387,6 +387,20 @@ it's guaranteed we are wrong!):
 [v_{z}] = [L]/[t], [g] = [L]/[t^{2}] \Rightarrow [v_{z}^{2}/g] = [L]^{2}/[t^{2}] / [L]/[t^{2}]= [L]
 
 which is correct.
+
+* Power
+The power is by definition the rate of change in energy:
+
+#+BEGIN_LATEX
+\begin{equation}
+P = \frac{dE}{dt} \ \ ,
+\end{equation}
+#+END_LATEX
+which has the dimensions of an energy per unit time [E]/[t].
+
+The power delivered by a motor is its ability to /change the energy at
+a certain rate/ for what it powers.
+
 
 * Orbital motion
 We can now use these conserved quantities (sometimes referred to as

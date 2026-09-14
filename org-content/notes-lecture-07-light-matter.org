@@ -5,3 +5,35 @@
 #+NEXT_PAGE: notes-lecture-08
 
 *Reading*: Chapter 5
+
+* Recap
+
+* Astronomical messengers
+
+Historically, astronomy has been an /observational/ science based on
+collecting objective information using light emitted, reflected, or
+transmitted by celestial bodies. In this sense, light is a "messenger"
+carrying information on astrophysical processes. Astronomers and
+physicists are able to extract /a lot/ of different information from it.
+
+Actually, until the late 1960s, light was /the only/ astrophysical
+messenger available -- which changed with the detection of neutrinos
+from the Sun. This are a different type of particle compared to the
+particles (/photons/) that make up light. They have completely different
+interactions with matter, and thus carry different information (and
+from different parts of the celestial bodies).
+
+Then, first the indirect detection with the Hulse-Taylor pulsar in
+1975 and with the /direct/ detection of "gravitational waves" in 2015,
+we now have another messenger, for a total of 3 (/photons/, /neutrinos/
+and gravitational waves), which is why often nowadays there is an
+overused buzzword of "multimessenger astrophysics".
+
+*N.B.:* As a physicist, I will use /all/ the possible messengers to
+ understand the physics, and there is nothing new on this front. We
+ have now developed technology that allows different messengers to be
+ used, but I will always use all the ones available.
+
+To be able to use the detection of any of these "messengers" to probe
+astrophysics we need to understand how they interact with the matter
+they have encountered from their origin to our detector.
