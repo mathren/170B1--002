@@ -382,8 +382,11 @@ $E_{\rm tot}(h_{\rm max}) = E_{\rm tot, initial} \Rightarrow mgh_{\rm max} = \fr
 *N.B.:* We expect $h_{\rm max}$ to be a height, with the dimensions of
 length. We can check if our answer /can/ be correct verifying that the
 r.h.s. has the dimensions of length (if yes, we may be right, if no,
-it's guaranteed we are wrong!): [v_{z}] = [L]/[t], [g] = [L]/[t^{2}] \Rightarrow
-[v_{z}^{2}/g] = [L]^{2}/[t^{2}] / [L]/[t^{2}]= [L] which is correct.
+it's guaranteed we are wrong!):
+
+[v_{z}] = [L]/[t], [g] = [L]/[t^{2}] \Rightarrow [v_{z}^{2}/g] = [L]^{2}/[t^{2}] / [L]/[t^{2}]= [L]
+
+which is correct.
 
 
 * Orbital motion
