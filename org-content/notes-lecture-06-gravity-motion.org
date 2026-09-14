@@ -377,7 +377,7 @@ E_{\rm tot}(h_{\rm max})$.
 Applying conservation of energy:
 
 $E_{\rm tot}(h_{\rm max}) = E_{\rm tot, initial} \Rightarrow mgh_{\rm max} = \frac{1}{2}mv_{z}^{2}
-\Rightarrow h_{\rm max} = v_{z}^{2}/g$.
+\Rightarrow h_{\rm max} = v_{z}^{2}/2g$.
 
 *N.B.:* We expect $h_{\rm max}$ to be a height, with the dimensions of
 length. We can check if our answer /can/ be correct verifying that the
