@@ -315,7 +315,9 @@ release it (e.g., transform it into kinetic energy), e.g. chemical
 potential energy for an explosive.
 
 For gravitational potential energy in a constant gravity $g$ (e.g. on
-Earth $g \simeq 10\,\mathrm{m\ s^{-2}}$ and $E_{\rm pot }= mgh$
+Earth $g \simeq 10\,\mathrm{m\ s^{-2}}$ and $E_{\rm pot }= mgh$. For systems
+where $g$ is /not/ constant (e.g., if $r$ is /not/ much smaller than $R_{\rm
+Earth}$ on Earth), then the gravitational potential is $E_{\rm pot} = - \frac{GM}{r}$
 
 *** Binding energy
 The amount of energy you have to provide to a system for breaking it
