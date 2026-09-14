@@ -78,6 +78,12 @@ so we can /divide/ each side by $m_{\rm skier}$ to make it go away:
 \end{equation}
 #+END_LATEX
 
+*N.B.:* The fact that $m_{\rm skier}$ cancels out is what mathematically
+corresponds to Galileo's experimental finding that objects fall with
+the same acceleration regardless of their mass. Whatever the mass of
+the skier, it drops out of the equations and does not appear in the
+acceleration!
+
 This is in fact the /gravitational acceleration/! Note that $r$ here is
 the distance to the center of the Earth, $r=R_{\rm Earth}+\delta r$ where
 $\delta r\ll R_{\rm Earth}$ because the skier doesn't jump thousands of km high.
