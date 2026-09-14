@@ -328,6 +328,10 @@ breaking objects and releasing this energy (e.g., the explosion of a
 star!), or viceversa a system /loses/ energy storing it into the binding
 energy of something being assembled.
 
+For example, nuclear energy ultimately comes from the binding energy
+of protons and neutrons in the nuclei, and it can be released by
+fusion or fission (depending on the nucleus).
+
 *** Rest-energy
 
 $E=m c^{2}$
