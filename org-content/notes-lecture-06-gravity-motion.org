@@ -136,15 +136,15 @@ Why do things float "in space" then?
 
 Actually it is technically not "floating" (which implies a force
 exerted by a fluid canceling out the gravitational pull): things in
-space constantly fall onto each other /because/ there is gravity.
-The reason is that /everything is falling at the same rate towards
-Earth/! The astronauts, the fruits, and the ship itself are all falling
-at the same /rate/ (same acceleration), and thus do not experience an
+space constantly fall onto each other /because/ there is gravity. The
+reason is that /everything is falling at the same rate towards Earth/!
+The astronauts, the fruits, and the ship itself are all falling at the
+same /rate/ (same acceleration), and thus do not experience an
 acceleration /relative to each other/ while they are all accelerating
-/relative to Earth/.
+(at the same rate) /relative to Earth/.
 
 Recall that $\mathbf{a} = d\mathbf{v}/dt \neq 0$ even if $\mathbf{v}$ is
-only changing /direction/.
+only changing /direction/!
 
 
 * Conservation laws in physics
