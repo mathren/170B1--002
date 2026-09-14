@@ -396,11 +396,18 @@ The power is by definition the rate of change in energy:
 P = \frac{dE}{dt} \ \ ,
 \end{equation}
 #+END_LATEX
-which has the dimensions of an energy per unit time [E]/[t].
+which has the dimensions of an energy per unit time [E]/[t]
+
+*N.B.:* the battery of, e.g., an electric car has a total energy
+measured in $\mathrm{kWh} = \mathrm{kW}\times 1\mathrm{h} = 1000 \mathrm{W}
+\times 1\mathrm{h}$ where $\mathrm{W}$ is a Watt, corresponding to one
+Joule per second and is a unit of power. Multiplying a power by a time
+(1 hour) you get a total energy.
 
 The power delivered by a motor is its ability to /change the energy at
-a certain rate/ for what it powers.
-
+a certain rate/ for what it powers. The luminosity of the Sun is how
+much energy it throws out per unit second, so luminosity is /also/ a
+power!
 
 * Orbital motion
 We can now use these conserved quantities (sometimes referred to as
