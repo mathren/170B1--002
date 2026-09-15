@@ -25,13 +25,12 @@ messenger available -- which changed with the detection of neutrinos
 from the Sun. This are a different type of particle compared to the
 particles (/photons/) that make up light. They have completely different
 interactions with matter, and thus carry different information (and
-from different parts of the celestial bodies).
-
-Then, first the indirect detection with the Hulse-Taylor pulsar in
-1975 and with the /direct/ detection of "gravitational waves" in 2015,
-we now have another messenger, for a total of 3 (/photons/, /neutrinos/
-and gravitational waves), which is why often nowadays there is an
-overused buzzword of "multimessenger astrophysics".
+from different parts of the celestial bodies). Then, first the
+indirect detection with the Hulse-Taylor pulsar in 1975 and with the
+/direct/ detection of "gravitational waves" in 2015, we now have another
+messenger, for a total of 3 (/photons/, /neutrinos/ and gravitational
+waves), which is why often nowadays there is an overused buzzword of
+"multimessenger astrophysics".
 
 *N.B.:* As a physicist, I will use /all/ the possible messengers to
  understand the physics, and there is nothing new on this front. We
@@ -40,11 +39,15 @@ overused buzzword of "multimessenger astrophysics".
 
 To be able to use the detection of any of these "messengers" to probe
 astrophysics we need to understand how they interact with the matter
-they have encountered from their origin to our detector.
+they have encountered from their origin to our detector. Today we will
+focus on the properties of light to build up towards /radiative
+transfer/ which is the study of how light filters through matter and
+thus what it can tell us about it.
 
 * White light & Spectrum
 
 #+CAPTION: Pink Floyd's "Dark side of the moon" album cover.
+#+ATTR_HTML: :width 50%
 [[./images/pink_floyd.webp]]
 
 The Sun produces "white light", which is composed of particles that
