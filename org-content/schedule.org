@@ -95,6 +95,8 @@ DEADLINE: Homework
 # Deadline Homework 3, Final deadline Homework 1, Assign Homework 4
 DEADLINE: Homework
 
+[[./notes-lecture-07-light-matter.org][Notes]]
+
 ** Week 5: Chapter 5, 6; Lab 2
 
 *** <2026-09-21 Mon> - Light, Matter

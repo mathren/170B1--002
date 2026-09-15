@@ -42,7 +42,7 @@ To be able to use the detection of any of these "messengers" to probe
 astrophysics we need to understand how they interact with the matter
 they have encountered from their origin to our detector.
 
-* White light \& Spectrum
+* White light & Spectrum
 
 #+CAPTION: Pink Floyd's "Dark side of the moon" album cover.
 [[./images/pink_floyd.webp]]
@@ -64,11 +64,17 @@ frequencies of light produced by the Sun. What we perceive as color is
 typically the /difference in intensity between light at two different
 frequencies/.
 
+
+** Electromagnetic spectrum
+
+Gives a "bar code" for each source/scatterer of light!
+
+
 * Let there be light
 
 #+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/P-4pbFcERnk?si=1NF1FSVgs39VodkL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-* Light-matter interactions
+** Light-matter interactions
 Light can interact with matter in several ways. Usually, these
 processes require an understanding of quantum mechanics (which is the
 theoretical framework to study processes at atomic and sub-atomic
@@ -91,3 +97,31 @@ optical light (you typically can't see inside) but not X-rays
 
 * Color
 Color bases
+
+* Particle or wave? /Both/!
+
+
+
+** Wave mechanics
+- Wavelength $\lambda$
+- frequency $\nu$
+- amplitude $A$
+- propagation speed $v$
+
+$\lambda\times \nu = v$
+
+*** Light as an electromagnetic wave
+
+#+CAPTION: What is "waving" in the propagation of light are the electric and magnetic field: an oscillating electric field creates an oscillating magnetic field, which in turns creates an electric field, and so on. Both oscillate in directions perpendicular to each other and to the direction of propagation of the light.
+#+ATTR_HTML: :width 70%
+[[./images/EMwave.png]]
+
+
+** Particles
+
+Photon energy $h\nu$ is a function of its frequency.
+
+*N.B.:* Field is a function $F(x,y,z,t)$ that assigns a value (scalar or
+ vector) to every point in space and time, e.g., a /velocity field/ is
+ the function that assigns to each point of a fluid the velocity
+ vector for each parcel of the fluid.
