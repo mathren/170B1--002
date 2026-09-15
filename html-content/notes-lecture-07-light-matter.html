@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-09-15 Tue 16:26 -->
+<!-- 2026-09-15 Tue 16:38 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Light &amp; Matter</title>
@@ -361,9 +361,9 @@ lower the frequency:
 </p>
 
 <div class="latex" id="org-element-11">
-<p>
-&lambda;&times; &nu; = v
-</p>
+\begin{equation}
+\lambda\times f = v
+\end{equation}
 
 </div>
 </div>
@@ -371,20 +371,11 @@ lower the frequency:
 <h4 id="light-as-an-electromagnetic-wave"><a href="#light-as-an-electromagnetic-wave">Light as an electromagnetic wave</a></h4>
 <div class="outline-text-4" id="text-org-element-12">
 <p>
-While <i>mechanical</i> waves (e.g., sound, Earthquakes) propagate in a
-medium (in vacuum there is no air to be compressed by your vocal
-coords and transport the sound to the ears of a listener!).
-</p>
-
-<p>
-Unlike all other waves, light does not need a <b>medium</b> to propagate. For
-example, sound waves propagate in the air, waves in a body of water
-propagate in the water, earthquakes through rocks.
-</p>
-
-<p>
+While <i>mechanical</i> waves (e.g., sound in air, Earthquakes in rocks)
+propagate in a medium (in vacuum there is no air to be compressed by
+your vocal chords and transport the sound to the ears of a listener!).
 The fact that light does not require a medium to propagate was a
-surprising experimental fact (by Michelson &amp; Morrey) in the late
+puzzling experimental result (by Michelson &amp; Morrey) in the late
 1800s, which opened the door for the formulation of special
 relativity.
 </p>
@@ -393,11 +384,19 @@ relativity.
 Instead, <i>light makes its own medium</i>! To understand this, we need to
 think about what is actually oscillating. In a mechanical wave, e.g.,
 the sound, what oscillates is the pressure of the gas at a given point
-as a function of time \(P(t, x=\bar{x})\sim P_{o}sin(\omega t)\). In the case of
-light what oscillates is an <i>electromagnetic field</i>.
+as a function of time \(P(t, x=\bar{x})\sim P_{o}\sin(\omega t)\). In the case of
+light what oscillates is an <i>electromagnetic field</i>. Because of
+Maxwell's equations that describe classical electromagnetism, an
+oscillating electric field creates a magnetic field, and viceversa, an
+oscillating magnetic field creates an electric field.
 </p>
 
-
+<p>
+So for an electromagnetic wave, the change in electric field causes a
+change in magnetic field, which in turn changes the electric field,
+and so on leading to the propagation of the electromagnetic <b>wave</b> that
+is light.
+</p>
 
 
 <figure id="org-element-13">
@@ -405,16 +404,60 @@ light what oscillates is an <i>electromagnetic field</i>.
 
 <figcaption><span class="figure-number">Figure 4: </span>What is "waving" in the propagation of light are the electric and magnetic field: an oscillating electric field creates an oscillating magnetic field, which in turns creates an electric field, and so on. Both oscillate in directions perpendicular to each other and to the direction of propagation of the light.</figcaption>
 </figure>
+
+<p>
+Note that \(\mathbf{E}\perp\mathbf{B}\perp\mathbf{k}\) with \(\mathbf{k}\)
+direction of propagation: electric field, magnetic field, and
+direction of propagation form an orthogonal triplet.
+</p>
+
+<p>
+This means that in the case of light the "oscillations" (of
+\(\mathbf{E}\) and \(\mathbf{B}\)) are <b>perpendicular</b> to the direction in
+which the wave moves: <i>light is a transversal wave</i>.
+</p>
+
+<p>
+In contrast, sound or a traffic jam starting and stopping are
+<i>longitudinal waves</i> where the direction of propagation and the
+oscillation are parallel (the car and the traffic move in the same
+direction, the sound and the pressure oscillations move in the same
+direction):
+</p>
+
+
+<figure id="org-element-14">
+<img src="./images/waves.gif" alt="waves.gif" width="50%">
+
+<figcaption><span class="figure-number">Figure 5: </span>Longitudinal waves (e.g., sound) oscillate <i>along</i> the direction of propagation, transversal waves (e.g., light) oscillate perpendicular to the direction of motion.</figcaption>
+</figure>
+</div>
+</div>
+<div id="outline-container-waves-carry-energy-but-do-not-displace-matter" class="outline-4">
+<h4 id="waves-carry-energy-but-do-not-displace-matter"><a href="#waves-carry-energy-but-do-not-displace-matter">Waves carry energy but do not displace matter</a></h4>
+<div class="outline-text-4" id="text-org-element-15">
+<p>
+Consider the transverse wave in the figure above. Take the point
+marked in red: as the wave passes through, it raises and sinks, but it
+does <i>not</i> move along the wave.
+</p>
+
+<p>
+Clearly the wave must have some energy, because it causes (vertical)
+motion, but it's not moving the point along its direction of
+propagation.
+</p>
 </div>
 </div>
 </div>
-<div id="outline-container-electromagnetic-spectrum" class="outline-3">
-<h3 id="electromagnetic-spectrum"><a href="#electromagnetic-spectrum">Electromagnetic spectrum</a></h3>
-<div class="outline-text-3" id="text-electromagnetic-spectrum">
+</div>
+<div id="outline-container-electromagnetic-spectrum" class="outline-2">
+<h2 id="electromagnetic-spectrum"><a href="#electromagnetic-spectrum">Electromagnetic spectrum</a></h2>
+<div class="outline-text-2" id="text-electromagnetic-spectrum">
 </div>
 <div id="outline-container-optical" class="outline-4">
 <h4 id="optical"><a href="#optical">Optical</a></h4>
-<div class="outline-text-4" id="text-org-element-14">
+<div class="outline-text-4" id="text-org-element-16">
 <p>
 The rainbow probes the "optical" or "visible" range of light. This
 corresponds to the "colors" that get through the Earth atmosphere,
@@ -434,10 +477,9 @@ Gives a "bar code" for each source/scatterer of light!
 </p>
 </div>
 </div>
-</div>
 <div id="outline-container-particles" class="outline-3">
 <h3 id="particles"><a href="#particles">Particles</a></h3>
-<div class="outline-text-3" id="text-org-element-15">
+<div class="outline-text-3" id="text-org-element-17">
 <p>
 Photon energy \(h\nu\) is a function of its frequency.
 </p>
@@ -453,7 +495,7 @@ Photon energy \(h\nu\) is a function of its frequency.
 </div>
 <div id="outline-container-light-matter-interactions" class="outline-2">
 <h2 id="light-matter-interactions"><a href="#light-matter-interactions">Light-matter interactions</a></h2>
-<div class="outline-text-2" id="text-org-element-16">
+<div class="outline-text-2" id="text-org-element-18">
 <p>
 Light can interact with matter in several ways. Usually, these
 processes require an understanding of quantum mechanics (which is the
@@ -483,7 +525,7 @@ optical light (you typically can't see inside) but not X-rays
 </div>
 <div id="outline-container-color" class="outline-2">
 <h2 id="color"><a href="#color">Color</a></h2>
-<div class="outline-text-2" id="text-org-element-17">
+<div class="outline-text-2" id="text-org-element-19">
 <p>
 Color bases
 </p>

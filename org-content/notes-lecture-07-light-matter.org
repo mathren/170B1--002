@@ -161,37 +161,67 @@ more time needs to pass in between two peaks, or in other words, the
 lower the frequency:
 
 #+BEGIN_latex
- \lambda\times \nu = v
+\begin{equation}
+\lambda\times f = v
+\end{equation}
 #+END_latex
 
 *** Light as an electromagnetic wave
-While /mechanical/ waves (e.g., sound, Earthquakes) propagate in a
-medium (in vacuum there is no air to be compressed by your vocal
-coords and transport the sound to the ears of a listener!).
-
-Unlike all other waves, light does not need a *medium* to propagate. For
-example, sound waves propagate in the air, waves in a body of water
-propagate in the water, earthquakes through rocks.
-
+While /mechanical/ waves (e.g., sound in air, Earthquakes in rocks)
+propagate in a medium (in vacuum there is no air to be compressed by
+your vocal chords and transport the sound to the ears of a listener!).
 The fact that light does not require a medium to propagate was a
-surprising experimental fact (by Michelson & Morrey) in the late
+puzzling experimental result (by Michelson & Morrey) in the late
 1800s, which opened the door for the formulation of special
 relativity.
 
 Instead, /light makes its own medium/! To understand this, we need to
 think about what is actually oscillating. In a mechanical wave, e.g.,
 the sound, what oscillates is the pressure of the gas at a given point
-as a function of time $P(t, x=\bar{x})\sim P_{o}sin(\omega t)$. In the case of
-light what oscillates is an /electromagnetic field/.
+as a function of time $P(t, x=\bar{x})\sim P_{o}\sin(\omega t)$. In the case of
+light what oscillates is an /electromagnetic field/. Because of
+Maxwell's equations that describe classical electromagnetism, an
+oscillating electric field creates a magnetic field, and viceversa, an
+oscillating magnetic field creates an electric field.
 
-
+So for an electromagnetic wave, the change in electric field causes a
+change in magnetic field, which in turn changes the electric field,
+and so on leading to the propagation of the electromagnetic *wave* that
+is light.
 
 #+CAPTION: What is "waving" in the propagation of light are the electric and magnetic field: an oscillating electric field creates an oscillating magnetic field, which in turns creates an electric field, and so on. Both oscillate in directions perpendicular to each other and to the direction of propagation of the light.
 #+ATTR_HTML: :width 70%
 [[./images/EMwave.png]]
 
+Note that $\mathbf{E}\perp\mathbf{B}\perp\mathbf{k}$ with $\mathbf{k}$
+direction of propagation: electric field, magnetic field, and
+direction of propagation form an orthogonal triplet.
 
-** Electromagnetic spectrum
+This means that in the case of light the "oscillations" (of
+$\mathbf{E}$ and $\mathbf{B}$) are *perpendicular* to the direction in
+which the wave moves: /light is a transversal wave/.
+
+In contrast, sound or a traffic jam starting and stopping are
+/longitudinal waves/ where the direction of propagation and the
+oscillation are parallel (the car and the traffic move in the same
+direction, the sound and the pressure oscillations move in the same
+direction):
+
+#+CAPTION: Longitudinal waves (e.g., sound) oscillate /along/ the direction of propagation, transversal waves (e.g., light) oscillate perpendicular to the direction of motion.
+#+ATTR_HTML: :width 50%
+[[./images/waves.gif]]
+
+*** Waves carry energy but do not displace matter
+Consider the transverse wave in the figure above. Take the point
+marked in red: as the wave passes through, it raises and sinks, but it
+does /not/ move along the wave.
+
+Clearly the wave must have some energy, because it causes (vertical)
+motion, but it's not moving the point along its direction of
+propagation.
+
+
+* Electromagnetic spectrum
 
 *** Optical
 The rainbow probes the "optical" or "visible" range of light. This
