@@ -44,40 +44,48 @@ focus on the properties of light to build up towards /radiative
 transfer/ which is the study of how light filters through matter and
 thus what it can tell us about it.
 
-* White light & Spectrum
-
-#+CAPTION: Pink Floyd's "Dark side of the moon" album cover.
-#+ATTR_HTML: :width 50%
-[[./images/pink_floyd.webp]]
-
-The Sun produces "white light", which is composed of particles that
-cover all energies from 0 to +\infty. Using a prism or a diffraction
-grating (e.g., an old CD where the spacing of the deformations is
-comparable to the wavelength of light), one can decompose white light
-in what we perceive as various colors.
-
-In the case of a rainbow, water droplets suspended in the air act as
-the prism:
-
-#+CAPTION: Double rainbow. The water droplets partly reflect and transmit the white light, and the transmitted light gets deflected a second time, which leads to two rainbows with inverted colors!
-[[./images/double_rainbow.jpg]]
-
-Each "color" of the rainbow corresponds to one of the /dominant/
-frequencies of light produced by the Sun. What we perceive as color is
-typically the /difference in intensity between light at two different
-frequencies/.
-
-
-** Electromagnetic spectrum
-
-Gives a "bar code" for each source/scatterer of light!
-
-
 * Let there be light
+
+What happens when you turn on a light source (e.g., light bulb in a room)?
 
 #+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/P-4pbFcERnk?si=1NF1FSVgs39VodkL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-** Light-matter interactions
+Let's assume the light source produces "white light" (even though
+light bulbs are typically not perfectly "white"). This will move *at
+the speed of light* through the environment and interact with the
+matter it encounters.
+
+These light-matter interactions will modify the light (e.g., absorbing
+some colors, changing the direction of propagation, etc.) before
+reaching the observer, which detects light *modified*. If one
+understands the source of light (e.g., looking at it directly), and
+the light-matter interactions, then one can infer from how the light
+is modified what are the properties of the matter that modified it
+when they interacted.
+
+** A more astrophysical example: exoplanet atmospheres
+
+#+CAPTION: NASA infographics on transmission spectroscopy: by studying the light coming from a star filtered by the atmosphere of a transiting planet and directly (without the planet in the way), we can infer the properties of the planet atmosphere.
+[[./images/transmission_spectroscopy.jpg]]
+
+
+As we will re-emphasize later, planets are very dim, especially w.r.t.
+the stars the orbit. For the sake of argument here we can consider
+that they do /not/ emit any light.
+
+How can we study, say, the atmosphere of a planet orbiting /another
+star/ if we cannot see it? *We look at the light of the host star
+filtering through the atmosphere of the planet!* (so called
+"transmission spectroscopy") If we understand sufficiently well the
+light coming out of the star, we can then see how it is changed by the
+exoplanet atmosphere and deduce things about it.
+
+This is now routinely done for example with James Webb Space Telescope
+(/JWST)/, and it is how we can see the impact of clouds on exoplanets,
+look for water and biosignatures!
+
+
+* Light-matter interactions
 Light can interact with matter in several ways. Usually, these
 processes require an understanding of quantum mechanics (which is the
 theoretical framework to study processes at atomic and sub-atomic
@@ -97,6 +105,48 @@ windshield of a car is transparent to /optical/ light (you do need to
 see through it to drive), but it is opaque to UV light (you don't get
 a sunburn inside your car). Viceversa, your suitcase is opaque to
 optical light (you typically can't see inside) but not X-rays
+
+* White light & Spectrum
+
+Let's start from *the* source of light on Earth: the Sun. It emits light
+of all "colors", as can be seen using a (glass) prism or diffraction
+grating (e.g., an old CD where the spacing of the deformations is
+comparable to the wavelength of light).
+
+#+CAPTION: Pink Floyd's "Dark side of the moon" album cover.
+#+ATTR_HTML: :width 50%
+[[./images/pink_floyd.webp]]
+
+It was Newton that demonstrated that the division of white light in
+its components probed a property of light itself, and not of the
+object it was interacting with.
+
+Sometimes, nature provides the diffraction element: in the case of a
+rainbow, water droplets suspended in the air act as the prism.
+
+#+CAPTION: Double rainbow. The [[https://physicsoptics.com/blog/rainbows/what-causes-a-double-rainbow/][water droplets partly reflect and transmit the white light]], and the transmitted light gets deflected a second time, which leads to two rainbows with inverted colors (note the fainter one above has the red at the bottom, while the brighter has red at the top, this is because the second reflection inverts the rainbow)!
+[[./images/double_rainbow.jpg]]
+
+Each "color" of the rainbow corresponds to one of the /dominant/
+frequencies of light produced by the Sun. What we perceive as color is
+typically the /difference in intensity between light at two different
+frequencies/.
+
+** Electromagnetic spectrum
+
+*** Optical
+The rainbow probes the "optical" or "visible" range of light. This
+corresponds to the "colors" that get through the Earth atmosphere,
+reaching the ground: biology on Earth developed under this light and
+plants and animals have evolved the ability to interact with this
+light because that's what they had available.
+
+This ranges from red to blue
+
+
+
+Gives a "bar code" for each source/scatterer of light!
+
 
 * Color
 Color bases
