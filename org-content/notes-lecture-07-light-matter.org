@@ -208,7 +208,6 @@ direction, the sound and the pressure oscillations move in the same
 direction):
 
 #+CAPTION: Longitudinal waves (e.g., sound) oscillate /along/ the direction of propagation, transversal waves (e.g., light) oscillate perpendicular to the direction of motion.
-#+ATTR_HTML: :width 50%
 [[./images/waves.gif]]
 
 *** Waves carry energy but do not displace matter
