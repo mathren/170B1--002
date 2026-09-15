@@ -253,12 +253,12 @@ But light can also have wavelength (or equivalently frequency, since its
 speed in vacuum $c$ is a constant!) /outside/ of the optical/visible range!
 
 *** Longer wavelength
-At longer $\lamba$ we find first /infrared/ radiation $\lambda \sim \mu m = 10^{-6}
+At longer $\lambda$ we find first /infrared/ radiation $\lambda \sim \mu m = 10^{-6}
 m$, and the microwaves (mm and sub-mm wavelength), and finally radio
 waves. These carry lower energy than the optical.
 
 *N.B.:* radios communicate through light (so the time delays are \sim
-distance/$c$ /not/ \sim distance/$c_{\rm sound}), which encodes the sound
+distance/$c$ and *not* \sim distance/$c_{\rm sound$}), which encodes the sound
 information that a radio actually decodes to emit sounds.
 
 *** Shorter wavelengths
