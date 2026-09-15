@@ -48,7 +48,7 @@ thus what it can tell us about it.
 
 What happens when you turn on a light source (e.g., light bulb in a room)?
 
-#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/P-4pbFcERnk?si=1NF1FSVgs39VodkL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/P-4pbFcERnk?si=1NF1FSVgs39VodkL-&amp;start=920" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Let's assume the light source produces "white light" (even though
 light bulbs are typically not perfectly "white"). This will move *at
@@ -84,27 +84,6 @@ This is now routinely done for example with James Webb Space Telescope
 (/JWST)/, and it is how we can see the impact of clouds on exoplanets,
 look for water and biosignatures!
 
-
-* Light-matter interactions
-Light can interact with matter in several ways. Usually, these
-processes require an understanding of quantum mechanics (which is the
-theoretical framework to study processes at atomic and sub-atomic
-level).
-
-- Emission: matter produces a photon
-- Absorption: matter removes a photon and stores its energy
-- Transmission: matter lets photons through but modifies their
-  velocity and/or frequency
-- Scattering/Reflection: matter changes the direction of a photon (and
-  possibly other properties too)
-
-Typically, the interaction of matter and light depend on the energy of
-the light: the same material can be "transparent" for certain light
-frequencies and "opaque" to other frequencies. As an example: the
-windshield of a car is transparent to /optical/ light (you do need to
-see through it to drive), but it is opaque to UV light (you don't get
-a sunburn inside your car). Viceversa, your suitcase is opaque to
-optical light (you typically can't see inside) but not X-rays
 
 * White light & Spectrum
 
@@ -147,6 +126,27 @@ This ranges from red to blue
 
 Gives a "bar code" for each source/scatterer of light!
 
+
+* Light-matter interactions
+Light can interact with matter in several ways. Usually, these
+processes require an understanding of quantum mechanics (which is the
+theoretical framework to study processes at atomic and sub-atomic
+level).
+
+- Emission: matter produces a photon
+- Absorption: matter removes a photon and stores its energy
+- Transmission: matter lets photons through but modifies their
+  velocity and/or frequency
+- Scattering/Reflection: matter changes the direction of a photon (and
+  possibly other properties too)
+
+Typically, the interaction of matter and light depend on the energy of
+the light: the same material can be "transparent" for certain light
+frequencies and "opaque" to other frequencies. As an example: the
+windshield of a car is transparent to /optical/ light (you do need to
+see through it to drive), but it is opaque to UV light (you don't get
+a sunburn inside your car). Viceversa, your suitcase is opaque to
+optical light (you typically can't see inside) but not X-rays
 
 * Color
 Color bases
