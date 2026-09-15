@@ -84,7 +84,6 @@ This is now routinely done for example with James Webb Space Telescope
 (/JWST)/, and it is how we can see the impact of clouds on exoplanets,
 look for water and biosignatures!
 
-
 * White light & Spectrum
 
 Let's start from *the* source of light on Earth: the Sun. It emits light
@@ -113,10 +112,54 @@ frequencies of light produced by the Sun. What we perceive as color is
 typically the /difference in intensity between light at two different
 frequencies/.
 
-
-
 * Is light a particle or wave? /Both/!
 
+Therefore, to use light as an astrophysical messenger, we need to
+understand first light itself (this lecture's objective), and how it
+may interact with matter.
+
+Let's start with the fundamental question of "what is light". This is
+a surprisingly non-trivial question: Newton first proposed that is it
+made of /particles/, that is there are "components" of light that carry
+the information like little "bullets". This almost immediately was
+controversial, with notably [[https://en.wikipedia.org/wiki/Thomas_Young_(scientist)][Thomas Young]] proposing the opposing view
+that light is a /wave/.
+
+Experimental evidence in support of both theories was available
+throughout the 19^{th} century (e.g., double-slit experiment supporting
+wave theory), making this question an issue with what physical and
+mathematical model is better at describing light in the various
+experiments.
+
+The modern view is that light is *both* a particle and a wave! Both
+approaches are a /valid/ physical and mathematical framework to describe
+phenomena. Note that this was first worked out for light, but actually
+applies to every particle in quantum mechanics (cf. de Broglie
+wavelength). In a sense, modern science bypasses the question and just
+uses whichever framework is more convenient: scientists are not
+concerned with the "ontological" nature of light, but they
+opportunistically use whichever model is more suited for the problem.
+
+*N.B.:* this is analogous to choosing the reference frame, coordinate
+systems, units, etc. for the specific problem at hand to make it
+tractable!
+
+* Wave mechanics
+
+
+** Wave mechanics
+- Wavelength $\lambda$
+- frequency $\nu$
+- amplitude $A$
+- propagation speed $v$
+
+$\lambda\times \nu = v$
+
+*** Light as an electromagnetic wave
+
+#+CAPTION: What is "waving" in the propagation of light are the electric and magnetic field: an oscillating electric field creates an oscillating magnetic field, which in turns creates an electric field, and so on. Both oscillate in directions perpendicular to each other and to the direction of propagation of the light.
+#+ATTR_HTML: :width 70%
+[[./images/EMwave.png]]
 
 
 ** Electromagnetic spectrum
@@ -134,21 +177,6 @@ This ranges from red to blue,
 
 Gives a "bar code" for each source/scatterer of light!
 
-** Wave mechanics
-- Wavelength $\lambda$
-- frequency $\nu$
-- amplitude $A$
-- propagation speed $v$
-
-$\lambda\times \nu = v$
-
-*** Light as an electromagnetic wave
-
-#+CAPTION: What is "waving" in the propagation of light are the electric and magnetic field: an oscillating electric field creates an oscillating magnetic field, which in turns creates an electric field, and so on. Both oscillate in directions perpendicular to each other and to the direction of propagation of the light.
-#+ATTR_HTML: :width 70%
-[[./images/EMwave.png]]
-
-
 ** Particles
 
 Photon energy $h\nu$ is a function of its frequency.
@@ -157,6 +185,7 @@ Photon energy $h\nu$ is a function of its frequency.
  vector) to every point in space and time, e.g., a /velocity field/ is
  the function that assigns to each point of a fluid the velocity
  vector for each parcel of the fluid.
+
 * Light-matter interactions
 Light can interact with matter in several ways. Usually, these
 processes require an understanding of quantum mechanics (which is the
