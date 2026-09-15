@@ -48,6 +48,10 @@ thus what it can tell us about it.
 
 What happens when you turn on a light source (e.g., light bulb in a room)?
 
+#+CAPTION: "Seeing" means collecting photons that have interacted with the things being seen, and identifying from the properties of the light received the properties of the object(s) with which the light interacted.
+[[file:images/room.png]]
+
+
 #+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/P-4pbFcERnk?si=1NF1FSVgs39VodkL-&amp;start=910" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Let's assume the light source produces "white light" (even though
@@ -162,6 +166,7 @@ lower the frequency:
 
 #+BEGIN_latex
 \begin{equation}
+\label{eq:lambaf}
 \lambda\times f = v
 \end{equation}
 #+END_latex
@@ -266,17 +271,26 @@ In a particle description of light, we assume that it is made of
 little /packets/ (or /quanta/) of energy. Each packet is a /photon/, whose
 energy depends on the frequency of the light:
 #+BEGIN_LATEX
-\varepsilon = h f \ \ ,
+\varepsilon = h f ,
 #+END_LATEX
 where $h$ is Planck's constant which has the units of [E]\times[t] (so
 multiplied by a frequency $f$ measured in 1/[t] one obtains an
 energy).
 
+Because of Eq.\ref{eq:lambaf}, this implies that there is a
+relationship between the wavelength and the energy of light: the
+longer the wavelength, the lower the frequency, the lower the energy!
+
+This is why we can live under the Sun (well, our biology evolved in
+these conditions to permit it), but under more energetic UV radiation
+we would suffer: there are also ideas that a strong UV irradiation may
+be necessary for the development of certain key biological molecules!
+
 * Light-matter interactions
-Light can interact with matter in several ways. Usually, these
-processes require an understanding of quantum mechanics (which is the
-theoretical framework to study processes at atomic and sub-atomic
-level).
+Light can interact with matter in several ways: in our initial example,
+Usually, these processes require an understanding of quantum mechanics
+(which is the theoretical framework to study processes at atomic and
+sub-atomic level).
 
 - Emission: matter produces a photon
 - Absorption: matter removes a photon and stores its energy
