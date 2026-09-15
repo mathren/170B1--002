@@ -179,7 +179,14 @@ Instead, /light makes its own medium/! To understand this, we need to
 think about what is actually oscillating. In a mechanical wave, e.g.,
 the sound, what oscillates is the pressure of the gas at a given point
 as a function of time $P(t, x=\bar{x})\sim P_{o}\sin(\omega t)$. In the case of
-light what oscillates is an /electromagnetic field/. Because of
+light what oscillates is an /electromagnetic field/.
+
+*N.B.:* Field is a function $F(x,y,z,t)$ that assigns a value (scalar or
+ vector) to every point in space and time, e.g., a /velocity field/ is
+ the function that assigns to each point of a fluid the velocity
+ vector for each parcel of the fluid.
+
+Because of
 Maxwell's equations that describe classical electromagnetism, an
 oscillating electric field creates a magnetic field, and viceversa, an
 oscillating magnetic field creates an electric field.
@@ -207,7 +214,7 @@ oscillation are parallel (the car and the traffic move in the same
 direction, the sound and the pressure oscillations move in the same
 direction):
 
-#+CAPTION: Longitudinal waves (e.g., sound) oscillate /along/ the direction of propagation, transversal waves (e.g., light) oscillate perpendicular to the direction of motion.
+#+CAPTION: Longitudinal waves (e.g., sound, top) oscillate /along/ the direction of propagation, transversal waves (e.g., light, bottom) oscillate perpendicular to the direction of motion.
 [[./images/waves.gif]]
 
 *** Waves carry energy but do not displace matter
@@ -220,7 +227,12 @@ motion, but it's not moving the point along its direction of
 propagation.
 
 
-* Electromagnetic spectrum
+** Electromagnetic spectrum
+
+
+#+CAPTION: The electromagnetic spectrum spans much more than the optical range.
+[[file:images/EM_spectrum.png]]
+
 
 *** Optical
 The rainbow probes the "optical" or "visible" range of light. This
@@ -229,20 +241,36 @@ reaching the ground: biology on Earth developed under this light and
 plants and animals have evolved the ability to interact with this
 light because that's what they had available.
 
-This ranges from red to blue,
+This ranges from red to blue, roughly with $\lambda\in[400-700]$ nanometers
+(1nm=10^{-9} m).
 
+But light can also have wavelength (or equivalently frequency, since its
+speed in vacuum $c$ is a constant!) /outside/ of the optical/visible range!
 
+*** Longer wavelength
+At longer $\lamba$ we find first /infrared/ radiation $\lambda \sim \mu m = 10^{-6}
+m$, and the microwaves (mm and sub-mm wavelength), and finally radio
+waves. These carry lower energy than the optical.
 
-Gives a "bar code" for each source/scatterer of light!
+*N.B.:* radios communicate through light (so the time delays are \sim
+distance/$c$ /not/ \sim distance/$c_{\rm sound}), which encodes the sound
+information that a radio actually decodes to emit sounds.
+
+*** Shorter wavelengths
+At shorter wavelengths than optical we find the /ultraviolet/, and then
+X-rays and $\gamma$ rays. These have higher energy and typically penetrate
+more materials.
 
 ** Particles
-
-Photon energy $h\nu$ is a function of its frequency.
-
-*N.B.:* Field is a function $F(x,y,z,t)$ that assigns a value (scalar or
- vector) to every point in space and time, e.g., a /velocity field/ is
- the function that assigns to each point of a fluid the velocity
- vector for each parcel of the fluid.
+In a particle description of light, we assume that it is made of
+little /packets/ (or /quanta/) of energy. Each packet is a /photon/, whose
+energy depends on the frequency of the light:
+#+BEGIN_LATEX
+\varepsilon = h f \ \ ,
+#+END_LATEX
+where $h$ is Planck's constant which has the units of [E]\times[t] (so
+multiplied by a frequency $f$ measured in 1/[t] one obtains an
+energy).
 
 * Light-matter interactions
 Light can interact with matter in several ways. Usually, these
@@ -264,6 +292,3 @@ windshield of a car is transparent to /optical/ light (you do need to
 see through it to drive), but it is opaque to UV light (you don't get
 a sunburn inside your car). Viceversa, your suitcase is opaque to
 optical light (you typically can't see inside) but not X-rays
-
-* Color
-Color bases

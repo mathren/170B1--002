@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-09-15 Tue 16:38 -->
+<!-- 2026-09-15 Tue 16:50 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Light &amp; Matter</title>
@@ -385,7 +385,18 @@ Instead, <i>light makes its own medium</i>! To understand this, we need to
 think about what is actually oscillating. In a mechanical wave, e.g.,
 the sound, what oscillates is the pressure of the gas at a given point
 as a function of time \(P(t, x=\bar{x})\sim P_{o}\sin(\omega t)\). In the case of
-light what oscillates is an <i>electromagnetic field</i>. Because of
+light what oscillates is an <i>electromagnetic field</i>.
+</p>
+
+<p>
+<b>N.B.:</b> Field is a function \(F(x,y,z,t)\) that assigns a value (scalar or
+ vector) to every point in space and time, e.g., a <i>velocity field</i> is
+ the function that assigns to each point of a fluid the velocity
+ vector for each parcel of the fluid.
+</p>
+
+<p>
+Because of
 Maxwell's equations that describe classical electromagnetism, an
 oscillating electric field creates a magnetic field, and viceversa, an
 oscillating magnetic field creates an electric field.
@@ -429,7 +440,7 @@ direction):
 <figure id="org-element-14">
 <img src="./images/waves.gif" alt="waves.gif" width="100%">
 
-<figcaption><span class="figure-number">Figure 5: </span>Longitudinal waves (e.g., sound) oscillate <i>along</i> the direction of propagation, transversal waves (e.g., light) oscillate perpendicular to the direction of motion.</figcaption>
+<figcaption><span class="figure-number">Figure 5: </span>Longitudinal waves (e.g., sound, top) oscillate <i>along</i> the direction of propagation, transversal waves (e.g., light, bottom) oscillate perpendicular to the direction of motion.</figcaption>
 </figure>
 </div>
 </div>
@@ -450,14 +461,19 @@ propagation.
 </div>
 </div>
 </div>
-</div>
-<div id="outline-container-electromagnetic-spectrum" class="outline-2">
-<h2 id="electromagnetic-spectrum"><a href="#electromagnetic-spectrum">Electromagnetic spectrum</a></h2>
-<div class="outline-text-2" id="text-electromagnetic-spectrum">
+<div id="outline-container-electromagnetic-spectrum" class="outline-3">
+<h3 id="electromagnetic-spectrum"><a href="#electromagnetic-spectrum">Electromagnetic spectrum</a></h3>
+<div class="outline-text-3" id="text-org-element-16">
+
+<figure id="org-element-17">
+<img src="images/EM_spectrum.png" alt="EM_spectrum.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 6: </span>The electromagnetic spectrum spans much more than the optical range.</figcaption>
+</figure>
 </div>
 <div id="outline-container-optical" class="outline-4">
 <h4 id="optical"><a href="#optical">Optical</a></h4>
-<div class="outline-text-4" id="text-org-element-16">
+<div class="outline-text-4" id="text-org-element-18">
 <p>
 The rainbow probes the "optical" or "visible" range of light. This
 corresponds to the "colors" that get through the Earth atmosphere,
@@ -467,35 +483,68 @@ light because that's what they had available.
 </p>
 
 <p>
-This ranges from red to blue,
+This ranges from red to blue, roughly with \(\lambda\in[400-700]\) nanometers
+(1nm=10<sup>-9</sup> m).
 </p>
-
-
 
 <p>
-Gives a "bar code" for each source/scatterer of light!
+But light can also have wavelength (or equivalently frequency, since its
+speed in vacuum \(c\) is a constant!) <i>outside</i> of the optical/visible range!
 </p>
+</div>
+</div>
+<div id="outline-container-longer-wavelength" class="outline-4">
+<h4 id="longer-wavelength"><a href="#longer-wavelength">Longer wavelength</a></h4>
+<div class="outline-text-4" id="text-org-element-19">
+<p>
+At longer \(\lamba\) we find first <i>infrared</i> radiation \(\lambda \sim \mu m = 10^{-6}
+m\), and the microwaves (mm and sub-mm wavelength), and finally radio
+waves. These carry lower energy than the optical.
+</p>
+
+<p>
+<b>N.B.:</b> radios communicate through light (so the time delays are &sim;
+distance/\(c\) <i>not</i> &sim; distance/$c<sub>\rm sound</sub>), which encodes the sound
+information that a radio actually decodes to emit sounds.
+</p>
+</div>
+</div>
+<div id="outline-container-shorter-wavelengths" class="outline-4">
+<h4 id="shorter-wavelengths"><a href="#shorter-wavelengths">Shorter wavelengths</a></h4>
+<div class="outline-text-4" id="text-org-element-20">
+<p>
+At shorter wavelengths than optical we find the <i>ultraviolet</i>, and then
+X-rays and \(\gamma\) rays. These have higher energy and typically penetrate
+more materials.
+</p>
+</div>
 </div>
 </div>
 <div id="outline-container-particles" class="outline-3">
 <h3 id="particles"><a href="#particles">Particles</a></h3>
-<div class="outline-text-3" id="text-org-element-17">
+<div class="outline-text-3" id="text-org-element-21">
 <p>
-Photon energy \(h\nu\) is a function of its frequency.
+In a particle description of light, we assume that it is made of
+little <i>packets</i> (or <i>quanta</i>) of energy. Each packet is a <i>photon</i>, whose
+energy depends on the frequency of the light:
+</p>
+<div class="LATEX" id="org-element-22">
+<p>
+&epsilon; = h f \ \ ,
 </p>
 
+</div>
 <p>
-<b>N.B.:</b> Field is a function \(F(x,y,z,t)\) that assigns a value (scalar or
- vector) to every point in space and time, e.g., a <i>velocity field</i> is
- the function that assigns to each point of a fluid the velocity
- vector for each parcel of the fluid.
+where \(h\) is Planck's constant which has the units of [E]&times;[t] (so
+multiplied by a frequency \(f\) measured in 1/[t] one obtains an
+energy).
 </p>
 </div>
 </div>
 </div>
 <div id="outline-container-light-matter-interactions" class="outline-2">
 <h2 id="light-matter-interactions"><a href="#light-matter-interactions">Light-matter interactions</a></h2>
-<div class="outline-text-2" id="text-org-element-18">
+<div class="outline-text-2" id="text-org-element-23">
 <p>
 Light can interact with matter in several ways. Usually, these
 processes require an understanding of quantum mechanics (which is the
@@ -520,14 +569,6 @@ windshield of a car is transparent to <i>optical</i> light (you do need to
 see through it to drive), but it is opaque to UV light (you don't get
 a sunburn inside your car). Viceversa, your suitcase is opaque to
 optical light (you typically can't see inside) but not X-rays
-</p>
-</div>
-</div>
-<div id="outline-container-color" class="outline-2">
-<h2 id="color"><a href="#color">Color</a></h2>
-<div class="outline-text-2" id="text-org-element-19">
-<p>
-Color bases
 </p>
 </div>
 </div>
