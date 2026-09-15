@@ -6,7 +6,11 @@
 
 *Reading*: Chapter 5
 
-* Recap
+* Recap & Logistics
+- [ ] signature assignment
+  - [ ] deadlines (intermediate and none)
+- [ ] Lab 2 date reminder
+- [ ] Planetarium visit
 
 * Astronomical messengers
 
@@ -60,7 +64,9 @@ frequencies of light produced by the Sun. What we perceive as color is
 typically the /difference in intensity between light at two different
 frequencies/.
 
+* Let there be light
 
+#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/P-4pbFcERnk?si=1NF1FSVgs39VodkL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 * Light-matter interactions
 Light can interact with matter in several ways. Usually, these
