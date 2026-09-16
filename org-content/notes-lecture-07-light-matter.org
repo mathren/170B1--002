@@ -405,5 +405,5 @@ are wrong: the hotter the source the bluer the light! Blue should
 correspond to hot and red to cold!
 
 #+CAPTION: Typically, water tap colors are physically wrong!
-#+ATTR_HTML: :50%
+#+ATTR_HTML: :width 50%
 [[./images/tap.jpg]]
