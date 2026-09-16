@@ -155,9 +155,10 @@ frequencies/.
 
 * Is light a particle or wave? /Both/!
 
-Therefore, to use light as an astrophysical messenger, we need to
-understand first light itself (this lecture's objective), and how it
-may interact with matter.
+Since "seeing" means collecting light modified by interactions with
+matter on its propagation path, to use light as an astrophysical
+messenger, we need to understand first light itself (this lecture's
+objective), and how it may interact with matter.
 
 Let's start with the fundamental question of "what is light". This is
 a surprisingly non-trivial question: Newton first proposed that is it
