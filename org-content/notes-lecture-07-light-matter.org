@@ -364,4 +364,10 @@ closest examples are:
 - the universe itself (the cosmic microwave background was emitted as
   thermal radiation once the Universe's density was low enough for
   photons to decouple from matter and stream freely to infinity)
+  #+CATION: Cosmic microwave background: this image shows the deviations of 1 part per billion from an almost perfect black body spectrum.
+  #+ATTR_HTML: :width 50%
+  [[./images/Planck_CMB.jpg]]
 - stars, if they had no atmosphere!
+  #+CAPTION: From the bottom of the Sun we start with a black body spectrum, which is modified as light filters through the Sun's atmosphere, and then the Earth's atmosphere.
+  #+ATTR_HTML: :width 50%
+  [[./images/solar-spectrum.jpg]]
