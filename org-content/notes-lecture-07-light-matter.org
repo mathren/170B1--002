@@ -6,11 +6,16 @@
 
 *Reading*: Chapter 5
 
-* Recap & Logistics
-- [ ] signature assignment
-  - [ ] deadlines (intermediate and none)
-- [ ] Lab 2 date reminder
-- [ ] Planetarium visit
+* Logistics
+- [ ] Signature assignment: instructions are on [[https://d2l.arizona.edu/d2l/lms/dropbox/admin/mark/folder_submissions_users.d2l?db=2516409&ou=1802755][D2L]], start early
+  because there are several classes throughout the University which
+  require the use of the same tools. You will need to schedule your
+  observations, and potentially re-schedule them if weather is not
+  nice. Bad weather will not be accepted as an excuse for not
+  completing the assignment! The final report will be due on
+  <2026-11-25 Wed>, but you want to start as soon as this week.
+- [ ] Homework due next Tuesday assigned today
+- [ ] Lab 2 dates: next Wednesday, no makeup option for the in class part!
 
 * Astronomical messengers
 

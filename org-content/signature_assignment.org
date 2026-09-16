@@ -1,0 +1,33 @@
+
+The instructions for your signature assignment are provided here:
+
+[[https://new.express.adobe.com/webpage/oVwMc4zx0l1jH][signature assignment website]]
+
+* Logistics
+
+** Observations with 21-inch telescope (eyepiece)
+
+The Raymond E. White, Jr. (21-Inch) Telescope in the historic Steward
+Observatory Dome will be available for eyepiece observing.
+
+Starting <2026-09-21 Mon> the telescope will be *open every Monday
+through Thursday* (excluding Veteran’s Day & Thanksgiving) *from 7:30 –
+10:30 p.m.* The last night of operation will be <2026-12-08 Tue>.
+
+You can sign up at [[https://www.signupgenius.com/go/10C0F4EACA922A5F4C70-65656747-21inch][this link]], which requires you to provide an email
+so the telescope operators can let you know if the telescope will be
+closed because of weather.
+
+#+CAPTION: Sign up link to the Steward Observatory 21-inch telescope for eyepiece observations.
+#+ATTR_HTML: :width 50%
+[[./images/QR-SO_21inch_signup.png]]
+
+** Observation with =Seestar S50= camera
+
+To observe with the =Seestar S50= camera, sign up at [[https://www.signupgenius.com/go/10C0F4EACA922A5F4C70-65657056-seestar][this link]].
+Slots to observe start on <2026-09-28 Mon> and end on
+<2026-12-03 Thu>.
+
+#+CAPTION: Sign up link for the Seestar S50 camera.
+#+ATTR_HTML: :width 50%
+[[./images/QR-seestarS50.png]]
