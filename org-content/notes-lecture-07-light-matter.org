@@ -261,6 +261,15 @@ waves. These carry lower energy than the optical.
 distance/$c$ and *not* \sim distance/$c_{\rm sound$}), which encodes the sound
 information that a radio actually decodes to emit sounds.
 
+Most objects with a /finite/ temperature (i.e., not absolutely cold,
+where all the atoms/molecules making the object would have strictly
+zero thermal velocity) emit in the infrared:
+
+#+CAPTION: Left: an infrared camera detects (yellow/red) the *emission* from the human with a body temperature of \sim 36-37 degrees Celsius, but the glass pane absorbs this infra-red emission. Right: in the optical we see the person through the light they reflect, which in the optical range goes through the glass minimally disturbed. Still from [[https://www.youtube.com/watch?v=w5hJpyszZnc][this video]].
+[[file:images/IR_optical.png]]
+
+
+
 *** Shorter wavelengths
 At shorter wavelengths than optical we find the /ultraviolet/, and then
 X-rays and $\gamma$ rays. These have higher energy and typically penetrate
@@ -312,6 +321,10 @@ Broadly speaking there are 4 classes of processes:
 - *Transmission*: matter lets photons through but modifies their
   velocity and/or frequency. For instance, optical light can get
   through a window.
+  #+CAPTION: Transmission of light through a tainted window: not all wavelengths are transmitted!
+  #+ATTR_HTML: :width 50%
+  [[file:images/vitraux.png]]
+
 - *Scattering/Reflection*: matter changes the direction of a photon (and
   possibly other properties too), much like a mirror deflecting a
   light ray.
