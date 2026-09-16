@@ -235,7 +235,9 @@ light what oscillates is an /electromagnetic field/.
 *N.B.:* Field is a function $F(x,y,z,t)$ that assigns a value (scalar or
  vector) to every point in space and time, e.g., a /velocity field/ is
  the function that assigns to each point of a fluid the velocity
- vector for each parcel of the fluid.
+ vector for each parcel of the fluid. An electromagnetic field thus
+ assigns at each point in space an electric and a magnetic field
+ (these are vectors, the electric and magnetic forces depend on them).
 
 Because of
 Maxwell's equations that describe classical electromagnetism, an
