@@ -181,7 +181,7 @@ drop in a body of water, earthquakes, etc. Each wave is characterized
 by a few basic quantities:
 
 - Wavelength $\lambda$ is the distance between two peaks
-- frequency $\nu$ is the number of oscillations per unit time, typically measured in Hertz [Hz]
+- frequency $f$ (or $\nu$) is the number of oscillations per unit time, typically measured in Hertz [Hz]
 - amplitude $A$ the displacement at a maximum of the wave
 - propagation speed $v$
 
