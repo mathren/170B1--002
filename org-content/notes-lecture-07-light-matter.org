@@ -110,13 +110,13 @@ when they interacted.
 
 
 As we will re-emphasize later, planets are very dim, especially w.r.t.
-the stars the orbit. For the sake of argument here we can consider
+the stars they orbit. For the sake of argument here we can consider
 that they do /not/ emit any light.
 
 How can we study, say, the atmosphere of a planet orbiting /another
 star/ if we cannot see it? *We look at the light of the host star
 filtering through the atmosphere of the planet!* (so called
-"transmission spectroscopy") If we understand sufficiently well the
+"transmission spectroscopy"). If we understand sufficiently well the
 light coming out of the star, we can then see how it is changed by the
 exoplanet atmosphere and deduce things about it.
 
@@ -137,9 +137,10 @@ comparable to the wavelength of light).
 
 It was Newton that demonstrated that the division of white light in
 its components probed a property of light itself, and not of the
-object it was interacting with. He did this by showing that taking
-light of a specific color (selected with a first prism) and adding a
-second prism on its path no further splitting into colors occured.
+object it was interacting with (that is the prism). He did this by
+showing that taking light of a specific color (selected with a first
+prism) and adding a second prism on its path produces no further
+splitting of the light.
 
 Sometimes, nature provides the diffraction element: in the case of a
 rainbow, water droplets suspended in the air act as the prism.
