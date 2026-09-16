@@ -90,8 +90,6 @@ What happens when you turn on a light source (e.g., light bulb in a room)?
 [[file:images/room.png]]
 
 
-#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/P-4pbFcERnk?si=1NF1FSVgs39VodkL-&amp;start=910" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 Let's assume the light source produces "white light" (even though
 light bulbs are typically not perfectly "white"). This will move *at
 the speed of light* and interact with the matter encountered.
