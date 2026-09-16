@@ -371,9 +371,13 @@ closest examples are:
 Note that making the /approximation/ that a star is a black body, we can
 get from the light that we receive its /surface/ temperature!
 
-#+CAPTION: Hubble space telescope image of the central region of the cluster \Omega Centauri. Cooler stars have their peak emission at longer wavelengths and appear *red*, while hotter stars appear *blue*.
+#+CAPTION: Hubble space telescope image of the central region of the cluster \Omega Centauri. Cooler stars have their peak emission at longer wavelengths and appear *red*, while hotter stars appear *blue*. From [[https://science.nasa.gov/asset/hubble/colorful-stars-galore-inside-globular-star-cluster-omega-centauri/][this link]].
 [[./images/omega_cen.jpeg]]
 
 Note that this implies that all the taps of water that you encounter
 are wrong: the hotter the source the bluer the light! Blue should
 correspond to hot and red to cold!
+
+#+CAPTION: Typically, water tap colors are physically wrong!
+#+ATTR_HTML: :50%
+[[./images/tap.jpg]]
