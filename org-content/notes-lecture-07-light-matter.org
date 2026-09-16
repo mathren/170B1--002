@@ -374,13 +374,13 @@ Broadly speaking there are 4 classes of processes:
   light ray.
 
 Typically, the interaction of matter and light depend on the energy of
-the light: the same material can be "transparent" for certain light
-frequencies and "opaque" to other frequencies. As an example: the
-windshield of a car is transparent to /optical/ light (you do need to
-see through it to drive), but it is opaque to UV light (you don't get
-a sunburn inside your car). Viceversa, your suitcase is opaque to
-optical light (you typically can't see inside) but not X-rays which
-penetrates it.
+the light and the properties of the matter it interacts with: the same
+material can be "transparent" for certain light frequencies and
+"opaque" to other frequencies. As an example: the windshield of a car
+is transparent to /optical/ light (you do need to see through it to
+drive), but it is opaque to UV light (you don't get a sunburn inside
+your car). Viceversa, your suitcase is opaque to optical light (you
+typically can't see inside) but not X-rays which penetrates it.
 
 * Thermal radiation
 
