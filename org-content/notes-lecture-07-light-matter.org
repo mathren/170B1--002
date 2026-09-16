@@ -94,12 +94,11 @@ What happens when you turn on a light source (e.g., light bulb in a room)?
 
 Let's assume the light source produces "white light" (even though
 light bulbs are typically not perfectly "white"). This will move *at
-the speed of light* $c$ (possibly slower than the speed of light in
-vacuum if the light is interacting with the gas it is going through)
-and interact with the matter encountered.
+the speed of light* and interact with the matter encountered.
 
 These light-matter interactions will modify the light (e.g., absorbing
-some colors, changing the direction of propagation, etc.) before
+some colors, changing the direction of propagation, slow down w.r.t.
+the speed /in vacuum/ $c$ etc.) before
 reaching the observer, which detects light *modified*. If one
 understands the source of light (e.g., looking at it directly), and
 the light-matter interactions, then one can infer from how the light
