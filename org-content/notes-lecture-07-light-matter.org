@@ -229,7 +229,7 @@ relativity.
 Instead, /light makes its own medium/! To understand this, we need to
 think about what is actually oscillating. In a mechanical wave, e.g.,
 the sound, what oscillates is the pressure of the gas at a given point
-as a function of time $P(t, x=\bar{x})\sim P_{o}\sin(\omega t)$. In the case of
+as a function of time $P(t, x=\bar{x})\sim P_{o}\sin(\nu t)$. In the case of
 light what oscillates is an /electromagnetic field/.
 
 *N.B.:* Field is a function $F(x,y,z,t)$ that assigns a value (scalar or
