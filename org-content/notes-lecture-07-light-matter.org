@@ -271,13 +271,15 @@ In a particle description of light, we assume that it is made of
 little /packets/ (or /quanta/) of energy. Each packet is a /photon/, whose
 energy depends on the frequency of the light:
 #+BEGIN_LATEX
+\begin{equation}\label{eq:epshnu}
 \varepsilon = h f ,
+\end{equation}
 #+END_LATEX
 where $h$ is Planck's constant which has the units of [E]\times[t] (so
 multiplied by a frequency $f$ measured in 1/[t] one obtains an
 energy).
 
-Because of Eq.\ref{eq:lambaf}, this implies that there is a
+Because of Eq. (\ref{eq:lambaf}), this implies that there is a
 relationship between the wavelength and the energy of light: the
 longer the wavelength, the lower the frequency, the lower the energy!
 
@@ -287,17 +289,32 @@ we would suffer: there are also ideas that a strong UV irradiation may
 be necessary for the development of certain key biological molecules!
 
 * Light-matter interactions
-Light can interact with matter in several ways: in our initial example,
+Light can interact with matter in several ways, and understanding how
+this affects its properties is key to use it as a "messenger" of
+astronomical information.
+
 Usually, these processes require an understanding of quantum mechanics
 (which is the theoretical framework to study processes at atomic and
-sub-atomic level).
+sub-atomic level, and which /started/ with recognizing that there is a
+limit to the subdivision of energy for light, cf. Eq. \ref{eq:epshnu}).
 
-- Emission: matter produces a photon
-- Absorption: matter removes a photon and stores its energy
-- Transmission: matter lets photons through but modifies their
-  velocity and/or frequency
-- Scattering/Reflection: matter changes the direction of a photon (and
-  possibly other properties too)
+Broadly speaking there are 4 classes of processes:
+
+- *Emission*: matter produces a photon. This is for example an extremely
+  hot incandescent light bulb that emits in the optical range.
+  #+CAPTION: Incandescent light bulb emits in the optical
+  #+ATTR_HTML: :width 50%
+  [[./images/bulb.jpg]]
+- *Absorption*: matter removes a photon and stores its energy. For
+  instance, a blue object appears blue because of the entire optical
+  spectrum produced by the Sun, it absorbs all colors /but/ the blue
+  that is instead reflected (see below).
+- *Transmission*: matter lets photons through but modifies their
+  velocity and/or frequency. For instance, optical light can get
+  through a window.
+- *Scattering/Reflection*: matter changes the direction of a photon (and
+  possibly other properties too), much like a mirror deflecting a
+  light ray.
 
 Typically, the interaction of matter and light depend on the energy of
 the light: the same material can be "transparent" for certain light
@@ -305,4 +322,5 @@ frequencies and "opaque" to other frequencies. As an example: the
 windshield of a car is transparent to /optical/ light (you do need to
 see through it to drive), but it is opaque to UV light (you don't get
 a sunburn inside your car). Viceversa, your suitcase is opaque to
-optical light (you typically can't see inside) but not X-rays
+optical light (you typically can't see inside) but not X-rays which
+penetrates it.
