@@ -261,15 +261,6 @@ waves. These carry lower energy than the optical.
 distance/$c$ and *not* \sim distance/$c_{\rm sound$}), which encodes the sound
 information that a radio actually decodes to emit sounds.
 
-Most objects with a /finite/ temperature (i.e., not absolutely cold,
-where all the atoms/molecules making the object would have strictly
-zero thermal velocity) emit in the infrared:
-
-#+CAPTION: Left: an infrared camera detects (yellow/red) the *emission* from the human with a body temperature of \sim 36-37 degrees Celsius, but the glass pane absorbs this infra-red emission. Right: in the optical we see the person through the light they reflect, which in the optical range goes through the glass minimally disturbed. Still from [[https://www.youtube.com/watch?v=w5hJpyszZnc][this video]].
-[[file:images/IR_optical.png]]
-
-
-
 *** Shorter wavelengths
 At shorter wavelengths than optical we find the /ultraviolet/, and then
 X-rays and $\gamma$ rays. These have higher energy and typically penetrate
@@ -337,3 +328,40 @@ see through it to drive), but it is opaque to UV light (you don't get
 a sunburn inside your car). Viceversa, your suitcase is opaque to
 optical light (you typically can't see inside) but not X-rays which
 penetrates it.
+
+* Thermal radiation
+
+Most objects with a /finite/ temperature (i.e., not absolutely cold,
+where all the atoms/molecules making the object would have strictly
+zero thermal velocity) emit in the infrared:
+
+#+CAPTION: Left: an infrared camera detects (yellow/red) the *emission* from the human with a body temperature of \sim 36-37 degrees Celsius, but the glass pane absorbs this infra-red emission. Right: in the optical we see the person through the light they reflect, which in the optical range goes through the glass minimally disturbed. Still from [[https://www.youtube.com/watch?v=w5hJpyszZnc][this video]].
+[[file:images/IR_optical.png]]
+
+In general, a /perfect emitter\absorber/ (that is equally good at
+emitting/absorbing light for any $\lambda$) emits per unit area a so called
+"black body radiation", a very specific spectrum which depends *only* on
+its temperature:
+#+CAPTION: Examples of "black body spectrum" for various temperatures.
+[[file:images/bb.png]]
+
+It is from trying to explain the shape of this spectrum that Max
+Planck introduced the constant $h$ and opened the door to quantum
+mechanics.
+
+Note that this implies that all the taps of water that you encounter
+are wrong: the hotter the source the bluer the light! Blue should
+correspond to hot and red to cold!
+
+What we can see in the figure is that: *the hotter the source* (blue
+line) *the larger the emission per unit area* (Stefan Boltzmann's law),
+and *the shorter the wavelength at the peak* (Wien's law). Because of
+the relationship between wavelength, frequency and energy, this also
+implies the energy of this radiation increases with temperature.
+
+In nature, not many things are "perfect emitters/absorbers". The
+closest examples are:
+- the universe itself (the cosmic microwave background was emitted as
+  thermal radiation once the Universe's density was low enough for
+  photons to decouple from matter and stream freely to infinity)
+- stars, if they had no atmosphere!
