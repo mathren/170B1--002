@@ -309,7 +309,7 @@ their detection was developed right before and during WWII for
 military purposes.
 
 *N.B.:* radios communicate through light (so the time delays are \sim
-distance/$c$ and *not* \sim distance/$c_{\rm sound$}), which encodes the sound
+distance/$c$ and *not* \sim distance/$c_{\rm sound}$), which encodes the sound
 information that a radio actually decodes to emit sounds.
 
 *** Shorter wavelengths
