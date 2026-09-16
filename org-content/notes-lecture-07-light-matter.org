@@ -66,6 +66,7 @@ overused buzzword of "multimessenger astrophysics".
 
 
 #+CAPTION: For most of human history, astronomy was based exclusively on collecting /visual/ (and /naked eye/) observations, so through light in the visible range. With the development of telescopes capable of seeing light outside of this range, we expanded to the entire electromagnetic spectrum, and in the 20^{th} century, the detection of astrophysical neutrinos and cosmic rays added the first non-light "messengers". In 2015, with the first direct detection of gravitational waves, we added yet another messenger that we can detect to probe astronomical phenomena.
+#+ATTR_HTML: :width 50%
 [[file:images/multimessenger-astro.png]]
 
 
