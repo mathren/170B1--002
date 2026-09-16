@@ -370,4 +370,4 @@ closest examples are:
 - stars, if they had no atmosphere!
   #+CAPTION: From the bottom of the Sun we start with a black body spectrum, which is modified as light filters through the Sun's atmosphere, and then the Earth's atmosphere.
   #+ATTR_HTML: :width 50%
-  [[./images/solar-spectrum.jpg]]
+  [[./images/sun-SED.jpg]]
