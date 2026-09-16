@@ -302,7 +302,7 @@ But light can also have wavelength (or equivalently frequency, since its
 speed in vacuum $c$ is a constant!) /outside/ of the optical/visible range!
 
 *** Longer wavelength
-At longer $\lambda$ we find first /infrared/ radiation $\lambda \sim \mu m = 10^{-6} m$, and
+At longer $\lambda$ we find first /infrared/ radiation $\lambda \sim \mu\mathrm{m} = 10^{-6} \mathrm{m}$, and
 the microwaves (mm and sub-mm wavelength), and finally radio waves.
 These carry lower energy than the optical, and a lot of technology for
 their detection was developed right before and during WWII for
