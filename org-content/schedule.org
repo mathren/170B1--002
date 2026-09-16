@@ -102,14 +102,16 @@ DEADLINE: Homework
 *** <2026-09-21 Mon> - Light, Matter
 # in class attendance
 
-*** <2026-09-23 Wed> - Telescopes
+[./notes-lecture-08-light-matter.org][Notes]
+
+*** <2026-09-23 Wed> - Spectroscopy: lab 2
 # in class attendance
 # Deadline Homework 4, Assign Homework 5
 DEADLINE: Homework
 
 ** Week 6: Chapter 7
 
-*** <2026-09-28 Mon> - Our Solar System
+*** <2026-09-28 Mon> - Telescopes
 # in class attendance
 
 *** <2026-09-30 Wed> - Midterm
