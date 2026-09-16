@@ -7,15 +7,28 @@
 *Reading*: Chapter 5
 
 * Logistics
-- [ ] Signature assignment: instructions are on [[https://d2l.arizona.edu/d2l/lms/dropbox/admin/mark/folder_submissions_users.d2l?db=2516409&ou=1802755][D2L]], start early
+- Signature assignment: instructions are on [[https://d2l.arizona.edu/d2l/lms/dropbox/admin/mark/folder_submissions_users.d2l?db=2516409&ou=1802755][D2L]], start early
   because there are several classes throughout the University which
   require the use of the same tools. You will need to schedule your
   observations, and potentially re-schedule them if weather is not
   nice. Bad weather will not be accepted as an excuse for not
   completing the assignment! The final report will be due on
   <2026-11-25 Wed>, but you want to start as soon as this week.
-- [ ] Homework due next Tuesday assigned today
-- [ ] Lab 2 dates: next Wednesday, no makeup option for the in class part!
+- Homework due <2026-09-22 Tue> at 11:59 assigned today
+- Lab 2 dates: on <2026-09-23 Wed>, no makeup option for the in class
+  part!
+
+* Recap
+We have seen how solving the puzzle of the apparent motion of /planets/
+(wandering in the night sky less regularly than stars) lead over
+centuries to the development of first the /empirical description/ by
+Kepler laws, and then a /dynamical explanation/ and generalization with
+Newton's Universal gravitational law.
+
+However, we have not yet discussed in detail how the information
+necessary for these breakthroughs came from the stars and planets to
+Earth. Today's lecture focuses on what is still the dominant carrier
+of astrophysical information on Earth: light.
 
 * Astronomical messengers
 
@@ -24,6 +37,14 @@ collecting objective information using light emitted, reflected, or
 transmitted by celestial bodies. In this sense, light is a "messenger"
 carrying information on astrophysical processes. Astronomers and
 physicists are able to extract /a lot/ of different information from it.
+
+*N.B.:* the /observational/ nature of astronomy makes it stand out in the
+scientific panorama: science is usually /experimental/, meaning the
+observations are made in a /controlled/ environment, and can be repeated
+and reproduced. For astrophysics we do /not/ control the environment,
+and some events (e.g., a star exploding) cannot be triggered by
+experimentalist or repeated.
+
 
 Actually, until the late 1960s, light was /the only/ astrophysical
 messenger available -- which changed with the detection of neutrinos
