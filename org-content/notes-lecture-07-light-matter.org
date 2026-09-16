@@ -94,8 +94,9 @@ What happens when you turn on a light source (e.g., light bulb in a room)?
 
 Let's assume the light source produces "white light" (even though
 light bulbs are typically not perfectly "white"). This will move *at
-the speed of light* through the environment and interact with the
-matter it encounters.
+the speed of light* $c$ (possibly slower than the speed of light in
+vacuum if the light is interacting with the gas it is going through)
+and interact with the matter encountered.
 
 These light-matter interactions will modify the light (e.g., absorbing
 some colors, changing the direction of propagation, etc.) before
