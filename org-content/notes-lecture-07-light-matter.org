@@ -45,18 +45,29 @@ and reproduced. For astrophysics we do /not/ control the environment,
 and some events (e.g., a star exploding) cannot be triggered by
 experimentalist or repeated.
 
+In the 20^{th} century, we started being able to detect particles that
+are /not/ light coming from space, so called "cosmic rays", which add
+another form of messenger. In the late 1960s the detection of
+neutrinos from the Sun added a particular kind of "cosmic ray", one
+that is very hard to detect because it has very little interactions
+with matter, but this means it is also a messenger that travels
+unimpeded from the production site (unlike light which does interact
+with matter). Cosmic rays and neutrinos are a different type of
+particle compared to the particles (/photons/) that make up light. They
+have completely different interactions with matter, and thus carry
+different information (and from different parts of the celestial
+bodies).
 
-Actually, until the late 1960s, light was /the only/ astrophysical
-messenger available -- which changed with the detection of neutrinos
-from the Sun. This are a different type of particle compared to the
-particles (/photons/) that make up light. They have completely different
-interactions with matter, and thus carry different information (and
-from different parts of the celestial bodies). Then, first the
-indirect detection with the Hulse-Taylor pulsar in 1975 and with the
-/direct/ detection of "gravitational waves" in 2015, we now have another
-messenger, for a total of 3 (/photons/, /neutrinos/ and gravitational
-waves), which is why often nowadays there is an overused buzzword of
-"multimessenger astrophysics".
+Then, first the indirect detection with the Hulse-Taylor pulsar in
+1975 and with the /direct/ detection of "gravitational waves" in 2015,
+we now have another messenger, for a total of 3 (/photons/, /neutrinos/
+and gravitational waves), which is why often nowadays there is an
+overused buzzword of "multimessenger astrophysics".
+
+
+#+CAPTION: For most of human history, astronomy was based exclusively on collecting /visual/ (and /naked eye/) observations, so through light in the visible range. With the development of telescopes capable of seeing light outside of this range, we expanded to the entire electromagnetic spectrum, and in the 20^{th} century, the detection of astrophysical neutrinos and cosmic rays added the first non-light "messengers". In 2015, with the first direct detection of gravitational waves, we added yet another messenger that we can detect to probe astronomical phenomena.
+[[file:images/multimessenger-astro.png]]
+
 
 *N.B.:* As a physicist, I will use /all/ the possible messengers to
  understand the physics, and there is nothing new on this front. We
