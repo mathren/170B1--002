@@ -12,3 +12,4 @@ class_roster.xlsx
 *.docx
 .#*
 *.md
+student_notes/*

@@ -391,7 +391,7 @@ zero thermal velocity) emit in the infrared:
 #+CAPTION: Left: an infrared camera detects (yellow/red) the *emission* from the human with a body temperature of \sim 36-37 degrees Celsius, but the glass pane absorbs this infra-red emission. Right: in the optical we see the person through the light they reflect, which in the optical range goes through the glass minimally disturbed. Still from [[https://www.youtube.com/watch?v=w5hJpyszZnc][this video]].
 [[file:images/IR_optical.png]]
 
-In general, a /perfect emitter\absorber/ (that is equally good at
+In general, a /perfect emitter/absorber/ (that is equally good at
 emitting/absorbing light for any $\lambda$) emits per unit area a so called
 "black body radiation", a very specific spectrum which depends *only* on
 its temperature:
@@ -403,7 +403,7 @@ Planck introduced the constant $h$ and opened the door to quantum
 mechanics.
 
 What we can see in the figure is that: *the hotter the source* (blue
-line) *the larger the emission per unit area* (Stefan Boltzmann's law),
+line) *the larger the emission per unit area* (Stefan-Boltzmann's law),
 and *the shorter the wavelength at the peak* (Wien's law). Because of
 the relationship between wavelength, frequency and energy, this also
 implies the energy of this radiation increases with temperature.
