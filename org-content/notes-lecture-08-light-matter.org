@@ -200,8 +200,12 @@ Like atoms they are mostly made of void, with nuclei localized in
 places, and electron orbitals that spread across the regions closer to
 more than one nucleus.
 
+#+CAPTION: Schematic representation of roto-vibrational emission lines from molecules.
+[[file:images/molecule_rotovib.png]]
+
+
 A molecule will have many more energy levels than an atom: electrons
-can still jump around, but the /forrest/ of possible energy levels is
+can still jump around, but the /forest/ of possible energy levels is
 thicker. This is because on top of all the individual excitations of
 the atoms making a molecule, the molecule can experience "collective
 and coordinated" excitations such as vibrating, rotating, etc.
@@ -408,6 +412,9 @@ per unit area of the detector and per unit time at every wavelength
 (or equivalently energy), as shown in the cartoon above below the
 "rainbows".
 
+
+
+
 * Doppler shift
 
 
@@ -446,7 +453,29 @@ of absorption or emission lines produced by a particular atom), and
 measure by how much its wavelength (remember $\lambda\times f=c$ for light) is
 shifted by the Doppler effect to get a measure of the velocity!
 
+** Rotational broadening
+
+If a source is rotating, part of it moves towards us, and part away,
+and the rotation axis does not move at all. This means that the
+"integrated light" from all these parts will have a bit too much
+Doppler shifted to the red and blue (to lower/higher frequencies),
+making the lines appear too large.
+
+Many astrophysical sources we can /only/ see as a point source, with all
+their parts at one, but this is how we measure the rotational velocity
+of stars. Since only the motion along the light of sight (away/towards
+us) matters, this only gives the /projected/ rotational velocity on the
+line of sight.
+
+#+CAPTION: Schematic representation of rotational broadening of an emission line.
+[[file:images/rot_broad.png]]
+
 * Reading the message carried by /photons/
+
+We have already seen examples of how using spectroscopy we can infer
+properties of the sources: not only its composition from the spectral
+lines that we find, but also microscopic and macroscopic properties
+(is it an atomic or molecular gas? does it rotate?)
 
 - Telescopes as light buckets
 - Spectrograph
