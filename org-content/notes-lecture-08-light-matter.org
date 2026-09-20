@@ -105,6 +105,16 @@ probability that an electron is there ($x_{0}, y_{0}, z_{0}$) and then ($t_{0}$)
 #+CAPTION: Orbitals of the simplest atom: hydrogen. The first row is the lowest energy "fundamental" state, and the energy of the electron increases with the rows. The probability distribution of the electron cannot have the "in between" shapes, it jumps from one to the other discretely.
 [[./images/H_orbitals.png]]
 
+Each orbital corresponds to an "energy level", and some energy levels
+can be occupied by more than one electron (thanks to another intrinsic
+properties of these particles, which we call /spin/).
+
+
+#+CAPTION: Schematic representation of the energy levels in an atom. The vertical direction is energy, and each horizontal line corresponds to an energy that two (or more) electrons can have. As the energy increase the discrete energy levels get closer and closer until they merge into the "continuum" of energies corresponding to an electron /not/ bound to the nucleus anymore.
+[[file:images/energy_levels.png]]
+
+
+
 Depending on how many electrons are in an atom, you obtain matters of
 different chemical and physical properties: one electron is hydrogen,
 the lightest element, two it's helium, and so on. The number of
@@ -128,6 +138,19 @@ of a proton. The mass of the atom thus is approximately equal to the
 mass of the nucleus and the sum of the mass of $Z$ protons and $N$
 neutrons, $A=Z+N$.
 
+** Ions
+If you strip off an atom of its electron(s) you obtain an /ion/ which is
+positively charged (because it's the same nucleus missing one or more
+electrons).
+
+Any means of giving energy to an electron, if it gives enough of it,
+can remove it, ionizing an atom. For example, two atoms violently
+colliding with each other (maybe because of their thermal motion)
+could strip each other's electron.
+
+Any atom with charge $Ze$ has $Z$ possible ions of charge $(Z-1)e, (Z-2)e,
+... e$, depending on how many of its $Z$ electrons it loses.
+
 ** Isotopes: same charge different mass
 If the chemical and physical property of a chunk of matter made of
 atoms depend on the number of electrons = number of protons, what
@@ -148,17 +171,280 @@ including this rare isotope, until they die.
 #+CAPTION: isotopes of carbon, with protons and neutrons in the nucleus represented as particles.
 [[file:images/isotopes_C.png]]
 
+** Molecules
 
+Depending on the atomic properties, some atoms would like more
+electrons while some could get rid of some electrons they have.
+
+As an analogy, think of the atoms has having a certain amount of
+pieces of a puzzle. The number of pieces is determined by the charge
+of their nucleus, but the picture the puzzle represent isn't. So in
+their lowest energy equilibrium state, some atoms have enough pieces
+to complete the figure in the puzzle just exactly: these will not want
+to deal with other atoms, and are the "noble gas" (noble because they
+don't mix with the other atoms!) in the last column of the [[https://ptable.com/?lang=en#Properties][perodic
+table]]. Some atoms will be missing some pieces, and would be keen on
+sharing electrons with another atom to complete their picture. And
+some atoms will have a complete "picture" plus spare pieces they would
+be keen on shedding.
+
+In this metaphor the electrons are pieces of puzzle, and the figure is
+the /distribution of electrons in the energetic levels of the atom/:
+when every /level/ of energy is exactly full of as many electrons it can
+hold, we have an atom that will not want to interact with other atoms.
+
+For atoms that when neutral (so number of electrons = number of
+protons) have "incomplete" energy levels, chemical reactions can lead
+to the formation of /molecules/. These are bound state between atoms.
+Like atoms they are mostly made of void, with nuclei localized in
+places, and electron orbitals that spread across the regions closer to
+more than one nucleus.
+
+A molecule will have many more energy levels than an atom: electrons
+can still jump around, but the /forrest/ of possible energy levels is
+thicker. This is because on top of all the individual excitations of
+the atoms making a molecule, the molecule can experience "collective
+and coordinated" excitations such as vibrating, rotating, etc.
+
+Examples of molecules are plenty: the oxygen in the air is in the form
+of an $\mathrm{O}_{2}$ molecule, where two oxygen atoms share their most
+energetic electrons. Molecules can form between different atoms, for
+instance $\mathrm{H_{2}O}$. Their size goes from roughly atomic (10^{-10}
+cm) to bigger, with some molecules containing hundreds of atoms.
+
+
+* States of matter
+
+#+CAPTION: Phases of matter
+#+ATTR_HTML: :width 50%
+[[file:images/phases_of_matter.png]]
+
+
+
+Macroscopically, we have different states of matter. These are
+determined at the molecular and atomic level, by how freely the
+components move w.r.t. to each other.
+
+The main type of motion to consider here is /thermal motion/: the random
+agitation of the components which causes the thermal energy (and whose
+average speed is proportional to the temperature).
+
+** Gas
+When the atoms/molecules of a substance are moving freely with respect
+to each other. We still assume the particles can somehow "bump into
+each other" occasionally and exchange energy: at equilibrium every
+particle has the same energy.
+
+** Liquid
+In this case, there are weak interactions between the particles that
+constrain their motion. They are not only bumping and bouncing around,
+but more sliding onto each other. This still allows for changing
+shape, but can limit the compressibility and flow.
+
+In the case of water, the weak interaction is due to the fact that in
+this molecule oxygen is pulling the electrons a bit stronger than
+hydrogen, and even if they share, on average there is a small charge
+imbalance across the molecules that leads to them feeling each other's
+charge.
+
+** Solid
+This is when the components (atoms, molecules, or "sets" of different
+molecules) are bonded together. To first order you can imagine many
+little springs connecting them. In this case the motion is restricted.
+
+There are various types of bonds of different strengths and
+properties. Typically, to maximize the number of bonds among
+molecules, solids are more dense than liquids, but there are
+exceptions.
+
+*N.B.:* Water is special in its solid ice form, because to be able to
+form as many bonds as possible, the molecule need more room: /ice is
+less dense than liquid water/. This is why it floats, which may have
+been an important factor in evolution on Earth.
+
+
+** Plasma
+A plasma is a gas that is so hot that atoms cannot hold on to their
+electrons. The thermal motion gives energy to the electrons that jump
+around until the continuum and unbind themselves from nuclei.
+
+This is thus a gas, still globally neutral, where most of the mass is
+positively charges, and free electrons zoom around carrying the
+negative charge.
+
+Many astrophysical sources hot enough to shine light that we can
+detect are plasmas.
+
+*N.B.:* There is a particle that like the proton has a positive unit
+charge $+e$ but has the same mass of the electron ($m_{e}=m_{p}/2000$)
+called /positron/. One can also imagine an electron-positron plasma
+where all particles have the same mass, globally neutral, but all
+particles move freely.
+
+** Phase changes
+By changing the conditions of a collection of atoms/molecules we can
+let bond form or break, changing the same substance from one phase to
+another. You are certainly all familiar with this with water, from the
+ice in your drink, to the vapor over a boiling pot of liquid water.
+
+At every temperature and pressure there is an equilibrium distribution
+of these phases: at any temperature, some of the bonds between water
+molecules that are bound in ice can crack (a tug caused by thermal
+motion /breaks/ the spring), causing evaporation of a molecule.
+Viceversa two (or more) water molecule in a vapor can bump into each
+other and start forming a rain drop (condensation).
+
+For a given pressure and temperature however, there is an equilibrium
+within the phases, dominated in most cases by one or the other (at the
+exception of the phase transition points).
+
+The figure above shows how increasing the temperature (that is
+increasing the average velocity of the random motion of particles),
+the energy of the binds between particles becomes less and less
+relevant, and they progressively unbind from each other.
 
 * Energy-jumps and spectral lines
 
+So after this brief overview of matter, and related to the legitimate
+/how do we know these things?/, let's return to the lines in the
+spectrum of the Sun. Let's consider the thing that gives its name to
+quantum mechanics: /electrons in an atom or molecule can only have
+discrete values of energy/.
+
+This is a surprising fact: why can electron have energy $E_{0}$ and $E_{1}$
+but nothing in between? This was studied using /light/ to probe the
+structure of atoms, both in laboratories and astronomical sources,
+collecting empirical evidence that did not fit the theory, until the
+progressive and bumpy development of a new theory: quantum mechanics.
+
+If $E_{1}$ and $E_{0}$ are two adjacent energy levels, atoms/ions/molecules
+will /not/ accept any energy less than $\Delta_{1-0}=E_{1}-E_{0}$, any photon with
+energy that is not this will not interact with this atom!
+
 ** Absorption lines
+#+CAPTION: Absorption lines
+[[./images/absorption_cartoon.png]]
+
+Photons with just the right energy instead can be "swallowed" by the
+atom which will make the electron jump from $E_{0}$ to $E_{1}$. So if a
+light produces photons across all energies and filters through matter
+that has this transition available, photons at this energy will be
+"missing" at arrival, causing a so called "absorption line" at that
+particular energy (which corresponds to a wavelength).
+
+The dark lines in the solar spectrum are caused by "missing photons"
+captured by the gas/plasma in sitting between where the photon were
+emitted and us (the atmosphere of the Sun, and the one of the Earth).
+
+Every atom/ion/molecule of a kind (e.g., $\mathrm{H_{2}O}, \mathrm{O_{2}}$)
+can only absorb photons at very specific energies: there is a bar-code
+that allows to identify every element.
+
+Bunsen and Frahunhoffer in the mid-1800 were conducting lab
+experiments shining light through gas to find these bar-codes or
+spectral signatures, and it is by finding the same signatures in the
+spectra of stars that we have proven that celestial objects are made
+of the same matter as Earth, and thus the same physical laws must
+apply. /Spectroscopy corresponds to the final unification astronomy and
+physics/.
 
 ** Emission lines
 
+#+CAPTION: Emission lines at specific colors corresponding to the atomic structure producing them.
+[[file:images/emission_cartoon.png]]
+
+Say an ion/atom has an electron in an /excited level/. This means there
+are available energy levels below. The electron is /not allowed/ to lose
+just a bit of energy: it has to lose $\Delta_{1-0}$ (or in general $\Delta_{i-j}$) all
+at once. If the local density is high enough, it may lose it in a
+collision between atoms/ions/molecules (collisional de-excitation).
+However, in most cases electrons de-excite producing a photon
+(radiative de-excitation).
+
+This is because electrons have an electric charge ($-e$, negative, but
+that's an arbitrary decision). Photons are waves in electro-magnetic
+fields produced by charges moving: the atom can /produce/ light!
+
+Similar to absorption lines, any particular atom/ion/molecule can only
+emit photons of specific energies, corresponding to the energies they
+can also absorb!
+
 ** Continuum
+We can now reconsider the distribution of light energies produced by a
+perfect emitter (a black body spectrum):
+
+#+CAPTION: Examples of "black body spectrum" for various temperatures.
+[[file:images/bb.png]]
+
+
+All the atoms/molecules/ions of a gas will approximately produce this
+distribution determined by their temperature: this gives the
+"baseline" or continuum. And they imprint on it their fingerprint by
+removing some photons at specific wavelengths, and adding some in
+emission lines, depending on the condition.
+
+Note that even a solid will broadly follow this spectrum: the number
+of possible atomic and molecular transition is so large that this
+shape can be approximated extremely well by nature using only discrete
+steps in energy!
+
+** Reflection
+Reflection is caused by atoms of a material (the mirror) and can also
+imprint on the incoming distribution of light the signature of those
+atoms, this is important when studying, for example, bodies that do
+not shine (sufficiently! Remember that everything that has a
+temperature shines!) but can be seen through reflected light, like the
+Moon and solar system planets!
+
+** A more professional view of spectra
+
+#+CAPTION: Various spectra from different sources.
+[[file:images/spectra_from_rainbow_to_lines.png]]
+
+Astrophysicists don't spend their time looking at rainbows like the
+figure on top. Instead of reading lines from how dark/bright a portion
+of the rainbow is, it is easier to plot the amount of energy caught
+per unit area of the detector and per unit time at every wavelength
+(or equivalently energy), as shown in the cartoon above below the
+"rainbows".
 
 * Doppler shift
+
+
+#+CAPTION: Plaque for Christian Doppler in Prague.
+#+ATTR_HTML: :width 25%
+[[file:images/doppler_plaque.png]]
+
+
+This is a physical phenomenon about waves emitted from a moving
+source. Since light is a wave, it affects it. Sound is a wave too, and
+is affected too (even if the former is transversal and the latter
+longitudinal).
+
+#+CAPTION: Ambulances provide a daily example of Doppler shift of sound waves, increasing in frequency as it approaches and decreasing as it moves away.
+[[./images/ambulance.jpg]]
+
+The change in frequency occurs when the velocity of the source and the
+wave compound: if the source is approaching, every next oscillation
+starts closer than the precedent, making it /appear/ as if the time in
+between peaks is shorter than it is, or in other words the frequency
+is higher, and the viceversa for a source getting farther away.
+
+
+#+DOWNLOADED: Schematic representation of the Doppler effect: every green line is a crest of a sound wave form a moving source.
+[[file:images/doppler_schematic.png]]
+
+
+But what if what is oscillating is not the pressure in the air like in
+a transversal longitudinal wave? Well, nothing changes! Note that the
+sound speed (or the light speed) are the same in all cases, it's just
+the time interval between crests ($\delta t = 1/f$) that appears modified.
+
+But now, we can use the fingerprint of matter in light to /measure
+astronomical velocities/! We need to find the fingerprint (the forest
+of absorption or emission lines produced by a particular atom), and
+measure by how much its wavelength (remember $\lambda\times f=c$ for light) is
+shifted by the Doppler effect to get a measure of the velocity!
 
 * Reading the message carried by /photons/
 
