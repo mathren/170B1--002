@@ -2,7 +2,7 @@
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-06-gravity-motion.org
-#+NEXT_PAGE: notes-lecture-08
+#+NEXT_PAGE: notes-lecture-08-light-matter.org
 
 *Reading*: Chapter 5
 
