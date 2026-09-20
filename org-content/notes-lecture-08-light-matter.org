@@ -48,14 +48,109 @@ leads to counter-intuitive facts!
 than the quantum scale, so failures of our intuition are to be
 expected investigating these phenomena!
 
-* The atom
+* Elements of atomic physics
 
-- Atomic scale
-- orbitals
-- line transitions
-- emission/absorption
+The word /atom/ means indivisible, and is a misnomer: atoms form the
+building blocks of matter at the scale of \sim 10^{-10} cm, and their
+properties govern chemistry, the state (gas, solid, or vapor) of a
+particular compound, and how matter will interact with light of the
+right energy/wavelength. However, atoms do have sub-structure, and
+they are divisible.
+
+Although the idea of indivisible building blocks of matter dates back
+at least to the ancient Greek philosopher Democritus, until the late
+19^{th} century it was a debated issue whether one could identify these
+particles and whether they existed at all. In the early 20^{th} century a
+series of experiments, culminating with the work by [[https://en.wikipedia.org/wiki/Ernest_Rutherford][Ernest
+Rutherford]]'s team settled experimentally the question.
+
+Specifically, these particle physics experiments revealed that in
+"normal" conditions, matter is made of atoms, which have no electric
+charge. But they are themselves made of /electrons/ which carry charge
+(conventionally called "negative", but this is arbitrary) spread
+around a tiny nucleus with opposite charge (positive).
+
+While the electrons can move around the nucleus in an area of the size
+of \sim10^{-10} cm, the nucleus is 100 thousand times smaller, with typical
+sizes of \sim 10^{-15}m=10^{-13} cm. *Most of the atom is technically empty void*
+between the electrons and the nucleus. The nucleus itself can be
+subdivided further into charged particles, the protons, and neutral
+particles, the neutrons. Each of these particles is about 2000\times
+heavier than the electron, and there can be hundreds of each in heavy
+nuclei (e.g., Uranium): all the mass of the atom is in the tiny
+nucleus.
+
+Like light is /both/ a wave (of an electric and magnetic fields) *and* a
+particle (photon), also the electron and the nucleus are /both/
+particles and waves! Consider the electron -- so far you've probably
+been thinking about it as a little "ball" maybe carrying a minus sign
+symbol for its charge. But a more correct way to think about it is as
+a wave in a field that assigns to every point in space-time (like
+"fields" do) the *probability that the electron is there*. This maybe
+convoluted image is necessary to explain a fundamental fact: in an
+atom, an electron cannot have arbitrary energy, but there are instead
+*discrete* energy levels. The electrons jump between these levels which
+are pre-determined by the atomic structure (which atom it is): the
+energy is /quantized/.
+
+*N.B.:* As light and electrons, also protons and neutrons can be thought
+of as waves in a probability field that describes how likely it is to
+find the particle at a certain position, but their overlapping and
+interacting "waves" are confined in a tiny volume of the nucleus.
+
+Therefore, you should /not/ think of electrons orbiting the nucleus like
+planets, but more like a "diffused cloud" that represents the
+probability that an electron is there ($x_{0}, y_{0}, z_{0}$) and then ($t_{0}$).
+
+#+CAPTION: Orbitals of the simplest atom: hydrogen. The first row is the lowest energy "fundamental" state, and the energy of the electron increases with the rows. The probability distribution of the electron cannot have the "in between" shapes, it jumps from one to the other discretely.
+[[./images/H_orbitals.png]]
+
+Depending on how many electrons are in an atom, you obtain matters of
+different chemical and physical properties: one electron is hydrogen,
+the lightest element, two it's helium, and so on. The number of
+electrons determines which /chemical element/ we have at hand. But the
+number of electrons $Z$ is set by the condition that, in equilibrium
+the atom is /neutral/: there needs to be exactly as many electrons as
+the charge of the nucleus! So ultimately it is the nucleus that
+determines how many electrons hang around, which in turn determines
+how the atom interacts with other atoms (will they bind in molecules,
+and crystals forming solid? Will they stay on their own in a vapor?
+etc.).
 
 
+#+CAPTION: The nucleus is tiny, contains all the positive charge and mass, and is surrounded by electrons spread into a probability distribution. The red dots here represent the orbitals from the previous figure, which shows calculated shape based on quantum mechanics.
+[[file:images/atomic_jargon.png]]
+
+The charge of a nucleus is given by how many protons it has, usually
+indicated as $Z$, each of them has charge $+e$. A neutral atom thus
+have $Z$ electrons each with charge $-e$ and mass \sim1/2000 of the mass
+of a proton. The mass of the atom thus is approximately equal to the
+mass of the nucleus and the sum of the mass of $Z$ protons and $N$
+neutrons, $A=Z+N$.
+
+** Isotopes: same charge different mass
+If the chemical and physical property of a chunk of matter made of
+atoms depend on the number of electrons = number of protons, what
+happens if you add a neutron only?
+
+This is how you form /isotopes/ of the same element, which have the same
+$Z$ but different $A$. For example deuterium is hydrogen where in the
+nucleus there is a neutron missing in the most common hydrogen.
+
+The extra mass without extra charge can slightly twist the properties
+of matter: sometimes the "fattened" nucleus is unstable and can decay
+turning into a different nucleus spontaneously and at a known rate.
+This is for example how we can use $^{13}\mathrm{C}$ to date ancient
+biological material from plants and animal that replenish in carbon,
+including this rare isotope, until they die.
+
+
+#+CAPTION: isotopes of carbon, with protons and neutrons in the nucleus represented as particles.
+[[file:images/isotopes_C.png]]
+
+
+
+* Energy-jumps and spectral lines
 
 
 

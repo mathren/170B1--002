@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-09-19 Sat 18:45 -->
+<!-- 2026-09-20 Sun 13:31 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Light &amp; Matter</title>
@@ -12,6 +12,38 @@
 <meta name="keywords" content="Mathieu, Renzo, Mathieu Renzo,
 			       stellar evolution, ASTR170B1, University of
 			       Arizona, Steward Observatory">
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 </head>
 <body>
 <div id="preamble" class="status">
@@ -167,20 +199,157 @@ expected investigating these phenomena!
 </p>
 </div>
 </div>
-<div id="outline-container-the-atom" class="outline-2">
-<h2 id="the-atom"><a href="#the-atom">The atom</a></h2>
+<div id="outline-container-elements-of-atomic-physics" class="outline-2">
+<h2 id="elements-of-atomic-physics"><a href="#elements-of-atomic-physics">Elements of atomic physics</a></h2>
 <div class="outline-text-2" id="text-org-element-5">
-<ul class="org-ul">
-<li>Atomic scale</li>
-<li>orbitals</li>
-<li>line transitions</li>
-<li>emission/absorption</li>
-</ul>
+<p>
+The word <i>atom</i> means indivisible, and is a misnomer: atoms form the
+building blocks of matter at the scale of &sim; 10<sup>-10</sup> cm, and their
+properties govern chemistry, the state (gas, solid, or vapor) of a
+particular compound, and how matter will interact with light of the
+right energy/wavelength. However, atoms do have sub-structure, and
+they are divisible.
+</p>
+
+<p>
+Although the idea of indivisible building blocks of matter dates back
+at least to the ancient Greek philosopher Democritus, until the late
+19<sup>th</sup> century it was a debated issue whether one could identify these
+particles and whether they existed at all. In the early 20<sup>th</sup> century a
+series of experiments, culminating with the work by <a href="https://en.wikipedia.org/wiki/Ernest_Rutherford">Ernest
+Rutherford</a>'s team settled experimentally the question.
+</p>
+
+<p>
+Specifically, these particle physics experiments revealed that in
+"normal" conditions, matter is made of atoms, which have no electric
+charge. But they are themselves made of <i>electrons</i> which carry charge
+(conventionally called "negative", but this is arbitrary) spread
+around a tiny nucleus with opposite charge (positive).
+</p>
+
+<p>
+While the electrons can move around the nucleus in an area of the size
+of &sim;10<sup>-10</sup> cm, the nucleus is 100 thousand times smaller, with typical
+sizes of &sim; 10<sup>-15</sup>m=10<sup>-13</sup> cm. <b>Most of the atom is technically empty void</b>
+between the electrons and the nucleus. The nucleus itself can be
+subdivided further into charged particles, the protons, and neutral
+particles, the neutrons. Each of these particles is about 2000&times;
+heavier than the electron, and there can be hundreds of each in heavy
+nuclei (e.g., Uranium): all the mass of the atom is in the tiny
+nucleus.
+</p>
+
+<p>
+Like light is <i>both</i> a wave (of an electric and magnetic fields) <b>and</b> a
+particle (photon), also the electron and the nucleus are <i>both</i>
+particles and waves! Consider the electron &#x2013; so far you've probably
+been thinking about it as a little "ball" maybe carrying a minus sign
+symbol for its charge. But a more correct way to think about it is as
+a wave in a field that assigns to every point in space-time (like
+"fields" do) the <b>probability that the electron is there</b>. This maybe
+convoluted image is necessary to explain a fundamental fact: in an
+atom, an electron cannot have arbitrary energy, but there are instead
+<b>discrete</b> energy levels. The electrons jump between these levels which
+are pre-determined by the atomic structure (which atom it is): the
+energy is <i>quantized</i>.
+</p>
+
+<p>
+<b>N.B.:</b> As light and electrons, also protons and neutrons can be thought
+of as waves in a probability field that describes how likely it is to
+find the particle at a certain position, but their overlapping and
+interacting "waves" are confined in a tiny volume of the nucleus.
+</p>
+
+<p>
+Therefore, you should <i>not</i> think of electrons orbiting the nucleus like
+planets, but more like a "diffused cloud" that represents the
+probability that an electron is there (\(x_{0}, y_{0}, z_{0}\)) and then (\(t_{0}\)).
+</p>
+
+
+<figure id="org-element-6">
+<img src="./images/H_orbitals.png" alt="H_orbitals.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 2: </span>Orbitals of the simplest atom: hydrogen. The first row is the lowest energy "fundamental" state, and the energy of the electron increases with the rows. The probability distribution of the electron cannot have the "in between" shapes, it jumps from one to the other discretely.</figcaption>
+</figure>
+
+<p>
+Depending on how many electrons are in an atom, you obtain matters of
+different chemical and physical properties: one electron is hydrogen,
+the lightest element, two it's helium, and so on. The number of
+electrons determines which <i>chemical element</i> we have at hand. But the
+number of electrons \(Z\) is set by the condition that, in equilibrium
+the atom is <i>neutral</i>: there needs to be exactly as many electrons as
+the charge of the nucleus! So ultimately it is the nucleus that
+determines how many electrons hang around, which in turn determines
+how the atom interacts with other atoms (will they bind in molecules,
+and crystals forming solid? Will they stay on their own in a vapor?
+etc.).
+</p>
+
+
+
+<figure id="org-element-7">
+<img src="images/atomic_jargon.png" alt="atomic_jargon.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 3: </span>The nucleus is tiny, contains all the positive charge and mass, and is surrounded by electrons spread into a probability distribution. The red dots here represent the orbitals from the previous figure, which shows calculated shape based on quantum mechanics.</figcaption>
+</figure>
+
+<p>
+The charge of a nucleus is given by how many protons it has, usually
+indicated as \(Z\), each of them has charge \(+e\). A neutral atom thus
+have \(Z\) electrons each with charge \(-e\) and mass &sim;1/2000 of the mass
+of a proton. The mass of the atom thus is approximately equal to the
+mass of the nucleus and the sum of the mass of \(Z\) protons and \(N\)
+neutrons, \(A=Z+N\).
+</p>
+</div>
+<div id="outline-container-isotopes-same-charge-different-mass" class="outline-3">
+<h3 id="isotopes-same-charge-different-mass"><a href="#isotopes-same-charge-different-mass">Isotopes: same charge different mass</a></h3>
+<div class="outline-text-3" id="text-org-element-8">
+<p>
+If the chemical and physical property of a chunk of matter made of
+atoms depend on the number of electrons = number of protons, what
+happens if you add a neutron only?
+</p>
+
+<p>
+This is how you form <i>isotopes</i> of the same element, which have the same
+\(Z\) but different \(A\). For example deuterium is hydrogen where in the
+nucleus there is a neutron missing in the most common hydrogen.
+</p>
+
+<p>
+The extra mass without extra charge can slightly twist the properties
+of matter: sometimes the "fattened" nucleus is unstable and can decay
+turning into a different nucleus spontaneously and at a known rate.
+This is for example how we can use \(^{13}\mathrm{C}\) to date ancient
+biological material from plants and animal that replenish in carbon,
+including this rare isotope, until they die.
+</p>
+
+
+
+<figure id="org-element-9">
+<img src="images/isotopes_C.png" alt="isotopes_C.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 4: </span>isotopes of carbon, with protons and neutrons in the nucleus represented as particles.</figcaption>
+</figure>
 </div>
 </div>
+</div>
+<div id="outline-container-energy-jumps-and-spectral-lines" class="outline-2">
+<h2 id="energy-jumps-and-spectral-lines"><a href="#energy-jumps-and-spectral-lines">Energy-jumps and spectral lines</a></h2>
+</div>
+
+
+
+
 <div id="outline-container-concepts" class="outline-2">
 <h2 id="concepts"><a href="#concepts">Concepts</a></h2>
-<div class="outline-text-2" id="text-org-element-6">
+<div class="outline-text-2" id="text-org-element-10">
 <ul class="org-ul">
 <li>spectrum</li>
 <li>continuum</li>
@@ -197,7 +366,7 @@ expected investigating these phenomena!
   <hr>
   <a href="#light-dark-toggle"><i id="light-dark-toggle"><i class="fa-solid fa-circle-half-stroke"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-07-light-matter.html"><i class="fa-solid fa-arrow-left" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="#top"><i class="fa-solid fa-arrow-up" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="lab2.html"><i class="fa-solid fa-arrow-right" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/mathren/170B1--002"><i class="fa-brands fa-github" style="font-size:16px"></i></a><hr>
   <br>
-  Last updated on 19 September 2026 <br>
+  Last updated on 20 September 2026 <br>
   Made with Emacs 30.1 - Org mode 9.7.11
   <br>
 </div>
