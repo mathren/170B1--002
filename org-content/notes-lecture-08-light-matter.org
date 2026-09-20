@@ -453,6 +453,9 @@ of absorption or emission lines produced by a particular atom), and
 measure by how much its wavelength (remember $\lambda\times f=c$ for light) is
 shifted by the Doppler effect to get a measure of the velocity!
 
+*N.B.:* Doppler shift gives only information about the velocity
+away/towards us, nothing about the other components of the velocity.
+
 ** Rotational broadening
 
 If a source is rotating, part of it moves towards us, and part away,
@@ -475,7 +478,63 @@ line of sight.
 We have already seen examples of how using spectroscopy we can infer
 properties of the sources: not only its composition from the spectral
 lines that we find, but also microscopic and macroscopic properties
-(is it an atomic or molecular gas? does it rotate?)
+(is it an atomic or molecular gas? does it rotate?).
 
-- Telescopes as light buckets
-- Spectrograph
+What we have not yet discussed is how do we "catch" the light to read
+these messages it encodes.
+
+** The eye
+
+#+CAPTION: Nature has evolved a variety of organs for detection of light.
+#+ATTR_HTML: :width 50%
+[[file:images/eyes.png]]
+
+When living on a rotating planet, where the primary source of energy
+(the Sun) periodically appears and disappears, having the ability to
+detect light is a big evolutionary advantage. In fact, nature has
+evolved many organs to detect light in various ways.
+
+The basic features are always a /pupil/ through which light enters (note
+the variety of pupil shapes in nature to optimize certain abilities!),
+a /lens/ through which light filters before landing on a detector (the
+/retina/) which is stimulated by the incoming light and produces a
+nervous signal. The eye lids are like /shutters/ which control how much
+light can come in (how long is the exposure time of the detector).
+
+#+CAPTION: Schematic representation of an eye.
+#+ATTR_HTML: :width 50%
+[[file:images/eye_schematic.png]]
+
+The basic design of a camera is also a /pupil/ + /lense/ + /detector/, but
+the detector (was a photographic plate) is a /charged couple device/ or
+/CCD/ now in phones and cameras.
+
+*** The role of the lens
+The lens is an optical element that /refracts/ light, meaning it lets it
+through but bends it. The reason light bends is because its speed
+(constant in vacuum and same for all frequencies) changes as it passes
+from one material to the next:
+
+#+CAPTION: Refraction as the light passes from air to water causes the light to bend and the toothbrush to appear "broken".
+#+ATTR_HTML: :width 50%
+[[file:images/refraction_toothbrush.png]]
+
+
+
+#+CAPTION: When light comes at the interface between two layers where it has a different speed, part is reflected, part is transmitted, the transmitted part is deviated because of refraction.
+#+ATTR_HTML: :width 50%
+
+
+[[file:images/refraction.png]]
+
+Lenses are shaped to "focus" the light towards the detector, however,
+when analyzing the light to read its signals we need to account for
+the effects introduced by the lenses too.
+
+** Telescope
+
+*** Detectors
+
+*** Size
+
+*** Location
