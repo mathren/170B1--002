@@ -152,13 +152,15 @@ including this rare isotope, until they die.
 
 * Energy-jumps and spectral lines
 
+** Absorption lines
 
+** Emission lines
 
+** Continuum
 
-* Concepts
-- spectrum
-- continuum
-- line
-- emission line
-- Doppler shift
-- Telescopes
+* Doppler shift
+
+* Reading the message carried by /photons/
+
+- Telescopes as light buckets
+- Spectrograph
