@@ -424,7 +424,7 @@ per unit area of the detector and per unit time at every wavelength
 This is the /emission line/ H\alpha of \eta Tau recorded by an amateur
 astronomer
 
-#+CAPTION: Spectrum of Alcyone (\eta Tau) on March 18^{th} 2019 centered around H\alpha (\lambda\sim6562.8 Angstrom) showing the typical double peaked emission suggesting the presence of a disk, obtained by the amateur astronomer [[https://www.astronomie.be/erik.bryssinck/aboutme.html][E. Bryssinck]].
+#+CAPTION: Spectrum of Alcyone (\eta Tau) on March 18^{th} 2019 centered around H\alpha (\lambda\sim656.28 nm) showing the typical double peaked emission suggesting the presence of a disk, obtained by the amateur astronomer [[https://www.astronomie.be/erik.bryssinck/aboutme.html][E. Bryssinck]].
 #+ATTR_HTML: :width 100%
 [[./images/Alcyone_Halpha.png]]
 
