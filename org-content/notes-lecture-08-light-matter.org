@@ -114,14 +114,14 @@ properties of these particles, which we call /spin/).
 Depending on how many electrons are in an atom, you obtain matters of
 different chemical and physical properties: one electron is hydrogen,
 the lightest element, two it's helium, and so on. The number of
-electrons determines which /chemical element/ we have at hand. But the
-number of electrons $Z$ is set by the condition that, in equilibrium
-the atom is /neutral/: there needs to be exactly as many electrons as
-the charge of the nucleus! So ultimately it is the nucleus that
-determines how many electrons hang around, thus which chemical element
-it is, and how the atom interacts with other atoms (will they bind in
-molecules, and crystals forming solid? Will they stay on their own in
-a vapor? etc.).
+electrons determines which /chemical element/ we have at hand and where
+in the [[https://ptable.com/?lang=en#Properties][perodic table]] it sits. But the number of electrons $Z$ is set
+by the condition that, in equilibrium the atom is /neutral/: there needs
+to be exactly as many electrons as the charge of the nucleus! So
+ultimately it is the nucleus that determines how many electrons hang
+around, thus which chemical element it is, and how the atom interacts
+with other atoms (will they bind in molecules, and crystals forming
+solid? Will they stay on their own in a vapor? etc.).
 
 The charge of a nucleus is given by how many protons it has, usually
 indicated as $Z$, each of them has charge $+e$. A neutral atom thus
