@@ -171,8 +171,10 @@ including this rare isotope, until they die.
 
 ** Molecules
 
-Depending on the atomic properties, some atoms would like more
-electrons while some could get rid of some electrons they have.
+Depending on the atomic properties, some neutral atoms (with has many
+electrons as required by the number of protons in their core) would
+like more electrons while some could get rid of some electrons they
+have.
 
 As an analogy, think of the atoms has having a certain amount of
 pieces of a puzzle. The number of pieces is determined by the charge
