@@ -33,9 +33,10 @@ various sources (in a lab or in the sky). This can at the same time
 improve our understanding of the processes that imprints these
 lines, and also teach us about the physics at atomic scale.
 
-At these scales, quantum mechanics provides the best description of
-empirical phenomena (including the formation of these lines) - which
-leads to counter-intuitive facts!
+At these scales (remember that optical wavelengths are \sim few 100 nm,
+that gives an idea of the scale already!), quantum mechanics provides
+the best description of empirical phenomena (including the formation
+of these lines) - which leads to counter-intuitive facts!
 
 *N.B.:* Our intuition is shaped by experiences at a scale much larger
 than the quantum scale, so failures of our intuition are to be
@@ -44,7 +45,7 @@ expected investigating these phenomena!
 * Elements of atomic physics
 
 The word /atom/ means indivisible, and is a misnomer: atoms form the
-building blocks of matter at the scale of \sim 10^{-10} cm, and their
+building blocks of matter at the scale of \sim 10^{-10} m, and their
 properties govern chemistry, the state (gas, solid, or vapor) of a
 particular compound, and how matter will interact with light of the
 right energy/wavelength. However, atoms do have sub-structure, and
