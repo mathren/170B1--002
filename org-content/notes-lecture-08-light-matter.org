@@ -91,6 +91,12 @@ atom, an electron cannot have arbitrary energy, but there are instead
 are pre-determined by the atomic structure (which atom it is): the
 energy is /quantized/.
 
+
+#+CAPTION: Schematic representation of the energy levels in an atom. The vertical direction is energy, and each horizontal line corresponds to an energy that two (or more) electrons can have. As the energy increase the discrete energy levels get closer and closer until they merge into the "continuum" of energies corresponding to an electron /not/ bound to the nucleus anymore.
+[[file:images/energy_levels.png]]
+
+
+
 *N.B.:* As light and electrons, also protons and neutrons can be thought
 of as waves in a probability field that describes how likely it is to
 find the particle at a certain position, but their overlapping and
@@ -106,10 +112,6 @@ probability that an electron is there ($x_{0}, y_{0}, z_{0}$) and then ($t_{0}$)
 Each orbital corresponds to an "energy level", and some energy levels
 can be occupied by more than one electron (thanks to another intrinsic
 properties of these particles, which we call /spin/).
-
-
-#+CAPTION: Schematic representation of the energy levels in an atom. The vertical direction is energy, and each horizontal line corresponds to an energy that two (or more) electrons can have. As the energy increase the discrete energy levels get closer and closer until they merge into the "continuum" of energies corresponding to an electron /not/ bound to the nucleus anymore.
-[[file:images/energy_levels.png]]
 
 Depending on how many electrons are in an atom, you obtain matters of
 different chemical and physical properties: one electron is hydrogen,
@@ -214,7 +216,7 @@ Examples of molecules are plenty: the oxygen in the air is in the form
 of an $\mathrm{O}_{2}$ molecule, where two oxygen atoms share their most
 energetic electrons. Molecules can form between different atoms, for
 instance $\mathrm{H_{2}O}$. Their size goes from roughly atomic (10^{-10}
-cm) to bigger, with some molecules containing hundreds of atoms.
+m) to bigger, with some molecules containing hundreds of atoms.
 
 * States of matter
 
