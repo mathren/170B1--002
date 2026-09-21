@@ -231,8 +231,8 @@ determined at the molecular and atomic level, by how freely the
 components move w.r.t. to each other.
 
 The main type of motion to consider here is /thermal motion/: the random
-agitation of the components which causes the thermal energy (and whose
-average speed is proportional to the temperature).
+agitation of the components existing at any temperature
+$T\neq0\,\mathrm{K}$.
 
 ** Gas
 When the atoms/molecules of a substance are moving freely with respect
