@@ -138,7 +138,13 @@ electrons).
 Any means of giving energy to an electron, if it gives enough of it,
 can remove it, ionizing an atom. For example, two atoms violently
 colliding with each other (maybe because of their thermal motion)
-could strip each other's electron.
+could strip each other's electron. Or, as we will see, an incoming
+photon, if it has the right energy, can knock an electron onto another
+energy level or even remove it completely creating a positively
+charged ion and a free (unbound) electron.
+
+*N.B.:* This process of /photoionization/ is what Einstein got the Nobel
+prize for.
 
 Any atom with charge $Ze$ has $Z$ possible ions of charge $(Z-1)e, (Z-2)e,
 ... e$, depending on how many of its $Z$ electrons it loses.
