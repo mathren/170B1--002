@@ -4,7 +4,7 @@
 #+PREVIOUS_PAGE:  notes-lecture-07-light-matter.org
 #+NEXT_PAGE: notes-lecture-09-lab2-spectroscopy.org
 
-*Reading*: Chapter 5
+*Reading*: Chapter 5, Chapter 6
 
 * Recap & Logistics
 - Have you found the intermediate deadlines for the signature
