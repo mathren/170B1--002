@@ -1,4 +1,4 @@
-#+title: ASTR170 Light & Matter
+#+title: ASTR170 Matter & Telescopes
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE:  notes-lecture-07-light-matter.org
@@ -113,8 +113,6 @@ properties of these particles, which we call /spin/).
 #+CAPTION: Schematic representation of the energy levels in an atom. The vertical direction is energy, and each horizontal line corresponds to an energy that two (or more) electrons can have. As the energy increase the discrete energy levels get closer and closer until they merge into the "continuum" of energies corresponding to an electron /not/ bound to the nucleus anymore.
 [[file:images/energy_levels.png]]
 
-
-
 Depending on how many electrons are in an atom, you obtain matters of
 different chemical and physical properties: one electron is hydrogen,
 the lightest element, two it's helium, and so on. The number of
@@ -126,7 +124,6 @@ determines how many electrons hang around, which in turn determines
 how the atom interacts with other atoms (will they bind in molecules,
 and crystals forming solid? Will they stay on their own in a vapor?
 etc.).
-
 
 #+CAPTION: The nucleus is tiny, contains all the positive charge and mass, and is surrounded by electrons spread into a probability distribution. The red dots here represent the orbitals from the previous figure, which shows calculated shape based on quantum mechanics.
 [[file:images/atomic_jargon.png]]
@@ -223,8 +220,6 @@ cm) to bigger, with some molecules containing hundreds of atoms.
 #+ATTR_HTML: :width 50%
 [[file:images/phases_of_matter.png]]
 
-
-
 Macroscopically, we have different states of matter. These are
 determined at the molecular and atomic level, by how freely the
 components move w.r.t. to each other.
@@ -266,7 +261,6 @@ form as many bonds as possible, the molecule need more room: /ice is
 less dense than liquid water/. This is why it floats, which may have
 been an important factor in evolution on Earth.
 
-
 ** Plasma
 A plasma is a gas that is so hot that atoms cannot hold on to their
 electrons. The thermal motion gives energy to the electrons that jump
@@ -306,6 +300,8 @@ The figure above shows how increasing the temperature (that is
 increasing the average velocity of the random motion of particles),
 the energy of the binds between particles becomes less and less
 relevant, and they progressively unbind from each other.
+
+*N.B.:* everything evaporates however slowly at any temperature.
 
 * Energy-jumps and spectral lines
 
@@ -412,11 +408,18 @@ per unit area of the detector and per unit time at every wavelength
 (or equivalently energy), as shown in the cartoon above below the
 "rainbows".
 
+** A real example
+
+This is the /emission line/ H\alpha of \eta Tau recorded by an amateur
+astronomer
+
+#+CAPTION: Spectrum of Alcyone (\eta Tau) on March 18^{th} 2019 centered around H\alpha (\lambda\sim6562.8 Angstrom) showing the typical double peaked emission suggesting the presence of a disk, obtained by the amateur astronomer [[https://www.astronomie.be/erik.bryssinck/aboutme.html][E. Bryssinck]].
+#+ATTR_HTML: :width 100%
+[[./images/Alcyone_Halpha.png]]
 
 
 
 * Doppler shift
-
 
 #+CAPTION: Plaque for Christian Doppler in Prague.
 #+ATTR_HTML: :width 25%
@@ -436,7 +439,6 @@ wave compound: if the source is approaching, every next oscillation
 starts closer than the precedent, making it /appear/ as if the time in
 between peaks is shorter than it is, or in other words the frequency
 is higher, and the viceversa for a source getting farther away.
-
 
 #+DOWNLOADED: Schematic representation of the Doppler effect: every green line is a crest of a sound wave form a moving source.
 [[file:images/doppler_schematic.png]]
@@ -531,7 +533,7 @@ Lenses are shaped to "focus" the light towards the detector, however,
 when analyzing the light to read its signals we need to account for
 the effects introduced by the lenses too.
 
-** Telescope
+** Telescopes
 
 *** Detectors
 
