@@ -19,7 +19,7 @@ range, fundamentally doing the same thing that aristocrats were doing
 playing with prisms. Newton demonstrated the rainbow obtained from the
 white light was a property of light itself.
 
-#+CAPTION: Spectrum of the Sun from the /Fourier Transform Spectrometer at McMath-Pierce Solar Facility at the National Solar Observatory on Kitt Peak
+#+CAPTION: Spectrum of the Sun from the /Fourier Transform Spectrometer/ at McMath-Pierce Solar Facility at the National Solar Observatory on Kitt Peak
 #+ATTR_HTML: :width 100%
 #+ATTR_HTML: :alt Solar spectrum
 [[./images/solar-spectrum.jpg]]
