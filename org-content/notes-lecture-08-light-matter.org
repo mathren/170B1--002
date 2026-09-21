@@ -2,7 +2,7 @@
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE:  notes-lecture-07-light-matter.org
-#+NEXT_PAGE: lab2.org
+#+NEXT_PAGE: notes-lecture-09-lab2-spectroscopy.org
 
 *Reading*: Chapter 5
 
@@ -17,7 +17,6 @@ Top Hat
 - speed, wavelength with example
 - speed energy
 - coors
-
 
 * Spectrum
 
@@ -212,7 +211,6 @@ of an $\mathrm{O}_{2}$ molecule, where two oxygen atoms share their most
 energetic electrons. Molecules can form between different atoms, for
 instance $\mathrm{H_{2}O}$. Their size goes from roughly atomic (10^{-10}
 cm) to bigger, with some molecules containing hundreds of atoms.
-
 
 * States of matter
 
@@ -416,7 +414,6 @@ astronomer
 #+CAPTION: Spectrum of Alcyone (\eta Tau) on March 18^{th} 2019 centered around H\alpha (\lambda\sim6562.8 Angstrom) showing the typical double peaked emission suggesting the presence of a disk, obtained by the amateur astronomer [[https://www.astronomie.be/erik.bryssinck/aboutme.html][E. Bryssinck]].
 #+ATTR_HTML: :width 100%
 [[./images/Alcyone_Halpha.png]]
-
 
 
 * Doppler shift

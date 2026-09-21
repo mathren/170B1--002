@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2026-09-21 Mon 09:21 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ASTR170 Lab 2: spectroscopy</title>
+<meta name="author" content="Mathieu Renzo" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="./css/style.css" />
+<link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.min.css">
+<meta name="keywords" content="Mathieu, Renzo, Mathieu Renzo,
+			       stellar evolution, ASTR170B1, University of
+			       Arizona, Steward Observatory">
+</head>
+<body>
+<div id="preamble" class="status">
+<!-- Preamble -->
+<!-- The header -->
+<div class="header">
+
+  <!-- The site name -->
+  <div class="site-name">
+    <a id="top" href="./index.html">ASTR170B1</a>
+  </div>
+
+  <!-- The hamburger -->
+  <div class="hamburger">
+    <div id="myLinks" class="menu">
+      <a href="./index.html">Home</a>
+      <a href="./syllabus170B1.html">Syllabus</a>
+      <a href="./access_howto.html">How to</a>
+      <a href="./schedule.html">Schedule</a>
+      <!-- <a href="./projects.html">Projects</a> -->
+    </div>
+    <a  href="javascript:void(0);" class="icon" onclick="HamburgerMenuFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="navbar">
+    <a href="./syllabus170B1.html">Syllabus</a>
+    <a href="./access_howto.html">How to access</a>
+    <a href="./schedule.html">Schedule</a>
+    <!-- <a href="./projects.html">Projects</a> -->
+  </div>
+</div>
+
+<!-- scripts -->
+<!-- menu  -->
+<script>
+  function HamburgerMenuFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+	  x.style.display = "none";
+      } else {
+	  x.style.display = "block";
+      }
+  }
+</script>
+
+<!-- toggle drawers -->
+<script>
+  function toggleDrawer(id) {
+      const drawer = document.getElementById(id);
+      drawer.style.display = drawer.style.display === "none" ? "block" : "none";
+  }
+</script>
+
+<!-- toggle dark mode -->
+<script>
+  window.onload = () => {
+      const toggleButton = document.getElementById("light-dark-toggle");
+      const body = document.body;
+      const html = document.documentElement;
+
+
+      // Check localStorage for user preference
+      if (localStorage.getItem("theme") === "dark") {
+          body.classList.add("dark-mode");
+	  html.classList.toggle("dark-mode");
+      }
+
+      // Toggle theme on click
+      toggleButton.addEventListener("click", () => {
+          body.classList.toggle("dark-mode");
+  html.classList.toggle("dark-mode");
+
+          // Save user preference
+          if (body.classList.contains("dark-mode")) {
+              localStorage.setItem("theme", "dark");
+          } else {
+              localStorage.setItem("theme", "light");
+          }
+      });
+  };
+</script>
+<!-- end scripts-->
+</div>
+<div id="content" class="content">
+<p>
+NAME: <span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>     ASTR 170B1 Section 001
+</p>
+
+<p>
+STUDENT ID:______________________________
+</p>
+
+<p>
+COLLABORATORS (if any): <span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+</p>
+
+<p>
+Lab 2: Spectroscopy
+</p>
+
+<p>
+General Instructions
+</p>
+
+<p>
+This handout is divided into two sections: the "In-Class Activity" and "Homework".
+</p>
+
+<p>
+During class, you will make measurements and record data. All of your data should be recorded in the appropriate places in the section labeled "In-Class Activity" and on the templates on the last page of the handout. In the "Homework" section, you will be asked to answer some relevant questions and perform some calculations. Please place your answers in the spaces provided. Each student must complete their OWN worksheet but you may work together if you wish; if you do, please list your group members’ names at the top under “collaborators.”
+</p>
+
+<p>
+Completed homework questions along with the entire handout are:
+ Due in class on Tuesday, September 30th, 2025, OR earlier
+</p>
+
+
+
+
+
+
+<p>
+In-Class Activity
+</p>
+
+<p>
+Although we usually think of objects as having a single color &#x2013; such as the red, yellow and green lamps of a traffic light &#x2013; most of the light that we see is actually composed of radiation at many different wavelengths. For example, the light from an ordinary light bulb appears to be white or yellow. In fact, a light bulb emits light of all colors, from red to yellow to blue, at varying intensities. The human eye senses light of different colors simultaneously. Just as a painter mixes red paint with yellow paint to get orange paint, your eye adds up all the colors of the light emitted by the bulb to form a single visual impression of color or "hue".
+</p>
+
+<p>
+A spectroscope does the opposite. Instead of adding up all the light at different wavelengths to arrive at a single color, a spectroscope takes light and splits it up into its constituent wavelengths. Then the intensity of light at each frequency can be measured, either by eye or with an electronic detector.
+</p>
+
+<p>
+In this lab, you will use a simple spectroscope. One end is sealed except for a very narrow slit. This slit lets light into the spectroscope and should be pointed at the light source. At the other end is a small plastic square. When you look through the square you will see the spectrum of the light spread out into various colors to the side of the slit. Your instructor will demonstrate the use and function of the spectroscopes.
+</p>
+
+<p>
+Viewing Spectra with your Spectroscope
+</p>
+
+<p>
+NOTE: The in-class activity may be done in any order. That is, you may start with any of the 4 sections: either the "Reveal™ Light Bulb", or the "Fluorescent Light Tube", or the "Discharge Tubes", or the "Incandescent Light Bulb".
+</p>
+
+<ol class="org-ol">
+<li>Incandescent Light Bulb</li>
+</ol>
+
+
+<p>
+a. Looking through your spectroscope, examine the spectrum of an incandescent light bulb. You should see a continuous spectrum. On the left and right sides of the spectrum, the colors appear to fade to black. An incandescent light bulb does radiate energy in these wavelength ranges, but your eyes are not sensitive to it.
+</p>
+
+<p>
+b. Draw the spectrum you see on one of the templates provided at the end of this handout. Label some of the colors that appear in it, and shade it lighter or darker with your pencil to indicate where there is more or less light. Label the spectrum in the blank space at the top of the template ("incandescent light bulb").  Note the wavelengths at the two ends (red and blue) where your eye can no longer see color.
+</p>
+
+<p>
+Shortest wavelength: <span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span> nm               Longest wavelength: <span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span> nm
+</p>
+
+<p>
+c. Now place a stack (2-3) of the same color filters over the spectroscope slit and observe the incandescent light source again. Record the color of your filters and the wavelength range of the filtered spectrum in the spaces below.
+</p>
+
+<p>
+Color of the filter: <span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></span></span></span></span></span></span></span>
+Shortest wavelength: <span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span> nm               Longest wavelength: <span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span> nm
+</p>
+
+<p>
+d. What is the filter doing to the light to make the spectrum appear different than the unfiltered spectrum? (Note: it may help to repeatedly cover and uncover the spectroscope slit with the filter.)
+</p>
+
+
+
+
+
+<ol class="org-ol">
+<li>Discharge Tubes</li>
+</ol>
+
+<p>
+a. Use the spectroscope to examine the emission spectrum of a Hydrogen (H) gas discharge tube.
+</p>
+
+<p>
+b. Sketch the most prominent emission lines of the gas emission spectrum on one of the templates at the end of this handout. Note the color and relative brightness (weak, medium, strong) of each line. Once you have finished these observations, draw each emission line in the spectrum and label its color. Draw thick lines to represent bright lines, and thin lines for weak lines.  Label the spectrum in the provided blank space.
+</p>
+
+<p>
+c. Do the same measurements and sketches for two additional tubes, which will be Helium (He), Neon (Ne), Krypton (Kr), or Mercury (Hg).  Sketch each spectrum as accurately as you can. Label each sketch with the name of the element.
+</p>
+
+<ol class="org-ol">
+<li><p>
+LEDs
+</p>
+
+<p>
+LEDs (Light Emitting Diodes) emit light at a very narrow wavelength range, typically just one color at a time. An LED light bulb that mimics white light will combine light from several different LEDS of multiple colors. This light is not a true continuum or a black body the way an incandescent bulb is and typically has a different appearance. Cell phone and computer screens are LEDs, as are most monitors and TVs. A typical color screen uses three different LED colors plus a white LED to create each pixel. The intensity of each LED provides the overall color of the pixel.
+</p></li>
+</ol>
+
+
+<p>
+a. Using your spectroscope, carefully examine the spectrum of your cell phone or laptop screen (this works best with a white/light colored background and brightness set to maximum).  Draw the spectrum on one of the templates at the end of this handout. Label the colors and draw the distribution of light (wavelengths, width of lines) as accurately as you can.
+Label the spectrum at the top of the template (“LED”).
+</p>
+
+
+<p>
+Type of LED observed (include phone or laptop brand/model): <span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></span></span></span></span></span></span></span>
+</p>
+
+
+<ol class="org-ol">
+<li><p>
+Reveal™ Light Bulb
+</p>
+
+<p>
+The Reveal™ light bulb is an incandescent light bulb made by General Electric. Just like the other incandescent light bulb whose spectrum you are observing, it contains a filament made of Tungsten (W) that, when heated (a hot solid), emits light. What makes the Reveal™ light bulb different is that GE infuses the glass surface of the bulb with the element Neodymium (Nd). The Nd atoms in the glass surface absorb some of the radiation from the W filament. The element Nd imprints a unique pattern of absorption lines on the continuous spectrum, determined by the atom's unique distribution of energy levels.
+</p></li>
+</ol>
+
+
+<p>
+a. Using your spectroscope, carefully examine the spectrum of the Reveal™ light bulb.  If you look carefully, you should see that there are missing colors from the rainbow.
+</p>
+
+<p>
+b. Draw the spectrum you see on one of the templates provided at the end of this handout and label colors. Label the spectrum at the top of the template ("Reveal light bulb").
+</p>
+
+<p>
+c. Highlight the areas of the spectrum where you see absorption lines.
+</p>
+
+
+<p>
+Homework
+</p>
+
+<p>
+NOTE: Use the space provided to answer the questions. You may find it useful to refer to the lecture slides and/or Chapter 5 of your textbook. Show all your steps for full credit. Be sure to label ALL units. When turning in the homework questions, turn in the entire handout.
+</p>
+
+
+<ol class="org-ol">
+<li>The following figures illustrate transitions of the electron from 3 higher levels to a lower one
+(5 2, 4 2, or 3 2).  These transitions are the ones that produce the bright emission lines that you saw in the spectrum of hydrogen.</li>
+</ol>
+
+
+
+<p>
+a)  Which transition produces a photon with the highest energy?
+</p>
+
+
+
+
+
+<p>
+b) Which transition produces a photon with the lowest energy?
+</p>
+
+
+
+
+
+<ol class="org-ol">
+<li>a) What is the visible wavelength range of the spectra you have drawn in class? In other words, what is the shortest wavelength (most blue or violet) and longest wavelength (most red) that you see? (Note that everyone has slightly different limits on the wavelength range that their eyes are sensitive to.  Use the "nanometer" or "nm" scale on the bottom of the spectroscope template page to give your answers in nanometers.)</li>
+</ol>
+
+
+
+
+
+<p>
+b) If an electronic transition produced a photon at the shortest wavelength, would that photon have a lower or higher energy than a photon at the longest wavelength?
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ol class="org-ol">
+<li>a) What type of spectrum (continuous, emission, or absorption) does the observer see in the figure above?  Why?</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>
+b) The young, hot star in the figure above heats up the gas in the cloud.  Assume that the observer can only see radiation emitted by the hydrogen cloud and cannot see the star. What kind of spectrum (continuous, emission, or absorption) does the observer see?  Why?
+</p>
+
+
+
+
+
+
+
+
+<ol class="org-ol">
+<li>Compare the spectrum of the LED lights to the spectrum of the incandescent light. a) Describe the differences between them.  Is the LED light a true continuous spectrum?   Why or why not?</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+<ol class="org-ol">
+<li>What type of spectrum (continuous, emission line or absorption line spectrum) did you see for the Reveal™ light bulb?  Why?</li>
+</ol>
+</div>
+<div id="postamble" class="status">
+<div class="footer">
+  <hr>
+  <a href="#light-dark-toggle"><i id="light-dark-toggle"><i class="fa-solid fa-circle-half-stroke"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-08-light-matter.html"><i class="fa-solid fa-arrow-left" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="#top"><i class="fa-solid fa-arrow-up" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-.html"><i class="fa-solid fa-arrow-right" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/mathren/170B1--002"><i class="fa-brands fa-github" style="font-size:16px"></i></a><hr>
+  <br>
+  Last updated on 21 September 2026 <br>
+  Made with Emacs 30.1 - Org mode 9.7.11
+  <br>
+</div>
+</div>
+</body>
+</html>
