@@ -361,13 +361,15 @@ physics/.
 #+CAPTION: Emission lines at specific colors corresponding to the atomic structure producing them.
 [[file:images/emission_cartoon.png]]
 
-Say an ion/atom has an electron in an /excited level/. This means there
-are available energy levels below. The electron is /not allowed/ to lose
-just a bit of energy: it has to lose $\Delta_{1-0}$ (or in general $\Delta_{i-j}$) all
-at once. If the local density is high enough, it may lose it in a
-collision between atoms/ions/molecules (collisional de-excitation).
-However, in most cases electrons de-excite producing a photon
-(radiative de-excitation).
+Say an ion/atom has an electron in an /excited level/, for example
+because an external source of energy heats up the material this
+ion/atom belongs to. By definition, /excited/ means there are available
+energy levels below. The electron is /not allowed/ to lose just a bit of
+energy: it has to lose $\Delta_{1-0}$ (or in general $\Delta_{i-j}$) all at once. If
+the local density is high enough, it may lose it in a collision
+between atoms/ions/molecules (collisional de-excitation). However, in
+most cases electrons de-excite producing a photon (radiative
+de-excitation).
 
 This is because electrons have an electric charge ($-e$, negative, but
 that's an arbitrary decision). Photons are waves in electro-magnetic
