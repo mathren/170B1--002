@@ -177,16 +177,16 @@ like more electrons while some could get rid of some electrons they
 have.
 
 As an analogy, think of the atoms has having a certain amount of
-pieces of a puzzle. The number of pieces is determined by the charge
-of their nucleus, but the picture the puzzle represent isn't. So in
-their lowest energy equilibrium state, some atoms have enough pieces
-to complete the figure in the puzzle just exactly: these will not want
-to deal with other atoms, and are the "noble gas" (noble because they
-don't mix with the other atoms!) in the last column of the [[https://ptable.com/?lang=en#Properties][perodic
-table]]. Some atoms will be missing some pieces, and would be keen on
-sharing electrons with another atom to complete their picture. And
-some atoms will have a complete "picture" plus spare pieces they would
-be keen on shedding.
+pieces of a puzzle. The number of pieces each atom gets is determined
+by the charge of their nucleus, but the picture the puzzle represent
+isn't. So in their lowest energy equilibrium state, some atoms have
+enough pieces to complete the figure in the puzzle just exactly: these
+will not want to deal with other atoms, and are the "noble gas" (noble
+because they don't mix with the other atoms!) in the last column of
+the [[https://ptable.com/?lang=en#Properties][perodic table]]. Some atoms will be missing some pieces, and would
+be keen on sharing electrons with another atom to complete their
+picture. And some atoms will have a complete "picture" plus spare
+pieces they would be keen on shedding.
 
 In this metaphor the electrons are pieces of puzzle, and the figure is
 the /distribution of electrons in the energetic levels of the atom/:
