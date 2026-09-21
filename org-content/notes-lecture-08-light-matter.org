@@ -161,8 +161,8 @@ nucleus there is a neutron missing in the most common hydrogen.
 The extra mass without extra charge can slightly twist the properties
 of matter: sometimes the "fattened" nucleus is unstable and can decay
 turning into a different nucleus spontaneously and at a known rate.
-This is for example how we can use $^{14}\mathrm{C}$ to date ancient
-biological material from plants and animal that replenish in carbon,
+This is for example how we can use $^{14}\mathrm{C}$ to [[https://en.wikipedia.org/wiki/Radiocarbon_dating][date ancient
+biological material from plants and animal]] that replenish in carbon,
 including this rare isotope, until they die.
 
 
