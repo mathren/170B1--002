@@ -11,7 +11,7 @@
 
 * ⚠️ Your name {{{blank(0.3\textwidth)}}} and student ID{{{blank(0.3\textwidth)}}}
 
-*Collaborators* (if any): {{{blank(0.5\textwidth)}}}
+  *Collaborators* (if any): {{{blank(0.5\textwidth)}}}
 
 * Lab 2: Spectroscopy
 
@@ -88,7 +88,9 @@ c. Now place a stack (2-3) of the same color filters over the
    - Longest wavelength:  {{{blank(0.1\textwidth)}}} nm
 d. What is the filter doing to the light to make the spectrum appear
    different than the unfiltered spectrum? (Note: it may help to
-   repeatedly cover and uncover the spectroscope slit with the filter.)
+   repeatedly cover and uncover the spectroscope slit with the
+   filter.)
+
    {{{blank(\textwidth)}}}
    {{{blank(\textwidth)}}}
 
@@ -134,7 +136,7 @@ a. Using your spectroscope, carefully examine the spectrum of your
 
    \hspace{3cm}
 
-   Type of LED observed (include phone or laptop brand/model):{{{blank(0.4\textwidth)}}}
+   Type of LED observed (include phone or laptop brand/model): {{{blank(0.4\textwidth)}}}
 
 
 *** Reveal™ Light Bulb
@@ -178,17 +180,22 @@ handout.
 
 
 a) Which transition produces a photon with the highest energy?
+
    {{{blank(\textwidth)}}}
    {{{blank(\textwidth)}}}
+
 b) Which transition produces a photon with the lowest energy?
+
    {{{blank(\textwidth)}}}
    {{{blank(\textwidth)}}}
 
 2.
    a) What is the visible wavelength range of the spectra you have drawn in class? In other words, what is the shortest wavelength (most blue or violet) and longest wavelength (most red) that you see? (Note that everyone has slightly different limits on the wavelength range that their eyes are sensitive to.  Use the "nanometer" or "nm" scale on the bottom of the spectroscope template page to give your answers in nanometers.)
+
    {{{blank(\textwidth)}}}
 
    b) If an electronic transition produced a photon at the shortest wavelength, would that photon have a lower or higher energy than a photon at the longest wavelength?
+
    {{{blank(\textwidth)}}}
 
 3.
@@ -196,6 +203,7 @@ b) Which transition produces a photon with the lowest energy?
 [[file:images/cloud_a.png]] a) What type of spectrum (continuous,
    emission, or absorption) does the observer see in the figure above?
    Why?
+
    {{{blank(\textwidth)}}}
    {{{blank(\textwidth)}}}
    {{{blank(\textwidth)}}}
@@ -203,6 +211,7 @@ b) Which transition produces a photon with the lowest energy?
 
 #+DOWNLOADED: screenshot @ 2026-09-21 09:32:46
 [[file:images/cloud_b.png]]   b) The young, hot star in the figure above heats up the gas in the cloud.  Assume that the observer can only see radiation emitted by the hydrogen cloud and cannot see the star. What kind of spectrum (continuous, emission, or absorption) does the observer see?  Why?
+
    {{{blank(\textwidth)}}}
    {{{blank(\textwidth)}}}
    {{{blank(\textwidth)}}}
@@ -211,6 +220,7 @@ b) Which transition produces a photon with the lowest energy?
 4. Compare the spectrum of the LED lights to the spectrum of the
    incandescent light. a) Describe the differences between them. Is
    the LED light a true continuous spectrum? Why or why not?
+
    {{{blank(\textwidth)}}}
    {{{blank(\textwidth)}}}
    {{{blank(\textwidth)}}}
@@ -218,6 +228,7 @@ b) Which transition produces a photon with the lowest energy?
 
 5. What type of spectrum (continuous, emission line or absorption line
    spectrum) did you see for the Reveal™ light bulb? Why?
+
    {{{blank(\textwidth)}}}
    {{{blank(\textwidth)}}}
    {{{blank(\textwidth)}}}
