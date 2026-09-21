@@ -314,9 +314,9 @@ relevant, and they progressively unbind from each other.
 * Energy-jumps and spectral lines
 
 So after this brief overview of matter, and related to the legitimate
-/how do we know these things?/, let's return to the lines in the
-spectrum of the Sun. Let's consider the thing that gives its name to
-quantum mechanics: /electrons in an atom or molecule can only have
+question /how do we know these things?/, let's return to the lines in
+the spectrum of the Sun. Let's consider the thing that gives its name
+to quantum mechanics: /electrons in an atom or molecule can only have
 discrete values of energy/.
 
 This is a surprising fact: why can electron have energy $E_{0}$ and $E_{1}$
