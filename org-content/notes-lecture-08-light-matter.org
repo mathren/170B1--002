@@ -590,10 +590,11 @@ the telescope!
 
 *** Size
 The bigger the telescope, the more photons it can funnel to the
-detector! The importance of size is also what makes ground-based
-observation necessary (and space junk, constellations of communication
-satellites like starlink, etc. are a problem).
-
+detector per unit time! This means collecting enough photons for your
+scientific goal takes less time on a bigger telescope. The importance
+of size is also what makes ground-based observation necessary (and
+space junk, constellations of communication satellites like starlink,
+etc. are a problem).
 
 The size of a telescope also determines it's *angular resolution*, which
 is the minimum distance between two point sources of light to be
