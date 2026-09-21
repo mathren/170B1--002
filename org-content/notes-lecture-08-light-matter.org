@@ -377,7 +377,8 @@ fields produced by charges moving: the atom can /produce/ light!
 
 Similar to absorption lines, any particular atom/ion/molecule can only
 emit photons of specific energies, corresponding to the energies they
-can also absorb!
+can also absorb (the energy levels are the same in both cases since
+they depend on the structure of the atom only).
 
 ** Continuum
 We can now reconsider the distribution of light energies produced by a
