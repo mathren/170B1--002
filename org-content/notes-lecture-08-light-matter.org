@@ -64,6 +64,10 @@ charge. But they are themselves made of /electrons/ which carry charge
 (conventionally called "negative", but this is arbitrary) spread
 around a tiny nucleus with opposite charge (positive).
 
+
+#+CAPTION: The nucleus is tiny, contains all the positive charge and mass, and is surrounded by electrons spread into a probability distribution. The red dots here represent the orbitals from the previous figure, which shows calculated shape based on quantum mechanics.
+[[file:images/atomic_jargon.png]]
+
 While the electrons can move around the nucleus in an area of the size
 of \sim10^{-10} m, the nucleus is 100000\times smaller, with typical
 sizes of \sim 10^{-15}m=10^{-13} cm. *Most of the atom is technically empty void*
@@ -118,9 +122,6 @@ determines how many electrons hang around, thus which chemical element
 it is, and how the atom interacts with other atoms (will they bind in
 molecules, and crystals forming solid? Will they stay on their own in
 a vapor? etc.).
-
-#+CAPTION: The nucleus is tiny, contains all the positive charge and mass, and is surrounded by electrons spread into a probability distribution. The red dots here represent the orbitals from the previous figure, which shows calculated shape based on quantum mechanics.
-[[file:images/atomic_jargon.png]]
 
 The charge of a nucleus is given by how many protons it has, usually
 indicated as $Z$, each of them has charge $+e$. A neutral atom thus
