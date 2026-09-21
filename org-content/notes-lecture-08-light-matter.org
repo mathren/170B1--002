@@ -114,10 +114,10 @@ electrons determines which /chemical element/ we have at hand. But the
 number of electrons $Z$ is set by the condition that, in equilibrium
 the atom is /neutral/: there needs to be exactly as many electrons as
 the charge of the nucleus! So ultimately it is the nucleus that
-determines how many electrons hang around, which in turn determines
-how the atom interacts with other atoms (will they bind in molecules,
-and crystals forming solid? Will they stay on their own in a vapor?
-etc.).
+determines how many electrons hang around, thus which chemical element
+it is, and how the atom interacts with other atoms (will they bind in
+molecules, and crystals forming solid? Will they stay on their own in
+a vapor? etc.).
 
 #+CAPTION: The nucleus is tiny, contains all the positive charge and mass, and is surrounded by electrons spread into a probability distribution. The red dots here represent the orbitals from the previous figure, which shows calculated shape based on quantum mechanics.
 [[file:images/atomic_jargon.png]]
