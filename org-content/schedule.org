@@ -108,6 +108,7 @@ DEADLINE: Homework
 # in class attendance
 # Deadline Homework 4, Assign Homework 5
 DEADLINE: Homework
+[[./notes-lecture-09-lab2-spectroscopy.org][Notes]]
 
 ** Week 6: Chapter 7
 

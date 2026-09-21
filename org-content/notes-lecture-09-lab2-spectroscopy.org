@@ -9,9 +9,7 @@
 <p><a href="notes-lecture-09-lab2-spectroscopy.pdf">(Printable version)</a></p>
 #+END_EXPORT
 
-
-
-*NAME*: {{{blank(0.3\textwidth)}}} STUDENT ID: {{{blank(0.3\textwidth)}}}
+* ⚠️ Your name {{{blank(0.3\textwidth)}}} and student ID{{{blank(0.3\textwidth)}}}
 
 COLLABORATORS (if any): {{{blank(0.5\textwidth)}}}
 
@@ -69,35 +67,30 @@ the "Fluorescent Light Tube", or the "Discharge Tubes", or the
 *** Incandescent Light Bulb
 
 a. Looking through your spectroscope, examine the spectrum of an
-incandescent light bulb. You should see a continuous spectrum. On the
-left and right sides of the spectrum, the colors appear to fade to
-black. An incandescent light bulb does radiate energy in these
-wavelength ranges, but your eyes are not sensitive to it.
-
+   incandescent light bulb. You should see a continuous spectrum. On the
+   left and right sides of the spectrum, the colors appear to fade to
+   black. An incandescent light bulb does radiate energy in these
+   wavelength ranges, but your eyes are not sensitive to it.
 b. Draw the spectrum you see on one of the templates provided at the
-end of this handout. Label some of the colors that appear in it, and
-shade it lighter or darker with your pencil to indicate where there is
-more or less light. Label the spectrum in the blank space at the top
-of the template ("incandescent light bulb"). Note the wavelengths at
-the two ends (red and blue) where your eye can no longer see color.
-
-Shortest wavelength: ____________ nm               Longest wavelength: ____________ nm
-
+   end of this handout. Label some of the colors that appear in it, and
+   shade it lighter or darker with your pencil to indicate where there is
+   more or less light. Label the spectrum in the blank space at the top
+   of the template ("incandescent light bulb"). Note the wavelengths at
+   the two ends (red and blue) where your eye can no longer see color.
+   - Shortest wavelength: {{{blank(0.1\textwidth)}}} nm
+   - Longest wavelength: {{{blank(0.1\textwidth)}}} nm
 c. Now place a stack (2-3) of the same color filters over the
-spectroscope slit and observe the incandescent light source again.
-Record the color of your filters and the wavelength range of the
-filtered spectrum in the spaces below.
-
-Color of the filter: __________________________
-Shortest wavelength: ____________ nm               Longest wavelength: ____________ nm
-
+   spectroscope slit and observe the incandescent light source again.
+   Record the color of your filters and the wavelength range of the
+   filtered spectrum in the spaces below.
+   - Color of the filter: {{{blank(0.1\textwidth)}}}
+   - Shortest wavelength: {{{blank(0.1\textwidth)}}} nm
+   - Longest wavelength:  {{{blank(0.1\textwidth)}}} nm
 d. What is the filter doing to the light to make the spectrum appear
-different than the unfiltered spectrum? (Note: it may help to
-repeatedly cover and uncover the spectroscope slit with the filter.)
-
-
-
-
+   different than the unfiltered spectrum? (Note: it may help to
+   repeatedly cover and uncover the spectroscope slit with the filter.)
+   {{{blank(\textwidth)}}}
+   {{{blank(\textwidth)}}}
 
 *** Discharge Tubes
 
