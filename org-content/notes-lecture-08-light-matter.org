@@ -14,10 +14,10 @@
 
 * Spectrum
 
-The figure shows what a modern "spectrograph" can do, fundamentally
-doing the same thing that aristocrats were doing playing with prisms.
-Newton demonstrated the rainbow obtained from the white light was a
-property of light itself.
+The figure shows what a modern "spectrograph" can do in the optical
+range, fundamentally doing the same thing that aristocrats were doing
+playing with prisms. Newton demonstrated the rainbow obtained from the
+white light was a property of light itself.
 
 #+CAPTION: Spectrum of the Sun from the /Fourier Transform Spectrometer at McMath-Pierce Solar Facility at the National Solar Observatory on Kitt Peak
 #+ATTR_HTML: :width 100%
