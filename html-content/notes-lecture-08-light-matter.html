@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-09-20 Sun 18:23 -->
+<!-- 2026-09-20 Sun 18:57 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Matter &amp; Telescopes</title>
@@ -900,9 +900,9 @@ light can come in (how long is the exposure time of the detector).
 </figure>
 
 <p>
-The basic design of a camera is also a <i>pupil</i> + <i>lense</i> + <i>detector</i>, but
-the detector (was a photographic plate) is a <i>charged couple device</i> or
-<i>CCD</i> now in phones and cameras.
+The basic design of a camera is also a <i>pupil</i> + <i>lense</i> + <i>detector</i> +
+<i>shutter</i>, but the detector (was a photographic plate) is a <i>charged
+couple device</i> or <i>CCD</i> now in phones and cameras.
 </p>
 </div>
 <div id="outline-container-the-role-of-the-lens" class="outline-4">
@@ -935,23 +935,195 @@ Lenses are shaped to "focus" the light towards the detector, however,
 when analyzing the light to read its signals we need to account for
 the effects introduced by the lenses too.
 </p>
+
+<p>
+Lenses can have convex shapes that invert the image on the focal
+plane: our eyes "see" upside down, and our brains correct for that!
+</p>
 </div>
 </div>
 </div>
 <div id="outline-container-telescopes" class="outline-3">
 <h3 id="telescopes"><a href="#telescopes">Telescopes</a></h3>
-<div class="outline-text-3" id="text-telescopes">
+<div class="outline-text-3" id="text-org-element-46">
+<p>
+These started as tubes with pairs of lenses to focus the light, to
+magnify distant objects for naval war, somewhere in the Netherlands.
+</p>
+
+<p>
+Galileo heard about these tube built by trial and error, and studied
+lenses to <i>design</i> (instead of building by trial and error) a telescope
+that was much better at magnifying.
+</p>
+
+<p>
+The basic job of a telescope is to collect light and funnel photons to
+a detector.
+</p>
 </div>
 <div id="outline-container-detectors" class="outline-4">
 <h4 id="detectors"><a href="#detectors">Detectors</a></h4>
-</div>
+<div class="outline-text-4" id="text-org-element-47">
+<p>
+Broadly speaking these are of two kinds:
+</p>
+<ul class="org-ul">
+<li><b>Photometry</b>: imaging sensors that collect all the photons in a certain wavelength range to make an image</li>
+<li><b>Spectroscopy</b>: sensors that have an element to disperse the light in
+all its wavelengths (a prism or a slit). These will sort the photons
+by their energy, therefore they are typically more hungry in photons.</li>
+</ul>
 
+
+<figure id="org-element-48">
+<img src="./images/JWST_highz.jpg" alt="JWST_highz.jpg" width="100%">
+
+<figcaption><span class="figure-number">Figure 19: </span>NASA infographic based on James Webb Space Telescope (<i>JWST</i>) and two different instruments mounted on the telescope: the image on the left from NIRCam (which measures the amount of light coming, instrument developed here at Steward Observatory) and NIRSpect spectrograph.</figcaption>
+</figure>
+
+<p>
+The specific technology in the detectors is ever evolving and depends
+on the wavelength or energy of the photons we want to detect.
+</p>
+
+<p>
+For example, since everything at room temperature emits in the
+infrared (IR), the IR detectors are typically cooled. The cryogenic
+(meaning through gas) cooling on <i>JWST</i> is what limits the lifetime of
+the telescope!
+</p>
+</div>
+</div>
 <div id="outline-container-size" class="outline-4">
 <h4 id="size"><a href="#size">Size</a></h4>
-</div>
+<div class="outline-text-4" id="text-org-element-49">
+<p>
+The bigger the telescope, the more photons it can funnel to the
+detector! The importance of size is also what makes ground-based
+observation necessary (and space junk, constellations of communication
+satellites like starlink, etc. are a problem).
+</p>
 
+
+<p>
+The size of a telescope also determines it's <b>angular resolution</b>, which
+is the minimum distance between two point sources of light to be
+distinguished. The edges of the telescope's mirror can diffract the
+light coming through (like sea waves passing next to rocks get
+perturbed) and the diffraction limit that sets the angular resolution
+depends on the wavelenght of light and the size \(D\) of the telescope \(\sim\lambda/D\).
+</p>
+
+<p>
+Present day record holder telescopes are the 10m class telescopes,
+which means they have a diameter of &sim;10m.
+</p>
+
+<p>
+A special mention for the "Large Binocular Telescope" on Mount Graham
+which has a unique design with two paired 8m telescopes.
+</p>
+
+<figure id="org-element-50">
+<img src="images/LBT.png" alt="LBT.png" width="100%">
+
+</figure>
+
+<p>
+Steward Observatory is part of a consortium of institutions working on
+the "Giant Magellan Telescope" (GMT), which will be one of the next
+generation 30m telescopes, together with the "Extremely Large
+Telescope".
+</p>
+
+
+
+<figure id="org-element-51">
+<img src="images/GMT.png" alt="GMT.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 20: </span>Artist impression of GMT mirrors. Each of the 7 pieces of the mirror are being made at the Mirror Lab here on Campus.</figcaption>
+</figure>
+
+
+
+<figure id="org-element-52">
+<img src="images/GMT_mirror_lab.png" alt="GMT_mirror_lab.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 21: </span>One of GMT mirror elements during the manufacturing process.</figcaption>
+</figure>
+
+<p>
+But these record holding facilities, which are few and oversubscribed
+for their unique capabilities are <i>not</i> the only telescopes with which
+one can do science!
+</p>
+
+<p>
+A lot of science cases require continuous or repeated viewing,
+impossible with oversubscribed facilities. Small telescopes are still
+used every night, even if they are limited to more nearby and thus
+brighter sources. As an example: see the emission line example above!
+</p>
+</div>
+</div>
 <div id="outline-container-location" class="outline-4">
 <h4 id="location"><a href="#location">Location</a></h4>
+<div class="outline-text-4" id="text-org-element-53">
+<p>
+A telescope in your backyard in Tucson <i>can</i> be use for certain science.
+Some telescopes work the day (trivially the ones to look at the Sun),
+some need to be in space. How do get telescope locations decided?
+</p>
+
+<p>
+<b>N.B.:</b> this is a real question that affects communities and the land
+ they live in, which has often been dealt with poorly and lead to
+ tensions and conflicts.
+</p>
+
+<p>
+The atmosphere is a problem: it interacts with light and modifies it.
+Stars twinkle because of the thermal agitation of the air in the
+Earth's atmosphere (planets are big enough sources on the sky that it
+averages to zero, but it doesn't for stars). This is why typically
+observatories are on top of mountains &#x2013; this is how Arizona became
+important for astronomy!
+</p>
+
+
+<figure id="org-element-54">
+<img src="images/telescopes_where.png" alt="telescopes_where.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 22: </span>The cheapest place where one can put a telescope depends on the wavelengths of light it observes: some are only visible from outer space because the Earth atmosphere blocks them.</figcaption>
+</figure>
+</div>
+</div>
+<div id="outline-container-adaptive-optics" class="outline-4">
+<h4 id="adaptive-optics"><a href="#adaptive-optics">Adaptive optics</a></h4>
+<div class="outline-text-4" id="text-org-element-55">
+<p>
+But sometimes this isn't enough. Nowadays some telescope have adaptive
+systems that deform the mirrors dynamically to compensate for the
+atmosphere. To do this they need to know what they should be seeing:
+they create an "artificial star" by shooting a powerful laser in the
+sky, and observe it with the telescope. The difference in the image
+that they see of the laser and what they know it is allows to
+calculate what the atmosphere is doing and correct it.
+</p>
+
+<p>
+Remember that this is to fight the "twinkling" to get an idea of how
+fast this has to occur.
+</p>
+
+
+<figure id="org-element-56">
+<img src="images/ao.png" alt="ao.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 23: </span>This telescope is creating "artificial stars" by shooting lasers in the atmosphere.</figcaption>
+</figure>
+</div>
 </div>
 </div>
 </div>

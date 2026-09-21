@@ -507,9 +507,9 @@ light can come in (how long is the exposure time of the detector).
 #+ATTR_HTML: :width 50%
 [[file:images/eye_schematic.png]]
 
-The basic design of a camera is also a /pupil/ + /lense/ + /detector/, but
-the detector (was a photographic plate) is a /charged couple device/ or
-/CCD/ now in phones and cameras.
+The basic design of a camera is also a /pupil/ + /lense/ + /detector/ +
+/shutter/, but the detector (was a photographic plate) is a /charged
+couple device/ or /CCD/ now in phones and cameras.
 
 *** The role of the lens
 The lens is an optical element that /refracts/ light, meaning it lets it
@@ -533,10 +533,114 @@ Lenses are shaped to "focus" the light towards the detector, however,
 when analyzing the light to read its signals we need to account for
 the effects introduced by the lenses too.
 
+Lenses can have convex shapes that invert the image on the focal
+plane: our eyes "see" upside down, and our brains correct for that!
+
 ** Telescopes
+These started as tubes with pairs of lenses to focus the light, to
+magnify distant objects for naval war, somewhere in the Netherlands.
+
+Galileo heard about these tube built by trial and error, and studied
+lenses to /design/ (instead of building by trial and error) a telescope
+that was much better at magnifying.
+
+The basic job of a telescope is to collect light and funnel photons to
+a detector.
 
 *** Detectors
+Broadly speaking these are of two kinds:
+- *Photometry*: imaging sensors that collect all the photons in a certain wavelength range to make an image
+- *Spectroscopy*: sensors that have an element to disperse the light in
+  all its wavelengths (a prism or a slit). These will sort the photons
+  by their energy, therefore they are typically more hungry in photons.
+
+#+CAPTION: NASA infographic based on James Webb Space Telescope (/JWST/) and two different instruments mounted on the telescope: the image on the left from NIRCam (which measures the amount of light coming, instrument developed here at Steward Observatory) and NIRSpect spectrograph.
+[[./images/JWST_highz.jpg]]
+
+The specific technology in the detectors is ever evolving and depends
+on the wavelength or energy of the photons we want to detect.
+
+For example, since everything at room temperature emits in the
+infrared (IR), the IR detectors are typically cooled. The cryogenic
+(meaning through gas) cooling on /JWST/ is what limits the lifetime of
+the telescope!
 
 *** Size
+The bigger the telescope, the more photons it can funnel to the
+detector! The importance of size is also what makes ground-based
+observation necessary (and space junk, constellations of communication
+satellites like starlink, etc. are a problem).
+
+
+The size of a telescope also determines it's *angular resolution*, which
+is the minimum distance between two point sources of light to be
+distinguished. The edges of the telescope's mirror can diffract the
+light coming through (like sea waves passing next to rocks get
+perturbed) and the diffraction limit that sets the angular resolution
+depends on the wavelenght of light and the size $D$ of the telescope $\sim\lambda/D$.
+
+Present day record holder telescopes are the 10m class telescopes,
+which means they have a diameter of \sim10m.
+
+A special mention for the "Large Binocular Telescope" on Mount Graham
+which has a unique design with two paired 8m telescopes.
+#+DOWNLOADED: screenshot @ 2026-09-20 18:35:07
+[[file:images/LBT.png]]
+
+Steward Observatory is part of a consortium of institutions working on
+the "Giant Magellan Telescope" (GMT), which will be one of the next
+generation 30m telescopes, together with the "Extremely Large
+Telescope".
+
+
+#+CAPTiON: Artist impression of GMT mirrors. Each of the 7 pieces of the mirror are being made at the Mirror Lab here on Campus.
+[[file:images/GMT.png]]
+
+
+#+CAPTION: One of GMT mirror elements during the manufacturing process.
+[[file:images/GMT_mirror_lab.png]]
+
+But these record holding facilities, which are few and oversubscribed
+for their unique capabilities are /not/ the only telescopes with which
+one can do science!
+
+A lot of science cases require continuous or repeated viewing,
+impossible with oversubscribed facilities. Small telescopes are still
+used every night, even if they are limited to more nearby and thus
+brighter sources. As an example: see the emission line example above!
 
 *** Location
+
+A telescope in your backyard in Tucson /can/ be use for certain science.
+Some telescopes work the day (trivially the ones to look at the Sun),
+some need to be in space. How do get telescope locations decided?
+
+*N.B.:* this is a real question that affects communities and the land
+ they live in, which has often been dealt with poorly and lead to
+ tensions and conflicts.
+
+The atmosphere is a problem: it interacts with light and modifies it.
+Stars twinkle because of the thermal agitation of the air in the
+Earth's atmosphere (planets are big enough sources on the sky that it
+averages to zero, but it doesn't for stars). This is why typically
+observatories are on top of mountains -- this is how Arizona became
+important for astronomy!
+
+#+CAPTION: The cheapest place where one can put a telescope depends on the wavelengths of light it observes: some are only visible from outer space because the Earth atmosphere blocks them.
+[[file:images/telescopes_where.png]]
+
+*** Adaptive optics
+
+But sometimes this isn't enough. Nowadays some telescope have adaptive
+systems that deform the mirrors dynamically to compensate for the
+atmosphere. To do this they need to know what they should be seeing:
+they create an "artificial star" by shooting a powerful laser in the
+sky, and observe it with the telescope. The difference in the image
+that they see of the laser and what they know it is allows to
+calculate what the atmosphere is doing and correct it.
+
+Remember that this is to fight the "twinkling" to get an idea of how
+fast this has to occur.
+
+#+CAPTION: This telescope is creating "artificial stars" by shooting lasers in the atmosphere.
+[[file:images/ao.png]]

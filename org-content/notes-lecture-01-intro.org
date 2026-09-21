@@ -183,7 +183,6 @@ evolution of stars, and I focus on the ones 10\times more massive than the
 Sun, big enough to explode as supernovae and form the densest objects
 in the Universe, neutron stars and black holes.
 
-
 * Units and physical quantities
 Let's now start by having an overview of /where/ and /when/ in the
 Universe we are, and paint a broad-brush map of the Universe.
