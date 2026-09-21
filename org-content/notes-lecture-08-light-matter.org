@@ -242,9 +242,10 @@ particle has the same energy.
 
 ** Liquid
 In this case, there are weak interactions between the particles that
-constrain their motion. They are not only bumping and bouncing around,
-but more sliding onto each other. This still allows for changing
-shape, but can limit the compressibility and flow.
+constrain their motion. They are not feely travelling unless bumping
+and bouncing on each other, but more sliding onto each other. This
+still allows for changing shape, but can limit the compressibility and
+flow.
 
 In the case of water, the weak interaction is due to the fact that in
 this molecule oxygen is pulling the electrons a bit stronger than
@@ -286,8 +287,9 @@ where all particles have the same mass, globally neutral, but all
 particles move freely.
 
 ** Phase changes
-By changing the conditions of a collection of atoms/molecules we can
-let bond form or break, changing the same substance from one phase to
+By changing the thermodynamic conditions (i.e., the pressure and
+temperature, or density) of a collection of atoms/molecules we can let
+bond form or break, changing the same substance from one phase to
 another. You are certainly all familiar with this with water, from the
 ice in your drink, to the vapor over a boiling pot of liquid water.
 
