@@ -431,7 +431,15 @@ astronomer
 
 - Top Hat Q3
 
-* Doppler shift
+* Doppler effect
+
+We now have an idea of how light, because of quantum mechanics at
+atomic level, carries information on which atoms it was produced by
+and which it interacted with on its path. The wavelength (or energy)
+of the photons tell us something about the transitions in
+ions/atoms/molecules, which allow us to identify them. However, we
+need to discuss another phenomenon that can shift the
+wavelength/frequency of the photons: the Doppler effect.
 
 #+CAPTION: Plaque for Christian Doppler in Prague.
 #+ATTR_HTML: :width 25%
