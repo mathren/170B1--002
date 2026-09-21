@@ -65,7 +65,7 @@ charge. But they are themselves made of /electrons/ which carry charge
 around a tiny nucleus with opposite charge (positive).
 
 While the electrons can move around the nucleus in an area of the size
-of \sim10^{-10} cm, the nucleus is 100 thousand times smaller, with typical
+of \sim10^{-10} m, the nucleus is 100000\times smaller, with typical
 sizes of \sim 10^{-15}m=10^{-13} cm. *Most of the atom is technically empty void*
 between the electrons and the nucleus. The nucleus itself can be
 subdivided further into charged particles, the protons, and neutral
