@@ -1,0 +1,7 @@
+#+title: ASTR170 Telescopes
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: notes-lecture-09-lab2-spectroscopy.org
+#+NEXT_PAGE: study_guide_midterm1.org
+
+* TODO continue talking about telescopes and detectors

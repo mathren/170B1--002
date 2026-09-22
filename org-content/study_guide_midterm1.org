@@ -1,0 +1,129 @@
+#+title: ASTR170 Study guide midterm 1
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: notes-lecture-10-telescopes.org
+#+NEXT_PAGE: notes-lecture-11-solar-system.org
+
+* Study guide for 1^{st} midterm on <2026-09-30 Wed>
+
+The midterm will be administered in our usual classroom (N210) via
+TopHat and is closed book. You will be allowed one 3” x 5” notecard
+(double sided).
+
+*Neev will hold a review session in the Parker Library (Steward N304)
+on <2026-09-24 Thu> from 5-6:30pm.*
+
+
+This outline is organized according to the lectures (see also
+[[./schedule.org][schedule]]). However, *you are responsible for more material than is
+represented by the lectures*. In particular, study:
+
+- Lecture notes
+- Weekly homework assignments: Labs 1 & 2 and your Mastering Astronomy
+  Assignments 1, 3, 4 and Telescopes Tutorial. The Study Area is very
+  useful for practice!
+- Textbook: The Cosmic Perspective, Chapters 1-6 (eText access via D2L)
+
+* Key concepts
+
+** Week 1
+*Reading:* Chapters 1, 2
+
+*** Questions/concepts:
+- Relative sizes of the Universe/Galaxy/Solar System/Earth
+- What is a light-year?
+- How can we see into the past?
+- Ages and relative ages of the Universe/Earth/humanity
+- Celestial motions:
+  - What is the ecliptic?
+  - Why do the stars go around the sky?
+  - Why can you never see some stars from Tucson?
+- Seasons:
+  - What causes the seasons on Earth?
+  - What effects change the amount of sunlight received over the year?
+  - How does the Earth-Sun distance change over the year?
+- Lunar phases:
+  - What determines the phase of the moon?
+  - Relate positions of Moon/Earth/Sun in each phase
+- Eclipses:
+  - What is a Lunar/Solar eclipse?
+  - When do they happen? How often?
+  - What moon phases are involved?
+
+Week 2
+	Reading:
+Chapter 3
+	Lecture Slides:
+		Lectures 3, 4 (Lab 1)
+	Questions/concepts:
+Planetary Motion
+What is retrograde motion?
+Which planets can move this way?
+Why was it hard to explain this in early models of the “universe”?
+What is the geocentric model of the universe? How did it explain retrograde motion?
+What were Greek contributions to the development of science?
+What are the hallmarks of science?
+Copernicus/Tycho/Kepler/Galileo
+Who were they? Roughly when did they live?
+What were their main contributions?
+What evidence did Galileo provide for the heliocentric model?
+Kepler’s Laws of planetary motion:
+What are they?
+Make sure you can apply them to our Solar System
+How is the process of science illustrated in the story of our model of the Solar System?
+Motion/Momentum/Angular Momentum/Force/Weight
+What do each of these concepts mean?
+How do force/acceleration/velocity relate?
+
+Week 3
+	Reading:
+Chapter 4
+	Lecture Slides:
+		Lectures 5, 6
+	Questions/concepts:
+Newton
+Who was he? Roughly when did he live?
+What were his major contributions?
+How is the moon’s orbit like an apple falling?
+Newton’s Laws of Motion
+What are Newton’s three Laws of Motion?
+How do they explain forces between objects and the relative accelerations of objects of different masses?
+How does gravitational force depend on mass and distance?
+What is the origin of the tides? What force and what bodies are responsible?
+Conservation Laws:
+What is a conservation law?
+What is angular momentum? How does it relate to orbits?
+What are astronomically relevant forms of energy?
+			What are examples of conversion between those forms of energy?
+Weeks 4 & 5
+	Reading:
+Chapters 5, 6
+	Lecture Slides:
+		Lectures 7, 8, 9 (Lab 2)
+	Questions/concepts:
+Wave/Particle Light
+How is light a wave?
+How are frequency and wavelength related?
+How is light a particle (photon)?
+How are frequency and photon energy related?
+What are types of light in the electromagnetic spectrum?
+	Which are the most/least energetic?
+How do light and matter interact?
+Why is the Sun yellow?
+Why is a tree green?
+Atoms and Energy Levels
+Why do atoms emit/absorb in spectral lines?
+What changes in an atom when a photon is absorbed/emitted?
+What types of spectra are there? How is each made?
+Continuous spectra
+What is a blackbody?
+How does the blackbody spectral peak depend on temperature?
+How does blackbody luminosity depend on temperature?
+Learning from spectra
+How do spectra tell us what elements are present?
+How do we measure velocity from spectral lines?
+How do we measure temperature from spectra?
+Telescopes
+Why do we need telescopes?
+What determines where we put them?
+What are the important properties and advantages of telescopes?

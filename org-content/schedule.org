@@ -116,13 +116,17 @@ DEADLINE: Homework
 *** <2026-09-28 Mon> - Telescopes
 # in class attendance
 
+[[./notes-lecture-10-telescopes.org][Notes]]
+
 *** <2026-09-30 Wed> - Midterm
 # Deadline Homework 5 (Lab 2), Assign Homework 6
 DEADLINE: Homework, In class exam
 
+[[./study_guide_midterm1.org][Suggested study guide]]
+
 ** Week 7: Chapter 8, 9, 10
 # ITC workshop
-*** <2026-10-05 Mon> - Our Solar System
+*** <2026-10-05 Mon> - Solar System
 # in class attendance
 *** <2026-10-07 Wed> - Planet formation, Terrestrial planets
 # in class attendance

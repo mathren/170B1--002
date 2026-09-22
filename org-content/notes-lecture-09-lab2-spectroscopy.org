@@ -2,7 +2,7 @@
 #+author: \noauthor{}
 #+date: \nodate{}
 #+PREVIOUS_PAGE:  notes-lecture-08-light-matter.org
-#+NEXT_PAGE: notes-lecture-10-.org
+#+NEXT_PAGE: notes-lecture-10-telescopes.org
 #+MACRO: blank @@latex:\noindent\rule{$1}{0.4pt}@@
 
 #+BEGIN_EXPORT html
@@ -28,7 +28,7 @@ own worksheet* but you may work together if you wish; if you do, please
 list your group members’ names at the top under “collaborators.”
 
 Completed homework questions along with the entire handout are due in
-class on <2026-09-30 Wed>, OR earlier.
+class on <2026-09-30 Wed>, or earlier.
 
 * In-Class Activity
 
@@ -54,8 +54,8 @@ except for a very narrow slit. This slit lets light into the
 spectroscope and should be pointed at the light source. At the other
 end is a small plastic square. When you look through the square you
 will see the spectrum of the light spread out into various colors to
-the side of the slit. Your instructor will demonstrate the use and
-function of the spectroscopes.
+the side of the slit. The numbers measure the wavelength in 100s of
+nm (e.g., 4 corresponds 400nm).
 
 ** Viewing Spectra with your Spectroscope
 
@@ -66,12 +66,13 @@ the "Fluorescent Light Tube", or the "Discharge Tubes", or the
 
 *** Incandescent Light Bulb
 
-a. Looking through your spectroscope, examine the spectrum of an
+1. Looking through your spectroscope, examine the spectrum of an
    incandescent light bulb. You should see a continuous spectrum. On the
    left and right sides of the spectrum, the colors appear to fade to
    black. An incandescent light bulb does radiate energy in these
    wavelength ranges, but your eyes are not sensitive to it.
-b. Draw the spectrum you see on one of the templates provided at the
+   \vspace{2.5cm}
+2. Draw the spectrum you see on one of the templates provided at the
    end of this handout. Label some of the colors that appear in it, and
    shade it lighter or darker with your pencil to indicate where there is
    more or less light. Label the spectrum in the blank space at the top
@@ -79,14 +80,16 @@ b. Draw the spectrum you see on one of the templates provided at the
    the two ends (red and blue) where your eye can no longer see color.
    - Shortest wavelength: {{{blank(0.1\textwidth)}}} nm
    - Longest wavelength: {{{blank(0.1\textwidth)}}} nm
-c. Now place a stack (2-3) of the same color filters over the
+   \vspace{2.5cm}
+3. Now place a stack (2-3) of the same color filters over the
    spectroscope slit and observe the incandescent light source again.
    Record the color of your filters and the wavelength range of the
    filtered spectrum in the spaces below.
    - Color of the filter: {{{blank(0.1\textwidth)}}}
    - Shortest wavelength: {{{blank(0.1\textwidth)}}} nm
    - Longest wavelength:  {{{blank(0.1\textwidth)}}} nm
-d. What is the filter doing to the light to make the spectrum appear
+   \vspace{2.5cm}
+4. What is the filter doing to the light to make the spectrum appear
    different than the unfiltered spectrum? (Note: it may help to
    repeatedly cover and uncover the spectroscope slit with the
    filter.)
@@ -95,29 +98,25 @@ d. What is the filter doing to the light to make the spectrum appear
    {{{blank(\textwidth)}}}
 
 *** Discharge Tubes
-a. Use the spectroscope to examine the emission spectrum of a Hydrogen
+1. Use the spectroscope to examine the emission spectrum of a Hydrogen
    (H) gas discharge tube.
-
-b. Sketch the most prominent emission lines of the gas emission
+2. Sketch the most prominent emission lines of the gas emission
    spectrum on one of the templates at the end of this handout. Note the
    color and relative brightness (weak, medium, strong) of each line.
    Once you have finished these observations, draw each emission line in
    the spectrum and label its color. Draw thick lines to represent bright
    lines, and thin lines for weak lines. Label the spectrum in the
    provided blank space.
-   \hspace{3cm}
-
-c. Do the same measurements and sketches for two additional tubes,
-   which will be Helium (He), Neon (Ne), Krypton (Kr), or Mercury (Hg).
-   Sketch each spectrum as accurately as you can. Label each sketch with
-   the name of the element.
-   \hspace{3cm}
+3. Do the same measurements and sketches for two additional tubes,
+   with different gases (He, Ne, etc.) Sketch each spectrum as
+   accurately as you can. Label each sketch with the name of the
+   element.
 
 *** LEDs
 
 LEDs (Light Emitting Diodes) emit light at a very narrow wavelength
 range, typically just one color at a time. An LED light bulb that
-mimics white light will combine light from several different LEDS of
+mimics white light will combine light from several different LEDs of
 multiple colors. This light is not a true continuum or a black body
 the way an incandescent bulb is and typically has a different
 appearance. Cell phone and computer screens are LEDs, as are most
@@ -134,10 +133,9 @@ a. Using your spectroscope, carefully examine the spectrum of your
    accurately as you can. Label the spectrum at the top of the template
    (“LED”).
 
-   \hspace{3cm}
+   \vspace{2.5cm}
 
-   Type of LED observed (include phone or laptop brand/model): {{{blank(0.4\textwidth)}}}
-
+   Type of LED observed (include phone or laptop brand/model): {{{blank(0.3\textwidth)}}}
 
 *** Reveal™ Light Bulb
 
@@ -157,9 +155,8 @@ a. Using your spectroscope, carefully examine the spectrum of the
 b. Draw the spectrum you see on one of the templates provided at the
    end of this handout and label colors. Label the spectrum at the top of
    the template ("Reveal light bulb").
-   \hspace{3cm}
+   \hspace{2.5cm}
 c. Highlight the areas of the spectrum where you see absorption lines.
-
 
 * Homework
 
@@ -176,47 +173,59 @@ handout.
    #+DOWNLOADED: screenshot @ 2026-09-21 09:19:57
    [[file:images/emissionH.png]]
    #+DOWNLOADED: screenshot @ 2026-09-21 09:19:24
-[[file:images/H-level.png]]
-
-
-a) Which transition produces a photon with the highest energy?
+   [[file:images/H-level.png]]
+  a. Which transition produces a photon with the highest energy?
 
    {{{blank(\textwidth)}}}
    {{{blank(\textwidth)}}}
 
-b) Which transition produces a photon with the lowest energy?
+  b. Which transition produces a photon with the lowest energy?
 
    {{{blank(\textwidth)}}}
    {{{blank(\textwidth)}}}
-
 2.
-   a) What is the visible wavelength range of the spectra you have drawn in class? In other words, what is the shortest wavelength (most blue or violet) and longest wavelength (most red) that you see? (Note that everyone has slightly different limits on the wavelength range that their eyes are sensitive to.  Use the "nanometer" or "nm" scale on the bottom of the spectroscope template page to give your answers in nanometers.)
+    a. What is the visible wavelength range of the spectra you have drawn
+    in class? In other words, what is the shortest wavelength (most
+    blue or violet) and longest wavelength (most red) that you see?
+    (Note that everyone has slightly different limits on the wavelength
+    range that their eyes are sensitive to. Use the "nanometer" or "nm"
+    scale on the bottom of the spectroscope template page to give your
+    answers in nanometers.)
+
+    {{{blank(\textwidth)}}}
+
+    b. If an electronic transition produced a photon at the shortest
+    wavelength, would that photon have a lower or higher energy than a
+    photon at the longest wavelength?
+
+    {{{blank(\textwidth)}}}
+
+    \newpage
+
+3. Lines from clouds.
+
+   [[file:images/cloud_a.png]]
+
+  a. What type of spectrum (continuous,
+     emission, or absorption) does the observer see in the figure above?
+     Why?
+
+     {{{blank(\textwidth)}}}
+     {{{blank(\textwidth)}}}
+     {{{blank(\textwidth)}}}
+     {{{blank(\textwidth)}}}
+
+   [[file:images/cloud_b.png]]
+
+  b. The young, hot star in the figure above heats up the gas in the
+     cloud. Assume that the observer can only see radiation emitted by
+     the hydrogen cloud and cannot see the star. What kind of spectrum
+     (continuous, emission, or absorption) does the observer see? Why?
 
    {{{blank(\textwidth)}}}
-
-   b) If an electronic transition produced a photon at the shortest wavelength, would that photon have a lower or higher energy than a photon at the longest wavelength?
-
-   {{{blank(\textwidth)}}}
-
-3.
-   #+DOWNLOADED: screenshot @ 2026-09-21 09:32:08
-[[file:images/cloud_a.png]] a) What type of spectrum (continuous,
-   emission, or absorption) does the observer see in the figure above?
-   Why?
-
    {{{blank(\textwidth)}}}
    {{{blank(\textwidth)}}}
    {{{blank(\textwidth)}}}
-   {{{blank(\textwidth)}}}
-
-#+DOWNLOADED: screenshot @ 2026-09-21 09:32:46
-[[file:images/cloud_b.png]]   b) The young, hot star in the figure above heats up the gas in the cloud.  Assume that the observer can only see radiation emitted by the hydrogen cloud and cannot see the star. What kind of spectrum (continuous, emission, or absorption) does the observer see?  Why?
-
-   {{{blank(\textwidth)}}}
-   {{{blank(\textwidth)}}}
-   {{{blank(\textwidth)}}}
-   {{{blank(\textwidth)}}}
-
 4. Compare the spectrum of the LED lights to the spectrum of the
    incandescent light. a) Describe the differences between them. Is
    the LED light a true continuous spectrum? Why or why not?
