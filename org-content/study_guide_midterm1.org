@@ -50,80 +50,74 @@ represented by the lectures*. In particular, study:
   - When do they happen? How often?
   - What moon phases are involved?
 
-Week 2
-	Reading:
-Chapter 3
-	Lecture Slides:
-		Lectures 3, 4 (Lab 1)
-	Questions/concepts:
-Planetary Motion
-What is retrograde motion?
-Which planets can move this way?
-Why was it hard to explain this in early models of the “universe”?
-What is the geocentric model of the universe? How did it explain retrograde motion?
-What were Greek contributions to the development of science?
-What are the hallmarks of science?
-Copernicus/Tycho/Kepler/Galileo
-Who were they? Roughly when did they live?
-What were their main contributions?
-What evidence did Galileo provide for the heliocentric model?
-Kepler’s Laws of planetary motion:
-What are they?
-Make sure you can apply them to our Solar System
-How is the process of science illustrated in the story of our model of the Solar System?
-Motion/Momentum/Angular Momentum/Force/Weight
-What do each of these concepts mean?
-How do force/acceleration/velocity relate?
+** Week 2
+*Reading:* Chapter 3, lab 1
+*** Questions/concepts:
+- Planetary Motion
+  - What is retrograde motion?
+  - Which planets can move this way?
+  - Why was it hard to explain this in early models of the “universe”?
+- What is the geocentric model of the universe?
+  - How did it explain retrograde motion?
+- What were ancient Greek contributions to the development of science?
+- What are the hallmarks of science?
+- Copernicus/Tycho/Kepler/Galileo
+  - Who were they? Roughly when did they live?
+  - What were their main contributions?
+  - What evidence did Galileo provide for the heliocentric model?
+- Kepler’s Laws of planetary motion:
+  - What are they?
+  - Make sure you can apply them to our Solar System
+- How is the process of science illustrated in the story of our model of the Solar System?
+- Motion/Momentum/Angular Momentum/Force/Weight
+  - What do each of these concepts mean?
+  - How do force/acceleration/velocity relate?
 
-Week 3
-	Reading:
-Chapter 4
-	Lecture Slides:
-		Lectures 5, 6
-	Questions/concepts:
-Newton
-Who was he? Roughly when did he live?
-What were his major contributions?
-How is the moon’s orbit like an apple falling?
-Newton’s Laws of Motion
-What are Newton’s three Laws of Motion?
-How do they explain forces between objects and the relative accelerations of objects of different masses?
-How does gravitational force depend on mass and distance?
-What is the origin of the tides? What force and what bodies are responsible?
-Conservation Laws:
-What is a conservation law?
-What is angular momentum? How does it relate to orbits?
-What are astronomically relevant forms of energy?
-			What are examples of conversion between those forms of energy?
-Weeks 4 & 5
-	Reading:
-Chapters 5, 6
-	Lecture Slides:
-		Lectures 7, 8, 9 (Lab 2)
-	Questions/concepts:
-Wave/Particle Light
-How is light a wave?
-How are frequency and wavelength related?
-How is light a particle (photon)?
-How are frequency and photon energy related?
-What are types of light in the electromagnetic spectrum?
-	Which are the most/least energetic?
-How do light and matter interact?
-Why is the Sun yellow?
-Why is a tree green?
-Atoms and Energy Levels
-Why do atoms emit/absorb in spectral lines?
-What changes in an atom when a photon is absorbed/emitted?
-What types of spectra are there? How is each made?
-Continuous spectra
-What is a blackbody?
-How does the blackbody spectral peak depend on temperature?
-How does blackbody luminosity depend on temperature?
-Learning from spectra
-How do spectra tell us what elements are present?
-How do we measure velocity from spectral lines?
-How do we measure temperature from spectra?
-Telescopes
-Why do we need telescopes?
-What determines where we put them?
-What are the important properties and advantages of telescopes?
+** Week 3
+*Reading:* Chapter 4, 5
+*** Questions/concepts:
+- Newton
+  - Who was he? Roughly when did he live?
+  - What were his major contributions?
+  - How is the moon’s orbit like an apple falling?
+- Newton’s Laws of Motion
+  - What are Newton’s three Laws of Motion?
+  - How do they explain forces between objects and the relative
+    accelerations of objects of different masses?
+  - How does gravitational force depend on mass and distance?
+- What is the origin of the tides?
+  - What force and what bodies are responsible?
+- Conservation Laws:
+  - What is a conservation law?
+  - What is angular momentum? How does it relate to orbits?
+  - What are astronomically relevant forms of energy?
+  - What are examples of conversion between those forms of energy?
+** Weeks 4 & 5
+*Reading:* Chapters 5, 6, lab2
+*** Questions/concepts:
+- Wave/Particle Light
+  - How is light a wave?
+  - How are frequency and wavelength related?
+  - How is light a particle (photon)?
+  - How are frequency and photon energy related?
+- Electromagnetic spectrum
+  - Which are the most/least energetic?
+  - How do light and matter interact?
+  - Why is the Sun yellow?
+  - Why is a tree green?
+- Atoms and Energy Levels
+  - Why do atoms emit/absorb in spectral lines?
+  - What changes in an atom when a photon is absorbed/emitted?
+  - What types of spectra are there? How is each made?
+- Continuous spectra
+  - What is a blackbody?
+  - How does the blackbody spectral peak depend on temperature?
+  - How does blackbody luminosity depend on temperature?
+- Learning from spectra
+  - How do spectra tell us what elements are present?
+  - How do we measure velocity from spectral lines?
+  - How do we measure temperature from spectra?
+- Telescopes
+  - Why do we need telescopes?
+  - What determines where we put them?
+  - What are the important properties and advantages of telescopes?
