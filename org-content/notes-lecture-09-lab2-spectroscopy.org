@@ -8,7 +8,7 @@
 #+BEGIN_EXPORT html
 <p><a href="notes-lecture-09-lab2-spectroscopy.pdf">(Printable version)</a></p>
 #+END_EXPORT
-
+\vspace*{-50pt}
 * ⚠️ Your name {{{blank(0.3\textwidth)}}} and student ID{{{blank(0.3\textwidth)}}}
 
   *Collaborators* (if any): {{{blank(0.5\textwidth)}}}
@@ -71,7 +71,7 @@ the "Fluorescent Light Tube", or the "Discharge Tubes", or the
    left and right sides of the spectrum, the colors appear to fade to
    black. An incandescent light bulb does radiate energy in these
    wavelength ranges, but your eyes are not sensitive to it.
-   \vspace{2.5cm}
+   \vspace{1.5cm}
 2. Draw the spectrum you see on one of the templates provided at the
    end of this handout. Label some of the colors that appear in it, and
    shade it lighter or darker with your pencil to indicate where there is
@@ -80,7 +80,7 @@ the "Fluorescent Light Tube", or the "Discharge Tubes", or the
    the two ends (red and blue) where your eye can no longer see color.
    - Shortest wavelength: {{{blank(0.1\textwidth)}}} nm
    - Longest wavelength: {{{blank(0.1\textwidth)}}} nm
-   \vspace{2.5cm}
+   \vspace{1.5cm}
 3. Now place a stack (2-3) of the same color filters over the
    spectroscope slit and observe the incandescent light source again.
    Record the color of your filters and the wavelength range of the
@@ -88,7 +88,7 @@ the "Fluorescent Light Tube", or the "Discharge Tubes", or the
    - Color of the filter: {{{blank(0.1\textwidth)}}}
    - Shortest wavelength: {{{blank(0.1\textwidth)}}} nm
    - Longest wavelength:  {{{blank(0.1\textwidth)}}} nm
-   \vspace{2.5cm}
+   \vspace{1.5cm}
 4. What is the filter doing to the light to make the spectrum appear
    different than the unfiltered spectrum? (Note: it may help to
    repeatedly cover and uncover the spectroscope slit with the
@@ -107,10 +107,12 @@ the "Fluorescent Light Tube", or the "Discharge Tubes", or the
    the spectrum and label its color. Draw thick lines to represent bright
    lines, and thin lines for weak lines. Label the spectrum in the
    provided blank space.
+   \vspace{1.5cm}
 3. Do the same measurements and sketches for two additional tubes,
    with different gases (He, Ne, etc.) Sketch each spectrum as
    accurately as you can. Label each sketch with the name of the
    element.
+   \vspace{3cm}
 
 *** LEDs
 
@@ -133,7 +135,7 @@ a. Using your spectroscope, carefully examine the spectrum of your
    accurately as you can. Label the spectrum at the top of the template
    (“LED”).
 
-   \vspace{2.5cm}
+   \vspace{1.5cm}
 
    Type of LED observed (include phone or laptop brand/model): {{{blank(0.3\textwidth)}}}
 
@@ -149,14 +151,17 @@ some of the radiation from the W filament. The element Nd imprints a
 unique pattern of absorption lines on the continuous spectrum,
 determined by the atom's unique distribution of energy levels.
 
-a. Using your spectroscope, carefully examine the spectrum of the
-   Reveal™ light bulb. If you look carefully, you should see that there
-   are missing colors from the rainbow.
-b. Draw the spectrum you see on one of the templates provided at the
-   end of this handout and label colors. Label the spectrum at the top of
-   the template ("Reveal light bulb").
-   \hspace{2.5cm}
-c. Highlight the areas of the spectrum where you see absorption lines.
+1. Using your spectroscope, carefully examine the spectrum of the
+   Reveal™ light bulb. If you look carefully, you should see that
+   there are missing colors from the rainbow.
+
+2. Draw the spectrum you see on one of the templates provided at the
+   end of this handout and label colors. Label the spectrum at the top
+   of the template ("Reveal light bulb").
+
+   \vspace{1.5cm}
+
+3. Highlight the areas of the spectrum where you see absorption lines.
 
 * Homework
 
@@ -200,8 +205,6 @@ handout.
 
     {{{blank(\textwidth)}}}
 
-    \newpage
-
 3. Lines from clouds.
 
    [[file:images/cloud_a.png]]
@@ -226,6 +229,7 @@ handout.
    {{{blank(\textwidth)}}}
    {{{blank(\textwidth)}}}
    {{{blank(\textwidth)}}}
+
 4. Compare the spectrum of the LED lights to the spectrum of the
    incandescent light. a) Describe the differences between them. Is
    the LED light a true continuous spectrum? Why or why not?
