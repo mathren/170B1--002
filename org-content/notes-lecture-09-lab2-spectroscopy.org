@@ -6,7 +6,7 @@
 #+MACRO: blank @@latex:\noindent\rule{$1}{0.4pt}@@
 
 #+BEGIN_EXPORT html
-<p><a href="./notes-lecture-09-lab2-spectroscopy.pdf">(Printable version)</a></p>
+<p><a href="notes-lecture-09-lab2-spectroscopy.pdf">(Printable version)</a></p>
 #+END_EXPORT
 * ⚠️ Your name {{{blank(0.3\textwidth)}}} and student ID{{{blank(0.3\textwidth)}}}
 

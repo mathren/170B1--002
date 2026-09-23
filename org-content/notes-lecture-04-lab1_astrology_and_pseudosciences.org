@@ -253,7 +253,6 @@ superior).
 | does not change if new evidence emerges                            |
 |--------------------------------------------------------------------|
 
-
 * Class results
 
 #+DOWNLOADED: screenshot @ 2026-09-02 14:57:50
