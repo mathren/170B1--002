@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-09-22 Tue 15:21 -->
+<!-- 2026-09-25 Fri 14:55 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Telescopes</title>
@@ -12,6 +12,38 @@
 <meta name="keywords" content="Mathieu, Renzo, Mathieu Renzo,
 			       stellar evolution, ASTR170B1, University of
 			       Arizona, Steward Observatory">
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 </head>
 <body>
 <div id="preamble" class="status">
@@ -98,8 +130,324 @@
 <!-- end scripts-->
 </div>
 <div id="content" class="content">
-<div id="outline-container-continue-talking-about-telescopes-and-detectors" class="outline-2">
-<h2 id="continue-talking-about-telescopes-and-detectors"><a href="#continue-talking-about-telescopes-and-detectors"><span class="todo TODO">TODO</span> continue talking about telescopes and detectors</a></h2>
+<div id="outline-container-recap-amp-logistics" class="outline-2">
+<h2 id="recap-amp-logistics"><a href="#recap-amp-logistics">Recap &amp; Logistics</a></h2>
+<div class="outline-text-2" id="text-org-element-1">
+<ul class="org-ul">
+<li>end of today: mini-practice round + top-hat test</li>
+<li>Wednesday: handout from lab 2 due + midterm exam (Neev will be here)</li>
+<li>Next week: Neev will give a lecture on the solar system on monday.
+Wednesday lecture is canceled (I will be traveling to a workshop on
+stellar winds)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-the-most-important-qualities-of-telescopes" class="outline-2">
+<h2 id="the-most-important-qualities-of-telescopes"><a href="#the-most-important-qualities-of-telescopes">The most important qualities of telescopes</a></h2>
+<div class="outline-text-2" id="text-org-element-2">
+<p>
+Because their primary goal is to funnel photons to a detector, the two
+most important properties of a telescope are its <b>collecting area</b> and
+its <b>spatial resolution</b>.
+</p>
+</div>
+<div id="outline-container-collecting-area" class="outline-3">
+<h3 id="collecting-area"><a href="#collecting-area">Collecting area</a></h3>
+<div class="outline-text-3" id="text-org-element-3">
+<p>
+The bigger the telescope, the more light it can collect: this is why
+for the optical wavelengths &sim;380-700nm, we went from the hand-held
+telescope built by Galileo to present-day 10m-scale telescopes and are
+currently building the next generation 30m-scale telescopes!
+</p>
+
+<p>
+Note that what matters is the collecting area: this has the dimensions
+of [L<sup>2</sup>], and scales with the square of the size! So a telescope that
+is 30m in scale, 3 bigger than the current biggest telescopes, will
+have a collecting area 3<sup>2</sup>=9 times larger!
+</p>
+
+<p>
+This enables several things like:
+</p>
+<ul class="org-ul">
+<li>seeing fainter objects (either intrinsically fainter or just because
+they are farther away);</li>
+<li>be able to take <i>spectra</i> of fainter sources, since we get more
+photons at all wavelengths;</li>
+<li>having to stay "on-source" for shorter times to get the same quality
+of the signal: this allows for more observations per night.</li>
+</ul>
+
+<p>
+For non-optical wavelengths, telescopes can be much bigger! Consider,
+for example, long-wavelength radio-waves: any detail of the detector
+much smaller than the wavelength \(\lambda\) will not matter for the detection
+of the photon. This way we can make telescope dishes that are not
+full, and even start combining multiple dishes into a single telescope
+</p>
+
+
+<figure id="org-element-4">
+<img src="./images/VLA.jpg" alt="VLA.jpg" width="100%">
+
+<figcaption><span class="figure-number">Figure 1: </span>The radio-telescope "VLA" (which stands for "very large array") is made of individual dishes, each &sim;10m in diameter, that act all together as a single telescope: the effective collecting area is determined by the (modifiable) size of the array (the maximum distance between two dishes), and not the size of the individual dishes. Moving the dishes one can change the configuration and thus the properties of this radio-telescope to optimize for the scientific observations one wants.</figcaption>
+</figure>
+</div>
+</div>
+<div id="outline-container-spatial-resolution" class="outline-3">
+<h3 id="spatial-resolution"><a href="#spatial-resolution">Spatial resolution</a></h3>
+<div class="outline-text-3" id="text-org-element-5">
+<p>
+The more photons we can collect, the better, but we also need to be
+able to know <b>where</b> they come from. If two sources are too close to
+each other (in projection on the celestial sphere), we will see them
+as a single "unresolved" point source.
+</p>
+
+
+
+<figure id="org-element-6">
+<img src="images/diffraction_limits.png" alt="diffraction_limits.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 2: </span>Examples of point sources seen through an optical system (like a telescope). The point source is "spread out" by the interactions of light with the parts of the instrument, the shape of the image of a point source is called "point spread function" (or PSF). Image (a) shows two "marginally resolved sources": from the histograms on the top, we can see that photons coming from each source overlap, but we can still distinguish two objects. The second image corresponds to <i>not</i> resolving the two sources, which appear as one. The third is just one source.</figcaption>
+</figure>
+
+
+<p>
+The minimum angular distance between two sources that can be
+distinguished depends on the wavelength of the light emitted by these
+sources, and the telescope itself.
+</p>
+
+<p>
+Remember that light is a wave, thus subject to wave phenomena like
+<i>diffraction</i>:
+</p>
+
+
+
+<figure id="org-element-7">
+<img src="./images/diffraction_sea_waves.jpg" alt="diffraction_sea_waves.jpg" width="100%">
+
+<figcaption><span class="figure-number">Figure 3: </span>Diffraction is a wave phenomenon that occurs when a wave (e.g., a surface sea wave) encounters obstacles with size comparable to its wavelength.</figcaption>
+</figure>
+
+<p>
+Light encounters the telescope and can be modified by it: this will
+generate spurious signals in your detector that are not carried by the
+light from its source that you want to study, but instead imprinted on
+light by the telescope itself. The so-called diffraction limit of a
+telescope thus depends on the wavelength of the light \(\lambda\) and its size
+\(D\): any angular size \(\theta\) smaller than
+</p>
+
+<div class="latex" id="org-element-8">
+\begin{equation}\label{eq:diffraction_limit}
+\theta_{\rm lim} \le \frac{\lamda}{D} \ \ ,
+\end{equation}
+
+</div>
+
+<p>
+cannot be resolved. So increasing \(D\) leads to collecting more light
+(\(\proto D^{2}\)) and pushing down the diffraction limit (\(\propto D^{-1}\)).
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-telescope-designs" class="outline-2">
+<h2 id="telescope-designs"><a href="#telescope-designs">Telescope designs</a></h2>
+<div class="outline-text-2" id="text-org-element-9">
+<p>
+Cutting edge telescopes usually push the boundaries of technology to
+allow for unprecedented capabilities. Nevertheless, in the past 400
+years of telescope building, we have collectively developed some
+standard architecture that are more common than others.
+</p>
+
+<p>
+Typically, one would want the detectors to which light is funneled to
+be in the focal plane, but that can be hard to achieve (the detector
+itself gets in the way). Sometimes light is funneled into fiber optics
+to then carry it from the telescope focus to the instrument.
+</p>
+</div>
+<div id="outline-container-refracting-telescope" class="outline-3">
+<h3 id="refracting-telescope"><a href="#refracting-telescope">Refracting telescope</a></h3>
+<div class="outline-text-3" id="text-org-element-10">
+<p>
+We have already discussed the role of the <i>lens</i> in a telescope, which
+is an optical element that "bends" the light through refraction.
+</p>
+
+<p>
+The first telescopes made by the dutch and studied and understood by
+Galileo where like this.
+</p>
+
+<p>
+However, these may introduce effects on the light such as "chromatic
+aberration": each wavelength of light is bent by a slightly different
+amount, and so white light gets always spread into small rainbows.
+</p>
+</div>
+</div>
+<div id="outline-container-reflecting-telescopes" class="outline-3">
+<h3 id="reflecting-telescopes"><a href="#reflecting-telescopes">Reflecting telescopes</a></h3>
+<div class="outline-text-3" id="text-org-element-11">
+<p>
+One can do away with the lens and achieve focusing by combining
+mirrors. This creates an optical path for light from the stars (note
+that these are typically infinitely far compared to the size \(D\) of
+the telescope, therefore starlight rays are all parallel to each
+other), which has to converge on the focus.
+</p>
+
+<p>
+The figure shows some classic design that were originally developed
+for eye-piece observations (putting the eye at the focus). Note how
+there is a combination of 2+ mirrors that need to be fine-tuned
+perfectly to obtain sharp images
+</p>
+
+
+<figure id="org-element-12">
+<img src="./images/reflecting_telescopes.png" alt="reflecting_telescopes.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 4: </span>Optical paths of three reflecting telescope standard designs</figcaption>
+</figure>
+
+
+
+<figure id="org-element-13">
+<img src="images/keck_cassegrain.png" alt="keck_cassegrain.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 5: </span>The 10m-class Keck telescope on Mauna Kea is a Cassegrain telescope. Note the person in the middle bottom of the figure for scale.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div id="outline-container-using-telescopes" class="outline-2">
+<h2 id="using-telescopes"><a href="#using-telescopes">Using telescopes</a></h2>
+<div class="outline-text-2" id="text-org-element-14">
+<p>
+We have already seen that telescopes funnel the light to detectors,
+and that there are two kind of sensors (to collect light regardless of
+its wavelength within a wide range and do <i>photometry</i>, and to spread
+the light as a function of its wavelength/energy and do <i>spectroscopy</i>,
+cf. <a href="./notes-lecture-09-lab2-spectroscopy.html">the second lab we did in class</a>).
+</p>
+
+<p>
+Photometry and spectrometry are two main tasks that can be performed
+by astronomers at a telescope. This usually requires applying for
+telescope time and for the specific detector one wants (there are more
+astronomers than professional-grade observatories, so it's very often
+a competitive process to get a chance to use a telescope), either
+doing the observations one-self, or receive the observed data from the
+telescope operators on a mountain, and then analyzing them and do
+research.
+</p>
+
+<p>
+<b>N.B.:</b> Especially post-covid19, lots of observatories are now "robotic"
+and/or operated remotely only. This minimizes the need for humans at
+remote mountain sites, but more importantly it allows for optimizing
+the schedule of the telescope and maximizing the number of sources
+that can be observed in a night.
+</p>
+
+<p>
+There is a third thing that can be done with telescopes &#x2013; typically
+with medium and small scale ones: <b>repeat observations every night</b>.
+This is not different than what Chinese and Korean medieval
+astronomers were doing! This allows to find <i>changes</i> in the night sky,
+the study of which is often called "time-domain astronomy"
+</p>
+
+<div class="org-drawer-container">
+  <button class="org-drawer-toggle" onclick="toggleDrawer('drawer-Question-1')">Question ▼</button>
+  <div id="drawer-Question-1" class="org-drawer-content" style="display: none;"><ul class="org-ul">
+<li>What kind of changes in the night sky do you think astronomers may
+be interested in?</li>
+</ul>
+</div>
+</div>
+<div class="org-drawer-container">
+  <button class="org-drawer-toggle" onclick="toggleDrawer('drawer-Answer-2')">Answer ▼</button>
+  <div id="drawer-Answer-2" class="org-drawer-content" style="display: none;"><p>
+A partial list includes:
+</p>
+<ul class="org-ul">
+<li>periodic changes (e.g., eclipses of an exoplanet passing in front of
+its host star)</li>
+<li>one-off impulsive changes (e.g., a star exploding as a supernova)</li>
+<li>nearby objects zooming through the sky (e.g., asteroids, comets, etc.)</li>
+<li>stellar variability: stars pulsating and oscillating</li>
+<li>&#x2026;</li>
+</ul>
+<p>
+Note that the University of Arizona and Steward Observatory are a big
+powerhouse in time-domain astronomy.
+</p>
+</div>
+</div>
+
+
+<figure id="org-element-15">
+<img src="./images/rubin.jpg" alt="rubin.jpg" width="100%">
+
+<figcaption><span class="figure-number">Figure 6: </span>Rubin/LSST is increasing the number of "time-domain" astronomy.</figcaption>
+</figure>
+
+<p>
+The <a href="https://www.lsst.org/">Vera Rubin telescope</a> has started performing the "Legacy survey of
+Space and Time" (LSST) which is based on scanning the entire sky visible from
+the telescope (so half the sky, the other half being below the Earth
+from the telescope point of view) every few days with the same
+filters. This has already produced incredible images that are so
+high-resolution that they cannot be displayed in their full glory on
+consumer displays!
+</p>
+
+<p>
+You can find an interactive tool to explore Rubin/LSST first image
+<a href="https://skyviewer.app/explorer">here (you may need to scroll to the left to find the observed field!)</a>,
+that allows you to "zoom in and enhance" like in movies!
+</p>
+
+
+<figure id="org-element-16">
+<img src="images/rubin_first_light.png" alt="rubin_first_light.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 7: </span>First light image released by Rubin/LSST, from <a href="https://skyviewer.app/explorer">the interactive visualization</a>. Rubin/LSST will produce a lot of these images, and comparing them one can find what has changed since the last image, performing time-domain astronomy! Most of the sources seen here are galaxies or clusters of galaxies.</figcaption>
+</figure>
+</div>
+<div id="outline-container-composite-images" class="outline-3">
+<h3 id="composite-images"><a href="#composite-images">Composite Images</a></h3>
+<div class="outline-text-3" id="text-org-element-17">
+
+<figure id="org-element-18">
+<img src="images/composite_image.png" alt="composite_image.png" width="100%">
+
+</figure>
+</div>
+</div>
+</div>
+<div id="outline-container-space-telescopes" class="outline-2">
+<h2 id="space-telescopes"><a href="#space-telescopes">Space-telescopes</a></h2>
+</div>
+
+
+<div id="outline-container-midterm-mini-practice" class="outline-2">
+<h2 id="midterm-mini-practice"><a href="#midterm-mini-practice">Midterm mini-practice</a></h2>
+<div class="outline-text-2" id="text-org-element-19">
+<p>
+See top hat.
+</p>
+</div>
 </div>
 </div>
 <div id="postamble" class="status">
@@ -107,7 +455,7 @@
   <hr>
   <a href="#light-dark-toggle"><i id="light-dark-toggle"><i class="fa-solid fa-circle-half-stroke"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-09-lab2-spectroscopy.html"><i class="fa-solid fa-arrow-left" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="#top"><i class="fa-solid fa-arrow-up" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="study_guide_midterm1.html"><i class="fa-solid fa-arrow-right" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/mathren/170B1--002"><i class="fa-brands fa-github" style="font-size:16px"></i></a><hr>
   <br>
-  Last updated on 22 September 2026 <br>
+  Last updated on 25 September 2026 <br>
   Made with Emacs 30.1 - Org mode 9.7.11
   <br>
 </div>
