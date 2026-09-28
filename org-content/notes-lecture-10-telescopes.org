@@ -234,6 +234,9 @@ sources at different temperatures!
 "False colors" can also be used to visualize wavelength outside of the
 optical spectrum (e.g., UV, X-rays, radio, etc.).
 
+#+CAPTION: False color image of the supernova remnant Cas A: this shows infrared, X-rays, UV, etc. as shades of optical colors for our eyes to see. A Supernova remnant is the cadaver of a star that exploded in the past \sim1000-10000 years.
+[[./images/casA.webp]]
+
 *N.B.:* While we have mostly focused optical telescopes, light is light,
 and a lot of the principles described for optical astronomy here apply
 to all wavelengths.
