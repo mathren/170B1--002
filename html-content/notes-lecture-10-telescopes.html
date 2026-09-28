@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-09-28 Mon 10:25 -->
+<!-- 2026-09-28 Mon 10:27 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Telescopes</title>
@@ -211,32 +211,19 @@ each other (in projection on the celestial sphere), we will see them
 as a single "unresolved" point source.
 </p>
 
-
-
-<figure id="org-element-6">
-<img src="images/diffraction_limits.png" alt="diffraction_limits.png" width="100%">
-
-<figcaption><span class="figure-number">Figure 2: </span>Examples of point sources seen through an optical system (like a telescope). The point source is "spread out" by the interactions of light with the parts of the instrument, the shape of the image of a point source is called "point spread function" (or PSF). Image (a) shows two "marginally resolved sources": from the histograms on the top, we can see that photons coming from each source overlap, but we can still distinguish two objects. The second image corresponds to <i>not</i> resolving the two sources, which appear as one. The third is just one source.</figcaption>
-</figure>
-
-
 <p>
 The minimum angular distance between two sources that can be
 distinguished depends on the wavelength of the light emitted by these
-sources, and the telescope itself.
-</p>
-
-<p>
-Remember that light is a wave, thus subject to wave phenomena like
-<i>diffraction</i>:
+sources, and the telescope itself. Remember that light is a wave, thus
+subject to wave phenomena like <i>diffraction</i>:
 </p>
 
 
 
-<figure id="org-element-7">
+<figure id="org-element-6">
 <img src="./images/diffraction_sea_waves.jpg" alt="diffraction_sea_waves.jpg" width="100%">
 
-<figcaption><span class="figure-number">Figure 3: </span>Diffraction is a wave phenomenon that occurs when a wave (e.g., a surface sea wave) encounters obstacles with size comparable to its wavelength.</figcaption>
+<figcaption><span class="figure-number">Figure 2: </span>Diffraction is a wave phenomenon that occurs when a wave (e.g., a surface sea wave) encounters obstacles with size comparable to its wavelength.</figcaption>
 </figure>
 
 <p>
@@ -248,12 +235,24 @@ telescope thus depends on the wavelength of the light \(\lambda\) and its size
 \(D\): any angular size \(\theta\) smaller than
 </p>
 
-<div class="latex" id="org-element-8">
+<div class="latex" id="org-element-7">
 \begin{equation}\label{eq:diffraction_limit}
 \theta_{\rm lim} \le \frac{\lambda}{D} \ \ ,
 \end{equation}
 
 </div>
+
+
+
+<figure id="org-element-8">
+<img src="images/diffraction_limits.png" alt="diffraction_limits.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 3: </span>Examples of point sources seen through an optical system (like a telescope). The point source is "spread out" by the interactions of light with the parts of the instrument, the shape of the image of a point source is called "point spread function" (or PSF). Image (a) shows two "marginally resolved sources": from the histograms on the top, we can see that photons coming from each source overlap, but we can still distinguish two objects. The second image corresponds to <i>not</i> resolving the two sources, which appear as one. The third is just one source.</figcaption>
+</figure>
+
+
+
+
 <p>
 cannot be resolved. So increasing \(D\) leads to collecting more light
 (\(\propto D^{2}\)) and pushing down the diffraction limit (\(\propto D^{-1}\)).
