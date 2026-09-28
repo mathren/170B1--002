@@ -112,7 +112,7 @@ We have already discussed the role of the /lens/ in a telescope, which
 is an optical element that "bends" the light through refraction to
 focus.
 
-The first telescopes made by the dutch and studied and understood by
+The first telescopes made by the Dutch and studied and understood by
 Galileo where like this.
 
 However, these may introduce effects on the light such as "chromatic
