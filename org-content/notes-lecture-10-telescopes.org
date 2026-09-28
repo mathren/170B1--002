@@ -118,13 +118,17 @@ Galileo where like this.
 However, these may introduce effects on the light such as "chromatic
 aberration": each wavelength of light is bent by a slightly different
 amount, and so white light gets always spread into small rainbows.
+Plus, lenses (typically made of polished glass) are expensive and hard
+to make in large sizes to fit large telescopes!
 
 ** Reflecting telescopes
 One can do away with the lens and achieve focusing by combining
-mirrors. This creates an optical path for light from the stars (note
-that these are typically infinitely far compared to the size $D$ of
-the telescope, therefore starlight rays are all parallel to each
-other), which has to converge on the focus.
+mirrors. This creates an optical path for light from the stars, which
+has to converge on the focus.
+
+*N.B.:* Astronomical sources are infinitely far compared to the size $D$ of
+the telescope, therefore starlight rays can all be considered parallel to each
+other. This is already true for the nearest star to Earth, the Sun.
 
 The figure shows some classic design that were originally developed
 for eye-piece observations (putting the eye at the focus). Note how
