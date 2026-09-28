@@ -166,6 +166,14 @@ remote mountain sites, but more importantly it allows for optimizing
 the schedule of the telescope and maximizing the number of sources
 that can be observed in a night.
 
+The video below shows behind the focal plane of the DESI instrument at
+Kitt Peak national observatory: this is a spectrograph fed by fiber
+optics, each element in the video can move its fiber optic within its
+"patrolling area" to place it exactly on the desired source:
+
+#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/JeA4KA8a3dU?si=4XUngfnrQjiFPYXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 There is a third thing that can be done with telescopes -- typically
 with medium and small scale ones: *repeat observations every night*.
 This is not different than what Chinese and Korean medieval
