@@ -91,10 +91,12 @@ celestial sphere, and the distance between the objects and the
 observer:
 
 
+#+CAPTION: text.
 #+ATTR_HTML: :width 50%
-#+CAPTION: Real-life example of angular distance between the headlights of a car and distance between car and observer. The angle between pairs of white dashed lines is $\theta$.
 
 [[file:images/angular_distance_car.png]]
+
+Real-life example of angular distance between the headlights of a car and distance between car and observer. The angle between pairs of white dashed lines is $\theta$.
 
 
 * Telescope designs
