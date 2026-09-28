@@ -7,8 +7,8 @@
 * Recap & Logistics
 - end of today: mini-practice round + top-hat test
 - Wednesday: handout from lab 2 due + midterm exam (Neev will be here)
-- Next week: Neev will give a lecture on the solar system on monday.
-  Wednesday lecture is canceled (I will be traveling to a workshop on
+- Next week: Neev will give a lecture on the solar system on monday <2026-10-05 Mon>.
+  <2026-10-07 Wed> lecture is canceled (I will be traveling to a workshop on
   stellar winds)
 
 * The most important qualities of telescopes
@@ -77,15 +77,12 @@ $D$: any angular size $\theta$ smaller than
 \theta_{\rm lim} \le \frac{\lambda}{D} \ \ ,
 \end{equation}
 #+end_latex
-
+cannot be resolved.
 
 #+CAPTION: Examples of point sources seen through an optical system (like a telescope). The point source is "spread out" by the interactions of light with the parts of the instrument, the shape of the image of a point source is called "point spread function" (or PSF). Image (a) shows two "marginally resolved sources": from the histograms on the top, we can see that photons coming from each source overlap, but we can still distinguish two objects. The second image corresponds to /not/ resolving the two sources, which appear as one. The third is just one source.
 [[file:images/diffraction_limits.png]]
 
-
-
-
-cannot be resolved. So increasing $D$ leads to collecting more light
+So increasing $D$ leads to collecting more light
 ($\propto D^{2}$) and pushing down the diffraction limit ($\propto D^{-1}$).
 
 * Telescope designs
