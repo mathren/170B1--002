@@ -91,7 +91,7 @@ celestial sphere, and the distance between the objects and the
 observer:
 
 #+CAPTION: Real-life example of angular distance between the headlights of a car and distance between car and observer.  The angle between pairs of white dashed lines is $\theta$.
-#+ATTR_HTML: :width 50%
+#+ATTR_HTML: :width 75%
 [[./images/angular_distance_car.png]]
 
 
@@ -109,7 +109,8 @@ to then carry it from the telescope focus to the instrument.
 
 ** Refracting telescope
 We have already discussed the role of the /lens/ in a telescope, which
-is an optical element that "bends" the light through refraction.
+is an optical element that "bends" the light through refraction to
+focus.
 
 The first telescopes made by the dutch and studied and understood by
 Galileo where like this.
