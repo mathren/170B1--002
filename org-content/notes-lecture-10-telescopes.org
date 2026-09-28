@@ -22,7 +22,7 @@ specialized detectors (photographic plates and charged coupled device
 or CCD): magnification without spatial resolution doesn't reveal more
 information!
 
-** Collecting area
+** Collecting area $\propto D^{2}$
 The bigger the telescope, the more light it can collect: this is why
 for the optical wavelengths \sim380-700nm, we went from the hand-held
 telescope built by Galileo to present-day 10m-scale telescopes and are
