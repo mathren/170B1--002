@@ -50,7 +50,7 @@ full, and even start combining multiple dishes into a single telescope
 #+CAPTION: The radio-telescope "VLA" (which stands for "very large array") is made of individual dishes, each \sim10m in diameter, that act all together as a single telescope: the effective collecting area is determined by the (modifiable) size of the array (the maximum distance between two dishes), and not the size of the individual dishes. Moving the dishes one can change the configuration and thus the properties of this radio-telescope to optimize for the scientific observations one wants.
 [[./images/VLA.jpg]]
 
-** Spatial resolution
+** Spatial resolution $\propto D^{-1}$
 The more photons we can collect, the better, but we also need to be
 able to know *where* they come from. If two sources are too close to
 each other (in projection on the celestial sphere), we will see them
