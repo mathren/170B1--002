@@ -15,7 +15,12 @@
 
 Because their primary goal is to funnel photons to a detector, the two
 most important properties of a telescope are its *collecting area* and
-its *spatial resolution*.
+its *spatial resolution*. The magnification of the objects, which was
+the primary objective of early telescopes, has become less important
+since we moved away from naked-eye observations and have access to
+specialized detectors (photographic plates and charged coupled device
+or CCD): magnification without spatial resolution doesn't reveal more
+information!
 
 ** Collecting area
 The bigger the telescope, the more light it can collect: this is why
@@ -125,7 +130,6 @@ perfectly to obtain sharp images
 [[file:images/keck_cassegrain.png]]
 
 
-
 * Using telescopes
 
 We have already seen that telescopes funnel the light to detectors,
@@ -212,7 +216,6 @@ optical spectrum (e.g., UV, X-rays, radio, etc.).
 *N.B.:* While we have mostly focused optical telescopes, light is light,
 and a lot of the principles described for optical astronomy here apply
 to all wavelengths.
-
 
 * Midterm mini-practice
 
