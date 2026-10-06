@@ -125,18 +125,20 @@ DEADLINE: Homework, In class exam
 [[./study_guide_midterm1.org][Suggested study guide]]
 
 ** Week 7: Chapter 8, 9, 10
-# ITC workshop
 *** <2026-10-05 Mon> - Solar System
 # in class attendance
-*** <2026-10-07 Wed> - Planet formation, Terrestrial planets
-# in class attendance
-# Deadline Homework 6, Assign Homework 7
+*Guest lecturer*: Neev Shah
+
+[[./images/SolarSystem_Fall2026.pptx][slides]]
+
+*** <2026-10-07 Wed> - *No Lecture*
+
 DEADLINE: Homework
 
 ** Week 8: Chapter 11, 12, 14
-
-*** <2026-10-12 Mon> - Jovian planets
+*** <2026-10-12 Mon> - Planet formation
 # in class attendance
+
 *** <2026-10-14 Wed> - Asteroids
 # in class attendance
 # Deadline Homework 7, Assign Homework 8
