@@ -138,6 +138,7 @@ DEADLINE: Homework
 ** Week 8: Chapter 11, 12, 14
 *** <2026-10-12 Mon> - Planet formation
 # in class attendance
+[[./notes-lecture-12-planet-formation.org][Notes]]
 
 *** <2026-10-14 Wed> - Asteroids
 # in class attendance

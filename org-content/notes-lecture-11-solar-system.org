@@ -1,0 +1,9 @@
+#+title: ASTR170 Guest lecture
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: notes-lecture-10-telescopes.org
+#+NEXT_PAGE: notes-lecture-12-planet-formation.org
+
+*Reading*: Chapter 7
+
+[[./images/SolarSystem_Fall2026.pptx][Slides]] from Neev Shah's guest lecture.

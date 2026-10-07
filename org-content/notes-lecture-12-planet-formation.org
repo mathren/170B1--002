@@ -1,0 +1,7 @@
+#+title: ASTR170 Planet Formation
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: notes-lecture-11-solar-system.org
+#+NEXT_PAGE: notes-lecture-13-asteroids.org
+
+*Reading*: Chapter 8
