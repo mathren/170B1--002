@@ -129,7 +129,7 @@ DEADLINE: Homework, In class exam
 # in class attendance
 *Guest lecturer*: Neev Shah
 
-[[./images/SolarSystem_Fall2026.pdf][slides]]
+[[./images/SolarSystem_Fall2026.pptx][slides]]
 
 *** <2026-10-07 Wed> - *No Lecture*
 
