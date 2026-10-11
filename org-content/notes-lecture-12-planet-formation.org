@@ -301,8 +301,13 @@ it out, clearing the remaining gas from the Solar system.
 
 * Asteroids, Kuiper Belt, Oort cloud
 
+#+CAPTION: Artist impression of the outer solar system with scale sourced from [[https://www.skyatnightmagazine.com/space-science/where-is-edge-of-the-solar-system][BBC sky at night magazine]].
+#+ATTR_HTML: :width 50%
+[[./images/oort.webp]]
+
+
 However, in the solar system there are also places where this
-"cleanup" of the orbit has not really worked!
+"cleanup" of the orbit has not really worked!s
 
 Coming from the Sun and moving outwards (like a photon emitted by the
 Sun!), the first that one encounters is the asteroid belt between Mars
@@ -342,8 +347,9 @@ a very low chance of interacting and torquing each other until they
 all sit on the same plane!
 
 
-#+CAPTION: Comet
-[./images/comet]
+#+CAPTION: Comet [[https://science.nasa.gov/image-article/apod-2024-november-11-the-unusual-tails-of-comet-tsuchinshan-atlas/][Tsuchinshan-Atlas]].
+#+ATTR_HTML: :width 75%
+[[./images/comet.jpg]]
 
 The Oort cloud is of course far beyond the snow-line so we should
 expect many condensed icy bodies there. Some are on very eccentric
@@ -394,6 +400,11 @@ up" causing the tilts of the rotation axes of planets, and all other
 small variations that we observe in the solar system.
 
 * Satellites and rings
+
+#+CAPTION: Picture of [[https://science.nasa.gov/saturn/][Saturn]] and its rings from the Cassini-Huygens probe. Rings are the analogous on planetary scale of the asteroid belt at solar system scale: leftover small solids formed in an accretion disk that has since lost its gas.
+#+ATTR_HTML: :width 75%
+[[./images/saturn.jpg]]
+
 The Earth's Moon is weird because of its large size (relative to the
 Earth), chemical composition (mix of Earth and non-Earth stuff), and
 its ongoing outward motion, which all suggests it formed in a
