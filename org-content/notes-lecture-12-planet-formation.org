@@ -4,7 +4,7 @@
 #+PREVIOUS_PAGE: notes-lecture-11-solar-system.org
 #+NEXT_PAGE: notes-lecture-13-asteroids.org
 
-*Reading*: Chapter 8
+*Reading*: Chapter 8, 12
 
 * TODO Recap
 
@@ -301,11 +301,6 @@ it out, clearing the remaining gas from the Solar system.
 
 * Asteroids, Kuiper Belt, Oort cloud
 
-#+CAPTION: Artist impression of the outer solar system with scale sourced from [[https://www.skyatnightmagazine.com/space-science/where-is-edge-of-the-solar-system][BBC sky at night magazine]].
-#+ATTR_HTML: :width 50%
-[[./images/oort.webp]]
-
-
 However, in the solar system there are also places where this
 "cleanup" of the orbit has not really worked!s
 
@@ -315,16 +310,25 @@ and Jupiter. In the asteroid belt there are many "dwarf planets"
 (e.g., Ceres) which fulfill conditions 1. and 2. to be a planet, but
 not 3.
 
+
+#+CAPTION: Artisti impression of the asteroid belt.
+[[file:images/asteroids.png]]
+
+
 All the artist impressions of the asteroid belt grossly overestimate
 the density of asteroids: you should not imagine a messy forest of
 rocks almost touching each other!
 
 We know that asteroids are leftover from the planet formation because
-when one gets knocked out of its orbit and ends up on Earth, we can
-see their composition which is the best way to probe of what the
-pre-solar nebula was made of! Using radioactive elements in these
-fragments of the proto-solar-system we can also age-date the solar
-system.
+when one gets knocked out of its orbit and ends up on Earth as a
+meteor, we can see their composition which is the best way to probe of
+what the pre-solar nebula was made of! Using radioactive elements in
+these fragments of the proto-solar-system we can also age-date the
+solar system.
+
+
+#+CAPTION: Artist impression of the outer solar system with scale sourced from [[https://www.skyatnightmagazine.com/space-science/where-is-edge-of-the-solar-system][BBC sky at night magazine]].
+[[./images/oort.webp]]
 
 Further out there is the Kuiper belt, where trans-Neptunian objects
 are found, including Pluto, Eris, and Charon. Once again in this area,
@@ -359,6 +363,22 @@ by the Sun's radiation and evaporate: these are /comets/!
 *N.B.:* Gerard Kuiper was Oort student, and also the founder of the
  Lunar and Planetary Lab of the University of Arizona!
 
+Comets can become fairly bright and hard to miss and have had
+important cultural influence across the globe. Kepler's laws apply to
+comets too! Some are on eccentric orbits and come back periodically
+(but they have very large semimajor axes and so very long periods by
+the 3^{rd} law!), for example the Halley's comet, named after the person
+who calculated its period of 76 years and accurately predicted when it
+would come back (but died just a few months before seeing his
+prediction confirmed). Others are on hyperbolic or parabolic orbits,
+thus pass once and never come back.
+
+Note however that when an icy comet passes close to the Sun, it
+partially sublimates (the solid ices become gas), and thus loses mass!
+Therefore there is a "rocket effect" from this outgassing that can
+modify the orbit from a pure Keplerian orbit determined only by the
+gravitational influence of the Sun.
+
 * The role of gravitational dynamics
 
 There is one last important ingredient that we have so far left out:
@@ -385,11 +405,18 @@ other in fly-bys, and this often will shove some of these bodies /into/
 the Sun or /eject them from the Solar system/.
 
 It is because of this messy chaotic gravitational dynamics that
-asteroids survived in a confined (and structured) belt and not
-everywhere, and also this is why a Mars-sized body collision with the
-proto-Earth lead to the formation of the Moon. That Mars-sized body
-was probably either ejected from the Solar system or swallowed by the
-Sun since then!
+asteroids survived mostly only in a confined (and structured) belt and
+not everywhere, and also this is why a Mars-sized body collision with
+the proto-Earth lead to the formation of the Moon. That Mars-sized
+body was probably either ejected from the Solar system or swallowed by
+the Sun since then!
+
+
+#+CAPTION: Number of asteroids as a function of emimajor axis of their orbit around the Sun or orbital period. Most asteroids are "confined" between periods that are small integer ratios of the periods of Mars and Jupiter: these "resonances" where dynamical effects fling asteroids into the Sun or out of the Solar system, and only those between these "resonances" can hang around for the \sim 4.5 Billion years that the Solar system has existed.
+#+ATTR_HTML: :width :70%
+[[file:images/asteroid_resonances.png]]
+
+
 
 Finally, this is also one possible explanation for how giant gas
 planets formed beyond the snow line are now observed close to their
