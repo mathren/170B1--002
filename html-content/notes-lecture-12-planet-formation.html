@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-10-07 Wed 09:08 -->
+<!-- 2026-10-10 Sat 20:31 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Planet Formation</title>
@@ -12,6 +12,38 @@
 <meta name="keywords" content="Mathieu, Renzo, Mathieu Renzo,
 			       stellar evolution, ASTR170B1, University of
 			       Arizona, Steward Observatory">
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 </head>
 <body>
 <div id="preamble" class="status">
@@ -101,13 +133,652 @@
 <p>
 <b>Reading</b>: Chapter 8
 </p>
+<div id="outline-container-recap" class="outline-2">
+<h2 id="recap"><a href="#recap"><span class="todo TODO">TODO</span> Recap</a></h2>
+<div class="outline-text-2" id="text-org-element-1">
+<ul class="org-ul">
+<li>properties of solar system that a formation model needs to explain
+<ul class="org-ul">
+<li>rocky and gaseous planets</li>
+<li>asteroids, Kuiper belt, Oort cloud</li>
+<li>allows for individual variations</li>
+<li>overall motion</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-competing-hypothesis-for-the-formation-of-the-solar-system" class="outline-2">
+<h2 id="competing-hypothesis-for-the-formation-of-the-solar-system"><a href="#competing-hypothesis-for-the-formation-of-the-solar-system">Competing hypothesis for the formation of the Solar System</a></h2>
+<div class="outline-text-2" id="text-org-element-2">
+<p>
+By the late 18<sup>th</sup> century, the orbital motion of planets was well
+understood, predictable with Kepler's laws explained by Newton's
+Universal Gravitation law. This lead scientists and philosophers to
+reframe questions on the origin of Earth, planets, and the solar
+system in a quantitative and scientific form.
+</p>
+
+<p>
+Any model of the formation of the Solar system needed to explain:
+</p>
+<ul class="org-ul">
+<li>the <i>kinematics</i> of the planets, i.e., how they move along their orbit
+and how they spin along their axes</li>
+<li>the existence of two separate classes of planets (rocky and gas giants)</li>
+<li>the presence of minor bodies (asteroids, moons)</li>
+</ul>
+
+<p>
+and allow for "exceptions" (e.g., Uranus tumbling, that is its
+rotation axis being almost perpendicular to the axis of its orbit
+around the Sun).
+</p>
+
+<p>
+For most of the 1800s two main competing theories were considered
+</p>
+</div>
+<div id="outline-container-capture" class="outline-3">
+<h3 id="capture"><a href="#capture">Capture</a></h3>
+<div class="outline-text-3" id="text-org-element-3">
+<p>
+This idea was based on the distribution of planets around the Sun.
+</p>
+
+<div class="org-drawer-container">
+  <button class="org-drawer-toggle" onclick="toggleDrawer('drawer-Top-hat-1')">Top-hat ▼</button>
+  <div id="drawer-Top-hat-1" class="org-drawer-content" style="display: none;"><p>
+Q: rocky inside gaseous outside or viceversa?
+</p>
+</div>
+</div>
+
+<p>
+Because of the striking difference in size and composition of planets
+as one crosses the asteroid belt, people thought that maybe the outer
+planets from the System were <i>captured</i> in a fly-by passage where the
+Sun grazed another stellar system and grabbed those planets.
+</p>
+
+<p>
+This idea however always faced some challenges:
+</p>
+<ul class="org-ul">
+<li>why would the orbits of planets captured in such a dynamical event
+be all very close to be circular and coplanar? (the eccentricities of planets
+orbits are small, meaning the ellipses are very close to circles)</li>
+<li>the typical distance between the Sun and any other star is very
+large (&sim; pc &cong; 4 light years or larger), so it is unclear when/how
+the Sun could get sufficiently close to another star to "steal"
+planets from it</li>
+<li>it does not address how the planets formed around the other star
+before the Sun "stole" them</li>
+</ul>
+
+<p>
+Because of these issues, this "capture" model has been progressively
+abandoned. Nevertheless, dynamical encounters between solar systems
+can and do occur elsewhere in the Galaxy (for example in clusters,
+where the density of stars is much higher)!
+</p>
+
+<p>
+<b>N.B.:</b> Very often in astrophysics even "wrong" ideas (in the sense that
+they are not an accurate description of what they were meant to
+describe) can actually be accurate models for different situations!
+Exchange of stars/planets because of close encounters are a key
+process in the evolution of stellar clusters, even if they were
+probably not important for the formation of the solar system!
+</p>
+</div>
+</div>
+<div id="outline-container-nebular-hypothesis" class="outline-3">
+<h3 id="nebular-hypothesis"><a href="#nebular-hypothesis">Nebular hypothesis</a></h3>
+<div class="outline-text-3" id="text-org-element-4">
+<p>
+Immanuel Kant in the late 1700s first proposed that maybe the Sun and
+the planets all formed from a single cloud of material (<i>nebula</i> is the
+latin for cloud). While Kant's philosophical work is important and
+influential, he was not a very good scientist or mathematician, and
+this proposal was re-invented independently by Pierre Simon de Laplace
+a few decades later.
+</p>
+
+
+<figure id="org-element-5">
+<img src="./images/nebular_hypothesis.png" alt="nebular_hypothesis.png" width="50%">
+
+<figcaption><span class="figure-number">Figure 1: </span>Conceptual phases of the nebular hypothesis. Note that the cloud heating up as it collapses is technically <i>not</i> because of conservation energy, unlike the book says: as the cloud collapses, its gravitational potential energy <i>decreases</i>, meaning there is less energy to go around! However, self-gravitating systems (as the cloud), can "heat up as they lose energy" because of the <i>virial theorem</i> which gives a relationship between gravitational dynamics and thermodynamics. This is an oversemplification the book is making that I am not comfortable with as a stellar physicist.</figcaption>
+</figure>
+
+<p>
+Note that this is <i>before</i> spectroscopical investigation of the chemical
+composition of the Sun and planets &#x2013; so they did not have to worry
+about the fact that the Sun is mostly made of hydrogen and helium
+while Earth is made of mostly rocky metals! However, it turns out that
+this can be explained (see below).
+</p>
+
+<p>
+Note also how these idea had to be developed with only one solar
+system to use as inspiration. This situation has dramatically changed
+since the discovery of exoplanets, first around a "dead star" in 1993,
+and then around "normal stars" throughout the rest of the 1990s!
+We will discuss in more detail both stellar evolution and exoplanets
+later in the course.
+</p>
+
+<p>
+As always in science, new empirical observations (in this case of
+planetary systems around stars other than the Sun) lead to the
+re-evaluation of scientific theories. New evidence produces new tests
+of our understanding, and drives refinements of it!
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-current-models-of-planet-formation" class="outline-2">
+<h2 id="current-models-of-planet-formation"><a href="#current-models-of-planet-formation">Current models of planet formation</a></h2>
+<div class="outline-text-2" id="text-org-element-6">
+<p>
+The variety of planetary systems architectures and planets sizes
+discovered around stars other than the Sun makes a complete theory of
+planet formation still out of reach, but the basic idea of the nebular
+theory originally proposed by Kant and Laplace have stood this test.
+</p>
+
+<p>
+The core idea is that planet formation is a <b>bottom-up</b> process
+occurring from small scales up within a "protoplanetary disk":
+</p>
+
+<pre class="example" id="org-element-7">
+gas cloud \rightarrow disk formation \rightarrow gas condensation in solid grains \rightarrow
+pebbles formation \rightarrow proto-planetesimals \rightarrow accretion \rightarrow planetary system evolution.
+</pre>
+
+
+
+<figure id="org-element-8">
+<img src="images/planet-formation.png" alt="planet-formation.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 2: </span>Phases of planet formation within the protoplanetary disk.</figcaption>
+</figure>
+</div>
+<div id="outline-container-the-beginning-a-cloud-of-gas" class="outline-3">
+<h3 id="the-beginning-a-cloud-of-gas"><a href="#the-beginning-a-cloud-of-gas">The beginning: a cloud of gas</a></h3>
+<div class="outline-text-3" id="text-org-element-9">
+<p>
+The formation of a planetary system stars with a gas of cloud, very
+big and cold. This gas itself may have been previously part of stars
+that have thrown it away at their death, after enriching it with new
+nuclei that were not there before.
+</p>
+
+
+<figure id="org-element-10">
+<img src="images/star_recycling.png" alt="star_recycling.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 3: </span>(A small fraction of the) Gas in galaxies ends up in stars, where its chemical composition changes because of the evolution of the stars themselves (as we will see). When stars die, the gas they held is returned to the galaxy partially <i>enriched</i> in chemicals other than hydrogen and helium.</figcaption>
+</figure>
+
+<p>
+This cloud is initially <i>homogeneous in composition</i>: everywhere there
+is the same chemical composition, dominated by H (&sim; 70% by mass) and
+He (&sim; 25+ % by mass) and traces of other elements. Often these
+elements combine into <i>molecules</i> (because the temperature of the cloud
+is low enough that if a molecule forms, no collision or interaction
+with light can break it), hence their name <i>molecular clouds</i>.
+</p>
+
+<p>
+These clouds can hang around for very long times, they are so low
+density that gravity is not efficient at pulling their gas
+together towards one point.
+</p>
+
+<p>
+But if an external perturbation can create a slightly overdense
+region, for example, the "slap" of a nearby explosion producing a
+shock wave through the cloud, then gravitational collapse can occur.
+</p>
+</div>
+</div>
+<div id="outline-container-disk-formation" class="outline-3">
+<h3 id="disk-formation"><a href="#disk-formation">Disk formation</a></h3>
+<div class="outline-text-3" id="text-org-element-11">
+<p>
+As the cloud collapses onto itself, two things happen:
+</p>
+<ol class="org-ol">
+<li>increase in temperature</li>
+<li>formation of a disk</li>
+</ol>
+
+<p>
+ The first is a consequence of the unique relationship between gravity
+(described by Newton's Universal law) and <i>thermodynamics</i> (the study of
+the relation between gas properties such temperature, density, etc.)
+determined by the Virial Theorem.
+</p>
+
+<p>
+Although collapsing, or falling onto itself, means that the cloud is
+<i>losing</i> gravitational potential energy, this results in the cloud
+<i>heating up</i>! Intuitively, about half of the gravitational potential
+energy lost turns into thermal energy because as you compress the
+collapsing gas, more collisions between the gas particles occur which
+ultimately results in an increase in their (random) speed, and thus
+thermal energy.
+</p>
+
+<p>
+But for planet formation theory, the second fact is more important.
+Our collapsing molecular cloud probably had some non-zero net angular
+momentum, and as the collapse proceeds, this is <i>conserved</i>! Our cloud
+is behaving like a dancer closing their arms: it will spin up its
+rotation rate to keep the angular momentum constant.
+</p>
+
+<p>
+But how do we go from a blob of gas of arbitrary shape into a disk?
+If the particles were <i>not</i> interacting with each other, this would not
+be possible: every particle of gas would keep its little bit of
+angular momentum. This means for example that a collapsing cloud of
+dark matter, for instance, would not form disks!
+</p>
+
+<p>
+However, the molecular/atomic gas do interact, and they can exchange
+angular momentum (they apply torques to each other). Because of the
+third Newton's law, these are all torques <i>internal</i> to the cloud, so
+they don't change the <i>total</i> angular momentum, but they end up
+distributing it more evenly across all gas particles!
+</p>
+
+<p>
+So the cloud will end up forming a disk on the plane perpendicular to
+its initial total angular momentum direction. Most of the mass will
+sink to the center (where \(r\sim0\) so little angular momentum is stored
+there): that is the stuff that is going to form the Sun ultimately!
+The rest is the <i>protoplanetary disk</i> orbiting around the central Sun,
+and it's in here that planet formation is going to happen.
+</p>
+
+<p>
+<b>N.B.:</b> Because of <i>conservation of angular momentum</i> and the fact that
+ gas parcels can interact with each other, we have a natural
+ explanation for the fact that most planets in the Solar systems are
+ orbiting the Sun on a plane (the ecliptic plane). This plane is
+ perpendicular to the initial angular momentum of the cloud!
+</p>
+
+<p>
+<b>N.B.:</b> Within the disk, if some gas is on very eccentric orbits, it
+will bump into a lot more parcels of gas, leading to more spreading of
+the angular momentum it carries which will progressively <i>decrease</i> its
+eccentricity until it orbits with a small eccentricity like the rest
+of the disk. The nebular hypothesis also naturally explains why the
+orbits of planets in the Solar systems are in first approximation
+pretty close to circles (and why it took until Kepler to realize that
+this was not negligible in predicting precisely planetary motion).
+</p>
+</div>
+</div>
+<div id="outline-container-gas-condensation" class="outline-3">
+<h3 id="gas-condensation"><a href="#gas-condensation">Gas condensation</a></h3>
+<div class="outline-text-3" id="text-org-element-12">
+
+<figure id="org-element-13">
+<img src="images/condensation.png" alt="condensation.png" width="50%">
+
+<figcaption><span class="figure-number">Figure 4: </span>Matter of different chemical composition can go from gas to solid phase at different temperatures, corresponding to different locations in the protoplanetary disk.</figcaption>
+</figure>
+
+
+<p>
+The whole disk is still made of the same composition everywhere, but
+it does not have the same temperature everywhere. Closer to the star,
+deeper in the gravitational potential, stuff is hotter (it has fallen
+more).
+</p>
+
+<p>
+As gas orbits in this disk, different chemicals starts to <i>condensate</i>
+from gas phase to solid phase. The presence of astrophysical dust (in
+the original cloud, and still surviving in the disk) can catalyze this
+process and help.
+</p>
+
+<p>
+Close to the star, only heavy metals can condense: think of this as
+the opposite process of sublimation, you need to heat up a piece of
+metal a lot more than water to turn it into gas, so metals can exist
+in solid form at much higher temperature than say water.
+There is a radius in the disk outside of which the temperature is low
+enough for the formation of ice from volatile elements in the gas
+(such as water, ammonia, etc.): this is the so called <i>snow line</i>, which
+is important, because these volatile elements are rich in Hydrogen and
+thus more abundant than metals in the disk.
+</p>
+
+
+<figure id="org-element-14">
+<img src="images/snow_line.png" alt="snow_line.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 5: </span>At this stage we have a disk mostly composed of H and He, with planetesimals of different composition at different locations.</figcaption>
+</figure>
+
+<p>
+The condensation process will only make small grains that are
+effectively planets <i>seeds</i>. A lot of research is ongoing on how exactly
+these seeds form and merge to form planetesimals.
+</p>
+
+<p>
+The basic idea is that once these grains are formed, they all orbit in
+the disk following Kepler's laws, meaning that nearby grains have
+roughly the same velocity. If for some reason (e.g., some fluid
+instability in the disk) they bump into each other, it's not going to
+be a violent and destructive collision, but instead a gentle approach
+that favor them sticking together and growing.
+</p>
+
+<p>
+This can continue until the grains grow into <i>pebbles</i> and the <i>pebbles</i>
+into protoplanetary cores and planetesimals.
+</p>
+
+<p>
+<b>N.B.:</b> Because of the different condensation temperatures we have a
+ natural explanation for the presence of rocky planets in the interior
+ of the solar system, and not in the outskirts. This however was a
+ major challenge in the 90s because of the discovery of <i>hot jupiters</i>:
+ Jupiter-like planets orbiting around stars with orbits <i>smaller than
+ the orbit of mercury</i>. This can only be explained if they formed far
+ away (beyond the snow line), and then migrated to their present day
+ location.
+</p>
+</div>
+</div>
+<div id="outline-container-accretion" class="outline-3">
+<h3 id="accretion"><a href="#accretion">Accretion</a></h3>
+<div class="outline-text-3" id="text-org-element-15">
+
+<figure id="org-element-16">
+<img src="images/accretion_planetesimals.png" alt="accretion_planetesimals.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 6: </span>Planetesimals progressively clear their orbit from gas by accretion and other planetesimals by merging.</figcaption>
+</figure>
+
+<p>
+The planetesimals we now have formed start being massive enough to
+have a local impact on the disk: they will start pulling matter from
+their surroundings and grow by <i>accretion</i> of that matter.
+</p>
+
+<p>
+The big icy cores formed beyond the snow line can attract a lot of the
+surrounding matter still in the form of H and He-rich gas, and this
+will lead to the formation of <i>gas giants</i> like Jupiter, Neptune,
+Uranus, etc.
+</p>
+
+<p>
+Viceversa, the smaller (because made of more "rare" composition) rocky
+cores will not have enough mass to attract a lot of gas and grow
+substantially.
+</p>
+
+<p>
+This accretion occurs effectively as a <i>competition</i> between the
+planetesimals (they all accrete from the same reservoir, the gas left
+in the disk), with a runaway situation where a winning planetesimal
+grows more in mass, and its larger mass helps attracting
+gravitationally more mass and growing further.
+</p>
+
+<p>
+<b>N.B.:</b> The different condensation radii for different compositions lead
+to different proto-planetesimals sizes and different runaway accretion:
+the bigger planetesimal grow faster and more, explaining naturally why
+planets in the outer solar system are more massive and rich in gas,
+while the rocky planets have very little gas.
+</p>
+
+<p>
+Once this process of competitive accretion ends, e.g., because there
+is no more gas to accrete and the orbit of the object is now "clean",
+we have formed a planet!
+</p>
+
+<p>
+The formal definition of a planet in fact requires 3 conditions:
+</p>
+<ol class="org-ol">
+<li>self-gravitating object (achieved already at planetesimal stage)</li>
+<li>orbiting a host star (achieved since the proto-planetary disk phase)</li>
+<li>with a clear orbit dominated locally by its own gravity.</li>
+</ol>
+
+<p>
+Of course, some of the gas is not accreted by planets, and the Sun's
+energy output (in the form of photons) and the Solar wind have pushed
+it out, clearing the remaining gas from the Solar system.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-asteroids-kuiper-belt-oort-cloud" class="outline-2">
+<h2 id="asteroids-kuiper-belt-oort-cloud"><a href="#asteroids-kuiper-belt-oort-cloud">Asteroids, Kuiper Belt, Oort cloud</a></h2>
+<div class="outline-text-2" id="text-org-element-17">
+<p>
+However, in the solar system there are also places where this
+"cleanup" of the orbit has not really worked!
+</p>
+
+<p>
+Coming from the Sun and moving outwards (like a photon emitted by the
+Sun!), the first that one encounters is the asteroid belt between Mars
+and Jupiter. In the asteroid belt there are many "dwarf planets"
+(e.g., Ceres) which fulfill conditions 1. and 2. to be a planet, but
+not 3.
+</p>
+
+<p>
+All the artist impressions of the asteroid belt grossly overestimate
+the density of asteroids: you should not imagine a messy forest of
+rocks almost touching each other!
+</p>
+
+<p>
+We know that asteroids are leftover from the planet formation because
+when one gets knocked out of its orbit and ends up on Earth, we can
+see their composition which is the best way to probe of what the
+pre-solar nebula was made of! Using radioactive elements in these
+fragments of the proto-solar-system we can also age-date the solar
+system.
+</p>
+
+<p>
+Further out there is the Kuiper belt, where trans-Neptunian objects
+are found, including Pluto, Eris, and Charon. Once again in this area,
+the biggest bodies do fulfill conditions 1. and 2. but not 3. Because
+it is so far, and objects there are seen mostly through reflected
+light from the Sun, which has to travel all the way there and then
+back to Earth, it took until the 21<sup>st</sup> century to realize that this
+region was this crowded, which lead to the "downgrade" of Pluto from
+planet to dwarf planet.
+</p>
+
+<p>
+<b>N.B.:</b> Of course, this is just a change of label that the scientific
+ community applies to Pluto: nothing physically changed there! This is
+ an example of how new evidence leads to revisions of the scientific
+ models and the language we use to express them!
+</p>
+
+<p>
+Even further out, we find the Oort cloud, which is even harder to
+observe and is extremely low density. This matter has not even really
+collapsed into a disk at all: at low densities, particles of gas have
+a very low chance of interacting and torquing each other until they
+all sit on the same plane!
+</p>
+
+
+<p>
+[./images/comet]
+</p>
+
+<p>
+The Oort cloud is of course far beyond the snow-line so we should
+expect many condensed icy bodies there. Some are on very eccentric
+orbits, and occasionally pass close to the Sun, when they are heated
+by the Sun's radiation and evaporate: these are <i>comets</i>!
+</p>
+
+<p>
+<b>N.B.:</b> Gerard Kuiper was Oort student, and also the founder of the
+ Lunar and Planetary Lab of the University of Arizona!
+</p>
+</div>
+</div>
+<div id="outline-container-the-role-of-gravitational-dynamics" class="outline-2">
+<h2 id="the-role-of-gravitational-dynamics"><a href="#the-role-of-gravitational-dynamics">The role of gravitational dynamics</a></h2>
+<div class="outline-text-2" id="text-org-element-18">
+<p>
+There is one last important ingredient that we have so far left out:
+<i>dynamics</i>. As soon as planetesimals formed, the solar system had a
+gigantic (99.9% by mass) proto-star in its center dominating
+gravitationally everything, and then a multitude of much smaller
+bodies in the disk, but sufficiently large to be gravitationally
+important.
+</p>
+
+<p>
+We have already seen that Kepler's laws and their extension through
+Newton's law are relatively simple and predictive description of the
+motion of two bodies under the influence of their mutual gravity. What
+happens if you have more than two bodies? The simpler case is adding
+just one body. Then we have a <i>three body problem</i>, and unfortunately
+this is mathematically <i>much much</i> more complicated: when considering
+the gravitational interaction of 3 or more bodies, there is no
+solution that can be written as a formula!
+</p>
+
+<p>
+The three body problem is mathematically chaotic, meaning just
+changing a tiny bit the initial position or velocity of just one of
+the body, their trajectory change dramatically! Now imagine a
+proto-solar system with thousands of bodies: these pull and push each
+other in fly-bys, and this often will shove some of these bodies <i>into</i>
+the Sun or <i>eject them from the Solar system</i>.
+</p>
+
+<p>
+It is because of this messy chaotic gravitational dynamics that
+asteroids survived in a confined (and structured) belt and not
+everywhere, and also this is why a Mars-sized body collision with the
+proto-Earth lead to the formation of the Moon. That Mars-sized body
+was probably either ejected from the Solar system or swallowed by the
+Sun since then!
+</p>
+
+<p>
+Finally, this is also one possible explanation for how giant gas
+planets formed beyond the snow line are now observed close to their
+host stars in exoplanetary systems.
+</p>
+
+<p>
+Gravitational dynamics effectively and almost literally "shakes things
+up" causing the tilts of the rotation axes of planets, and all other
+small variations that we observe in the solar system.
+</p>
+</div>
+</div>
+<div id="outline-container-satellites-and-rings" class="outline-2">
+<h2 id="satellites-and-rings"><a href="#satellites-and-rings">Satellites and rings</a></h2>
+<div class="outline-text-2" id="text-org-element-19">
+<p>
+The Earth's Moon is weird because of its large size (relative to the
+Earth), chemical composition (mix of Earth and non-Earth stuff), and
+its ongoing outward motion, which all suggests it formed in a
+collision.
+</p>
+
+<p>
+What about the other satellites in the Solar system? The Medicean
+satellites discovered by Galileo are nicely orbiting on a plane around
+Jupiter, which also has rings. Saturn's iconic rings are also
+co-planar and beg the analogy with the asteroid belts.
+</p>
+
+<p>
+These of course are <i>not</i> coincidence and the occur naturally in the
+model of planet formation we have discussed: if a
+planetesimal/proto-planet is sufficiently large, it will dominate
+locally the gravity in the protostellar disk. Therefore, we can "zoom
+in" our view and focus on this region: the proto-planet takes the role
+of the central star, and gas falling towards it will form a disk, in
+which all the processes discussed above lead to the condensation into
+solid grains, pebble formation, and proto-planetesimal formation.
+However, these can never win the "accretion race" with the central
+planet, and will remain as small planetesimal which we call <i>satellites</i>
+because they don't orbit a star but a planet.
+</p>
+</div>
+</div>
+<div id="outline-container-evidence-from-outside-the-solar-system" class="outline-2">
+<h2 id="evidence-from-outside-the-solar-system"><a href="#evidence-from-outside-the-solar-system">Evidence from outside the Solar system</a></h2>
+<div class="outline-text-2" id="text-org-element-20">
+<p>
+Since the late 1700s idea of Kant, we have constructed a theory of
+planet formation that naturally produces the salient features of the
+Solar system. But this is not enough to be content: I have already
+hinted at exoplanetary systems as an extra constraint that we will
+discuss later, but we can also consider different tests.
+</p>
+
+<p>
+Our model is based on the fact that there should be disks around young
+stars, in which processes lead to the formation of grains, pebbles,
+protoplanets, and planets. Thus we can search for the disks!
+</p>
+
+<p>
+This is a very active research field (including at Steward
+Observatory), and we do indeed see protoplanetary disks, in which we
+try to understand whether we are seeing exactly the processes painted
+above.
+</p>
+
+
+
+<figure id="org-element-21">
+<img src="images/AB_aur.png" alt="AB_aur.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 7: </span>Observations at radio wavelengths of AB Aurigae. The star is actually masked out, and we see a protoplanetary disk, were there are instabilities that may be marking the formation of planetesimals.</figcaption>
+</figure>
+
+
+
+
+<figure id="org-element-22">
+<img src="images/HL-tauri.png" alt="HL-tauri.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 8: </span>Observations in the optical range of the protostar HL Tauri, and radio observations in the inset on the protoplanetary disk. The disk shows "gaps" which are highly debated still. The book says this are location of planets forming, but this is not at all uncontroversial. Radiative and fluid dynamics instability possibly unrelated to planet formation could also cause similar signals, and the community is presently debating this.</figcaption>
+</figure>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <div class="footer">
   <hr>
   <a href="#light-dark-toggle"><i id="light-dark-toggle"><i class="fa-solid fa-circle-half-stroke"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-11-solar-system.html"><i class="fa-solid fa-arrow-left" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="#top"><i class="fa-solid fa-arrow-up" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-13-asteroids.html"><i class="fa-solid fa-arrow-right" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/mathren/170B1--002"><i class="fa-brands fa-github" style="font-size:16px"></i></a><hr>
   <br>
-  Last updated on 7 October 2026 <br>
+  Last updated on 10 October 2026 <br>
   Made with Emacs 30.1 - Org mode 9.7.11
   <br>
 </div>

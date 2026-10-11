@@ -140,7 +140,7 @@ DEADLINE: Homework
 # in class attendance
 [[./notes-lecture-12-planet-formation.org][Notes]]
 
-*** <2026-10-14 Wed> - Asteroids
+*** <2026-10-14 Wed> - Planetary atmospheres
 # in class attendance
 # Deadline Homework 7, Assign Homework 8
 DEADLINE: Homework
