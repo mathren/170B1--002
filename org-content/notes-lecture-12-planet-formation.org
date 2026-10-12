@@ -38,26 +38,20 @@ Any model of the formation of the Solar system needed to explain:
   eccentricities) and how they spin (mostly small inclination angles)
 - the existence of two separate classes of planets (rocky and gas giants)
 - the presence of minor bodies (asteroids, Kuiper belt, Oort cloud, ...)
-- Allow for individual variations (Uranus tilted rotation axis,
-  Venus' retrograde orbit, size of the Earth's Moon, ...)
-
-and allow for "exceptions" (e.g., Uranus tumbling, that is its
-rotation axis being almost perpendicular to the axis of its orbit
-around the Sun).
+- Allow for individual "exceptions" or "deviations" (e.g., Uranus
+  tilted rotation axis, Venus' retrograde orbit, size of the Earth's
+  Moon, ...)
 
 For most of the 1800s two main competing theories were considered
 
 ** Capture
 This idea was based on the distribution of planets around the Sun.
 
-:Top-hat:
-Q: rocky inside gaseous outside or viceversa?
-:end:
-
 Because of the striking difference in size and composition of planets
 as one crosses the asteroid belt, people thought that maybe the outer
 planets from the System were /captured/ in a fly-by passage where the
-Sun grazed another stellar system and grabbed those planets.
+Sun grazed another stellar system and gravitationally captured those
+planets.
 
 This idea however always faced some challenges:
 - why would the orbits of planets captured in such a dynamical event
