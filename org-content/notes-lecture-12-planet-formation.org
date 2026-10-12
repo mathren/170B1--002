@@ -216,7 +216,7 @@ pretty close to circles (and why it took until Kepler to realize that
 this was not negligible in predicting precisely planetary motion).
 
 
-** Gas condensation
+** Gas condensation forms the solid seeds of planets
 
 #+CAPTION: Matter of different chemical composition can go from gas to solid phase at different temperatures, corresponding to different locations in the protoplanetary disk.
 #+ATTR_HTML: :width 50%
