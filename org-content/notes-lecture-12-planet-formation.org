@@ -240,9 +240,9 @@ a lot more than water to turn it into gas, so metals can exist in
 solid form at much higher temperature than say water. There is a
 radius in the disk outside of which the temperature is low enough for
 the formation of ice from volatile elements in the gas (such as water,
-ammonia, etc.): this is the so called /snow line/, which is important,
-because these volatile elements are rich in Hydrogen and thus more
-abundant than metals in the disk.
+ammonia, etc.): this is the so called /snow line/ (or /frost line/) which
+is important, because these volatile elements are rich in Hydrogen and
+thus more abundant than metals in the disk.
 
 #+CAPTION: At this stage we have a disk mostly composed of H and He, with planetesimals of different composition at different locations.
 [[file:images/snow_line.png]]
