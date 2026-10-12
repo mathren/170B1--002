@@ -318,7 +318,6 @@ The formal definition of a planet in fact requires 3 conditions:
 2. orbiting a host star (achieved since the proto-planetary disk phase)
 3. with a clear orbit dominated locally by its own gravity.
 
-
 * Minor bodies: asteroids, Kuiper belt, Oort cloud
 
 However, in the solar system there are also places where this
@@ -483,7 +482,7 @@ satellites discovered by Galileo are nicely orbiting on a plane around
 Jupiter, which also has rings. Saturn's iconic rings are also
 co-planar and beg the analogy with the asteroid belts.
 
-These of course are /not/ coincidence and the occur naturally in the
+These of course are /not/ coincidences and the occur naturally in the
 model of planet formation we have discussed: if a
 planetesimal/proto-planet is sufficiently large, it will dominate
 locally the gravity in the protostellar disk. Therefore, we can "zoom
