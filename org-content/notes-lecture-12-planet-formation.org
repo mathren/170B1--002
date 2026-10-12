@@ -105,14 +105,15 @@ a few decades later.
 The variety of planetary systems architectures and planets sizes
 discovered around stars other than the Sun makes a complete theory of
 planet formation still out of reach, but the basic idea of the nebular
-theory originally proposed by Kant and Laplace have stood this test.
+theory originally proposed by Kant and Laplace still stand as the
+dominant paradigm for .
 
 The core idea is that planet formation is a *bottom-up* process
 occurring from small scales up within a "protoplanetary disk":
 
-#+BEGIN_EXAMPLE
-gas cloud \rightarrow disk formation \rightarrow gas condensation in solid grains \rightarrow
-pebbles formation \rightarrow proto-planetesimals \rightarrow accretion \rightarrow planetary system evolution.
+#+BEGIN_
+gas cloud $\rightarrow$ disk formation $\rightarrow$ gas condensation in solid grains $\rightarrow$
+pebbles formation $\rightarrow$ proto-planetesimals $\rightarrow$ accretion $\rightarrow$ planetary system evolution.
 #+END_EXAMPLE
 
 
