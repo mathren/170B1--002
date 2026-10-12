@@ -111,10 +111,14 @@ dominant paradigm for .
 The core idea is that planet formation is a *bottom-up* process
 occurring from small scales up within a "protoplanetary disk":
 
-#+BEGIN_
-gas cloud $\rightarrow$ disk formation $\rightarrow$ gas condensation in solid grains $\rightarrow$
-pebbles formation $\rightarrow$ proto-planetesimals $\rightarrow$ accretion $\rightarrow$ planetary system evolution.
-#+END_EXAMPLE
+1. gas cloud
+2. disk formation
+3. gas condensation in solid grains
+4. pebbles formation
+5. proto-planetesimals
+6. accretion
+7. clearance of the gas component of the disk
+8. planetary system evolution.
 
 
 #+CAPTION: Phases of planet formation within the protoplanetary disk.
