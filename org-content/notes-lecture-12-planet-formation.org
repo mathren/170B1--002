@@ -4,7 +4,7 @@
 #+PREVIOUS_PAGE: notes-lecture-11-solar-system.org
 #+NEXT_PAGE: notes-lecture-13-asteroids.org
 
-*Reading*: Chapter 8, 12
+*Reading*: Chapter 8, 12, 13
 
 * Recap
 
@@ -17,13 +17,11 @@ the /formation/ of the Solar system.
 #+CAPTION: AI generated summary sketch of the Solar system.
 [[./images/SolarSystem_infographic.png]]
 
-Properties that any model of solar system formation needs to explain:
-  - Presence of rocky and gaseous planets
-  - Presence asteroids, Kuiper belt, Oort cloud
-  - Allow for individual variations (Uranus tilted rotation axis,
-    large moons)
-  - Overall kinematic architecture: roughly coplanar and eccentric,
-    but with small eccentricities planetary orbits.
+*N.B.:* The first ideas were based uniquely on a (partial) knowledge of
+the /solar/ system. Nowadays, we know of exoplanetary systems (were the
+central star is /not/ the Sun!), and these provide strong complementary
+tests of our theories! We will only hint at those today and discuss
+them in more details later on.
 
 
 * Competing hypothesis for the formation of the Solar System
@@ -38,7 +36,9 @@ Any model of the formation of the Solar system needed to explain:
 - the /kinematics/ of the planets, i.e., how they move along their orbit
   and how they spin along their axes
 - the existence of two separate classes of planets (rocky and gas giants)
-- the presence of minor bodies (asteroids, moons)
+- the presence of minor bodies (asteroids, Kuiper belt, Oort cloud, ...)
+- Allow for individual variations (Uranus tilted rotation axis,
+  Venus' retrograde orbit, size of the Earth's Moon, ...)
 
 and allow for "exceptions" (e.g., Uranus tumbling, that is its
 rotation axis being almost perpendicular to the axis of its orbit
