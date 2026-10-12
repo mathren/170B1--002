@@ -137,7 +137,7 @@ the composition of gas in future lectures).
 
 This cloud is initially /homogeneous in composition/: everywhere there
 is the same chemical composition, dominated by H (\sim 70% by mass) and
-He (\sim 25+ % by mass) and traces of other elements. Often these
+He (\sim 28+ % by mass) and traces of other elements. Often these
 elements combine into /molecules/ (because the temperature of the cloud
 is low enough that if a molecule forms, no collision or interaction
 with light can break it), hence their name /molecular clouds/.
