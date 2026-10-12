@@ -248,7 +248,20 @@ thus more abundant than metals in the disk.
 [[file:images/snow_line.png]]
 
 The condensation process will only make small grains that are
-effectively planets /seeds/. A lot of research is ongoing on how exactly
+effectively planets /seeds/.
+
+*N.B.:* Because of the different condensation temperatures we have a
+ natural explanation for the presence of rocky planets in the interior
+ of the solar system, and not in the outskirts. This however was a
+ major challenge in the 90s because of the discovery of /hot jupiters/:
+ Jupiter-like planets orbiting around stars with orbits /smaller than
+ the orbit of mercury/. This can only be explained if they formed far
+ away (beyond the snow line), and then migrated to their present day
+ location.
+
+** Collisions and Accretion of leftover gas
+
+A lot of research is ongoing on how exactly
 these seeds form and merge to form planetesimals.
 
 The basic idea is that once these grains are formed, they all orbit in
@@ -261,16 +274,6 @@ that favor them sticking together and growing.
 This can continue until the grains grow into /pebbles/ and the /pebbles/
 into protoplanetary cores and planetesimals.
 
-*N.B.:* Because of the different condensation temperatures we have a
- natural explanation for the presence of rocky planets in the interior
- of the solar system, and not in the outskirts. This however was a
- major challenge in the 90s because of the discovery of /hot jupiters/:
- Jupiter-like planets orbiting around stars with orbits /smaller than
- the orbit of mercury/. This can only be explained if they formed far
- away (beyond the snow line), and then migrated to their present day
- location.
-
-** Accretion
 
 #+CAPTION:Planetesimals progressively clear their orbit from gas by accretion and other planetesimals by merging.
 [[file:images/accretion_planetesimals.png]]
