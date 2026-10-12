@@ -6,13 +6,25 @@
 
 *Reading*: Chapter 8, 12
 
-* TODO Recap
+* Recap
 
-- properties of solar system that a formation model needs to explain
-  - rocky and gaseous planets
-  - asteroids, Kuiper belt, Oort cloud
-  - allows for individual variations
-  - overall motion
+Top Hat Questions.
+
+
+Today we are going to discuss the historical development of ideas on
+the /formation/ of the Solar system.
+
+#+CAPTION: AI generated summary sketch of the Solar system.
+[[./images/SolarSystem_infographic.png]]
+
+Properties that any model of solar system formation needs to explain:
+  - Presence of rocky and gaseous planets
+  - Presence asteroids, Kuiper belt, Oort cloud
+  - Allow for individual variations (Uranus tilted rotation axis,
+    large moons)
+  - Overall kinematic architecture: roughly coplanar and eccentric,
+    but with small eccentricities planetary orbits.
+
 
 * Competing hypothesis for the formation of the Solar System
 
