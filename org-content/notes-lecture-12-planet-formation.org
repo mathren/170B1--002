@@ -54,15 +54,15 @@ Sun grazed another stellar system and gravitationally captured those
 planets.
 
 This idea however always faced some challenges:
-- why would the orbits of planets captured in such a dynamical event
-  be all very close to be circular and coplanar? (the eccentricities of planets
-  orbits are small, meaning the ellipses are very close to circles)
-- the typical distance between the Sun and any other star is very
-  large (\sim pc \simeq 4 light years or larger), so it is unclear when/how
-  the Sun could get sufficiently close to another star to "steal"
-  planets from it
-- it does not address how the planets formed around the other star
-  before the Sun "stole" them
+1. why would the orbits of planets captured in such a dynamical event
+   be all very close to be circular and coplanar? (the eccentricities of planets
+   orbits are small, meaning the ellipses are very close to circles)
+2. the typical distance between the Sun and any other star is very
+   large (\sim pc \simeq 4 light years or larger), so it is unclear when/how
+   the Sun could get sufficiently close to another star to "steal"
+   planets from it
+3. it does not address how the planets formed around the other star
+   before the Sun "stole" them
 
 Because of these issues, this "capture" model has been progressively
 abandoned. Nevertheless, dynamical encounters between solar systems
@@ -71,10 +71,11 @@ where the density of stars is much higher)!
 
 *N.B.:* Very often in astrophysics even "wrong" ideas (in the sense that
 they are not an accurate description of what they were meant to
-describe) can actually be accurate models for different situations!
-Exchange of stars/planets because of close encounters are a key
-process in the evolution of stellar clusters, even if they were
-probably not important for the formation of the solar system!
+describe) can actually be accurate models for different situations
+(e.g., [[https://apps.aavso.org/jaavso/article/3733/][Maccarone 2021]]). Exchange of stars/planets because of close
+encounters are a key process in the evolution of stellar clusters,
+even if they were probably not important for the formation of the
+solar system!
 
 ** Nebular hypothesis
 Immanuel Kant in the late 1700s first proposed that maybe the Sun and
