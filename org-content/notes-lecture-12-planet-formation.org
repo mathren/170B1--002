@@ -322,7 +322,7 @@ The formal definition of a planet in fact requires 3 conditions:
 * Asteroids, Kuiper Belt, Oort cloud
 
 However, in the solar system there are also places where this
-"cleanup" of the orbit has not really worked!s
+"cleanup" of the orbit has not really worked!
 
 Coming from the Sun and moving outwards (like a photon emitted by the
 Sun!), the first that one encounters is the asteroid belt between Mars
@@ -331,7 +331,7 @@ and Jupiter. In the asteroid belt there are many "dwarf planets"
 not 3.
 
 
-#+CAPTION: Artisti impression of the asteroid belt.
+#+CAPTION: Artist's impression of the asteroid belt.
 [[file:images/asteroids.png]]
 
 
