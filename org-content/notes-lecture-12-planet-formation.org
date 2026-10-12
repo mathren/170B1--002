@@ -389,7 +389,9 @@ all sit on the same plane!
 The Oort cloud is of course far beyond the snow-line so we should
 expect many condensed icy bodies there. Some are on very eccentric
 orbits, and occasionally pass close to the Sun, when they are heated
-by the Sun's radiation and evaporate: these are /comets/!
+by the Sun's radiation and evaporate: these are /comets/! Their "tail"
+is made of gas sublimating from solid phase because of the
+close passage by the Sun.
 
 *N.B.:* Gerard Kuiper was Oort student, and also the founder of the
  Lunar and Planetary Lab of the University of Arizona!
@@ -443,11 +445,19 @@ body was probably either ejected from the Solar system or swallowed by
 the Sun since then!
 
 
-#+CAPTION: Number of asteroids as a function of emimajor axis of their orbit around the Sun or orbital period. Most asteroids are "confined" between periods that are small integer ratios of the periods of Mars and Jupiter: these "resonances" where dynamical effects fling asteroids into the Sun or out of the Solar system, and only those between these "resonances" can hang around for the \sim 4.5 Billion years that the Solar system has existed.
+#+CAPTION: Number of asteroids as a function of semimajor axis of their orbit around the Sun or orbital period. Most asteroids are "confined" between periods that are small integer ratios of the periods of Mars and Jupiter: these "resonances" where dynamical effects fling asteroids into the Sun or out of the Solar system, and only those between these "resonances" can hang around for the \sim 4.5 Billion years that the Solar system has existed. Thus, the structure in the asteroid belt is a signature of the gravitational dynamics at play since the beginning of the Solar system (and still today).
 #+ATTR_HTML: :width :70%
 [[file:images/asteroid_resonances.png]]
 
-
+*N.B.:* Occasionally an asteroid that wonders too close to the
+"forbidden" regions in this plot will get scattered not into the Sun
+or out of the Solar system, but on an orbit that crosses the Earth's
+orbit. This is how *Near Earth Objects* (NEO) are formed, and these are
+the objects that have the highest probability of a collision with
+Earth, which, in extremely rare cases can be extremely energetic
+(several times nuclear bombs!) and dramatic for the planet /globally/,
+e.g., contributing to seeding the climate change event that lead to
+the extinction of dinosaurs!
 
 Finally, this is also one possible explanation for how giant gas
 planets formed beyond the snow line are now observed close to their
