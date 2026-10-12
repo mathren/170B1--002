@@ -17,12 +17,23 @@ the /formation/ of the Solar system.
 #+CAPTION: AI generated summary sketch of the Solar system.
 [[./images/SolarSystem_infographic.png]]
 
-*N.B.:* The first ideas were based uniquely on a (partial) knowledge of
-the /solar/ system. Nowadays, we know of exoplanetary systems (were the
-central star is /not/ the Sun!), and these provide strong complementary
-tests of our theories! We will only hint at those today and discuss
-them in more details later on.
+These ideas started developing /before/ spectroscopical investigation of
+the chemical composition of the Sun and planets -- so the scientific
+community did not have to worry about the fact that the Sun is mostly
+made of hydrogen and helium while Earth is made of mostly rocky
+metals! However, it turns out that this can be explained (see below).
 
+Note also how these idea had to be developed with only one solar
+system to use as inspiration. This situation has dramatically changed
+since the discovery of exoplanets, first around a "dead star" in 1993,
+and then around "normal stars" throughout the rest of the 1990s!
+We will discuss in more detail both stellar evolution and exoplanets
+later in the course.
+
+As always in science, new empirical observations (in this case of
+planetary systems around stars other than the Sun) lead to the
+re-evaluation of scientific theories. New evidence produces new tests
+of our understanding, and drives refinements of it!
 
 * Competing hypothesis for the formation of the Solar System
 
@@ -88,24 +99,6 @@ a few decades later.
 #+CAPTION: Conceptual phases of the nebular hypothesis. Note that the cloud heating up as it collapses is technically /not/ because of conservation energy, unlike the book says: as the cloud collapses, its gravitational potential energy /decreases/, meaning there is less energy to go around! However, self-gravitating systems (as the cloud), can "heat up as they lose energy" because of the /virial theorem/ which gives a relationship between gravitational dynamics and thermodynamics. This is an oversemplification the book is making that I am not comfortable with as a stellar physicist.
 #+ATTR_HTML: :width 50%
 [[./images/nebular_hypothesis.png]]
-
-Note that this is /before/ spectroscopical investigation of the chemical
-composition of the Sun and planets -- so they did not have to worry
-about the fact that the Sun is mostly made of hydrogen and helium
-while Earth is made of mostly rocky metals! However, it turns out that
-this can be explained (see below).
-
-Note also how these idea had to be developed with only one solar
-system to use as inspiration. This situation has dramatically changed
-since the discovery of exoplanets, first around a "dead star" in 1993,
-and then around "normal stars" throughout the rest of the 1990s!
-We will discuss in more detail both stellar evolution and exoplanets
-later in the course.
-
-As always in science, new empirical observations (in this case of
-planetary systems around stars other than the Sun) lead to the
-re-evaluation of scientific theories. New evidence produces new tests
-of our understanding, and drives refinements of it!
 
 * Current models of planet formation
 
