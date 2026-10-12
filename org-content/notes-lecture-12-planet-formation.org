@@ -337,7 +337,17 @@ not 3.
 
 All the artist impressions of the asteroid belt grossly overestimate
 the density of asteroids: you should not imagine a messy forest of
-rocks almost touching each other!
+rocks almost touching each other! While there are likely billions or
+more asteroids, the volume of space that they occupy is so large that
+as you cross the belt you'd be lucky to encounter maybe one.
+
+
+#+CAPTION: The composition and structure of meteorites (asteroids that fall on Earth) is supporting bottom-up models of Solar system formation.
+#+ATTR_HTML: :width 50%
+[[file:images/meteorite.png]]
+
+
+
 
 We know that asteroids are leftover from the planet formation because
 when one gets knocked out of its orbit and ends up on Earth as a
@@ -349,6 +359,7 @@ solar system.
 
 #+CAPTION: Artist impression of the outer solar system with scale sourced from [[https://www.skyatnightmagazine.com/space-science/where-is-edge-of-the-solar-system][BBC sky at night magazine]].
 [[./images/oort.webp]]
+
 
 Further out there is the Kuiper belt, where trans-Neptunian objects
 are found, including Pluto, Eris, and Charon. Once again in this area,
