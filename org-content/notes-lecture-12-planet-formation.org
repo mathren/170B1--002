@@ -129,7 +129,8 @@ occurring from small scales up within a "protoplanetary disk":
 The formation of a planetary system stars with a gas of cloud, very
 big and cold. This gas itself may have been previously part of stars
 that have thrown it away at their death, after enriching it with new
-nuclei that were not there before.
+nuclei that were not there before (we will discuss how stars change
+the composition of gas in future lectures).
 
 #+CAPTION: (A small fraction of the) Gas in galaxies ends up in stars, where its chemical composition changes because of the evolution of the stars themselves (as we will see). When stars die, the gas they held is returned to the galaxy partially /enriched/ in chemicals other than hydrogen and helium.
 [[file:images/star_recycling.png]]
@@ -145,7 +146,11 @@ These clouds can hang around for very long times, they are so low
 density that gravity is not efficient at pulling their gas
 together towards one point.
 
-But if an external perturbation can create a slightly overdense
+#+CAPTION: Zoom in with different telescopes on the Horse Head nebula, a famous nearby "stellar nursery" within the Orion Nebula complex which is dark because it is cold and full of molecules and dust that block visible light. Credits ESA/NASA.
+[[./images/horse_head.png]]
+
+
+But if an external perturbation can create a slightly over-dense
 region, for example, the "slap" of a nearby explosion producing a
 shock wave through the cloud, then gravitational collapse can occur.
 
