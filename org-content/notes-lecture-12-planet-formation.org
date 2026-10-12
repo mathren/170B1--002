@@ -305,16 +305,18 @@ while the rocky planets have very little gas.
 
 Once this process of competitive accretion ends, e.g., because there
 is no more gas to accrete and the orbit of the object is now "clean",
-we have formed a planet!
+we have formed a planet! What "cleans" the mostly H and He gas in the
+disk around the planetesimal is a combination of the effects of the
+central star (the "baby Sun" energy output in the form of photons and
+the Solar wind) and the energy input from accretion onto it (and in
+much smaller proportion, accretion onto the planetesimals turning
+planets).
+
 
 The formal definition of a planet in fact requires 3 conditions:
 1. self-gravitating object (achieved already at planetesimal stage)
 2. orbiting a host star (achieved since the proto-planetary disk phase)
 3. with a clear orbit dominated locally by its own gravity.
-
-Of course, some of the gas is not accreted by planets, and the Sun's
-energy output (in the form of photons) and the Solar wind have pushed
-it out, clearing the remaining gas from the Solar system.
 
 
 * Asteroids, Kuiper Belt, Oort cloud
