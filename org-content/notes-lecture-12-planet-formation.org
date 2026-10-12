@@ -319,7 +319,7 @@ The formal definition of a planet in fact requires 3 conditions:
 3. with a clear orbit dominated locally by its own gravity.
 
 
-* Asteroids, Kuiper Belt, Oort cloud
+* Minor bodies: asteroids, Kuiper belt, Oort cloud
 
 However, in the solar system there are also places where this
 "cleanup" of the orbit has not really worked!
