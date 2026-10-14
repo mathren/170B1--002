@@ -14,6 +14,7 @@
 
  - in class participation 3 points
  - Why does Saturn have rings?
+ - Touch metal and touch chair fabric: which is hotter?
 
 
 # Concepts
@@ -39,6 +40,12 @@ Even on Earth, the deepest hole ever dug to date is the [[https://en.wikipedia.o
 borehole]], at an impressive 12 km depth. This is out of a radius of the
 planet of \sim 6000 km! We literally only have scratched the surface, and
 we can learn a lot about our own planet comparing with other bodies!
+
+The aim of today is to discuss the /processes/ that shape the surface of
+planets. The /physics/ is the same everywhere, although the specific
+conditions (size of the planet, composition, etc.) determine the
+astounding variation of landscapes in the Solar system described in
+more detail in the book.
 
 * A planets sources of energy
 
@@ -316,6 +323,9 @@ can use this to help predicting some of the solar wind variability.
 
 #+CAPTION: Any planet with a magnetic field can have aurorae, here is Jupiter (/Hubble Space Telescope/).
 [[./images/jupiter_aurorae.jpg]]
+
+
+
 
 
 * What if there is no "surface"?
