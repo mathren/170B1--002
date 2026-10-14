@@ -204,8 +204,10 @@ Since heat storing scales with volume, but heat losses scale with
 surface:
 
 #+BEGIN_latex
-\mathrm{Energy\ loss \propto Surface} = 4 \pi r^{2}\\
+\begin{equation}
+\mathrm{Energy\ loss} \propto \mathrm{Surface} = 4 \pi r^{2}\\
 \mathrm{Amount\ of\ energy \propto Volume} = \frac{4}{3}\pi r^{3} \ \ ,
+\end{equation}
 #+END_latex
 
 The larger r the smaller the Surface/Volume \propto $r^{-1}$ is, therefore
