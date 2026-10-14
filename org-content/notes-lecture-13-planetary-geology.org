@@ -10,12 +10,7 @@
 * Planetary geology
 
 
-** TODO
-
- - in class participation 3 points
- - Why does Saturn have rings?
- - Touch metal and touch chair fabric: which is hotter?
-
+*** TOP HAT Q1
 
 # Concepts
 # - planetary geology
@@ -100,6 +95,9 @@ be moving from the interior outwards. Roughly speaking, energy in a
 blob of matter can move in three main ways:
 
 ** Conduction
+
+*** TOP HAT Q2
+
 Matter, especially if solid, doesn't have many moving parts to carry
 energy. The most movable are the electrons in the outskirts of
 molecules/atoms bound in crystals.
@@ -108,17 +106,6 @@ Energy transport by motion of electrons is called /conduction/. Metals
 are good at conducing heat because their electrons are typically quite
 "loose" and this is why they heat up evenly even if only one part is
 left in the Sun.
-
-:Question:
-- If you touch a piece of wood and a piece of metal outside, which one
-  is hotter?
-:end:
-
-:Answer:
-- Probably neither, they will have the same temperature! But the metal
-  will feel more "extreme" to the touch because it is better at energy
-  conduction and thus faster at trying to reach equilibrium with you!
-:end:
 
 ** Radiation
 A medium in which light can pass (remember that light has many
@@ -193,9 +180,15 @@ determined by the detailed properties of the matter they are made of.
 [[file:images/planet_sizes_effects.png]]
 
 Since heat storing scales with volume, but heat losses scale with
-surface, larger planets hold on to more of the heat released at their
-formation by the accretion of matter. This makes weather on them
-particularly violent!
+surface:
+
+#+BEGIN_latex
+\mathrm{Energy\ loss \propto Surface} = 4 \pi r^{2}\\
+\mathrm{Amount\ of\ energy \propto Volume} = \frac{4}{3}\pi r^{3} \ \ ,
+#+END_latex
+
+The larger r the smaller the Surface/Volume \propto $r^{-1}$ is, therefore
+larger planets hold on to more of their internal energy.
 
 ** Earth's structure
 
@@ -210,16 +203,45 @@ a core partially liquid.
 
 
 * Shaping the surfaces
-*** impact cratering
+
+*** TOP HAT Q3
+
+** impact cratering
+
+Minor bodies in the solar system are often perturbed and knocked off
+their long-held mildly elliptical orbit, to become space projectiles
+on very eccentric ellipses, or even parabolae/hyperbolae. Occasionally
+these can hit something else.
+
+Earth's atmosphere acts as a shield: most of these objects heat up due
+to friction with the air, and consume themselves becoming a "shooting
+star". Some hit the ground as meteors. When this occurs this can leave
+a crater!
+
+The moon has no atmosphere, so more craters form there!
 
 #+CAPTION: Example of impact craters on the Moon. The lack of atmosphere prevents any slowing down or consumption of incoming bodies.
-[[./images/moon_crater.jpg]] Depending
-on the pressure of the /magma/ (which becomes /lava/ onces it is out in
-the surface),
+[[./images/moon_crater.jpg]]
+
+From the way craters degrade in time, we can age date them, and
+looking at areas of the moon that are rarely hit (dominated by
+old-looking craters) we can determine when most of these were formed.
+
+It turns out this is likely when the gas was cleared from the
+protoplanetary disk by the Sun, causing a decrease in the mass of the
+disk, and a re-arrangement of many orbits, including many comets from
+the Oort cloud. This put many of those in route towards the inner
+solar system. We actually think this is how most of the water arrived
+on Earth: condensed far from the /snow line/ in the outer solar system,
+and brought to us by comets "panicked" by the change in the disk. And
+we know from looking at the distribution of age of craters on the
+Moon!
 
 
-Dating age with craters, heavy bombardment!
-***  Volcanism
+
+
+
+**  Volcanism
 When liquid pockets of /magma/ are squeezed upwards, or just rise
 through rocks and pierce through the crust, a volcano forms. The
 example below is an eruption from mount Etna in Sicily (Italy) this
@@ -236,7 +258,7 @@ Iceland versus monutains like Mount Vesuvius).
 [[file:images/volcanism.png]]
 
 
-*** Tectonics
+** Tectonics
 Tectonic plates are slabs of solid rock "floating" over the mantle of
 a planet, and slowly drifting, bumping in each other, sinking, and rising.
 This is driven from below by convection in the mantle!
@@ -254,7 +276,7 @@ detectors, which allow to measure its size very precisely and detect
 its shaking: the Moon has no tectonic because it has already lost most
 of its formation residual energy.
 
-***  Erosion
+** Erosion
 
 #+CAPTION: The Gran Canyon is the result of millions of years of erosion by the Colorado river.
 [[./images/gran_canyon.jpg]]
