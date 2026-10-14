@@ -6,6 +6,19 @@
 
 *Reading:* Chapter 9, 11, 12
 
+/Planetary science/ is the study of planets, moons, and minor-bodies in
+the Solar system (including Earth) and/or exoplanets (and exomoons!).
+These studies allow us to understand the physical processes that shape
+a planet (formation and evolution) and probing them in conditions
+different than the Earth, for example:
+- different chemistry
+- different irradiation from the Sun/host star
+- different mass and thus thermodynamic conditions (pressure,
+  temperature, etc)
+
+By performing /comparative studies/, planetary science can teach us a
+lot about our own planet that we cannot know otherwise.
+
 * Planetary geology
 
 
