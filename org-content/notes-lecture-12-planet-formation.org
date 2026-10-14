@@ -2,7 +2,7 @@
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-11-solar-system.org
-#+NEXT_PAGE: notes-lecture-13-asteroids.org
+#+NEXT_PAGE: notes-lecture-13-planetary-geology.org
 
 *Reading*: Chapter 8, 12, 13
 

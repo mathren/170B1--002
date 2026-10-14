@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2026-10-13 Tue 17:43 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ASTR170 Planetary science</title>
+<meta name="author" content="Mathieu Renzo" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="./css/style.css" />
+<link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.min.css">
+<meta name="keywords" content="Mathieu, Renzo, Mathieu Renzo,
+			       stellar evolution, ASTR170B1, University of
+			       Arizona, Steward Observatory">
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="preamble" class="status">
+<!-- Preamble -->
+<!-- The header -->
+<div class="header">
+
+  <!-- The site name -->
+  <div class="site-name">
+    <a id="top" href="./index.html">ASTR170B1</a>
+  </div>
+
+  <!-- The hamburger -->
+  <div class="hamburger">
+    <div id="myLinks" class="menu">
+      <a href="./index.html">Home</a>
+      <a href="./syllabus170B1.html">Syllabus</a>
+      <a href="./access_howto.html">How to</a>
+      <a href="./schedule.html">Schedule</a>
+      <!-- <a href="./projects.html">Projects</a> -->
+    </div>
+    <a  href="javascript:void(0);" class="icon" onclick="HamburgerMenuFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="navbar">
+    <a href="./syllabus170B1.html">Syllabus</a>
+    <a href="./access_howto.html">How to access</a>
+    <a href="./schedule.html">Schedule</a>
+    <!-- <a href="./projects.html">Projects</a> -->
+  </div>
+</div>
+
+<!-- scripts -->
+<!-- menu  -->
+<script>
+  function HamburgerMenuFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+	  x.style.display = "none";
+      } else {
+	  x.style.display = "block";
+      }
+  }
+</script>
+
+<!-- toggle drawers -->
+<script>
+  function toggleDrawer(id) {
+      const drawer = document.getElementById(id);
+      drawer.style.display = drawer.style.display === "none" ? "block" : "none";
+  }
+</script>
+
+<!-- toggle dark mode -->
+<script>
+  window.onload = () => {
+      const toggleButton = document.getElementById("light-dark-toggle");
+      const body = document.body;
+      const html = document.documentElement;
+
+
+      // Check localStorage for user preference
+      if (localStorage.getItem("theme") === "dark") {
+          body.classList.add("dark-mode");
+	  html.classList.toggle("dark-mode");
+      }
+
+      // Toggle theme on click
+      toggleButton.addEventListener("click", () => {
+          body.classList.toggle("dark-mode");
+  html.classList.toggle("dark-mode");
+
+          // Save user preference
+          if (body.classList.contains("dark-mode")) {
+              localStorage.setItem("theme", "dark");
+          } else {
+              localStorage.setItem("theme", "light");
+          }
+      });
+  };
+</script>
+<!-- end scripts-->
+</div>
+<div id="content" class="content">
+<p>
+<b>Reading:</b> Chapter 9, 10, 11
+</p>
+<div id="outline-container-" class="outline-2">
+<h2 id=""><a href="#"><span class="todo TODO">TODO</span> </a></h2>
+<div class="outline-text-2" id="text-org-element-1">
+<ul class="org-ul">
+<li>in class participation 3 points</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-concepts" class="outline-2">
+<h2 id="concepts"><a href="#concepts">Concepts</a></h2>
+<div class="outline-text-2" id="text-org-element-2">
+<ul class="org-ul">
+<li>planetary geology</li>
+<li>sources of internal heat: accretion, differentiation, radioactive decay</li>
+<li>heat transport convection, conduction, radiation</li>
+<li>why magnetic fields</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-why-are-planets-spheres" class="outline-2">
+<h2 id="why-are-planets-spheres"><a href="#why-are-planets-spheres">Why are planets spheres?</a></h2>
+<div class="outline-text-2" id="text-org-element-3">
+<p>
+Gravity is a central force, only depends on \(r\)
+</p>
+
+<div class="LATEX" id="org-element-4">
+\begin{equation}
+\mathbf{F_{1}} = \frac{Gm_{1}m_{2}}{r^{2}}\mathbf{\hat{r}} \ \ ,
+\end{equation}
+
+</div>
+
+<p>
+Even rock over long timescales behaves like a fluid! We can thus study
+the <i>evolution</i> of the surface of a planet to learn about their
+formation, evolution, and outer conditions!
+</p>
+</div>
+</div>
+<div id="outline-container-shaping-the-surfaces" class="outline-2">
+<h2 id="shaping-the-surfaces"><a href="#shaping-the-surfaces">Shaping the surfaces</a></h2>
+<div class="outline-text-2" id="text-shaping-the-surfaces">
+</div>
+<div id="outline-container-impact-cratering" class="outline-4">
+<h4 id="impact-cratering"><a href="#impact-cratering">impact cratering</a></h4>
+<div class="outline-text-4" id="text-org-element-5">
+<p>
+<img src="./images/moon_crater.jpg" alt="moon_crater.jpg" width="100%"> Depending
+on the pressure of the <i>magma</i> (which becomes <i>lava</i> onces it is out in
+the surface),
+</p>
+
+
+<p>
+Dating age with craters, heavy bombardment!
+</p>
+</div>
+</div>
+<div id="outline-container-volcanism" class="outline-4">
+<h4 id="volcanism"><a href="#volcanism">Volcanism</a></h4>
+<div class="outline-text-4" id="text-org-element-6">
+<p>
+When liquid pockets of <i>magma</i> are squeezed upwards, or just rise
+through rocks and pierce through the crust, a volcano forms. The
+example below is an eruption from mount Etna in Sicily (Italy) this
+year:
+</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x-bx26EIwA0?si=rDk8ZIRNbgI3IFdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>
+Depending on the pressure of the <i>magma</i> (which becomes <i>lava</i> onces it is
+out in the surface), there are different morphologies of volcanoes
+even on a single planet like Earth (think of the linear volcanoes in
+Iceland versus monutains like Mount Vesuvius).
+</p>
+
+
+<figure id="org-element-7">
+<img src="images/volcanism.png" alt="volcanism.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 1: </span>The shape of a volcano is determined by the interplay between the (possibly explosive) flow of lava and its cooling which leads to solidification. We can learn about the geology of other solar bodies through their volcanic mountains!</figcaption>
+</figure>
+</div>
+</div>
+<div id="outline-container-tectonics" class="outline-4">
+<h4 id="tectonics"><a href="#tectonics">Tectonics</a></h4>
+</div>
+
+<div id="outline-container-erosion" class="outline-4">
+<h4 id="erosion"><a href="#erosion">Erosion</a></h4>
+<div class="outline-text-4" id="text-org-element-8">
+
+<figure id="org-element-9">
+<img src="./images/gran_canyon.jpg" alt="gran_canyon.jpg" width="100%">
+
+<figcaption><span class="figure-number">Figure 2: </span>The Gran Canyon is the result of millions of years of erosion by the Colorado river.</figcaption>
+</figure>
+
+<p>
+By water (including in solid form: ice glaciers!) and other
+atmospheric agents. It of course requires a planet to have (or at
+least have had) an atmosphere for this to occur.
+</p>
+
+
+<figure id="org-element-10">
+<img src="./images/Mars_canals.jpg" alt="Mars_canals.jpg" width="100%">
+
+<figcaption><span class="figure-number">Figure 3: </span>In 1877 G. Schiapparelli claimed to have observed water canals on Mars. These were an optical illusion, but inspired the foundation of Lowell observatory in Northern Arizona. Canyon-like structures have since been found on Mars which used to have liquid water on its surface.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div id="outline-container-different-planets-rarr-different-surfaces" class="outline-2">
+<h2 id="different-planets-rarr-different-surfaces"><a href="#different-planets-rarr-different-surfaces">Different planets &rarr; different surfaces</a></h2>
+<div class="outline-text-2" id="text-org-element-11">
+
+<figure id="org-element-12">
+<img src="images/planet_sizes_effects.png" alt="planet_sizes_effects.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 4: </span>The properties of planets determine the agents shaping their surfaces.</figcaption>
+</figure>
+
+<p>
+Since heat storing scales with volume, but heat losses scale with
+surface, larger planets hold on to more of the heat released at their
+formation by the accretion of matter. This makes weather on them
+particularly violent!
+</p>
+</div>
+</div>
+<div id="outline-container-magnetosphere" class="outline-2">
+<h2 id="magnetosphere"><a href="#magnetosphere">Magnetosphere</a></h2>
+<div class="outline-text-2" id="text-org-element-13">
+<p>
+Much like <i>velocity</i> is defined in a <a href="notes-lecture-05-gravity-motion.html#org-element-14">reference frame</a>, and depending on
+the observer's relative velocity to it an object can be moving or
+static, <i>magnetic fields</i> and <i>electric fields</i> are related like motion
+and static depending on the observer. The bottom line is that magnetic
+fields in planetary context are generated by <i>electric currents</i>.
+</p>
+
+<p>
+Thus, for a planet to have a magnetic field it requires a source of
+energy, and a mechanism to generate currents, for example fast
+rotation! This is not enough, there should be something that can <i>carry</i>
+the current, like liquid metal.
+</p>
+
+<p>
+As we have seen the residual heat from formation (gravitational
+collapse), and to a smaller degree the radioactive decay of trapped
+heavy unstable elements act as source of heat in planets. This causes
+convection (transport of heat by macroscopic motion). If rotation is
+fast and the planet is not "too stiff", meaning there is a liquid
+layer, rotation "twists" the convection generating currents which make
+a magnetic field.
+</p>
+
+<p>
+The Earth's meets these conditions, its magnetic field roughly has a
+North-South direction (that's because Earth's rotation is involved in
+generating it!), so it can be used to navigate by compass.
+</p>
+
+
+
+<figure id="org-element-15">
+<img src="images/Earth_B.png" alt="Earth_B.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 5: </span>Visualization of the density of plasma around the Earth (color) and Earth's magnetic field lines. The reddish "rings" are the van Allen bands, where the Earth magnetic fields traps some of the solar wind.</figcaption>
+</figure>
+
+
+<p>
+On a planetary scale, it protects the Earth from the solar wind: this
+is a stream of high energy protons investing us. Protons are charged
+and a moving electric charge is deflected by magnetic fiels (Lorentz
+force).
+</p>
+
+<p>
+<a href="https://cosmic-watch.com/magnetosphere/">This visualization</a> shows the pressure around the Earth as a function
+of the impinging wind (mostly protons) constantly escaping from the
+Sun.
+</p>
+
+<p>
+The magnetic field of a planet can accelerate particles from the solar
+wind (typically protons) and make them smash into molecules in their
+atmosphere, causing aurorae. <a href="https://www.spaceweather.gov/communities/aurora-dashboard-experimental">This website</a> shows forecast predictions
+on the probability of aurorae based on the Sun's activity.
+</p>
+
+<p>
+<b>N.B.:</b> We can literally <i>see</i> what was happening at the surface of the
+Sun 8 light-minutes ago, because that is the time it takes a <i>photon</i>
+traveling at the speed of light to cover the Sun-Earth distance (1
+au). The protons of the solar wind are more slower than photons, so we
+can use this to help predicting some of the solar wind variability.
+</p>
+
+
+<figure id="org-element-16">
+<img src="./images/aurora.jpg" alt="aurora.jpg" width="100%">
+
+<figcaption><span class="figure-number">Figure 6: </span>Aurora Borealis showing two colors, because protons of different energy coming from the solar wind and deflected by the magnetic field of the Earth hit different molecules (likely nitrogen and oxygen).</figcaption>
+</figure>
+
+
+
+<figure id="org-element-17">
+<img src="./images/jupiter_aurorae.jpg" alt="jupiter_aurorae.jpg" width="100%">
+
+<figcaption><span class="figure-number">Figure 7: </span>Any planet with a magnetic field can have aurorae, here is Jupiter (<i>Hubble Space Telescope</i>).</figcaption>
+</figure>
+</div>
+</div>
+<div id="outline-container-what-if-there-is-no-surface" class="outline-2">
+<h2 id="what-if-there-is-no-surface"><a href="#what-if-there-is-no-surface">What if there is no "surface"?</a></h2>
+<div class="outline-text-2" id="text-org-element-18">
+
+<figure id="org-element-19">
+<img src="images/gas_giants.png" alt="gas_giants.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 8: </span>Gas giant planets of the solar system with Earth for scale.</figcaption>
+</figure>
+
+<p>
+So far you probably imagined surfaces as something roughly <i>solid</i>.
+However, some planets do not have any solid surface at all: the <i>gas
+giants</i>!
+</p>
+
+<p>
+Although these have formed starting from solid planetesimal cores,
+these may have since melted/vaporized under the extreme pressure of
+all the gas they have accreted.
+</p>
+
+
+<ul class="org-ul">
+<li>rotational support</li>
+</ul>
+
+
+
+<ul class="org-ul">
+<li>Jupiter storm (next lecture)</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<div class="footer">
+  <hr>
+  <a href="#light-dark-toggle"><i id="light-dark-toggle"><i class="fa-solid fa-circle-half-stroke"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-12-planet-formation.html"><i class="fa-solid fa-arrow-left" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="#top"><i class="fa-solid fa-arrow-up" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-13-planetary-atmospheres.html"><i class="fa-solid fa-arrow-right" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/mathren/170B1--002"><i class="fa-brands fa-github" style="font-size:16px"></i></a><hr>
+  <br>
+  Last updated on 13 October 2026 <br>
+  Made with Emacs 30.1 - Org mode 9.7.11
+  <br>
+</div>
+</div>
+</body>
+</html>

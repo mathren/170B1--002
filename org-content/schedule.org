@@ -140,16 +140,16 @@ DEADLINE: Homework
 # in class attendance
 [[./notes-lecture-12-planet-formation.org][Notes]]
 
-*** <2026-10-14 Wed> - Planetary atmospheres
+*** <2026-10-14 Wed> - Planetary geology
 # in class attendance
 # Deadline Homework 7, Assign Homework 8
 DEADLINE: Homework
 
 ** Week 9: Chapter 14, 15
 
-*** <2026-10-19 Mon> - Sun
+*** <2026-10-19 Mon> - Planetary atmospheres
 # in class attendance
-*** <2026-10-21 Wed> - HR diagram
+*** <2026-10-21 Wed> - Sun
 # in class attendance
 # Deadline Homework 8, Assign Homework 9
 DEADLINE: Homework
