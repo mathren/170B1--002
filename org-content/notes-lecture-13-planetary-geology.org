@@ -124,7 +124,7 @@ are good at conducing heat because their electrons are typically quite
 left in the Sun.
 
 ** Radiation
-A medium in which light can pass (remember that light has many
+In a medium in which light can pass (remember that light has many
 wavelengths!), energy can be carried by photons. This is typically
 more important in stars and outer layers of planets than their
 interior.
