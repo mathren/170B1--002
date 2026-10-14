@@ -494,7 +494,6 @@ However, these can never win the "accretion race" with the central
 planet, and will remain as small planetesimal which we call /satellites/
 because they don't orbit a star but a planet.
 
-
 * Evidence from outside the Solar system
 
 Since the late 1700s idea of Kant, we have constructed a theory of

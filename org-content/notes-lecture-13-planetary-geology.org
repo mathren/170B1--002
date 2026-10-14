@@ -406,7 +406,7 @@ asteroids manage to cross and reach us!
 
 * Magnetosphere
 
-/what about magnetic-fields?/ This question is almost a running joke
+/What about magnetic-fields?/ This question is almost a running joke
 among astrophysicists, because magnetic fields are ubiquitous when
 discussing ionized gas (i.e., freely moving charged particles), but
 typically complicate significantly the dynamics of the system.
@@ -432,7 +432,7 @@ fast and the planet is not "too stiff", meaning there is a liquid
 layer, rotation "twists" the convection generating currents which make
 a magnetic field.
 
-The Earth's meets these conditions, its magnetic field roughly has a
+The Earth meets these conditions, its magnetic field roughly has a
 North-South direction (that's because Earth's rotation is involved in
 generating it!), so it can be used to navigate by compass.
 
