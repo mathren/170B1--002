@@ -218,7 +218,9 @@ to friction with the air, and consume themselves becoming a "shooting
 star". Some hit the ground as meteors. When this occurs this can leave
 a crater!
 
-The moon has no atmosphere, so more craters form there!
+The Moon is small so it managed to lose its internal heat, and let its
+atmosphere escape, so more craters form there and they don't weather
+down very much. The same argument applies to Mercury!
 
 #+CAPTION: Example of impact craters on the Moon. The lack of atmosphere prevents any slowing down or consumption of incoming bodies.
 [[./images/moon_crater.jpg]]
@@ -238,9 +240,6 @@ we know from looking at the distribution of age of craters on the
 Moon!
 
 
-
-
-
 **  Volcanism
 When liquid pockets of /magma/ are squeezed upwards, or just rise
 through rocks and pierce through the crust, a volcano forms. The
@@ -257,6 +256,14 @@ Iceland versus monutains like Mount Vesuvius).
 #+CAPTION: The shape of a volcano is determined by the interplay between the (possibly explosive) flow of lava and its cooling which leads to solidification. We can learn about the geology of other solar bodies through their volcanic mountains!
 [[file:images/volcanism.png]]
 
+Volcanism is not unique to Earth, in their history other planets and
+even moons have had/have volcanic activity!
+
+#+CAPTION: View from the top of mount Olympus on Mars, the tallest mountain in the Solar system at about \sim 20km. It formed in a volcanic eruption.
+[[file:images/mount_olympus.png]]
+
+#+CAPTION: Io is a moon of Jupiter (one of those discovered by Galileo) and it is one of the most volcanically active bodies in the Solar system. Although it is a small body, it is constantly "refilled" in energy by the tides exerted by Jupiter on it!
+[[./images/io.jpg]]
 
 ** Tectonics
 Tectonic plates are slabs of solid rock "floating" over the mantle of
