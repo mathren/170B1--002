@@ -271,9 +271,7 @@ least have had) an atmosphere for this to occur.
 #+CAPTION: In 1877 G. Schiapparelli claimed to have observed water canals on Mars. These were an optical illusion, but inspired the foundation of Lowell observatory in Northern Arizona. Canyon-like structures have since been found on Mars which used to have liquid water on its surface.
 [[./images/Mars_canals.jpg]]
 
-** impact cratering
-
- - TOP HAT Q3
+** Impact cratering
 
 We have seen how gravitational dynamics between N>3 bodies plays a
 chaotic role in the solar system evolution. Minor bodies in the solar
@@ -286,6 +284,11 @@ Earth's atmosphere acts as a shield: most of these objects heat up due
 to friction with the air, and consume themselves becoming a "shooting
 star". Some hit the ground as meteors. When this occurs this can leave
 a crater!
+
+#+CAPTION: Meteor crater natural landmark in Arizona is the impact crater from a [[https://news.arizona.edu/news/did-meteor-impact-trigger-landslide-grand-canyon][collision roughly 50000 years ago]].
+[[./images/meteor-crater.webp]]
+
+ - TOP HAT Q3
 
 The Moon is small so it managed to lose its internal heat, and let its
 atmosphere escape, so more craters form there and they don't weather
