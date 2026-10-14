@@ -206,6 +206,8 @@ surface:
 #+BEGIN_latex
 \begin{equation}
 \mathrm{Energy\ loss} \propto \mathrm{Surface} = 4 \pi r^{2}\\
+\end{equation}
+\begin{equation}
 \mathrm{Amount\ of\ energy \propto Volume} = \frac{4}{3}\pi r^{3} \ \ ,
 \end{equation}
 #+END_latex
