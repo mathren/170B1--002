@@ -344,11 +344,8 @@ of the gas giants and including many comets from the Oort cloud. The
 decreased total mass and changes in position of the biggest objects
 (excluding the Sun) cause a re-arrangement of the orbits of the minor
 bodies, and put many of those in route towards the inner solar system.
-We actually think this is how most of the water arrived on Earth:
-condensed far from the /snow line/ in the outer solar system, and
-brought to us by comets "panicked" by the change in the disk and
-thrown into orbits crossing the inner solar system. And we know from
-looking at the distribution of age of craters on the Moon!
+And we know from looking at the distribution of age of craters on the
+Moon!
 
 Major impacts are rare today, the solar system is mature and most of
 the violent orbital perturbations have ceased (because they mostly ran
@@ -372,8 +369,10 @@ consequences of the bombardment for the history of Earth:
 - major collision with Mars-sized body \rightarrow creation of the Moon,
   peculiarly large, moving outwards, and with a \sim half-earth-like and
   \sim half non-earth-like composition
-- comet bombardment bringing water (in the form of ice) from the outer
-  solar system
+- how most of the water arrived on Earth: it condensed far from the
+  /snow line/ in the outer solar system, and was brought to us by comets
+  "panicked" by the change in the disk and thrown into orbits crossing
+  the inner solar system.
 - extinction of the non-avian dinosaurs
 
 The last one however is often misunderstood in popular culture. About
