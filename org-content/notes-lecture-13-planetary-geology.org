@@ -9,7 +9,7 @@
 * Planetary geology
 
 
-*** TOP HAT Q1
+- TOP HAT Q1
 
 # Concepts
 # - planetary geology
@@ -96,7 +96,7 @@ blob of matter can move in three main ways:
 
 ** Conduction
 
-*** TOP HAT Q2
+- TOP HAT Q2
 
 Matter, especially if solid, doesn't have many moving parts to carry
 energy. The most movable are the electrons in the outskirts of
@@ -262,7 +262,7 @@ least have had) an atmosphere for this to occur.
 
 ** impact cratering
 
-*** TOP HAT Q3
+ - TOP HAT Q3
 
 We have seen how gravitational dynamics between N>3 bodies plays a
 chaotic role in the solar system evolution. Minor bodies in the solar
@@ -306,6 +306,45 @@ in 1992:
 
 #+CAPTION: Hubble space telescope ultraviolet image of Jupiter showing multiple impact sites from the Shoemaker-Levy 9 comet pieces falling on Jupiter.
 [[./images/shoemaker_levy.png]]
+
+Despite the spectacular impact, because Jupiter is a gas giant, its
+"surface" is not solid (it's defined by the maximum depth at which
+photons can penetrate, but there is no solid material there, the gas
+blocks the photons), so we don't expect it to have formed craters.
+
+*** The role of collisions in Earth's history
+Earth has also been subject to "bombardment" from minor bodies earlier
+in the Solar system evolution. We know of craters on Earth (one of the
+most recent one is in Arizona!), and we have already seen some
+consequences of the bombardment for the history of Earth:
+- major collision with Mars-sized body \rightarrow creation of the Moon,
+  peculiarly large, moving outwards, and with a \sim half-earth-like and
+  \sim half non-earth-like composition
+- comet bombardment bringing water (in the form of ice) from the outer
+  solar system
+- extinction of the non-avian dinosaurs
+
+The last one however is often misunderstood in popular culture. About
+66 million years ago, at the transition between Cretaceous and
+Paleogene, about 75% of animals on Earth went rapidly extinct. But
+/rapidly/ has to be understood on ecological and geological terms: it is
+unlikely that this means minutes/hours/days! In fact, the hypothesis
+that this mass-extinction event comes from an impact was first
+suggested based on finding a layer of minerals (iridium) /all over the
+surface of the world/. This mineral forms often in violent impacts
+between rocks (which provide the energy to reshuffle the crystal
+structures at molecular/atomic level), and the fact we find it all
+over the surface of the Earth suggests that the hashes from such
+collision spread /globally/ on the surface of the Earth.
+
+This suggests that the impact lifted so much material to cause a
+change in the global climate, resulting in an overall cooling of the
+Earth, massive death of plants, which disrupted the entire food chain
+leading to the mass extinction especially of large animals.
+
+
+#+CAPTION: Chicxulub crater: Magnetic and gravitational anomalies (colors) allowed to identify the site of a giant impact in the Yucatan peninsula, likely the start of the extinction event at the end of the Cretaceous period.
+[[file:images/impact_crater.png]]
 
 
 * Magnetosphere
