@@ -132,8 +132,9 @@ interior.
 ** Convection (bulk flow of matter carries the energy)
 This is when energy is carried by bulk motion of matter: convection
 implies there s some stuff going up and some stuff going down, with
-one of the two sides carrying more energy even if the mass cancels
-out. Bulk motion of matter, no net mass flux, but with an energy flux.
+one of the two sides carrying more (thermal) energy even if the mass
+cancels out. Bulk motion of matter, no net mass flux, but with an
+energy flux.
 
 This is an /instability/ meaning convection kicks in only if the other
 possible energy transport are insufficient.
@@ -189,7 +190,10 @@ determined by the detailed properties of the matter they are made of.
 #+CAPTION: The shape of smaller bodies can be arbitrary because mass is not strongly pulled on itself by its own gravity. As size grows, dwarf planets become spherical which is an indication that they are massive enough to be self-gravitating.
 [[file:images/asteroids_shapes.png]]
 
-
+Small, non-self-gravitating, asteroid are effectively "piles of
+rubble" loosely held together by gravity and shaped by how the parts
+lock into each other, without gravity crushing down the parts into a
+nice spherical shape.
 
 * Different planets \rightarrow different structures \rightarrow different surfaces
 
