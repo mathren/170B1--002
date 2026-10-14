@@ -68,7 +68,7 @@ earthquakes, etc) is direct evidence that there is energy (the ability
 to "move things") stored there!
 
 
-** Residual thermal energy from formation
+** 1. Residual thermal energy from formation
 As planets accreted matter from the protoplanetary disk, typically
 through a disk because matter interacts with itself as it falls and
 conserves the total angular momentum, it also accretes thermal energy
@@ -76,7 +76,10 @@ conserves the total angular momentum, it also accretes thermal energy
 matter). Part of this residual /accretion/ heat is still trapped in planets and
 acts as an energy source.
 
-** Differentiation
+** 2. Differentiation
+
+#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/sV0SxwaVKN8?si=vJNr3lMCQPUTamJ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Imagine to pour oil in a glass of water, in a messy way, and then let
 it sit for a long time. The oil would progressively rise at the top,
 because it is less dense -- there is a buoyancy pushing it up. This
@@ -88,7 +91,7 @@ to wait is literally /geological/ (100s of millions to billions of
 years, as old as the Solar system!). This process of rearrangement is
 called /differentiation/, and is also a source of energy in a planet
 
-** Radioactive decay
+** 3. Radioactive decay
 Add the radioactive decay of material the planet is made of (tapping
 into the nuclear energy stored in the structure of those nuclei), and
 you have all three major sources of heat in a planets /interior/.
