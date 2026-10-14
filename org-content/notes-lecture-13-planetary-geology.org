@@ -394,15 +394,15 @@ Earth, massive death of plants, which disrupted the entire food chain
 leading to the mass extinction especially of large animals.
 
 
-#+CAPTION: Chicxulub crater: Magnetic and gravitational anomalies (colors) allowed to identify the site of a giant impact in the Yucatan peninsula, likely the start of the extinction event at the end of the Cretaceous period.
+#+CAPTION: Chicxulub crater: Magnetic and gravitational anomalies (colors) allowed to identify the site of a giant impact in the Yucatan peninsula, likely the start of the extinction event at the end of the Cretaceous period. The impact likely melted iron rocks, allowing to re-arange their magnetic fields according to the melted flow caused by the impact and causing the anomalies.
 [[file:images/impact_crater.png]]
 
 
-*N.B.:* Remember the "resonances" (small integer ratio of the orbital
-period of asteroids and Mars or Jupiter)? These also act as barriers
-preventing asteroids from crossing them and "protecting" the inner
-solar system from further bombardments. Only few rare asteroids manage
-to cross and reach us!
+*N.B.:* Remember the [[file:notes-lecture-12-planet-formation.org::*The role of gravitational dynamics][resonances]] in the orbit of Mars or Jupiter and the
+asteroids (small integer ratio of the orbital periods)? These also act
+as barriers preventing asteroids from crossing them and "protecting"
+the inner solar system from further bombardments. Only few rare
+asteroids manage to cross and reach us!
 
 * Magnetosphere
 
