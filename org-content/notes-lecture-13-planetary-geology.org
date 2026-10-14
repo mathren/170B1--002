@@ -444,22 +444,26 @@ generating it!), so it can be used to navigate by compass.
 On a planetary scale, it protects the Earth from the solar wind: this
 is a stream of high energy protons investing us. Protons are charged
 and a moving electric charge is deflected by magnetic fiels (Lorentz
-force).
-
-[[https://cosmic-watch.com/magnetosphere/][This visualization]] shows the pressure around the Earth as a function
-of the impinging wind (mostly protons) constantly escaping from the
-Sun.
-
-The magnetic field of a planet can accelerate particles from the solar
-wind (typically protons) and make them smash into molecules in their
-atmosphere, causing aurorae. [[https://www.spaceweather.gov/communities/aurora-dashboard-experimental][This website]] shows forecast predictions
-on the probability of aurorae based on the Sun's activity.
+force). [[https://cosmic-watch.com/magnetosphere/][This visualization]] shows the pressure around the Earth as a
+function of the impinging wind (mostly protons) constantly escaping
+from the Sun.
 
 *N.B.:* We can literally /see/ what was happening at the surface of the
 Sun 8 light-minutes ago, because that is the time it takes a /photon/
 traveling at the speed of light to cover the Sun-Earth distance (1
 au). The protons of the solar wind are more slower than photons, so we
 can use this to help predicting some of the solar wind variability.
+
+*N.B.:* Mars, slightly smaller than Earth, has lost enough of its
+formation heat and has no molten core anymore: this means it has lost
+the ability of carrying currents and generating a significant magnetic
+field. This makes its surface more exposed to stellar winds, and
+probably contributed to the evaporation of its atmosphere.
+
+The magnetic field of a planet can accelerate particles from the solar
+wind (typically protons) and make them smash into molecules in their
+atmosphere, causing aurorae. [[https://www.spaceweather.gov/communities/aurora-dashboard-experimental][This website]] shows forecast predictions
+on the probability of aurorae based on the Sun's activity.
 
 #+CAPTION: Aurora Borealis showing two colors, because protons of different energy coming from the solar wind and deflected by the magnetic field of the Earth hit different molecules (likely nitrogen and oxygen).
 [[./images/aurora.jpg]]
@@ -510,3 +514,11 @@ is the change in pressure with depth. The gas at the bottom is
 compressed, and has higher pressure than the gas above, and the
 difference in pressure between two layers is exactly the balancing the
 weight of that layer.
+
+Another force that shapes the gas giants is the /centrifugal force/.
+This is an apparent force in the /non-inertial/ frame co-rotating with
+the planet (which corresponds in an inertial non-rotating frame to the
+/centripetal/ force that keeps the velocity accelerating and changing
+direction in the rotating motion). Gas giants typically spin fast
+enough that they are visibly deformed from the spherical shape
+expected for planets.
