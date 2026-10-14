@@ -245,8 +245,19 @@ even moons have had/have volcanic activity!
 #+CAPTION: View from the top of mount Olympus on Mars, the tallest mountain in the Solar system at about \sim 20km. It formed in a volcanic eruption.
 [[file:images/mount_olympus.png]]
 
-#+CAPTION: Io is a moon of Jupiter (one of those discovered by Galileo) and it is one of the most volcanically active bodies in the Solar system. Although it is a small body, it is constantly "refilled" in energy by the tides exerted by Jupiter on it!
+#+CAPTION: Io is a moon of Jupiter (one of those discovered by Galileo) and it is one of the most volcanically active bodies in the Solar system.
 [[./images/io.jpg]]
+
+Note that Io is a moon with radius \sim half the Earth's radius: it's
+fairly small! Thus, as discussed above, it should have lost most of
+its formation heat -- what does power its volcanic activity then? The
+key is how close it is to Jupiter: tides slosh the likely liquid magma
+ocean under its crust and give it energy (so called /tidal heating/)!
+
+#+CAPTION: Although it is a small body, it is constantly "refilled" in energy by the tides exerted by Jupiter on it!
+[[file:images/io-tides.png]]
+
+
 
 ** Erosion
 
@@ -347,6 +358,12 @@ leading to the mass extinction especially of large animals.
 [[file:images/impact_crater.png]]
 
 
+*N.B.:* Remember the "resonances" (small integer ratio of the orbital
+period of asteroids and Mars or Jupiter)? These also act as barriers
+preventing asteroids from crossing them and "protecting" the inner
+solar system from further bombardments. Only few rare asteroids manage
+to cross and reach us!
+
 * Magnetosphere
 
 /what about magnetic-fields?/ This question is almost a running joke
@@ -417,10 +434,6 @@ most likely form.
 #+CAPTION: Optical/UV composite image of Jupiter showing aurorae (/Hubble Space Telescope/).
 [[./images/jupiter_aurorae.jpg]]
 
-
-
-
-
 * What if there is no "surface"?
 
 
@@ -429,15 +442,31 @@ most likely form.
 
 So far you probably imagined surfaces as something roughly /solid/.
 However, some planets do not have any solid surface at all: the /gas
-giants/!
+giants/! However, we can think of a "surface of last photon
+scattering", or in other words, the radius above which photons can
+freely escape. This is just a statement on the photons propagation,
+not the state of matter, which can be in any phase it wants!
 
-Although these have formed starting from solid planetesimal cores,
-these may have since melted/vaporized under the extreme pressure of
-all the gas they have accreted.
+Although gas giants have formed starting from solid planetesimal
+cores, these may have since melted/vaporized under the extreme
+pressure of all the gas they have accreted. This is usually still
+debated, because it depends on the properties of matter that is under
+extreme pressure (the weight of the huge planets), cold, and with the
+specific chemical composition of the giant planets.
 
+#+CAPTION: Comparison of models of the inner structure of Jupiter and the Earth.
+[[file:images/jupiter_structure.png]]
 
-- rotational support
+Even if these planets are mostly or completely in gas phase, you
+should not imagine them as a fluffy cloud that it is easy to go
+through: when the /Galileo/ space-craft plunged into Jupiter, it dove
+only down to 200km from the surface before being crushed by the
+pressure of the gas.
 
-
-
-- Jupiter storm (next lecture)
+As we will discuss in more detail when dealing with stellar structure,
+what holds planets (and stars) up against their own weight and prevent
+them from collapsing to a single point is the /pressure gradient/, that
+is the change in pressure with depth. The gas at the bottom is
+compressed, and has higher pressure than the gas above, and the
+difference in pressure between two layers is exactly the balancing the
+weight of that layer.
