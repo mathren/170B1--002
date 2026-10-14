@@ -110,7 +110,7 @@ This means planets lose energy (or cool) from the surface: energy must
 be moving from the interior outwards. Roughly speaking, energy in a
 blob of matter can move in three main ways:
 
-** Conduction
+** Conduction (electrons carry the energy)
 
 - TOP HAT Q2
 
@@ -123,13 +123,13 @@ are good at conducing heat because their electrons are typically quite
 "loose" and this is why they heat up evenly even if only one part is
 left in the Sun.
 
-** Radiation
+** Radiation (photons carry the energy)
 In a medium in which light can pass (remember that light has many
 wavelengths!), energy can be carried by photons. This is typically
 more important in stars and outer layers of planets than their
 interior.
 
-** Convection
+** Convection (bulk flow of matter carries the energy)
 This is when energy is carried by bulk motion of matter: convection
 implies there s some stuff going up and some stuff going down, with
 one of the two sides carrying more energy even if the mass cancels
