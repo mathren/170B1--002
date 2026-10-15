@@ -145,6 +145,8 @@ DEADLINE: Homework
 # Deadline Homework 7, Assign Homework 8
 DEADLINE: Homework
 
+[[./notes-lecture-13-planetary-geology.org][Notes]]
+
 ** Week 9: Chapter 14, 15
 
 *** <2026-10-19 Mon> - Planetary atmospheres
