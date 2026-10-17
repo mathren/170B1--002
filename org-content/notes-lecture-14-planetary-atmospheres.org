@@ -6,6 +6,10 @@
 
 *Reading:* Chapter 10, [[https://www.nasa.gov/general/what-is-earths-atmosphere/][Earth's atmosphere (NASA)]]
 
+
+- Top Hat Q1: what are the energy transport mechanisms?
+
+
 Following the spirit of [[./notes-lecture-13-planetary-geology.org][last lecture]], we will focus today on the
 /physical processes that shape the atmosphere of planets/. Once again,
 the physics is the same everywhere, but the specific conditions
@@ -22,6 +26,7 @@ ways to understand the physics of the complex and chaotic atmosphere
 on Earth, which we cannot replicate at scale in a lab.
 
 * Atmosphere vs. envelope
+
 - *Atmosphere*: partially transparent to some light (photons coming from
   this layer have at most one interaction with the gas before
   free-streaming outwards). The definition of atmosphere is thus
@@ -34,8 +39,6 @@ on Earth, which we cannot replicate at scale in a lab.
   Earth's mantle) and this statement doesn't say anything about its
   radiative properties (no transparency requirement)
 
-* Atmospheres
-
 ** The Earth
 #+CAPTION: Earth's atmosphere is a thin layer of $\sim100\,\mathrm{km}$ thickness (compared to the radius of $\sim 6000\,mathrm{km}$) of gas, transparent to what is /by definition/ the visible range of the ekectromagnetic spectrum.
 [[./images/atm.webp]]
@@ -44,7 +47,7 @@ The Earth's atmosphere is a thin layer of gas, cold enough to be in
 the form of molecules:
 - Nitrogen N_{2} makes the majority of it
 - Oxygen in the form of O_{2} molecules is \sim 16%
-- Other molecules, such as CO_{2}, H_{2}O, CO
+- Other molecules, such as CO_{2}, H_{2}O, CO, CH_{4}
 
 Throughout the \sim 4.5 billion-year-long history of the planet, the
 composition of the atmosphere has evolved: early bombardments by
@@ -56,9 +59,22 @@ poles, which literally froze in time conditions). Together with the
 process of surface /erosion/, this is shows that *the atmosphere of a
 planet is connected to its interior*.
 
-
 ** Other planets
 
+The figure below compares the density and thickness of the atmospheres
+of various solar system bodies. To make the comparison possible, the
+"thickness" is scaled by the "pressure scale height" $H$:
+
+#+BEGIN_latex
+P(z) \simeq P(z=0)e^{-z/H }\ \ ,
+#+END_latex
+
+which represents the height $z$ at which the pressure drops by a
+factor of $e=2.71..$.
+
+Note that the density on the x axis is on a logarithmic scale!
+
+#+CAPTION: Comparison of the height above the surface and density of atmosphere on Solar system bodies. The altitude is normalized to the "pressure scale height" $H$, that is the typical length over which a significant change in pressure occurs.
 #+BEGIN_EXPORT html
 <!--
   Atmospheric density vs normalized altitude z/H, isothermal model:
@@ -118,6 +134,93 @@ planet is connected to its interior*.
 })();
 </script>
 #+END_EXPORT
+
+Small bodies (but big enough to be self-gravitating) have a weaker
+gravity: it makes it easier for an atmosphere to escape it. Atmosphere
+can, over time evaporate!
+
+For this reason, for example, the Moon and Mercury do not have
+atmospheres. Even on Mars the atmosphere is significantly smaller than
+on Earth, unsuitable to sustain human life.
+
+Venus has the thickest envelope. Is is made mostly of "greenhouse
+gases" that trap infrared radiation: the radiative energy provided by
+the Sun cannot escape and the planet heats up.
+
+* Atmospheric structure
+
+** Stratification
+Although evolving on geological and planetary timescales, the
+atmosphere is globally stable: it is in hydrostatic equilibrium.
+Gravity from the underlying body pulls down, and the change in
+pressure of the gas balances it out. Per unit volume we have:
+
+#+BEGIN_latex
+F_{g} = - \frac{GM\rho}{r^{2}} = \frac{dP}{dr} \ \ .
+#+END_latex
+
+The pressure $P$ is the force (that is change in momentum by Newton's
+second law) per unit area caused by the momentum exchange between the
+molecules of the atmosphere colliding.
+
+The thermal velocity of these molecules is of 100s of m/s at room
+temperature, each molecule moving in a random direction and bumping
+into everything! Because the direction of the thermal motion of the
+molecules is random and equally likely in every direction, pressure is
+/isotropic/, meaning that it is the same in every direction.
+
+
+** Rotation
+- Coriolis
+- Giant planet support
+- Bands on Jupiter
+- Vortexes
+
+** Energy balance
+An atmosphere of a rotating and orbiting planet is constantly being
+/forced/ on the day side by the irradiation of the star providing
+energy. This means that an atmosphere, like any other system, will try
+to balance out the energy input on one side, and reach some
+equilibrium, but the constant and asymmetric driving constantly
+perturbs them. Atmospheres of planetary systems are /dynamic/ systems!
+
+The constant injection of energy has to be balanced out by the thermal
+radiation losses of the planet. Recall that the thermal radiation only
+depends on the temperature $T$ (black body). In a stably stratified
+atmosphere, the temperature /structure/ as a function of height $T(z)$
+will depend on how easily energy can /flow/ through each layer.
+
+The processes to transport energy in the interior of a planet and in
+its atmosphere are the same: radiative energy transport by photons,
+conduction by electrons, and convection by bulk motion of matter if
+the first two are insufficient. In an atmosphere (by definition
+transparent to some radiation), the densities are typically low
+($\lesssim 1\,\mathrm{kg\ m^{3}}$) and conduction by electrons is not
+very efficient: radiation and convection are typically more important.
+
+*N.B.:* In fact we have already seen an atmospheric example of
+convection in cumulonimbus clouds!
+
+The fact that the energy input and output of a planet need to match,
+together with the processes that determine the energy losses of the
+planet, determine its temperature structure. At any $T\neq0$, particles
+(in this case molecules of the atmosphere) have a certain distribution
+of random velocities with average value determined by $T$, and some
+will be fast enough to escape the gravity of the body!
+
+The problem with antropo-caused global warming is that in the past \sim
+150 years we have collectively burned coal and gas: /burning/ by
+definition is a chemical reaction that releases heat and CO_{2} which is
+a molecule with many infra-red bands that trap infrared radiation.
+This make the Earth's chemical composition of the atmosphere harder to
+cool down and literally traps thermal energy on the planet.
+
+* Cycles
+
+** Water cycle
+
+** Carbon cycle
+
 
 
 * What if there is no "surface"?

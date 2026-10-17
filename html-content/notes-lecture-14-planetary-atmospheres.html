@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-10-17 Sat 14:57 -->
+<!-- 2026-10-17 Sat 15:35 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Planetary Atmospheres</title>
@@ -134,6 +134,12 @@
 <b>Reading:</b> Chapter 10, <a href="https://www.nasa.gov/general/what-is-earths-atmosphere/">Earth's atmosphere (NASA)</a>
 </p>
 
+
+<ul class="org-ul">
+<li>Top Hat Q1: what are the energy transport mechanisms?</li>
+</ul>
+
+
 <p>
 Following the spirit of <a href="./notes-lecture-13-planetary-geology.html">last lecture</a>, we will focus today on the
 <i>physical processes that shape the atmosphere of planets</i>. Once again,
@@ -169,11 +175,6 @@ Earth's mantle) and this statement doesn't say anything about its
 radiative properties (no transparency requirement)</li>
 </ul>
 </div>
-</div>
-<div id="outline-container-atmospheres" class="outline-2">
-<h2 id="atmospheres"><a href="#atmospheres">Atmospheres</a></h2>
-<div class="outline-text-2" id="text-atmospheres">
-</div>
 <div id="outline-container-the-earth" class="outline-3">
 <h3 id="the-earth"><a href="#the-earth">The Earth</a></h3>
 <div class="outline-text-3" id="text-org-element-2">
@@ -191,7 +192,7 @@ the form of molecules:
 <ul class="org-ul">
 <li>Nitrogen N<sub>2</sub> makes the majority of it</li>
 <li>Oxygen in the form of O<sub>2</sub> molecules is &sim; 16%</li>
-<li>Other molecules, such as CO<sub>2</sub>, H<sub>2</sub>O, CO</li>
+<li>Other molecules, such as CO<sub>2</sub>, H<sub>2</sub>O, CO, CH<sub>4</sub></li>
 </ul>
 
 <p>
@@ -210,6 +211,28 @@ planet is connected to its interior</b>.
 <div id="outline-container-other-planets" class="outline-3">
 <h3 id="other-planets"><a href="#other-planets">Other planets</a></h3>
 <div class="outline-text-3" id="text-org-element-4">
+<p>
+The figure below compares the density and thickness of the atmospheres
+of various solar system bodies. To make the comparison possible, the
+"thickness" is scaled by the "pressure scale height" \(H\):
+</p>
+
+<div class="latex" id="org-element-5">
+<p>
+P(z) &cong; P(z=0)e<sup>-z/H </sup>\ \ ,
+</p>
+
+</div>
+
+<p>
+which represents the height \(z\) at which the pressure drops by a
+factor of $e=2.71..$.
+</p>
+
+<p>
+Note that the density on the x axis is on a logarithmic scale!
+</p>
+
 <!--
   Atmospheric density vs normalized altitude z/H, isothermal model:
     rho = rho0 * exp(-z/H),  z = r - R
@@ -267,14 +290,146 @@ planet is connected to its interior</b>.
   }, { responsive: true, displaylogo: false });
 })();
 </script>
+
+<p>
+Small bodies (but big enough to be self-gravitating) have a weaker
+gravity: it makes it easier for an atmosphere to escape it. Atmosphere
+can, over time evaporate!
+</p>
+
+<p>
+For this reason, for example, the Moon and Mercury do not have
+atmospheres. Even on Mars the atmosphere is significantly smaller than
+on Earth, unsuitable to sustain human life.
+</p>
+
+<p>
+Venus has the thickest envelope. Is is made mostly of "greenhouse
+gases" that trap infrared radiation: the radiative energy provided by
+the Sun cannot escape and the planet heats up.
+</p>
 </div>
+</div>
+</div>
+<div id="outline-container-atmospheric-structure" class="outline-2">
+<h2 id="atmospheric-structure"><a href="#atmospheric-structure">Atmospheric structure</a></h2>
+<div class="outline-text-2" id="text-atmospheric-structure">
+</div>
+<div id="outline-container-stratification" class="outline-3">
+<h3 id="stratification"><a href="#stratification">Stratification</a></h3>
+<div class="outline-text-3" id="text-org-element-6">
+<p>
+Although evolving on geological and planetary timescales, the
+atmosphere is globally stable: it is in hydrostatic equilibrium.
+Gravity from the underlying body pulls down, and the change in
+pressure of the gas balances it out. Per unit volume we have:
+</p>
+
+<div class="latex" id="org-element-7">
+<p>
+F<sub>g</sub> = - \frac{GM\rho}{r<sup>2</sup>} = \frac{dP}{dr} \ \ .
+</p>
+
+</div>
+
+<p>
+The pressure \(P\) is the force (that is change in momentum by Newton's
+second law) per unit area caused by the momentum exchange between the
+molecules of the atmosphere colliding.
+</p>
+
+<p>
+The thermal velocity of these molecules is of 100s of m/s at room
+temperature, each molecule moving in a random direction and bumping
+into everything! Because the direction of the thermal motion of the
+molecules is random and equally likely in every direction, pressure is
+<i>isotropic</i>, meaning that it is the same in every direction.
+</p>
+</div>
+</div>
+<div id="outline-container-rotation" class="outline-3">
+<h3 id="rotation"><a href="#rotation">Rotation</a></h3>
+<div class="outline-text-3" id="text-org-element-8">
+<ul class="org-ul">
+<li>Coriolis</li>
+<li>Giant planet support</li>
+<li>Bands on Jupiter</li>
+<li>Vortexes</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-energy-balance" class="outline-3">
+<h3 id="energy-balance"><a href="#energy-balance">Energy balance</a></h3>
+<div class="outline-text-3" id="text-org-element-9">
+<p>
+An atmosphere of a rotating and orbiting planet is constantly being
+<i>forced</i> on the day side by the irradiation of the star providing
+energy. This means that an atmosphere, like any other system, will try
+to balance out the energy input on one side, and reach some
+equilibrium, but the constant and asymmetric driving constantly
+perturbs them. Atmospheres of planetary systems are <i>dynamic</i> systems!
+</p>
+
+<p>
+The constant injection of energy has to be balanced out by the thermal
+radiation losses of the planet. Recall that the thermal radiation only
+depends on the temperature \(T\) (black body). In a stably stratified
+atmosphere, the temperature <i>structure</i> as a function of height \(T(z)\)
+will depend on how easily energy can <i>flow</i> through each layer.
+</p>
+
+<p>
+The processes to transport energy in the interior of a planet and in
+its atmosphere are the same: radiative energy transport by photons,
+conduction by electrons, and convection by bulk motion of matter if
+the first two are insufficient. In an atmosphere (by definition
+transparent to some radiation), the densities are typically low
+(\(\lesssim 1\,\mathrm{kg\ m^{3}}\)) and conduction by electrons is not
+very efficient: radiation and convection are typically more important.
+</p>
+
+<p>
+<b>N.B.:</b> In fact we have already seen an atmospheric example of
+convection in cumulonimbus clouds!
+</p>
+
+<p>
+The fact that the energy input and output of a planet need to match,
+together with the processes that determine the energy losses of the
+planet, determine its temperature structure. At any \(T\neq0\), particles
+(in this case molecules of the atmosphere) have a certain distribution
+of random velocities with average value determined by \(T\), and some
+will be fast enough to escape the gravity of the body!
+</p>
+
+<p>
+The problem with antropo-caused global warming is that in the past &sim;
+150 years we have collectively burned coal and gas: <i>burning</i> by
+definition is a chemical reaction that releases heat and CO<sub>2</sub> which is
+a molecule with many infra-red bands that trap infrared radiation.
+This make the Earth's chemical composition of the atmosphere harder to
+cool down and literally traps thermal energy on the planet.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-cycles" class="outline-2">
+<h2 id="cycles"><a href="#cycles">Cycles</a></h2>
+<div class="outline-text-2" id="text-cycles">
+</div>
+<div id="outline-container-water-cycle" class="outline-3">
+<h3 id="water-cycle"><a href="#water-cycle">Water cycle</a></h3>
+</div>
+
+<div id="outline-container-carbon-cycle" class="outline-3">
+<h3 id="carbon-cycle"><a href="#carbon-cycle">Carbon cycle</a></h3>
 </div>
 </div>
 <div id="outline-container-what-if-there-is-no-surface" class="outline-2">
 <h2 id="what-if-there-is-no-surface"><a href="#what-if-there-is-no-surface">What if there is no "surface"?</a></h2>
-<div class="outline-text-2" id="text-org-element-5">
+<div class="outline-text-2" id="text-org-element-10">
 
-<figure id="org-element-6">
+<figure id="org-element-11">
 <img src="images/gas_giants.png" alt="gas_giants.png" width="100%">
 
 <figcaption><span class="figure-number">Figure 2: </span>Gas giant planets of the solar system with Earth for scale.</figcaption>
@@ -299,7 +454,7 @@ specific chemical composition of the giant planets.
 </p>
 
 
-<figure id="org-element-7">
+<figure id="org-element-12">
 <img src="images/jupiter_structure.png" alt="jupiter_structure.png" width="100%">
 
 <figcaption><span class="figure-number">Figure 3: </span>Comparison of models of the inner structure of Jupiter and the Earth.</figcaption>
