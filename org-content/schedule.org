@@ -151,6 +151,9 @@ DEADLINE: Homework
 
 *** <2026-10-19 Mon> - Planetary atmospheres
 # in class attendance
+
+[[./notes-lecture-14-planetary-atmospheres.org][Notes]]
+
 *** <2026-10-21 Wed> - Sun
 # in class attendance
 # Deadline Homework 8, Assign Homework 9

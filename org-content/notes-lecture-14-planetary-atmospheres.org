@@ -1,0 +1,166 @@
+#+title: ASTR170 Planetary Atmospheres
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: notes-lecture-13-planetary-geology.org
+#+NEXT_PAGE: notes-lecture-15-sun.org
+
+
+Following the spirit of [[./notes-lecture-13-planetary-geology.org][last lecture]], we will focus today on the
+/physical processes that shape the atmosphere of planets/. Once again,
+the physics is the same everywhere, but the specific conditions
+(composition, distance to the star, etc.) of each body in the Solar
+system - and in exoplanetary systems! - determine the variety of
+atmospheric conditions we can find.
+
+And also in analogy with planetary geology, /comparative/ planetary
+atmosphere studies can teach us about our own atmosphere, and the
+massive damage that \sim 200 years of industrial extraction of fossil
+fuels is doing to it. So while it may seem wasteful to study the
+atmospheres of other planets, it's actually one of the best possible
+ways to understand the physics of the complex and chaotic atmosphere
+on Earth, which we cannot replicate at scale in a lab.
+
+* Atmosphere vs. envelope
+- *Atmosphere*: partially transparent to some light (photons coming from
+  this layer have at most one interaction with the gas before
+  free-streaming outwards). The definition of atmosphere is thus
+  related to light-matter interactions.
+
+- *Envelope*: [[./notes-lecture-12-planet-formation.org][we have discussed]] planet formation as a bottom-up process
+  mediated by disks, where a solid core is formed first, and then
+  accretes gravitationally attracted mass. One can think of everything
+  outside the core as an envelope, which however can be solid (e.g.,
+  Earth's mantle) and this statement doesn't say anything about its
+  radiative properties (no transparency requirement)
+
+* Atmospheres
+
+** The Earth
+#+CAPTION: Earth's atmosphere is a thin layer of $\sim100\,\mathrm{km}$ thickness (compared to the radius of $\sim 6000\,mathrm{km}$) of gas, transparent to what is /by definition/ the visible range of the ekectromagnetic spectrum.
+[[./images/atm.webp]]
+
+The Earth's atmosphere is a thin layer of gas, cold enough to be in
+the form of molecules:
+- Nitrogen N_{2} makes the majority of it
+- Oxygen in the form of O_{2} molecules is \sim 16%
+- Other molecules, such as CO_{2}, H_{2}O, CO
+
+Throughout the \sim 4.5 billion-year-long history of the planet, the
+composition of the atmosphere has evolved: early bombardments by
+comets, long periods of volcanic eruptions, biological processes, etc.
+have modified the chemical composition of the atmosphere, and
+consequently the climate on the surface. We have multiple geological
+and fossil evidence (including "carrots" from the ice caps at the
+poles, which literally froze in time conditions). Together with the
+process of surface /erosion/, this is shows that *the atmosphere of a
+planet is connected to its interior*.
+
+Resources: [[https://www.nasa.gov/general/what-is-earths-atmosphere/][from NASA]]
+
+** Other planets
+
+#+BEGIN_HTML
+<!--
+  Atmospheric density vs normalized altitude z/H, isothermal model:
+    rho = rho0 * exp(-z/H),  z = r - R
+  Vertical axis: z/H (linear). Horizontal axis: density (log).
+  Data: NASA NSSDCA Planetary Fact Sheets (D. R. Williams, NASA GSFC)
+    https://nssdc.gsfc.nasa.gov/planetary/factsheet/
+    (venusfact, earthfact, marsfact, jupiterfact, saturnfact, uranusfact, neptunefact .html)
+  R = volumetric mean radius; giant planets use density at 1 bar.
+  Neptune H = midpoint of 19.1-20.3 km.
+  Paste anywhere inside <body>. Hover for values, drag to zoom,
+  double-click to reset, click legend entries to hide/show bodies.
+-->
+<div id="atmo-density-plot" style="width:100%;max-width:820px;height:520px;"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.27.0/plotly.min.js"></script>
+<script>
+(function () {
+  // name: [R km, rho0 kg/m^3, H km]
+  var BODIES = {
+    Venus:   [6051.8, 65.0,  15.9],
+    Earth:   [6371.0, 1.217, 8.5],
+    Mars:    [3389.5, 0.016, 11.0],
+    Jupiter: [69911,  0.16,  27.0],
+    Saturn:  [58232,  0.19,  59.5],
+    Uranus:  [25362,  0.42,  27.7],
+    Neptune: [24622,  0.45,  19.7]
+  };
+  var N_H = 20, N_PTS = 300;
+  var el = document.getElementById("atmo-density-plot");
+  var fg = getComputedStyle(el).color;
+
+  var traces = Object.keys(BODIES).map(function (name) {
+    var R = BODIES[name][0], rho0 = BODIES[name][1], H = BODIES[name][2];
+    var zeta = [], rho = [], extra = [];
+    for (var i = 0; i < N_PTS; i++) {
+      var zh = N_H * i / (N_PTS - 1);
+      zeta.push(zh); rho.push(rho0 * Math.exp(-zh));
+      extra.push([zh * H, R + zh * H]);
+    }
+    return {
+      x: rho, y: zeta, customdata: extra, name: name + " (H = " + H + " km)",
+      mode: "lines", line: { width: 2.5 },
+      hovertemplate: "<b>" + name + "</b><br>z/H = %{y:.2f}" +
+        "<br>z = %{customdata[0]:.1f} km<br>r = %{customdata[1]:,.1f} km" +
+        "<br>ρ = %{x:.3e} kg/m³<extra></extra>"
+    };
+  });
+
+  Plotly.newPlot(el, traces, {
+    title: { text: "Atmospheric density vs normalized altitude (NASA NSSDCA fact sheets)" },
+    xaxis: { type: "log", title: { text: "Density [kg/m³]" }, exponentformat: "power", gridcolor: "rgba(128,128,128,0.25)" },
+    yaxis: { range: [0, N_H], title: { text: "Normalized altitude z/H" }, gridcolor: "rgba(128,128,128,0.25)" },
+    font: { family: "inherit", color: fg },
+    paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)",
+    hovermode: "closest", margin: { t: 50, r: 20, b: 60, l: 80 }
+  }, { responsive: true, displaylogo: false });
+})();
+</script>
+#+END_HTML
+
+
+* What if there is no "surface"?
+
+
+#+CAPTION: Gas giant planets of the solar system with Earth for scale.
+[[file:images/gas_giants.png]]
+
+So far you probably imagined surfaces as something roughly /solid/.
+However, some planets do not have any solid surface at all: the /gas
+giants/! However, we can think of a "surface of last photon
+scattering", or in other words, the radius above which photons can
+freely escape. This is just a statement on the photons propagation,
+not the state of matter, which can be in any phase it wants!
+
+Although gas giants have formed starting from solid planetesimal
+cores, these may have since melted/vaporized under the extreme
+pressure of all the gas they have accreted. This is usually still
+debated, because it depends on the properties of matter that is under
+extreme pressure (the weight of the huge planets), cold, and with the
+specific chemical composition of the giant planets.
+
+#+CAPTION: Comparison of models of the inner structure of Jupiter and the Earth.
+[[file:images/jupiter_structure.png]]
+
+Even if these planets are mostly or completely in gas phase, you
+should not imagine them as a fluffy cloud that it is easy to go
+through: when the /Galileo/ space-craft plunged into Jupiter, it dove
+only down to 200km from the surface before being crushed by the
+pressure of the gas.
+
+As we will discuss in more detail when dealing with stellar structure,
+what holds planets (and stars) up against their own weight and prevent
+them from collapsing to a single point is the /pressure gradient/, that
+is the change in pressure with depth. The gas at the bottom is
+compressed, and has higher pressure than the gas above, and the
+difference in pressure between two layers is exactly the balancing the
+weight of that layer.
+
+Another force that shapes the gas giants is the /centrifugal force/.
+This is an apparent force in the /non-inertial/ frame co-rotating with
+the planet (which corresponds in an inertial non-rotating frame to the
+/centripetal/ force that keeps the velocity accelerating and changing
+direction in the rotating motion). Gas giants typically spin fast
+enough that they are visibly deformed from the spherical shape
+expected for planets.
