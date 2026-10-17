@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-10-17 Sat 14:56 -->
+<!-- 2026-10-17 Sat 14:57 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Planetary Atmospheres</title>
@@ -210,8 +210,7 @@ planet is connected to its interior</b>.
 <div id="outline-container-other-planets" class="outline-3">
 <h3 id="other-planets"><a href="#other-planets">Other planets</a></h3>
 <div class="outline-text-3" id="text-org-element-4">
-<div class="org-src-container">
-<pre class="src src-HTML">&lt;!--
+<!--
   Atmospheric density vs normalized altitude z/H, isothermal model:
     rho = rho0 * exp(-z/H),  z = r - R
   Vertical axis: z/H (linear). Horizontal axis: density (log).
@@ -220,12 +219,12 @@ planet is connected to its interior</b>.
     (venusfact, earthfact, marsfact, jupiterfact, saturnfact, uranusfact, neptunefact .html)
   R = volumetric mean radius; giant planets use density at 1 bar.
   Neptune H = midpoint of 19.1-20.3 km.
-  Paste anywhere inside &lt;body&gt;. Hover for values, drag to zoom,
+  Paste anywhere inside <body>. Hover for values, drag to zoom,
   double-click to reset, click legend entries to hide/show bodies.
---&gt;
-&lt;div id="atmo-density-plot" style="width:100%;max-width:820px;height:520px;"&gt;&lt;/div&gt;
-&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.27.0/plotly.min.js"&gt;&lt;/script&gt;
-&lt;script&gt;
+-->
+<div id="atmo-density-plot" style="width:100%;max-width:820px;height:520px;"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.27.0/plotly.min.js"></script>
+<script>
 (function () {
   // name: [R km, rho0 kg/m^3, H km]
   var BODIES = {
@@ -244,7 +243,7 @@ planet is connected to its interior</b>.
   var traces = Object.keys(BODIES).map(function (name) {
     var R = BODIES[name][0], rho0 = BODIES[name][1], H = BODIES[name][2];
     var zeta = [], rho = [], extra = [];
-    for (var i = 0; i &lt; N_PTS; i++) {
+    for (var i = 0; i < N_PTS; i++) {
       var zh = N_H * i / (N_PTS - 1);
       zeta.push(zh); rho.push(rho0 * Math.exp(-zh));
       extra.push([zh * H, R + zh * H]);
@@ -252,9 +251,9 @@ planet is connected to its interior</b>.
     return {
       x: rho, y: zeta, customdata: extra, name: name + " (H = " + H + " km)",
       mode: "lines", line: { width: 2.5 },
-      hovertemplate: "&lt;b&gt;" + name + "&lt;/b&gt;&lt;br&gt;z/H = %{y:.2f}" +
-        "&lt;br&gt;z = %{customdata[0]:.1f} km&lt;br&gt;r = %{customdata[1]:,.1f} km" +
-        "&lt;br&gt;ρ = %{x:.3e} kg/m³&lt;extra&gt;&lt;/extra&gt;"
+      hovertemplate: "<b>" + name + "</b><br>z/H = %{y:.2f}" +
+        "<br>z = %{customdata[0]:.1f} km<br>r = %{customdata[1]:,.1f} km" +
+        "<br>ρ = %{x:.3e} kg/m³<extra></extra>"
     };
   });
 
@@ -267,9 +266,7 @@ planet is connected to its interior</b>.
     hovermode: "closest", margin: { t: 50, r: 20, b: 60, l: 80 }
   }, { responsive: true, displaylogo: false });
 })();
-&lt;/script&gt;
-</pre>
-</div>
+</script>
 </div>
 </div>
 </div>

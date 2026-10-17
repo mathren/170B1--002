@@ -59,7 +59,7 @@ planet is connected to its interior*.
 
 ** Other planets
 
-#+BEGIN_SRC HTML
+#+BEGIN_EXPORT html
 <!--
   Atmospheric density vs normalized altitude z/H, isothermal model:
     rho = rho0 * exp(-z/H),  z = r - R
@@ -117,7 +117,7 @@ planet is connected to its interior*.
   }, { responsive: true, displaylogo: false });
 })();
 </script>
-#+END_SRC
+#+END_EXPORT
 
 
 * What if there is no "surface"?
