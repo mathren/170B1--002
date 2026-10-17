@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-10-17 Sat 15:35 -->
+<!-- 2026-10-17 Sat 15:37 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Planetary Atmospheres</title>
@@ -218,9 +218,10 @@ of various solar system bodies. To make the comparison possible, the
 </p>
 
 <div class="latex" id="org-element-5">
-<p>
-P(z) &cong; P(z=0)e<sup>-z/H </sup>\ \ ,
-</p>
+\begin{equation}
+\label{eq:pscale}
+P(z) \simeq P(z=0)e^{-z/H } ,
+\end{equation}
 
 </div>
 
@@ -326,16 +327,17 @@ pressure of the gas balances it out. Per unit volume we have:
 </p>
 
 <div class="latex" id="org-element-7">
-<p>
-F<sub>g</sub> = - \frac{GM\rho}{r<sup>2</sup>} = \frac{dP}{dr} \ \ .
-</p>
+\begin{equation}
+F_{g} = - \frac{GM\rho}{r^{2}} = \frac{dP}{dr} \ \ .
+\end{equation}
 
 </div>
 
 <p>
 The pressure \(P\) is the force (that is change in momentum by Newton's
 second law) per unit area caused by the momentum exchange between the
-molecules of the atmosphere colliding.
+molecules of the atmosphere colliding. <b>N.B.:</b> Eq.
+\ref{eq:pscale} is an approximate solution for the hydrostatic equilibrium.
 </p>
 
 <p>

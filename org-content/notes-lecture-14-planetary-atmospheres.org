@@ -66,7 +66,10 @@ of various solar system bodies. To make the comparison possible, the
 "thickness" is scaled by the "pressure scale height" $H$:
 
 #+BEGIN_latex
-P(z) \simeq P(z=0)e^{-z/H }\ \ ,
+\begin{equation}
+\label{eq:pscale}
+P(z) \simeq P(z=0)e^{-z/H } ,
+\end{equation}
 #+END_latex
 
 which represents the height $z$ at which the pressure drops by a
@@ -156,12 +159,15 @@ Gravity from the underlying body pulls down, and the change in
 pressure of the gas balances it out. Per unit volume we have:
 
 #+BEGIN_latex
+\begin{equation}
 F_{g} = - \frac{GM\rho}{r^{2}} = \frac{dP}{dr} \ \ .
+\end{equation}
 #+END_latex
 
 The pressure $P$ is the force (that is change in momentum by Newton's
 second law) per unit area caused by the momentum exchange between the
-molecules of the atmosphere colliding.
+molecules of the atmosphere colliding. *N.B.:* Eq.
+\ref{eq:pscale} is an approximate solution for the hydrostatic equilibrium.
 
 The thermal velocity of these molecules is of 100s of m/s at room
 temperature, each molecule moving in a random direction and bumping
