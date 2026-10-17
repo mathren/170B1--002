@@ -4,6 +4,7 @@
 #+PREVIOUS_PAGE: notes-lecture-13-planetary-geology.org
 #+NEXT_PAGE: notes-lecture-15-sun.org
 
+*Reading:* Chapter 10, [[https://www.nasa.gov/general/what-is-earths-atmosphere/][Earth's atmosphere (NASA)]]
 
 Following the spirit of [[./notes-lecture-13-planetary-geology.org][last lecture]], we will focus today on the
 /physical processes that shape the atmosphere of planets/. Once again,
@@ -55,11 +56,10 @@ poles, which literally froze in time conditions). Together with the
 process of surface /erosion/, this is shows that *the atmosphere of a
 planet is connected to its interior*.
 
-Resources: [[https://www.nasa.gov/general/what-is-earths-atmosphere/][from NASA]]
 
 ** Other planets
 
-#+BEGIN_HTML
+#+BEGIN_SRC HTML
 <!--
   Atmospheric density vs normalized altitude z/H, isothermal model:
     rho = rho0 * exp(-z/H),  z = r - R
@@ -117,7 +117,7 @@ Resources: [[https://www.nasa.gov/general/what-is-earths-atmosphere/][from NASA]
   }, { responsive: true, displaylogo: false });
 })();
 </script>
-#+END_HTML
+#+END_SRC
 
 
 * What if there is no "surface"?
