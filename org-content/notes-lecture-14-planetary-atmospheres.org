@@ -387,6 +387,33 @@ a molecule with many infra-red bands that trap infrared radiation.
 #+CAPTION: Methane (CH_{4}) is a natural product of the digestion of ruminants like cows. The anthropic activity of industrialized cattle farming is a major emitter of green house gases.
 [[./images/cows.jpg]]
 
+* Radiative properties
+
+We have already discussed radiative properties for the green house
+effect: it is all based on the opacity of certain molecules to
+infra-red radiation.
+
+In the visible range, the dominant source of light-matter interactions
+is Rayleigh scattering, where molecules interact preferentially with
+higher frequency photons. During the day, the Sun produces plenty of
+photons of every wavelength following it's black body emission at
+$T\simeq5800\,\mathrm{K}$, but the bluer (higher frequency) photons can
+scattered around, creating the blue haze of any significant mass of
+air (in any direction, think distant mountains).
+
+#+CAPTION: Diagram of why the sky is blue during the day and red at sunrise/sunset.
+[[file:images/bluesky.png]]
+At sunrise or dusk, there is more air for sunlight to get through and
+the blue frequencies are completely scattered away, becoming too faint
+to see, and leaving the red portion visible.
+
+On different planets, with different compositions (and around stars of
+a different temperature), the radiative processes dominant and
+determining the baseline color of the atmosphere may change!
+
+:Question:
+- What color is the sky on the moon?
+:end:
 
 * Cycles
 
