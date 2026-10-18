@@ -4,7 +4,8 @@
 #+PREVIOUS_PAGE: notes-lecture-13-planetary-geology.org
 #+NEXT_PAGE: notes-lecture-15-sun.org
 
-*Reading:* Chapter 10, 11, [[https://www.nasa.gov/general/what-is-earths-atmosphere/][Earth's atmosphere (NASA)]]
+*Reading:* Chapter 10, 11, [[https://www.nasa.gov/general/what-is-earths-atmosphere/][Earth's atmosphere (NASA)]], [[https://www.unep.org/en/publications/report/emissions-gap-report-2025][UN climate report
+2026]] ([[https://wedocs.unep.org/rest/api/core/bitstreams/b95235f9-ab3d-4f30-9db8-2c24065de3ad/content][executive summary here]]), [[https://weather.metoffice.gov.uk/climate-change/what-is-climate-change][UK government report]]
 
 
 - Top Hat Q1: what are the energy transport mechanisms?
@@ -63,9 +64,6 @@ electromagnetic spectrum, but blocks large portions of the high-energy
 photons produced by the Sun.
 
 - Top Hat Q2: why is the sky blue?
-
-
-
 
 Throughout the \sim 4.5 billion-year-long history of the planet, the
 composition of the atmosphere has evolved: early bombardments by
@@ -224,6 +222,11 @@ there is no /direction/ for pressure: it applies the same amount in
 every direction! But you can feel pressure changes, for example on
 take off and landing of a flight.
 
+Pressure is naturally related to temperature (which is what causes the
+velocity of the molecules in the first place), but also density! For
+instance you can feel as you exhale that the air is expanding and
+cooling, which lowers its pressure as it exits your lungs.
+
 Depending on the relationship between thermodynamical quantities
 (pressure $P$, temperature $T$, density $\rho$), so-called /equation of
 state/ (EOS) which in turn depend on the chemical composition, and
@@ -249,10 +252,11 @@ equilibrium, but the constant and asymmetric driving constantly
 perturbs them. Atmospheres of planetary systems are /dynamic/ systems!
 
 The constant injection of energy has to be balanced out by the thermal
-radiation losses of the planet. Recall that the thermal radiation only
-depends on the temperature $T$ (black body). In a stably stratified
-atmosphere, the temperature /structure/ as a function of height $T(z)$
-will depend on how easily energy can /flow/ through each layer.
+radiation losses of the planet. Recall that the thermal radiation
+(black body) only depends on the temperature $T$. In a stably
+stratified atmosphere, the temperature /structure/ as a function of
+height $T(z)$ will depend on how easily energy can /flow/ through each
+layer.
 
 The processes to transport energy in the interior of a planet and in
 its atmosphere are the same: radiative energy transport by photons,
@@ -271,13 +275,6 @@ planet, determine its temperature structure. At any $T\neq0$, particles
 (in this case molecules of the atmosphere) have a certain distribution
 of random velocities with average value determined by $T$, and some
 will be fast enough to escape the gravity of the body!
-
-The problem with antropo-caused global warming is that in the past \sim
-150 years we have collectively burned coal and gas: /burning/ by
-definition is a chemical reaction that releases heat and CO_{2} which is
-a molecule with many infra-red bands that trap infrared radiation.
-This make the Earth's chemical composition of the atmosphere harder to
-cool down and literally traps thermal energy on the planet.
 
 ** Rotation
 
@@ -333,17 +330,61 @@ gasses" have many molecules that contain a very large number of
 electronic transitions corresponding to the energy of IR photons. This
 makes it hard for photons of the thermal radiation to leave the
 planet: instead of leaving, they keep on bumping into electrons of
-these molecules and giving them their energy. The energy is
-effectively /trapped/, and the temperature of the planet increases
-compared to if it did not have a blanket of green-house gas molecules.
+these molecules and giving them their energy. The molecules will also
+de-excite through emission of IR photons, but this process is random
+in direction: an outward moving photon will on average be sent
+backwards many times before making it out. The energy is effectively
+/trapped/, and the temperature of the planet increases compared to if it
+did not have a blanket of green-house gas molecules.
 
-Note that this is /not/ bad: without greenhouse gases on Earth, it would
-be too cold for liquid water!
+*N.B.:* This is a misnomer: greenhouses trap heat not by radiative
+processes, but preventing hot air from rising and cooling as it
+expands.
+
+The Greenhouse effect is /not/ bad: without greenhouse gases on Earth, it would
+be too cold for liquid water! The temperature reached by the planet is
+exactly right to achieve a balance between the energy inputs and
+outputs with the specific composition.
+
+The current problem with global warming is that human industrial
+activities are /increasing/ the number of greenhouse gases in the
+atmosphere. This shifts the natural balance point to a hotter
+atmosphere for thermal radiation (more trapped than before
+industrialization) to balance out the (on average unchanged) solar
+input. This make the Earth's chemical composition of the atmosphere
+harder to cool down and literally traps thermal energy on the planet.
+[[https://science.nasa.gov/resource/interactive-climate-time-machine/][This NASA animation]] shows the global warming of the atmosphere from
+1884 to 2022.
+
+*N.B.:* There is no ambiguity in the scientific community about the
+occurrence of global warming. There is also no ambiguity and
+overwhelming consensus that industrialization of human activities and
+consequent release of large amounts of green house gases previously
+stored inside the rocky portion of Earth are the driving cause. This
+does not exclude minor contributions other than human activities (such
+as solar activity, volcanic eruptions, etc.) that we do not control.
+But the major source of green house gases that has changed in a
+centuries timescale (compared to geological timescales) /is/ undoubtedly
+industrial anthropic activity, and it is also the one we can
+collectively control.
 
 ** Greenhouse gas molecules
 The most important ones are CO_{2} and methane CH_{4}_{}.
 
-#+CAPTION: Methane is a natural product of the digestion of ruminant. The anthropic activity of industrialized cattle farming is a major emitter of green house gases.
+#+CAPTION: Green house gases in the atmosphere of the Earth.
+[[file:images/greenhousegases.png]]
+
+
+The problem with antropo-caused global warming is that in the past \sim
+150 years we have collectively burned coal and gas: /burning/ by
+definition is a chemical reaction that releases heat and CO_{2} which is
+a molecule with many infra-red bands that trap infrared radiation.
+#+CAPTION: Emissions by sector (BBC 2021)
+#+ATTR_HTML: :width 50%
+[[file:images/sources_greenhouse.png]]
+
+
+#+CAPTION: Methane (CH_{4}) is a natural product of the digestion of ruminants like cows. The anthropic activity of industrialized cattle farming is a major emitter of green house gases.
 [[./images/cows.jpg]]
 
 
