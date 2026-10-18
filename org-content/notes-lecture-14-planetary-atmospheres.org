@@ -166,6 +166,11 @@ Venus has the thickest envelope. Is is made mostly of "greenhouse
 gases" that trap infrared radiation: the radiative energy provided by
 the Sun cannot escape and the planet heats up.
 
+
+#+CAPTION: temperature (x-axis) vs. altitude for the 3 rocky planets with atmospheres in the Solar system.
+[[file:images/temperature_altitude.png]]
+
+
 *** Exoplanets
 
 We have already mentioned [[file:notes-lecture-07-light-matter.org::*A more astrophysical example: exoplanet atmospheres][transmission spectroscopy]] as a way study
@@ -237,6 +242,17 @@ atmosphere of a planet.
 #+CAPTION: Temperature on the x-axis with altitude for the Earth. The wiggly arrows show the depth of penetration of photons in the indicated wavelength ranges.
 [[file:images/atm_struct_Earth.png]]
 
+- The troposphere is the lowest layer, in which tempera-
+ture drops with altitude (something you’ve probably
+noticed if you’ve ever climbed a mountain).
+- The stratosphere begins where the temperature stops
+dropping and instead begins to rise with altitude. High
+in the stratosphere, the temperature falls again.*
+- The thermosphere begins where the temperature again
+starts to rise at high altitude.
+- The exosphere is the uppermost region, in which the
+atmosphere gradually fades away into space.
+
 ** Energy balance
 
 Atmospheres (together with [[file:notes-lecture-13-planetary-geology.org::*Magnetosphere][magnetospheres]]) /filter/ the radiation from
@@ -274,7 +290,14 @@ together with the processes that determine the energy losses of the
 planet, determine its temperature structure. At any $T\neq0$, particles
 (in this case molecules of the atmosphere) have a certain distribution
 of random velocities with average value determined by $T$, and some
-will be fast enough to escape the gravity of the body!
+will be fast enough to escape the gravity of the body! Smaller (in
+mass) bodies like Mercury or the Moon have weaker gravity and have
+completely lost their atmospheres.
+
+The injection of energy on one side of the planet causes constant
+"churn" to transport and redistribute the energy: on a /local/ scale (in
+space and time) this causes the /weather/. Increasing the scale
+spatially and averaging over longer timescale we have the /climate/.
 
 ** Rotation
 
@@ -287,25 +310,6 @@ the rotation axis $r=R\sin(\theta)$, and it is maximum at the equator.
 This causes planets to deviate from a perfect sphere, and be "bloated"
 at the equator! This is particularly relevant for the gas giants that
 rotate very fast for their size.
-
-*** Bands
-
-- Jupiter: unique?
-
-
-*** Hurricanes
-
-Wet and powerful storm propagating maintaining their structure because
-of conservation of angular momentum (it's a rotating system of air
-that cannot fall much like a bike going does not fall!)
-
-#+CAPTION: Hurricanes are storms with diameters a significant fraction of the Earth's radius.
-[[./images/hurricane.jpg]]
-
-
-#+CATION: Hurricanes occur on other planets
-[[./images/jupiter_eye.jpg]]
-
 
 * Greenhouse effect
 
@@ -369,11 +373,20 @@ industrial anthropic activity, and it is also the one we can
 collectively control.
 
 ** Greenhouse gas molecules
-The most important ones are CO_{2} and methane CH_{4}_{}.
+The most important ones are CO_{2} and methane CH_{4}_{}. These are relatively
+heavy and trap the heat at low altitude (troposphere).
 
 #+CAPTION: Green house gases in the atmosphere of the Earth.
 [[file:images/greenhousegases.png]]
 
+The high opacity of CO_{2} to IR radiation was first recognized by Eunice
+Newton Foote in the 19^{th} century, and independently rediscovered
+shortly after.
+
+*N.B.:* Science is a collective enterprise, and in the community of
+active researchers ideas tend to appear in multiple places at almost
+the same time very often (even for extremely revolutionary ideas such
+as Einstein's relativity or Newtonian dynamics).
 
 The problem with antropo-caused global warming is that in the past \sim
 150 years we have collectively burned coal and gas: /burning/ by
@@ -387,7 +400,14 @@ a molecule with many infra-red bands that trap infrared radiation.
 #+CAPTION: Methane (CH_{4}) is a natural product of the digestion of ruminants like cows. The anthropic activity of industrialized cattle farming is a major emitter of green house gases.
 [[./images/cows.jpg]]
 
+While replicating at scale the atmosphere is /not/ possible, we can
+study the individual processes at play, e.g.,
+
+
 * Radiative properties
+
+#+CAPTION: typical interaction between photons (increasing energy/frequency going up) with molecules in the atmosphere.
+[[file:images/photon-atm.png]]
 
 We have already discussed radiative properties for the green house
 effect: it is all based on the opacity of certain molecules to
@@ -415,11 +435,61 @@ determining the baseline color of the atmosphere may change!
 - What color is the sky on the moon?
 :end:
 
-* Cycles
+* Weather and Climat
+** Bands
 
-** Water cycle
 
-** Carbon cycle
+** Hurricanes
+
+Wet and powerful storm propagating maintaining their structure because
+of conservation of angular momentum (it's a rotating system of air
+that cannot fall much like a bike going does not fall!)
+
+#+CAPTION: Hurricanes are storms with diameters a significant fraction of the Earth's radius.
+[[./images/hurricane.jpg]]
+
+
+#+CATION: Hurricanes occur on other planets
+[[./images/jupiter_eye.jpg]]
+
+
+
+
+** Cycles
+
+Analogy maybe some of you know: the Nitrogen cycle in an aquarium.
+
+There aren't many nuclear reactions going on on Earth: some
+radioactive decays, some human reactors and bombs, and occasionally
+some lightning can cause small nuclear reactions too. This means
+overall the nuclei available are reused, and reassemble.
+
+The combination of geological, biological, and atmospheric processes
+creates cycles that particular chemical elements (whose properties are
+determined by the electronic bonds across the nuclei in their
+molecules) are constantly drifting.
+
+Most over billions of years have reached some form of stable
+equilibrium, but can be destabilized by exceptional events (collision
+with minor body, development of an industrial species, etc...)
+
+*** Water cycle
+
+
+#+CAPTION: Atmospheric water cycle.
+[[file:images/water-cycle.png]]
+
+
+#+CAPTION: The Carbon geo-atmospheric cycle as it was for 4.5 billion years minus 200 years
+[[./images/carbon-cycle-old.png]]
+
+
+#+CAPTION: The Carbon geo-atmospheric cycle today is being forced by human extraction and fossil fuel usage. This shifts the equilibrium to more CO_{2} in the atmosphere and causes an increase in greenhouse effect and ultimately global warming.
+[[./images/carbon-cycle-full.png]]
+
+*** Carbon cycle
+
+
 
 
 
