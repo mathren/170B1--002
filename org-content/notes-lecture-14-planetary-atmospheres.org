@@ -4,7 +4,7 @@
 #+PREVIOUS_PAGE: notes-lecture-13-planetary-geology.org
 #+NEXT_PAGE: notes-lecture-15-sun.org
 
-*Reading:* Chapter 10, [[https://www.nasa.gov/general/what-is-earths-atmosphere/][Earth's atmosphere (NASA)]]
+*Reading:* Chapter 10, 11, [[https://www.nasa.gov/general/what-is-earths-atmosphere/][Earth's atmosphere (NASA)]]
 
 
 - Top Hat Q1: what are the energy transport mechanisms?
@@ -40,7 +40,8 @@ on Earth, which we cannot replicate at scale in a lab.
   radiative properties (no transparency requirement)
 
 ** The Earth
-#+CAPTION: Earth's atmosphere is a thin layer of $\sim100\,\mathrm{km}$ thickness (compared to the radius of $\sim 6000\,mathrm{km}$) of gas, transparent to what is /by definition/ the visible range of the ekectromagnetic spectrum.
+
+#+CAPTION: Earth's atmosphere is a thin layer of $\sim100\,\mathrm{km}$ thickness.
 [[./images/atm.webp]]
 
 The Earth's atmosphere is a thin layer of gas, cold enough to be in
@@ -48,6 +49,23 @@ the form of molecules:
 - Nitrogen N_{2} makes the majority of it
 - Oxygen in the form of O_{2} molecules is \sim 16%
 - Other molecules, such as CO_{2}, H_{2}O, CO, CH_{4}
+
+The gas is held by the planet's gravity and has a roughly
+exponentially decaying density: there is no sharp boundary, although
+above about $100 \mathrm{km}$ the density becomes so low that
+collisions between molecules are rare. This is conventionally defined
+as the boundary between the atmosphere and space. Compared to the
+radius of $\sim 6000\,mathrm{km}$ of the planet, the atmosphere is a very
+thin layer.
+
+It is transparent to what is /by definition/ the visible range of the
+electromagnetic spectrum, but blocks large portions of the high-energy
+photons produced by the Sun.
+
+- Top Hat Q2: why is the sky blue?
+
+
+
 
 Throughout the \sim 4.5 billion-year-long history of the planet, the
 composition of the atmosphere has evolved: early bombardments by
@@ -150,39 +168,79 @@ Venus has the thickest envelope. Is is made mostly of "greenhouse
 gases" that trap infrared radiation: the radiative energy provided by
 the Sun cannot escape and the planet heats up.
 
+*** Exoplanets
+
+We have already mentioned [[file:notes-lecture-07-light-matter.org::*A more astrophysical example: exoplanet atmospheres][transmission spectroscopy]] as a way study
+exoplanet atmospheres! For a planet orbiting a star other than the
+Sun, we are not able to /resolve/ them, meaning their size is smaller
+than how a telescope spreads a point source. But by looking at the
+spectrum, we can infer not only the chemical composition (e.g.,
+presence of molecules of water or oxygen!), but also the presence of
+clouds and learn about exo-climates!
+
+#+CAPTION: /JWST/ spectrum of an exoplanet with annotated molecules.
+[[./images/exoplanet_atm.jpeg]]
+
 * Atmospheric structure
 
 ** Stratification
 Although evolving on geological and planetary timescales, the
-atmosphere is globally stable: it is in hydrostatic equilibrium.
-Gravity from the underlying body pulls down, and the change in
-pressure of the gas balances it out. Per unit volume we have:
+atmosphere is globally stable: it is in hydrostatic equilibrium. The
+weight of the gas on top of a column compresses the gas below, and
+gravity from the underlying body holds it in place. The change in
+pressure of the gas balances gravity out so the net force is zero and
+there is a static equilibrium. Per unit volume we have:
 
 #+BEGIN_latex
-\begin{equation}
+\begin{equation}\label{eq:HSE}
 F_{g} = - \frac{GM\rho}{r^{2}} = \frac{dP}{dr} \ \ .
 \end{equation}
 #+END_latex
 
+The balance between gravity and the pressure gradient sets the zeroth
+order /structure/ of the atmosphere.
+
+*N.B.:* Eq. \ref{eq:pscale} is an approximate solution for the
+hydrostatic equilibrium /structure/.
+
+*** Pressure
 The pressure $P$ is the force (that is change in momentum by Newton's
 second law) per unit area caused by the momentum exchange between the
-molecules of the atmosphere colliding. *N.B.:* Eq.
-\ref{eq:pscale} is an approximate solution for the hydrostatic equilibrium.
-
-The thermal velocity of these molecules is of 100s of m/s at room
-temperature, each molecule moving in a random direction and bumping
-into everything! Because the direction of the thermal motion of the
-molecules is random and equally likely in every direction, pressure is
-/isotropic/, meaning that it is the same in every direction.
+molecules of the atmosphere colliding. The thermal velocity of these
+molecules is of 100s of m/s at room temperature, each molecule moving
+in a random direction and bumping into everything! Because the
+direction of the thermal motion of the molecules is random and equally
+likely in every direction, pressure is /isotropic/, meaning that it is
+the same in every direction.
 
 
-** Rotation
-- Coriolis
-- Giant planet support
-- Bands on Jupiter
-- Vortexes
+#+CAPTION: The pressure is caused by the momentum exchange in collisions between gas particles moving because of their finite non-zero temperature. Since this motion is random, pressure is isotropic.
+#+ATTR_HTML: :width 50%
+[[file:images/baloon_pressure.png]]
+
+You don't /feel/ any pressure from the atmosphere because the stuff your
+body is made of pushes outward with an equal pressure, and because
+there is no /direction/ for pressure: it applies the same amount in
+every direction! But you can feel pressure changes, for example on
+take off and landing of a flight.
+
+Depending on the relationship between thermodynamical quantities
+(pressure $P$, temperature $T$, density $\rho$), so-called /equation of
+state/ (EOS) which in turn depend on the chemical composition, and
+parameters such as humidity, we can solve for the structure of the
+atmosphere of a planet.
+
+
+#+CAPTION: Temperature on the x-axis with altitude for the Earth. The wiggly arrows show the depth of penetration of photons in the indicated wavelength ranges.
+[[file:images/atm_struct_Earth.png]]
 
 ** Energy balance
+
+Atmospheres (together with [[file:notes-lecture-13-planetary-geology.org::*Magnetosphere][magnetospheres]]) /filter/ the radiation from
+the host star, protecting the planets from some of the high energy
+photons, and trapping some photons allowing to store some energy in
+the form of thermal energy.
+
 An atmosphere of a rotating and orbiting planet is constantly being
 /forced/ on the day side by the irradiation of the star providing
 energy. This means that an atmosphere, like any other system, will try
@@ -220,6 +278,74 @@ definition is a chemical reaction that releases heat and CO_{2} which is
 a molecule with many infra-red bands that trap infrared radiation.
 This make the Earth's chemical composition of the atmosphere harder to
 cool down and literally traps thermal energy on the planet.
+
+** Rotation
+
+Adds a force (the centrifugal force) to the hydrostatic balance, which
+corresponds to another term in Eq. \ref{eq:HSE}. On the rotation axis
+one feels no centrifugal force, it only depends on the distance from
+the rotation axis $r=R\sin(\theta)$, and it is maximum at the equator.
+*N.B.:* This affect also the solid part of a planet if any!
+
+This causes planets to deviate from a perfect sphere, and be "bloated"
+at the equator! This is particularly relevant for the gas giants that
+rotate very fast for their size.
+
+*** Bands
+
+- Jupiter: unique?
+
+
+*** Hurricanes
+
+Wet and powerful storm propagating maintaining their structure because
+of conservation of angular momentum (it's a rotating system of air
+that cannot fall much like a bike going does not fall!)
+
+#+CAPTION: Hurricanes are storms with diameters a significant fraction of the Earth's radius.
+[[./images/hurricane.jpg]]
+
+
+#+CATION: Hurricanes occur on other planets
+[[./images/jupiter_eye.jpg]]
+
+
+* Greenhouse effect
+
+#+CAPTION: Schematic representation of the "green house effect" caused by gas particularly opaque in the infrared.
+[[file:images/greenhouse.png]]
+
+Energy conservation in a planet requires that at equilibrium, what
+goes in must come out.
+
+In this context, what goes in is energy (in the form of radiation)
+from the host star, part of which is reflected by the planet - this is
+how we /see/ other planets in the solar system! - and part is absorbed.
+But the planet temperature doesn't increase steadily over time: the
+energy is re-emitted with the thermal spectrum of the planet, which
+typically peaks in IR (as opposed to the hotter Sun peaking in the
+visible range).
+
+The re-emission of this energy occurs through radiative processes: the
+composition of what is emitting (i.e. the planet) matters! In
+particular, planets such as Venus rich in so-called "green house
+gasses" have many molecules that contain a very large number of
+electronic transitions corresponding to the energy of IR photons. This
+makes it hard for photons of the thermal radiation to leave the
+planet: instead of leaving, they keep on bumping into electrons of
+these molecules and giving them their energy. The energy is
+effectively /trapped/, and the temperature of the planet increases
+compared to if it did not have a blanket of green-house gas molecules.
+
+Note that this is /not/ bad: without greenhouse gases on Earth, it would
+be too cold for liquid water!
+
+** Greenhouse gas molecules
+The most important ones are CO_{2} and methane CH_{4}_{}.
+
+#+CAPTION: Methane is a natural product of the digestion of ruminant. The anthropic activity of industrialized cattle farming is a major emitter of green house gases.
+[[./images/cows.jpg]]
+
 
 * Cycles
 

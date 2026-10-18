@@ -195,6 +195,7 @@ rubble" loosely held together by gravity and shaped by how the parts
 lock into each other, without gravity crushing down the parts into a
 nice spherical shape.
 
+
 * Different planets \rightarrow different structures \rightarrow different surfaces
 
 #+CAPTION: The properties of planets determine the agents shaping their surfaces.
