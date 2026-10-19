@@ -185,7 +185,7 @@ the temperature structure of planets:
 [[file:images/temperature_altitude.png]]
 
 The arrows at the bottom point to the temperature there would be /in
-absence of an atmosphere/ which, because of green house gases acts as a
+absence of an atmosphere/ which, because of greenhouse gases acts as a
 blanket. For Mars, very thin atmosphere, the difference is small, but
 Earth, and especially Venus are significantly hot than they would.
 
@@ -335,14 +335,9 @@ will be fast enough to escape the gravity of the body! Smaller (in
 mass) bodies like Mercury or the Moon have weaker gravity and have
 completely lost their atmospheres.
 
-The injection of energy on one side of the planet causes constant
-"churn" to transport and redistribute the energy: on a /local/ scale (in
-space and time) this causes the /weather/. Increasing the scale
-spatially and averaging over longer timescale we have the /climate/.
-
 * Greenhouse effect
 
-#+CAPTION: Schematic representation of the "green house effect" caused by gas particularly opaque in the infrared.
+#+CAPTION: Schematic representation of the "greenhouse effect" caused by gas particularly opaque in the infrared.
 [[file:images/greenhouse.png]]
 
 Energy conservation in a planet requires that at equilibrium, /what
@@ -362,7 +357,7 @@ planets, an equilibrium has been reached in most cases.
 
 The re-emission of this energy occurs through radiative processes: the
 composition of what is emitting (i.e. the planet) matters! In
-particular, planets such as Venus rich in so-called "green house
+particular, planets such as Venus rich in so-called "greenhouse
 gasses" have many molecules that contain a very large number of
 electronic transitions corresponding to the energy of IR photons. This
 makes it hard for photons of the thermal radiation to leave the
@@ -376,7 +371,8 @@ did not have a blanket of green-house gas molecules.
 
 *N.B.:* This is a misnomer: greenhouses trap heat not by radiative
 processes, but preventing hot air from rising and cooling as it
-expands.
+expands (greenhouses confine the volume of the gas and prevent
+/adiabatic cooling/).
 
 The Greenhouse effect is /not/ bad: without greenhouse gases on Earth,
 it would be too cold for liquid water (cf. Fig. 2 above)! The
@@ -407,11 +403,11 @@ processes can have hard to predict cascade effects. For example:
 *N.B.:* There is no ambiguity in the scientific community about the
 occurrence of global warming. There is also no ambiguity and
 overwhelming consensus that industrialization of human activities and
-consequent release of large amounts of green house gases previously
+consequent release of large amounts of greenhouse gases previously
 stored inside the rocky portion of Earth are the driving cause. This
 does not exclude minor contributions other than human activities (such
 as solar activity, volcanic eruptions, etc.) that we do not control.
-But the major source of green house gases that has changed in a
+But the major source of greenhouse gases that has changed in a
 centuries timescale (compared to geological timescales) /is/ undoubtedly
 industrial anthropic activity, and it is also the one we can
 collectively control.
@@ -420,7 +416,7 @@ collectively control.
 The most important ones are CO_{2} and methane CH_{4}. These are relatively
 heavy and trap the heat at low altitude (troposphere).
 
-#+CAPTION: Green house gases in the atmosphere of the Earth.
+#+CAPTION: greenhouse gases in the atmosphere of the Earth.
 [[file:images/greenhousegases.png]]
 
 The high opacity of CO_{2} to IR radiation was first recognized by [[https://en.wikipedia.org/wiki/Eunice_Newton_Foote][Eunice
@@ -441,7 +437,7 @@ a molecule with many infra-red bands that trap infrared radiation.
 [[file:images/sources_greenhouse.png]]
 
 
-#+CAPTION: Methane (CH_{4}) is a natural product of the digestion of ruminants like cows. The anthropic activity of industrialized cattle farming is a major emitter of green house gases.
+#+CAPTION: Methane (CH_{4}) is a natural product of the digestion of ruminants like cows. The anthropic activity of industrialized cattle farming is a major emitter of greenhouse gases.
 [[./images/cows.jpg]]
 
 While replicating at scale the atmosphere is /not/ possible, we can
@@ -455,7 +451,7 @@ study the individual processes at play, e.g.,
 #+CAPTION: typical interaction between photons (increasing energy/frequency going up) with molecules in the atmosphere.
 [[file:images/photon-atm.png]]
 
-We have already discussed radiative properties for the green house
+We have already discussed radiative properties for the greenhouse
 effect: it is all based on the opacity of certain molecules to
 infra-red radiation.
 
@@ -483,11 +479,56 @@ determining the baseline color of the atmosphere may change!
 - What color is the sky on the moon?
 :end:
 
-* Weather and Climat
+* Weather and Climate
+
+The injection of energy on one side of the planet causes constant
+"churn" to transport and redistribute the energy: on a /local/ scale (in
+space and time) this causes the /weather/. Increasing the scale
+spatially and averaging over longer timescale we have the /climate/.
+
+The interplay between atmospheric and geophysics, the role of the
+external forcing by stellar light, and the high non-linearity of the
+system make both hard to predict -- and comparing with observations
+outside of Earth provides valuable constraints to understand these
+phenomena we cannot replicate at scale.
+
 ** Bands
 
+If you think of say Jupiter, you probably immediately picture a planet
+with "bands".
+
+#+CAPTION: /JWST/ IR image of Jupiter, with zoom in on the famous giant storm of Jupiter.
+[[./images/JWST-jupiter.jpg]]
+
+Those are /not/ unique to Jupiter, but appear on all
+fast-rotating planets, gas-giants (e.g., Saturn, Neptune, Uranus), and
+rocky planets too!
+
+#+CAPTION: All giant planets show hints of bands in /JWST/ IR images, together with rings leftover from their accretion disks.
+[[./images/webbringedplanets-640x640.jpg]]
+
+Those bands track the typical wind direction: even Earth has these
+bands! The jet stream current, which seeds (together with flows from
+the Gulf of Mexico) tornados in Tornado alley, and makes your eastward
+flights faster than the westward flights is an example!
+
+#+CAPTION: Earth's average wind directions as a function of latitude.
+[[file:images/Earth-bands.png]]
+
+
+The depth at which bands appear depends on the temperature structure
+and composition of the planets: even if not visible in the optical/IR,
+the latitudinal flow exists on fast rotating planets, driven primarily
+by the Solar input of energy on the day side and attempt of the
+planets to redistribute it.
 
 ** Hurricanes
+
+#+CATION: Hurricanes occur on other planets
+[[./images/jupiter_eye.jpg]]
+
+*N.B.:* The size of Jupiter's giant eye storm is several times the size
+of the planet Earth!
 
 Wet and powerful storm propagating maintaining their structure because
 of conservation of angular momentum (it's a rotating system of air
@@ -497,20 +538,23 @@ that cannot fall much like a bike going does not fall!)
 [[./images/hurricane.jpg]]
 
 
-#+CATION: Hurricanes occur on other planets
-[[./images/jupiter_eye.jpg]]
+Hurricanes are so large that their propagation is influenced by the
+Coriolis force, which is a force felt by a moving object in a rotating
+reference frame (think walking around on a merry-go-around!): this is
+why storms have opposite rotation in the northern and southern
+hemisphere.
 
-
+#+CAPTION: Direction of circulation of storms in the Pacitic Ocean.
+[[file:images/storm-circ.png]]
 
 
 ** Cycles
 
-Analogy maybe some of you know: the Nitrogen cycle in an aquarium.
-
-There aren't many nuclear reactions going on on Earth: some
+There aren't many nuclear reactions occurring on planets: some
 radioactive decays, some human reactors and bombs, and occasionally
 some lightning can cause small nuclear reactions too. This means
-overall the nuclei available are reused, and reassemble.
+overall the nuclei available are reused, and reassemble. An analogy
+maybe some of you know: the Nitrogen cycle in an aquarium.
 
 The combination of geological, biological, and atmospheric processes
 creates cycles that particular chemical elements (whose properties are
@@ -526,6 +570,7 @@ with minor body, development of an industrial species, etc...)
 #+CAPTION: Atmospheric water cycle.
 [[file:images/water-cycle.png]]
 
+*** Carbon cycle
 
 #+CAPTION: The Carbon geo-atmospheric cycle as it was for 4.5 billion years minus 200 years
 [[./images/carbon-cycle-old.png]]
@@ -534,10 +579,8 @@ with minor body, development of an industrial species, etc...)
 #+CAPTION: The Carbon geo-atmospheric cycle today is being forced by human extraction and fossil fuel usage. This shifts the equilibrium to more CO_{2} in the atmosphere and causes an increase in greenhouse effect and ultimately global warming.
 [[./images/carbon-cycle-full.png]]
 
-*** Carbon cycle
 
-
-
+Because of the role of CO_{2} as a greenhouse gas
 
 
 * What if there is no "surface"?
