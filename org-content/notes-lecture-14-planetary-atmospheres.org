@@ -163,12 +163,13 @@ factor of $e\simeq2.71$ .
 #+END_EXPORT
 
 Small bodies (but big enough to be self-gravitating) have a weaker
-gravity: it makes it easier for an atmosphere to escape it. Atmosphere
-can, over time evaporate! For this reason, for example, the Moon and
-Mercury do not have atmospheres (missing in the plot above!). Even on
-Mars the atmosphere is significantly smaller than on Earth, with a
-surface ($z/H\simeq0$) about 100 times less dense than on Earth. This,
-regardless of composition, is unsuitable to sustain human life.
+gravity: it makes it easier for an atmosphere to escape it.
+Atmospheres can, over time evaporate! For this reason, for example,
+the Moon and Mercury do not have atmospheres (missing in the plot
+above!). Even on Mars the atmosphere is significantly smaller than on
+Earth, with a surface ($z/H\simeq0$) about 100 times less dense than on
+Earth. This, regardless of composition, is unsuitable to sustain human
+life.
 
 *N.B.:* the density on the x axis is on a logarithmic scale!
 
