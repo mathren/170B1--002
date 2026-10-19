@@ -422,14 +422,13 @@ collectively control.
 
 ** Greenhouse gas molecules
 The most important ones are CO_{2} and methane CH_{4}. These are relatively
-heavy and trap the heat at low altitude (troposphere).
+heavy and trap the heat at low altitude (troposphere). The high
+opacity of CO_{2} to IR radiation was first recognized by [[https://en.wikipedia.org/wiki/Eunice_Newton_Foote][Eunice Newton
+Foote in the 19^{th} century]].
+
 
 #+CAPTION: greenhouse gases in the atmosphere of the Earth.
 [[file:images/greenhousegases.png]]
-
-The high opacity of CO_{2} to IR radiation was first recognized by [[https://en.wikipedia.org/wiki/Eunice_Newton_Foote][Eunice
-Newton Foote in the 19^{th} century]], and independently rediscovered
-shortly after.
 
 *N.B.:* Science is a collective enterprise, and in the community of
 active researchers ideas tend to appear in multiple places at almost
