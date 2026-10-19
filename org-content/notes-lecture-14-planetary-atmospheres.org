@@ -643,6 +643,11 @@ industrial agriculture) is /forcing/ the CO_{2} cycle to a new equilibrium
 point:
 
 
+#+CAPTION: More CO_{2} \Leftrightarrow more greenhouse effect trapping of IR radiation and thus thermal energy  \Leftrightarrow hotter equilibrium point.
+[[file:images/shift-co2-cycle.png]]
+
+
+
 * What if there is no "surface"?
 
 
