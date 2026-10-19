@@ -7,9 +7,7 @@
 *Reading:* Chapter 10, 11, [[https://www.nasa.gov/general/what-is-earths-atmosphere/][Earth's atmosphere (NASA)]], [[https://www.unep.org/en/publications/report/emissions-gap-report-2025][UN climate report
 2026]] ([[https://wedocs.unep.org/rest/api/core/bitstreams/b95235f9-ab3d-4f30-9db8-2c24065de3ad/content][executive summary here]]), [[https://weather.metoffice.gov.uk/climate-change/what-is-climate-change][UK government report]]
 
-
-- Top Hat Q1: what are the energy transport mechanisms?
-
+- Top Hat Q1, Q2
 
 Following the spirit of [[./notes-lecture-13-planetary-geology.org][last lecture]], we will focus today on the
 /physical processes that shape the atmosphere of planets/. Once again,
@@ -42,7 +40,7 @@ on Earth, which we cannot replicate at scale in a lab.
 
 ** The Earth
 
-#+CAPTION: Earth's atmosphere is a thin layer of $\sim100\,\mathrm{km}$ thickness.
+#+CAPTION: Earth's atmosphere is a thin layer, roughly exponentially stratified (no sharp edge), with the bulk of the mass below an altitude of $\sim100\,\mathrm{km}$.
 [[./images/atm.webp]]
 
 The Earth's atmosphere is a thin layer of gas, cold enough to be in
@@ -53,10 +51,10 @@ the form of molecules:
 
 The gas is held by the planet's gravity and has a roughly
 exponentially decaying density: there is no sharp boundary, although
-above about $100 \mathrm{km}$ the density becomes so low that
+above about $100\,\mathrm{km}$ the density becomes so low that
 collisions between molecules are rare. This is conventionally defined
 as the boundary between the atmosphere and space. Compared to the
-radius of $\sim 6000\,mathrm{km}$ of the planet, the atmosphere is a very
+radius of $\sim 6000\,\mathrm{km}$ of the planet, the atmosphere is a very
 thin layer.
 
 It is transparent to what is /by definition/ the visible range of the

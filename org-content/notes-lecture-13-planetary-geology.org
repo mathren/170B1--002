@@ -295,7 +295,6 @@ ocean under its crust and give it energy (so called /tidal heating/)!
 [[file:images/io-tides.png]]
 
 
-
 ** Erosion
 
 #+CAPTION: The Gran Canyon is the result of millions of years of erosion by the Colorado river.
