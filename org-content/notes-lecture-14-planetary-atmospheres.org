@@ -251,15 +251,16 @@ You don't /feel/ any pressure from the atmosphere because the stuff your
 body is made of pushes outward with an equal pressure, and because
 there is no /direction/ for pressure: it applies the same amount in
 every direction! But you can feel pressure changes, for example on
-take off and landing of a flight. This is called /adiabatic expansion
-and cooling/ where "adiabatic" means that there is no exchange of heat
-between the flow and the environment, and the cooling comes just from
-the expansion.
+take off and landing of a flight.
 
 Pressure is naturally related to temperature (which is what causes the
 velocity of the molecules in the first place), but also density! For
 instance you can feel as you exhale that the air is expanding and
-cooling, which lowers its pressure as it exits your lungs.
+cooling, which lowers its pressure as it exits your lungs. This is
+called /adiabatic expansion and cooling/ where "adiabatic" means that
+there is no exchange of heat between the flow and the environment, and
+the cooling comes just from the expansion.
+
 
 Depending on the relationship between thermodynamical quantities
 (pressure $P$, temperature $T$, density $\rho$), so-called /equation of
