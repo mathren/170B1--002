@@ -417,7 +417,7 @@ industrial anthropic activity, and it is also the one we can
 collectively control.
 
 ** Greenhouse gas molecules
-The most important ones are CO_{2} and methane CH_{4}_{}. These are relatively
+The most important ones are CO_{2} and methane CH_{4}. These are relatively
 heavy and trap the heat at low altitude (troposphere).
 
 #+CAPTION: Green house gases in the atmosphere of the Earth.
