@@ -462,13 +462,15 @@ infra-red radiation.
 In the visible range, the dominant source of light-matter interactions
 is Rayleigh scattering, where molecules interact preferentially with
 higher frequency photons. During the day, the Sun produces plenty of
-photons of every wavelength following it's black body emission at
+photons of every wavelength following its black body emission at
 $T\simeq5800\,\mathrm{K}$, but the bluer (higher frequency) photons can
 scattered around, creating the blue haze of any significant mass of
 air (in any direction, think distant mountains).
 
-#+CAPTION: Diagram of why the sky is blue during the day and red at sunrise/sunset.
-[[file:images/bluesky.png]]
+#+CAPTION: Diagram of why the sky is blue during the day and red at sunrise/sunset
+[[./images/bluesky.png]]
+
+
 At sunrise or dusk, there is more air for sunlight to get through and
 the blue frequencies are completely scattered away, becoming too faint
 to see, and leaving the red portion visible.
