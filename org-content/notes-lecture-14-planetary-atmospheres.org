@@ -227,6 +227,11 @@ order /structure/ of the atmosphere.
 *N.B.:* Eq. \ref{eq:pscale} is an approximate solution for the
 hydrostatic equilibrium /structure/.
 
+:Question:
+- compare the dimensions (units) on the left and right hand side of
+  Eq. \ref{eq:HSE}
+:end:
+
 *** Pressure
 The pressure $P$ is the force (that is change in momentum by Newton's
 second law) per unit area caused by the momentum exchange between the
