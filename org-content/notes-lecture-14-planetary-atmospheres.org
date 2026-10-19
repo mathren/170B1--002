@@ -448,6 +448,11 @@ a molecule with many infra-red bands that trap infrared radiation.
 #+CAPTION: Methane (CH_{4}) is a natural product of the digestion of ruminants like cows. The anthropic activity of industrialized cattle farming is a major emitter of greenhouse gases.
 [[./images/cows.jpg]]
 
+While replicating at scale the atmosphere is /not/ possible, we can
+study the individual processes at play, e.g., opacity of a specific
+molecule, in a lab, and compare to other planets (e.g., Venus) to
+understand the impact of the microphysics on a global/planetary scale.
+
 
 * Radiative properties
 
