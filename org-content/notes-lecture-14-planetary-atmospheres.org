@@ -406,7 +406,10 @@ processes can have hard to predict cascade effects. For example:
   Earth \rightarrow  worsening of global warming.
 - global warming \rightarrow ocean temperature increase \rightarrow reduced capacity of
   the ocean to store CO_{2}
-
+These can create /feedback loops/ where an initial imbalance causes
+effects that drive the system further out of balance - and in ways
+that are extremely challenging to predict and thus manage because of
+the inherent complexity of the system.
 
 *N.B.:* There is no ambiguity in the scientific community about the
 occurrence of global warming. There is also no ambiguity and
