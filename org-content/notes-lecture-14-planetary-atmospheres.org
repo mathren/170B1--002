@@ -65,9 +65,12 @@ photons produced by the Sun.
 
 Throughout the \sim 4.5 billion-year-long history of the planet, the
 composition of the atmosphere has evolved: early bombardments by
-comets, long periods of volcanic eruptions, biological processes, etc.
-have modified the chemical composition of the atmosphere, and
-consequently the climate on the surface. We have multiple geological
+comets depositing large amounts of H_{2}O, long periods of volcanic
+eruptions releasing CO_{2} and other gases trapped in the interior,
+biological processes (cyanobacteria releasing molecular O_{2}), etc. The
+modifications these processes introduced in the chemical composition
+of the atmosphere, and consequently the physical processes that
+determine the status of the atmosphere. We have multiple geological
 and fossil evidence (including "carrots" from the ice caps at the
 poles, which literally froze in time conditions). Together with the
 process of surface /erosion/, this is shows that *the atmosphere of a
