@@ -548,7 +548,6 @@ as in the figure below:
 the Coriolis force $\propto \omega \times v$, causing winds in the latitudinal
 directions.
 
-
 #+CAPTION: The Coriolis force arises in a rotating frame because different radii with the same angular velocity $\omega$ rotate at a different speed $v=\omega r$. If there is motion perpendicular to the rotation axis, the difference in velocity as one moves in the rotating frame causes a deviation.
 [[file:images/coriolis.png]]
 
@@ -577,6 +576,15 @@ hemisphere.
 
 #+CAPTION: Direction of circulation of storms in the Pacitic Ocean.
 [[file:images/storm-circ.png]]
+
+*N.B.:* The Coriolis force is at the center of a famously /wrong/ [[https://www.youtube.com/watch?v=iFB09NAVDG0][Simpsons]]
+episode: for it to matter, the scale of the flow needs to be a
+significant fraction of the Earth's radius! Only then the difference
+in $R\sin(\theta)$ between parts of the storm will be large enough for this
+force to matter: in a toilet bowl, the flow is determined by the shape
+of the bowl, and the difference in Coriolis between sides of the flow
+is completely negligible.
+
 
 ** Stable vortexes
 
