@@ -217,7 +217,7 @@ there is a static equilibrium. Per unit volume we have:
 
 #+BEGIN_latex
 \begin{equation}\label{eq:HSE}
-F_{g} = - \frac{GM\rho}{r^{2}} = \frac{dP}{dr} \ \ .
+\frac{F_{g}}{V} = - \frac{GMm}{r^{2}V} = - \frac{GM\rho}{r^{2}} = \frac{dP}{dr} \ \ .
 \end{equation}
 #+END_latex
 
