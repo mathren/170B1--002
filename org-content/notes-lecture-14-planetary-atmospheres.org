@@ -302,10 +302,12 @@ rotate very fast for their size.
 
 ** Energy balance
 
-Atmospheres (together with [[file:notes-lecture-13-planetary-geology.org::*Magnetosphere][magnetospheres]]) /filter/ the radiation from
-the host star, protecting the planets from some of the high energy
-photons, and trapping some photons allowing to store some energy in
-the form of thermal energy.
+Atmospheres /filter/ the radiation from the host star, protecting the
+planets from some of the high energy photons, and trapping some
+photons allowing to store some energy in the form of thermal energy.
+Together with [[file:notes-lecture-13-planetary-geology.org::*Magnetosphere][magnetospheres]] protecting from the stellar wind (stream
+of protons investing the planet), atmospheres thus act as a /shield/ for
+the planet, but also a /blanket/.
 
 An atmosphere of a rotating and orbiting planet is constantly being
 /forced/ on the day side by the irradiation of the star providing
