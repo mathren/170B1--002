@@ -71,8 +71,6 @@ It is transparent to what is /by definition/ the visible range of the
 electromagnetic spectrum, but blocks large portions of the high-energy
 photons produced by the Sun.
 
-- Top Hat Q2: why is the sky blue?
-
 Throughout the \sim 4.5 billion-year-long history of the planet, the
 composition of the atmosphere has evolved: early bombardments by
 comets depositing large amounts of H_{2}O, long periods of volcanic
@@ -82,9 +80,10 @@ modifications these processes introduced in the chemical composition
 of the atmosphere, and consequently the physical processes that
 determine the status of the atmosphere. We have multiple geological
 and fossil evidence (including "carrots" from the ice caps at the
-poles, which literally froze in time conditions). Together with the
-process of surface /erosion/, this is shows that *the atmosphere of a
-planet is connected to its interior*.
+poles, which literally froze in time conditions) for these changes,
+and we can also determine the /timescale/ over which these occurred.
+Together with the process of surface /erosion/, this is shows that *the
+atmosphere of a planet is connected to its interior*.
 
 ** Other planets
 
@@ -455,6 +454,8 @@ We have already discussed radiative properties for the greenhouse
 effect: it is all based on the opacity of certain molecules to
 infra-red radiation.
 
+- Top Hat Q2: why is the sky blue?
+
 In the visible range, the dominant source of light-matter interactions
 is Rayleigh scattering, where molecules interact preferentially with
 higher frequency photons. During the day, the Sun produces plenty of
@@ -529,7 +530,7 @@ hot air raises, while at the poles (where the incidence angle of
 Sunlight is maximum), cold air sinks. This produces two circulations
 as in the figure below:
 
-#+CAPTION: Sketch of Halley circulation cells in a non-rotating Earth
+#+CAPTION: Sketch of Hadley circulation cells in a non-rotating Earth.
 [[file:images/circulation.png]]
 
 (Fast) rotation of the planet then twists these circulations through
@@ -539,7 +540,6 @@ directions.
 
 #+CAPTION: The Coriolis force arises in a rotating frame because different radii with the same angular velocity $\omega$ rotate at a different speed $v=\omega r$. If there is motion perpendicular to the rotation axis, the difference in velocity as one moves in the rotating frame causes a deviation.
 [[file:images/coriolis.png]]
-
 
 
 ** Hurricanes
