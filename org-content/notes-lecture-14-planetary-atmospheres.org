@@ -522,6 +522,20 @@ the latitudinal flow exists on fast rotating planets, driven primarily
 by the Solar input of energy on the day side and attempt of the
 planets to redistribute it.
 
+
+How do these bands form? At the equator, where the Sun light impacts
+the planet at a smaller angle, thus deposit energy more efficiently,
+hot air raises, while at the poles (where the incidence angle of
+Sunlight is maximum), cold air sinks. This produces two circulations
+as in the figure below:
+
+#+CAPTION: Sketch of Halley circulation cells in a non-rotating Earth
+[[file:images/circulation.png]]
+
+(Fast) rotation of the planet then twists these circulations through
+the Coriolis force $\propto \omega \times v$, causing winds in the latitudinal
+directions.
+
 ** Hurricanes
 
 #+CATION: Hurricanes occur on other planets
