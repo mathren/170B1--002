@@ -384,9 +384,9 @@ expands (greenhouses confine the volume of the gas and prevent
 
 The Greenhouse effect is /not/ bad: without greenhouse gases on Earth,
 it would be too cold for liquid water (cf. Fig. 2 above)! The
-temperature reached by the planet is exactly right to achieve a
-balance between the energy inputs and outputs with the specific
-composition.
+temperature and composition structure $T(z)$ reached by the planet is
+exactly right to achieve a balance between the energy inputs and
+outputs with the specific composition.
 
 The current problem with global warming is that human industrial
 activities are /increasing/ the number of greenhouse gases in the
