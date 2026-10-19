@@ -577,6 +577,10 @@ structures:
 #+CAPTION: The structure of the poles of saturn appears as an exagon: this is formed by 6 massive stable counter-rotating hurricane-like structures on each side!
 [[./images/saturn_exagons.gif]]
 
+#+CATION: Even rocky planets with atmospheres have polar vortexes, this is a composite image of Venus (optical and IR).
+[[./images/venus-polar-vortex.png]]
+
+
 On Earth too there are these polar structures, for example the hole in
 the Ozone layer is roughly confined to the southern hemisphere by
 structures similar to the polar vortexes in Saturn and Jupiter.
@@ -633,7 +637,10 @@ with minor body, development of an industrial species, etc...)
 [[./images/carbon-cycle-full.png]]
 
 
-Because of the role of CO_{2} as a greenhouse gas
+Because of the role of CO_{2} as a greenhouse gas, the addition in the
+past \sim200 years of human influence (through industry, transport,
+industrial agriculture) is /forcing/ the CO_{2} cycle to a new equilibrium
+point:
 
 
 * What if there is no "surface"?
