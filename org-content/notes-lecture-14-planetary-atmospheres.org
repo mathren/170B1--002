@@ -99,7 +99,7 @@ P(z) \simeq P(z=0)e^{-z/H } ,
 #+END_latex
 
 which represents the height $z$ at which the pressure drops by a
-factor of $e=2.71..$.
+factor of $e\simeq2.71$ .
 
 #+CAPTION: Comparison of the height above the surface and density of atmosphere on Solar system bodies. The altitude is normalized to the "pressure scale height" $H$, that is the typical length over which a significant change in pressure occurs.
 #+BEGIN_EXPORT html
