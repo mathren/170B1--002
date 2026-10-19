@@ -256,16 +256,16 @@ atmosphere of a planet.
 #+CAPTION: Temperature on the x-axis with altitude for the Earth. The wiggly arrows show the depth of penetration of photons in the indicated wavelength ranges.
 [[file:images/atm_struct_Earth.png]]
 
-- The troposphere is the lowest layer, in which tempera-
-ture drops with altitude (something you’ve probably
-noticed if you’ve ever climbed a mountain).
-- The stratosphere begins where the temperature stops
-dropping and instead begins to rise with altitude. High
-in the stratosphere, the temperature falls again.*
-- The thermosphere begins where the temperature again
-starts to rise at high altitude.
-- The exosphere is the uppermost region, in which the
-atmosphere gradually fades away into space.
+- The troposphere is the lowest layer, in which temperature drops with
+  altitude (something you’ve probably noticed if you’ve ever climbed a
+  mountain).
+- The stratosphere begins where the temperature stops dropping and
+  instead begins to rise with altitude. High in the stratosphere, the
+  temperature falls again.
+- The thermosphere begins where the temperature again starts to rise
+  at high altitude.
+- The exosphere is the uppermost region, in which the atmosphere
+  gradually fades away into space.
 
 ** Energy balance
 
