@@ -92,8 +92,6 @@ P(z) \simeq P(z=0)e^{-z/H } ,
 which represents the height $z$ at which the pressure drops by a
 factor of $e=2.71..$.
 
-Note that the density on the x axis is on a logarithmic scale!
-
 #+CAPTION: Comparison of the height above the surface and density of atmosphere on Solar system bodies. The altitude is normalized to the "pressure scale height" $H$, that is the typical length over which a significant change in pressure occurs.
 #+BEGIN_EXPORT html
 <!--
@@ -157,20 +155,32 @@ Note that the density on the x axis is on a logarithmic scale!
 
 Small bodies (but big enough to be self-gravitating) have a weaker
 gravity: it makes it easier for an atmosphere to escape it. Atmosphere
-can, over time evaporate!
+can, over time evaporate! For this reason, for example, the Moon and
+Mercury do not have atmospheres (missing in the plot above!). Even on
+Mars the atmosphere is significantly smaller than on Earth, with a
+surface ($z/H\simeq0$) about 100 times less dense than on Earth. This,
+regardless of composition, is unsuitable to sustain human life.
 
-For this reason, for example, the Moon and Mercury do not have
-atmospheres. Even on Mars the atmosphere is significantly smaller than
-on Earth, unsuitable to sustain human life.
+*N.B.:* the density on the x axis is on a logarithmic scale!
 
 Venus has the thickest envelope. Is is made mostly of "greenhouse
 gases" that trap infrared radiation: the radiative energy provided by
 the Sun cannot escape and the planet heats up.
 
+Thanks to robotic in-situ probes, artificial satellite plunge-ins, and
+observations across the electromagnetic spectrum, we can also compare
+the temperature structure of planets:
 
 #+CAPTION: temperature (x-axis) vs. altitude for the 3 rocky planets with atmospheres in the Solar system.
 [[file:images/temperature_altitude.png]]
 
+The arrows at the bottom point to the temperature there would be /in
+absence of an atmosphere/ which, because of green house gases acts as a
+blanket. For Mars, very thin atmosphere, the difference is small, but
+Earth, and especially Venus are significantly hot than they would.
+
+Before discussing in detail greenhouse effect, let's continue an
+overview of planetary atmospheres going /outside/ the solar system.
 
 *** Exoplanets
 
