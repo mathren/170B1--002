@@ -394,6 +394,16 @@ harder to cool down and literally traps thermal energy on the planet.
 [[https://science.nasa.gov/resource/interactive-climate-time-machine/][This NASA animation]] shows the global warming of the atmosphere from
 1884 to 2022.
 
+Another complication is the high non-linearity of the atmosphere: it
+is /not/ just the sum of its parts, but instead combining physical
+processes can have hard to predict cascade effects. For example:
+- global warming \rightarrow melting of ice caps \rightarrow reduction of the reflectivity
+  of Earth \rightarrow more energy from the Sun is captured and stored by the
+  Earth \rightarrow  worsening of global warming.
+- global warming \rightarrow ocean temperature increase \rightarrow reduced capacity of
+  the ocean to store CO_{2}
+
+
 *N.B.:* There is no ambiguity in the scientific community about the
 occurrence of global warming. There is also no ambiguity and
 overwhelming consensus that industrialization of human activities and
