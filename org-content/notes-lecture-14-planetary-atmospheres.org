@@ -561,8 +561,47 @@ hemisphere.
 #+CAPTION: Direction of circulation of storms in the Pacitic Ocean.
 [[file:images/storm-circ.png]]
 
+** Stable vortexes
 
-** Cycles
+As the Red spot storm on Jupiter demonstrates, some structures in a
+planetary atmosphere can be persistent and stable for long periods of
+time. The cause it typically conservation of angular momentum which
+stabilizes these flows (much like it stabilizes a bike moving).
+
+This, especially next to the poles, can lead to long-lived vortex
+structures:
+
+#+CAPTION: Polar vortexes on Jupiter observed by the Juno spacecraft.
+[[./images/juno-jupiter-vortex.jpg]]
+
+#+CAPTION: The structure of the poles of saturn appears as an exagon: this is formed by 6 massive stable counter-rotating hurricane-like structures on each side!
+[[./images/saturn_exagons.gif]]
+
+On Earth too there are these polar structures, for example the hole in
+the Ozone layer is roughly confined to the southern hemisphere by
+structures similar to the polar vortexes in Saturn and Jupiter.
+
+[[https://earth.nullschool.net/#current/wind/surface/level/orthographic=-70.51,-79.35,400/loc=89.428,-52.254][windy]] is a free online website or app to visualize global atmospheric
+models of the Earth, the link points to the South pole and you can see
+the predicted wind flow by various models (by default the GFS model
+run by the UN National weather service).
+
+
+*N.B.:* The hole in the Ozone layer (which allows more UV radiation to
+come through, since Ozone, or O_{3} is a molecule blocking the UV, and
+thus leads to higher skin cancer rates in the southern hemisphere) is
+an example of how /coordinated human action on a global scale/ *can*
+impact and mitigate the damage made by human activities. The hole was
+caused by emission of specific molecules/aerosols by human activities,
+banned in the late 80s, and we see since then the Ozone hole has
+decreased in size! The video below shows NASA data (blue = less ozone)
+from 1979 to 2007: you can clearly see that the hole is confined
+roughly over Antartica, and possibly shrinking in size post-1980s
+
+#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/taTzqRHNIEc?si=7sW0tVau1QViopNu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+* Cycles
 
 There aren't many nuclear reactions occurring on planets: some
 radioactive decays, some human reactors and bombs, and occasionally
