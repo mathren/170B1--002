@@ -423,8 +423,8 @@ heavy and trap the heat at low altitude (troposphere).
 #+CAPTION: Green house gases in the atmosphere of the Earth.
 [[file:images/greenhousegases.png]]
 
-The high opacity of CO_{2} to IR radiation was first recognized by Eunice
-Newton Foote in the 19^{th} century, and independently rediscovered
+The high opacity of CO_{2} to IR radiation was first recognized by [[https://en.wikipedia.org/wiki/Eunice_Newton_Foote][Eunice
+Newton Foote in the 19^{th} century]], and independently rediscovered
 shortly after.
 
 *N.B.:* Science is a collective enterprise, and in the community of
@@ -449,6 +449,8 @@ study the individual processes at play, e.g.,
 
 
 * Radiative properties
+
+- Top Hat Q3
 
 #+CAPTION: typical interaction between photons (increasing energy/frequency going up) with molecules in the atmosphere.
 [[file:images/photon-atm.png]]
