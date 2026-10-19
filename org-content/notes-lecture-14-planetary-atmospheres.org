@@ -56,7 +56,7 @@ on Earth, which we cannot replicate at scale in a lab.
 The Earth's atmosphere is a thin layer of gas, cold enough to be in
 the form of molecules:
 - Nitrogen N_{2} makes the majority of it (\sim 78%)
-- Oxygen in the form of O_{2} molecules is \sim 16%
+- Oxygen in the form of O_{2} molecules is \sim 21%
 - Other molecules, such as CO_{2}, H_{2}O, CO, CH_{4}
 
 The gas is held by the planet's gravity and has a roughly
