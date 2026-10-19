@@ -378,10 +378,11 @@ did not have a blanket of green-house gas molecules.
 processes, but preventing hot air from rising and cooling as it
 expands.
 
-The Greenhouse effect is /not/ bad: without greenhouse gases on Earth, it would
-be too cold for liquid water! The temperature reached by the planet is
-exactly right to achieve a balance between the energy inputs and
-outputs with the specific composition.
+The Greenhouse effect is /not/ bad: without greenhouse gases on Earth,
+it would be too cold for liquid water (cf. Fig. 2 above)! The
+temperature reached by the planet is exactly right to achieve a
+balance between the energy inputs and outputs with the specific
+composition.
 
 The current problem with global warming is that human industrial
 activities are /increasing/ the number of greenhouse gases in the
