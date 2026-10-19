@@ -536,6 +536,12 @@ as in the figure below:
 the Coriolis force $\propto \omega \times v$, causing winds in the latitudinal
 directions.
 
+
+#+CAPTION: The Coriolis force arises in a rotating frame because different radii with the same angular velocity $\omega$ rotate at a different speed $v=\omega r$. If there is motion perpendicular to the rotation axis, the difference in velocity as one moves in the rotating frame causes a deviation.
+[[file:images/coriolis.png]]
+
+
+
 ** Hurricanes
 
 #+CATION: Hurricanes occur on other planets
