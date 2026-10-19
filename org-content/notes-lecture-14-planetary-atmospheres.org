@@ -345,16 +345,20 @@ spatially and averaging over longer timescale we have the /climate/.
 #+CAPTION: Schematic representation of the "green house effect" caused by gas particularly opaque in the infrared.
 [[file:images/greenhouse.png]]
 
-Energy conservation in a planet requires that at equilibrium, what
-goes in must come out.
+Energy conservation in a planet requires that at equilibrium, /what
+goes in must come out!/
 
 In this context, what goes in is energy (in the form of radiation)
 from the host star, part of which is reflected by the planet - this is
 how we /see/ other planets in the solar system! - and part is absorbed.
-But the planet temperature doesn't increase steadily over time: the
+The fraction of reflected energy depends on the radiative properties
+of the surface: for example ice is very reflective.
+
+The planet's temperature doesn't increase steadily over time: the
 energy is re-emitted with the thermal spectrum of the planet, which
 typically peaks in IR (as opposed to the hotter Sun peaking in the
-visible range).
+visible range). Over the 4.5 billion years of evolution of these
+planets, an equilibrium has been reached in most cases.
 
 The re-emission of this energy occurs through radiative processes: the
 composition of what is emitting (i.e. the planet) matters! In
