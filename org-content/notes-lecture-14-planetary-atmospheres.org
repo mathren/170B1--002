@@ -475,7 +475,6 @@ with minor body, development of an industrial species, etc...)
 
 *** Water cycle
 
-
 #+CAPTION: Atmospheric water cycle.
 [[file:images/water-cycle.png]]
 
