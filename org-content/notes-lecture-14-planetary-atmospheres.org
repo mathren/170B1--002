@@ -9,9 +9,19 @@
 
 - Top Hat Q1, Q2
 
-Following the spirit of [[./notes-lecture-13-planetary-geology.org][last lecture]], we will focus today on the
-/physical processes that shape the atmosphere of planets/. Once again,
-the physics is the same everywhere, but the specific conditions
+Planetary atmosphere is a complex topic that combines multi-physics,
+chemistry, chaotic dynamics (deterministic chaos was originally
+discovered in this context!), and of extreme social relevance today --
+it would deserve its own multi-semester course, and we will only be
+able to scratch the surface today. I encourage you to take this as a
+starting point and explore references above from non-political
+scientific advisory boards of various national and international
+institutions.
+
+
+Following the spirit of [[./notes-lecture-13-planetary-geology.org][last lecture]], we will focus today
+on the /physical processes that shape the atmosphere of planets/. Once
+again, the physics is the same everywhere, but the specific conditions
 (composition, distance to the star, etc.) of each body in the Solar
 system - and in exoplanetary systems! - determine the variety of
 atmospheric conditions we can find.
