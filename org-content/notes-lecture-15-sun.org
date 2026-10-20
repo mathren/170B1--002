@@ -6,16 +6,33 @@
 
 *Reading:* Chapter 14
 
-* Age of the Sun
+Etymologically /astro/-nomy(physics) deals with /stars/, although in the
+modern sense, it encompasses all space-related physical processes and
+sources. Today, we begin talking about the stars, starting from the
+nearest star to us, the Sun.
 
-#+CAPTION: We can only see the outer "peel" of the Sun, through thermal photons produced in the interior that filters through the (by definition) partially transparent atmosphere. How can we know about the interior structure?
-[[./images/physics1.jpg]]
+* What is a star?
 
+We have already seen that until the Copernican revolution and the
+abandonment of a geocentric theory of the Universe, the Sun (and the
+Moon) were counted as "planets" because of their non-regular motion on
+the night sky. However, we now know that the apparent motion on the
+sky of the Sun is due to the fact that we orbit it, and it physically
+is a /star/ and not a /planet/ in the modern sense of the term.
 
-- great debate on the age of the Sun
-- shining \rightarrow evolving
+In the modern sense, a star is a /self-gravitating mass/ capable of
+sustaining itself by /producing its own internal energy through nuclear
+physics processes/. The objective of today is unpack this definition
+specifically for the Sun.
 
-* Composition
+*N.B.:* The understanding of nuclear physics is a 20^{th} century
+achievement, which started with the discovery of radioactivity by
+Marie and Pierre Curie, and required the development of quantum
+mechanics! This definition of star is only $\lesssim 100$ years old!
+
+* Basic properties of the Sun and how we know them
+
+** Composition
 
 #+CAPTION: From spectroscopy, we can see the fingerprint of elements in the solar atmosphere.
 [[./images/solar-spectrum.jpg]]
@@ -34,7 +51,7 @@ rejected this idea: dominant paradigm was that there is no particular
 composition difference between the Earth and the Sun (something that
 reads absurd now after discussing [[./notes-lecture-12-planet-formation.org][solar system formation]]).
 
-* Mass
+** Mass
 
 Measuring masses in space is difficult, much more than measuring time!
 We can leverage Kepler's laws to measure the mass of the Sun from the
@@ -62,32 +79,44 @@ The result is $M_{\odot}\simeq 2\times 10^{33}\,\mathrm{g}$, which is often used
 of mass (instead of kg or pounds) for astrophysical objects.
 
 
-* Equilibrium
+** Age
+
+#+CAPTION: We can only see the outer "peel" of the Sun, through thermal photons produced in the interior that filters through the (by definition) partially transparent atmosphere. How can we know about the interior structure?
+[[./images/physics1.jpg]]
+
+
+- great debate on the age of the Sun
+- shining \rightarrow evolving
+
+* Equilibrium conditions in the Sun
 - HSE and thermal equilibrium \rightarrow analogy with planets!
 
-* Nuclear burning
+** Energy sources
 
-* Interior of the Sun
+*** Something comes out: what goes in?
+
+** Interior of the Sun
 
 #+CAPTION: The interior structure of the Sun needs to be studied /indirectly/, through signals other than photons (e.g., neutrinos), or secondary signals imprinted on the photons (asteroseismology/helioseismology), and/or via computer models of the stars.
 [[./images/physics.jpg]]
 
 
-** Helioseismology
+*** Helioseismology
 
 #+CAPTION: Waves propagating through stars can make them "wobble". This animation shows waves of different "order" (i.e. where the oscillations have a different number of zero-points on the surface), exagerated in amplitude for intuition.
 #+ATTR_HTML: :width 50%
 [[./images/pulsation-modes.gif]]
 
-** Computer simulations
+*** Computer simulations
 
 #+ATTR_HTML
 
 
-** Neutrinos
+*** Neutrinos
 
 
-* Missing solar neutrinos
+* Solar neutrinos
+Astrophysics pushed us beyond the standard model of particle physics.
 
 * Solar activity
 
