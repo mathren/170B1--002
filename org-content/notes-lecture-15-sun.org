@@ -27,7 +27,7 @@ specifically for the Sun.
 
 *N.B.:* The understanding of nuclear physics is a 20^{th} century
 achievement, which started with the discovery of radioactivity by
-Marie and Pierre Curie, and required the development of quantum
+[[https://en.wikipedia.org/wiki/Marie_Curie][Marie and Pierre Curie]], and required the development of quantum
 mechanics! This definition of star is only $\lesssim 100$ years old!
 
 Because its not-subtle influence on Earth's surface, every human
