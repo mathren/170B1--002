@@ -11,6 +11,12 @@ modern sense, it encompasses all space-related physical processes and
 sources. Today, we begin talking about the stars, starting from the
 nearest star to us, the Sun.
 
+
+#+CAPTION: The Sun is the nearest star to Earth (credits: NASA).
+[[./images/physics1.jpg]]
+
+
+
 * What is a star?
 
 We have already seen that until the Copernican revolution and the
@@ -38,6 +44,11 @@ stars in general.
 
 * Basic properties of the Sun and how we know them
 
+We can only see the outer "peel" of the Sun, through thermal photons
+produced in the interior that filters through the (by definition)
+partially transparent atmosphere. How can we know about the interior
+structure?
+
 ** Composition
 
 #+CAPTION: From spectroscopy, we can see the fingerprint of elements in the solar atmosphere.
@@ -48,14 +59,15 @@ stars in general.
  and Helium. The key insight was that /it doesn't take much of an
  element with many lines for it to imprint a strong signal in the
  spectrum/: the most prominent lines do /not/ indicate the elements that
- are most present in mass, but just those that have more transitions
+ are most present by mass, but just those that have more transitions
  available in the visible spectrum. Instead, most of the mass is in
  light elements, unlike the rocky planets.
 
 At the time, initially, famous astrophysicists (e.g., Russell!)
 rejected this idea: dominant paradigm was that there is no particular
 composition difference between the Earth and the Sun (something that
-reads absurd now after discussing [[./notes-lecture-12-planet-formation.org][solar system formation]]).
+reads absurd now after discussing [[./notes-lecture-12-planet-formation.org][solar system formation]]). We now know
+this is true not only for stars, but for the Universe as a whole too!
 
 ** Mass
 
@@ -86,10 +98,6 @@ of mass (instead of kg or pounds) for astrophysical objects.
 
 
 ** Age
-
-#+CAPTION: We can only see the outer "peel" of the Sun, through thermal photons produced in the interior that filters through the (by definition) partially transparent atmosphere. How can we know about the interior structure?
-[[./images/physics1.jpg]]
-
 
 - great debate on the age of the Sun
 - shining \rightarrow evolving
