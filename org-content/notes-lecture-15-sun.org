@@ -6,10 +6,10 @@
 
 *Reading:* Chapter 14
 
-Etymologically /astro/-nomy(physics) deals with /stars/, although in the
-modern sense, it encompasses all space-related physical processes and
-sources. Today, we begin talking about the stars, starting from the
-nearest star to us, the Sun.
+Etymologically /astro/-nomy/physics deals with /stars/ (astrum is star in
+latin) although in the modern sense, it encompasses all space-related
+physical processes and sources. Today, we begin talking about the
+stars, starting from the nearest star to us, the Sun.
 
 #+CAPTION: The Sun is the nearest star to Earth (credits: NASA).
 [[./images/physics1.jpg]]
@@ -74,13 +74,13 @@ going to be in the form of an ionized /plasma/.
 [[./images/solar-spectrum.jpg]]
 
 [[https://en.wikipedia.org/wiki/Cecilia_Payne-Gaposchkin][Cecilia Payne-Gaposhkin]]'s PhD thesis in 1925 (only about 100 years
- ago) realized that the /bulk/ of the mass of stars is made of Hydrogen
- and Helium. The key insight was that /it doesn't take much of an
- element with many lines for it to imprint a strong signal in the
- spectrum/: the most prominent lines do /not/ indicate the elements that
- are most present by mass, but just those that have more transitions
- available in the visible spectrum. Instead, most of the mass is in
- light elements, unlike the rocky planets.
+ago) realized that the /bulk/ of the mass of stars is made of Hydrogen
+and Helium. The key insight was that /it doesn't take much of an
+element with many lines for it to imprint a strong signal in the
+spectrum/: the most prominent lines do /not/ indicate the elements that
+are most present by mass, but just those that have more transitions
+available in the visible spectrum. Instead, most of the mass is in
+light elements, unlike the rocky planets.
 
 At the time, initially, famous astrophysicists (e.g., Russell!)
 rejected this idea: dominant paradigm was that there is no particular
