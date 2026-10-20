@@ -229,6 +229,16 @@ Nuclear reactions are of two types:
 - /fusion/: we can extract nuclear energy from light nuclei by smashing
   them together in new heavier nuclei.
 
+The plot below shows on the y-axis the nuclear binding energy for
+various nuclei. Reactions that release energy (that is /exoenergetic/)
+are those that move towards the peak (most bound nucleus,
+$^{56}\mathrm{Fe}$), the difference between the final end-product of the
+reaction and the initial reacting nuclei is the energy released by the
+reaction.
+
+#+CAPTION: Nuclear energy per unit nucleon (proton or electron) as a function of nuclear mass $A$.
+[[./images/nuclear_binding.png]]
+
 Because stars are primarily made of light nuclei (H and He), fusion is
 the dominant energy production mechanism during long-lived phases of
 stellar evolution.
