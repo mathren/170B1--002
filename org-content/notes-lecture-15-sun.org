@@ -30,6 +30,12 @@ achievement, which started with the discovery of radioactivity by
 Marie and Pierre Curie, and required the development of quantum
 mechanics! This definition of star is only $\lesssim 100$ years old!
 
+Because its not-subtle influence on Earth's surface, every human
+culture has observed the Sun, and developed mythologies to explain its
+existence and behavior. However, it is only in the recent past that we
+have started understanding the /interior/ and /evolution/ of the Sun and
+stars in general.
+
 * Basic properties of the Sun and how we know them
 
 ** Composition
