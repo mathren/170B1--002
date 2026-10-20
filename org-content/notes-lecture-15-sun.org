@@ -50,6 +50,24 @@ can calculate the typical timescale for dynamical phenomena to be of
 order of \sim hours in the Sun: since it comes back every day reliably,
 we know it must /not/ be out of dynamical equilibrium.
 
+*N.B.:* Exactly like we discussed for planets, this implies there will
+be an internal /structure/ of the star, determined by the dynamic
+balance necessary for a static equilibrium, and energy transport
+throughout the star.
+
+We know the surface $T\simeq 5800\,\mathrm{K}$ of the Sun from its
+spectrum: its overall shape follows a black-body ideal emitter
+spectrum (except for the absorption lines), whose peak frequency only
+depends on $T$. Since energy has to flow from the bulk of the volume
+to the surface, and (thermal) energy flows from hotter to colder
+regions, we can reasonably assume that the Sun's interior is going to
+be hotter.
+
+At these $T$ the collisions between molecules/atoms due to their
+thermal motion are energetic enough to break them: most matter is
+going to be in the form of an ionized /plasma/.
+
+
 ** Composition
 
 #+CAPTION: From spectroscopy, we can see the fingerprint of elements in the solar atmosphere.
@@ -162,16 +180,74 @@ However, this process of energy /generation/ requires a slow change in
 composition in the Sun core: /stars must evolve/ and are not static and
 immutable objects!
 
+Another key insight is that the /evolution/ is /driven/ by the need to
+compensate for the surface losses to the luminosity: in other words
+/stars evolve because they are losing energy/.
+
+*N.B.:* They lose energy necessarily to thermal radiation /because/ they
+have a finite temperature $T$.
+
 * Energy sources
 
 ** Radioactivity
+To be completely fair to late 19^{th} century physicists, they did try to
+consider all possible /known/ (that was their mistake!) sources of
+energy. Radioactive decay, which is a way to tap into the nuclear
+energy, was considered as soon as identified: however, the composition
+of the Sun does not contain enough radioactive material for this to be
+significant, and it only results in a minor increase of the energy
+budget.
+
 
 ** Chemical reaction: is the Sun on fire?
+Chemical reactions are a common energy source on Earth: for example,
+the chemical energy stored in bonds among the electrons of molecules
+is what powers a fire!
 
 #+CAPTION: Flames shine because heat ionizes partially burned compounds, and then electrons recombine with the molecules producing photons. However, the energy that heats up things starting the process comes from re-adjusting chemical bounds at molecular level.
 [[./images/fire.jpg]]
 
+Chemical reactions re-arrange electrons into molecules and tap into
+the energy stored in this bond, which means the typical energy scale
+is of electron-volts or less. The number of reactions that would be
+needed per unit time to power the Sun's luminosity $L$ is
+unrealistically high and suggests that chemical reactions have an
+insufficient energy budget to power stars.
+
 ** Nuclear reactions
+
+As mentioned above, it took the development of nuclear physics and
+understanding of the nuclear structure to finally find a reasonable
+source of energy capable of refilling $E_{\rm tot}$ at a rate comparable
+to the losses from the surface $L$.
+
+Nuclear reactions are of two types:
+- /fission/: nuclear energy is obtained by breaking into pieces larger
+  nuclei. This is the mechanism that generates electricity in a
+  nuclear power plant, where Uranium breaks down in pieces leading to
+  release of energy.
+- /fusion/: we can extract nuclear energy from light nuclei by smashing
+  them together in new heavier nuclei.
+
+Because stars are primarily made of light nuclei (H and He), fusion is
+the dominant energy production mechanism during long-lived phases of
+stellar evolution.
+
+Specifically, in the Sun's interior, matter is fully ionized, so
+hydrogen is in the form of loose protons and electrons. The Sun can
+turn 4 protons into one nucleus of He, but $m_{\rm He}< 4\times m_{p}$: the mass
+/lost/ in the conversion becomes thermal energy!
+
+Because we are now thinking at /nuclear/ scale, the relevant energy
+scale is the binding energy of protons and neutrons in a nucleus, 10^{6}\times
+larger than chemical reactions!
+
+However: how often can 4 protons, all charged positively and thus
+repelling each other electromagnetically, meet in one point?
+While the back-of-the-envelope calculation
+
+
+
 
 * Interior of the Sun
 
