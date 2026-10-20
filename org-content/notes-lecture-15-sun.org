@@ -164,6 +164,13 @@ immutable objects!
 
 * Energy sources
 
+** Radioactivity
+
+** Chemical reaction: is the Sun on fire?
+
+#+CAPTION: Flames shine because heat ionizes partially burned compounds, and then electrons recombine with the molecules producing photons. However, the energy that heats up things starting the process comes from re-adjusting chemical bounds at molecular level.
+[[./images/fire.jpg]]
+
 * Interior of the Sun
 
 
