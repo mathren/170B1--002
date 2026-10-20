@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-10-20 Tue 11:23 -->
+<!-- 2026-10-20 Tue 11:50 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 The Sun</title>
@@ -142,7 +142,6 @@ nearest star to us, the Sun.
 </p>
 
 
-
 <figure id="org-element-1">
 <img src="./images/physics1.jpg" alt="physics1.jpg" width="100%">
 
@@ -187,10 +186,13 @@ stars in general.
 <h2 id="basic-properties-of-the-sun-and-how-we-know-them"><a href="#basic-properties-of-the-sun-and-how-we-know-them">Basic properties of the Sun and how we know them</a></h2>
 <div class="outline-text-2" id="text-org-element-3">
 <p>
-We can only see the outer "peel" of the Sun, through thermal photons
-produced in the interior that filters through the (by definition)
-partially transparent atmosphere. How can we know about the interior
-structure?
+Presumably the Sun, much like planets, is in global hydrostatic
+equilibrium: if it were not, we would see it change on a dynamical
+timescale. Using the forces that determine hydrostatic equilibrium
+(gravity, pressure gradient, and to a smaller extent, rotation), we
+can calculate the typical timescale for dynamical phenomena to be of
+order of &sim; hours in the Sun: since it comes back every day reliably,
+we know it must <i>not</i> be out of dynamical equilibrium.
 </p>
 </div>
 <div id="outline-container-composition" class="outline-3">
@@ -266,33 +268,113 @@ of mass (instead of kg or pounds) for astrophysical objects.
 <div id="outline-container-age" class="outline-3">
 <h3 id="age"><a href="#age">Age</a></h3>
 <div class="outline-text-3" id="text-org-element-8">
-<ul class="org-ul">
-<li>great debate on the age of the Sun</li>
-<li>shining &rarr; evolving</li>
-</ul>
-</div>
-</div>
-</div>
-<div id="outline-container-equilibrium-conditions-in-the-sun" class="outline-2">
-<h2 id="equilibrium-conditions-in-the-sun"><a href="#equilibrium-conditions-in-the-sun">Equilibrium conditions in the Sun</a></h2>
-<div class="outline-text-2" id="text-org-element-9">
-<ul class="org-ul">
-<li>HSE and thermal equilibrium &rarr; analogy with planets!</li>
-</ul>
-</div>
-<div id="outline-container-energy-sources" class="outline-3">
-<h3 id="energy-sources"><a href="#energy-sources">Energy sources</a></h3>
-<div class="outline-text-3" id="text-energy-sources">
-</div>
-<div id="outline-container-something-comes-out-what-goes-in" class="outline-4">
-<h4 id="something-comes-out-what-goes-in"><a href="#something-comes-out-what-goes-in">Something comes out: what goes in?</a></h4>
-</div>
-</div>
-<div id="outline-container-interior-of-the-sun" class="outline-3">
-<h3 id="interior-of-the-sun"><a href="#interior-of-the-sun">Interior of the Sun</a></h3>
-<div class="outline-text-3" id="text-org-element-10">
+<p>
+The age of the Sun was the object of a great multi-disciplinary debate
+in the late 19<sup>th</sup>/early 20<sup>th</sup> century, involving biologists, geologists,
+and astrophysicists.
+</p>
 
-<figure id="org-element-11">
+<p>
+Biology had just been revolutionized by Darwinian theory of evolution,
+based on random mutations + natural selection to explain the diversity
+of life on Earth and the variety of environmental adaptations
+observed. This process however is very slow (because of the random
+nature of mutations), and requires a large age for the Earth.
+</p>
+
+<p>
+Geology was also developing, and requiring \(\gtrsim\) billion years old
+planet to explain through erosion and tectonics the features observed
+on Earth's surface.
+</p>
+
+<p>
+Presumably, the Earth is not older than the Sun it orbits, so these
+arguments putting a lower limit on the age of the Earth also put a
+lower limit on the age of the Sun.
+</p>
+</div>
+<div id="outline-container-the-need-for-stellar-b-evolution-b" class="outline-4">
+<h4 id="the-need-for-stellar-b-evolution-b"><a href="#the-need-for-stellar-b-evolution-b">The need for stellar <b>evolution</b></a></h4>
+<div class="outline-text-4" id="text-org-element-9">
+<p>
+However, the Sun obviously shines: this means it loses (internal
+thermal) energy to radiation at a measured rate of \(L_{☉}\simeq
+4\times10^{33}\,\mathrm{erg\ s^{-1}}\). Something comes out: at equilibrium, this
+means something must <i>go in</i> to have balance! In other words: the fact
+the Sun is <i>losing energy</i> requires an <i>energy source</i> and sets a
+timescale for the life of the Sun given by the total energy available
+divided the energy loss rate, which is its luminosity:
+</p>
+
+<div class="LATEX" id="org-element-10">
+\begin{equation}
+ \tau = \frac{E_{\rm tot}}{L}
+\end{equation}
+
+</div>
+
+<p>
+Unless there are sources of energy to "refill" \(E_{\rm tot}\), this sets a
+maximum lifetime of the star: once all the energy is gone, there is no
+energy to be lost in the form of a luminosity \(L\), and the star should
+turn "off"!
+</p>
+
+<p>
+In the late 19<sup>th</sup>/20<sup>th</sup> century, with a <i>positivism</i>-dominated culture,
+physicists thought (very wrongly) that they knew almost everything,
+and would not consider the possibility of <i>refilling</i> \(E_{\rm tot}\) for a
+star and Kelvin and Helmholtz calculated that \(\tau\sim 15\,\mathrm{Myr}\),
+much shorter than the Earth's lifetime required by biology and
+geology. Spoiler: they were <i>very</i> wrong.
+</p>
+
+<p>
+This timescale of millions of years is now called the
+"Kelvin-Helmholtz timescale" or "global thermal timescale", and it is
+<i>by definition</i> how long a star would live losing all its internal
+energy at a constant luminosity.
+</p>
+
+<p>
+This discrepancy in this multi-disciplinary debate remained unsolved
+until Hans Bethe in the 1930s figured out that stars <i>can</i> refill their
+own internal thermal energy (in other words, they can produce their
+own "heat") tapping in the nuclear energy of the matter in their core!
+</p>
+
+<p>
+This elongates the lifetime of the Sun from the &sim; 10s of millions of
+years predicted by physicists to the billion of years required by
+geological, fossil, and biological evidence!
+</p>
+
+<p>
+However, this process of energy <i>generation</i> requires a slow change in
+composition in the Sun core: <i>stars must evolve</i> and are not static and
+immutable objects!
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-energy-sources" class="outline-2">
+<h2 id="energy-sources"><a href="#energy-sources">Energy sources</a></h2>
+</div>
+
+<div id="outline-container-interior-of-the-sun" class="outline-2">
+<h2 id="interior-of-the-sun"><a href="#interior-of-the-sun">Interior of the Sun</a></h2>
+<div class="outline-text-2" id="text-org-element-11">
+<p>
+We can only see the outer "peel" of the Sun, through thermal photons
+produced in the interior that filters through the (by definition)
+partially transparent atmosphere. How can we know about the interior
+structure?
+</p>
+
+
+<figure id="org-element-12">
 <img src="./images/physics.jpg" alt="physics.jpg" width="100%">
 
 <figcaption><span class="figure-number">Figure 3: </span>The interior structure of the Sun needs to be studied <i>indirectly</i>, through signals other than photons (e.g., neutrinos), or secondary signals imprinted on the photons (asteroseismology/helioseismology), and/or via computer models of the stars.</figcaption>
@@ -300,9 +382,9 @@ of mass (instead of kg or pounds) for astrophysical objects.
 </div>
 <div id="outline-container-helioseismology" class="outline-4">
 <h4 id="helioseismology"><a href="#helioseismology">Helioseismology</a></h4>
-<div class="outline-text-4" id="text-org-element-12">
+<div class="outline-text-4" id="text-org-element-13">
 
-<figure id="org-element-13">
+<figure id="org-element-14">
 <img src="./images/pulsation-modes.gif" alt="pulsation-modes.gif" width="50%">
 
 <figcaption><span class="figure-number">Figure 4: </span>Waves propagating through stars can make them "wobble". This animation shows waves of different "order" (i.e. where the oscillations have a different number of zero-points on the surface), exagerated in amplitude for intuition.</figcaption>
@@ -311,20 +393,17 @@ of mass (instead of kg or pounds) for astrophysical objects.
 </div>
 <div id="outline-container-computer-simulations" class="outline-4">
 <h4 id="computer-simulations"><a href="#computer-simulations">Computer simulations</a></h4>
-<div class="outline-text-4" id="text-org-element-14">
-<p>
-#+ATTR<sub>HTML</sub>
-</p>
+<div class="outline-text-4" id="text-org-element-15">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XL-0CRzq-e0?si=UUsQfblLsNPaCRHX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 </div>
 <div id="outline-container-neutrinos" class="outline-4">
 <h4 id="neutrinos"><a href="#neutrinos">Neutrinos</a></h4>
 </div>
 </div>
-</div>
 <div id="outline-container-solar-neutrinos" class="outline-2">
 <h2 id="solar-neutrinos"><a href="#solar-neutrinos">Solar neutrinos</a></h2>
-<div class="outline-text-2" id="text-org-element-15">
+<div class="outline-text-2" id="text-org-element-16">
 <p>
 Astrophysics pushed us beyond the standard model of particle physics.
 </p>
@@ -336,7 +415,7 @@ Astrophysics pushed us beyond the standard model of particle physics.
 </div>
 <div id="outline-container-solar-wind" class="outline-3">
 <h3 id="solar-wind"><a href="#solar-wind">Solar wind</a></h3>
-<div class="outline-text-3" id="text-org-element-16">
+<div class="outline-text-3" id="text-org-element-17">
 <ul class="org-ul">
 <li>space weather</li>
 </ul>
@@ -348,7 +427,7 @@ Astrophysics pushed us beyond the standard model of particle physics.
 
 <div id="outline-container-sun-spots" class="outline-3">
 <h3 id="sun-spots"><a href="#sun-spots">Sun spots</a></h3>
-<div class="outline-text-3" id="text-org-element-17">
+<div class="outline-text-3" id="text-org-element-18">
 <p>
 Galileo's discovery!
 </p>

@@ -11,10 +11,8 @@ modern sense, it encompasses all space-related physical processes and
 sources. Today, we begin talking about the stars, starting from the
 nearest star to us, the Sun.
 
-
 #+CAPTION: The Sun is the nearest star to Earth (credits: NASA).
 [[./images/physics1.jpg]]
-
 
 
 * What is a star?
@@ -44,10 +42,13 @@ stars in general.
 
 * Basic properties of the Sun and how we know them
 
-We can only see the outer "peel" of the Sun, through thermal photons
-produced in the interior that filters through the (by definition)
-partially transparent atmosphere. How can we know about the interior
-structure?
+Presumably the Sun, much like planets, is in global hydrostatic
+equilibrium: if it were not, we would see it change on a dynamical
+timescale. Using the forces that determine hydrostatic equilibrium
+(gravity, pressure gradient, and to a smaller extent, rotation), we
+can calculate the typical timescale for dynamical phenomena to be of
+order of \sim hours in the Sun: since it comes back every day reliably,
+we know it must /not/ be out of dynamical equilibrium.
 
 ** Composition
 
@@ -96,23 +97,86 @@ astrophysics.
 The result is $M_{\odot}\simeq 2\times 10^{33}\,\mathrm{g}$, which is often used as a unit
 of mass (instead of kg or pounds) for astrophysical objects.
 
-
 ** Age
 
-- great debate on the age of the Sun
-- shining \rightarrow evolving
+The age of the Sun was the object of a great multi-disciplinary debate
+in the late 19^{th}/early 20^{th} century, involving biologists, geologists,
+and astrophysicists.
 
-* Equilibrium conditions in the Sun
-- HSE and thermal equilibrium \rightarrow analogy with planets!
+Biology had just been revolutionized by Darwinian theory of evolution,
+based on random mutations + natural selection to explain the diversity
+of life on Earth and the variety of environmental adaptations
+observed. This process however is very slow (because of the random
+nature of mutations), and requires a large age for the Earth.
 
-** Energy sources
+Geology was also developing, and requiring $\gtrsim$ billion years old
+planet to explain through erosion and tectonics the features observed
+on Earth's surface.
 
-*** Something comes out: what goes in?
+Presumably, the Earth is not older than the Sun it orbits, so these
+arguments putting a lower limit on the age of the Earth also put a
+lower limit on the age of the Sun.
 
-** Interior of the Sun
+*** The need for stellar *evolution*
+However, the Sun obviously shines: this means it loses (internal
+thermal) energy to radiation at a measured rate of $L_{\odot}\simeq
+4\times10^{33}\,\mathrm{erg\ s^{-1}}$. Something comes out: at equilibrium, this
+means something must /go in/ to have balance! In other words: the fact
+the Sun is /losing energy/ requires an /energy source/ and sets a
+timescale for the life of the Sun given by the total energy available
+divided the energy loss rate, which is its luminosity:
+
+#+BEGIN_LATEX
+\begin{equation}
+ \tau = \frac{E_{\rm tot}}{L}
+\end{equation}
+#+END_LATEX
+
+Unless there are sources of energy to "refill" $E_{\rm tot}$, this sets a
+maximum lifetime of the star: once all the energy is gone, there is no
+energy to be lost in the form of a luminosity $L$, and the star should
+turn "off"!
+
+In the late 19^{th}/20^{th} century, with a /positivism/-dominated culture,
+physicists thought (very wrongly) that they knew almost everything,
+and would not consider the possibility of /refilling/ $E_{\rm tot}$ for a
+star and Kelvin and Helmholtz calculated that $\tau\sim 15\,\mathrm{Myr}$,
+much shorter than the Earth's lifetime required by biology and
+geology. Spoiler: they were /very/ wrong.
+
+This timescale of millions of years is now called the
+"Kelvin-Helmholtz timescale" or "global thermal timescale", and it is
+/by definition/ how long a star would live losing all its internal
+energy at a constant luminosity.
+
+This discrepancy in this multi-disciplinary debate remained unsolved
+until Hans Bethe in the 1930s figured out that stars /can/ refill their
+own internal thermal energy (in other words, they can produce their
+own "heat") tapping in the nuclear energy of the matter in their core!
+
+This elongates the lifetime of the Sun from the \sim 10s of millions of
+years predicted by physicists to the billion of years required by
+geological, fossil, and biological evidence!
+
+However, this process of energy /generation/ requires a slow change in
+composition in the Sun core: /stars must evolve/ and are not static and
+immutable objects!
+
+* Energy sources
+
+* Interior of the Sun
+
+
+We can only see the outer "peel" of the Sun, through thermal photons
+produced in the interior that filters through the (by definition)
+partially transparent atmosphere. How can we know about the interior
+structure?
 
 #+CAPTION: The interior structure of the Sun needs to be studied /indirectly/, through signals other than photons (e.g., neutrinos), or secondary signals imprinted on the photons (asteroseismology/helioseismology), and/or via computer models of the stars.
 [[./images/physics.jpg]]
+
+
+
 
 
 *** Helioseismology
@@ -123,8 +187,7 @@ of mass (instead of kg or pounds) for astrophysical objects.
 
 *** Computer simulations
 
-#+ATTR_HTML
-
+#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/XL-0CRzq-e0?si=UUsQfblLsNPaCRHX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *** Neutrinos
 
