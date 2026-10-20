@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-10-20 Tue 14:22 -->
+<!-- 2026-10-20 Tue 14:52 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 The Sun</title>
@@ -466,7 +466,9 @@ are those that move towards the peak (most bound nucleus,
 \(^{56}\mathrm{Fe}\)), the difference between the final end-product of the
 reaction and the initial reacting nuclei times the number of
 protons/neutrons involved (i.e, \(A\)) is the energy released by the
-reaction.
+reaction. Because we are now thinking at <i>nuclear</i> scale, the relevant
+energy scale is the binding energy of protons and neutrons in a
+nucleus, 10<sup>6</sup>&times; larger than chemical reactions, in the MeV range!
 </p>
 
 
@@ -486,7 +488,8 @@ stellar evolution.
 Specifically, in the Sun's interior, matter is fully ionized, so
 hydrogen is in the form of loose protons and electrons. The Sun can
 turn 4 protons into one nucleus of He, but \(m_{\rm He}< 4\times m_{p}\): the mass
-<i>lost</i> in the conversion becomes thermal energy!
+<i>lost</i> in the conversion becomes thermal energy! The fraction of mass
+converted in energy is:
 </p>
 
 <div class="latex" id="org-element-16">
@@ -498,22 +501,91 @@ turn 4 protons into one nucleus of He, but \(m_{\rm He}< 4\times m_{p}\): the ma
 
 
 <p>
-Because we are now thinking at <i>nuclear</i> scale, the relevant energy
-scale is the binding energy of protons and neutrons in a nucleus, 10<sup>6</sup>&times;
-larger than chemical reactions!
+However: how often can 4 protons, all charged positively and thus
+repelling each other electromagnetically, meet in one point? While the
+back-of-the-envelope calculation above shows that nuclear reactions
+would be an energetically viable to explain the long lifetime of the
+Earth (from geology and biology) but it remained physically hard to
+explain how these nuclear reactions could occur at a sufficient rate.
 </p>
 
 <p>
-However: how often can 4 protons, all charged positively and thus
-repelling each other electromagnetically, meet in one point?
-While the back-of-the-envelope calculation
+The key was progressively worked out through the 1920s and 1930s and
+it is that 4 protons <i>never</i> meet each other at once! Instead, the
+reaction occurs through <i>intermediate</i> steps that involve catalyst
+elements (e.g., isotopes of He missing one neutron, Lithium,
+Beryllium).
+</p>
+
+
+<figure id="org-element-17">
+<img src="images/ppchain.png" alt="ppchain.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 5: </span>The pp chain in the Sun allows for the overall conversion of 4 protons into a nucleus of Helium through intermediate steps.</figcaption>
+</figure>
+
+
+<p>
+There is another problem: 4 protons (or equivalently nuclei of
+Hydrogen) have charge \(4e\), and their turn into \(^{4}\mathrm{He}\) that
+has only charge \(2e\) because it is composed of two charged protons and
+two neutrons. Where does the charge go?
+</p>
+
+<p>
+Charge is another <i>conserved</i> quantity (cf. <a href="notes-lecture-06-gravity-motion.html#org-element-18">Conservation laws in
+physics</a>), the associated symmetry of nature is less intuitive than for
+conservation of energy (time-translation invariance), momentum
+(spatial-translation invariance), or angular momentum (invariance
+under rotation), but it exists: it's called <i>gauge</i> symmetry. So charge
+needs to be conserved, and the nuclear reaction <i>cannot</i> be just
+\(4p\rightarrow^{4}\mathrm{He}\).
+</p>
+
+<p>
+Applying conservation laws, we can reconstruct the entire overall
+reaction and thus its energy budget:
+</p>
+
+<div class="latex" id="org-element-19">
+\begin{equation}\label{eq:overall_h_burn}
+4^{1}\mathrm{H}\rightarrow^{4}\mathrm{He}+2e^{+} + 2\nu_{e} \ \ ,
+\end{equation}
+
+</div>
+
+<p>
+where we need to add:
+</p>
+<ul class="org-ul">
+<li>2 positrons (\(e^{+}\)): these are the anti-particle of electrons, same
+mass opposite charge, and they take away the 2 missing charges.</li>
+<li>2 electron neutrinos (&nu;<sub>e</sub>): this took a bit longer to be added, but
+it turns out that in nature the <i>leptonic number</i> (i.e., the number of
+particles like \(e^{\pm}\)) is also <i>approximately</i> conserved, and so if you
+produce two anti-particles of leptonic nature (each carrying -1 unit
+of "leptonic number"), like the two positrons we need to add to
+conserve charge, then we need to add two neutrinos to balance out
+the leptonic number.</li>
+</ul>
+
+<p>
+The positrons released in the core will quickly smash into an electron
+(the plasma is ionized!) and annihilate into photons, which will
+immediately interact with the remaining electron: ultimately the
+positrons deposit thermal energy.
+</p>
+
+<p>
+Viceversa, the neutrino will leave the star unimpeded: unlike photons,
+neutrinos interact extremely weekly with matter.
 </p>
 </div>
 </div>
 </div>
 <div id="outline-container-interior-of-the-sun" class="outline-2">
 <h2 id="interior-of-the-sun"><a href="#interior-of-the-sun">Interior of the Sun</a></h2>
-<div class="outline-text-2" id="text-org-element-17">
+<div class="outline-text-2" id="text-org-element-20">
 <p>
 We can only see the outer "peel" of the Sun, through thermal photons
 produced in the interior that filters through the (by definition)
@@ -522,26 +594,26 @@ structure?
 </p>
 
 
-<figure id="org-element-18">
+<figure id="org-element-21">
 <img src="./images/physics.jpg" alt="physics.jpg" width="100%">
 
-<figcaption><span class="figure-number">Figure 5: </span>The interior structure of the Sun needs to be studied <i>indirectly</i>, through signals other than photons (e.g., neutrinos), or secondary signals imprinted on the photons (asteroseismology/helioseismology), and/or via computer models of the stars.</figcaption>
+<figcaption><span class="figure-number">Figure 6: </span>The interior structure of the Sun needs to be studied <i>indirectly</i>, through signals other than photons (e.g., neutrinos), or secondary signals imprinted on the photons (asteroseismology/helioseismology), and/or via computer models of the stars.</figcaption>
 </figure>
 </div>
 <div id="outline-container-helioseismology" class="outline-4">
 <h4 id="helioseismology"><a href="#helioseismology">Helioseismology</a></h4>
-<div class="outline-text-4" id="text-org-element-19">
+<div class="outline-text-4" id="text-org-element-22">
 
-<figure id="org-element-20">
+<figure id="org-element-23">
 <img src="./images/pulsation-modes.gif" alt="pulsation-modes.gif" width="50%">
 
-<figcaption><span class="figure-number">Figure 6: </span>Waves propagating through stars can make them "wobble". This animation shows waves of different "order" (i.e. where the oscillations have a different number of zero-points on the surface), exagerated in amplitude for intuition.</figcaption>
+<figcaption><span class="figure-number">Figure 7: </span>Waves propagating through stars can make them "wobble". This animation shows waves of different "order" (i.e. where the oscillations have a different number of zero-points on the surface), exagerated in amplitude for intuition.</figcaption>
 </figure>
 </div>
 </div>
 <div id="outline-container-computer-simulations" class="outline-4">
 <h4 id="computer-simulations"><a href="#computer-simulations">Computer simulations</a></h4>
-<div class="outline-text-4" id="text-org-element-21">
+<div class="outline-text-4" id="text-org-element-24">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XL-0CRzq-e0?si=UUsQfblLsNPaCRHX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 </div>
@@ -551,7 +623,7 @@ structure?
 </div>
 <div id="outline-container-solar-neutrinos" class="outline-2">
 <h2 id="solar-neutrinos"><a href="#solar-neutrinos">Solar neutrinos</a></h2>
-<div class="outline-text-2" id="text-org-element-22">
+<div class="outline-text-2" id="text-org-element-25">
 <p>
 Astrophysics pushed us beyond the standard model of particle physics.
 </p>
@@ -563,7 +635,7 @@ Astrophysics pushed us beyond the standard model of particle physics.
 </div>
 <div id="outline-container-solar-wind" class="outline-3">
 <h3 id="solar-wind"><a href="#solar-wind">Solar wind</a></h3>
-<div class="outline-text-3" id="text-org-element-23">
+<div class="outline-text-3" id="text-org-element-26">
 <ul class="org-ul">
 <li>space weather</li>
 </ul>
@@ -575,7 +647,7 @@ Astrophysics pushed us beyond the standard model of particle physics.
 
 <div id="outline-container-sun-spots" class="outline-3">
 <h3 id="sun-spots"><a href="#sun-spots">Sun spots</a></h3>
-<div class="outline-text-3" id="text-org-element-24">
+<div class="outline-text-3" id="text-org-element-27">
 <p>
 Galileo's discovery!
 </p>

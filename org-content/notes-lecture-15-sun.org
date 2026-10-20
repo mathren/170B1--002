@@ -235,7 +235,9 @@ are those that move towards the peak (most bound nucleus,
 $^{56}\mathrm{Fe}$), the difference between the final end-product of the
 reaction and the initial reacting nuclei times the number of
 protons/neutrons involved (i.e, $A$) is the energy released by the
-reaction.
+reaction. Because we are now thinking at /nuclear/ scale, the relevant
+energy scale is the binding energy of protons and neutrons in a
+nucleus, 10^{6}\times larger than chemical reactions, in the MeV range!
 
 #+CAPTION: Nuclear energy per unit nucleon (proton or neutron) as a function of nuclear mass $A$.
 [[./images/nuclear_binding.png]]
@@ -247,7 +249,8 @@ stellar evolution.
 Specifically, in the Sun's interior, matter is fully ionized, so
 hydrogen is in the form of loose protons and electrons. The Sun can
 turn 4 protons into one nucleus of He, but $m_{\rm He}< 4\times m_{p}$: the mass
-/lost/ in the conversion becomes thermal energy!
+/lost/ in the conversion becomes thermal energy! The fraction of mass
+converted in energy is:
 
 #+begin_latex
 \begin{equation}\label{eq:mass_defect}
@@ -256,16 +259,63 @@ turn 4 protons into one nucleus of He, but $m_{\rm He}< 4\times m_{p}$: the mass
 #+end_latex
 
 
-Because we are now thinking at /nuclear/ scale, the relevant energy
-scale is the binding energy of protons and neutrons in a nucleus, 10^{6}\times
-larger than chemical reactions!
-
 However: how often can 4 protons, all charged positively and thus
-repelling each other electromagnetically, meet in one point?
-While the back-of-the-envelope calculation
+repelling each other electromagnetically, meet in one point? While the
+back-of-the-envelope calculation above shows that nuclear reactions
+would be an energetically viable to explain the long lifetime of the
+Earth (from geology and biology) but it remained physically hard to
+explain how these nuclear reactions could occur at a sufficient rate.
+
+The key was progressively worked out through the 1920s and 1930s and
+it is that 4 protons /never/ meet each other at once! Instead, the
+reaction occurs through /intermediate/ steps that involve catalyst
+elements (e.g., isotopes of He missing one neutron, Lithium,
+Beryllium).
+
+#+CAPTION: The pp chain in the Sun allows for the overall conversion of 4 protons into a nucleus of Helium through intermediate steps.
+[[file:images/ppchain.png]]
 
 
+There is another problem: 4 protons (or equivalently nuclei of
+Hydrogen) have charge $4e$, and their turn into $^{4}\mathrm{He}$ that
+has only charge $2e$ because it is composed of two charged protons and
+two neutrons. Where does the charge go?
 
+Charge is another /conserved/ quantity (cf. [[file:notes-lecture-06-gravity-motion.org::*Conservation laws in physics][Conservation laws in
+physics]]), the associated symmetry of nature is less intuitive than for
+conservation of energy (time-translation invariance), momentum
+(spatial-translation invariance), or angular momentum (invariance
+under rotation), but it exists: it's called /gauge/ symmetry. So charge
+needs to be conserved, and the nuclear reaction /cannot/ be just
+$4p\rightarrow^{4}\mathrm{He}$.
+
+Applying conservation laws, we can reconstruct the entire overall
+reaction and thus its energy budget:
+
+#+begin_latex
+\begin{equation}\label{eq:overall_h_burn}
+4^{1}\mathrm{H}\rightarrow^{4}\mathrm{He}+2e^{+} + 2\nu_{e} \ \ ,
+\end{equation}
+#+end_latex
+
+where we need to add:
+- 2 positrons ($e^{+}$): these are the anti-particle of electrons, same
+  mass opposite charge, and they take away the 2 missing charges.
+- 2 electron neutrinos (\nu_{e}): this took a bit longer to be added, but
+  it turns out that in nature the /leptonic number/ (i.e., the number of
+  particles like $e^{\pm}$) is also /approximately/ conserved, and so if you
+  produce two anti-particles of leptonic nature (each carrying -1 unit
+  of "leptonic number"), like the two positrons we need to add to
+  conserve charge, then we need to add two neutrinos to balance out
+  the leptonic number.
+
+The positrons released in the core will quickly smash into an electron
+(the plasma is ionized!) and annihilate into photons, which will
+immediately interact with the remaining electron: ultimately the
+positrons deposit thermal energy.
+
+Viceversa, the neutrino will leave the star unimpeded: unlike photons,
+neutrinos interact extremely weekly with matter.
 
 * Interior of the Sun
 

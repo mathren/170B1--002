@@ -25,6 +25,7 @@ observations and following empirical laws of Kepler.
 
 4 questions
 
+
 * Newton's laws of motion
 
 We are able to describe ballistic motion (i.e., under the only
