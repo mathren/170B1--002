@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-10-20 Tue 09:18 -->
+<!-- 2026-10-20 Tue 10:56 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 The Sun</title>
@@ -12,6 +12,38 @@
 <meta name="keywords" content="Mathieu, Renzo, Mathieu Renzo,
 			       stellar evolution, ASTR170B1, University of
 			       Arizona, Steward Observatory">
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 </head>
 <body>
 <div id="preamble" class="status">
@@ -98,6 +130,170 @@
 <!-- end scripts-->
 </div>
 <div id="content" class="content">
+<p>
+<b>Reading:</b> Chapter 14
+</p>
+<div id="outline-container-age-of-the-sun" class="outline-2">
+<h2 id="age-of-the-sun"><a href="#age-of-the-sun">Age of the Sun</a></h2>
+<div class="outline-text-2" id="text-org-element-1">
+
+<figure id="org-element-2">
+<img src="./images/physics1.jpg" alt="physics1.jpg" width="100%">
+
+<figcaption><span class="figure-number">Figure 1: </span>We can only see the outer "peel" of the Sun, through thermal photons produced in the interior that filters through the (by definition) partially transparent atmosphere. How can we know about the interior structure?</figcaption>
+</figure>
+
+
+<ul class="org-ul">
+<li>great debate on the age of the Sun</li>
+<li>shining &rarr; evolving</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-composition" class="outline-2">
+<h2 id="composition"><a href="#composition">Composition</a></h2>
+<div class="outline-text-2" id="text-org-element-3">
+
+<figure id="org-element-4">
+<img src="./images/solar-spectrum.jpg" alt="solar-spectrum.jpg" width="100%">
+
+<figcaption><span class="figure-number">Figure 2: </span>From spectroscopy, we can see the fingerprint of elements in the solar atmosphere.</figcaption>
+</figure>
+
+<p>
+<a href="https://en.wikipedia.org/wiki/Cecilia_Payne-Gaposchkin">Cecilia Payne-Gaposhkin</a>'s PhD thesis in 1925 (only about 100 years
+ago) realized that the <i>bulk</i> of the mass of stars is made of Hydrogen
+and Helium. The key insight was that it doesn't take much of an
+element with many lines for it to imprint a strong signal in the
+spectrum: the most prominent lines do <i>not</i> indicate the elements that
+are most present in mass, but just those that have more transitions
+available in the visible spectrum. Instead, most of the mass is in
+light elements, unlike the rocky planets.
+</p>
+
+<p>
+At the time, initially, famous astrophysicists (e.g., Russell!)
+rejected this idea: dominant paradigm was that there is no particular
+composition difference between the Earth and the Sun (something that
+reads absurd now after discussing <a href="./notes-lecture-12-planet-formation.html">solar system formation</a>).
+</p>
+</div>
+</div>
+<div id="outline-container-mass" class="outline-2">
+<h2 id="mass"><a href="#mass">Mass</a></h2>
+<div class="outline-text-2" id="text-org-element-5">
+<p>
+Measuring masses in space is difficult, much more than measuring time!
+We can leverage Kepler's laws to measure the mass of the Sun from the
+measure of the year and the knowledge of the Sun-to-Earth distance!
+</p>
+
+<p>
+Because the Earth is much less massive than the Sun, \(M_{Earth}+M_{☉}\simeq M_{☉}\),
+the 3<sup>rd</sup> Kepler law gives:
+</p>
+
+<div class="latex" id="org-element-6">
+<p>
+\begin{equation}
+M<sub>☉</sub> = \frac{4&pi;<sup>2</sup>}{P<sup>2</sup>}\frac{a<sup>3</sup>}{G} \ \ ,
+</p>
+
+</div>
+
+<p>
+where except for the constants, we only need to know the Earth's
+period and the semimajor axis \(a\). We can even refine this estimate
+using more than one planet.
+</p>
+
+<p>
+<b>N.B.:</b> Measuring time is always easier than measuring distances in
+astrophysics! Methods that allow to convert time measurements into
+distance measurements are important tools in every sub-field of
+astrophysics.
+</p>
+
+<p>
+The result is \(M_{☉}\simeq 2\times 10^{33}\,\mathrm{g}\), which is often used as a unit
+of mass (instead of kg or pounds) for astrophysical objects.
+</p>
+</div>
+</div>
+<div id="outline-container-equilibrium" class="outline-2">
+<h2 id="equilibrium"><a href="#equilibrium">Equilibrium</a></h2>
+<div class="outline-text-2" id="text-org-element-7">
+<ul class="org-ul">
+<li>HSE and thermal equilibrium &rarr; analogy with planets!</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-nuclear-burning" class="outline-2">
+<h2 id="nuclear-burning"><a href="#nuclear-burning">Nuclear burning</a></h2>
+</div>
+
+<div id="outline-container-interior-of-the-sun" class="outline-2">
+<h2 id="interior-of-the-sun"><a href="#interior-of-the-sun">Interior of the Sun</a></h2>
+<div class="outline-text-2" id="text-org-element-8">
+
+<figure id="org-element-9">
+<img src="./images/physics.jpg" alt="physics.jpg" width="100%">
+
+<figcaption><span class="figure-number">Figure 3: </span>The interior structure of the Sun needs to be studied <i>indirectly</i>, through signals other than photons (e.g., neutrinos), or secondary signals imprinted on the photons (asteroseismology/helioseismology), and/or via computer models of the stars.</figcaption>
+</figure>
+</div>
+<div id="outline-container-helioseismology" class="outline-3">
+<h3 id="helioseismology"><a href="#helioseismology">Helioseismology</a></h3>
+<div class="outline-text-3" id="text-org-element-10">
+
+<figure id="org-element-11">
+<img src="./images/pulsation-modes.gif" alt="pulsation-modes.gif" width="50%">
+
+<figcaption><span class="figure-number">Figure 4: </span>Waves propagating through stars can make them "wobble". This animation shows waves of different "order" (i.e. where the oscillations have a different number of zero-points on the surface), exagerated in amplitude for intuition.</figcaption>
+</figure>
+</div>
+</div>
+<div id="outline-container-computer-simulations" class="outline-3">
+<h3 id="computer-simulations"><a href="#computer-simulations">Computer simulations</a></h3>
+<div class="outline-text-3" id="text-org-element-12">
+<p>
+#+ATTR<sub>HTML</sub>
+</p>
+</div>
+</div>
+<div id="outline-container-neutrinos" class="outline-3">
+<h3 id="neutrinos"><a href="#neutrinos">Neutrinos</a></h3>
+</div>
+</div>
+<div id="outline-container-missing-solar-neutrinos" class="outline-2">
+<h2 id="missing-solar-neutrinos"><a href="#missing-solar-neutrinos">Missing solar neutrinos</a></h2>
+</div>
+
+<div id="outline-container-solar-activity" class="outline-2">
+<h2 id="solar-activity"><a href="#solar-activity">Solar activity</a></h2>
+<div class="outline-text-2" id="text-solar-activity">
+</div>
+<div id="outline-container-solar-wind" class="outline-3">
+<h3 id="solar-wind"><a href="#solar-wind">Solar wind</a></h3>
+<div class="outline-text-3" id="text-org-element-13">
+<ul class="org-ul">
+<li>space weather</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-rotation" class="outline-3">
+<h3 id="rotation"><a href="#rotation">Rotation</a></h3>
+</div>
+
+<div id="outline-container-sun-spots" class="outline-3">
+<h3 id="sun-spots"><a href="#sun-spots">Sun spots</a></h3>
+<div class="outline-text-3" id="text-org-element-14">
+<p>
+Galileo's discovery!
+</p>
+</div>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <div class="footer">

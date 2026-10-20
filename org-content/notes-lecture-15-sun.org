@@ -3,3 +3,97 @@
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-14-planetary-atmospheres.org
 #+NEXT_PAGE: notes-lecture-16-stars.org
+
+*Reading:* Chapter 14
+
+* Age of the Sun
+
+#+CAPTION: We can only see the outer "peel" of the Sun, through thermal photons produced in the interior that filters through the (by definition) partially transparent atmosphere. How can we know about the interior structure?
+[[./images/physics1.jpg]]
+
+
+- great debate on the age of the Sun
+- shining \rightarrow evolving
+
+* Composition
+
+#+CAPTION: From spectroscopy, we can see the fingerprint of elements in the solar atmosphere.
+[[./images/solar-spectrum.jpg]]
+
+[[https://en.wikipedia.org/wiki/Cecilia_Payne-Gaposchkin][Cecilia Payne-Gaposhkin]]'s PhD thesis in 1925 (only about 100 years
+ago) realized that the /bulk/ of the mass of stars is made of Hydrogen
+and Helium. The key insight was that it doesn't take much of an
+element with many lines for it to imprint a strong signal in the
+spectrum: the most prominent lines do /not/ indicate the elements that
+are most present in mass, but just those that have more transitions
+available in the visible spectrum. Instead, most of the mass is in
+light elements, unlike the rocky planets.
+
+At the time, initially, famous astrophysicists (e.g., Russell!)
+rejected this idea: dominant paradigm was that there is no particular
+composition difference between the Earth and the Sun (something that
+reads absurd now after discussing [[./notes-lecture-12-planet-formation.org][solar system formation]]).
+
+* Mass
+
+Measuring masses in space is difficult, much more than measuring time!
+We can leverage Kepler's laws to measure the mass of the Sun from the
+measure of the year and the knowledge of the Sun-to-Earth distance!
+
+Because the Earth is much less massive than the Sun, $M_{Earth}+M_{\odot}\simeq M_{\odot}$,
+the 3^{rd} Kepler law gives:
+
+#+BEGIN_latex
+\begin{equation}
+M_{\odot} = \frac{4\pi^{2}}{P^{2}}\frac{a^{3}}{G} \ \ ,
+#+END_latex
+
+where except for the constants, we only need to know the Earth's
+period and the semimajor axis $a$. We can even refine this estimate
+using more than one planet.
+
+*N.B.:* Measuring time is always easier than measuring distances in
+astrophysics! Methods that allow to convert time measurements into
+distance measurements are important tools in every sub-field of
+astrophysics.
+
+The result is $M_{\odot}\simeq 2\times 10^{33}\,\mathrm{g}$, which is often used as a unit
+of mass (instead of kg or pounds) for astrophysical objects.
+
+
+* Equilibrium
+- HSE and thermal equilibrium \rightarrow analogy with planets!
+
+* Nuclear burning
+
+* Interior of the Sun
+
+#+CAPTION: The interior structure of the Sun needs to be studied /indirectly/, through signals other than photons (e.g., neutrinos), or secondary signals imprinted on the photons (asteroseismology/helioseismology), and/or via computer models of the stars.
+[[./images/physics.jpg]]
+
+
+** Helioseismology
+
+#+CAPTION: Waves propagating through stars can make them "wobble". This animation shows waves of different "order" (i.e. where the oscillations have a different number of zero-points on the surface), exagerated in amplitude for intuition.
+#+ATTR_HTML: :width 50%
+[[./images/pulsation-modes.gif]]
+
+** Computer simulations
+
+#+ATTR_HTML
+
+
+** Neutrinos
+
+
+* Missing solar neutrinos
+
+* Solar activity
+
+** Solar wind
+- space weather
+
+** Rotation
+
+** Sun spots
+Galileo's discovery!
