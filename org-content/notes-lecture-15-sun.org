@@ -338,10 +338,13 @@ ray photons which are immediately thermalizing (i.e., being absorbed
 and depositing their energy) within the stellar plasma.
 
 Viceversa, the neutrino will leave the star unimpeded: unlike photons,
-neutrinos interact extremely weekly with matter.
-
-
-
+neutrinos interact extremely weekly with matter. Through nuclear
+reactions and thermal processes the Sun produces a flux of neutrinos
+such than on Earth there is about a billion of them per second per
+cm^{2}: in other words, every second, about a billion neutrinos cross one
+of your fingernails. Most traverse you (and the whole Earth) without
+/any/ interactions. Matter is almost /fully/ transparent to neutrinos (not
+quite: we /can/ detect them, but it's extremely hard!)
 
 * Interior of the Sun
 
@@ -373,6 +376,8 @@ structure?
 
 * Solar neutrinos
 Astrophysics pushed us beyond the standard model of particle physics.
+
+Connect to 2026 Physics nobel prize?
 
 * Solar activity
 
