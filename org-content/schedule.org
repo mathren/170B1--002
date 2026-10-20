@@ -159,6 +159,8 @@ DEADLINE: Homework
 # Deadline Homework 8, Assign Homework 9
 DEADLINE: Homework
 
+[[./notes-lecture-15-sun.org][Notes]]
+
 ** Week 10: Chapter 15, 16, 17, 18
 
 *** <2026-10-26 Mon> - Star Formation and Stellar evolution

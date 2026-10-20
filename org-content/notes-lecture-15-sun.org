@@ -1,0 +1,5 @@
+#+title: ASTR170 The Sun
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: notes-lecture-14-planetary-atmospheres.org
+#+NEXT_PAGE: notes-lecture-16-stars.org
