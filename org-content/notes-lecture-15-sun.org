@@ -275,6 +275,20 @@ Beryllium).
 #+CAPTION: The pp chain in the Sun allows for the overall conversion of 4 protons into a nucleus of Helium through intermediate steps.
 [[file:images/ppchain.png]]
 
+Even using catalysts and intermediate steps, the first step is always
+to smash 2 protons together, so they need to have sufficient energy to
+overcome the electric repulsion they feel: this energy comes from the
+thermal energy of the protons in the stellar plasma \Rightarrow nuclear
+reactions require high $T$ \Rightarrow high average random kinetic energy of the
+protons. Even then, without quantum mechanics effects (i.e., without
+accounting for the fact that protons are little wave packets in a
+quantum field, and they can thus "tunnel through" their repulsion),
+the Sun would not be hot enough to perform nuclear reactions.
+
+
+#+CAPTION: The relative energy of two protons need to be sufficient to overcome the electromagnetic repulsion.
+[[file:images/hot-nuclear-burning.png]]
+
 
 There is another problem: 4 protons (or equivalently nuclei of
 Hydrogen) have charge $4e$, and their turn into $^{4}\mathrm{He}$ that
@@ -310,12 +324,24 @@ where we need to add:
   the leptonic number.
 
 The positrons released in the core will quickly smash into an electron
-(the plasma is ionized!) and annihilate into photons, which will
+(the plasma is ionized!) and annihilate into \gamma-photons, which will
 immediately interact with the remaining electron: ultimately the
 positrons deposit thermal energy.
 
+*N.B.:* given that the annihilation of an electron-positron pair
+releases at least the rest energy $mc^{2}$ of both particles, neglecting
+any other energy they carry, we know the minimum energy of the photons
+produced by the annihilation is $\varepsilon = 2mc^{2}$ ($e^{+}$ and $e^{-}$ have the same
+mass) so we can calculate their frequency $f= \varepsilon/h = 2mc^{2}/h$ and
+knowing the electron mass is $m_{e}c^{2}\simeq0.511keV$ we obtain high-energy $\gamma$
+ray photons which are immediately thermalizing (i.e., being absorbed
+and depositing their energy) within the stellar plasma.
+
 Viceversa, the neutrino will leave the star unimpeded: unlike photons,
 neutrinos interact extremely weekly with matter.
+
+
+
 
 * Interior of the Sun
 
