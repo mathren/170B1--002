@@ -276,10 +276,10 @@ Nuclear reactions are of two types:
 - /fusion/: we can extract nuclear energy from light nuclei by smashing
   them together in new heavier nuclei.
 
-The plot below shows on the y-axis the average binding energy per
-nucleon (proton or neutron) for various nuclei. Reactions that release
-energy (that is /exoenergetic/) are those that move towards the peak
-(most bound nucleus, $^{56}\mathrm{Fe}$), the difference between the
+The plot below shows on the y-axis the average nuclear binding energy
+per nucleon (proton or neutron) for various nuclei. Reactions that
+release energy (that is /exoenergetic/) are those that move towards the
+peak (most bound nucleus, $^{56}\mathrm{Fe}$), the difference between the
 final end-product of the reaction and the initial reacting nuclei
 times the number of protons/neutrons involved (i.e, $A$) is the energy
 released by the reaction. Because we are now thinking at /nuclear/
@@ -412,6 +412,11 @@ heat exchange leads to /adiabatic cooling/ (blow on your hand and move
 it away from your mouth: farther the gas has expanded more and its
 colder): the temperature $T$ would decrease and so the energy
 generation rate.
+
+
+#+CAPTION: Energy generation by nuclear burning is a /consequence/ of the energy losses at the surface and not its cause. This is what makes the energy generation process /self-regulated/ through a negative feedback loop.
+[[file:images/self-regulated-burning.png]]
+
 
 
 * Structure of the Sun
