@@ -11,6 +11,10 @@ latin) although in the modern sense, it encompasses all space-related
 physical processes and sources. Today, we begin talking about the
 stars, starting from the nearest star to us, the Sun.
 
+*N.B.:* My research is on stars, so this is a topic I care a lot about,
+and I think there are many mistakes in the book, that I will try to
+highlight in class.
+
 #+CAPTION: The Sun is the nearest star to Earth (credits: NASA).
 [[./images/physics1.jpg]]
 
