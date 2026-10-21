@@ -444,8 +444,6 @@ the structure of the star:
 Capturing the subtle variations in the appearance of the Sun due to
 these waves is a direct constrain on the internal structure.
 
-
-
 #+CAPTION: This image shows a velocity map of the surface of the Sun: the dark/light gradient is the Doppler shift due to the bulk rotation of the Sun, while the small scale "ripples" are the superposition of all the sound waves reaching the Sun's atmosphere.
 [[file:images/sun_v_map.png]]
 
@@ -483,19 +481,102 @@ we can learn something directly about the stellar interior.
 The [[https://www.nobelprize.org/uploads/2026/10/press-physicsprize2026.pdf][2026 Nobel prize in physics to Francis Halzen]] was awarded for the
 development of neutrino detectors which require 1 km^{3} of ice to work!
 
-
 * Solar neutrinos
+
+We have detected solar neutrinos, and by measuring their energy, we
+could even recently /directly/ confirm specific nuclear reactions
+occurring in the Sun's interior, strongly confirming the picture we
+have discussed above.
+
+
+
+
 Astrophysics pushed us beyond the standard model of particle physics.
 
-we have detected solar neutrinos (even confirming directly nuclear
-reactions in the Sun)
 
 * Solar activity
 
+Since the first telescope observations of the Sun, it has been very
+clear that it is far from the ideal sphere postulated by Aristotle.
+
+As we have already discussed, the outer envelope is convective: there
+is plasma (meaning free charges) moving around, creating currents and
+magnetic fields! These magnetic fields in turn shape the motion of the
+charges, leading to the complex phenomenology we observe.
+
 ** Solar wind
-- space weather
+#+CAPTION: The solar wind has a latitudinal structure too.
+[[./images/solar_wind.jpg]]
+
+We have already encountered this when discussing planets in the Solar
+system being invested by particles (typically protons).
+
+These come from the surface of the Sun, where very recently it was
+worked out that magnetically driven waves deposit energy in the
+outermost layer (so called "corona") that heats up to \sim10^{6} K \gg 5700 K
+at the surface emitting thermal radiation. This very hot layer around
+the star corresponds to a high pressure pushing material out.
+
+The amount of mass lost to the stellar wind is very small \sim10^{-14}M_{\odot}
+yr^{-1}. The age of the Sun is about 4.5\times10^{9} yr so it has not lost very
+much mass. However, this stellar wind is crucial to the angular
+momentum budget of the Sun: the wind acts like the arms of a dancer
+widening, slowing down the rotation! The magnetic field play a crucial
+role in keeping the wind connected to the star for it to be relevant
+in terms of angular momentum.
+
+** Sun spots
+In the 1600s, with the invention of the telescope, the presence of Sun
+spots became impossible to ignore. These appear darker because they
+are /colder/ regions of the surface: they can afford to be cold without
+lacking pressure to support the gas, because of the intervention of
+magnetic fields which compensate the cold gas with magnetic pressure.
+
+The number of Sun spots and their position are /not/ fixed in time. This
+is literally /weather/ on the Sun, but driven by magnetic phenomena.
+Roughly speaking there is a cycle of \sim 11 years between maximum
+activity.
+
+Individual spots form at mid-latitudes (\sim\pm 30 degrees from the
+equator), and move towards the equator before disappearing.
+
+#+CAPTION:
+[[file:images/sunspots.png]]
 
 ** Rotation
 
-** Sun spots
-Galileo's discovery!
+By using Sun spots as tracers, Galileo suggested that the Sun rotates,
+and on top of this it rotates in a non-uniform fashion. The Sun is the
+only star close enough that we can measure its rotation rate as a
+function of latitude $\omega(\theta)$, and surprisingly the equator rotates
+/faster/ than the poles! This as far as I know has not yet been
+explained clearly from a stellar physics perspective.
+
+
+#+CAPTION: The solar surface rotation can be directly observed and is faster at the equator.
+[[file:images/sun-rot.png]]
+
+
+** Flares and coronal mass ejections
+
+Magnetic activity at the Sun's surface can cause brightening (flares)
+and even eruptions (coronal mass ejections). [[https://svs.gsfc.nasa.gov/gallery/sdoproduced-videos/][NASA SDO gallery of
+videos of the Sun]] shows several years worth of Sun's images showing
+these phenomena. The magnetic field stores some energy, and when its
+/topology/ changes this energy can be released.
+
+In most cases flares do not cause ejection of mass, but only the
+production of high-energy photons. The surface temperature would be
+too low for these photons to be produced thermally, but the
+non-thermal magnetic process can and do produce them.
+
+In some cases, the reconfiguration of the magnetic field can cause an
+ejection of mass: this can be a temporary significant enhancement of
+the solar wind density.
+
+#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/Sv3eXRN7hLo?si=lErAhxHyvPyTtZgd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+Extreme coronal mass ejections such as the Carrington event in the
+1800s could now-a-days penetrate the Earth's magnetosphere and cause a
+lot of damage to human infrastructure. Luckily for us they are rare.
