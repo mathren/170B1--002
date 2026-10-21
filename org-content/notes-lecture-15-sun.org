@@ -67,7 +67,6 @@ At these $T$ the collisions between molecules/atoms due to their
 thermal motion are energetic enough to break them: most matter is
 going to be in the form of an ionized /plasma/.
 
-
 ** Composition
 
 #+CAPTION: From spectroscopy, we can see the fingerprint of elements in the solar atmosphere.
@@ -188,6 +187,19 @@ compensate for the surface losses to the luminosity: in other words
 have a finite temperature $T$.
 
 * Energy sources
+
+Stars obviously shine. Everything with a finite temperature $T$ does,
+stars happen to be hot enough to shine in optical wavelength (some
+even peak at shorter wavelengths, higher energy: the stars I focus on
+in my research often peak in the UV!).
+
+A star does not need an energy source to shine: just to not be too
+cold! However, the timescale arguments above demonstrated that for the
+Sun to be sufficiently long-lived it needed an energy source.
+
+This means that /the Sun does not shine because it has an energy
+source/: it's the opposite! /Stars need an energy source because they
+shine/, and something has to compensate the losses!
 
 ** Radioactivity
 To be completely fair to late 19^{th} century physicists, they did try to
@@ -336,6 +348,35 @@ knowing the electron mass is $m_{e}c^{2}\simeq0.511keV$ we obtain high-energy $\
 ray photons which are immediately thermalizing (i.e., being absorbed
 and depositing their energy) within the stellar plasma.
 
+*** Stars don't shine because they burn, Stars burn because they shine!
+
+When we say "burn" what we mean is /not/ a chemical reaction like
+in a fire, but /nuclear/ burning, rearranging protons and neutrons in a
+lower energy configuration to extract from their configuration energy
+to balance the losses at the surface.
+
+Since the nuclear burning is a /consequence/ of the energy loss at the
+surface (and not at all its cause: planets with no nuclear reactions
+also shine in the IR!), stars are self-regulated thermonuclear
+reactors!
+
+Lose too much energy (e.g., increasing $L$), and the star will
+contract (\simeq fall on itself), some of the gravitational potential
+energy will go into thermal energy (i.e., increase the temperature
+$T$), and thus increase the energy release by the nuclear burning
+(increasing the chances of reactions) until it again matches the
+energy losses.
+
+Viceversa, decrease the energy losses (e.g., decrease $L$), then a
+temporary excess energy release by nuclear burning in the core will
+result in expanding the star (like heating up a balloon makes the air
+expand: that is how we can fly air ballons). But expansion without
+heat exchange leads to /adiabatic cooling/ (blow on your hand and move
+it away from your mouth: farther the gas has expanded more and its
+colder): the temperature $T$ would decrease and so the energy
+generation rate.
+
+
 * Structure of the Sun
 
 So we have seen that for the Sun to exist as long as the Earth, it
@@ -370,7 +411,6 @@ Remember that the thermal radiation depends only on $T$, and hotter
 $\Leftrightarrow$ brighter: we can /see/ the convective flow with net zero mass flux
 and non-zero energy flux!
 
-
 #+CAPTION: Cartoon explaining the difference in brightness across convective cells.
 [[file:images/sun_conv.png]]
 
@@ -404,6 +444,13 @@ the structure of the star:
 Capturing the subtle variations in the appearance of the Sun due to
 these waves is a direct constrain on the internal structure.
 
+
+
+#+CAPTION: This image shows a velocity map of the surface of the Sun: the dark/light gradient is the Doppler shift due to the bulk rotation of the Sun, while the small scale "ripples" are the superposition of all the sound waves reaching the Sun's atmosphere.
+[[file:images/sun_v_map.png]]
+
+
+
 *** Computer simulations
 
 Another method (which is the main technique I use in my research) is
@@ -434,7 +481,7 @@ extremely hard!). Catching them is hard, but possible, and if we do,
 we can learn something directly about the stellar interior.
 
 The [[https://www.nobelprize.org/uploads/2026/10/press-physicsprize2026.pdf][2026 Nobel prize in physics to Francis Halzen]] was awarded for the
-development of neutrino detectors which require 1 km^{3} of ice to work
+development of neutrino detectors which require 1 km^{3} of ice to work!
 
 
 * Solar neutrinos

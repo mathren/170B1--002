@@ -423,6 +423,11 @@ centuries timescale (compared to geological timescales) /is/ undoubtedly
 industrial anthropic activity, and it is also the one we can
 collectively control.
 
+
+#+CAPTION: The Sun overall irradiance varies over time, which impacts the energy budget on Earth. But the two trends have decoupled, with the Earth trending upwards v.s. an overall stable cycle of the Sun: this is strong evidence that the current global warming trend is not driven by the Sun.
+[[file:images/Sun-irradiance-Earth-T.png]]
+
+
 ** Greenhouse gas molecules
 The most important ones are CO_{2} and methane CH_{4}. These are relatively
 heavy and trap the heat at low altitude (troposphere). The high
