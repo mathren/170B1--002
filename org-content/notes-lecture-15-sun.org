@@ -413,10 +413,8 @@ it away from your mouth: farther the gas has expanded more and its
 colder): the temperature $T$ would decrease and so the energy
 generation rate.
 
-
 #+CAPTION: Energy generation by nuclear burning is a /consequence/ of the energy losses at the surface and not its cause. This is what makes the energy generation process /self-regulated/ through a negative feedback loop.
 [[file:images/self-regulated-burning.png]]
-
 
 
 * Structure of the Sun
@@ -459,8 +457,6 @@ and non-zero energy flux!
 #+CAPTION: Cartoon explaining the difference in brightness across convective cells.
 [[file:images/sun_conv.png]]
 
-
-
 * Interior of the Sun
 
 We can only see the outer /atmosphere/ of the Sun, through thermal
@@ -481,7 +477,9 @@ is much larger than the typical point-spread-function of a
 telescope!), in that case we typically talk about /helio/-seismology.
 
 "Star-quakes" can be cause by different kind of waves, depending on
-the structure of the star:
+the structure of the star. In stars with convective envelopes like the
+Sun, the dominant waves making it to the surface are /sound waves/ (the
+restoring force is the gas pressure):
 #+CAPTION: Waves propagating through stars can make them "wobble". This animation shows waves of different "order" (i.e. where the oscillations have a different number of zero-points on the surface), exagerated in amplitude for intuition.
 #+ATTR_HTML: :width 50%
 [[./images/pulsation-modes.gif]]
