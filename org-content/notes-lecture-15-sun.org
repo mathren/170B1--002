@@ -266,7 +266,7 @@ erg), we would need \sim 10^{44} reactions per second!
 As mentioned above, it took the development of nuclear physics and
 understanding of the nuclear structure to finally find a reasonable
 source of energy capable of refilling $E_{\rm tot}$ at a rate comparable
-to the losses from the surface $L$.
+to the losses from the surface $L$: $L_{\rm nuc}= L$.
 
 Nuclear reactions are of two types:
 - /fission/: nuclear energy is obtained by breaking into pieces larger
