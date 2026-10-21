@@ -552,6 +552,12 @@ oscillations, and even the The [[https://www.nobelprize.org/uploads/2026/10/pres
 Halzen]] was awarded for the development of neutrino detectors which
 require 1 km^{3} of ice to work!
 
+#+CAPTION: IceCube experiment in the south pole uses 1km^{3} of Ice to detect neutrinos, the Principal Investigator (PI) of this experiment F. Halzen was awarded the Nobel price in physics this month.
+[[./images/icecube.jpg]]
+
+Other experiments use large volumes of sea water, or huge tanks of
+water polluted with elements that are more likely to react with
+neutrinos deep in mines (e.g., at the famous Kamiokande mines in Japan).
 
 * Solar activity
 
