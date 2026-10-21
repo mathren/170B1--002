@@ -236,12 +236,11 @@ shine/, and something has to compensate the losses!
 
 ** Radioactivity
 To be completely fair to late 19^{th} century physicists, they did try to
-consider all possible /known/ (that was their mistake!) sources of
-energy. Radioactive decay, which is a way to tap into the nuclear
-energy, was considered as soon as identified: however, the composition
-of the Sun does not contain enough radioactive material for this to be
-significant, and it only results in a minor increase of the energy
-budget.
+consider all possible sources of energy /known/ at the time. Radioactive
+decay, which is a way to tap into the nuclear energy, was considered
+as soon as identified: however, the composition of the Sun does not
+contain enough radioactive material for this to be significant, and it
+only results in a minor increase of the energy budget.
 
 ** Chemical reaction: is the Sun on fire?
 Chemical reactions are a common energy source on Earth: for example,
