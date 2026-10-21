@@ -258,8 +258,8 @@ unrealistically high and suggests that chemical reactions have an
 insufficient energy budget to power stars.
 
 *N.B.:* $1,\mathrm{erg} = 6\times 10^11,\mathrm{eV}$, so to get to
-$L\simeq10^{33}\,\mathrm{erg\ s^{-1}}$ we would need order of 10^{22} chemical
-reactions /per second/.
+$L\simeq10^{33}\,\mathrm{erg\ s^{-1}}$ from chemical reactions at eV scale (\sim10^{-11}^{}
+erg), we would need \sim 10^{44} reactions per second!
 
 ** Nuclear reactions
 
