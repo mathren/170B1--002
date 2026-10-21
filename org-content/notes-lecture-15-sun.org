@@ -600,6 +600,9 @@ accelerators) is missing a key piece: neutrinos can "change flavors"
 as they travel from the Sun to Earth. By the time they arrive on
 Earth, about 2/3 of the expected electron neutrinos are going to have
 switched to muon or tau neutrinos, which the detectors then miss!
+These /neutrino oscillations/ are the reason why the leptonic number is
+/not/ a precisely conserved quantity (there is no exact symmetry of
+nature corresponding, only an approximate gauge symmetry).
 
 Several Nobel prizes have been awarded for the detection of neutrinos,
 development of the theory on how they interact with matter, their
