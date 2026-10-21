@@ -176,10 +176,11 @@ turn "off"!
 
 In the late 19^{th}/20^{th} century, with a /positivism/-dominated culture,
 physicists thought (very wrongly) that they knew almost everything,
-and would not consider the possibility of /refilling/ $E_{\rm tot}$ for a
-star and Kelvin and Helmholtz calculated that $\tau\sim 15\,\mathrm{Myr}$,
-much shorter than the Earth's lifetime required by biology and
-geology. Spoiler: they were /very/ wrong.
+and there was no viable theory to explain a hypothetical /refilling/
+$E_{\rm tot}$ for a star. JJ Thompson (lord Kelvin after which the
+temperature scale is named) and Helmholtz calculated that $\tau\sim
+15\,\mathrm{Myr}$, much shorter than the Earth's lifetime required by
+biology and geology. Spoiler: they were /very/ wrong.
 
 This timescale of millions of years is now called the
 "Kelvin-Helmholtz timescale" or "global thermal timescale", and it is
