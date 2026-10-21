@@ -205,10 +205,19 @@ immutable objects!
 
 Another key insight is that the /evolution/ is /driven/ by the need to
 compensate for the surface losses to the luminosity: in other words
-/stars evolve because they are losing energy/.
+/stars evolve because they are losing energy/. This was a paradigmatic
+change: because stellar evolution timescales are extremely long
+compared to human timescales, most of humanities had conceptualized
+stars as something immobile and eternal!
 
 *N.B.:* They lose energy necessarily to thermal radiation /because/ they
 have a finite temperature $T$.
+
+*N.B.:* Using historical records, we can go back a few thousands of
+years, and some nearby stars (e.g., Betelgeuse) seem to have changed
+colors in this time frame: humans have observed stars changing and
+evolving but not any single individual!
+
 
 * Energy sources
 
