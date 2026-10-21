@@ -198,7 +198,6 @@ of the Sun does not contain enough radioactive material for this to be
 significant, and it only results in a minor increase of the energy
 budget.
 
-
 ** Chemical reaction: is the Sun on fire?
 Chemical reactions are a common energy source on Earth: for example,
 the chemical energy stored in bonds among the electrons of molecules
@@ -337,47 +336,112 @@ knowing the electron mass is $m_{e}c^{2}\simeq0.511keV$ we obtain high-energy $\
 ray photons which are immediately thermalizing (i.e., being absorbed
 and depositing their energy) within the stellar plasma.
 
-Viceversa, the neutrino will leave the star unimpeded: unlike photons,
-neutrinos interact extremely weekly with matter. Through nuclear
-reactions and thermal processes the Sun produces a flux of neutrinos
-such than on Earth there is about a billion of them per second per
-cm^{2}: in other words, every second, about a billion neutrinos cross one
-of your fingernails. Most traverse you (and the whole Earth) without
-/any/ interactions. Matter is almost /fully/ transparent to neutrinos (not
-quite: we /can/ detect them, but it's extremely hard!)
+* Structure of the Sun
 
-* Interior of the Sun
-
-
-We can only see the outer "peel" of the Sun, through thermal photons
-produced in the interior that filters through the (by definition)
-partially transparent atmosphere. How can we know about the interior
-structure?
+So we have seen that for the Sun to exist as long as the Earth, it
+needs an energy source, which turned out to be nuclear energy. To
+harvest it, the star needs very hot central temperatures, much higher
+than its surface: nuclear burning happens only in the innermost parts,
+and energy needs to be transported from the central inner regions to
+the surface where it can leak out.
 
 #+CAPTION: The interior structure of the Sun needs to be studied /indirectly/, through signals other than photons (e.g., neutrinos), or secondary signals imprinted on the photons (asteroseismology/helioseismology), and/or via computer models of the stars.
 [[./images/physics.jpg]]
 
 
+We have already seen the energy transport mechanism in planetary
+context, and they remain the same in stellar context:
+- conduction, which is usually subdominant in stars like the Sun
+- radiation, which dominates in the core of the Sun
+- convection: the outer layers of the Sun are convective. Unlike a pot
+  of boiling water that is convective because of the fast heating at
+  the bottom, the convection in the Sun's envelope it's because at the
+  top of the Sun the temperature $T$ is low enough that molecules and
+  even H^{-} ions form, and these are very good at stopping photons (the
+  process is exactly the same as we discussed for the greenhouse gases
+  in planetary atmospheres!).
+
+The movie below shows real observations of the Sun: we see at the
+surface the granularity due to convection:
+
+#+HTML: <iframe width="600" height="400" src="https://www.youtube.com/embed/CCzl0quTDHw?si=1h3tkmpwsi4w9uRz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Remember that the thermal radiation depends only on $T$, and hotter
+$\Leftrightarrow$ brighter: we can /see/ the convective flow with net zero mass flux
+and non-zero energy flux!
 
 
+#+CAPTION: Cartoon explaining the difference in brightness across convective cells.
+[[file:images/sun_conv.png]]
+
+
+
+* Interior of the Sun
+
+We can only see the outer /atmosphere/ of the Sun, through thermal
+photons produced in the interior that filters through the (by
+definition) partially transparent outer layers. How can we know about
+the interior structure?
 
 *** Helioseismology
 
+Much like Earthquakes probe the interior of the Earth (the propagation
+of waves through the interior produces signals in seismometers all
+over the globe that together tell us something on the interior
+structure), we can use "star quakes" to study the interior of stars.
+This was (as many stellar-physics things) first done with the Sun
+which is close-by and can be /resolved/ (i.e., it occupies more than one
+pixel on a camera! or to say it better, it's image on the focal plane
+is much larger than the typical point-spread-function of a
+telescope!), in that case we typically talk about /helio/-seismology.
+
+"Star-quakes" can be cause by different kind of waves, depending on
+the structure of the star:
 #+CAPTION: Waves propagating through stars can make them "wobble". This animation shows waves of different "order" (i.e. where the oscillations have a different number of zero-points on the surface), exagerated in amplitude for intuition.
 #+ATTR_HTML: :width 50%
 [[./images/pulsation-modes.gif]]
 
+Capturing the subtle variations in the appearance of the Sun due to
+these waves is a direct constrain on the internal structure.
+
 *** Computer simulations
+
+Another method (which is the main technique I use in my research) is
+to use computer models to solve the equations that describe a star.
+The video below shows a series of complicated plots (we will discuss
+some of these in the coming lectures) produced by a computer
+/simulating/ an /in-silico/ model of the Sun:
 
 #+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/XL-0CRzq-e0?si=UUsQfblLsNPaCRHX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+A star is big (there is a lot of stuff) and many physical processes
+play a key role (we have already discussed nuclear physics, neutrino
+physics, hydrodynamics, etc.!), so these simulations can only be done
+/assuming/ spherical symmetry, even if stars are not /perfectly/
+symmetric.
+
 *** Neutrinos
+
+The neutrinos produced in the star will leave the star unimpeded:
+unlike photons, neutrinos interact extremely weekly with matter.
+Through nuclear reactions and thermal processes the Sun produces a
+flux of neutrinos such than on Earth there is about a billion of them
+per second per cm^{2}: in other words, every second, about a billion
+neutrinos cross one of your fingernails. Most traverse you (and the
+whole Earth) without /any/ interactions. Matter is almost /fully/
+transparent to neutrinos (not quite: we /can/ detect them, but it's
+extremely hard!). Catching them is hard, but possible, and if we do,
+we can learn something directly about the stellar interior.
+
+The [[https://www.nobelprize.org/uploads/2026/10/press-physicsprize2026.pdf][2026 Nobel prize in physics to Francis Halzen]] was awarded for the
+development of neutrino detectors which require 1 km^{3} of ice to work
 
 
 * Solar neutrinos
 Astrophysics pushed us beyond the standard model of particle physics.
 
-Connect to 2026 Physics nobel prize?
+we have detected solar neutrinos (even confirming directly nuclear
+reactions in the Sun)
 
 * Solar activity
 
