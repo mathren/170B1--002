@@ -564,12 +564,13 @@ reactions occurring in the Sun's interior, strongly and directly
 confirming the picture of energy generation we have discussed above.
 
 Typically, since neutrinos interact so little with matter, to detect
-them one needs /a lot of matter/. Historically this was done by [[https://en.wikipedia.org/wiki/Homestake_experiment][filling
-underground abandoned mines]]. In the late 60s, Davis detected the flux
-of neutrinos from the Sun, but it was 1/3 of the predicted neutrino
-flux! This was dubbed the "missing solar neutrino problem", and
-initially the community thought either the theoretical prediction or
-the experimental apparatus were wrong.
+them one needs /a lot of matter/ to maximize the chances of an
+interaction. Historically this was done by [[https://en.wikipedia.org/wiki/Homestake_experiment][filling underground
+abandoned mines]]. In the late 60s, Davis detected the flux of neutrinos
+from the Sun, but it was 1/3 of the predicted neutrino flux! This was
+dubbed the "missing solar neutrino problem", and initially the
+community thought either the theoretical prediction or the
+experimental apparatus were wrong.
 
 *N.B.:* Because science is a collective enterprise, there is a sociology
 of science and the community decides collectively what are the
