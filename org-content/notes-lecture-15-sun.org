@@ -74,8 +74,11 @@ going to be in the form of an ionized /plasma/.
 
 The Sun's surface, much like the atmosphere of planets, does not end
 with a /sharp edge/: its radius is ill-defined, and depends on the
-wavelength of light used to look at the Sun $R\equiv R(\lambda)$. Photons of
-different wavelength/frequencies can escape from different depth in the
+wavelength of light used to look at the Sun $R\equiv R(\lambda)$. The region of
+radii from which radiation of various $\lambda$ can escape is also called
+"chromosphere", because it is this region that will determine the
+dominant wavelengths escaping from the star. Photons of different
+wavelength/frequencies can escape from different depth in the
 atmosphere, meaning different radii. However, in the layers between
 different radii caused by this effect there is very little mass.
 
@@ -287,7 +290,7 @@ scale, the relevant energy scale is the binding energy of protons and
 neutrons in a nucleus, 10^{6}\times larger than chemical reactions, in the MeV
 range!
 
-#+CAPTION: Nuclear energy per unit nucleon (proton or neutron) as a function of nuclear mass $A$.
+#+CAPTION: Nuclear energy per unit nucleon (proton or neutron) as a function of nuclear mass $A$. The structure of this plot is determined by the /strong/ (or nuclear) force.
 [[./images/nuclear_binding.png]]
 
 Because stars are primarily made of light nuclei (H and He), fusion is
