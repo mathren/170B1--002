@@ -592,10 +592,17 @@ in terms of angular momentum.
 
 ** Sun spots
 In the 1600s, with the invention of the telescope, the presence of Sun
-spots became impossible to ignore. These appear darker because they
-are /colder/ regions of the surface: they can afford to be cold without
-lacking pressure to support the gas, because of the intervention of
-magnetic fields which compensate the cold gas with magnetic pressure.
+spots became impossible to ignore.
+
+#+CAPTION: Drawings of Sun spots by Galileo.
+#+ATTR_HTML: :width 50%
+[[file:images/sunspots-galileo.png]]
+
+
+These appear darker because they are /colder/ regions of the surface:
+they can afford to be cold without lacking pressure to support the
+gas, because of the intervention of magnetic fields which compensate
+the cold gas with magnetic pressure.
 
 The number of Sun spots and their position are /not/ fixed in time. This
 is literally /weather/ on the Sun, but driven by magnetic phenomena.
