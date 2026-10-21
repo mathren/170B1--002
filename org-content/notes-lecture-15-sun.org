@@ -465,6 +465,10 @@ physics, hydrodynamics, etc.!), so these simulations can only be done
 /assuming/ spherical symmetry, even if stars are not /perfectly/
 symmetric.
 
+*N.B.:* You can run your own stellar evolution models using [[http://user.astro.wisc.edu/~townsend/static.php?ref=mesa-web-submit][MESA-web]],
+originally developed by Prof. C. Fields, which uses the same computer
+code that I use for research!
+
 *** Neutrinos
 
 The neutrinos produced in the star will leave the star unimpeded:
