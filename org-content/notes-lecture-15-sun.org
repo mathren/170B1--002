@@ -180,7 +180,10 @@ and there was no viable theory to explain a hypothetical /refilling/
 $E_{\rm tot}$ for a star. JJ Thompson (lord Kelvin after which the
 temperature scale is named) and Helmholtz calculated that $\tau\sim
 15\,\mathrm{Myr}$, much shorter than the Earth's lifetime required by
-biology and geology. Spoiler: they were /very/ wrong.
+biology and geology. Spoiler: they were /very/ wrong, because the
+theoretical framework of classical (as opposed to quantum) physics was
+very incomplete, as the first 3 decades of the 1900s showed
+progressively.
 
 This timescale of millions of years is now called the
 "Kelvin-Helmholtz timescale" or "global thermal timescale", and it is
