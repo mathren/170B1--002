@@ -449,6 +449,9 @@ surface the granularity due to convection:
 
 #+HTML: <iframe width="600" height="400" src="https://www.youtube.com/embed/CCzl0quTDHw?si=1h3tkmpwsi4w9uRz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+The size of the convective cells is very large (the smallest are
+comparable to several times the area of say Texas).
+
 Remember that the thermal radiation depends only on $T$, and hotter
 $\Leftrightarrow$ brighter: we can /see/ the convective flow with net zero mass flux
 and non-zero energy flux!
