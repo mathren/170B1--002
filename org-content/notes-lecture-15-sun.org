@@ -325,13 +325,17 @@ Beryllium).
 
 Even using catalysts and intermediate steps, the first step is always
 to smash 2 protons together, so they need to have sufficient energy to
-overcome the electric repulsion they feel: this energy comes from the
-thermal energy of the protons in the stellar plasma \Rightarrow nuclear
-reactions require high $T$ \Rightarrow high average random kinetic energy of the
-protons. Even then, without quantum mechanics effects (i.e., without
-accounting for the fact that protons are little wave packets in a
-quantum field, and they can thus "tunnel through" their repulsion),
-the Sun would not be hot enough to perform nuclear reactions.
+overcome the electric repulsion they feel. If they come close enough
+together, the nuclear force kicks in and can bind them together
+winning over the electromagnetic repulsion.
+
+This energy comes from the thermal energy of the protons in the
+stellar plasma \Rightarrow nuclear reactions require high $T$ \Rightarrow high average
+random kinetic energy of the protons. Even then, without quantum
+mechanics effects (i.e., without accounting for the fact that protons
+are little wave packets in a quantum field, and they can thus "tunnel
+through" their repulsion), the Sun would not be hot enough to perform
+nuclear reactions.
 
 
 #+CAPTION: The relative energy of two protons need to be sufficient to overcome the electromagnetic repulsion.
@@ -538,6 +542,12 @@ with the third being hard to detect.
 /I have done a terrible thing. I have postulated a particle that
 cannot be detected/ - W. Pauli.
 :end:
+
+These particles are the smoking gun for the last fundamental force we
+have not yet encountered, besides electromagnetic forces, gravity, and
+nuclear forces: the weak force. As the name suggest, this one is very
+weak compared to the others, and in this weakness lies the difficulty
+of detecting the neutrinos!
 
 However, in the mid-50s, neutrinos produced by a nuclear power-plant
 were [[https://icecube.wisc.edu/neutrino-history/1956/01/1956-first-discovery-of-the-neutrino-by-an-experiment/][detected by Cowan and Reines]]: the proximity to the source made
