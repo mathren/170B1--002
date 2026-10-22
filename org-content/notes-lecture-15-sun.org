@@ -86,10 +86,6 @@ Using geometric arguments and visible light, we can constrain the
 radius that contains the bulk of the mass to be $R\simeq
 6.99\times10^{10}\,mathrm{cm}$.
 
-
-
-
-
 ** Composition
 
 #+CAPTION: From spectroscopy, we can see the fingerprint of elements in the solar atmosphere.
