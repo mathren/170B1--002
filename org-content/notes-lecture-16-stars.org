@@ -13,8 +13,8 @@
 * The four "fundamental" forces
 
 Forces /defined/ by the second law of dynamics as the causes of changes
-in momentum ($\mathbf{F}=m\mathbf{a}=d\mathbf{p}/dt$) are a central
-concept of classical and non-relativistic physics (in quantum
+in momentum ($\mathbf{F}=m\mathbf{a}=d\mathbf{p}/dt$), and they are a
+central concept of classical and non-relativistic physics (in quantum
 mechanics and relativity forces are mathematically less easy to
 manipulate and a description of nature in the form of conserved
 quantities such as energy, momentum, etc. is more manageable).
