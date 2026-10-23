@@ -9,7 +9,23 @@
 - Recap Sun as a star
 - Recap 4 fundamental forces
 
-** Element of neutrino physics
+
+* The four "fundamental" forces
+
+#+CAPTION: [[https://xkcd.com/1489/][xkcd.com/1489]].
+#+ATTR_HTML: :alt https://xkcd.com/1489/
+[[./images/fundamental_forces.png]]
+
+We have already encountered several forces to construct physical
+models of astronomical objects -- however not all forces are the same!
+
+** Apparent forces
+Some forces, such as the centrifugal force or the Coriolis force are
+/apparent/: they arise in non-inertial frames (e.g., a rotating frame)
+as a consequence of the fact that the frame itself is accelerating.
+
+Example: while
+
 
 * Solar neutrinos
 
