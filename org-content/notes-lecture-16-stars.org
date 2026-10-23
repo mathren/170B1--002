@@ -132,20 +132,21 @@ We have encountered neutrinos in discussing the Sun's energy
 generation. These particles are the smoking gun of the /weak force/.
 Neutrinos are subatomic particles first theoretically predicted by
 Wolfgang Pauli in the 1930s based on the fact that in the decay of
-neutrons $n\rightarrow p +e^{-}$ energy was apparently not conserved.
-
-*N.B.:* the half-life of a neutron $n$ is about 15 minutes, and they
-decay into protons, electron and an anti-neutrino.
-
-Instead of
+neutrons $n\rightarrow p +e^{-}$ energy was apparently not conserved. Instead of
 abandoning the principle of conservation energy, Pauli proposed that
-the decay of the neutron produced not 2 but 3 particles: $n\rightarrow p+e^{-} +\bar{\nu}$
-with the third being hard to detect.
+the decay of the neutron produced not 2 but 3 particles: $n\rightarrow p+e^{-}
++\bar{\nu}$ with the third being hard to detect.
 
 :Quote:
 /I have done a terrible thing. I have postulated a particle that
 cannot be detected/ - W. Pauli.
 :end:
+
+
+*N.B.:* the half-life of a neutron $n$ is about 15 minutes, and they
+decay into protons, electron and an anti-neutrino $\bar{\nu}$ to
+conserve charge, energy, and leptonic number.
+
 
 However, in the mid-50s, neutrinos produced by a nuclear power-plant
 were [[https://icecube.wisc.edu/neutrino-history/1956/01/1956-first-discovery-of-the-neutrino-by-an-experiment/][detected by Cowan and Reines]]: the proximity to the source made
