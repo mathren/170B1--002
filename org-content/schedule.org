@@ -163,9 +163,12 @@ DEADLINE: Homework
 
 ** Week 10: Chapter 15, 16, 17, 18
 
-*** <2026-10-26 Mon> - Star Formation and Stellar evolution
+*** <2026-10-26 Mon> - Solar neutrinos, Star Formation
 # in class attendance
-*** <2026-10-28 Wed> - Dead stars and black holes
+
+[[./notes-lecture-16-stars.org][Notes]]
+
+*** <2026-10-28 Wed> - Stellar evolution, dead stars and black holes
 # in class attendance
 # Deadline Homework 9, Assign Homework 10
 DEADLINE: Homework
