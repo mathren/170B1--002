@@ -30,13 +30,14 @@ as a consequence of the fact that the frame itself is accelerating.
 
 *Example*: while you are going around a corner in your car, you may feel
 pushed towards the outer-edge of the curve. This is because implicitly
-you are considering the car as your reference frame, which is turning \Leftrightarrow
-accelerating to change the velocity direction \Leftrightarrow non-inertial. From the
-point of view of an inertial frame (e.g., a tree on the side of the
-road), there is a centripetal force (the friction between the wheels
-and the road) that is forcing the car to turn, but that force does not
-act on you directly, so you feel the car turning "under you" and
-perceive it as you being pushed to the exterior.
+you are considering the car as your reference frame, which is turning
+\Leftrightarrow accelerating to change the velocity direction \Leftrightarrow non-inertial. From
+the point of view of an inertial frame (e.g., a tree on the side of
+the road), there is a centripetal force (the friction between the
+wheels and the road, pointing towards the center of the curve) that is
+forcing the car to turn, but that force does not act on you directly,
+so you feel the car turning "under you" and perceive it as you being
+pushed to the exterior.
 
 Note that the fact these forces are /apparent/ just means we can find a
 reference frame where they are not there (and usually the math
