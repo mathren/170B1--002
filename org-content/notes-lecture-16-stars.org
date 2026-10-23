@@ -14,10 +14,12 @@
 
 Forces /defined/ by the second law of dynamics as the causes of changes
 in momentum ($\mathbf{F}=m\mathbf{a}=d\mathbf{p}/dt$), and they are a
-central concept of classical and non-relativistic physics (in quantum
-mechanics and relativity forces are mathematically less easy to
-manipulate and a description of nature in the form of conserved
-quantities such as energy, momentum, etc. is more manageable).
+central concept of classical and non-relativistic physics
+
+*N.B.:* in quantum mechanics and relativity forces are mathematically
+less easy to manipulate and a description of nature in the form of
+conserved quantities such as energy, momentum, etc. is more
+manageable).
 
 We have already encountered several forces to construct physical
 models of astronomical objects -- however not all forces are
@@ -75,12 +77,14 @@ influenced by positivism, and searching for a "grand unification" of
 all forces, that is a single theoretical framework that would explain
 /all/ causes of changes of momentum.
 
+*** Electromagnetic force
 This started with [[https://en.wikipedia.org/wiki/James_Clerk_Maxwell][James Clerk Maxwell]], who /unified/ electricity and
 magnetism into /electromagnetism/, showing that one can be the source of
 the other, and which you get depends on the reference frame used to
 describe the phenomena (much like centrifugal vs. centripetal force
 depend on the reference frame).
 
+*** Strong (nuclear) force
 Another fundamental force is the /nuclear/ force, also called /strong/
 force because it is much stronger than electromagnetism, although it
 only works at very short distances (of the order of 10^{-15} m, the
@@ -89,6 +93,7 @@ reactions in stars/, if $T$ is high enough that collisions bring nuclei
 close enough, the electromagnetic repulsion loses to the nuclear force
 and they can bind together.
 
+*** Gravity
 Gravity is instead much weaker than electromagnetic forces, which
 allows solids to bind together without collapsing under their own
 weight. It is the first /fundamental/ force studied by Newton, and it
@@ -97,6 +102,7 @@ theory of gravity that fits all the experimental constraints that we
 have, General relativity, considers gravity a manifestation of the
 intrinsic "shape" of space-time bent by masses!
 
+*** Weak force
 The last "fundamental" force is the /electroweak/ force, or simply /weak/
 force. This is /weak/ respect to the strong, electromagnetic, and
 gravitational forces, and usually involves changes in /flavor/ of
@@ -107,8 +113,23 @@ mass but all with the same charge), which produce /neutrinos/.
 #+ATTR_HTML: :alt https://xkcd.com/1489/
 [[./images/fundamental_forces.png]]
 
+All other forces that appear in physics are /effective models/ that can
+be explained in terms of these 4 forces, and many people still work on
+trying to finding a /unifying/ framework for all these fours to reduce
+the number of fundamental forces.
+
+*N.B.:* This is an example of a /reductionist/ approach, trying to explain
+all phenomena with as few pieces as possible. 20^{th} century discoveries
+such as deterministic chaos, emergent phenomena in complex system,
+non-linear systems also have revealed that often complex physical
+systems (e.g., the atmosphere of a planet, or a star, etc.) are not
+just the sum of their parts and reductionist approaches risk missing
+interesting and relevant phenomenology.
+
 * Solar neutrinos
 
+We have encountered neutrinos in discussing the Sun's energy
+generation. These particles are the smoking gun of the /weak force/.
 Neutrinos are subatomic particles first theoretically predicted by
 Wolfgang Pauli in the 1930s based on the fact that in the decay of
 neutrons $n\rightarrow p +e^{-}$ energy was apparently not conserved. Instead of
