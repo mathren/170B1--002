@@ -186,3 +186,10 @@ require 1 km^{3} of ice to work!
 Other experiments use large volumes of sea water, or huge tanks of
 water polluted with elements that are more likely to react with
 neutrinos deep in mines (e.g., at the famous Kamiokande mines in Japan).
+
+* Star formation
+
+* Stellar evolution
+
+** Mass is what matters most to determine the life of a star
+- binaries
