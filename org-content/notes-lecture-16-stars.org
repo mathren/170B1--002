@@ -4,7 +4,7 @@
 #+PREVIOUS_PAGE: notes-lecture-15-sun.org
 #+NEXT_PAGE: notes-lecture-17-stars2.org
 
-*Reading*: Chapter 14, 15
+*Reading*: Chapter 14, 15, 16, 17
 
 - Recap Sun as a star
 - Recap 4 fundamental forces
@@ -217,7 +217,14 @@ neutrinos deep in mines (e.g., at the famous Kamiokande mines in Japan).
 
 * Star formation
 
+
+
 * Stellar evolution
 
 ** Mass is what matters most to determine the life of a star
 - binaries
+
+
+* Sorting the stars: the Herzsprung-Russel diagram
+
+#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/lhSFQXrVr48?si=SVad-pEYXmQk3enB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
