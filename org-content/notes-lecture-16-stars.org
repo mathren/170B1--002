@@ -12,20 +12,99 @@
 
 * The four "fundamental" forces
 
-#+CAPTION: [[https://xkcd.com/1489/][xkcd.com/1489]].
-#+ATTR_HTML: :alt https://xkcd.com/1489/
-[[./images/fundamental_forces.png]]
+Forces /defined/ by the second law of dynamics as the causes of changes
+in momentum ($\mathbf{F}=m\mathbf{a}=d\mathbf{p}/dt$) are a central
+concept of classical and non-relativistic physics (in quantum
+mechanics and relativity forces are mathematically less easy to
+manipulate and a description of nature in the form of conserved
+quantities such as energy, momentum, etc. is more manageable).
 
 We have already encountered several forces to construct physical
-models of astronomical objects -- however not all forces are the same!
+models of astronomical objects -- however not all forces are
+"ontologically" the same!
 
-** Apparent forces
+** Apparent forces: manifestation of a non-inertial reference frame
 Some forces, such as the centrifugal force or the Coriolis force are
 /apparent/: they arise in non-inertial frames (e.g., a rotating frame)
 as a consequence of the fact that the frame itself is accelerating.
 
-Example: while
+*Example*: while you are going around a corner in your car, you may feel
+pushed towards the outer-edge of the curve. This is because implicitly
+you are considering the car as your reference frame, which is turning \Leftrightarrow
+accelerating to change the velocity direction \Leftrightarrow non-inertial. From the
+point of view of an inertial frame (e.g., a tree on the side of the
+road), there is a centripetal force (the friction between the wheels
+and the road) that is forcing the car to turn, but that force does not
+act on you directly, so you feel the car turning "under you" and
+perceive it as you being pushed to the exterior.
 
+Note that the fact these forces are /apparent/ just means we can find a
+reference frame where they are not there (and usually the math
+simplifies, so these are preferable), but it doesn't mean the /effect/
+of these forces is not real: you do move around relative to your car
+when you turn!
+
+#+CAPTION: xkcd comic on apparent forces, which comes with [[https://www.explainxkcd.com/wiki/index.php/123:_Centrifugal_Force][an explanation]].
+#+ATTR_HTML: :width 50%
+#+ATTR_HTML: :alt https://xkcd.com/123/
+[[./images/centrifugal_force.png]]
+
+** "Non-fundamental" forces
+These are forces that we introduce as a simplified model of something
+more complex, that is they are an /effective model/ for something more
+fundamental.
+
+*Example*: The friction between the tires and the car! Friction is
+caused by electromagnetic interactions between the atoms/molecules of
+the tires and the asphalt, but we don't want to have to deal with an
+extremely large number of molecules and calculate one-by-one all their
+interactions: we can instead /define/ some parameter (the coefficient of
+friction) and /calibrate/ it empirically to describe the change in
+momentum of bodies "touching".
+
+The concept of "touching", or in other words /contact forces/, itself is
+an effective non-fundamental force: at microscopic level we are made
+of atoms and molecules which are mostly empty. What we perceive as a
+contact force is the electromagnetic repulsion between our mostly
+empty component!
+
+** "Fundamental" forces
+The 19^{th} and 20^{th} century physics research was in large part
+influenced by positivism, and searching for a "grand unification" of
+all forces, that is a single theoretical framework that would explain
+/all/ causes of changes of momentum.
+
+This started with [[https://en.wikipedia.org/wiki/James_Clerk_Maxwell][James Clerk Maxwell]], who /unified/ electricity and
+magnetism into /electromagnetism/, showing that one can be the source of
+the other, and which you get depends on the reference frame used to
+describe the phenomena (much like centrifugal vs. centripetal force
+depend on the reference frame).
+
+Another fundamental force is the /nuclear/ force, also called /strong/
+force because it is much stronger than electromagnetism, although it
+only works at very short distances (of the order of 10^{-15} m, the
+typical size of a nucleus). This is what /enables nuclear
+reactions in stars/, if $T$ is high enough that collisions bring nuclei
+close enough, the electromagnetic repulsion loses to the nuclear force
+and they can bind together.
+
+Gravity is instead much weaker than electromagnetic forces, which
+allows solids to bind together without collapsing under their own
+weight. It is the first /fundamental/ force studied by Newton, and it
+remains irreducible to other forces still today. *N.B.:* The most modern
+theory of gravity that fits all the experimental constraints that we
+have, General relativity, considers gravity a manifestation of the
+intrinsic "shape" of space-time bent by masses!
+
+The last "fundamental" force is the /electroweak/ force, or simply /weak/
+force. This is /weak/ respect to the strong, electromagnetic, and
+gravitational forces, and usually involves changes in /flavor/ of
+leptonic particles (electrons, muon, and tau particles, differing in
+mass but all with the same charge), which produce /neutrinos/.
+
+#+CAPTION: [[https://xkcd.com/1489/][xkcd.com/1489]].
+#+ATTR_HTML: :alt https://xkcd.com/1489/
+[[./images/fundamental_forces.png]]
 
 * Solar neutrinos
 

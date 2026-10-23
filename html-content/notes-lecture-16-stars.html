@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-10-23 Fri 09:55 -->
+<!-- 2026-10-23 Fri 10:33 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Stars</title>
@@ -141,21 +141,24 @@
 <div id="outline-container-the-four-fundamental-forces" class="outline-2">
 <h2 id="the-four-fundamental-forces"><a href="#the-four-fundamental-forces">The four "fundamental" forces</a></h2>
 <div class="outline-text-2" id="text-org-element-1">
-
-<figure id="org-element-2">
-<img src="./images/fundamental_forces.png" alt="https://xkcd.com/1489/" width="100%">
-
-<figcaption><span class="figure-number">Figure 1: </span><a href="https://xkcd.com/1489/">xkcd.com/1489</a>.</figcaption>
-</figure>
+<p>
+Forces <i>defined</i> by the second law of dynamics as the causes of changes
+in momentum (\(\mathbf{F}=m\mathbf{a}=d\mathbf{p}/dt\)) are a central
+concept of classical and non-relativistic physics (in quantum
+mechanics and relativity forces are mathematically less easy to
+manipulate and a description of nature in the form of conserved
+quantities such as energy, momentum, etc. is more manageable).
+</p>
 
 <p>
 We have already encountered several forces to construct physical
-models of astronomical objects &#x2013; however not all forces are the same!
+models of astronomical objects &#x2013; however not all forces are
+"ontologically" the same!
 </p>
 </div>
-<div id="outline-container-apparent-forces" class="outline-3">
-<h3 id="apparent-forces"><a href="#apparent-forces">Apparent forces</a></h3>
-<div class="outline-text-3" id="text-org-element-3">
+<div id="outline-container-apparent-forces-manifestation-of-a-non-inertial-reference-frame" class="outline-3">
+<h3 id="apparent-forces-manifestation-of-a-non-inertial-reference-frame"><a href="#apparent-forces-manifestation-of-a-non-inertial-reference-frame">Apparent forces: manifestation of a non-inertial reference frame</a></h3>
+<div class="outline-text-3" id="text-org-element-2">
 <p>
 Some forces, such as the centrifugal force or the Coriolis force are
 <i>apparent</i>: they arise in non-inertial frames (e.g., a rotating frame)
@@ -163,14 +166,119 @@ as a consequence of the fact that the frame itself is accelerating.
 </p>
 
 <p>
-Example: while
+<b>Example</b>: while you are going around a corner in your car, you may feel
+pushed towards the outer-edge of the curve. This is because implicitly
+you are considering the car as your reference frame, which is turning &hArr;
+accelerating to change the velocity direction &hArr; non-inertial. From the
+point of view of an inertial frame (e.g., a tree on the side of the
+road), there is a centripetal force (the friction between the wheels
+and the road) that is forcing the car to turn, but that force does not
+act on you directly, so you feel the car turning "under you" and
+perceive it as you being pushed to the exterior.
 </p>
+
+<p>
+Note that the fact these forces are <i>apparent</i> just means we can find a
+reference frame where they are not there (and usually the math
+simplifies, so these are preferable), but it doesn't mean the <i>effect</i>
+of these forces is not real: you do move around relative to your car
+when you turn!
+</p>
+
+
+<figure id="org-element-3">
+<img src="./images/centrifugal_force.png" alt="https://xkcd.com/123/" width="50%">
+
+<figcaption><span class="figure-number">Figure 1: </span>xkcd comic on apparent forces, which comes with <a href="https://www.explainxkcd.com/wiki/index.php/123:_Centrifugal_Force">an explanation</a>.</figcaption>
+</figure>
+</div>
+</div>
+<div id="outline-container-non-fundamental-forces" class="outline-3">
+<h3 id="non-fundamental-forces"><a href="#non-fundamental-forces">"Non-fundamental" forces</a></h3>
+<div class="outline-text-3" id="text-org-element-4">
+<p>
+These are forces that we introduce as a simplified model of something
+more complex, that is they are an <i>effective model</i> for something more
+fundamental.
+</p>
+
+<p>
+<b>Example</b>: The friction between the tires and the car! Friction is
+caused by electromagnetic interactions between the atoms/molecules of
+the tires and the asphalt, but we don't want to have to deal with an
+extremely large number of molecules and calculate one-by-one all their
+interactions: we can instead <i>define</i> some parameter (the coefficient of
+friction) and <i>calibrate</i> it empirically to describe the change in
+momentum of bodies "touching".
+</p>
+
+<p>
+The concept of "touching", or in other words <i>contact forces</i>, itself is
+an effective non-fundamental force: at microscopic level we are made
+of atoms and molecules which are mostly empty. What we perceive as a
+contact force is the electromagnetic repulsion between our mostly
+empty component!
+</p>
+</div>
+</div>
+<div id="outline-container-fundamental-forces" class="outline-3">
+<h3 id="fundamental-forces"><a href="#fundamental-forces">"Fundamental" forces</a></h3>
+<div class="outline-text-3" id="text-org-element-5">
+<p>
+The 19<sup>th</sup> and 20<sup>th</sup> century physics research was in large part
+influenced by positivism, and searching for a "grand unification" of
+all forces, that is a single theoretical framework that would explain
+<i>all</i> causes of changes of momentum.
+</p>
+
+<p>
+This started with <a href="https://en.wikipedia.org/wiki/James_Clerk_Maxwell">James Clerk Maxwell</a>, who <i>unified</i> electricity and
+magnetism into <i>electromagnetism</i>, showing that one can be the source of
+the other, and which you get depends on the reference frame used to
+describe the phenomena (much like centrifugal vs. centripetal force
+depend on the reference frame).
+</p>
+
+<p>
+Another fundamental force is the <i>nuclear</i> force, also called <i>strong</i>
+force because it is much stronger than electromagnetism, although it
+only works at very short distances (of the order of 10<sup>-15</sup> m, the
+typical size of a nucleus). This is what <i>enables nuclear
+reactions in stars</i>, if \(T\) is high enough that collisions bring nuclei
+close enough, the electromagnetic repulsion loses to the nuclear force
+and they can bind together.
+</p>
+
+<p>
+Gravity is instead much weaker than electromagnetic forces, which
+allows solids to bind together without collapsing under their own
+weight. It is the first <i>fundamental</i> force studied by Newton, and it
+remains irreducible to other forces still today. <b>N.B.:</b> The most modern
+theory of gravity that fits all the experimental constraints that we
+have, General relativity, considers gravity a manifestation of the
+intrinsic "shape" of space-time bent by masses!
+</p>
+
+<p>
+The last "fundamental" force is the <i>electroweak</i> force, or simply <i>weak</i>
+force. This is <i>weak</i> respect to the strong, electromagnetic, and
+gravitational forces, and usually involves changes in <i>flavor</i> of
+leptonic particles (electrons, muon, and tau particles, differing in
+mass but all with the same charge), which produce <i>neutrinos</i>.
+</p>
+
+
+<figure id="org-element-6">
+<img src="./images/fundamental_forces.png" alt="https://xkcd.com/1489/" width="100%">
+
+<figcaption><span class="figure-number">Figure 2: </span><a href="https://xkcd.com/1489/">xkcd.com/1489</a>.</figcaption>
+</figure>
 </div>
 </div>
 </div>
 <div id="outline-container-solar-neutrinos" class="outline-2">
 <h2 id="solar-neutrinos"><a href="#solar-neutrinos">Solar neutrinos</a></h2>
-<div class="outline-text-2" id="text-org-element-4">
+<div class="outline-text-2" id="text-org-element-7">
 <p>
 Neutrinos are subatomic particles first theoretically predicted by
 Wolfgang Pauli in the 1930s based on the fact that in the decay of
@@ -266,10 +374,10 @@ require 1 km<sup>3</sup> of ice to work!
 </p>
 
 
-<figure id="org-element-5">
+<figure id="org-element-8">
 <img src="./images/icecube.jpg" alt="icecube.jpg" width="100%">
 
-<figcaption><span class="figure-number">Figure 2: </span>IceCube experiment in the south pole uses 1km<sup>3</sup> of Ice to detect neutrinos, the Principal Investigator (PI) of this experiment F. Halzen was awarded the Nobel price in physics this month.</figcaption>
+<figcaption><span class="figure-number">Figure 3: </span>IceCube experiment in the south pole uses 1km<sup>3</sup> of Ice to detect neutrinos, the Principal Investigator (PI) of this experiment F. Halzen was awarded the Nobel price in physics this month.</figcaption>
 </figure>
 
 <p>
