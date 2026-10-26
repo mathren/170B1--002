@@ -223,6 +223,10 @@ produce electron-flavor neutrinos and anti-neutrinos (*N.B.:* "flavor"
 is the real technical term!), which are also the easiest to detect,
 and the predictions were based on this fact.
 
+#+CAPTION: ChatGPT-generated artist impression of neutrino oscillations in between the Sun and the Earth, explaining the solution to the missing solar neutrino problem.
+[[./images/neutrino_osc.png]]
+
+
 However, it turns out that the standard model of particle physics
 (built on quantum mechanics and decades of experiments in particle
 accelerators) is missing a key piece: neutrinos can "change flavors"
