@@ -82,16 +82,19 @@ This started with [[https://en.wikipedia.org/wiki/James_Clerk_Maxwell][James Cle
 magnetism into /electromagnetism/, showing that one can be the source of
 the other, and which you get depends on the reference frame used to
 describe the phenomena (much like centrifugal vs. centripetal force
-depend on the reference frame).
+depend on the reference frame). The electromagnetic force is /mediated/
+by photons: photons in classical mechanics are electromagnetic waves,
+and exchange of photons allows for electromagnetic interactions
+between charged particles.
 
 *** Strong (nuclear) force
 Another fundamental force is the /nuclear/ force, also called /strong/
 force because it is much stronger than electromagnetism, although it
 only works at very short distances (of the order of 10^{-15} m, the
-typical size of a nucleus). This is what /enables nuclear
-reactions in stars/, if $T$ is high enough that collisions bring nuclei
-close enough, the electromagnetic repulsion loses to the nuclear force
-and they can bind together.
+typical size of a nucleus). This is what /enables nuclear reactions in
+stars/, if $T$ is high enough that collisions bring nuclei close
+enough, the electromagnetic repulsion loses to the nuclear force and
+they can bind together. At particle-level it is mediated by /gluons/.
 
 *** Gravity
 Gravity is instead much weaker than electromagnetic forces, which
@@ -100,7 +103,15 @@ weight. It is the first /fundamental/ force studied by Newton, and it
 remains irreducible to other forces still today. *N.B.:* The most modern
 theory of gravity that fits all the experimental constraints that we
 have, General relativity, considers gravity a manifestation of the
-intrinsic "shape" of space-time bent by masses!
+intrinsic "shape" of space-time bent by masses! We do not yet have a
+/quantum/ theory of gravity, so at particle level there is a /theoretical/
+particle, the /graviton/ which can be constructed by analogy with other
+particles.
+
+*N.B.:* The unification of gravity, for which the current best theory is
+general relativity, which is a /classical/ (as opposed to quantum)
+theory, with quantum mechanics is a capstone problem for modern
+physics.
 
 *** Weak force
 The last "fundamental" force is the /electroweak/ force, or simply /weak/
