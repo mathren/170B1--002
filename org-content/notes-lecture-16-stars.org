@@ -321,6 +321,20 @@ accuracy, we now routinely can detect stellar parallax!
 #+CAPTION: Schematic representation of stellar parallax due to the Earth's yearly revolution around the Sun.
 [[./images/parallax.png]]
 
+Nowadays, we have developed two space-telescoped dedicated to
+measuring parallax without interference from the atmosphere: [[https://www.esa.int/Science_Exploration/Space_Science/Hipparcos_overview][Hypparcos]]
+which flew in the 90s, and [[https://www.esa.int/Science_Exploration/Space_Science/Gaia_overview][Gaia]] which recently completed the data
+acquisition phase, and will release the next batch of data in
+December 2026.
+
+These satellites have measured distance (parallax) and velocity
+(proper motion and radial velocity) of a large number of stars, see
+the video below for the inferred trajectory based on the 3^{rd} /Gaia/ data
+release (DR3):
+
+#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/8Xk53VxodDc?si=4dXZ27pqXUd2C1lX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ** Spectral-type and temperature
 
 - Harvard computers
