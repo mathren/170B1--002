@@ -333,36 +333,53 @@ release (DR3):
 
 #+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/8Xk53VxodDc?si=4dXZ27pqXUd2C1lX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
 ** Spectral-type and temperature
 
-- Harvard computers
-- Annie Jump Cannon: ordering with $T_{\rm eff}$
-- Cecilia Payne Gaposhkin: abundance of lines related to ionization
-  state (regulated by $T$) and not abundance in mass
+#+CAPTION: From the bottom of the Sun we start with a black body spectrum, which is modified as light filters through the Sun's atmosphere, and then the Earth's atmosphere.
+#+ATTR_HTML: :width 50%
+[[./images/sun-SED.jpg]]
 
+We have seen that the light of a star is primarily thermal radiation
+(a black body spectrum characterized by a temperature $T$), modified
+by the light-matter interaction occurring in the atmosphere of the Sun
+(which imprints the absorption lines in the spectrum of a star), and
+possibly in the Earth atmosphere (if observed from the ground).
 
-At this point, people started to classify stars based on the
-qualitative morphology of their spectra (which lines are present,
-which are more dominant, etc.), and defining qualitative classes A, B,
-C,...based on features such as the prominence of Balmer lines of
-Hydrogen.
+This conclusion is far from obvious, and was reached thanks to the
+intense labor in the early 20^{th} century at Harvard observatory, mostly
+carried out by a group of women collectively known as the "Harvard
+computers":
 
-However, it was not yet known why different stars had different
-spectra and belong to a certain class. As the number of observations
-increased, the classes were reordered and merged, leaving the current
-ones listed above after the work by [[https://en.wikipedia.org/wiki/Annie_Jump_Cannon][Annie Jump Cannon]] together with
-other "Harvard computers", a group of mostly women who analyzed and
-made sense of stellar spectra in the Early 20^{th} century.
+#+CAPTION: Harvard's observatory director Pickering with the women who classified stars first, and derived the physical meaning of the classification later. The red circle highlights Annie Jump Cannon.
+[[./images/harvard-computers.jpg]]
 
-With the construction of the color-magnitude diagram it was realized
-that these qualitative spectral classes were mostly determined by
-temperature - from O for the hottest stars to M for the coolest (L and
-T are classes introduced later for are classes introduced later for
-Brown Dwarves). This is because the temperature of the gas determine
-the electron populations in each ion/atom in the stellar atmosphere
-and thus how many and which lines can be seen, and ultimately the
-[[./notes-lecture-kappa.org][opacity]]. This is how this OBAFGKM(LTY) order came to be.
+In the early 20^{th} century, before or while a quantum understanding of
+atomic physics was developing, taking spectral observations of stars
+had become a routine task, and several large collections of spectra
+existed.
+
+The Harvard computers started a /morphological/ classification of the
+spectra based on based on features such as the prominence of Balmer
+lines of Hydrogen. Classes were labeled A, B, ... based on these
+morphological properties.
+
+#+CAPTION: Examples of spectral morphologies for various spectral classes still in use today.
+[[./images/spectra-classes.png]]
+
+Annie Jump Cannon was the first to realize that the lines where
+related to the temperature in the stellar atmosphere, which determines
+the electron populations in the atoms and thus which electrons have
+the right energy to block photons causing lines in the spectra. This
+allowed to reorder and simplify (merging classes) the spectral types,
+which are a sequence in temperature from hot to cold: O, B, A, F, G,
+K, L, M, (L, T, Y).
+
+Finally, in 1925, Cecilia Payne Gaposhkin realized further that the
+strength of a line is determined by the ionization state specifically,
+and /not/ the total amount of mass of an element identified in the
+spectrum, leading her to the (initially controversial) conclusion that
+/although most lines observed are not from H and He, most of the mass
+is in H and He/.
 
 *** Relation with colors
 On the /Gaia/ color-magnitude diagram, the color index and both the spectral
@@ -379,10 +396,10 @@ the star (originally for naked eye observations, but this can be
 generalized).
 
 This can further be formalized by defining a "color index" as the
-difference in flux between different photometric bands. Each band has
-a transmission function T(\lambda) which is non-zero over a certain
-wavelength range, for example these are the bands from /Gaia/'s
-telescope used to make the diagram above:
+difference in flux between different photometric bands.
+
+
+
 
 * The Herzsprung-Russel diagram
 
