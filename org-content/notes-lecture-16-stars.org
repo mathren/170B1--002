@@ -291,7 +291,7 @@ is spread over a bigger surface! Therefore, in each time interval:
 where $B$ is the brightness, $L$ is the intrinsic luminosity, and $r$
 is the distance to the star.
 
-#+CAPTION: Energy conservation, spherical symmetry, and geometric constraints ($A=4\pi r^{2}$) lead to the $B\prop r^{-2}$ relation.
+#+CAPTION: Energy conservation, spherical symmetry, and geometric constraints ($A=4\pi r^{2}$) lead to the $B\propto r^{-2}$ relation.
 [[file:images/flux_cons.png]]
 
 *N.B.:* The power of the distance appearing in Eq. \ref{eq:brightness}
