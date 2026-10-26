@@ -11,9 +11,9 @@
 
 * The four "fundamental" forces
 
-Forces /defined/ by the second law of dynamics as the causes of changes
-in momentum ($\mathbf{F}=m\mathbf{a}=d\mathbf{p}/dt$), and they are a
-central concept of classical and non-relativistic physics
+Forces are /defined/ by the second law of dynamics as the causes of
+changes in momentum ($\mathbf{F}=m\mathbf{a}=d\mathbf{p}/dt$), and
+they are a central concept of classical and non-relativistic physics
 
 *N.B.:* in quantum mechanics and relativity forces are mathematically
 less easy to manipulate and a description of nature in the form of
@@ -118,7 +118,9 @@ The last "fundamental" force is the /electroweak/ force, or simply /weak/
 force. This is /weak/ respect to the strong, electromagnetic, and
 gravitational forces, and usually involves changes in /flavor/ of
 leptonic particles (electrons, muon, and tau particles, differing in
-mass but all with the same charge), which produce /neutrinos/.
+mass but all with the same charge), which produce /neutrinos/. These are
+a byproduct of changes in the leptonic particles, but /not/ the mediator
+of the force, which are the $Z$ and $W$ bosons.
 
 #+CAPTION: [[https://xkcd.com/1489/][xkcd.com/1489]].
 #+ATTR_HTML: :alt https://xkcd.com/1489/
