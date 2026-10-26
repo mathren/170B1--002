@@ -901,7 +901,7 @@ became a broken powerlaw:
 \end{equation}
 #+end_latex
 
-with $x=4$ for $M\le0.8\,M_{\odot}$, $x=3$ for $0.8M_{\odot} <M<50M_{\odot}$, $x=1$ for
+with $x=4$ for $M\le0.8\,M_{\odot}$, $x=3$ for $0.8< M/M_{\odot}<50$, $x=1$ for
 $M\geq 50\,M_{\odot}$. These thresholds are extremely approximated, probably
 metallicity dependent, as we will possibly see later in the course.
 Moreover, and importantly, these hold only for so-called "main
