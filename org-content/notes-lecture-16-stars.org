@@ -558,7 +558,8 @@ wiggle).
 
 This was first detected for the binary Sirius A and Sirius B by Bessel
 in 1844 (the detection of photons from Sirius B followed in 1862 by
-Clark). Nowadays, this is a very timely because of the precise
+Clark), and demonstrated the validity of Kepler's laws /outside of the
+solar system/. Nowadays, this is a very timely because of the precise
 astrometric measurements by /Gaia/:
 
 - this has been used to find /Gaia/ BH1 ([[https://ui.adsabs.harvard.edu/abs/2023MNRAS.518.1057E/abstract][El Badry et al. 2023a]]), BH2
@@ -593,17 +594,6 @@ are effectively finding SB1 binaries made of a star and a planet!
 These are spectroscopic binaries where both stars are contributing
 light to the spectrum, meaning there will be two sets of spectral
 lines that are periodically Doppler shifted in couter-phase.
-
-Recently, "spectral disentanglement" has become an important technique
-to reveal the presence of light from a companion in systems initially
-interpreted as SB1 binaries, effectively turning SB1 binaries into an
-SB2. The idea is to take a best-fit single-star spectrum for the
-signal, and look for periodic variations in the residuals, indicating
-contribution to the spectrum from a star /not/ fitted (see for example
-[[https://github.com/TomerShenar/Disentangling_Shift_And_Add][this code]] and references listed there). This technique has been used
-to "kill claimed BHs" in SB1 binaries revealing light coming from the
-hypothesized BH, which usually has been reinterpreted as a star which
-has lost its hydrogen-rich envelope to binary interactions.
 
 **** Eclipsing binaries
 These are binaries when at some point in the orbit one star passes in
