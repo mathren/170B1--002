@@ -515,7 +515,7 @@ Let's review some types of binaries.
 
 **** Visual binaries
 
-These are binaries that can be resolved (i.e., one can identify two
+These are binaries that can be [[./notes-lecture-10-telescopes.org::*Spatial resolution $\propto D^{-1}$][resolved]] (i.e., one can identify two
 /distinct/ point sources) by naked eye. Typically, this means
 astrophysically very wide binaries that are unlikely to interact
 beyond the fact that they are gravitationally bound and they orbit
