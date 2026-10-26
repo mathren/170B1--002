@@ -381,19 +381,25 @@ spectrum, leading her to the (initially controversial) conclusion that
 /although most lines observed are not from H and He, most of the mass
 is in H and He/.
 
-*** Relation with colors
-On the /Gaia/ color-magnitude diagram, the color index and both the spectral
-types and effective temperature are all on the x-axis (bottom and top,
-respectively). How are these related?
+The bottom line is: through the analysis of stellar spectra /and/ the
+understanding of (i) thermal radiation (the source) and (ii)
+light-matter interactions (the propagation) we can determine the
+ionization state of elements in a stellar envelope and thus obtain its
+temperature.
 
-Depending on T_{eff}, the maximum flux of a black body (i.e., of the
+*** Relation with colors
+
+#+CAPTION: Examples of black-body radiation from different $T$ showing the shift in $\lambda_{\rm max}$.
+[[./images/bb.png]]
+
+Depending on $T_{\rm eff}$ the maximum flux of a black body (i.e., of the
 "continuum") shifts in wavelength, something known as "Wien's
-displacement law": \lambda_{max}\prop 1/T, the higher the temperature the
+displacement law": $\lambda_{\rm max}\prop 1/T$, the higher the temperature the
 shorter the wavelength of the maximum flux. This in turn means that
-the change in T_{eff} translates in a change in the "color" of the star,
-because the wavelengths around \lambda_{max} will dominate the perception of
-the star (originally for naked eye observations, but this can be
-generalized).
+the change in $T_{\rm eff}$ translates in a change in the "color" of the
+star, because the wavelengths around $\lambda_{\rm max}$ will dominate the
+perception of the star (originally for naked eye observations, but
+this can be generalized).
 
 This can further be formalized by defining a "color index" as the
 difference in flux between different photometric bands.
