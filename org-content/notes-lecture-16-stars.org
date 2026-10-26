@@ -270,7 +270,7 @@ properties than the Sun.
 [[./images/omega_cen.jpeg]]
 
 These are much father than the Sun (recall that proxima centauri is $\sim
-1\,\mathrm{pc}\simeq 4\,\mathrm{light\ years} away), and we only see them
+1\,\mathrm{pc}\simeq 4\,\mathrm{light\ years}$ away), and we only see them
 as point-sources with very few nearby exceptions. How can we learn
 about their properties?
 
