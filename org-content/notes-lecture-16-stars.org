@@ -152,6 +152,12 @@ neutrons $n\rightarrow p +e^{-}$ energy was apparently not conserved.
 #+ATTR_HTML: :width 50%
 [[./images/Free_neutron_decay_no_neutrino.png]]
 
+If the neutron were to decay into two particles ($p$ and $e^{-}$), the
+total energy and momentum of the system, conserved, will be split into
+the daughter particles according to their mass, and should always be
+the same. Instead, experimental results showed a /distribution/ of
+energy of the electrons coming out from decays:
+
 #+CAPTION: Energy distribution of the electron (\beta^{-} particle) from the decay of free neutrons. Instead of consistently get one energy equal to the transition energy, a distribution was observed. Pauli proposed that the transition energy was distributed between the electron and an unseen particle, the neutrino.
 [[./images/Beta_decay_spectrum.png]]
 
