@@ -100,13 +100,14 @@ they can bind together. At particle-level it is mediated by /gluons/.
 Gravity is instead much weaker than electromagnetic forces, which
 allows solids to bind together without collapsing under their own
 weight. It is the first /fundamental/ force studied by Newton, and it
-remains irreducible to other forces still today. *N.B.:* The most modern
-theory of gravity that fits all the experimental constraints that we
-have, General relativity, considers gravity a manifestation of the
-intrinsic "shape" of space-time bent by masses! We do not yet have a
-/quantum/ theory of gravity, so at particle level there is a /theoretical/
-particle, the /graviton/ which can be constructed by analogy with other
-particles.
+remains irreducible to other forces still today.
+
+*N.B.:* The most modern theory of gravity that fits all the experimental
+constraints that we have, General relativity, considers gravity a
+manifestation of the intrinsic "shape" of space-time bent by masses!
+We do not yet have a /quantum/ theory of gravity, so at particle level
+there is a /theoretical/ particle, the /graviton/ which can be constructed
+by analogy with other particles.
 
 *N.B.:* The unification of gravity, for which the current best theory is
 general relativity, which is a /classical/ (as opposed to quantum)
