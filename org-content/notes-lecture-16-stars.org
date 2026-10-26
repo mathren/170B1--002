@@ -148,6 +148,7 @@ Wolfgang Pauli in the 1930s based on the fact that in the decay of
 neutrons $n\rightarrow p +e^{-}$ energy was apparently not conserved.
 
 #+CAPTION: Free neutron decay as conceptualized before the idea of neutrinos
+#+ATTR_HTML: :width 50%
 [[./images/Free_neutron_decay_no_neutrino.png]]
 
 #+CAPTION: Energy distribution of the electron (\beta^{-} particle) from the decay of free neutrons. Instead of consistently get one energy equal to the transition energy, a distribution was observed. Pauli proposed that the transition energy was distributed between the electron and an unseen particle, the neutrino.
@@ -169,6 +170,7 @@ cannot be detected/ - W. Pauli.
 :end:
 
 #+CAPTION: Free neutron decay applying conservation laws for number of nucleons (1 neutron becomes 1 proton), charge (1 proton and 1 electron cancel out), and leptonic number (1 electron and one anti-neutrino cancel out).
+#+ATTR_HTML: :width 50%
 [[./images/Free_neutron_decay_complete.png]]
 
 
@@ -184,7 +186,9 @@ interact with matter.
 On Earth, the main source of neutrinos is the Sun: by measuring their
 energy, we could even recently /directly/ confirm specific nuclear
 reactions occurring in the Sun's interior, strongly and directly
-confirming the picture of energy generation we have discussed above.
+confirming the picture of energy generation we have discussed [[./notes-lecture-15-sun.org][last
+lecture]]. Neutrinos play also a crucial role in the late evolution of
+massive stars, and their explosions, as we will see.
 
 Typically, since neutrinos interact so little with matter, to detect
 them one needs /a lot of matter/ to maximize the chances of an
