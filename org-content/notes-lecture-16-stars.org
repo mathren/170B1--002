@@ -303,7 +303,23 @@ to the geometry of a sphere and conservation arguments.
 
 ** Distance
 
- - Parallax
+Clearly then, we need to know the distance to the stars to be able to
+derive a fundamental intrinsic property: how luminous they are! Note
+that the distance to the stars /remains/ a key problem in astrophysics
+since the ancient Greek arguments about geocentrism due to the lack of
+parallax in the stars, and it is still topical as measuring the
+distance to stars is still the first step in measuring cosmological
+distances!
+
+We have already seen a /geometric/ method to measure stars, which was
+known in antiquity, but unobservable by naked eye: the parallax
+method. Galileo's discovery that stars not-visible by naked eye are
+outnumbering naked-eye stars suggested that maybe stars are too far to
+detect it, but with the improvements in telescope precision and
+accuracy, we now routinely can detect stellar parallax!
+
+#+CAPTION: Schematic representation of stellar parallax due to the Earth's yearly revolution around the Sun.
+[[./images/parallax.png]]
 
 ** Spectral-type and temperature
 
