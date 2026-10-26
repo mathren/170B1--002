@@ -248,7 +248,7 @@ gauge symmetry).
 
 Several Nobel prizes have been awarded for the detection of neutrinos,
 development of the theory on how they interact with matter, their
-oscillations, and even the The [[https://www.nobelprize.org/uploads/2026/10/press-physicsprize2026.pdf][2026 Nobel prize in physics to Francis
+oscillations, and even the [[https://www.nobelprize.org/uploads/2026/10/press-physicsprize2026.pdf][2026 Nobel prize in physics to Francis
 Halzen]] was awarded for the development of neutrino detectors which
 require 1 km^{3} of ice to work!
 
