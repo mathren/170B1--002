@@ -289,7 +289,8 @@ is spread over a bigger surface! Therefore, in each time interval:
 #+END_latex
 
 where $B$ is the brightness, $L$ is the intrinsic luminosity, and $r$
-is the distance to the star.
+is the distance to the star. If we know $B$ (observed) and $r$, we can
+derive the intrinsic luminosity $L$.
 
 #+CAPTION: Energy conservation, spherical symmetry, and geometric constraints ($A=4\pi r^{2}$) lead to the $B\propto r^{-2}$ relation.
 [[file:images/flux_cons.png]]
