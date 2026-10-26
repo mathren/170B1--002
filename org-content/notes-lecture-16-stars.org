@@ -282,11 +282,11 @@ this energy is lost, as light travels outward, energy has to stay
 constant. As the distance from the star increases, the constant energy
 is spread over a bigger surface! Therefore, in each time interval:
 
-#+BEGIN_SRC latex
+#+BEGIN_latex
   \begin{equation}\label{eq:brightness}
     B = \frac{L}{4\pi r^{2}} \ \ ,
   \end{equation}
-#+END_SRC
+#+END_latex
 
 where $B$ is the brightness, $L$ is the intrinsic luminosity, and $r$
 is the distance to the star.
