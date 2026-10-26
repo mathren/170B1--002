@@ -1,0 +1,17 @@
+#+title: ASTR170 Stellar evolution
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: notes-lecture-16-stars.org
+#+NEXT_PAGE: notes-lecture-18-compact-obj.org
+
+
+
+* Star formation
+
+
+
+* Stellar evolution
+- the need for evolution
+** Mass is what matters most to determine the life of a star
+ - M(L) relation
+ - self-regulated burning
