@@ -155,12 +155,6 @@ neutrons $n\rightarrow p +e^{-}$ energy was apparently not conserved.
 #+CAPTION: Energy distribution of the electron (\beta^{-} particle) from the decay of free neutrons. Instead of consistently get one energy equal to the transition energy, a distribution was observed. Pauli proposed that the transition energy was distributed between the electron and an unseen particle, the neutrino.
 [[./images/Beta_decay_spectrum.png]]
 
-*N.B.:* the half-life of a /free/ neutron $n$ is about 15 minutes, and
-they decay into protons, electron and an anti-neutrino $\bar{\nu}$ to
-conserve charge, energy, and leptonic number. This spontaneous decay
-mediated by the weak force does not occur has easily for neutrons
-bound in nuclei.
-
 Instead of abandoning the principle of conservation energy, Pauli
 proposed that the decay of the neutron produced not 2 but 3 particles:
 $n\rightarrow p+e^{-} +\bar{\nu}$ with the third being hard to detect.
@@ -175,6 +169,11 @@ cannot be detected/ - W. Pauli.
 [[./images/Free_neutron_decay_complete.png]]
 
 
+*N.B.:* the half-life of a /free/ neutron $n$ is about 15 minutes, and
+they decay into protons, electron and an anti-neutrino $\bar{\nu}$ to
+conserve charge, energy, and leptonic number. This spontaneous decay
+mediated by the weak force does not occur has easily for neutrons
+bound in nuclei.
 
 However, in the mid-50s, neutrinos produced by a nuclear power-plant
 were [[https://icecube.wisc.edu/neutrino-history/1956/01/1956-first-discovery-of-the-neutrino-by-an-experiment/][detected by Cowan and Reines]]: the proximity to the source made
