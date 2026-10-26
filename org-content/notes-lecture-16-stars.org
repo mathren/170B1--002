@@ -420,21 +420,67 @@ difference in flux between different photometric bands.
 
 * The Color-Magnitude diagram
 
-We now have a way to measure $L$ and $T$
+We now have a way to measure brightness and color of stars, which are
+related to luminosity and effective temperature. We can try to sort
+the stars on the two-dimensional plane defined by these quantities.
+For example, considering the cluster shown above:
 
 #+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/lhSFQXrVr48?si=SVad-pEYXmQk3enB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-** Why do 90% of stars fall on one line ? \Rightarrow one-parameter family
+That's a very structured plot, with 90% of the stars on one diagonal
+line! But this was just one cluster: maybe there is something special
+about it.
 
-This is typically a very hard problem: as we have seen, on the HRD/CMD
-there is a tight correlation between a star's magnitude and color.
-This holds for the majority (>90%) of stars, and thus for the longest
-phase of evolution. The linear relation between color and magnitude
-(that is effective temperature and luminosity) suggests there is one
-single parameter that determines the position on a star on this
-diagram. However, how do we determine what this parameter is, having
-only these observational data? It is generally not possible without
-relying on models. However, binaries can help!
+/Gaia/ second data release, with more than 1.3 billion stars also shows
+a qualitatively similar shape:
+
+#+CAPTION: /Gaia/ [[https://ui.adsabs.harvard.edu/abs/2018A%26A...616A..10G/abstract][DR2]] (second data release) color magnitude diagram, containing about $\sim$ 1.3 billion Galactic stars. Only $\sim$ 4.2 millions are plotted here (because of data quality cuts).
+#+ATTR_HTML: :width 100%
+#+ATTR_HTML: :alt [[https://sci.esa.int/web/gaia/-/60198-gaia-hertzsprung-russell-diagram][Gaia DR2 CMD]]
+[[./images/Gaia_DR2_HRD_Gaia.png]]
+
+These diagrams show on the x-axis the temperature (but increasing to
+the left: this is an artifact of making these plots /before/ the
+relationship between spectral type and temperature was understood) or
+equivalently color index, and on the y-axis brightness in a specific
+band (of the /Gaia/ or /Hubble space telescope/ instruments) or
+equivalently (when the distance is known) luminosity.
+
+Depending on which axes one choses, we get a /color magnitude diagram/,
+which is a plot of an empirically measured pair of properties for a
+/population/ of stars, or a /Hertzsprung-Russel/ diagram (named after the
+two scientists that independently suggested it) using theoretical
+quantities such as luminosity and temperature.
+
+Combining the empirically observed population with theoretical models
+of stars, the overlap in the axes of these two diagrams can be used to
+study the evolution of stars.
+
+** Why do 90% of stars fall on one line ?
+
+Mathematically, a line is the locus of points $y(x)$ such that
+$y=ax+b$ for some parameters $a$ and $b$. However, the various values
+of the intercept $b$ just cause a shift of the lines which remain
+parallel: $a$ is the most important parameter, and lines are
+one-parameter families (neglecting the intercept that just shifts
+them).
+
+Therefore, the fact that most (90%) of stars are along one line, or in
+other words the linear relation between color and magnitude (that is
+effective temperature and luminosity), suggests there is one single
+parameter that determines the position on a star on this diagram. This
+parameter /cannot/ be one of the things that we are plotting, which
+varies from star to star. To find it, we need to measure more things
+about stars.
+
+One thing we know for the Sun, thanks to Kepler's laws and the orbital
+motion of planets is its mass. Because gravity is the force that
+dominates stars and depends on mass, maybe this is the first thing to
+go after! However, unfortunately, the mass of a star is /not/ a direct
+observable, and measuring it is typically a very hard problem.
+However, binary stars can help!
+
+*N.B.:* This once again is my own research topic!
 
 *** Binaries are common
 
