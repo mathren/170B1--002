@@ -387,6 +387,20 @@ light-matter interactions (the propagation) we can determine the
 ionization state of elements in a stellar envelope and thus obtain its
 temperature.
 
+*N.B.:* We /define/ the /effective temperature/ $T_{\rm eff}$ to be the
+temperature of an ideal black-body emitter (no spectral lines!) with
+the same $L$ as the star:
+
+#+begin_latex
+\begin{equation}
+ L = 4\pi R^{2}^{}_{\rm star} \sigma T_{\rm eff}^{4} \ \ ,
+\end{equation}
+#+end_latex
+
+nothing special happens in the star at $T=T_{\rm eff}$, but it's a good
+arbitrary location to define the boundary between the stars interior
+and its atmosphere.
+
 *** Relation with colors
 
 #+CAPTION: Examples of black-body radiation from different $T$ showing the shift in $\lambda_{\rm max}$.
@@ -404,10 +418,9 @@ this can be generalized).
 This can further be formalized by defining a "color index" as the
 difference in flux between different photometric bands.
 
+* The Color-Magnitude diagram
 
-
-
-* The Herzsprung-Russel diagram
+We now have a way to measure $L$ and $T$
 
 #+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/lhSFQXrVr48?si=SVad-pEYXmQk3enB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
