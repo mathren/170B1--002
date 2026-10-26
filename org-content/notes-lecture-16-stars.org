@@ -603,9 +603,9 @@ of the luminosity of the system as a function of time).
 
 This of course can only happen if the inclination of the orbital plane
 of the binary w.r.t. the line of sight is not too large. Typically,
-astronomers define the inclination of the orbital plane /i/ w.r.t. the
+astronomers define the inclination of the orbital plane $i$ w.r.t. the
 plane of the sky, therefore the line-of-sight (which is perpendicular
-to the plane of the sky by definition) has an angle \varphi = \pi/2 - /i/ w.r.t.
+to the plane of the sky by definition) has an angle $\varphi = \pi/2 - i$ w.r.t.
 the orbital plane. To have an eclipse, at least partial,
 
 #+begin_latex
@@ -614,9 +614,9 @@ the orbital plane. To have an eclipse, at least partial,
 \end{equation}
 #+end_latex
 
-where we use that sin(\varphi)=cos(i), and a \times cos(i) is the projected
-binary separation a on the plane of the sky, which is smaller than R_{1}+R_{2}
-with R_{i} stellar radii, leads to an eclipse. The eclipse will be total
+where we use that $\sin(\varphi)=\cos(i)$, and $a \times \cos(i)$ is the projected
+binary separation a on the plane of the sky, which is smaller than $R_{1}+R_{2}$
+with $R_{i}$ stellar radii, leads to an eclipse. The eclipse will be total
 if
 
 #+begin_latex
@@ -639,7 +639,7 @@ the two stars. Consider the following figure:
 
 one can see that, labeling with 2 the geometrically smaller star
 (darker gray) and assuming the orbit to be circular and the semi-major
-axis to be a and the period P:
+axis to be a and the period $P$:
 
 #+begin_latex
 \begin{equation}
@@ -655,9 +655,9 @@ and
 \end{equation}
 #+end_latex
 
-These equations allow to calculate R_{j}/a and if also the masses are
-known also the individual radii R_{j} using Kepler's laws to get rid of
-the orbital semi-major axis a.
+These equations allow to calculate $R_{j}/a$ and if also the masses are
+known also the individual radii $R_{j}$ using Kepler's laws to get rid of
+the orbital semi-major axis $a$.
 
 :Questions:
  - *Q*: In the figure above, which star is assumed to be the hotter one?
@@ -901,10 +901,10 @@ became a broken powerlaw:
 \end{equation}
 #+end_latex
 
-with x=4 for M\le0.8M_{\odot}, x=3 for 0.8M_{\odot} <M<50M_{\odot}, x=1 for M\geq
-50M_{\odot}. These thresholds are extremely approximated, probably
+with $x=4$ for $M\le0.8\,M_{\odot}$, $x=3$ for $0.8\,M_{\odot} <M<50\,M_{\odot}$, $x=1$ for
+$M\geq 50\,M_{\odot}$. These thresholds are extremely approximated, probably
 metallicity dependent, as we will possibly see later in the course.
 Moreover, and importantly, these hold only for so-called "main
-sequence" stars, the one following also the L(T_{eff}) relatively tight
-relation on the color-magnitude diagram: evolved stars are a different
-problem!
+sequence" stars, the one following also the $L(T_{rm eff}$) relatively
+tight relation on the color-magnitude diagram: evolved stars are a
+different problem!
