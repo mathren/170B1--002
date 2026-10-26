@@ -2,7 +2,7 @@
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-15-sun.org
-#+NEXT_PAGE: notes-lecture-17-stars2.org
+#+NEXT_PAGE: notes-lecture-17-stellar-evo.org
 
 *Reading*: Chapter 14, 15, 16, 17, [[https://www.astro.ru.nl/~onnop/education/stev_utrecht_notes/][Prof. Onno Pols lecture notes]],
 [[https://lavinia.as.arizona.edu/~mrenzo/courses/400A/index.html][ASTR400A lecture notes]]
@@ -908,14 +908,3 @@ Moreover, and importantly, these hold only for so-called "main
 sequence" stars, the one following also the L(T_{eff}) relatively tight
 relation on the color-magnitude diagram: evolved stars are a different
 problem!
-
-
-* Star formation
-
-
-
-* Stellar evolution
-- the need for evolution
-** Mass is what matters most to determine the life of a star
- - M(L) relation
- - self-regulated burning
