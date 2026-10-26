@@ -177,7 +177,8 @@ bound in nuclei.
 
 However, in the mid-50s, neutrinos produced by a nuclear power-plant
 were [[https://icecube.wisc.edu/neutrino-history/1956/01/1956-first-discovery-of-the-neutrino-by-an-experiment/][detected by Cowan and Reines]]: the proximity to the source made
-the neutrino flux sufficiently high (\sim10^{12}-10^{13} neutrinos s^{-1} cm^{-2}).
+the neutrino flux sufficiently high (\sim10^{12}-10^{13} neutrinos s^{-1} cm^{-2},
+roughly 1000-10 000\times the solar neutrino flux!).
 Since then, neutrinos from astrophysical sources (stars, stellar
 explosions, and jets) and have been detected, at various energies, and
 provide information complementary to photons since they hardly
