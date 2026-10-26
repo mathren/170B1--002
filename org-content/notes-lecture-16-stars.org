@@ -393,7 +393,7 @@ the same $L$ as the star:
 
 #+begin_latex
 \begin{equation}
- L = 4\pi R^{2}^{}_{\rm star} \sigma T_{\rm eff}^{4} \ \ ,
+ L = 4\pi R_{\star}^{2} \sigma T_{\rm eff}^{4} \ \ .
 \end{equation}
 #+end_latex
 
