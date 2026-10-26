@@ -219,9 +219,9 @@ leptons (electron, and its more massive "cousins" muon and tau
 particles). Each of these 6 particles also has an antiparticle with
 same mass, opposite charge and opposite "leptonic charge". The
 neutrino-producing processes in a star like the Sun preferentially
-produce electron-flavor neutrinos (*N.B.:* "flavor" is the real
-technical term!), which are also the easiest to detect, and the
-predictions were based on this fact.
+produce electron-flavor neutrinos and anti-neutrinos (*N.B.:* "flavor"
+is the real technical term!), which are also the easiest to detect,
+and the predictions were based on this fact.
 
 However, it turns out that the standard model of particle physics
 (built on quantum mechanics and decades of experiments in particle
