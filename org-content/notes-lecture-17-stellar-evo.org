@@ -128,16 +128,16 @@ examples.
 *N.B.:* Many astronomical objects have names that start with an M (e.g.,
 M31 the Andromeda galaxy, of M3 the cluster above). These are very
 different objects, but they all were first catalogued by [[https://en.wikipedia.org/wiki/Charles_Messier][Messier]]
-(hence the M). Messier was interested in comets (which are nearby and
-appear extended) at a time where the distinction between solar system,
-galaxy and Universe was poorly understood yet. He thus catalogued all
-/extended/ (as in: not a point) sources he could wind to search for
-comets. Nowadays, most objects from his catalog of observations that
-are of interest are the /not-comet/ (extended objects such galaxies and
-clusters outside of the solar system). This happens very often in
-science: someone's "garbage" they do /not/ care about (like Messier
-didn't care about not-comet sources) becomes the treasure-trove for
-other scientists!
+(hence the M). Messier was interested in comets (which are within the
+Solar system and appear extended) at a time where the distinction
+between solar system, galaxy and Universe was poorly understood yet.
+He thus catalogued 101 /extended/ (as in: not a point) sources he could
+find to search for comets. Nowadays, most objects from his catalog of
+observations that are of interest are the /not-comet/ (extended objects
+such galaxies and clusters outside of the solar system). This happens
+very often in science: someone's "garbage" they do /not/ care about
+(like Messier didn't care about not-comet sources) becomes the
+treasure-trove for other scientists!
 
 *** Initial mass function
 
