@@ -6,8 +6,7 @@
 
 - Top Hat: Q1, Q2, Q3
 
-
-* Stellar evolution
+* The need for stellar evolution
 
 The solution to the great-debate on the age of the Sun/Earth was that
 there needs to be an energy /source/ to compensate for the energy losses
