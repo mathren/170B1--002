@@ -560,12 +560,62 @@ lifetime (going from \sim90% to 99% of the total life). This is
 /consistent/ with the energy release by Helium burning based on nuclear
 structure.
 
+*** Red clump
+We have seen that the mass of the star sets $L$, thus the burning rate
+$L_{\rm nuc}$, and the H burning main sequence covers 90% of the
+lifetime. In a co-eval cluster, most stars evolved past the main
+sequence have roughly the same mass: they will all sit on the same
+spot along the horizontal branch, and form the so called "red clump".
 
-** Asymptotic Giant branch
+Red clump stars and red supergiants can be distinguished by their
+asteroseismic properties (they are both red and big, but their
+structure is different, so they support different wave propagation
+modes).
+
+** Asymptotic Giant branch (AGB)
+
+Once He runs out in the core, we can reason by analogy with the end of
+the main sequence. The composition of the core is mostly carbon (and
+some oxygen produced by He burning processes other than $3\alpha$), and if
+the mass of the star is not too large, this CO core will be supported
+by electron degeneracy pressure.
+
+Above it, we have a He layer, and possibly still the H rich envelope.
+This is an asymptotic giant branch star, where the energy to
+compensate the losses by $L$ comes from:
+- slow gravitational contraction of the core
+- H burning shell (set by He core properties)
+- occasionally He shell
 
 *** Thermal pulses
+The He shell is in fact typically /not/ on: the He that didn't burn
+during the red clump/horizontal branch phase was too cold to burn, and
+this is still mostly true. Therefore most of the time an AGB star has
+an inert CO core, surrounded by an inert He shell (both degenerate)
+and a H-rich shell. As the shell adds ashes, like in the He flash
+described above, the He layer can ignite in a flash.
+
+This explosive energy release drives the star temporarily out of
+equilibrium, pushes out the envelope and turns off both the H and He
+shell. With no energy sources, the star then re-collapses on a slow $\sim
+E/L$ timescale before the H shell re-ignites first and we return to
+the previous structure. What I just described is a "thermal pulse".
 
 *** Planetary nebulae
+
+These thermal pulses are also accompanied by dust formation in the
+outer layers and copious mass loss: AGB stars are surrounded by their
+messy spill overs!
+
+The repetition of thermal pulses divided by thermal timescales
+ultimately removes most of the envelope, forming beautiful nebulae
+around old stars, called "planetary nebulae" (historical name that has
+nothing to do with planets).
+
+#+CAPTION: Examples of composite images of planetary nebulae. The star (leftover hot core) is in the very center, and the gas illuminated by the hot central star was part of the star itself before being ejected in a thermal pulse.
+#+ATTR_HTML: :width 90%
+[[./images/PN.jpg]]
+
 
 ** Degeneracy pressure kicks in: gas stops gravity and white dwarfs form
 
