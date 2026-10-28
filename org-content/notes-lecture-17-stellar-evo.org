@@ -44,24 +44,26 @@ we cannot see?
    see in that phase (like a bottleneck: most cars are where traffic is
    slow). Astrophysics compensates lack of /control over the experiment/
    with very large sample that allow to build /statistical samples/.
+   #+CAPTION: Stellar populations can be selected based on location (e.g., a whole Galaxy), or observational properties (e.g., all the stars bluer than some threshold). Controlling /selection biases/ (as in "what fraction of what is out there can your experiment detect?") is often crucial to analyze the data.
+   [[./images/Gaia.jpg]]
 
 2. *Simulations*: we can tell a computer the /physics/ that governs
    certain phenomena and obtain a /numerical model/ of, for example, a
    star. Through computer simulations we can access (a representation
    of) the internal /structure/ of a star, and /fast-forward/ time to
    study its /evolution/.
+   #+CAPTION: Example of graphical output with many plots showing the interior and the past evolution of a stellar model computed with [[https://mesastar.org/][MESA]].
+   [[./images/Grid.png]]
+
 
 3. In selected cases: neutrinos come straight from the core!
 
-Option 3 is what I do, through a variety of numerical tools. These
+Option 2 is what I do, through a variety of numerical tools. These
 require combining models of several physical processes (atomic
 physics, radiative processes, nuclear reactions, hydrodynamics), and
 are therefore very simplified. Currently and for the foreseeable
 future simulations of stars will be spherically symmetric: anything
 else is way too expensive!
-
-#+CAPTION: Example of graphical output with many plots showing the interior and the past evolution of a stellar model computed with [[https://mesastar.org/][MESA]].
-[[./images/Grid.png]]
 
 :Quote:
 /All simulations are wrong, but some are useful/ - G. Box
