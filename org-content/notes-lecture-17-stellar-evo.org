@@ -4,10 +4,7 @@
 #+PREVIOUS_PAGE: notes-lecture-16-stars.org
 #+NEXT_PAGE: notes-lecture-18-compact-obj.org
 
-- Top Hat:
-  - Have you found Alcor?
-  - Main sequence
-  - mass luminosity relation
+- Top Hat: Q1, Q2, Q3
 
 
 * Stellar evolution
