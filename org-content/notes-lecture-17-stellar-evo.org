@@ -30,7 +30,8 @@ they can /die/.
 Gravitational contraction releases energy and heats up the gas. If in
 the battle the gas heats up sufficiently to release its own energy, it
 can momentarily delay the gravitational collapse at the expenses of
-the energy source, and we get a star.
+the energy source, and we get a star. See [[https://lavinia.as.arizona.edu/~mrenzo/courses/545/in-class-evol-wrap-up.html][for a more in depth
+description from ASTR545]].
 
 ** How can we study stellar evolution
 
