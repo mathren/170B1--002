@@ -173,9 +173,15 @@ DEADLINE: Homework
 # Deadline Homework 9, Assign Homework 10
 DEADLINE: Homework
 
+[[./notes-lecture-17-stellar-evo.org][Notes]]
+
 ** Week 11: Chapter 18
 
 *** <2026-11-02 Mon> - Stellar evolution: high mass
+# in class attendance
+
+[[./notes-lecture-18-high-mass-stars.org][Notes]]
+
 *** <2026-11-04 Wed> - Midterm
 # Deadline Homework 10, Assign Homework 11
 DEADLINE: Homework, In class exam

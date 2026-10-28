@@ -1,0 +1,24 @@
+#+title: ASTR170 High mass star evolution
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: notes-lecture-17-stellar-evo.org
+#+NEXT_PAGE: notes-lecture-19-compact-obj.org
+
+
+* High-mass star evolution
+
+#+HTML: <div style="text-align: center;">
+#+HTML:   <video width="600" height="400" controls>
+#+HTML:     <source src="./images/demo_12Msun.mp4" type="video/mp4">
+#+HTML:     Your browser does not support the video tag.
+#+HTML:   </video>
+#+HTML: </div>
+
+This video, made with [[https://github.com/mathren/12Msun_movie/blob/main/demo_12Msun.mp4][this MESA setup]] shows an example evolution
+of a $12\,M_{\odot}$ mildly rotating star from formation to the end of its life.
+
+** Prompt ignition
+
+** Onion structure
+
+** Gravity's victory

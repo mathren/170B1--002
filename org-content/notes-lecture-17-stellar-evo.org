@@ -247,8 +247,9 @@ against gravity. For a plasma the pressure $P\equiv P(T,\rho)$ is a function
 of the temperature and density! To a pressure gradient corresponds a
 temperature gradient: only the core is sufficiently hot to burn.
 
-#+CAPTION: Only the core region of a star is hot enough to sustain a significant rate of nuclear fusion.
-[./images/TRho.png]
+#+CAPTION: Only the core region of a star is hot enough to sustain a significant rate of nuclear fusion: the plot below shows the burning region with a yellow outline. All the mass with lower $T$ and $rho$ is inert from the nuclear reactions point of view.
+[[file:images/Trho_1Msun.png]]
+
 
 The Sun is roughly half-way through its hydrogen fuel, at the age of
 $\sim 4.5$ billion years. It is in this sense a "middle-age star"
@@ -637,23 +638,3 @@ general) remain an active topic of research.
 So after thermal pulses, our Sun-like evolved star has lost most of
 its envelope, and remains as a CO core possibly surrounded by a thin
 layer of H and He
-
-
-
-* High-mass star evolution
-
-#+HTML: <div style="text-align: center;">
-#+HTML:   <video width="600" height="400" controls>
-#+HTML:     <source src="./images/demo_12Msun.mp4" type="video/mp4">
-#+HTML:     Your browser does not support the video tag.
-#+HTML:   </video>
-#+HTML: </div>
-
-This video, made with [[https://github.com/mathren/12Msun_movie/blob/main/demo_12Msun.mp4][this MESA setup]] shows an example evolution
-of a $12\,M_{\odot}$ mildly rotating star from formation to the end of its life.
-
-** Prompt ignition
-
-** Onion structure
-
-** Gravity's victory
