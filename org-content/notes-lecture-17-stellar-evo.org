@@ -324,7 +324,7 @@ energy to compensate $L$ and support itself against gravity!
 
 #+CAPTION: Schematic representation of the CNO cycle active in massive stars, compare the steps with the [[file:notes-lecture-15-sun.org::*Nuclear reactions][pp chain]] dominant in the Sun and low mass stars.
 #+ATTR_HTML: :width 50%
-[[file:images/CNO.png]]
+[[./images/CNO.png]]
 
 
 The trick is to use elements other than hydrogen and helium to
