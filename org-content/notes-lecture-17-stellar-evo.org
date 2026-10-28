@@ -654,4 +654,38 @@ general) remain an active topic of research.
 
 So after thermal pulses, our Sun-like evolved star has lost most of
 its envelope, and remains as a CO core possibly surrounded by a thin
-layer of H and He
+layer of H and He, supported by the electron degeneracy pressure.
+
+If the mass is sufficiently low, degeneracy pressure (which you can
+imagine similar to a "contact force": you can't compress the electrons
+more) will continue to support the star. Any residual energy will
+progressively leak out, leading to cooling, and thus dimming in time.
+
+This is the evolution of a *white dwarf*, the dead stellar remnant of
+low mass stars (\ge 95% of all stars, including the Sun end like this).
+On the color-magnitude diagram they just cool and faint (see /Gaia/ DR2
+plot above): they follow a diagonal line.
+
+Note that this is effectively similar to a *stellar-scale atom*: all the
+electrons are distributed and shared in the entire stellar gas and
+determine the properties (much like electrons in an atom determine its
+chemical properties), but do not provide most of the mass (which is in
+the nuclei).
+
+As the star keeps on cooling, at some point the internal energy will
+be low enough for bonds to form between the ions of the gas: the white
+dwarfs will crystallize. But it's mostly made of carbon: after
+crystallization the star becomes a crystal mostly made of carbon,
+supported by electron degeneracy pressure!
+
+The crystallization process itself is a phase transition (from gas to
+solid) that releases some energy (the bound atoms in a crystal have
+less energy than they had in gas phase, the difference is released as
+heat by the bond-forming process): this slows down the cooling at
+selected $T_{\rm eff}$ corresponding to the crystallization temperature
+inside, which has been claimed for the first time based on /Gaia/ DR2
+data.
+
+#+CAPTION: HR diagram for a complete volume-limited sample of WDs within 100pc from /Gaia/ DR2. The color of points indicates spectroscopically determined masses based on [[https://www.sdss.org/][SDSS]], red dots mark magnetized WD (again from their spectra), and dotted orange lines enclose the predicted region where crystallization of the WD covers between 20% (top) and 80% of the total mass, and contains an overabundance of stars as predicted by the release of latent heat. This is Fig. 2 from [[https://ui.adsabs.harvard.edu/abs/2019Natur.565..202T/abstract][Tremblay et al. 2019]].
+#+ATTR_HTML: :width 100%
+[[./images/Gaia_spur.png]]
