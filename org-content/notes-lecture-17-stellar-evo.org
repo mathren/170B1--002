@@ -363,7 +363,7 @@ that process light nuclei into heavier nuclei before releasing them in
 the host galaxy!
 
 #+CAPTION: Stars cycle (parts of the) gas into heavier elements before returning it to the host galaxy, progressively enriching the galaxies with heavy nuclei.
-[./images/recycling.png]
+[[./images/star_recycling.png]]
 
 * Low mass star evolution
 
