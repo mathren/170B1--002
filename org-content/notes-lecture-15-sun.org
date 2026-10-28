@@ -100,7 +100,7 @@ are most present by mass, but just those that have more transitions
 available in the visible spectrum. Instead, most of the mass is in
 light elements, unlike the rocky planets.
 
-At the time, initially, famous astrophysicists (e.g., Russell!)
+At the time, initially, famous astrophysicists (e.g., Russelll!)
 rejected this idea: dominant paradigm was that there is no particular
 composition difference between the Earth and the Sun (something that
 reads absurd now after discussing [[./notes-lecture-12-planet-formation.org][solar system formation]]). We now know

@@ -458,7 +458,7 @@ equivalently (when the distance is known) luminosity.
 
 Depending on which axes one choses, we get a /color magnitude diagram/,
 which is a plot of an empirically measured pair of properties for a
-/population/ of stars, or a /Hertzsprung-Russel/ diagram (named after the
+/population/ of stars, or a /Hertzsprung-Russelll/ diagram (named after the
 two scientists that independently suggested it) using theoretical
 quantities such as luminosity and temperature.
 
