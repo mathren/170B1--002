@@ -1,4 +1,4 @@
-#+title: ASTR170 Stellar evolution
+#+title: ASTR170 Low mass star evolution
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-16-stars.org

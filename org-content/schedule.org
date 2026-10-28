@@ -163,45 +163,45 @@ DEADLINE: Homework
 
 ** Week 10: Chapter 15, 16, 17, 18
 
-*** <2026-10-26 Mon> - Solar neutrinos, Star Formation
+*** <2026-10-26 Mon> - Solar neutrinos, Stars
 # in class attendance
 
 [[./notes-lecture-16-stars.org][Notes]]
 
-*** <2026-10-28 Wed> - Stellar evolution, dead stars and black holes
+*** <2026-10-28 Wed> - Stellar evolution: low mass
 # in class attendance
 # Deadline Homework 9, Assign Homework 10
 DEADLINE: Homework
 
 ** Week 11: Chapter 18
 
-*** <2026-11-02 Mon> - Dead stars and black holes
-# in class attendance
+*** <2026-11-02 Mon> - Stellar evolution: high mass
 *** <2026-11-04 Wed> - Midterm
 # Deadline Homework 10, Assign Homework 11
 DEADLINE: Homework, In class exam
 
 ** Week 12: Chapter 19, 20
 
-*** <2026-11-09 Mon> - The Milky way, Galaxy evolution
-# in class attendance
+*** <2026-11-09 Mon> - Stellar graveyard
 *** <2026-11-11 Wed> - *No lecture: Veteran's day*
 # Deadline Homework 11, Assign Homework 12
 DEADLINE: Homework
 
 ** Week 13: Chapter 21, 22
 
-*** <2026-11-16 Mon> - Hubble's law
+*** <2026-11-16 Mon> - The Milky way, Galaxy evolution
 # in class attendance
-*** <2026-11-18 Wed> - Active Galaxies
+*** <2026-11-18 Wed> - Hubble's law
 # in class attendance
-# Deadline Homework 12, assign Homework 13
 DEADLINE: Homework
 
 ** Week 14:
 
-*** <2026-11-23 Mon> - buffer
+*** <2026-11-23 Mon> - Active Galaxies
 # in class attendance
+# Deadline Homework 12, assign Homework 13
+DEADLINE: Homework
+
 *** <2026-11-25 Wed> - buffer (day before Thanksgiving)
 # in class attendance
 DEADLINE: Signature assignment
