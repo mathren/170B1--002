@@ -336,6 +336,14 @@ collapse refueling against $L$) and gravity.
 
 * Low mass star evolution
 
+#+HTML: <div style="text-align: center;">
+#+HTML:   <video width="600" height="400" controls>
+#+HTML:     <source src="./images/demo_1Msun.mp4" type="video/mp4">
+#+HTML:     Your browser does not support the video tag.
+#+HTML:   </video>
+#+HTML: </div>
+
+
 ** Red giant
 
 ** Next fuel is hard to start: He Flash
@@ -349,6 +357,14 @@ Use \Omega Cen
 White dwarfs.
 
 * High-mass star evolution
+
+#+HTML: <div style="text-align: center;">
+#+HTML:   <video width="600" height="400" controls>
+#+HTML:     <source src="./images/demo_12Msun.mp4" type="video/mp4">
+#+HTML:     Your browser does not support the video tag.
+#+HTML:   </video>
+#+HTML: </div>
+
 
 ** Prompt ignition
 
