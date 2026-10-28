@@ -216,9 +216,12 @@ assume we /already/ know the energy source of stars. This is not too
 bad: the paper proposing nuclear fusion as the energy source in the
 Sun is [[https://link.aps.org/doi/10.1103/PhysRev.55.434][Bethe 1939]], and much of the evolution that we are going to
 discuss became clear only through the advent of computational sciences
-and the collection of large populations later on. Moreover, the
-detection of solar neutrinos uncontroversially proves directly that
-fusion reactions do occur in the Sun.
+and the collection of large populations later on. The description of
+stellar evolution we will discuss is mostly empirically validated by
+collecting multiple independent observational constraints that have to
+fit together in a /concordance/ picture. Moreover, the detection of
+solar neutrinos uncontroversially proves directly that fusion
+reactions do occur in the Sun.
 
 This must mean that on the main sequence stars must be burning the
 best fuel, that can be burned at a slower rate for compensating the
@@ -322,7 +325,7 @@ hotter central temperatures where hydrogen fusion occurs differently
 than in the Sun: the gas finds the most efficient way to generate
 energy to compensate $L$ and support itself against gravity!
 
-#+CAPTION: Schematic representation of the CNO cycle active in massive stars, compare the steps with the [[file:notes-lecture-15-sun.org::*Nuclear reactions][pp chain]] dominant in the Sun and low mass stars.
+#+CAPTION: Schematic representation of the CNO cycle active in massive stars, compare the steps with the [[file:notes-lecture-15-sun.org::*Nuclear reactions][pp chain]] dominant in the Sun-like a and low mass stars.
 #+ATTR_HTML: :width 50%
 [[./images/CNO.png]]
 
@@ -365,6 +368,14 @@ the host galaxy!
 #+CAPTION: Stars cycle (parts of the) gas into heavier elements before returning it to the host galaxy, progressively enriching the galaxies with heavy nuclei.
 [[./images/star_recycling.png]]
 
+* Very low mass star evolution
+For $M\lesssim 0.4M_{\odot}$, fully convective low-$L$ stars take longer than
+the current age of the Universe to run out of H: their evolution is
+/only/ main sequence evolution, none of these have exhausted their fuel.
+
+As they evolve, the slow change in chemical composition reflects in
+changes in their structure, which causes their $L$ to slowly increase.
+
 * Low mass star evolution
 
 #+HTML: <div style="text-align: center;">
@@ -374,18 +385,70 @@ the host galaxy!
 #+HTML:   </video>
 #+HTML: </div>
 
+The video above shows a MESA simulation of a $1\,M_{\odot}$ stellar model.
+*N.B.:* This is /a model of/ a $1\,M_{\odot}$ star, not the real Sun: modeling
+assumption can cause differences between the model and the Sun, for
+instance it's $L$ at present-day for the age of the Sun is a few
+percent off. Remember that all models are wrong, but some are useful!
 
-** Red giant
+** Main sequence
+Throughout the main sequence, the luminosity of the Sun increases: /the
+Sun used to be fainter!/ This for example implies that the /habitable
+zone/ determined by the stellar flux on a planet surface has moved:
+when the Sun was fainter early in the evolution, it was further in.
+
+The increase in $L$ is caused by the fact that the composition of the
+star is changing (specifically, the average weight of a particle is
+changing, since the mass is roughly constant, neglecting solar wind
+and nuclear-mass-energy converted into thermal energy by the burning).
+
+** Red giants: degenerate He core, H shell, expanded envelope
+
+At the end of the main sequence, the Sun will have depleted H only in
+the very center (recall Sun-like stars have radiative cores).
+
+#+CAPTION: Hydrogen mass fraction $X$ as a function of mass coordinate $m$ for a single, non-rotating, $1M_{\odot}$, $Z=0.02$ =MESA= model across its main sequence evolution. The color go from dark (\sim ZAMS) to light (\sim TAMS).
+#+ATTR_HTML: :width 100%
+[[./images/1Msun_X_M.png]]
+
+Because the mass is relatively low, the core temperature is also
+relatively low: $e^{-}$ degeneracy pressure matters! The He-rich core
+will be temporarily sustained by it, while the first layer where H is
+available burns in a /shell/ that only sustains the envelope.
+
+Because the shell position is determined by the composition structure
+(set by the main sequence structure, set by the $L\equiv L(M)$), that is by
+the availability of fuel, its burning is /not/ self-regulated like the
+core burning during the main sequence. The nuclear processes occur at
+whatever rate is set by the temperature ($\Rightarrow$ thermal motion of nuclei
+in the plasma) at the location where fuel is dictated by the stellar
+structure. The envelope responds to this by expanding: the star
+becomes a /red giant/.
+
+:Question:
+ - why "red"? Why does a star become redder as it expands?
+:end:
+:Hint:
+Think of the adiabatic cooling of your breath as it expands!
+:end:
+
+Therefore, as a Sun-like star ends the main sequence, it will smoothly
+transition to burn H in a shell, with an inert core sustained by
+degeneracy pressure.
 
 ** Next fuel is hard to start: He Flash
 
-** Horizontal branch
+*** Horizontal branch
 Use \Omega Cen
 
 ** Asymptotic Giant Branch
 
-** The gas has a trick: $e^{-}$
-White dwarfs.
+*** Thermal pulses
+
+*** Planetary nebulae
+
+** Degeneracy pressure kicks in: gas stops gravity and white dwarfs form
+
 
 * High-mass star evolution
 

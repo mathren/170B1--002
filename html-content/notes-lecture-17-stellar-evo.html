@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-10-28 Wed 11:09 -->
+<!-- 2026-10-28 Wed 11:28 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Stellar evolution</title>
@@ -452,9 +452,12 @@ assume we <i>already</i> know the energy source of stars. This is not too
 bad: the paper proposing nuclear fusion as the energy source in the
 Sun is <a href="https://link.aps.org/doi/10.1103/PhysRev.55.434">Bethe 1939</a>, and much of the evolution that we are going to
 discuss became clear only through the advent of computational sciences
-and the collection of large populations later on. Moreover, the
-detection of solar neutrinos uncontroversially proves directly that
-fusion reactions do occur in the Sun.
+and the collection of large populations later on. The description of
+stellar evolution we will discuss is mostly empirically validated by
+collecting multiple independent observational constraints that have to
+fit together in a <i>concordance</i> picture. Moreover, the detection of
+solar neutrinos uncontroversially proves directly that fusion
+reactions do occur in the Sun.
 </p>
 
 <p>
@@ -609,7 +612,7 @@ energy to compensate \(L\) and support itself against gravity!
 <figure id="org-element-25">
 <img src="./images/CNO.png" alt="CNO.png" width="50%">
 
-<figcaption><span class="figure-number">Figure 15: </span>Schematic representation of the CNO cycle active in massive stars, compare the steps with the <a href="notes-lecture-15-sun.html#org-element-26">pp chain</a> dominant in the Sun and low mass stars.</figcaption>
+<figcaption><span class="figure-number">Figure 15: </span>Schematic representation of the CNO cycle active in massive stars, compare the steps with the <a href="notes-lecture-15-sun.html#org-element-26">pp chain</a> dominant in the Sun-like a and low mass stars.</figcaption>
 </figure>
 
 
@@ -669,48 +672,144 @@ the host galaxy!
 </div>
 </div>
 </div>
+<div id="outline-container-very-low-mass-star-evolution" class="outline-2">
+<h2 id="very-low-mass-star-evolution"><a href="#very-low-mass-star-evolution">Very low mass star evolution</a></h2>
+<div class="outline-text-2" id="text-org-element-28">
+<p>
+For \(M\lesssim 0.4M_{☉}\), fully convective low-\(L\) stars take longer than
+the current age of the Universe to run out of H: their evolution is
+<i>only</i> main sequence evolution, none of these have exhausted their fuel.
+</p>
+
+<p>
+As they evolve, the slow change in chemical composition reflects in
+changes in their structure, which causes their \(L\) to slowly increase.
+</p>
+</div>
+</div>
 <div id="outline-container-low-mass-star-evolution" class="outline-2">
 <h2 id="low-mass-star-evolution"><a href="#low-mass-star-evolution">Low mass star evolution</a></h2>
-<div class="outline-text-2" id="text-org-element-28">
+<div class="outline-text-2" id="text-org-element-29">
 <div style="text-align: center;">
 <video width="600" height="400" controls>
 <source src="./images/demo_1Msun.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </div>
+
+<p>
+The video above shows a MESA simulation of a \(1\,M_{☉}\) stellar model.
+<b>N.B.:</b> This is <i>a model of</i> a \(1\,M_{☉}\) star, not the real Sun: modeling
+assumption can cause differences between the model and the Sun, for
+instance it's \(L\) at present-day for the age of the Sun is a few
+percent off. Remember that all models are wrong, but some are useful!
+</p>
 </div>
-<div id="outline-container-red-giant" class="outline-3">
-<h3 id="red-giant"><a href="#red-giant">Red giant</a></h3>
+<div id="outline-container-main-sequence" class="outline-3">
+<h3 id="main-sequence"><a href="#main-sequence">Main sequence</a></h3>
+<div class="outline-text-3" id="text-org-element-30">
+<p>
+Throughout the main sequence, the luminosity of the Sun increases: <i>the
+Sun used to be fainter!</i> This for example implies that the <i>habitable
+zone</i> determined by the stellar flux on a planet surface has moved:
+when the Sun was fainter early in the evolution, it was further in.
+</p>
+
+<p>
+The increase in \(L\) is caused by the fact that the composition of the
+star is changing (specifically, the average weight of a particle is
+changing, since the mass is roughly constant, neglecting solar wind
+and nuclear-mass-energy converted into thermal energy by the burning).
+</p>
+</div>
+</div>
+<div id="outline-container-red-giants-degenerate-he-core-h-shell-expanded-envelope" class="outline-3">
+<h3 id="red-giants-degenerate-he-core-h-shell-expanded-envelope"><a href="#red-giants-degenerate-he-core-h-shell-expanded-envelope">Red giants: degenerate He core, H shell, expanded envelope</a></h3>
+<div class="outline-text-3" id="text-org-element-31">
+<p>
+At the end of the main sequence, the Sun will have depleted H only in
+the very center (recall Sun-like stars have radiative cores).
+</p>
+
+
+<figure id="org-element-32">
+<img src="./images/1Msun_X_M.png" alt="1Msun_X_M.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 17: </span>Hydrogen mass fraction \(X\) as a function of mass coordinate \(m\) for a single, non-rotating, \(1M_{☉}\), \(Z=0.02\) <code>MESA</code> model across its main sequence evolution. The color go from dark (&sim; ZAMS) to light (&sim; TAMS).</figcaption>
+</figure>
+
+<p>
+Because the mass is relatively low, the core temperature is also
+relatively low: \(e^{-}\) degeneracy pressure matters! The He-rich core
+will be temporarily sustained by it, while the first layer where H is
+available burns in a <i>shell</i> that only sustains the envelope.
+</p>
+
+<p>
+Because the shell position is determined by the composition structure
+(set by the main sequence structure, set by the \(L\equiv L(M)\)), that is by
+the availability of fuel, its burning is <i>not</i> self-regulated like the
+core burning during the main sequence. The nuclear processes occur at
+whatever rate is set by the temperature (\(\Rightarrow\) thermal motion of nuclei
+in the plasma) at the location where fuel is dictated by the stellar
+structure. The envelope responds to this by expanding: the star
+becomes a <i>red giant</i>.
+</p>
+
+<div class="org-drawer-container">
+  <button class="org-drawer-toggle" onclick="toggleDrawer('drawer-Question-2')">Question ▼</button>
+  <div id="drawer-Question-2" class="org-drawer-content" style="display: none;"><ul class="org-ul">
+<li>why "red"? Why does a star become redder as it expands?</li>
+</ul>
+</div>
+</div>
+<div class="org-drawer-container">
+  <button class="org-drawer-toggle" onclick="toggleDrawer('drawer-Hint-3')">Hint ▼</button>
+  <div id="drawer-Hint-3" class="org-drawer-content" style="display: none;"><p>
+Think of the adiabatic cooling of your breath as it expands!
+</p>
+</div>
 </div>
 
+<p>
+Therefore, as a Sun-like star ends the main sequence, it will smoothly
+transition to burn H in a shell, with an inert core sustained by
+degeneracy pressure.
+</p>
+</div>
+</div>
 <div id="outline-container-next-fuel-is-hard-to-start-he-flash" class="outline-3">
 <h3 id="next-fuel-is-hard-to-start-he-flash"><a href="#next-fuel-is-hard-to-start-he-flash">Next fuel is hard to start: He Flash</a></h3>
+<div class="outline-text-3" id="text-next-fuel-is-hard-to-start-he-flash">
 </div>
-
-<div id="outline-container-horizontal-branch" class="outline-3">
-<h3 id="horizontal-branch"><a href="#horizontal-branch">Horizontal branch</a></h3>
-<div class="outline-text-3" id="text-org-element-29">
+<div id="outline-container-horizontal-branch" class="outline-4">
+<h4 id="horizontal-branch"><a href="#horizontal-branch">Horizontal branch</a></h4>
+<div class="outline-text-4" id="text-org-element-33">
 <p>
 Use &Omega; Cen
 </p>
 </div>
 </div>
+</div>
 <div id="outline-container-asymptotic-giant-branch" class="outline-3">
 <h3 id="asymptotic-giant-branch"><a href="#asymptotic-giant-branch">Asymptotic Giant Branch</a></h3>
+<div class="outline-text-3" id="text-asymptotic-giant-branch">
+</div>
+<div id="outline-container-thermal-pulses" class="outline-4">
+<h4 id="thermal-pulses"><a href="#thermal-pulses">Thermal pulses</a></h4>
 </div>
 
-<div id="outline-container-the-gas-has-a-trick-e" class="outline-3">
-<h3 id="the-gas-has-a-trick-e"><a href="#the-gas-has-a-trick-e">The gas has a trick: \(e^{-}\)</a></h3>
-<div class="outline-text-3" id="text-org-element-30">
-<p>
-White dwarfs.
-</p>
+<div id="outline-container-planetary-nebulae" class="outline-4">
+<h4 id="planetary-nebulae"><a href="#planetary-nebulae">Planetary nebulae</a></h4>
 </div>
+</div>
+<div id="outline-container-degeneracy-pressure-kicks-in-gas-stops-gravity-and-white-dwarfs-form" class="outline-3">
+<h3 id="degeneracy-pressure-kicks-in-gas-stops-gravity-and-white-dwarfs-form"><a href="#degeneracy-pressure-kicks-in-gas-stops-gravity-and-white-dwarfs-form">Degeneracy pressure kicks in: gas stops gravity and white dwarfs form</a></h3>
 </div>
 </div>
 <div id="outline-container-high-mass-star-evolution" class="outline-2">
 <h2 id="high-mass-star-evolution"><a href="#high-mass-star-evolution">High-mass star evolution</a></h2>
-<div class="outline-text-2" id="text-org-element-31">
+<div class="outline-text-2" id="text-org-element-34">
 <div style="text-align: center;">
 <video width="600" height="400" controls>
 <source src="./images/demo_12Msun.mp4" type="video/mp4">
