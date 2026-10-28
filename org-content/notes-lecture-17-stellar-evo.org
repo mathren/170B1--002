@@ -601,10 +601,15 @@ shell. With no energy sources, the star then re-collapses on a slow $\sim
 E/L$ timescale before the H shell re-ignites first and we return to
 the previous structure. What I just described is a "thermal pulse".
 
+AGB stars tend to be a bit larger than RGB stars: the Sun will likely
+extend beyond the Earth's orbit in this phase, and swallow the planet.
+
 During this interplay of the thermal pulses, matter can mix from the
 intra-shell layer to the envelope, which slowly takes carbon (produced
 by He burning) into the envelope: composition can be used to
 distinguish AGB from RGB (both are red and luminous).
+
+
 
 *** Planetary nebulae
 
@@ -624,7 +629,7 @@ nothing to do with planets).
 The details of the ejection of mass (and mass loss by stars in
 general) remain an active topic of research.
 
-** Degeneracy pressure kicks in: gas stops gravity and white dwarfs form
+** Final fate: stellar-scale atom-like structure, star crystal
 
 So after thermal pulses, our Sun-like evolved star has lost most of
 its envelope, and remains as a CO core possibly surrounded by a thin
