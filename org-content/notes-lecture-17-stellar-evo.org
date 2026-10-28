@@ -15,13 +15,15 @@ in the form of the luminosity $L$. /Stars don't shine because they
 burn! They burn because they shine!/
 
 Since $L$ constantly causes removal of energy, some must be /extracted/
-(turns out its the nuclear energy that binds neutrons and protons in
-the core), but that means something is /consumed/: the stars must
-/evolve/!
+from somewhere to compensate if the system is in equilibrium. But that
+means something is /consumed/: the stars must /evolve/!
 
-This became clear even before nuclear fusion became the apparent
-energy source, and it has profound implication: stars must be /born/ and
-they can /die/.
+It turns out the energy source is the nuclear energy that binds
+neutrons and protons in nuclei in the core of the star, but that
+evolution would be needed became clear even before nuclear fusion
+became the apparent energy source. This has profound implication:
+stars must be /born/ and they can /die/ (cf. millennia of human history
+elevating the Sun to god-like status!).
 
 *Stellar evolution is a constant battle between the gas and gravity.*
 Gravitational contraction releases energy and heats up the gas. If in
