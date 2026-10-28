@@ -83,6 +83,10 @@ combine and compare empirical data with theoretical predictions!
 
 ** Star formation
 
+
+#+CAPTION: Artist's impression of star formation: collapse of a cloud, formation of a proto-stellar/proto-planetary disk, accretion of material and ejection of a jet powered by accretion.
+[[file:images/SF.png]]
+
 Recall [[./notes-lecture-12-planet-formation.org][planet formation]] and /nebular hypothesis/: the same cloud that
 started collapsing and globally rotate (on a plane perpendicular to
 the total angular momentum, because particles of dust and gas can
