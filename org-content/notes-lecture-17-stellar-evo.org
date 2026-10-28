@@ -78,7 +78,7 @@ some level (Nature does not need to write down the equation and teach
 a computer how to do things!). By comparing observations with
 simulations, we can learn about things we cannot directly see.
 
-This is why the color-magnitude diagram/Hertzsprung-Russell diagram is
+This is why the color-magnitude diagram/Hertzsprung-Russel diagram is
 a powerful tool: we can /simulate/ the evolution of a star (in terms of
 its $L$ and $T_{\rm eff}$ as a function of time), and compare of
 populations of stars we can /observe/. This particular diagram allows to
@@ -477,7 +477,7 @@ The empirical validation of this prediction can be found in the
 color-magnitude diagrams of clusters, where very bright stars are
 always redder (besides being at most \sim 10% of the cluster population).
 
-#+CAPTION: Color-magnitude diagram converted to Herzsprung-Russell diagram for the cluster M4.
+#+CAPTION: Color-magnitude diagram converted to Herzsprung-Russel diagram for the cluster M4.
 [[file:images/M4CMD.png]]
 
 
