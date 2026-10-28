@@ -180,6 +180,9 @@ Brown Dwarfs: these are just big enough to do some secondary burning
 (e.g., of deuterium) but not to ignite hydrogen burning reactions and
 become a star.
 
+#+CAPTION: Artist impression of a brown dwarf (not by accident reminescent of Jupiter!), including an aurora - /JWST/ has tentative claims of aurora detections on brown dwarfs.
+[[./images/brown_dwarf.jpeg]]
+
 *** Highest mass limit: is there one?
 You will find on many textbooks that for sufficiently large mass
 $M\ge100-150\,M_{\odot}$ the luminosity of the star $L\propto M^{x}$ with $x\ge1$ becomes
