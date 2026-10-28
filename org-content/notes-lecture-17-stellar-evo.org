@@ -210,7 +210,7 @@ Let's do an anti-historical step (I recommend "[[https://openlibrary.org/books/O
 G. Shaviv for the history of the development of these ideas) and let's
 assume we /already/ know the energy source of stars. This is not too
 bad: the paper proposing nuclear fusion as the energy source in the
-Sun is from the 1930s, and much of the evolution that we are going to
+Sun is [[https://link.aps.org/doi/10.1103/PhysRev.55.434][Bethe 1939]], and much of the evolution that we are going to
 discuss became clear only through the advent of computational sciences
 and the collection of large populations later on. Moreover, the
 detection of solar neutrinos uncontroversially proves directly that
