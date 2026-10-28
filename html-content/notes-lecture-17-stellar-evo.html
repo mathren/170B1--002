@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-10-28 Wed 11:28 -->
+<!-- 2026-10-28 Wed 11:49 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Stellar evolution</title>
@@ -756,6 +756,22 @@ structure. The envelope responds to this by expanding: the star
 becomes a <i>red giant</i>.
 </p>
 
+<p>
+During the red-giant phase the luminosity is mostly due to:
+</p>
+<ul class="org-ul">
+<li>slow gravitational contraction of the inert core</li>
+<li>\(L_{\rm nuc}\) from the H shell, set by the \(T\) at the outer edge of the
+core, also dependent on the core structure.</li>
+</ul>
+
+<p>
+In other words, the core determines the luminosity (while in the main
+sequence the structure and the luminosity where set by the ease of
+escape of thermal energy in the form of radiation, so mostly in the
+envelope).
+</p>
+
 <div class="org-drawer-container">
   <button class="org-drawer-toggle" onclick="toggleDrawer('drawer-Question-2')">Question ▼</button>
   <div id="drawer-Question-2" class="org-drawer-content" style="display: none;"><ul class="org-ul">
@@ -776,17 +792,100 @@ Therefore, as a Sun-like star ends the main sequence, it will smoothly
 transition to burn H in a shell, with an inert core sustained by
 degeneracy pressure.
 </p>
+
+<p>
+The empirical validation of this prediction can be found in the
+color-magnitude diagrams of clusters, where very bright stars are
+always redder (besides being at most &sim; 10% of the cluster population).
+</p>
+
+
+<figure id="org-element-33">
+<img src="images/M4CMD.png" alt="M4CMD.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 18: </span>Color-magnitude diagram converted to Herzsprung-Russell diagram for the cluster M4.</figcaption>
+</figure>
+
+
+<p>
+During this phase the Sun will expand by \(\sim 100\times\) and the photosphere
+will almost (but not quite) reach the Earth's orbit, Mercury and Venus
+will likely be swallowed. Don't worry, we still have &sim; 5.5 billion
+years of fuel left in the Sun.
+</p>
 </div>
 </div>
 <div id="outline-container-next-fuel-is-hard-to-start-he-flash" class="outline-3">
 <h3 id="next-fuel-is-hard-to-start-he-flash"><a href="#next-fuel-is-hard-to-start-he-flash">Next fuel is hard to start: He Flash</a></h3>
-<div class="outline-text-3" id="text-next-fuel-is-hard-to-start-he-flash">
+<div class="outline-text-3" id="text-org-element-34">
+<p>
+The structure of a red giant described above can only be temporary:
+the He core is only sustained by degeneracy pressure, but the H shell
+is adding its hashes to its mass. As the core mass grows, it's
+temperature grows. As temperature grows, the electrons in the plasma
+of the core can more easily jump to higher energy levels, and the
+Pauli exclusion principle doesn't apply anymore (because more energy
+levels are available: it's like there are more seats in the venue and
+electrons don't need to fight each other for a spot!).
+</p>
+
+<p>
+This will lead to a big problem: as the electrons degeneracy pressure
+decreases the core will be out of hydrostatic balance, and an
+explosion, called He flash will ensue. The next nuclear fuel has to be
+He:
+</p>
+<ul class="org-ul">
+<li>the core is now mostly made of it (70% of H was converted to He, and
+&sim;25% already was)</li>
+<li>it's the next best fuel in terms of energy release per nucleon</li>
+</ul>
+
+<p>
+<b>N.B.:</b> These will be true regardless of the mass of the star
+considered.
+</p>
+
+<p>
+The movie below shows a calculation by <a href="https://www.stellarphysics.org/">M. Cantiello</a> of this phase: in
+the early stellar evolution calculations this was <b>the</b> hardest problem,
+and held the community back for about a decade.
+</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2_Km4RTdkPw?si=ZkacE_zcP7g67kIN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div id="outline-container-tip-of-the-red-giant-branch" class="outline-4">
+<h4 id="tip-of-the-red-giant-branch"><a href="#tip-of-the-red-giant-branch">Tip of the red giant branch</a></h4>
+<div class="outline-text-4" id="text-org-element-35">
+<p>
+Because the breaking of hydrostatic balance always occurs at a
+specific \(T\), corresponding to a specific mass of the core, and as we
+saw above, the core determines the \(L\) of a red giant.
+</p>
+
+<p>
+Therefore, <i>all red giants ignite He at the same core mass meaning same
+luminosity</i>. This is the luminosity at the tip of the red giant branch.
+The fact that it's a standard value allows for use of this luminosity
+as distance indicator for cosmology applications: measure the
+brightness \(B\), know \(L\), infer the distance \(r\).
+</p>
+
+
+<figure id="org-element-36">
+<img src="images/tipRGB.png" alt="tipRGB.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 19: </span>Color magnitude diagram in absolute magnitude (corrected for distance) of four globular clusters, the red horizontal line marks the inferred tip of the red giant branch. From <a href="http://arxiv.org/abs/2010.03833">Straniero et al. 2020</a>.</figcaption>
+</figure>
+</div>
 </div>
 <div id="outline-container-horizontal-branch" class="outline-4">
 <h4 id="horizontal-branch"><a href="#horizontal-branch">Horizontal branch</a></h4>
-<div class="outline-text-4" id="text-org-element-33">
+<div class="outline-text-4" id="text-org-element-37">
 <p>
-Use &Omega; Cen
+But if all red giants at the ignition of the next fuel have the same
+core, and they had different initial masses, this means at the
+ignition of He, they have different envelopes!
 </p>
 </div>
 </div>
@@ -809,7 +908,7 @@ Use &Omega; Cen
 </div>
 <div id="outline-container-high-mass-star-evolution" class="outline-2">
 <h2 id="high-mass-star-evolution"><a href="#high-mass-star-evolution">High-mass star evolution</a></h2>
-<div class="outline-text-2" id="text-org-element-34">
+<div class="outline-text-2" id="text-org-element-38">
 <div style="text-align: center;">
 <video width="600" height="400" controls>
 <source src="./images/demo_12Msun.mp4" type="video/mp4">
