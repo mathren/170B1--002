@@ -154,7 +154,7 @@ temperature gradient: only the core is sufficiently hot to burn.
 The Sun is roughly half-way through its hydrogen fuel, at the age of
 $\sim 4.5$ billion years. It is in this sense a "middle-age star"
 
-** Mass determines the evolution
+** Mass determines the structure and thus the evolution
 
 We know through the study of stellar binaries (two stars orbiting each
 other according to Kepler's laws) that the mass $M$ of a star
@@ -198,6 +198,10 @@ Very low mass stars $\lessim 0.4M_{\odot}$ are low $L$ and /cold/ (cf. CMD
 diagram). They still retain gas in molecular form, and it's hard for
 thermal radiation to come out (matter is opaque): *very low mass stars
 are fully convective*.
+
+
+#+CAPTION: Mass $M$ determines $L$, thus the gravity, thus the gas structure. Burning is always in the center, but how it connects to the surface depends on $M$.
+[[file:images/structure.png]]
 
 Recall that convection is heat transport through bulk motion of
 matter: if the whole star is convective, the burning region is
