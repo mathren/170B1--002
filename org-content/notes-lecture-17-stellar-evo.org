@@ -83,7 +83,6 @@ combine and compare empirical data with theoretical predictions!
 
 ** Star formation
 
-
 #+CAPTION: Artist's impression of star formation: collapse of a cloud, formation of a proto-stellar/proto-planetary disk, accretion of material and ejection of a jet powered by accretion.
 [[file:images/SF.png]]
 
@@ -98,7 +97,6 @@ requires matter to /fall/ on the center releasing gravitational
 potential energy. This energy can power /outflows/: baby stars, much
 like baby humans are messy eaters! They can have /jets/ which we can
 observe for example through radio-astronomy.
-
 
 #+CAPTION: Radio interferometry image of a /jet/ from a young stellar object: blobs of plasma are ejected (roughly along the rotation axis) by the still accreting star.
 #+ATTR_HTML: :width 75%
@@ -115,12 +113,89 @@ the collapse), fragmentation of the cloud typically leads to the
 formation of many stars: they are born in groups called /clusters/
 
 #+CAPTION: Open cluster Orion, typical size $\le10^{5}$ stars and young (still forming stars, or full of massive stars).
-[./images/OC.png]
+[[./images/Orion.jpg]]
 
-#+CAPTION: Globular cluster, typical size $\ge10^{6}$ stars, most are old and full of dead stars, and low mass stars.
-[./images/OC.png]
+#+CAPTION: Globular cluster M3, typical size $\ge10^{6}$ stars, most are old and full of dead stars, and low mass stars.
+[[./images/GC_M3.jpeg]]
+
+*** Initial mass function
+
+In general, a galaxy will form stars with a certain distribution in
+initial mass and at a certain (possibly variable) rate in time: there
+is a star formation rate function $SFR\equiv SFR(M, t)$. Edwin Salpeter in
+the 1950s proposed a /factorization/ of this function:
+
+#+BEGIN_latex
+\begin{equation}\label{eq:salpeter}
+ SFR(M, t) = IMF(M)\times SFH(t) \ \ ,
+\end{equation}
+#+END_latex
+
+that is write the star formation rate as the product of a function
+only of the mass (the "initial mass function" or IMF) and the star
+formation history. This is a /big/ and a priori physically unjustified
+hypothesis that greatly simplifies the math (no cross terms!). It
+stays that the history of how you form stars does not depend on which
+stars you have formed first, while in reality stars with their light,
+stellar winds, and as we will see, violent deaths, do shape
+significantly their environments. However, this /heuristic/ hypothesis
+(which means: just a guess to see where it goes) has proven extremely
+successful.
+
+Wherever we look, the $IMF(M)$ seems almost *universal*, and the reason
+is still unclear and depends likely on the complex physics of large
+quantities of plasma falling on itself, and how the energy this
+liberates feeds back on the flow (the /star formation/ problem).
+
+#+CAPTION: Schematic representation of a typical $IMF(M)$ showing the number of stars formed in a population as a function of their initial stellar mass. Note that it's a log-log plot: straight lines correspond to powerlaws, and the number of low mass stars outnumbers the high mass stars by much! See e.g., [[https://ui.adsabs.harvard.edu/abs/2001MNRAS.322..231K/abstract][Kroupa 2001]] for a commonly used $IMF(M)$
+[[file:images/imf.png]]
+
+*** Lowest mass limit
+
+The lowest mass limit for a star is $\sim0.08M_{\odot}$, determined by when the
+gas can win over gravity without turning on any energy generation by
+nuclear fusion: this never works with a classical gas that heats up as
+it is compressed by gravity. Something must change the relationship
+between $P$ and $T$ for the gas, and this something is a quantum
+mechanical effect: electron degeneracy.
+
+We have encountered electrons already, but there is a property we have
+not discussed yet. Electrons are fermions, this means they are
+particles that cannot occupy the same energy level: like two people
+don't sit on the same chair normally, two electrons cannot occupy the
+same energy spot.
+
+As gas is compressed to very high densities, this effects start to
+matter: electrons start providing more pressure than if they were a
+classical gas, and if the star is not too massive, it's core is cold
+enough for this effect to kick in and win over gravity.
+
+At the lowest boundary between stars and objects where
+electron-degeneracy pressure is sufficient to stop gravity we find
+Brown Dwarfs: these are just big enough to do some secondary burning
+(e.g., of deuterium) but not to ignite hydrogen burning reactions and
+become a star.
+
+*** Highest mass limit: is there one?
+You will find on many textbooks that for sufficiently large mass
+$M\ge100-150\,M_{\odot}$ the luminosity of the star $L\propto M^{x}$ with $x\ge1$ becomes
+so large that the photon pressure on the gas tears them apart: gas not
+only would win over gravity by preventing collapse but even reverting
+it!
+
+This however is an oversimplified picture: in the Universe we see
+stars /more massive/ than this! While these may be stellar mergers in
+binaries, so not at their "original" mass, there are many radiative
+phenomena that can prevent the photons from destroying a star, first
+and foremost "asymmetries".
+
+#+CAPTION: The most massive stars known are in the core of the cluster R136 in the LMC, and exceed $200-250\,M_{\odot}$. The diagonal lines show the orientation of the spectroscopic slit (the diffraction element) in /Hubble Space Telescope/ WFC3 instrument, and the colors mark estimated masses for the stars, from [[http://arxiv.org/abs/2202.11080][Brands et al. 2022]].
+[[file:images/R136_core.png]]
 
 
+Gravitational wave detections of very massive black holes exceeding
+$100\,M_{\odot}$ also suggests the upper limit for stellar mass is higher
+than a naive calculation may suggest. This limit thus remains debated.
 
 ** Main sequence evolution
 
