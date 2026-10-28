@@ -508,6 +508,16 @@ But if all red giants at the ignition of the next fuel have the same
 core, and they had different initial masses, this means at the
 ignition of He, they have different envelopes!
 
+The less envelope is left by the time the He core has reached its
+threshold mass, the larger fraction of the star is turned into core
+material, the hotter the star is. But the luminosity, post-He flash,
+now comes primarily from the energy generation in the core, and the
+core mass is the same, so the luminosity is the same: in a population
+of roughly co-eval stars such as a cluster, we find a line at constant
+luminosity (set by the core mass) and varying $T_{\rm eff}$ (the lower
+the envelope mass the higher $T_{\rm eff}$), see the color-magnitude
+diagram of M4 above, or \Omega Centauri in [[file:notes-lecture-16-stars.org::*The Color-Magnitude diagram][the last lecture.]]
+
 
 ** Asymptotic Giant Branch
 
