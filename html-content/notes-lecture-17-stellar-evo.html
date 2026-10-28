@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-10-26 Mon 12:15 -->
+<!-- 2026-10-27 Tue 19:09 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 Stellar evolution</title>
@@ -12,6 +12,38 @@
 <meta name="keywords" content="Mathieu, Renzo, Mathieu Renzo,
 			       stellar evolution, ASTR170B1, University of
 			       Arizona, Steward Observatory">
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 </head>
 <body>
 <div id="preamble" class="status">
@@ -98,28 +130,279 @@
 <!-- end scripts-->
 </div>
 <div id="content" class="content">
-<div id="outline-container-star-formation" class="outline-2">
-<h2 id="star-formation"><a href="#star-formation">Star formation</a></h2>
-</div>
-
-
-
+<ul class="org-ul">
+<li>Top Hat:
+<ul class="org-ul">
+<li>Have you found Alcor?</li>
+<li>Main sequence</li>
+<li>mass luminosity relation</li>
+</ul></li>
+</ul>
 <div id="outline-container-stellar-evolution" class="outline-2">
 <h2 id="stellar-evolution"><a href="#stellar-evolution">Stellar evolution</a></h2>
 <div class="outline-text-2" id="text-org-element-1">
-<ul class="org-ul">
-<li>the need for evolution</li>
-</ul>
+<p>
+The solution to the great-debate on the age of the Sun/Earth was that
+there needs to be an energy <i>source</i> to compensate for the energy losses
+in the form of the luminosity \(L\). <i>Stars don't shine because they
+burn! They burn because they shine!</i>
+</p>
+
+<p>
+Since \(L\) constantly causes removal of energy, some must be <i>extracted</i>
+(turns out its the nuclear energy that binds neutrons and protons in
+the core), but that means something is <i>consumed</i>: the stars must
+<i>evolve</i>!
+</p>
+
+<p>
+This became clear even before nuclear fusion became the apparent
+energy source, and it has profound implication: stars must be <i>born</i> and
+they can <i>die</i>.
+</p>
+
+<p>
+<b>Stellar evolution is a constant battle between the gas and gravity.</b>
+Gravitational contraction releases energy and heats up the gas. If in
+the battle the gas heats up sufficiently to release its own energy, it
+can momentarily delay the gravitational collapse at the expenses of
+the energy source, and we get a star.
+</p>
 </div>
-<div id="outline-container-mass-is-what-matters-most-to-determine-the-life-of-a-star" class="outline-3">
-<h3 id="mass-is-what-matters-most-to-determine-the-life-of-a-star"><a href="#mass-is-what-matters-most-to-determine-the-life-of-a-star">Mass is what matters most to determine the life of a star</a></h3>
+<div id="outline-container-how-can-we-study-stellar-evolution" class="outline-3">
+<h3 id="how-can-we-study-stellar-evolution"><a href="#how-can-we-study-stellar-evolution">How can we study stellar evolution</a></h3>
 <div class="outline-text-3" id="text-org-element-2">
-<ul class="org-ul">
-<li>M(L) relation</li>
-<li>self-regulated burning</li>
-</ul>
+<ol class="org-ol">
+<li><b>Populations</b>: the slower the evolutionary phase, the more stars we
+see in that phase (like a bottleneck: most cars are where traffic is
+slow). Astrophysics compensates lack of <i>control over the experiment</i>
+with very large sample that allow to build <i>statistical samples</i>.</li>
+<li><b>Simulations</b>: we can tell a computer the <i>physics</i> that governs
+certain phenomena and obtain a <i>numerical model</i> of, for example, a
+star. Through computer simulations we can access (a representation
+of) the internal <i>structure</i> of a star, and <i>fast-forward</i> time to
+study its <i>evolution</i>.</li>
+<li>In selected cases: neutrinos come straight from the core!</li>
+</ol>
+
+<p>
+Option 3 is what I do, through a variety of numerical tools. These
+require combining models of several physical processes (atomic
+physics, radiative processes, nuclear reactions, hydrodynamics), and
+are therefore very simplified. Currently and for the foreseeable
+future simulations of stars will be spherically symmetric: anything
+else is way too expensive!
+</p>
+
+
+<figure id="org-element-3">
+<img src="./images/Grid.png" alt="Grid.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 1: </span>Example of graphical output with many plots showing the interior and the past evolution of a stellar model computed with <a href="https://mesastar.org/">MESA</a>.</figcaption>
+</figure>
+
+<div class="org-drawer-container">
+  <button class="org-drawer-toggle" onclick="toggleDrawer('drawer-Quote-1')">Quote ▼</button>
+  <div id="drawer-Quote-1" class="org-drawer-content" style="display: none;"><p>
+<i>All simulations are wrong, but some are useful</i> - G. Box
+</p>
 </div>
 </div>
+
+<p>
+Because simulations are based on a <i>numerical approximation</i> of a
+<i>physical model</i> of what nature does, they are necessarily "wrong" at
+some level (Nature does not need to write down the equation and teach
+a computer how to do things!). By comparing observations with
+simulations, we can learn about things we cannot directly see.
+</p>
+
+<p>
+This is why the color-magnitude diagram/Hertzsprung-Russell diagram is
+a powerful tool: we can <i>simulate</i> the evolution of a star (in terms of
+its \(L\) and \(T_{\rm eff}\) as a function of age), and compare of
+populations of stars we can <i>observe</i>.
+</p>
+</div>
+</div>
+<div id="outline-container-star-formation" class="outline-3">
+<h3 id="star-formation"><a href="#star-formation">Star formation</a></h3>
+<div class="outline-text-3" id="text-org-element-4">
+<p>
+Recall <a href="./notes-lecture-12-planet-formation.html">planet formation</a> and <i>nebular hypothesis</i>: the same cloud that
+started collapsing and globally rotate (on a plane perpendicular to
+the total angular momentum, because particles of dust and gas can
+"coordinate"), also forms the star (possibly more than one for a
+binary/triple!)
+</p>
+
+<p>
+A "baby star" will still have its disk around, and the accretion
+requires matter to <i>fall</i> on the center releasing gravitational
+potential energy. This energy can power <i>outflows</i>: baby stars, much
+like baby humans are messy eaters! They can have <i>jets</i> which we can
+observe for example through radio-astronomy.
+</p>
+
+
+
+<figure id="org-element-5">
+<img src="images/jetYSO.png" alt="jetYSO.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 2: </span>Radio interferometry image of a <i>jet</i> from a young stellar object: blobs of plasma are ejected (roughly along the rotation axis) by the still accreting star.</figcaption>
+</figure>
+
+<p>
+Often all this is happening "embedded" in dust clouds that enshroud
+the stars.
+</p>
+
+
+<figure id="org-element-6">
+<img src="./images/horse_head.png" alt="horse_head.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 3: </span>Horse Head Nebula seen by <i>JWST</i>: stars are being born embedded in the dust cloud.</figcaption>
+</figure>
+
+<p>
+From the collapse of a single cloud (and the \(T\) increase caused by
+the collapse), fragmentation of the cloud typically leads to the
+formation of many stars: they are born in groups called <i>clusters</i>
+</p>
+
+<p>
+[./images/OC.png]
+</p>
+
+<p>
+[./images/OC.png]
+</p>
+</div>
+</div>
+<div id="outline-container-main-sequence-evolution" class="outline-3">
+<h3 id="main-sequence-evolution"><a href="#main-sequence-evolution">Main sequence evolution</a></h3>
+<div class="outline-text-3" id="text-org-element-7">
+
+<figure id="org-element-8">
+<img src="./images/Gaia_DR2_HRD_Gaia.png" alt="Gaia_DR2_HRD_Gaia.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 4: </span>We have seen that 90% of the stars along the "Main Sequence".</figcaption>
+</figure>
+
+<p>
+The majority (&sim; 90\%) of stars follow a line on a color-magnitude
+diagram. We can now interpret this as a group picture of stars: most
+are in the <i>longest and slowest</i> evolutionary phase.
+</p>
+
+<p>
+Let's do an anti-historical step (I recommend "The life of Stars" by
+G. Shaviv for the history of the development of these ideas) and let's
+assume we <i>already</i> know the energy source of stars. This is not too
+bad: the paper proposing nuclear fusion as the energy source in the
+Sun is from the 1930s, and much of the evolution that we are going to
+discuss became clear only through the advent of computational sciences
+and the collection of large populations later on. Moreover, the
+detection of solar neutrinos uncontroversially proves directly that
+fusion reactions do occur in the Sun.
+</p>
+
+<p>
+This must mean that on the main sequence stars must be burning the
+best fuel, that can be burned at a slower rate for compensating the
+given luminosity \(L\).
+</p>
+
+
+<figure id="org-element-9">
+<img src="./images/nuclear_binding.png" alt="nuclear_binding.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 5: </span>Nuclear energy per unit nucleon (proton or neutron) as a function of nuclear mass \(A\). The structure of this plot is determined by the <i>strong</i> (or nuclear) force.</figcaption>
+</figure>
+
+<p>
+<b>During the main sequence stars burn hydrogen into helium</b>. Not only
+this gives the best yield per proton/neutron invested in a reaction
+(largest \(\Delta y\) on the plot above), but stars are made mostly (&sim;70%) of
+hydrogen, as we know thanks to the insight of Cecilia Payne-Gaposhkin
+that spectral line strength correlates with electron population and
+not mass abundance. <b>This explains why 90% of stars are found in this
+phase</b>, which lasts 90% of a stars life!
+</p>
+
+<p>
+Nuclear reactions however are not throughout the entire star: the
+there is a <i>structure</i> (pressure gradient) needed to support the star
+against gravity. For a plasma the pressure \(P\equiv P(T,\rho)\) is a function
+of the temperature and density! To a pressure gradient corresponds a
+temperature gradient: only the core is sufficiently hot to burn.
+</p>
+
+<p>
+[./images/TRho.png]
+</p>
+
+<p>
+The Sun is roughly half-way through its hydrogen fuel, at the age of
+\(\sim 4.5\) billion years. It is in this sense a "middle-age star"
+</p>
+</div>
+</div>
+<div id="outline-container-mass-determines-the-evolution" class="outline-3">
+<h3 id="mass-determines-the-evolution"><a href="#mass-determines-the-evolution">Mass determines the evolution</a></h3>
+<div class="outline-text-3" id="text-org-element-10">
+<p>
+We know through the study of stellar binaries (two stars orbiting each
+other according to Kepler's laws) that the mass \(M\) of a star
+determines <i>where</i> on the main sequence it sits, specifically there is a
+mass-luminosity empirical relation. It is maybe not surprising that
+for an object that is self-gravitating mass is important.
+</p>
+
+<p>
+More massive stars are more luminous: therefore they need to burn to
+produce a higher amount of energy \(L_{\rm nuc}=L\propto M^{x}\) with \(x>0\).
+</p>
+
+<p>
+This is because <i>burning is a consequence of the energy losses</i>. The
+energy losses through \(L\) are inevitable whenever \(T\neq0\) (thermal
+radiation), and stars have the \(T\equiv T(r)\) <i>structure</i> they have to
+support themselves. In a <i>star</i>, \(T(r=0)\) in the center is hot enough
+that nuclear reactions can occur (and \(T=T_{\rm eff}=T(r\simeq R_{\star})\) shines in
+the optical spectrum). Therefore the nuclear burning is
+<a href="./notes-lecture-15-sun.html#org-element-11">self-regulated</a>, and the star compresses just enough to produce just
+\(L_{\rm nuc}=L\), which is determined by its mass \(M\), and not the nuclear
+processes in the core.
+</p>
+
+<p>
+Because \(x>1\), even if massive stars have more fuel, they burn through
+it faster: we only see them young re are very few <i>old</i> massive stars.
+The fact that they are <i>short-lived</i> (for stellar standards, we are
+still talking 10-100s of millions of years) also explains partially
+why they are <i>rare</i>. The other part of the explanation is that stars are
+so messy as proto-stars accreting from the proto-stellar disk that
+it's very rare for a star to become very massive.
+</p>
+
+<p>
+As the energy source runs out, gravity takes over again in the fight
+with gas. The stellar core slowly contracts, which can cause further
+energy sources to turn on as the gas re-arranges. The specifics are
+governed by the mass of a star, which has already been setting its
+luminosity and burning rate, and thus sets how much and where the
+exhausted nuclear fuel (helium rich gas) is.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-low-mass-star-evolution" class="outline-2">
+<h2 id="low-mass-star-evolution"><a href="#low-mass-star-evolution">Low mass star evolution</a></h2>
+</div>
+
+<div id="outline-container-high-mass-star-evolution" class="outline-2">
+<h2 id="high-mass-star-evolution"><a href="#high-mass-star-evolution">High-mass star evolution</a></h2>
 </div>
 </div>
 <div id="postamble" class="status">
@@ -127,7 +410,7 @@
   <hr>
   <a href="#light-dark-toggle"><i id="light-dark-toggle"><i class="fa-solid fa-circle-half-stroke"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-16-stars.html"><i class="fa-solid fa-arrow-left" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="#top"><i class="fa-solid fa-arrow-up" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-18-compact-obj.html"><i class="fa-solid fa-arrow-right" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/mathren/170B1--002"><i class="fa-brands fa-github" style="font-size:16px"></i></a><hr>
   <br>
-  Last updated on 26 October 2026 <br>
+  Last updated on 27 October 2026 <br>
   Made with Emacs 30.1 - Org mode 9.7.11
   <br>
 </div>
