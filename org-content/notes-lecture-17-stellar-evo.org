@@ -177,7 +177,8 @@ gas can win over gravity without turning on any energy generation by
 nuclear fusion: this never works with a classical gas that heats up as
 it is compressed by gravity. Something must change the relationship
 between $P$ and $T$ for the gas, and this something is a quantum
-mechanical effect: electron degeneracy.
+mechanical effect: electron degeneracy due to the Pauli exclusion
+principle.
 
 We have encountered electrons already, but there is a property we have
 not discussed yet. Electrons are fermions, this means they are
