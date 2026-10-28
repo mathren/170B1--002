@@ -77,8 +77,9 @@ simulations, we can learn about things we cannot directly see.
 
 This is why the color-magnitude diagram/Hertzsprung-Russell diagram is
 a powerful tool: we can /simulate/ the evolution of a star (in terms of
-its $L$ and $T_{\rm eff}$ as a function of age), and compare of
-populations of stars we can /observe/.
+its $L$ and $T_{\rm eff}$ as a function of time), and compare of
+populations of stars we can /observe/. This particular diagram allows to
+combine and compare empirical data with theoretical predictions!
 
 ** Star formation
 
