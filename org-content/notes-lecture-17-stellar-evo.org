@@ -202,11 +202,11 @@ than a naive calculation may suggest. This limit thus remains debated.
 #+CAPTION: We have seen that 90% of the stars along the "Main Sequence".
 [[./images/Gaia_DR2_HRD_Gaia.png]]
 
-The majority (\sim 90\%) of stars follow a line on a color-magnitude
+The majority of stars follow a line on a color-magnitude
 diagram. We can now interpret this as a group picture of stars: most
 are in the /longest and slowest/ evolutionary phase.
 
-Let's do an anti-historical step (I recommend "The life of Stars" by
+Let's do an anti-historical step (I recommend "[[https://openlibrary.org/books/OL26743479M/The_Life_of_Stars_The_Controversial_Inception_and_Emergence_of_the_Theory_of_Stellar_Structure][The life of Stars]]" by
 G. Shaviv for the history of the development of these ideas) and let's
 assume we /already/ know the energy source of stars. This is not too
 bad: the paper proposing nuclear fusion as the energy source in the
