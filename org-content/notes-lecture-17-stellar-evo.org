@@ -2,7 +2,7 @@
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-16-stars.org
-#+NEXT_PAGE: notes-lecture-18-compact-obj.org
+#+NEXT_PAGE: notes-lecture-18-high-mass-stars.org
 
 - Top Hat: Q1, Q2, Q3
 
@@ -114,12 +114,15 @@ the stars.
 
 From the collapse of a single cloud (and the $T$ increase caused by
 the collapse), fragmentation of the cloud typically leads to the
-formation of many stars: they are born in groups called /clusters/
+formation of many stars: they are born in groups called /clusters/!
 
-#+CAPTION: Open cluster Orion, typical size $\le10^{5}$ stars and young (still forming stars, or full of massive stars).
+These come in two flavors, the two figures below show prototypical
+examples.
+
+#+CAPTION: Open cluster Orion, typical size $\le10^{5}$ stars and young (still forming massive stars, gas still present).
 [[./images/Orion.jpg]]
 
-#+CAPTION: Globular cluster M3, typical size $\ge10^{6}$ stars, most are old and full of dead stars, and low mass stars.
+#+CAPTION: Globular cluster M3, typical size $\ge10^{6}$ stars, most are old and full of dead stars, and low mass stars, gas is cleared from these systems by the already dead stars.
 [[./images/GC_M3.jpeg]]
 
 *** Initial mass function
