@@ -8,11 +8,6 @@
 [[https://lavinia.as.arizona.edu/~mrenzo/courses/400A/index.html][ASTR400A lecture notes]]
 
 
-- Top Hat Q1:
-  - structure of MS stars
-  -
-
-
 * High-mass star evolution
 
 #+HTML: <div style="text-align: center;">
@@ -57,7 +52,6 @@ encounters in dense stellar clusters can accelerate stars in a galaxy,
 even beyond the escape velocity from their own galaxy. These phenomena
 preferentially accelerate massive stars, that can become /runaways/.
 
-
 #+CAPTION: The nearest massive star to Earth is an O type star and travels through space at more than $\sim30\,\mathrm{km\ s^{-1}}$, the runaway star  [[https://en.wikipedia.org/wiki/Zeta_Ophiuchi][$\zeta$ Ophiuchi]]. The red shade is a bow shock in front of the star (supersonic analog of a bow wave in front of a boat moving faster than the sea wave speed).
 #+ATTR_HTML: :width 75%
 [[./images/zetaoph.jpg]]
@@ -78,6 +72,8 @@ start as catalyst to make protons meet:
 This mode of hydrogen burning (same overall reaction) is much more
 sensitive to the temperature: the burning region is more concentrated
 than in lower mass stars.
+
+- Top Hat Q2
 
 But this makes their cores convective: photons alone are insufficient
 to carry out the energy output by the CNO cycle without the help of
@@ -195,6 +191,7 @@ and the gas has no further interest in doing it.
 structure, thermodynamics, and nuclear physics are coupled non-linearly.
 
 *** super AGB stars and electron capture SNe
+- neutrino cooling
 
 :Quote:
 /All massive-star supernovae are electron-capture supernovae/ - T. H. Janka
@@ -203,6 +200,7 @@ structure, thermodynamics, and nuclear physics are coupled non-linearly.
 *** Wolf-Rayet stars
 
 *** Super-massive stars
+Seeds of SMBH, GR instabilities
 
 ** Gravity's victory: core-collapse and compact object formation
 

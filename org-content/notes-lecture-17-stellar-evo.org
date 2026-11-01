@@ -4,6 +4,9 @@
 #+PREVIOUS_PAGE: notes-lecture-16-stars.org
 #+NEXT_PAGE: notes-lecture-18-high-mass-stars.org
 
+*Reading*: Chapter 14, 15, 16, 17, [[https://www.astro.ru.nl/~onnop/education/stev_utrecht_notes/][Prof. Onno Pols lecture notes]],
+[[https://lavinia.as.arizona.edu/~mrenzo/courses/400A/index.html][ASTR400A lecture notes]]
+
 - Top Hat: Q1, Q2, Q3
 
 * The need for stellar evolution
@@ -658,6 +661,11 @@ If the mass is sufficiently low, degeneracy pressure (which you can
 imagine similar to a "contact force": you can't compress the electrons
 more) will continue to support the star. Any residual energy will
 progressively leak out, leading to cooling, and thus dimming in time.
+
+
+#+CAPTION: The final fate of the vast majority of stars is to become a degeneracy supported white dwarf, and ultimately crystallize in a stellar-sized diamond.
+[[file:images/WD_slide.png]]
+
 
 This is the evolution of a *white dwarf*, the dead stellar remnant of
 low mass stars (\ge 95% of all stars, including the Sun end like this).
