@@ -4,6 +4,10 @@
 #+PREVIOUS_PAGE: notes-lecture-17-stellar-evo.org
 #+NEXT_PAGE: notes-lecture-19-compact-obj.org
 
+*Reading*: Chapter 14, 15, 16, 17, [[https://www.astro.ru.nl/~onnop/education/stev_utrecht_notes/][Prof. Onno Pols lecture notes]],
+[[https://lavinia.as.arizona.edu/~mrenzo/courses/400A/index.html][ASTR400A lecture notes]]
+
+
 - Top Hat Q1:
   - structure of MS stars
   -
