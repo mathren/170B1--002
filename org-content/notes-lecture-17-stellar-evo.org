@@ -630,8 +630,6 @@ intra-shell layer to the envelope, which slowly takes carbon (produced
 by He burning) into the envelope: composition can be used to
 distinguish AGB from RGB (both are red and luminous).
 
-
-
 *** Planetary nebulae
 
 These thermal pulses are also accompanied by dust formation in the

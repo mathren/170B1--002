@@ -139,7 +139,6 @@ systems (e.g., the atmosphere of a planet, or a star, etc.) are not
 just the sum of their parts and reductionist approaches risk missing
 interesting and relevant phenomenology.
 
-
 * Solar neutrinos
 
 We have encountered neutrinos in discussing the Sun's energy
@@ -308,7 +307,6 @@ derive the intrinsic luminosity $L$.
 is the same as for the Universal law of gravity, and for the
 electromagnetic force: this is /not/ a coincidence, they all appear due
 to the geometry of a sphere and conservation arguments.
-
 
 ** Distance
 

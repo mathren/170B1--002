@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-10-28 Wed 12:48 -->
+<!-- 2026-11-01 Sun 14:37 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 High mass star evolution</title>
@@ -130,6 +130,13 @@
 <!-- end scripts-->
 </div>
 <div id="content" class="content">
+<ul class="org-ul">
+<li>Top Hat Q1:
+<ul class="org-ul">
+<li>structure of MS stars</li>
+<li></li>
+</ul></li>
+</ul>
 <div id="outline-container-high-mass-star-evolution" class="outline-2">
 <h2 id="high-mass-star-evolution"><a href="#high-mass-star-evolution">High-mass star evolution</a></h2>
 <div class="outline-text-2" id="text-org-element-1">
@@ -145,16 +152,376 @@ This video, made with <a href="https://github.com/mathren/12Msun_movie/blob/main
 of a \(12\,M_{☉}\) mildly rotating star from formation to the end of its life.
 </p>
 </div>
-<div id="outline-container-prompt-ignition" class="outline-3">
-<h3 id="prompt-ignition"><a href="#prompt-ignition">Prompt ignition</a></h3>
-</div>
+<div id="outline-container-main-sequence-evolution" class="outline-3">
+<h3 id="main-sequence-evolution"><a href="#main-sequence-evolution">Main sequence evolution</a></h3>
+<div class="outline-text-3" id="text-org-element-2">
+<p>
+Not only massive stars are more rare to form (cf. <a href="notes-lecture-17-stellar-evo.html#org-element-3">Initial mass
+function</a> \(IMF\)), but their higher energy loss or radiative power
+output \(L\) - compared to lower mass stars - <i>requires</i> an equally higher
+\(L_{\rm nuc}\) to sustain the gas pressure gradient against gravity.
+</p>
 
+
+<figure id="org-element-4">
+<img src="./images/Gaia_DR2_HRD_Gaia.png" alt="Gaia_DR2_HRD_Gaia.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 1: </span>Massive main sequence stars are rare (individual black dots vs. the yellow hue \(\propto\rho_{\star}\)) and occupy the top left corresponding to large \(L\) and hot \(T_{\rm eff}\)</figcaption>
+</figure>
+
+<p>
+We can empirically see from the color-magnitude diagram of the galaxy,
+that massive stars are rare! They are also bluer and hotter.
+</p>
+
+<p>
+Contributing to their rarity, a higher
+\(L_{\rm nuc}\) corresponds to a shorter lifetime: a star 10&times; as massive as
+the Sun only lives 20 million years (cf. &sim; 10 billion for the Sun).
+</p>
+
+
+<figure id="org-element-5">
+<img src="./images/stellar_lifetimes.png" alt="stellar_lifetimes.png" width="50%">
+
+<figcaption><span class="figure-number">Figure 2: </span>Stellar lifetime as a function of initial masses from <a href="https://ui.adsabs.harvard.edu/abs/2017A%26A...601A..29Z/abstract">Zapartas et al. 2017</a>. <code>MESA</code> and <code>GENEC</code> models are shown, focusing on masses that result in a final core-collapse event. The bottom panel shows the deviations between the analytic fit and the numerical models.</figcaption>
+</figure>
+
+<p>
+Because of the shorter lifespan, massive stars tend to live closer to
+each other (while low mass stars have time to spread).
+</p>
+
+
+<figure id="org-element-6">
+<img src="./images/30Dor_R136.png" alt="30Dor_R136.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 3: </span>The [][30 Doradus region in the LMC] hosts about 1000 massive (\(\gtrsim 10\,M_{☉}\)) stars and is a standard test bed for massive star evolution theory. This is where stars exceeding \(100\,M_{☉}\) are observed.</figcaption>
+</figure>
+
+<p>
+However, stellar <i>explosions</i> or gravitational slingshot
+encounters in dense stellar clusters can accelerate stars in a galaxy,
+even beyond the escape velocity from their own galaxy. These phenomena
+preferentially accelerate massive stars, that can become <i>runaways</i>.
+</p>
+
+
+
+<figure id="org-element-7">
+<img src="./images/zetaoph.jpg" alt="zetaoph.jpg" width="75%">
+
+<figcaption><span class="figure-number">Figure 4: </span>The nearest massive star to Earth is an O type star and travels through space at more than \(\sim30\,\mathrm{km\s^{-1}}\), the runaway star  <a href="https://en.wikipedia.org/wiki/Zeta_Ophiuchi">\(\zeta\) Ophiuchi</a>. The red shade is a bow shock in front of the star (supersonic analog of a bow wave in front of a boat moving faster than the sea wave speed).</figcaption>
+</figure>
+
+<p>
+These stars are hot at their surface, and their thermal radiation
+peaks in the UV, but nevertheless so bright even in the optical, that
+they outnumber the stars we can see the farther we go.
+</p>
+
+<p>
+To sustain such high luminosities (dictated by the total mass \(M\)!),
+they also need very hot cores which enables hydrogen burning through
+the CNO cycle using carbon, nitrogen, and oxygen present from the
+start as catalyst to make protons meet:
+</p>
+
+
+<figure id="org-element-8">
+<img src="./images/CNO.png" alt="CNO.png" width="50%">
+
+<figcaption><span class="figure-number">Figure 5: </span>Schematic representation of the CNO cycle active in massive stars, compare the steps with the <a href="notes-lecture-15-sun.html#org-element-9">pp chain</a> dominant in the Sun-like a and low mass stars.</figcaption>
+</figure>
+
+<p>
+This mode of hydrogen burning (same overall reaction) is much more
+sensitive to the temperature: the burning region is more concentrated
+than in lower mass stars.
+</p>
+
+<p>
+But this makes their cores convective: photons alone are insufficient
+to carry out the energy output by the CNO cycle without the help of
+convection. But convection is bulk motion of matter which <i>refuels</i>
+constantly the burning region.
+</p>
+
+
+
+<figure id="org-element-10">
+<img src="images/structure.png" alt="structure.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 6: </span>Mass \(M\) determines \(L\), thus the gravity, thus the gas structure. Burning is always in the center, but how it connects to the surface depends on \(M\).</figcaption>
+</figure>
+
+
+
+<figure id="org-element-11">
+<img src="./images/20Msun_H_profile.png" alt="20Msun_H_profile.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 7: </span>Hydrogen mass fraction \(X\) as a function of mass coordinate \(m\) for a single, non-rotating, \(20M_{☉}\), \(Z=0.001\) <code>MESA</code> model across its main sequence evolution. The color go from dark to light, and as time passes the core recedes because of the change in composition that facilitates radiative energy transport.</figcaption>
+</figure>
+
+<p>
+<b>N.B.:</b> Nevertheless the \(L\propto M^{x}\) with \(x>1\) is so large that their
+lifetimes are short.
+</p>
+</div>
+</div>
+<div id="outline-container-prompt-he-ignition" class="outline-3">
+<h3 id="prompt-he-ignition"><a href="#prompt-he-ignition">Prompt He ignition</a></h3>
+<div class="outline-text-3" id="text-org-element-12">
+<p>
+At the end of the main-sequence though, we have a problem: H has been
+consumed throughout the convective region, the outer layers of which
+are way too cold to burn! Gravity temporarily takes over and the whole
+star contracts: half of the gravitational potential energy released by
+gas falling to the center goes into internal thermal energy of the gas
+itself: electrons are too hot to "sit" in an energy level and fight
+for the lowest energy seats and don't contribute to the pressure.
+</p>
+
+<p>
+Instead, the center gets so hot that He ignites in the center
+(smoothly, no <a href="notes-lecture-17-stellar-evo.html#org-element-13">He flash</a>) <i>and</i> the H shell ignites. The latter supports
+the envelope, but Once again the shell is <i>not</i> self-regulated: H burns
+at the edge of the core, with the \(T\) dictated there by the underlying
+core mass and consequently structure. This results in an excess energy
+production and thus the envelope expands: the star becomes a Red
+Supergiant.
+</p>
+
+<p>
+The nearest RSG to Earth is Betelgeuse, the shoulder of Orion:
+</p>
+
+<figure id="org-element-14">
+<img src="./images/orion3.jpeg" alt="orion3.jpeg" width="100%">
+
+<figcaption><span class="figure-number">Figure 8: </span>Betelgeuse (left inset) is the nearest Red Supergiant, possibly in a binary system (based on its periodic variability unexplained otherwise), and far away from any other massive star: it is a runaway star, with a bow shock too! The other inset shows the star forming region Orion.</figcaption>
+</figure>
+
+<p>
+By counting the number of RSG and MS in a co-eval population (e.g., a
+cluster), we can infer that RSG are &sim;10% of massive stars: this
+remains true across stellar masses and is dictated by the nuclear
+structures of He and carbon C.
+</p>
+
+
+<p>
+The expansion must be relatively fast (for stars, not for humans):
+there are very few stars occupying the region of the CMD between the
+main sequence and the red supergiants (RSG). However, looking where we
+can see <i>more</i> massive stars, for example LMC/SMC, there seem to be a
+"Blue supergiant problem": we see many and don't fully understand why.
+</p>
+
+<p>
+Possible ideas are:
+</p>
+<ul class="org-ul">
+<li>stellar mergers</li>
+<li>stars that have accreted mass from a companion</li>
+<li>stellar evolution is proceeding slightly differently in galaxies
+with different chemical composition than the Sun</li>
+</ul>
+</div>
+</div>
 <div id="outline-container-onion-structure" class="outline-3">
 <h3 id="onion-structure"><a href="#onion-structure">Onion structure</a></h3>
+<div class="outline-text-3" id="text-org-element-15">
+<p>
+From now on, the fate of a single massive star is sealed: it will
+consume each nuclear fuel available, each requiring a higher energy of
+the collision between nuclei to enable quantum tunneling through the
+electromagnetic barrier and fusing into new nuclei held together by
+the nuclear force.
+</p>
+
+
+<figure id="org-element-16">
+<img src="./images/onion.png" alt="onion.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 9: </span>Because of the higher \(T\) requirement, each fuel burns in a smaller and more concentrated region, surrounded by a shell, leading to the characteristic "onion shell" structure.</figcaption>
+</figure>
+
+<p>
+For large but not so large \(M\lesssim 15\,M_{☉}\) the electrons will
+sometimes contribute partially with their degeneracy pressure.
+</p>
+
+<p>
+<b>N.B.:</b> Recent numerical simulations, and possible nucleosynthetic
+signatures suggest that the "onion" picture could be an
+oversimplification. Very late shell ignition in partially degenerate
+environment can be relatively violent (akin to the He shell) and cause
+"shell mergers". This could mix different nuclear fuels in a dynamical
+event and allow the production of some elements like phosphorus
+by ruining the nice layered onion.
+</p>
+
+<p>
+The composition of the hashes of each fuel are (much like which fuel
+is most efficient) determined by the nuclear structure of each element:
+</p>
+
+
+<figure id="org-element-17">
+<img src="./images/nuclear_binding.png" alt="nuclear_binding.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 10: </span>Nuclear energy per unit nucleon (proton or neutron) as a function of nuclear mass \(A\). The structure of this plot is determined by the <i>strong</i> (or nuclear) force.</figcaption>
+</figure>
+
+<p>
+Nuclei that can be conceptualized as <i>bound states between groups of 2
+protons and two neutrons</i> tend to be more stable, meaning forming them
+releases more energy: this is why nuclei with \(A=4\times n\) with
+$n=1,2,3,&#x2026;$ correspond to peaks in the figure and are more common
+elements in the Universe. Stars find it convenient to make them! Note
+that these include Helium (whose nucleus is also referred to as \(\alpha\)
+particle), Carbon 12 (3 \(\alpha\) bound together), Oxygen 16 (4 \(\alpha\)),
+Magnesium 24, etc&#x2026;
+</p>
+
+<p>
+<b>N.B.:</b> \(\alpha\) nuclei are to nuclear physics what noble gases (He, Xe,
+etc&#x2026;) are to chemistry: tightly bound structures that release a lot
+of energy (for their scale, 10 MeV for nuclear physics, eV for
+chemistry) when formed, and are relatively stable.
+</p>
+
+<p>
+But this game has an end: the curve in the figure has a "maximum".
+There is a <i>most bound nucleus</i>, iron 56. All lighter <i>and</i> heavier nuclei
+are easier (takes less energy) to rob of one nucleon (proton or
+neutron). As a consequence, trying to reshuffle the protons and
+neutrons of \(^{56}\mathrm{Fe}\) in another configuration always <i>costs</i>
+energy (negative \(\Delta y\) in the figure).
+</p>
+
+<p>
+But the only reason there is nuclear fusion in <i>any</i> star is that as gas
+fights gravity it settles in a structure that is <i>hot</i> in the center (to
+sustain a pressure gradient), so <i>hot</i> that gas taps into the nuclear
+binding energy, compensating for the luminosity losses which enable
+the collapse. In short: the burning occurs to compensate the losses.
+If it costs energy to burn iron, it would only accelerate the collapse
+and the gas has no further interest in doing it.
+</p>
+
+<p>
+<b>N.B.:</b> it's a bit hard to track cause and effect because gravity, gas
+structure, thermodynamics, and nuclear physics are coupled non-linearly.
+</p>
+</div>
+<div id="outline-container-super-agb-stars-and-electron-capture-sne" class="outline-4">
+<h4 id="super-agb-stars-and-electron-capture-sne"><a href="#super-agb-stars-and-electron-capture-sne">super AGB stars and electron capture SNe</a></h4>
+<div class="outline-text-4" id="text-org-element-18">
+<div class="org-drawer-container">
+  <button class="org-drawer-toggle" onclick="toggleDrawer('drawer-Quote-1')">Quote ▼</button>
+  <div id="drawer-Quote-1" class="org-drawer-content" style="display: none;"><p>
+<i>All massive-star supernovae are electron-capture supernovae</i> - T. H. Janka
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-wolf-rayet-stars" class="outline-4">
+<h4 id="wolf-rayet-stars"><a href="#wolf-rayet-stars">Wolf-Rayet stars</a></h4>
 </div>
 
-<div id="outline-container-gravity-s-victory" class="outline-3">
-<h3 id="gravity-s-victory"><a href="#gravity-s-victory">Gravity's victory</a></h3>
+<div id="outline-container-super-massive-stars" class="outline-4">
+<h4 id="super-massive-stars"><a href="#super-massive-stars">Super-massive stars</a></h4>
+</div>
+</div>
+<div id="outline-container-gravity-s-victory-core-collapse-and-compact-object-formation" class="outline-3">
+<h3 id="gravity-s-victory-core-collapse-and-compact-object-formation"><a href="#gravity-s-victory-core-collapse-and-compact-object-formation">Gravity's victory: core-collapse and compact object formation</a></h3>
+<div class="outline-text-3" id="text-org-element-19">
+<p>
+Neev will cover this in detail after the exam: suffice to say here
+that for \(M\gtrsim 7.5-10\,M_{☉}\) (the exact value depends on the details
+of the chemical composition, rotation of the star, and maybe most
+importantly the likelihood that it interacts with a binary companion
+before its death), gravity ultimately wins: the iron core can only
+lose energy and contract.
+</p>
+
+<p>
+Most of the core energy loss since carbon core burning has been though
+neutrinos produced by thermal processes (not from nuclear reactions):
+massive evolved stars appear as RSG and are brighter in neutrinos than
+photons!
+</p>
+
+<p>
+The collapse of the iron core brings it from
+(\(\rho\sim10^{10}\mathrm{g\ cm^{-3}}\), about 10
+billion times the density of liquid water) to densities exceeding
+briefly the nuclear density: at that point the nuclear force stops
+abruptly the infall, causing a shock wave: this can explode the star
+in a supernova, dispersing the outer layers (closing the "galactic
+enrichment loop" described <a href="notes-lecture-17-stellar-evo.html#org-element-20">here</a>).
+</p>
+
+<p>
+The oxygen that we breath is synthesized in massive star cores!
+</p>
+
+<p>
+However, the heaviest elements (silicon, iron) end up locked in the
+remnant neutron star or black hole. Plus the existence of nuclei of
+anything heavier than iron that the stars would not synthesize remains
+still unexplained.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-origin-of-elements" class="outline-2">
+<h2 id="origin-of-elements"><a href="#origin-of-elements">Origin of elements</a></h2>
+<div class="outline-text-2" id="text-org-element-21">
+<p>
+<a href="https://ourplnt.com/origins-of-the-elements/">https://ourplnt.com/origins-of-the-elements/</a>
+</p>
+
+<p>
+Often binary interactions are key!
+</p>
+
+
+<figure id="org-element-22">
+<img src="./images/bin-frac.png" alt="bin-frac.png" width="75%">
+
+<figcaption><span class="figure-number">Figure 11: </span>Fraction of binaries and higher multiplicity as a function of mass (bottom x-axis) or spectral type (top x-axis), modified from <a href="https://ui.adsabs.harvard.edu/abs/2023ASPC..534..275O/abstract">Offner et al. 2023</a>.</figcaption>
+</figure>
+</div>
+<div id="outline-container-sn-ia" class="outline-3">
+<h3 id="sn-ia"><a href="#sn-ia">SN Ia</a></h3>
+</div>
+
+<div id="outline-container-explosive-stellar-phenomena" class="outline-3">
+<h3 id="explosive-stellar-phenomena"><a href="#explosive-stellar-phenomena">Explosive stellar phenomena</a></h3>
+<div class="outline-text-3" id="text-explosive-stellar-phenomena">
+</div>
+<div id="outline-container-novae" class="outline-4">
+<h4 id="novae"><a href="#novae">Novae</a></h4>
+</div>
+
+<div id="outline-container-x-ray-burst" class="outline-4">
+<h4 id="x-ray-burst"><a href="#x-ray-burst">X-ray burst</a></h4>
+</div>
+
+<div id="outline-container-long-grbs-when-rotation-helps-the-gas-against-gravity-until-the-very-end" class="outline-4">
+<h4 id="long-grbs-when-rotation-helps-the-gas-against-gravity-until-the-very-end"><a href="#long-grbs-when-rotation-helps-the-gas-against-gravity-until-the-very-end">long-GRBs: when rotation helps the gas against gravity until the very end</a></h4>
+</div>
+
+<div id="outline-container-short-grbs-neutron-star-mergers" class="outline-4">
+<h4 id="short-grbs-neutron-star-mergers"><a href="#short-grbs-neutron-star-mergers">short-GRBs: Neutron star mergers</a></h4>
+</div>
+</div>
+<div id="outline-container-gravitational-wave-astronomy" class="outline-3">
+<h3 id="gravitational-wave-astronomy"><a href="#gravitational-wave-astronomy">Gravitational-wave astronomy</a></h3>
 </div>
 </div>
 </div>
@@ -163,7 +530,7 @@ of a \(12\,M_{☉}\) mildly rotating star from formation to the end of its life.
   <hr>
   <a href="#light-dark-toggle"><i id="light-dark-toggle"><i class="fa-solid fa-circle-half-stroke"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-17-stellar-evo.html"><i class="fa-solid fa-arrow-left" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="#top"><i class="fa-solid fa-arrow-up" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-19-compact-obj.html"><i class="fa-solid fa-arrow-right" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/mathren/170B1--002"><i class="fa-brands fa-github" style="font-size:16px"></i></a><hr>
   <br>
-  Last updated on 28 October 2026 <br>
+  Last updated on 1 November 2026 <br>
   Made with Emacs 30.1 - Org mode 9.7.11
   <br>
 </div>
