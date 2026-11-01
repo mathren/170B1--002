@@ -54,7 +54,7 @@ even beyond the escape velocity from their own galaxy. These phenomena
 preferentially accelerate massive stars, that can become /runaways/.
 
 
-#+CAPTION: The nearest massive star to Earth is an O type star and travels through space at more than $\sim30\,\mathrm{km\s^{-1}}$, the runaway star  [[https://en.wikipedia.org/wiki/Zeta_Ophiuchi][$\zeta$ Ophiuchi]]. The red shade is a bow shock in front of the star (supersonic analog of a bow wave in front of a boat moving faster than the sea wave speed).
+#+CAPTION: The nearest massive star to Earth is an O type star and travels through space at more than $\sim30\,\mathrm{km\ s^{-1}}$, the runaway star  [[https://en.wikipedia.org/wiki/Zeta_Ophiuchi][$\zeta$ Ophiuchi]]. The red shade is a bow shock in front of the star (supersonic analog of a bow wave in front of a boat moving faster than the sea wave speed).
 #+ATTR_HTML: :width 75%
 [[./images/zetaoph.jpg]]
 
