@@ -190,14 +190,14 @@ and the gas has no further interest in doing it.
 *N.B.:* it's a bit hard to track cause and effect because gravity, gas
 structure, thermodynamics, and nuclear physics are coupled non-linearly.
 
+*** Wolf-Rayet stars
+
 *** super AGB stars and electron capture SNe
 - neutrino cooling
 
 :Quote:
 /All massive-star supernovae are electron-capture supernovae/ - T. H. Janka
 :end:
-
-*** Wolf-Rayet stars
 
 *** Super-massive stars
 Seeds of SMBH, GR instabilities
