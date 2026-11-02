@@ -357,11 +357,43 @@ phenomena such as stellar explosions, mergers, and extreme transients
 as promising sites.
 
 ** Neutron-capture processes
+In most cases, the formation of heavier elements proceeds by sticking
+neutrons onto a seed nucleus (e.g., iron), and then have the newly
+formed neutron-rich nucleus decay into a stable element.
+
+By using neutrons, we avoid dealing with the electromagnetic repulsion
+in the nuclei, however, free neutrons are unstable and decay in 15min:
+for these processes to happen we need a neutron source.
+
+We distinguish two processes based on the amount of neutrons that can
+be captured /before/ the decay of the neutron rich nuclei.
 
 *** S-process
+"S" for /slow/: in this case the neutrons are captured one-by-one. One
+neutron capture, followed by one decay, and so on.
+
+This requires only moderate neutron fluxes, and never produces nuclei
+more neutron-rich than by one neutron. We think it can occur in
+thermally pulsating AGB where some neutron-rich carbon can be formed
+in the intra-shell region and mixed outwards, where it ejects its
+neutron and enables the s-process.
+
+#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/-PwV6w9kmTQ?si=Rp0LWcsmV6MeTcaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *** R-process
+"R" stands for /rapid/: the neutron captures occur /faster/ than the
+decays. This allows to build extremely neutron rich elements, before
+they decade, flushing the "wrong nucleons" into the "right" type to
+become a stable isotope.
 
+This requires very high neutron fluxes, basically only realized in
+extremely dense flows where electron captures on protons can generate
+lots of neutrons, typically involving neutron stars (mergers with
+something else, or ejecting part of their crust).
+
+#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/LHK6yy-NMKo?si=a9YuWxNqSoRPoT4X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+** Explosive stellar phenomena
 Very often, binary interactions between stars are key to create these
 phenomena!
 
@@ -374,7 +406,7 @@ nuclear astrophysics - a vast, and still active, topic of research
 that started with the [[https://en.wikipedia.org/wiki/B2FH_paper][B^{2}FH paper]] in 1957 (led by Margaret
 Burbidge).
 
-** SN Ia
+*** SN Ia
 We have seen that stars with initial mass lower than $\lesssim
 7.5\,M_{\odot}$ end their life as stable WDs, which cool and contract
 forever.
@@ -403,8 +435,6 @@ band (so called Phillips relation).
 #+CAPTION: Collection of WD explosions on the peak $B$ vs. decline rate. While many "peculiar" types of explosions are observed, most follow the black line. The x-axis is easy to measure, the y-axis allows to measure the distance! Figure from [[https://arxiv.org/abs/1703.00528][Taubenberger 2017]].
 [[./images/SNIa_phillips.png]]
 
-** Other explosive stellar phenomena
-
 *** Novae
 If the accretion rate on a WD is too high, the newly accreted gas will
 explosively ignite H burning: this can produce some non-standard composition.
@@ -419,12 +449,47 @@ burning.
 
 X-ray bursts on a NS may be the primary pathway for certain heavy elements
 
-*** long-GRBs: when rotation helps the gas against gravity until the very end
+*** long-GRBs: collapse of fast rotating magnetized stars
+Rotation can help the gas in its fight against gravity: in the frame
+of reference co-rotating with the star it introduces a centrifugal
+force (apparent!) which partially fights gravity (the more the farther
+from the rotation axis).
+
+Rotation is also /stirring/ the star and mixing it: this can make the
+cores bigger than they normally would.
+
+When a fast rotating, magnetized stars collapses, some matter may have
+too much rotation to fall onto the center directly (there is a
+centrifugal barrier). This matter can start orbiting the center in a
+disk (densities in a collapsing star are high), and the disk can
+generate magnetic fields which can squeeze gas out in a jet.
+
+The disk may be dense enough to neutronize and do r-process, although
+this is highly debated presently: the conditions to neutronize and the
+conditions for an outflow seem to be in tension.
+
+These kind of transients produce /long/ \gamma-ray bursts (GRB): these
+transients were first observed by satellites monitoring nuclear
+experiments during the cold war, and they were finally associated to
+dying stars with SN1998bw.
+
+The video below shows a numerical simulation from [[https://ui.adsabs.harvard.edu/abs/2025ApJ...993L..54G/abstract][Gottlieb et al.
+2025]] of a very massive long-GRB progenitor (yellow show
+magnetization, blue shows gas density).
+
+#+HTML: <div style="text-align: center;">
+#+HTML:   <video width="600" height="400" controls>
+#+HTML:     <source src="./images/Bm0.avi"  type="video/avi">
+#+HTML:     Your browser does not support the video tag.
+#+HTML:   </video>
+#+HTML: </div>
+
 
 *** short-GRBs: Neutron star mergers
+There is another kind of \gamma-ray transient: when two neutron-stars
+merge. Neev next week will discuss this in more detail.
 
-
-** The lower-mass boundary for "massive" stars: super AGB stars and electron capture SNe
+* The lower-mass boundary for "massive" stars: super AGB stars and electron capture SNe
 
 
 :Quote:
