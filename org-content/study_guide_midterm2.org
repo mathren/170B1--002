@@ -29,15 +29,14 @@ represented by the lectures*. In particular, study:
 *Reading*: Chapter 7
 
 *** Questions/concepts:
+- Spectroscopy
+- Photometry
 - Telescope design
--
 
 ** Week 7
 *Reading*: Chapters 8, 9, 10
 
 *** Questions/concepts:
--
-
 - Solar system architecture
 - Rocky planets
 - Jovian/gas-giant planets
