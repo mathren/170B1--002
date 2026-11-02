@@ -195,20 +195,20 @@ DEADLINE: Homework
 
 ** Week 13: Chapter 21, 22
 
-*** <2026-11-16 Mon> - The Milky way, Galaxy evolution
+*** <2026-11-16 Mon> - Gravitational waves
 # in class attendance
-*** <2026-11-18 Wed> - Hubble's law
+*** <2026-11-18 Wed> - The Milky way, Galaxy evolution
 # in class attendance
 DEADLINE: Homework
 
 ** Week 14:
 
-*** <2026-11-23 Mon> - Active Galaxies
+*** <2026-11-23 Mon> - Hubble's law
 # in class attendance
 # Deadline Homework 12, assign Homework 13
 DEADLINE: Homework
 
-*** <2026-11-25 Wed> - buffer (day before Thanksgiving)
+*** <2026-11-25 Wed> - Active Galaxies
 # in class attendance
 DEADLINE: Signature assignment
 

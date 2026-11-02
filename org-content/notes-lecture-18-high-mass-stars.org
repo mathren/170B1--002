@@ -137,6 +137,11 @@ the collision between nuclei to enable quantum tunneling through the
 electromagnetic barrier and fusing into new nuclei held together by
 the nuclear force.
 
+Most of the core energy loss since carbon core burning has been though
+neutrinos produced by thermal processes (not from nuclear reactions):
+massive evolved stars appear as RSG and are brighter in neutrinos than
+photons!
+
 #+CAPTION: Because of the higher $T$ requirement, each fuel burns in a smaller and more concentrated region, surrounded by a shell, leading to the characteristic "onion shell" structure.
 [[./images/onion.png]]
 
@@ -224,8 +229,11 @@ de-excites in a random direction: the net result is the photons push
 the metals out.
 
 But everything is still ionized: the positive metal ions are
-electromagnetically coupled to H and He and drag them away.
-This is the fundamental picture of a line-driven wind.
+electromagnetically coupled to H and He and drag them away. This is
+the fundamental picture of a line-driven wind. As the star evolves,
+and grows in radius during shell burning phases, its atmosphere cools,
+and more opaque matter can form (ions with more electrons, molecules,
+dust): mass loss increases significantly for RSG.
 
 While we saw that the solar wind is not removing much mass $\dot{M}_{\odot} \simeq
 10^{-14}\,M_{\odot} \mathrm{yr^{-1}}$, line-driven winds in massive stars caused by
@@ -241,22 +249,67 @@ $\dot{M}$ we can define:
  \tau_{\rm ML} = \frac{M}{\dot{M}} = \begin{cases}
      \frac{1}{10^{-14}} = 10^{14} \gg 10^{10} \mathrm{yr} & \text{for the Sun}\\
      \frac{10}{10^{-8}} = 10^{9}  & \text{for a main-sequence massive star}\\
+     \frac{10}{10^{-6}} = 10^{6}  & \text{for a RSG}\\
     \end{cases} \ \ .
 \end{equation}
 #+END_LATEX
 
+We see that $\tau_{\rm ML}$ is typically longer than the lifetimes of the
+stars, for massive stars it can become comparable: radiatively driven
+winds in massive stars can have a strong structural impact on the star
+(and not only its rotation rate like low-mass-loss rates pressure
+driven in the Sun).
 
+#+CAPTION: Example of a Galactic WR star, WR124, as seen by /JWST/.
+[[./images/WR124.jpg]]
 
+In the most extreme cases, a massive star can self-strip: winds can
+remove it's hydrogen-rich envelope! These stars, named after their
+co-discoverers, are called Wold-Rayet (WR). They are a /spectroscopic class/
+(like O, B, A, F, G, K, L, M defined based on the morphology of the
+spectrum by the "Harvard computers" and then re-organized and
+understood thanks to the understanding of radiative transfer and
+atomic physics by Annie Cannon and Cecilia Payne Gaposhkin): a WR is a
+hydrogen-poor (not necessarily hydrogen-free) star with such a thick
+stellar wind that it blocks photons even outside the stellar
+atmosphere and the strong stratification of the wind results in
+emission lines.
 
-*** super AGB stars and electron capture SNe
-- neutrino cooling
+Basically, for a WR we don't see the star, but only its wind. The most
+massive stars will evolve into WR, the more massive, the higher $L$,
+the stronger the wind, the sooner they self-strip.
 
-:Quote:
-/All massive-star supernovae are electron-capture supernovae/ - T. H. Janka
-:end:
+#+CAPTION: Example of a WR spectrum showing annotated emission lines (source: [[https://en.wikipedia.org/wiki/Wolf%E2%80%93Rayet_star][wikipedia]]).
+[[./images/Wr137_spc.png]]
 
 *** Super-massive stars
-Seeds of SMBH, GR instabilities
+
+We have already seen that [[file:notes-lecture-17-stellar-evo.org::*Highest mass limit: is there one?][highest possible mass for a star is not well
+understood]]. Especially for the very first generation of stars, formed
+from pristine, non-polluted material from the Big Bang (so just H and
+He, nothing else), the masses of stars may have been much much larger,
+exceeding $1000-10^{5}\,M_{\odot}$.
+
+These are /theoretical/ objects: none of our telescopes can see these
+stars. Nevertheless, it's pretty obvious that metals exist, so stars
+at some point must have started appearing and processing the gas into
+heavier nuclei.
+
+The reason why these first stars may have been so big are twofold:
+1. with only H and He, the gas has few electronic transition to use to
+   emit photons and radiatively cool. This prevents fragmentation of
+   the proto-stellar cloud and leads to a bigger star.
+2. We see super-massive BHs at the center of galaxies that are too big
+   to have grown swallowing mass: a possible solution is that gigantic
+   stars collapsed into the /seeds/ for these BHs, reducing the need for
+   accretion to increase their mass.
+
+Super-massive stars above a certain limit may collapse because of
+general relativity destabilizing their $P\equiv P(T)$ relationship, before
+processing many nuclei into heavier elements: so the argument that
+these stars must exists based on the composition of the universe also
+requires that they not all collapse into super-massive BHs!
+
 
 ** Gravity's victory: core-collapse and compact object formation
 
@@ -266,11 +319,6 @@ of the chemical composition, rotation of the star, and maybe most
 importantly the likelihood that it interacts with a binary companion
 before its death), gravity ultimately wins: the iron core can only
 lose energy and contract.
-
-Most of the core energy loss since carbon core burning has been though
-neutrinos produced by thermal processes (not from nuclear reactions):
-massive evolved stars appear as RSG and are brighter in neutrinos than
-photons!
 
 The collapse of the iron core brings it from
 ($\rho\sim10^{10}\mathrm{g\ cm^{-3}}$, about 10
@@ -311,3 +359,12 @@ Often binary interactions are key!
 *** short-GRBs: Neutron star mergers
 
 ** Gravitational-wave astronomy
+
+** The lower-mass boundary for "massive" stars: super AGB stars and electron capture SNe
+
+
+
+
+:Quote:
+/All massive-star supernovae are electron-capture supernovae/ - T. H. Janka
+:end:
