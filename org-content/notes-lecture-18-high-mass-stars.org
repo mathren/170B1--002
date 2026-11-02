@@ -348,32 +348,88 @@ still unexplained.
 #+CAPTION: Periodic table of chemical elements with the astrophysical origin of their nuclei. From https://svs.gsfc.nasa.gov/13873.
 [[./images/PeriodicTableOrigins.jpg]]
 
+Most heavy elements /cannot/ be produced by exoenergetic fusion
+processes inside a star in hydrostatic equilibrium. Nevertheless, to
+make their component nucleons come close enough together that the
+strong force binds them, extremely high relative energies between the
+incoming nuclei are needed. This leaves high-energy astrophysical
+phenomena such as stellar explosions, mergers, and extreme transients
+as promising sites.
 
-Often binary interactions are key!
+** Neutron-capture processes
 
-#+CAPTION: Fraction of binaries and higher multiplicity as a function of mass (bottom x-axis) or spectral type (top x-axis), modified from [[https://ui.adsabs.harvard.edu/abs/2023ASPC..534..275O/abstract][Offner et al. 2023]].
+*** S-process
+
+*** R-process
+
+Very often, binary interactions between stars are key to create these
+phenomena!
+
+#+CAPTION: Recall that the presence of stellar companions varies with mass/spectral type of the stars, and is extremely common at the high masses.
 #+ATTR_HTML: :width 75%
 [[./images/bin-frac.png]]
 
+In the following, I briefly describe some transients relevant to
+nuclear astrophysics - a vast, and still active, topic of research
+that started with the [[https://en.wikipedia.org/wiki/B2FH_paper][B^{2}FH paper]] in 1957 (led by Margaret
+Burbidge).
 
 ** SN Ia
+We have seen that stars with initial mass lower than $\lesssim
+7.5\,M_{\odot}$ end their life as stable WDs, which cool and contract
+forever.
 
-** Explosive stellar phenomena
+However, there is a maximum mass that a WD can have: what happens when
+a binary companion dumps mass onto a WD? The outcome is very sensitive
+to the mass-transfer /rate/ (how much mass per unit time is
+transferred), but it can in some case result in a type of supernova
+transient too, called SNIa.
+
+These show in their spectra at peak no H and He (there is little to
+none left in the WD), and shows strong silicon lines: the presence of
+silicon in the ejecta suggest this doesn't come from the core of a
+massive star (most of the silicon goes into the neutron star or black
+hole remnant). Instead, that silicon is the product of an explosion in
+the WD triggered by the accretion.
+
+Exploding WDs produce most of the heavy elements of the silicon and
+iron group!
+
+These SNIa are also very important for /cosmology/, because three is a
+standardizable relation between their peak luminosity (which if we
+measure the brightness can tell us the distance) and decline rate in B
+band (so called Phillips relation).
+
+#+CAPTION: Collection of WD explosions on the peak $B$ vs. decline rate. While many "peculiar" types of explosions are observed, most follow the black line. The x-axis is easy to measure, the y-axis allows to measure the distance! Figure from [[https://arxiv.org/abs/1703.00528][Taubenberger 2017]].
+[[./images/SNIa_phillips.png]]
+
+** Other explosive stellar phenomena
 
 *** Novae
+If the accretion rate on a WD is too high, the newly accreted gas will
+explosively ignite H burning: this can produce some non-standard composition.
 
 *** X-ray burst
+We can consider the same process above, but with a neutron star
+accreting. Because a typical neutron star radius is
+$\sim10\,\mathrm{km}$, gas accreting on a NS has to fall much further
+down than gas accreting onto a WD: this liberates more of its
+gravitational energy, leading to higher $T$ and more explosive
+burning.
+
+X-ray bursts on a NS may be the primary pathway for certain heavy elements
 
 *** long-GRBs: when rotation helps the gas against gravity until the very end
 
 *** short-GRBs: Neutron star mergers
 
-** Gravitational-wave astronomy
+
 ** The lower-mass boundary for "massive" stars: super AGB stars and electron capture SNe
-
-
 
 
 :Quote:
 /All massive-star supernovae are electron-capture supernovae/ - T. H. Janka
 :end:
+
+#+CAPTION: super-AGB pre-collapse structure: in the degenerate CO core, neutrino cooling more efficient in the densest center leads to a temperature inversion and if C can ignite, it does so off-center.
+[[./images/sAGB.jpg]]
