@@ -7,7 +7,6 @@
 *Reading*: Chapter 14, 15, 16, 17, [[https://www.astro.ru.nl/~onnop/education/stev_utrecht_notes/][Prof. Onno Pols lecture notes]],
 [[https://lavinia.as.arizona.edu/~mrenzo/courses/400A/index.html][ASTR400A lecture notes]]
 
-
 * High-mass star evolution
 
 #+HTML: <div style="text-align: center;">
@@ -52,7 +51,7 @@ encounters in dense stellar clusters can accelerate stars in a galaxy,
 even beyond the escape velocity from their own galaxy. These phenomena
 preferentially accelerate massive stars, that can become /runaways/.
 
-#+CAPTION: The nearest massive star to Earth is an O type star and travels through space at more than $\sim30\,\mathrm{km\ s^{-1}}$, the runaway star  [[https://en.wikipedia.org/wiki/Zeta_Ophiuchi][$\zeta$ Ophiuchi]]. The red shade is a bow shock in front of the star (supersonic analog of a bow wave in front of a boat moving faster than the sea wave speed).
+#+CAPTION: The nearest massive star to Earth is an O type star and travels through space at more than $\sim30\,\mathrm{km\ s^{-1}}$, the runaway star  [[https://en.wikipedia.org/wiki/Zeta_Ophiuchi][$\zeta$ Ophiuchi]], which has a greek-letter name indicating it is visible by naked eye. The red shade is a bow shock in front of the star (supersonic analog of a bow wave in front of a boat moving faster than the sea wave speed).
 #+ATTR_HTML: :width 75%
 [[./images/zetaoph.jpg]]
 
@@ -190,7 +189,64 @@ and the gas has no further interest in doing it.
 *N.B.:* it's a bit hard to track cause and effect because gravity, gas
 structure, thermodynamics, and nuclear physics are coupled non-linearly.
 
-*** Wolf-Rayet stars
+*** Stellar winds & Wolf-Rayet stars
+Massive stars are characterized by a very large $L$, this forces their
+relatively short lifetimes (\sim 10 million years vs. 10 billion years
+for a $1\,M_{\odot}$ star), and determines their burning mode through the CNO
+cycle (as opposed to the pp chain dominating in lower mass stars).
+A large luminosity also implies there are many photons that can
+interact with the stellar atmosphere and /push the gas/. This can drive
+a stellar wind through radiation pressure (as opposed to the stellar
+wind which is gas-pressure driven).
+
+
+#+CAPTION: Radiation can launch winds from the partially transparent stellar atmosphere.
+[[file:images/winds.png]]
+
+The stellar atmosphere which is /by definition/ partially transparent:
+it is the layer of gas sitting above the location from where thermal
+radiation from the stellar interior is starting to leak out almost
+unimpeded by matter (/almost/!). So while photons still travel in any
+random direction in the atmosphere, there is a net radial component of
+the radiative energy flux towards the outside of the star.
+
+
+In this layer, like in any else, most of the mass of the star is in H
+and He, but most of the electron transitions are in metallic ions,
+specifically Fe ions. Therefore, photons filtering through the
+atmosphere are most likely interacting with a metal ion, which can
+absorb a photon and get its momentum!
+
+When the ion de-excites, the probability of de-excitation is isotropic
+(the emitted photon is equally likely in any direction), so the ion
+excitation takes some preferentially radial momentum in, and
+de-excites in a random direction: the net result is the photons push
+the metals out.
+
+But everything is still ionized: the positive metal ions are
+electromagnetically coupled to H and He and drag them away.
+This is the fundamental picture of a line-driven wind.
+
+While we saw that the solar wind is not removing much mass $\dot{M}_{\odot} \simeq
+10^{-14}\,M_{\odot} \mathrm{yr^{-1}}$, line-driven winds in massive stars caused by
+their high $L$ can remove significant amount of mass, the more massive
+a star is initially, the more luminous, the more mass it will lose!
+
+A way to see this is to calculate a /timescale/ associated to mass-loss.
+Using dimensional analysis for a star of mass $M$ and mass loss
+$\dot{M}$ we can define:
+
+#+BEGIN_LATEX
+\begin{equation}
+ \tau_{\rm ML} = \frac{M}{\dot{M}} = \begin{cases}
+     \frac{1}{10^{-14}} = 10^{14} \gg 10^{10} \mathrm{yr} & \text{for the Sun}\\
+     \frac{10}{10^{-8}} = 10^{9}  & \text{for a main-sequence massive star}\\
+    \end{cases} \ \ .
+\end{equation}
+#+END_LATEX
+
+
+
 
 *** super AGB stars and electron capture SNe
 - neutrino cooling

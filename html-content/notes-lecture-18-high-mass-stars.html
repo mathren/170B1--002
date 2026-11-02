@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2026-11-01 Sun 15:18 -->
+<!-- 2026-11-02 Mon 09:24 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ASTR170 High mass star evolution</title>
@@ -207,7 +207,7 @@ preferentially accelerate massive stars, that can become <i>runaways</i>.
 <figure id="org-element-7">
 <img src="./images/zetaoph.jpg" alt="zetaoph.jpg" width="75%">
 
-<figcaption><span class="figure-number">Figure 4: </span>The nearest massive star to Earth is an O type star and travels through space at more than \(\sim30\,\mathrm{km\ s^{-1}}\), the runaway star  <a href="https://en.wikipedia.org/wiki/Zeta_Ophiuchi">\(\zeta\) Ophiuchi</a>. The red shade is a bow shock in front of the star (supersonic analog of a bow wave in front of a boat moving faster than the sea wave speed).</figcaption>
+<figcaption><span class="figure-number">Figure 4: </span>The nearest massive star to Earth is an O type star and travels through space at more than \(\sim30\,\mathrm{km\ s^{-1}}\), the runaway star  <a href="https://en.wikipedia.org/wiki/Zeta_Ophiuchi">\(\zeta\) Ophiuchi</a>, which has a greek-letter name indicating it is visible by naked eye. The red shade is a bow shock in front of the star (supersonic analog of a bow wave in front of a boat moving faster than the sea wave speed).</figcaption>
 </figure>
 
 <p>
@@ -416,13 +416,87 @@ and the gas has no further interest in doing it.
 structure, thermodynamics, and nuclear physics are coupled non-linearly.
 </p>
 </div>
-<div id="outline-container-wolf-rayet-stars" class="outline-4">
-<h4 id="wolf-rayet-stars"><a href="#wolf-rayet-stars">Wolf-Rayet stars</a></h4>
-</div>
+<div id="outline-container-stellar-winds-amp-wolf-rayet-stars" class="outline-4">
+<h4 id="stellar-winds-amp-wolf-rayet-stars"><a href="#stellar-winds-amp-wolf-rayet-stars">Stellar winds &amp; Wolf-Rayet stars</a></h4>
+<div class="outline-text-4" id="text-org-element-18">
+<p>
+Massive stars are characterized by a very large \(L\), this forces their
+relatively short lifetimes (&sim; 10 million years vs. 10 billion years
+for a \(1\,M_{☉}\) star), and determines their burning mode through the CNO
+cycle (as opposed to the pp chain dominating in lower mass stars).
+A large luminosity also implies there are many photons that can
+interact with the stellar atmosphere and <i>push the gas</i>. This can drive
+a stellar wind through radiation pressure (as opposed to the stellar
+wind which is gas-pressure driven).
+</p>
 
+
+
+<figure id="org-element-19">
+<img src="images/winds.png" alt="winds.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 11: </span>Radiation can launch winds from the partially transparent stellar atmosphere.</figcaption>
+</figure>
+
+<p>
+The stellar atmosphere which is <i>by definition</i> partially transparent:
+it is the layer of gas sitting above the location from where thermal
+radiation from the stellar interior is starting to leak out almost
+unimpeded by matter (<i>almost</i>!). So while photons still travel in any
+random direction in the atmosphere, there is a net radial component of
+the radiative energy flux towards the outside of the star.
+</p>
+
+
+<p>
+In this layer, like in any else, most of the mass of the star is in H
+and He, but most of the electron transitions are in metallic ions,
+specifically Fe ions. Therefore, photons filtering through the
+atmosphere are most likely interacting with a metal ion, which can
+absorb a photon and get its momentum!
+</p>
+
+<p>
+When the ion de-excites, the probability of de-excitation is isotropic
+(the emitted photon is equally likely in any direction), so the ion
+excitation takes some preferentially radial momentum in, and
+de-excites in a random direction: the net result is the photons push
+the metals out.
+</p>
+
+<p>
+But everything is still ionized: the positive metal ions are
+electromagnetically coupled to H and He and drag them away.
+This is the fundamental picture of a line-driven wind.
+</p>
+
+<p>
+While we saw that the solar wind is not removing much mass \(\dot{M}_{☉} \simeq
+10^{-14}\,M_{☉} \mathrm{yr^{-1}}\), line-driven winds in massive stars caused by
+their high \(L\) can remove significant amount of mass, the more massive
+a star is initially, the more luminous, the more mass it will lose!
+</p>
+
+<p>
+A way to see this is to calculate a <i>timescale</i> associated to mass-loss.
+Using dimensional analysis for a star of mass \(M\) and mass loss
+\(\dot{M}\) we can define:
+</p>
+
+<div class="LATEX" id="org-element-20">
+\begin{equation}
+ \tau_{\rm ML} = \frac{M}{\dot{M}} = \begin{cases}
+     \frac{1}{10^{-14}} = 10^{14} \gg 10^{10} \mathrm{yr} & \text{for the Sun}\\
+     \frac{10}{10^{-8}} = 10^{9}  & \text{for a main-sequence massive star}\\
+    \end{cases} \ \ .
+\end{equation}
+
+</div>
+</div>
+</div>
 <div id="outline-container-super-agb-stars-and-electron-capture-sne" class="outline-4">
 <h4 id="super-agb-stars-and-electron-capture-sne"><a href="#super-agb-stars-and-electron-capture-sne">super AGB stars and electron capture SNe</a></h4>
-<div class="outline-text-4" id="text-org-element-18">
+<div class="outline-text-4" id="text-org-element-21">
 <ul class="org-ul">
 <li>neutrino cooling</li>
 </ul>
@@ -438,7 +512,7 @@ structure, thermodynamics, and nuclear physics are coupled non-linearly.
 </div>
 <div id="outline-container-super-massive-stars" class="outline-4">
 <h4 id="super-massive-stars"><a href="#super-massive-stars">Super-massive stars</a></h4>
-<div class="outline-text-4" id="text-org-element-19">
+<div class="outline-text-4" id="text-org-element-22">
 <p>
 Seeds of SMBH, GR instabilities
 </p>
@@ -447,7 +521,7 @@ Seeds of SMBH, GR instabilities
 </div>
 <div id="outline-container-gravity-s-victory-core-collapse-and-compact-object-formation" class="outline-3">
 <h3 id="gravity-s-victory-core-collapse-and-compact-object-formation"><a href="#gravity-s-victory-core-collapse-and-compact-object-formation">Gravity's victory: core-collapse and compact object formation</a></h3>
-<div class="outline-text-3" id="text-org-element-20">
+<div class="outline-text-3" id="text-org-element-23">
 <p>
 Neev will cover this in detail after the exam: suffice to say here
 that for \(M\gtrsim 7.5-10\,M_{☉}\) (the exact value depends on the details
@@ -471,7 +545,7 @@ billion times the density of liquid water) to densities exceeding
 briefly the nuclear density: at that point the nuclear force stops
 abruptly the infall, causing a shock wave: this can explode the star
 in a supernova, dispersing the outer layers (closing the "galactic
-enrichment loop" described <a href="notes-lecture-17-stellar-evo.html#org-element-21">here</a>).
+enrichment loop" described <a href="notes-lecture-17-stellar-evo.html#org-element-24">here</a>).
 </p>
 
 <p>
@@ -489,7 +563,7 @@ still unexplained.
 </div>
 <div id="outline-container-origin-of-elements" class="outline-2">
 <h2 id="origin-of-elements"><a href="#origin-of-elements">Origin of elements</a></h2>
-<div class="outline-text-2" id="text-org-element-22">
+<div class="outline-text-2" id="text-org-element-25">
 <p>
 <a href="https://svs.gsfc.nasa.gov/13873">https://svs.gsfc.nasa.gov/13873</a>
 </p>
@@ -499,10 +573,10 @@ Often binary interactions are key!
 </p>
 
 
-<figure id="org-element-23">
+<figure id="org-element-26">
 <img src="./images/bin-frac.png" alt="bin-frac.png" width="75%">
 
-<figcaption><span class="figure-number">Figure 11: </span>Fraction of binaries and higher multiplicity as a function of mass (bottom x-axis) or spectral type (top x-axis), modified from <a href="https://ui.adsabs.harvard.edu/abs/2023ASPC..534..275O/abstract">Offner et al. 2023</a>.</figcaption>
+<figcaption><span class="figure-number">Figure 12: </span>Fraction of binaries and higher multiplicity as a function of mass (bottom x-axis) or spectral type (top x-axis), modified from <a href="https://ui.adsabs.harvard.edu/abs/2023ASPC..534..275O/abstract">Offner et al. 2023</a>.</figcaption>
 </figure>
 </div>
 <div id="outline-container-sn-ia" class="outline-3">
@@ -539,7 +613,7 @@ Often binary interactions are key!
   <hr>
   <a href="#light-dark-toggle"><i id="light-dark-toggle"><i class="fa-solid fa-circle-half-stroke"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-17-stellar-evo.html"><i class="fa-solid fa-arrow-left" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="#top"><i class="fa-solid fa-arrow-up" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-19-compact-obj.html"><i class="fa-solid fa-arrow-right" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/mathren/170B1--002"><i class="fa-brands fa-github" style="font-size:16px"></i></a><hr>
   <br>
-  Last updated on 1 November 2026 <br>
+  Last updated on 2 November 2026 <br>
   Made with Emacs 30.1 - Org mode 9.7.11
   <br>
 </div>
