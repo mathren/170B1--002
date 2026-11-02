@@ -328,9 +328,15 @@ abruptly the infall, causing a shock wave: this can explode the star
 in a supernova, dispersing the outer layers (closing the "galactic
 enrichment loop" described [[file:notes-lecture-17-stellar-evo.org::*Mass determines the structure and thus the evolution][here]]).
 
-The oxygen that we breath is synthesized in massive star cores!
+For example, the oxygen that we breath is synthesized in massive star
+cores!
 
-
+*N.B.:* You may have heard that plants make oxygen: that is true, but at
+/molecular/ level: plants release O_{2} molecules as a byproduct of
+photosynthesis. But plants aren't nuclear reactors: they are packing
+together two existing O atoms through chemical processes at eV scale,
+the nuclei already existed on Earth, where they come from the
+primordial gas that formed the Sun and its solar system.
 
 However, the heaviest elements (silicon, iron) end up locked in the
 remnant neutron star or black hole. Plus the existence of nuclei of
