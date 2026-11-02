@@ -4,7 +4,7 @@
 #+PREVIOUS_PAGE: notes-lecture-18-high-mass-stars.org
 #+NEXT_PAGE: notes-lecture-19-compact-obj.org
 
-* Study guide for 1^{st} midterm on <2026-11-04 Wed>
+* Study guide for 2^{nd} midterm on <2026-11-04 Wed>
 
 The midterm will be administered in our usual classroom (N210) via
 TopHat and is closed book. You will be allowed one 3” x 5” handwritten
