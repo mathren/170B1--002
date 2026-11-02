@@ -73,6 +73,8 @@ represented by the lectures*. In particular, study:
 
 *** Questions/concepts:
 - fundamental forces
+- color-magnitude and Herzsprung-Russell diagram
+- stellar types
 - neutrino physics
 - solar neutrino problem
 - star formation
