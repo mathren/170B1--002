@@ -94,7 +94,6 @@ observer:
 #+ATTR_HTML: :width 75%
 [[./images/angular_distance_car.png]]
 
-
 * Telescope designs
 
 Cutting edge telescopes usually push the boundaries of technology to
@@ -141,7 +140,6 @@ perfectly to obtain sharp images
 
 #+CAPTION: The 10m-class Keck telescope on Mauna Kea is a Cassegrain telescope. Note the person in the middle bottom of the figure for scale.
 [[file:images/keck_cassegrain.png]]
-
 
 * Using telescopes
 

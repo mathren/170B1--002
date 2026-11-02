@@ -129,7 +129,7 @@ DEADLINE: Homework, In class exam
 # in class attendance
 *Guest lecturer*: Neev Shah
 
-[[./images/SolarSystem_Fall2026.pptx][slides]]
+[[./images/SolarSystem_Fall2026.pptx][Slides]]
 
 *** <2026-10-07 Wed> - *No Lecture*
 
@@ -185,6 +185,8 @@ DEADLINE: Homework
 *** <2026-11-04 Wed> - Midterm
 # Deadline Homework 10, Assign Homework 11
 DEADLINE: Homework, In class exam
+
+[[./study_guide_midterm2.org][Suggested study guide]]
 
 ** Week 12: Chapter 19, 20
 

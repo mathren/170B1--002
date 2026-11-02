@@ -2,7 +2,7 @@
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-17-stellar-evo.org
-#+NEXT_PAGE: notes-lecture-19-compact-obj.org
+#+NEXT_PAGE: study_guide_midterm2.org
 
 *Reading*: Chapter 14, 15, 16, 17, [[https://www.astro.ru.nl/~onnop/education/stev_utrecht_notes/][Prof. Onno Pols lecture notes]],
 [[https://lavinia.as.arizona.edu/~mrenzo/courses/400A/index.html][ASTR400A lecture notes]]
@@ -72,7 +72,7 @@ This mode of hydrogen burning (same overall reaction) is much more
 sensitive to the temperature: the burning region is more concentrated
 than in lower mass stars.
 
-- Top Hat Q2
+- Top Hat Q3
 
 But this makes their cores convective: photons alone are insufficient
 to carry out the energy output by the CNO cycle without the help of

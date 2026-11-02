@@ -1,0 +1,93 @@
+#+title: ASTR170 Study guide midterm 2
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: notes-lecture-18-high-mass-stars.org
+#+NEXT_PAGE: notes-lecture-19-compact-obj.org
+
+* Study guide for 1^{st} midterm on <2026-11-04 Wed>
+
+The midterm will be administered in our usual classroom (N210) via
+TopHat and is closed book. You will be allowed one 3” x 5” handwritten
+notecard (double sided).
+
+*Neev will hold a review session in the Parker Library (Steward N304)
+on <2026-11-02 Mon> from 5-6:30pm.*
+
+This outline is organized according to the lectures (see also
+[[./schedule.org][schedule]]). However, *you are responsible for more material than is
+represented by the lectures*. In particular, study:
+
+- Lecture notes
+- Weekly homework assignments and your Mastering Astronomy. The "Study
+  Area" is very useful for practice!
+- Textbook: The Cosmic Perspective, Chapters 7-18 (eText access via
+  D2L).
+
+* Key concepts
+
+** Week 6
+*Reading*: Chapter 7
+
+*** Questions/concepts:
+- Telescope design
+-
+
+** Week 7
+*Reading*: Chapters 8, 9, 10
+
+*** Questions/concepts:
+-
+
+- Solar system architecture
+- Rocky planets
+- Jovian/gas-giant planets
+- Moons of the solar system
+- minor bodies of the solar system (asteroids, comets, Kuiper belt)
+
+** Week 8
+*Reading*: Chapters 11, 12, 14
+
+*** Questions/concepts:
+- planetary formation
+- nebular hypothesis
+- planet migration
+- proto-planetary disk evolution
+- planetary interiors
+
+
+** Week 9
+*Reading*: Chapter 14, 15
+
+*** Questions/concepts:
+- planetary atmospheres
+- aurorae
+- greenhouse effect
+- Earth's atmosphere
+- climate/weather distinction
+- the Sun as a star
+- structure of the Sun
+- energy sources for stars
+- the great debate on the age of the Sun
+
+** Week 10
+*Reading*: Chapter 14, 15, 16
+
+*** Questions/concepts:
+- fundamental forces
+- neutrino physics
+- solar neutrino problem
+- star formation
+- initia mass function
+- maximum and minimum stellar mass
+- main sequence stellar evolution (very low, low)
+- He ignition
+- late evolution
+- final fate of stars
+
+** Week 11
+*Reading*: Chapter 15, 16, 17
+
+*** Questions/concepts:
+- high mass stellar evolution
+- high mas sstar main sequence
+- nucleosynthesis
