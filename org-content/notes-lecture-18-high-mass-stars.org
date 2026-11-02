@@ -165,7 +165,7 @@ is most efficient) determined by the nuclear structure of each element:
 Nuclei that can be conceptualized as /bound states between groups of 2
 protons and two neutrons/ tend to be more stable, meaning forming them
 releases more energy: this is why nuclei with $A=4\times n$ with
-$n=1,2,3,...$ correspond to peaks in the figure and are more common
+$n$ =1,2,3,... correspond to peaks in the figure and are more common
 elements in the Universe. Stars find it convenient to make them! Note
 that these include Helium (whose nucleus is also referred to as $\alpha$
 particle), Carbon 12 (3 $\alpha$ bound together), Oxygen 16 (4 $\alpha$),
