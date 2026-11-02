@@ -695,3 +695,7 @@ data.
 #+CAPTION: HR diagram for a complete volume-limited sample of WDs within 100pc from /Gaia/ DR2. The color of points indicates spectroscopically determined masses based on [[https://www.sdss.org/][SDSS]], red dots mark magnetized WD (again from their spectra), and dotted orange lines enclose the predicted region where crystallization of the WD covers between 20% (top) and 80% of the total mass, and contains an overabundance of stars as predicted by the release of latent heat. This is Fig. 2 from [[https://ui.adsabs.harvard.edu/abs/2019Natur.565..202T/abstract][Tremblay et al. 2019]].
 #+ATTR_HTML: :width 100%
 [[./images/Gaia_spur.png]]
+
+*N.B.:* Effectively crystallization releases "latent heat" from the
+ phase transition which "freezes" the $T_{\rm eff}$  delaying the
+ evolution of the WD on their cooling path.
