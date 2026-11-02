@@ -247,9 +247,9 @@ $\dot{M}$ we can define:
 #+BEGIN_LATEX
 \begin{equation}
  \tau_{\rm ML} = \frac{M}{\dot{M}} = \begin{cases}
-     \frac{1}{10^{-14}} = 10^{14} \gg 10^{10} \mathrm{yr} & \text{for the Sun}\\
-     \frac{10}{10^{-8}} = 10^{9}  & \text{for a main-sequence massive star}\\
-     \frac{10}{10^{-6}} = 10^{6}  & \text{for a RSG}\\
+     \frac{1}{10^{-14}} = 10^{14} \gg 10^{10}\,\mathrm{yr} & \text{for the Sun}\\
+     \frac{10}{10^{-8}} = 10^{9}\,\mathrm{yr} & \text{for a main-sequence massive star}\\
+     \frac{10}{10^{-6}} = 10^{6}\,\mathrm{yr}  & \text{for a RSG}\\
     \end{cases} \ \ .
 \end{equation}
 #+END_LATEX
