@@ -498,11 +498,37 @@ merge. Neev next week will discuss this in more detail.
 
 * The lower-mass boundary for "massive" stars: super AGB stars and electron capture SNe
 
+At the boundary between "low and intermediate mass stars" (which end
+their evolution as WDs) and "massive stars" which form NS/BHs there
+are so-called super-AGB stars.
 
-:Quote:
-/All massive-star supernovae are electron-capture supernovae/ - T. H. Janka
-:end:
+These are low-enough in mass that their CO core becomes degenerate and
+electron-supported, and they experience thermal pulses. Because of
+neutrino cooling, the inner center cools faster than the outer center,
+and if and when a super-AGB star ignites C burning, it does so
+off-center. This produces a meter-thick flame propagating inwards
+subsonically: whether it reaches the center (\Rightarrow evolution to
+core-collapse) or not is a very challenging numerical problem.
+
+Even if C burning is also partial, it may leave behind a ONeMg WD
+(heavier element composition than the typical CO WD). This can still
+be embedded in the shells of He- and H-rich material, and supported by
+the electrons.
+
+However, as the core cools (mostly to neutrinos) and loses energy, it
+contracts and its density increases. If $e^{-}$ captures on O, Ne, Mg
+elements occur, this removes the support for the star and triggers a
+core-collapse /before/ the star has burned all the way to iron in its
+core.
+
+From the outside, these so-called "electron capture SNe" are hard to
+distinguish and disentangle from normal SNe.
 
 #+CAPTION: super-AGB pre-collapse structure: in the degenerate CO core, neutrino cooling more efficient in the densest center leads to a temperature inversion and if C can ignite, it does so off-center.
 #+ATTR_HTML: :width 50%
 [[file:images/sAGB.png]]
+
+
+:Quote:
+/All massive-star supernovae are electron-capture supernovae/ - T. H. Janka
+:end:
