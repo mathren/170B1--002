@@ -38,17 +38,24 @@ represented by the lectures*. In particular, study:
 
 *** Questions/concepts:
 - Solar system architecture
+  - patterns (and exceptions)
 - Rocky planets
+  - internal structure
+  - processes shaping the surface
 - Jovian/gas-giant planets
+  - internal structure
 - Moons of the solar system
 - minor bodies of the solar system (asteroids, comets, Kuiper belt)
+
 
 ** Week 8
 *Reading*: Chapters 11, 12, 14
 
 *** Questions/concepts:
 - planetary formation
-- nebular hypothesis
+  - What is the Nebular hypothesis?
+  - initial composition
+- What is the frost line?
 - planet migration
 - proto-planetary disk evolution
 - planetary interiors
@@ -74,6 +81,7 @@ represented by the lectures*. In particular, study:
 *** Questions/concepts:
 - fundamental forces
 - color-magnitude and Herzsprung-Russell diagram
+- nuclear fusion
 - stellar types
 - neutrino physics
 - solar neutrino problem

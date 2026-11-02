@@ -662,6 +662,8 @@ imagine similar to a "contact force": you can't compress the electrons
 more) will continue to support the star. Any residual energy will
 progressively leak out, leading to cooling, and thus dimming in time.
 
+WDs have typical radii of the order of 1000 km ($\simeq R_{\rm Earth}$)
+despite having $\sim M_{\odot}$ mass.
 
 #+CAPTION: The final fate of the vast majority of stars is to become a degeneracy supported white dwarf, and ultimately crystallize in a stellar-sized diamond.
 [[file:images/WD_slide.png]]
