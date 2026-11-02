@@ -330,6 +330,8 @@ enrichment loop" described [[file:notes-lecture-17-stellar-evo.org::*Mass determ
 
 The oxygen that we breath is synthesized in massive star cores!
 
+
+
 However, the heaviest elements (silicon, iron) end up locked in the
 remnant neutron star or black hole. Plus the existence of nuclei of
 anything heavier than iron that the stars would not synthesize remains
@@ -337,7 +339,9 @@ still unexplained.
 
 * Origin of elements
 
-https://svs.gsfc.nasa.gov/13873
+#+CAPTION: Periodic table of chemical elements with the astrophysical origin of their nuclei. From https://svs.gsfc.nasa.gov/13873.
+[[./images/PeriodicTableOrigins.jpg]]
+
 
 Often binary interactions are key!
 
@@ -359,7 +363,6 @@ Often binary interactions are key!
 *** short-GRBs: Neutron star mergers
 
 ** Gravitational-wave astronomy
-
 ** The lower-mass boundary for "massive" stars: super AGB stars and electron capture SNe
 
 
