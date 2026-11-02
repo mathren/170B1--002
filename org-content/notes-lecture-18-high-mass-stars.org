@@ -368,6 +368,13 @@ for these processes to happen we need a neutron source.
 We distinguish two processes based on the amount of neutrons that can
 be captured /before/ the decay of the neutron rich nuclei.
 
+The two videos below show in the top inset the $T$, $\rho$, and energy
+generation rate from a simulated thermodynamic trajectory of the gas.
+The main panel shows the abundance (= fraction by mass) on a Z(N)
+plane (number of protons vs. number of neutrons) and the bottom inset
+gives the resulting yields from [[https://bitbucket.org/jlippuner/skynet/src/master/][skynet]], an open source
+nuclear-reaction network developed by J. Lippuner.
+
 *** S-process
 "S" for /slow/: in this case the neutrons are captured one-by-one. One
 neutron capture, followed by one decay, and so on.
@@ -479,7 +486,7 @@ magnetization, blue shows gas density).
 
 #+HTML: <div style="text-align: center;">
 #+HTML:   <video width="600" height="400" controls>
-#+HTML:     <source src="./images/Bm0.avi"  type="video/avi">
+#+HTML:     <source src="./images/Bm0.mp4"  type="video/mp4">
 #+HTML:     Your browser does not support the video tag.
 #+HTML:   </video>
 #+HTML: </div>
@@ -497,4 +504,5 @@ merge. Neev next week will discuss this in more detail.
 :end:
 
 #+CAPTION: super-AGB pre-collapse structure: in the degenerate CO core, neutrino cooling more efficient in the densest center leads to a temperature inversion and if C can ignite, it does so off-center.
-[[./images/sAGB.jpg]]
+#+ATTR_HTML: :width 50%
+[[file:images/sAGB.png]]
