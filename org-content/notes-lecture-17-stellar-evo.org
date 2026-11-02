@@ -668,7 +668,7 @@ progressively leak out, leading to cooling, and thus dimming in time.
 
 
 This is the evolution of a *white dwarf*, the dead stellar remnant of
-low mass stars (\ge 95% of all stars, including the Sun end like this).
+low mass stars (\ge 95% of all stars, including the Sun, end like this).
 On the color-magnitude diagram they just cool and faint (see /Gaia/ DR2
 plot above): they follow a diagonal line.
 
@@ -678,6 +678,7 @@ determine the properties (much like electrons in an atom determine its
 chemical properties), but do not provide most of the mass (which is in
 the nuclei).
 
+*** Crystallization and /Gaia/ "spur"
 As the star keeps on cooling, at some point the internal energy will
 be low enough for bonds to form between the ions of the gas: the white
 dwarfs will crystallize. But it's mostly made of carbon: after
