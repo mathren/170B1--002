@@ -191,7 +191,7 @@ DEADLINE: Homework, In class exam
 ** Week 12: Chapter 19, 20
 
 *** <2026-11-09 Mon> - Stellar graveyard
-[[https://docs.google.com/presentation/d/1aS5P-_qn-oc3amYR-yto_JE--PWUmNLjxH9Z_gfttO0/edit?slide=id.h212d9b9802735291_1_10#slide=id.h212d9b9802735291_1_10][Slides]]
+[[https://docs.google.com/presentation/d/1aS5P-_qn-oc3amYR-yto_JE--PWUmNLjxH9Z_gfttO0/edit?usp=sharing][Slides]]
 
 *** <2026-11-11 Wed> - *No lecture: Veteran's day*
 
@@ -199,6 +199,8 @@ DEADLINE: Homework, In class exam
 
 *** <2026-11-16 Mon> - Milkyway & Galaxy structure
 # in class attendance
+
+[[./notes-lecture-20-MW.org][Notes]]
 
 *** <2026-11-18 Wed> - Hubble's law
 # in class attendance
