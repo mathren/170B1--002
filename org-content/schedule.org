@@ -191,26 +191,27 @@ DEADLINE: Homework, In class exam
 ** Week 12: Chapter 19, 20
 
 *** <2026-11-09 Mon> - Stellar graveyard
+[[https://docs.google.com/presentation/d/1aS5P-_qn-oc3amYR-yto_JE--PWUmNLjxH9Z_gfttO0/edit?slide=id.h212d9b9802735291_1_10#slide=id.h212d9b9802735291_1_10][Slides]]
+
 *** <2026-11-11 Wed> - *No lecture: Veteran's day*
-# Deadline Homework 11, Assign Homework 12
-DEADLINE: Homework
 
 ** Week 13: Chapter 21, 22
 
-*** <2026-11-16 Mon> - Gravitational waves
+*** <2026-11-16 Mon> - Milkyway & Galaxy structure
 # in class attendance
-*** <2026-11-18 Wed> - The Milky way, Galaxy evolution
+
+*** <2026-11-18 Wed> - Hubble's law
 # in class attendance
 DEADLINE: Homework
 
 ** Week 14:
 
-*** <2026-11-23 Mon> - Hubble's law
+*** <2026-11-23 Mon> - Active Galaxies
 # in class attendance
 # Deadline Homework 12, assign Homework 13
 DEADLINE: Homework
 
-*** <2026-11-25 Wed> - Active Galaxies
+*** <2026-11-25 Wed> - *No Lecture*: Thanksgiving
 # in class attendance
 DEADLINE: Signature assignment
 

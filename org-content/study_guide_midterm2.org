@@ -2,7 +2,7 @@
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: notes-lecture-18-high-mass-stars.org
-#+NEXT_PAGE: notes-lecture-19-compact-obj.org
+#+NEXT_PAGE: notes-lecture-20-MW.org
 
 * Study guide for 2^{nd} midterm on <2026-11-04 Wed>
 
