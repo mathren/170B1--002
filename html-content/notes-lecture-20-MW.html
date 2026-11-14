@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2026-11-14 Sat 14:22 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ASTR170 Milky way</title>
+<meta name="author" content="Mathieu Renzo" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="./css/style.css" />
+<link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.min.css">
+<meta name="keywords" content="Mathieu, Renzo, Mathieu Renzo,
+			       stellar evolution, ASTR170B1, University of
+			       Arizona, Steward Observatory">
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="preamble" class="status">
+<!-- Preamble -->
+<!-- The header -->
+<div class="header">
+
+  <!-- The site name -->
+  <div class="site-name">
+    <a id="top" href="./index.html">ASTR170B1</a>
+  </div>
+
+  <!-- The hamburger -->
+  <div class="hamburger">
+    <div id="myLinks" class="menu">
+      <a href="./index.html">Home</a>
+      <a href="./syllabus170B1.html">Syllabus</a>
+      <a href="./access_howto.html">How to</a>
+      <a href="./schedule.html">Schedule</a>
+      <!-- <a href="./projects.html">Projects</a> -->
+    </div>
+    <a  href="javascript:void(0);" class="icon" onclick="HamburgerMenuFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="navbar">
+    <a href="./syllabus170B1.html">Syllabus</a>
+    <a href="./access_howto.html">How to access</a>
+    <a href="./schedule.html">Schedule</a>
+    <!-- <a href="./projects.html">Projects</a> -->
+  </div>
+</div>
+
+<!-- scripts -->
+<!-- menu  -->
+<script>
+  function HamburgerMenuFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+	  x.style.display = "none";
+      } else {
+	  x.style.display = "block";
+      }
+  }
+</script>
+
+<!-- toggle drawers -->
+<script>
+  function toggleDrawer(id) {
+      const drawer = document.getElementById(id);
+      drawer.style.display = drawer.style.display === "none" ? "block" : "none";
+  }
+</script>
+
+<!-- toggle dark mode -->
+<script>
+  window.onload = () => {
+      const toggleButton = document.getElementById("light-dark-toggle");
+      const body = document.body;
+      const html = document.documentElement;
+
+
+      // Check localStorage for user preference
+      if (localStorage.getItem("theme") === "dark") {
+          body.classList.add("dark-mode");
+	  html.classList.toggle("dark-mode");
+      }
+
+      // Toggle theme on click
+      toggleButton.addEventListener("click", () => {
+          body.classList.toggle("dark-mode");
+  html.classList.toggle("dark-mode");
+
+          // Save user preference
+          if (body.classList.contains("dark-mode")) {
+              localStorage.setItem("theme", "dark");
+          } else {
+              localStorage.setItem("theme", "light");
+          }
+      });
+  };
+</script>
+<!-- end scripts-->
+</div>
+<div id="content" class="content">
+<p>
+<b>Reading</b>: Chapter 19, 20, 21
+</p>
+<div id="outline-container-recap" class="outline-2">
+<h2 id="recap"><a href="#recap">Recap</a></h2>
+<div class="outline-text-2" id="text-org-element-1">
+<ul class="org-ul">
+<li>Top Hat Q1:
+<ul class="org-ul">
+<li>nucleosynthesis</li>
+<li>Gas cycling</li>
+<li>disk (later)</li>
+</ul></li>
+</ul>
+
+
+
+
+<figure id="org-element-2">
+<img src="./images/saguaro.jpg" alt="saguaro.jpg" width="100%">
+
+<figcaption><span class="figure-number">Figure 1: </span>The "milky way" was the ancient greek name for the whiter/brighter portion of the sky.</figcaption>
+</figure>
+</div>
+</div>
+<div id="outline-container-timeline" class="outline-2">
+<h2 id="timeline"><a href="#timeline">Timeline</a></h2>
+<div class="outline-text-2" id="text-org-element-3">
+<ul class="org-ul">
+<li>Galileo: Milky way = many stars (did not <i>solve</i> the parallax issue
+existing since ancient Greece but made it less of an issue)</li>
+
+<li><p>
+Siblings William and Carolina Hershel tried to map the shape of the
+Milky way from star counts and determined it was a flattened disk
+</p>
+
+<figure id="org-element-4">
+<img src="./images/WCHershel.jpg" alt="WCHershel.jpg" width="50%">
+
+<figcaption><span class="figure-number">Figure 2: </span>Drawing by Hershel in 1785</figcaption>
+</figure></li>
+
+<li><a href="notes-lecture-17-stellar-evo.html#org-element-5">Recall</a> Messier catalogs: extended "nebular sources" could be
+mistaken for comets within the Solar system. If was unclear whether
+these constituted <i>local</i> sources (for some meaning of <i>local</i>), or far
+away unresolved sources. <b>N.B.:</b> Galileo had already shown once that
+extended nebulae such as Orion where actually many many stars
+unresolved without a telescope, same "flavor" of question!</li>
+
+<li>Shapley: GC not centered around the galaxy</li>
+
+<li>Pannekoek</li>
+
+<li>Curtis &amp; Shapley <a href="https://www.youtube.com/watch?v=M4w-hwiKxOE">debate</a></li>
+
+<li><p>
+Hubble, using the stellar physics insight by Henrietta Leavitt
+measured the distance to nebular objects.
+</p>
+
+<figure id="org-element-6">
+<img src="./images/cepheids.jpg" alt="cepheids.jpg" width="100%">
+
+<figcaption><span class="figure-number">Figure 3: </span>Cepheids are pulsating stars: measuring the <i>time</i> for pulsations is easy, and Henrietta Leavitt had discovered that the period of pulsation gives the <i>luminosity</i>. From this, Hubble, measuring the <i>brightness</i> of Cepheids and their period could calculate the distance to M31.</figcaption>
+</figure></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-what-is-a-galaxy" class="outline-2">
+<h2 id="what-is-a-galaxy"><a href="#what-is-a-galaxy">What is a galaxy?</a></h2>
+<div class="outline-text-2" id="text-org-element-7">
+
+<figure id="org-element-8">
+<img src="images/opticalMWbook.png" alt="opticalMWbook.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 4: </span>Optical all-sky image oriented disk edge on of the Milkyway galaxy.</figcaption>
+</figure>
+
+
+<p>
+In the modern definition, a galaxy is a <i>gravitationally bound</i> system
+of stars (including their remnants and planets), gas, dust, and dark
+matter.
+</p>
+</div>
+</div>
+<div id="outline-container-size-of-the-milky-way-and-its-neighborhood" class="outline-2">
+<h2 id="size-of-the-milky-way-and-its-neighborhood"><a href="#size-of-the-milky-way-and-its-neighborhood">Size of the Milky Way and its neighborhood</a></h2>
+<div class="outline-text-2" id="text-size-of-the-milky-way-and-its-neighborhood">
+</div>
+<div id="outline-container-the-clouds" class="outline-3">
+<h3 id="the-clouds"><a href="#the-clouds">The Clouds</a></h3>
+<div class="outline-text-3" id="text-org-element-9">
+<p>
+Debate on the name (e.g., <a href="https://physics.aps.org/articles/v16/152">APS</a>): Magellan was not even the first to
+report them in the limited context of western Europe!
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-multi-lambda-view-of-the-milky-way" class="outline-2">
+<h2 id="multi-lambda-view-of-the-milky-way"><a href="#multi-lambda-view-of-the-milky-way">Multi-&lambda; view of the Milky way</a></h2>
+</div>
+
+
+<div id="outline-container-galactic-dynamics" class="outline-2">
+<h2 id="galactic-dynamics"><a href="#galactic-dynamics">Galactic dynamics</a></h2>
+<div class="outline-text-2" id="text-org-element-10">
+<p>
+<b>N.B.</b>: The size of a Galaxy and its distance to the nearest galaxies
+ are typically comparable (\(R/D\sim1\)), therefore the tides exerted by a
+ galaxy on the next are significant, and medium-size galaxies are not
+ in dynamical equilibrium!
+</p>
+
+<p>
+<b>N.B.:</b> Tides are due to the difference in gravity between points of an
+  extended body (like a Galaxy)
+</p>
+</div>
+<div id="outline-container-halo" class="outline-3">
+<h3 id="halo"><a href="#halo">Halo</a></h3>
+</div>
+
+<div id="outline-container-bulge" class="outline-3">
+<h3 id="bulge"><a href="#bulge">Bulge</a></h3>
+</div>
+
+<div id="outline-container-galactic-center" class="outline-3">
+<h3 id="galactic-center"><a href="#galactic-center">Galactic center</a></h3>
+<div class="outline-text-3" id="text-galactic-center">
+</div>
+<div id="outline-container-eht" class="outline-4">
+<h4 id="eht"><a href="#eht">EHT</a></h4>
+</div>
+</div>
+</div>
+<div id="outline-container-galactic-evolution" class="outline-2">
+<h2 id="galactic-evolution"><a href="#galactic-evolution">Galactic Evolution</a></h2>
+</div>
+</div>
+<div id="postamble" class="status">
+<div class="footer">
+  <hr>
+  <a href="#light-dark-toggle"><i id="light-dark-toggle"><i class="fa-solid fa-circle-half-stroke"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="study_guide_midterm2.html"><i class="fa-solid fa-arrow-left" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="#top"><i class="fa-solid fa-arrow-up" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-21-.html"><i class="fa-solid fa-arrow-right" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/mathren/170B1--002"><i class="fa-brands fa-github" style="font-size:16px"></i></a><hr>
+  <br>
+  Last updated on 14 November 2026 <br>
+  Made with Emacs 30.1 - Org mode 9.7.11
+  <br>
+</div>
+</div>
+</body>
+</html>

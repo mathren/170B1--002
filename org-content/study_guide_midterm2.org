@@ -1,90 +1,102 @@
-#+title: ASTR170 Milky way
+#+title: ASTR170 Study guide midterm 2
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
-#+PREVIOUS_PAGE: study_guide_midterm2.org
-#+NEXT_PAGE: notes-lecture-21-.org
+#+PREVIOUS_PAGE: notes-lecture-18-high-mass-stars.org
+#+NEXT_PAGE: notes-lecture-19-compact-obj.org
 
-*Reading*: Chapter 19, 20, 21
+* Study guide for 2^{nd} midterm on <2026-11-04 Wed>
 
-* Recap
+The midterm will be administered in our usual classroom (N210) via
+TopHat and is closed book. You will be allowed one 3” x 5” handwritten
+notecard (double sided).
 
- - Top Hat Q1:
-   - nucleosynthesis
-   - Gas cycling
-   - disk (later)
+*Neev will hold a review session in the Parker Library (Steward N304)
+on <2026-11-02 Mon> from 5-6:30pm.*
 
+This outline is organized according to the lectures (see also
+[[./schedule.org][schedule]]). However, *you are responsible for more material than is
+represented by the lectures*. In particular, study:
 
+- Lecture notes
+- Weekly homework assignments and your Mastering Astronomy. The "Study
+  Area" is very useful for practice!
+- Textbook: The Cosmic Perspective, Chapters 7-18 (eText access via
+  D2L).
 
-#+CAPTION: The "milky way" was the ancient greek name for the whiter/brighter portion of the sky.
-[[./images/saguaro.jpg]]
+* Key concepts
 
+** Week 6
+*Reading*: Chapter 7
 
+*** Questions/concepts:
+- Spectroscopy
+- Photometry
+- Telescope design
 
-* Timeline
-- Galileo: Milky way = many stars (did not /solve/ the parallax issue
-  existing since ancient Greece but made it less of an issue)
+** Week 7
+*Reading*: Chapters 8, 9, 10
 
-- Siblings William and Carolina Hershel tried to map the shape of the
-  Milky way from star counts and determined it was a flattened disk
-  #+CAPTION: Drawing by Hershel in 1785
-  #+ATTR_HTML: :width 50%
-  [[./images/WCHershel.jpg]]
-
-- [[file:notes-lecture-17-stellar-evo.org::*Star formation][Recall]] Messier catalogs: extended "nebular sources" could be
-  mistaken for comets within the Solar system. If was unclear whether
-  these constituted /local/ sources (for some meaning of /local/), or far
-  away unresolved sources. *N.B.:* Galileo had already shown once that
-  extended nebulae such as Orion where actually many many stars
-  unresolved without a telescope, same "flavor" of question!
-
-- Shapley: GC not centered around the galaxy
-
-- Pannekoek
-
-- Curtis & Shapley [[https://www.youtube.com/watch?v=M4w-hwiKxOE][debate]]
-
-- Hubble, using the stellar physics insight by Henrietta Leavitt
-  measured the distance to nebular objects.
-  #+CAPTION: Cepheids are pulsating stars: measuring the /time/ for pulsations is easy, and Henrietta Leavitt had discovered that the period of pulsation gives the /luminosity/. From this, Hubble, measuring the /brightness/ of Cepheids and their period could calculate the distance to M31.
-  [[./images/cepheids.jpg]]
-* What is a galaxy?
-
-#+CAPTION: Optical all-sky image oriented disk edge on of the Milkyway galaxy.
-[[file:images/opticalMWbook.png]]
+*** Questions/concepts:
+- Solar system architecture
+  - patterns (and exceptions)
+- Rocky planets
+  - internal structure
+  - processes shaping the surface
+- Jovian/gas-giant planets
+  - internal structure
+- Moons of the solar system
+- minor bodies of the solar system (asteroids, comets, Kuiper belt)
 
 
-In the modern definition, a galaxy is a /gravitationally bound/ system
-of stars (including their remnants and planets), gas, dust, and dark
-matter.
+** Week 8
+*Reading*: Chapters 11, 12, 14
 
-* Size of the Milky Way and its neighborhood
-
-** The Clouds
-
-Debate on the name (e.g., [[https://physics.aps.org/articles/v16/152][APS]]): Magellan was not even the first to
-report them in the limited context of western Europe!
-
-
-* Multi-\lambda view of the Milky way
+*** Questions/concepts:
+- planetary formation
+  - What is the Nebular hypothesis?
+  - initial composition
+- What is the frost line?
+- planet migration
+- proto-planetary disk evolution
+- planetary interiors
 
 
-* Galactic dynamics
+** Week 9
+*Reading*: Chapter 14, 15
 
+*** Questions/concepts:
+- planetary atmospheres
+- aurorae
+- greenhouse effect
+- Earth's atmosphere
+- climate/weather distinction
+- the Sun as a star
+- structure of the Sun
+- energy sources for stars
+- the great debate on the age of the Sun
 
-*N.B.*: The size of a Galaxy and its distance to the nearest galaxies
- are typically comparable ($R/D\sim1$), therefore the tides exerted by a
- galaxy on the next are significant, and medium-size galaxies are not
- in dynamical equilibrium!
+** Week 10
+*Reading*: Chapter 14, 15, 16
 
-*N.B.:* Tides are due to the difference in gravity between points of an
-  extended body (like a Galaxy)
+*** Questions/concepts:
+- fundamental forces
+- color-magnitude and Herzsprung-Russell diagram
+- nuclear fusion
+- stellar types
+- neutrino physics
+- solar neutrino problem
+- star formation
+- initia mass function
+- maximum and minimum stellar mass
+- main sequence stellar evolution (very low, low)
+- He ignition
+- late evolution
+- final fate of stars
 
-** Halo
+** Week 11
+*Reading*: Chapter 15, 16, 17
 
-** Bulge
-
-** Galactic center
-
-*** EHT
-
-* Galactic Evolution
+*** Questions/concepts:
+- high mass stellar evolution
+- high mas sstar main sequence
+- nucleosynthesis
