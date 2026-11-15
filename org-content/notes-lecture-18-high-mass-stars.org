@@ -43,7 +43,7 @@ the Sun only lives 20 million years (cf. \sim 10 billion for the Sun).
 Because of the shorter lifespan, massive stars tend to live closer to
 each other (while low mass stars have time to spread).
 
-#+CAPTION: The [][30 Doradus region in the LMC] hosts about 1000 massive ($\gtrsim 10\,M_{\odot}$) stars and is a standard test bed for massive star evolution theory. This is where stars exceeding $100\,M_{\odot}$ are observed.
+#+CAPTION: The 30 Doradus region in the LMC hosts about 1000 massive ($\gtrsim 10\,M_{\odot}$) stars and is a standard test bed for massive star evolution theory. This is where stars exceeding $100\,M_{\odot}$ are observed.
 [[./images/30Dor_R136.png]]
 
 However, stellar /explosions/ or gravitational slingshot
