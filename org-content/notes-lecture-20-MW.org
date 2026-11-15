@@ -38,6 +38,9 @@ Note however that the nature of these extended sources was unclear,
 and the clouds are /not/ the only extended sources (there are others in
 both hemispheres), complicating their interpretation.
 
+These 3 galaxies are part of the larger [[file:notes-lecture-01-intro.org::*Extra-galactic][Virgo cluster]].
+
+
 * What is a galaxy?
 
 We now know that these are "galaxies".
@@ -132,7 +135,7 @@ Universes" or galaxies:
   position of the Solar system in the Galaxy was unclear, and either
   assumptions were considered. Harlow Shapley in the 1920 showed that
   a particular set of nebular sources (the [[file:notes-lecture-17-stellar-evo.org::*Star formation][globular clusters]]) were
-  distributed not centered around the Sun
+  distributed not centered around the Sun, but a /different/ center did exist.
   #+CAPTION: Reproduction by F. Timmes of H. Shapley spatial distribution of globular clusters.
   #+ATTR_HTML: :width 50%
   [[./images/shapleyGC.jpg]]
@@ -180,30 +183,225 @@ M31 was so great that one had to conclude it was a separate
 
 * Size of the Milky Way and its neighborhood
 
+- Top Hat Q: appearance of young stars
 
+The MW has a diameter of about $R=10\mathrm{kpc}$, with most of the /young/ stars in
+a thin disk of 100pc of thickness, and a /halo/ of older stars roughly
+spherical.
+
+The Sun is part of the Galactic disk, with a galactocentric radius of about
+8kpc: we are indeed in the outskirts as revealed by Shapley.
+
+*N.B.:* Stars and solar systems rotate in the Galaxy, but also can feel
+(e.g., during fly-bys) their own gravity: the /total/ angular momentum
+is distributed through gravitational torques. Stars behave like the
+particles of a gas that can "bump into each other", but instead of
+"bumping" (electromagnetic interactions), they communicate through
+gravity. This is why (some) galaxies have /disks/!
+
+The nearest galaxies are the LMC and SMC, at about
+$D=50\,\mathrm{kpc}$ from the Galaxy.
+
+*N.B.*: The size of a Galaxy and its distance to the nearest galaxies
+ are typically comparable ($R/D\sim1$, only $\sim 0.2$ for the MW-LMC/SMC),
+ therefore the tides exerted by a galaxy on the next are significant,
+ and medium-size galaxies are not in dynamical equilibrium!
+
+
+
+*N.B.:* Tides are due to the difference in gravity between points of an
+  extended body (like a Galaxy)
+
+
+That is however only the /visible/ part of the galaxy: effectively,
+where the /stars/ are. By trying to measure the /total mass/ of the
+galaxy, we found that this is only a small fraction (\sim23%) of a
+galaxy!
+
+** Measuring the mass of a galaxy: dark matter
+
+Measuring distances is hard, that's why Leavitt's relation between
+luminosity and period of the cepheids was important. Similarly,
+measuring masses in space is hard: for stars we could find binaries,
+and use Kepler's laws to derive masses.
+
+Binary galaxies exist too (in a sense the MW-LMC-SMC is a triple
+system of Galaxies), but their orbits are:
+1. not stable and Keplerian, but the out-of-equilibrium product of the
+   constant tug and pull of flybys by other galaxies
+2. take hundreds of millions of years (vs. sub-hour to centuries for
+   stars)
+This means we cannot use the same /astronomical/ trick!
+
+We can however still use the physics /described/ by the Kepler laws (and
+/explained/ by the Universal law of gravitation by Newton): not /among/
+galaxies, but by measuring the orbit of stars /around/ the galaxy.
+
+The Sun's orbit takes about 250 million years (meaning we barely have
+moved since the genus homo appeared on Earth \sim 3 million years ago).
+
+We can also play this game in other galaxies, and Vera Rubin
+discovered "excess mass" that is /not/ made of shiny stuff in any of the
+electromagnetic wavelengths we look.
+
+#+CAPTION: Galaxy rotational curves show the /projected/ velocity of galactocentric motion through Doppler shifts, and velocities are higher than they should if all the mass was where the light is from.
 [[./images/galaxy_rotational_curve.jpg]]
 
+Galaxy rotation curves are empirical evidence that the /gravitational
+mass/ of a galaxy is /not/ distributed like the light sources. The
+easiest hypothesis is that there is "dark matter" (DM): the only thing we
+know is it does not interact significantly in electromagnetic
+wavelengths.
+
+The idea of dark matter was originally proposed by Zwicky in the
+1930s, but he was a scientist famous for shelling out many half-baked
+ideas: Vera Rubin's work provided the first evidence for it.
+
+Since then, many other concordant and independent line of evidence
+have been found for DM at various scales:
+
+- Cosmological: we can measure the equivalent of /sound waves/
+  propagating across the distribution of /galaxies/ (as in galaxies are
+  the molecules of the air carrying the sound) requires DM
+- [[https://science.nasa.gov/missions/webb/nasa-webb-pierces-bullet-cluster-refines-its-mass/][Bullet cluster]]:
+  #+CAPTION: Composite image of the bullet cluster. The pink is X-rays tracing the hot gas, the blue is IR from /JWST/. The cold gas in blue "lags" the bulk of the mass, dragged ahead by dark matter whose presence is confirmed by the gravitationally lensed background galaxies.
+  [[./images/bullet_cluster.jpg]]
+- Strong lensing: In general relativity (GR), mass can bend space-time
+  causing gravity (this, as any new scientific theory, englobes and
+  reduces to Newtonian gravity for scales large compared to $GM/c^{2}$).
+  Light from background galaxies can be "lensed" and arrive stretched,
+  which provides another means to measure mass, and we find DM around
+  galaxies.
+  #+CAPTION: "Einstein ring" produced by gravitational lensing by the yellow galaxy of a background blue galaxy.
+  #+ATTR_HTML: :width 50%
+  [[./images/einstein_ring.JPG]]
+
+All these point to about \sim25% of the mass of the Universe being /dark
+matter/ and \sim75% of the mass is /baryonic/ meaning, interacts with
+electromagnetic forces and thus can /shine/. The evidence for DM is
+strong and based on multiple coherent astrophysical measurements at
+various scales.
+
+Despite this, we don't have any evidence at /particle/ level of what DM
+is: particle accelerators like Fermilab in Illinois and CERN in
+Switzerland continue experimental searches, and theorist still come up
+with DM particle models or theory of gravity that try to do away with
+DM (which usually struggle with the /diversity/ of evidence for DM).
+
+The mass of the MW is about $10^{12} M_{\odot}$ /in stars/ and which is only
+0.1-1% of the total mass, of $10^{15}M_{\odot}$.
+
 * Galactic structure
+
+#+CAPTION: Schematic representation of the Galatic structure
+[[file:images/MWschematic.png]]
 
 
 ** Halo
 
+*** DM component
+The DM halo's structure is still a topic of research (e.g., using the
+motions of stars as test particles in the DM gravitational potential
+-- much like rolling a ball on a surface to find the hills and
+valleys).
+
+All we know about DM is that it is /by definition/ something that
+behaves according to the laws of Newtonian gravity (regulating the
+motion of stars in Galaxies), but /not/ interact electromagnetically.
+
+This means DM particles cannot /collide/ and exchange energy (remember:
+"touching" is EM repulsions between your electrons and the electrons
+of what you touch!), or angular momentum.
+
+While a collapsing cloud of ordinary baryonic matter, if it has any
+minimal rotation, tends to form a disk, DM should continue to zoom
+around in a spherical cloud of orbits randomly oriented around the
+common center of mass that cross each other with no collisions: a
+uniform distribution of matter is also what is required to fix
+rotational curves.
+
+For the MW this halo is probably extending 100 of kpc.
+
+*** Stellar Halo
+This is a roughly spherical distribution of old and faint stars with
+radius about kpc.
+
+Halo stars tend to be older and less rich in metals (remember that
+stars enrich the gas: the older stars are less "rich"!), and they
+spend time at apocenters of galactic orbits that have been energized
+(or dynamically heated) as they went around and around the galactice
+center for billions of years.
+
+Some globular clusters also orbit the Galactic center spending most of
+their time in the Halo.
+
+
+** Galactic disk
+We have already encountered this as the most prominent feature: most
+young stars are forming in the Galactic thin disk (100pc thick), where
+also there is a lot of interstellar dust blocking the view and causing
+darker patches. These stars are also \alpha-rich, that is they have many
+elements with $A=4n$ and $n=1,2,3,...$, that is elements that are
+bound states of \alpha particles, those produced preferentially by the
+massive stars.
+
+#+CAPTION: Galactic disk in the optical by /Gaia/ DR2.
+[[./images/Gaia.jpg]]
+
+Around the thin disk of young stars, there is a thicker disk, maybe
+500pc thick of stars slightly older (dynamically heated onto more
+inclined galactocentric orbits) and less enriched in elements like
+oxygen, the thick \alpha-poor disk.
+
+*** Spiral arms
+
+The rotation of the galaxy is such that hydrodynamical instabilities
+can develop. Much like a traffic jam is a pile up of cars, the spiral
+arms of a Galaxy are pile ups in the orbit of stars in the disk!
+
+#+CAPTION: Visualization of a two-arm spiral in a collection of elliptical orbits around a common center of mass.
+[[file:images/spiral_arm_graphic.png]]
+
+
+
 ** Bulge
 
+The majority of stars are towards the Galactic center, the Bulge of
+the galaxy. There the metallicity (amount of mass that is not H and
+He) is higher, suggesting also a larger churn of stellar generations:
+this suggests an inside out formation of galaxies, with the inner
+portion containing the stars that have materials recycled the most
+times.
+
+Much like the halo is composed of stars /dynamically heated/ onto very
+inclined and eccentric orbits, the bulge is also thicker than the disk
+because of this reason.
+
+#+CAPTION: Artist impression of a galactic bulge, from [[https://aasnova.org/2016/07/20/do-galactic-bars-buckle-to-form-bulges/][AAS Nova]].
+[[./images/bulge.jpg]]
+
+
 ** Galactic center
+Nobel prize Andrea Ghez
 
 *** EHT
 
-
 * Galactic dynamics
-
-** Dark Matter
 
 ** Dynamics within the galaxy
 
-
 #+CAPTION: Stars orbit the center of the Galaxy, but it is /not/ a point mass: DM is spread uniformely
 [[file:images/galdyn.png]]
+
+Stellar collisions: /not/ really! The density of stars is too low, we
+can estimate it (in reality it's not uniform!):
+
+#+BEGIN_latex
+\rho_{\star} \simeq {10^{12} \, \mathrm{stars}}{\mathrm{Vol}}=\frac{10^{12} \,
+\mathrm{stars}}{\frac{4}{3}\pi R^{3}} \simeq 0.2 \mathrm{pc}^{-3} \ \ ,
+#+END_latex
+assuming $R=10\,\mathrm{kpc}$.
+
 
 
 ** Dynamics among galaxies
@@ -211,12 +409,13 @@ The MW is a spiral galaxy, and the LMC and SMC are dwarf galaxies
 orbiting each other and the MW. About 150-200 million years ago, [[https://ui.adsabs.harvard.edu/abs/2025ApJ...988...79R/abstract][LMC
 and SMC collided]].
 
-*N.B.*: The size of a Galaxy and its distance to the nearest galaxies
- are typically comparable ($R/D\sim1$), therefore the tides exerted by a
- galaxy on the next are significant, and medium-size galaxies are not
- in dynamical equilibrium!
 
-*N.B.:* Tides are due to the difference in gravity between points of an
-  extended body (like a Galaxy)
+Even when two galaxies merge, they
+basically go through each other with barely any stellar system
+touching.
+
 
 * Galactic Evolution
+- Gas inflow (intergalactic)
+- inside out mergers:build the bulge (from scaling relations and /Gaia/
+  kinematics)

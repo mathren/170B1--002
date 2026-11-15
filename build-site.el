@@ -20,7 +20,9 @@
 (defun mr/get-modified-org-files ()
   "Return a list of Org files modified since the last commit."
   (let* ((default-directory (expand-file-name "./org-content"))
-         (modified-files (split-string (shell-command-to-string "git diff --name-only HEAD -- *.org") "\n" t)))
+         (modified-files (split-string
+			  (shell-command-to-string
+			   "git diff --name-only --relative HEAD -- '*.org'") "\n" t)))
     (mapcar (lambda (file) (expand-file-name file default-directory)) modified-files)))
 
 (defun mr/check-for-all-flag-and-publish ()
@@ -29,7 +31,8 @@
       (org-publish-all t) ;; publish all
     (let ((modified-files (mr/get-modified-org-files)))
       (if modified-files
-	  (org-publish-project "org-site:main")
+	  (let ((org-publish-use-timestamps-flag nil))
+	    (mapc #'org-publish-file modified-files))
 	(message "No modified Org files found.")))
     ))
 
@@ -227,7 +230,7 @@ All other random IDs (figures, latex blocks, etc.) get a counter-based ID."
              :with-timestamps t				;; Include time stamp in file
              :with-toc nil				;; Don't include a table of contents
              :section-numbers nil			;; Don't include section numbers
-             :file-list (mr/get-modified-org-files)	;; Use the list of modified files only
+             : (mr/get-modified-org-files)	;; Use the list of modified files only
 	     )))
 
 ;; Generate the site output
