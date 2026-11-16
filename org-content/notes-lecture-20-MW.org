@@ -369,17 +369,23 @@ the radius of the stellar component of the Galaxy).
 
 *** Stellar Halo
 This is a roughly spherical distribution of old and faint stars with
-radius about 10 kpc.
+radius about 10 kpc. These stars have been scattered /from their
+original birth location in the disk/ onto high eccentricity and high
+inclination orbits by say encountering a dense molecular cloud, or any
+other gravitational perturbation. By Kepler's laws, they spend most
+time of their galactocentric orbit at periastron, far in the halo!
 
-Halo stars tend to be older and less rich in metals (remember that
-stars enrich the gas: the older stars are less "rich"!), and they
-spend time at apocenters of galactic orbits that have been energized
-(or dynamically heated) as they went around and around the galactice
-center for billions of years.
+Halo stars tend to be older and less rich in \alpha elements (remember that
+stars enrich the gas: the older stars are less "rich"!), corroborating
+there was a lot of time to perturb their orbits.
 
 Some globular clusters also orbit the Galactic center spending most of
 their time in the Halo.
 
+*N.B.:* An alternative possibility is that halo stars have been
+"captured" from another galaxy, see below. Either way they are on
+highly inclined and eccentric orbits around the center of mass of the
+Galaxy.
 
 ** Galactic disk
 
@@ -407,9 +413,11 @@ thin or thick disk.
 
 *** Spiral arms
 
-The rotation of the galaxy is such that hydrodynamical instabilities
-can develop. Much like a traffic jam is a pile up of cars, the spiral
-arms of a Galaxy are pile ups in the orbit of stars in the disk!
+The rotation of the galaxy is fast enough (in terms of comparing the
+kinetic rotational energy with the gravitational potential of the
+galaxy as a whole) that hydrodynamical instabilities can develop. Much
+like a traffic jam is a pile up of cars, the spiral arms of a Galaxy
+are pile ups in the orbit of stars in the disk!
 
 #+CAPTION: Visualization of a two-arm spiral in a collection of elliptical orbits around a common center of mass.
 #+ATTR_HTML: :width 50%
@@ -420,6 +428,10 @@ there are more "occasions" for perturbations to trigger star
 formation: most young stars are in the spiral arms of the thin disk!
 
 ** Bulge
+
+:Question:
+- Where is the largest /density/ of stars in the Galaxy?
+:end:
 
 The majority of stars are towards the Galactic center, the Bulge of
 the galaxy. There the metallicity (amount of mass that is not H and
