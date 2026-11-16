@@ -357,7 +357,8 @@ common center of mass that cross each other with no collisions: a
 uniform distribution of matter is also what is required to fix
 rotational curves.
 
-For the MW this halo is probably extending 100 of kpc.
+For the MW this halo is probably extending 100 of kpc ($\gtrsim 10\times$
+the radius of the stellar component of the Galaxy).
 
 *** Stellar Halo
 This is a roughly spherical distribution of old and faint stars with
