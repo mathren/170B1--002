@@ -90,6 +90,12 @@ soon /Roman/ have IR detectors which allow astronomers to detect
 galaxies farther away (meaning earlier in the Universe's evolution!)
 to directly map the phases of galactic evolution!
 
+*N.B.:* In astrophysics we don't control the experimental setup, so
+/comparative/ studies that allow one to compare different /realizations/
+of the same physical processes have a great importance from asteroid
+to galaxy scale!
+
+
 * Timeline
 A brief and partial timeline of the shaping of the idea of "island
 Universes" or galaxies:
