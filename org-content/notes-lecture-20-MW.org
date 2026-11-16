@@ -190,7 +190,7 @@ periodically in brightness. Using nearby stars, for which she could
 get a parallax and thus a distance, she found a proportionality
 between the period and visual-bang brightness.
 
-#+CAPTION: Correlation between Period and brightness of Cepheids in a paper by H. Leavitt 1912.
+#+CAPTION: Correlation between Period (on the x-axis in days) and brightness (in V-band magnitude) of Cepheids in a paper by H. Leavitt 1912.
 #+ATTR_HTML: :width 50%
 [[./images/leavitt.png]]
 
