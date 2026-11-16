@@ -294,12 +294,13 @@ have been found for DM at various scales:
   propagating across the distribution of /galaxies/ (as in galaxies are
   the molecules of the air carrying the sound) requires DM
   #+CAPTION: Animated gif of baryonic acoustic oscillations, sound waves generated early in the Universe which are frozen in the "gas of galaxies"
+  #+ATTR_HTML: :width 50%
   [[./images/BAO.gif]]
 - [[https://science.nasa.gov/missions/webb/nasa-webb-pierces-bullet-cluster-refines-its-mass/][Bullet cluster]]: shows two merging galaxies with most of the mass
   (hot pink gas) ahead of the stars. The mass location is confirmed by
   lensing of background galaxies.
   #+CAPTION: Composite image of the bullet cluster. The pink is X-rays tracing the hot gas, the blue is IR from /JWST/. The cold gas in blue "lags" the bulk of the mass, dragged ahead by dark matter whose presence is confirmed by the gravitationally lensed background galaxies.
-  #+ATTR_HTML: :width 50%
+  #+ATTR_HTML: :width 75%
   [[./images/bullet_cluster.jpg]]
 - Strong lensing: In general relativity (GR), mass can bend space-time
   causing gravity (this, as any new scientific theory, englobes and
