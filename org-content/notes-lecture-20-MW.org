@@ -593,6 +593,11 @@ massive stars.
 #+ATTR_HTML: :width 50%
 [[./images/major_merger.jpg]]
 
+*N.B.:* Note that if two merging galaxies host SMBH (like the MW and
+M87, and many others!), then the merger can pair the two SMBH in a
+binary, which can emit gravitational waves in the millihertz frequency
+range, accessible from space-based observatories.
+
 * Galactic Evolution
 
 ** Gas cycling: stars in the ISM and galaxies in the IGM
