@@ -44,7 +44,7 @@ luminosity remained elusive until the early 20^{th} century.
 
 We now know that these are "galaxies". The word /galaxy/ comes straight
 from the greek "milky"+"way". These 3 galaxies are part of the larger
-[[file:notes-lecture-01-intro.org::*Extra-galactic][Virgo cluster]].
+[[file:notes-lecture-01-intro.org::*Extra-galactic][Local group and Virgo cluster]].
 
 
 #+CAPTION: Optical all-sky image oriented disk edge on of the Milkyway galaxy.
@@ -52,9 +52,9 @@ from the greek "milky"+"way". These 3 galaxies are part of the larger
 [[file:images/opticalMWbook.png]]
 
 
-In the modern definition, a galaxy is a /gravitationally bound/ system
-of stars (including their remnants and planets), gas, dust, and dark
-matter.
+In the modern definition, *a galaxy is a /gravitationally bound/ system
+of stars* (including their remnants and planets), *gas, dust, and dark
+matter*.
 
 The "Milky way" is the projection on the sky of one of its spiral
 arms!
