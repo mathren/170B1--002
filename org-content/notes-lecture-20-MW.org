@@ -515,6 +515,8 @@ complex non-linear N-body systems, and the morphology of galaxies
 (which never settles onto a static equilibrium configuration) needs to
 be explained as an outcome of the dynamics.
 
+*The collection of all the orbits of stars determines the /evolving/
+shape of a galaxy*.
 
 ** Dynamics within the galaxy
 
@@ -561,9 +563,6 @@ perturbations), and why older galaxies tend to be more spherical.
 *N.B.:* this is also a reason for old galaxies to be elliptical and
 puffy instead of "disky" and flat.
 
-*The collection of all the orbits of stars determines the /evolving/
-shape of a galaxy*.
-
 *** Hypervelocity stars
 
 If a binary system gets too close to the SMBH, one star can be
@@ -575,11 +574,14 @@ to the SMBH), becoming an hypervelocity star and escaping the galaxy!
 #+ATTR_HTML: :width 50%
 b[[./images/hills_mechanism.jpg]]
 
+These have been found for the first time in 2005, and we now have a
+handful -- but /only one seems to come from the galactic center/! This
+is currently an open puzzle from the /Gaia/ mission.
+
 ** Dynamics among galaxies
 The MW is a spiral galaxy, and the LMC and SMC are dwarf galaxies
 orbiting each other and the MW. About 150-200 million years ago, [[https://ui.adsabs.harvard.edu/abs/2025ApJ...988...79R/abstract][LMC
-and SMC collided]].
-
+and SMC collided]]. In the future, MW and M31 are also expected to merge.
 
 Even when two galaxies merge, they basically go through each other
 with barely any stellar system touching, but galaxy mergers can
