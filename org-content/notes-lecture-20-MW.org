@@ -49,15 +49,14 @@ from the greek "milky"+"way". These 3 galaxies are part of the larger
 
 #+CAPTION: Optical all-sky image oriented disk edge on of the Milkyway galaxy.
 #+ATTR_HTML: :width 50%
-[[file:images/opticalMWbook.png]]
-
+[[./images/Gaia.jpg]]
 
 In the modern definition, *a galaxy is a /gravitationally bound/ system
 of stars* (including their remnants and planets), *gas, dust, and dark
 matter*.
 
-The "Milky way" is the projection on the sky of one of its spiral
-arms!
+The "Milky way" is the projection on the sky of its disk (see also
+below)!
 
 #+CAPTION: We are /within/ the galaxy, so we cannot see it from outside! This is a composite image of the "[[https://en.wikipedia.org/wiki/Spiral_arm#/media/File:Messier51_sRGB.jpg][whirpool galaxy]]" or Messier 51 (M51) another example of spiral galaxy, seen face on (galaxies are randomly oriented in the sky) and qualitatively similar to what we think our galaxy is.
 #+ATTR_HTML: :width 50%
@@ -65,10 +64,12 @@ arms!
 
 In common astrophysical jargon we use Milkyway (MW) to refer to the
 entire Galaxy hosting the Solar system, and not just the visible arm
-appearing like a whiteish glow in a dark night. But this embeds an
-understanding that is far from trivial! Figuring out how stars are
-distributed and what is the place of the Solar system in this took a
-long path.
+appearing like a white-ish glow in a dark night: the name has /drifted/
+from referring to the purely empirical phenomenology observed by naked
+eye to a /theory-bearing/ statement that embeds the idea of "isolated
+island Universes" as galaxies. But this understanding that is far from
+trivial! Figuring out how stars are distributed and what is the place
+of the Solar system in this took a long path.
 
 The textbook analogy is that it is like trying to understand the shape
 of the house sitting within the kitchen. You can see some outside from
