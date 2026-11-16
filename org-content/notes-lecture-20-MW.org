@@ -299,9 +299,12 @@ have been found for DM at various scales:
 - Strong lensing: In general relativity (GR), mass can bend space-time
   causing gravity (this, as any new scientific theory, englobes and
   reduces to Newtonian gravity for scales large compared to $GM/c^{2}$).
-  Light from background galaxies can be "lensed" and arrive stretched,
-  which provides another means to measure mass, and we find DM around
-  galaxies.
+  Since in this framework gravity is not a /force/ acting on a /mass/ but
+  rather the effect of the /shape/ of space-time, light is also affected
+  by gravity. A mass sitting along the line of sight can act as a
+  magnifying glass:l ight from background galaxies can be "lensed" and
+  arrive stretched, which provides another means to measure mass, and
+  we find DM around galaxies.
   #+CAPTION: "Einstein ring" produced by gravitational lensing by the yellow galaxy of a background blue galaxy.
   #+ATTR_HTML: :width 50%
   [[./images/einstein_ring.JPG]]
