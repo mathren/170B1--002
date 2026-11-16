@@ -129,10 +129,10 @@ of "island Universes" or galaxies:
   away unresolved sources. *N.B.:* Galileo had already shown once that
   extended nebulae such as Orion where actually many many stars
   unresolved without a telescope, same "flavor" of question! This
-  catalog contains 101 objects that he knew were /not/ comets, but are a
+  catalog contains 110 objects that he knew were /not/ comets, but are a
   mixed bag astrophysically, and a classic target for amateur
   astronomers in the Northern hemisphere. [[https://cosmos-book.github.io/catalogue/messier/index.html][Here you can see images of all of them]].
-  #+CAPTION: 101 objects in the Messier catalog of /not/ comets.
+  #+CAPTION: 110 objects in the Messier catalog of /not/ comets.
   [[./images/messier.jpg]]
 
 - The study of the distribution of these nebular sources became a way
