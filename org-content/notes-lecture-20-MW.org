@@ -522,17 +522,18 @@ be explained as an outcome of the dynamics.
 #+ATTR_HTML: :width 50%
 [[file:images/galdyn.png]]
 
-Stellar collisions: /not/ really! The density of stars is too low, we
-can estimate it (in reality it's not uniform!):
+Can stars collide: /not/ really in general! The density of stars is too
+low, we can estimate it (in reality it's not uniform!):
 
 #+BEGIN_latex
 \begin{equation}
-\rho_{\star} \simeq {10^{12}\,\mathrm{stars}}{\mathrm{Vol}}=\frac{10^{12} \,
+\rho_{\star} \simeq \frac{10^{12}\,\mathrm{stars}}{\mathrm{Vol}}=\frac{10^{12} \,
 \mathrm{stars}}{\frac{4}{3}\pi R^{3}} \simeq 0.2 \mathrm{pc}^{-3} \ \ ,
 \end{equation}
 #+END_latex
 assuming $R=10\,\mathrm{kpc}$. Stars are almost never coming close
-enough to each other.
+enough to each other. To have a stellar merger by collision, usually
+dense stellar environments such as globular clusters (GC) are needed.
 
 Also, recall that most of the mass appears to be roughly uniformly
 distributed DM which determines to zeroth order the potential of the
