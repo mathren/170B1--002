@@ -176,7 +176,8 @@ of "island Universes" or galaxies:
 
 
 - Hubble, using the stellar physics insight by Henrietta Swan Leavitt
-  measured the distance to nebular objects.
+  measured the distance to nebular objects, revealing that M31 was
+  \ge750 kpc \gg 10 kpc radius of the stellar disk of the MW.
   #+CAPTION: Cepheids are pulsating stars: measuring the /time/ for pulsations is easy, and Henrietta Leavitt had discovered that the period of pulsation gives the /luminosity/. From this, Hubble, measuring the /brightness/ of Cepheids and their period could calculate the distance to M31.
   #+ATTR_HTML: :width 50%
   [[./images/cepheids.jpg]]
