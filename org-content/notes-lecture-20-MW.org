@@ -214,16 +214,14 @@ cosmological "distance ladder".
 #+ATTR_HTML: :width 50%
 [[file:images/MWschematic.png]]
 
-
-
 The MW has a diameter of about $R=10\mathrm{kpc}$, with most of the /young/ stars in
-a thin disk of 100pc of thickness, and a /halo/ of older stars roughly
+a thin disk of 300pc of thickness, and a /halo/ of older stars roughly
 spherical.
 
 The Sun is part of the Galactic disk, with a galactocentric radius of about
 8kpc: we are indeed in the outskirts as revealed by Shapley.
 
-*N.B.:* Stars and solar systems rotate in the Galaxy, but also can feel
+*N.B.:* Stars and solar systems rotate around the Galaxy, but also can feel
 (e.g., during fly-bys) their own gravity: the /total/ angular momentum
 is distributed through gravitational torques. Stars behave like the
 particles of a gas that can "bump into each other", but instead of
