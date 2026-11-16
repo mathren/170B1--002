@@ -209,6 +209,13 @@ cosmological "distance ladder".
 
 - Top Hat Q3: appearance of young stars
 
+
+#+CAPTION: Schematic representation of the Galatic structure
+#+ATTR_HTML: :width 50%
+[[file:images/MWschematic.png]]
+
+
+
 The MW has a diameter of about $R=10\mathrm{kpc}$, with most of the /young/ stars in
 a thin disk of 100pc of thickness, and a /halo/ of older stars roughly
 spherical.
@@ -230,8 +237,6 @@ $D=50\,\mathrm{kpc}$ from the Galaxy.
  are typically comparable ($R/D\sim1$, only $\sim 0.2$ for the MW-LMC/SMC),
  therefore the tides exerted by a galaxy on the next are significant,
  and medium-size galaxies are not in dynamical equilibrium!
-
-
 
 *N.B.:* Tides are due to the difference in gravity between points of an
   extended body (like a Galaxy)
@@ -318,11 +323,6 @@ The mass of the MW is about $10^{12} M_{\odot}$ /in stars/ and which is only
 0.1-1% of the total mass, of $10^{15}M_{\odot}$.
 
 * Galactic structure
-
-#+CAPTION: Schematic representation of the Galatic structure
-#+ATTR_HTML: :width 50%
-[[file:images/MWschematic.png]]
-
 
 ** Halo
 
