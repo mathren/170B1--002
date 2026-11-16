@@ -540,6 +540,10 @@ can drive galactic outflows:
 [[file:images/gal_outflows.png]]
 
 See also the bubbles of hot gas raising in the X-ray images of the MW:
+
+#+CAPTION: eROSITA all-sky X-ray map ($h\nu\in [0.3, 2.3]\,\mathrm{keV}$)
+[[./images/eRosita_allsky.jpg]]
+
 there is evidence for a past thick gaseous disk around the SMBH and
 possibly large bubbles blown above/below the equator (so-called Fermi
 bubbles).
