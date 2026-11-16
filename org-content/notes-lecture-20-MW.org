@@ -36,7 +36,9 @@ acronym have been discussed (e.g., Magellan \rightarrow Milky, [[https://physics
 
 Note however that the nature of these extended sources was unclear,
 and the clouds are /not/ the only extended sources (there are others in
-both hemispheres), complicating their interpretation.
+both hemispheres), complicating their interpretation. The nature of
+nebular extended sources, and thus their distance and intrinsic
+luminosity remained elusive until the early 20^{th} century.
 
 * What is a galaxy?
 
