@@ -362,7 +362,7 @@ the radius of the stellar component of the Galaxy).
 
 *** Stellar Halo
 This is a roughly spherical distribution of old and faint stars with
-radius about kpc.
+radius about 10 kpc.
 
 Halo stars tend to be older and less rich in metals (remember that
 stars enrich the gas: the older stars are less "rich"!), and they
