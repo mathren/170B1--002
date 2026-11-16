@@ -499,7 +499,7 @@ This image was obtained correlating the signal between several radio
 telescopes spread throughout the Earth: using the entire /planet/ as a
 radio telescope to get the highest possible resolution image!
 
-#+CAPTION: EHT is not one telescope, but the coordination between most major radio observatories on Earth.
+#+CAPTION: EHT is not one telescope, but the coordination between most major radio observatories on Earth. Shown on the right is the image of another SMBH, this one in M87 (an external galaxy also in the Messier catalog).
 [[./images/EHT_process.png]]
 
 
