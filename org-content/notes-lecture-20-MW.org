@@ -383,9 +383,6 @@ elements with $A=4n$ and $n=1,2,3,...$, that is elements that are
 bound states of \alpha particles, those produced preferentially by the
 massive stars.
 
-#+CAPTION: Galactic disk in the optical by /Gaia/ DR2.
-[[./images/Gaia.jpg]]
-
 Around the thin disk of young stars, there is a thicker disk, maybe
 500pc thick of stars slightly older (dynamically heated onto more
 inclined galactocentric orbits) and less enriched in elements like
