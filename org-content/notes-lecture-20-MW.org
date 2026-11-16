@@ -375,18 +375,28 @@ their time in the Halo.
 
 
 ** Galactic disk
-We have already encountered this as the most prominent feature: most
-young stars are forming in the Galactic thin disk (100pc thick), where
-also there is a lot of interstellar dust blocking the view and causing
-darker patches. These stars are also \alpha-rich, that is they have many
-elements with $A=4n$ and $n=1,2,3,...$, that is elements that are
-bound states of \alpha particles, those produced preferentially by the
-massive stars.
 
+*** \alpha-rich/thin disk
+We have already encountered this as the most prominent feature in
+optical-band observations: most young stars are forming in the
+Galactic thin disk (100pc thick), where also there is a lot of
+interstellar dust blocking the view and causing darker patches. These
+stars are also \alpha-rich, that is they have many elements with $A=4n$ and
+$n=1,2,3,...$, that is elements that are bound states of \alpha particles,
+those produced preferentially by the massive stars.
+
+*** \alpha-poor/thick disk
 Around the thin disk of young stars, there is a thicker disk, maybe
-500pc thick of stars slightly older (dynamically heated onto more
+3-500pc thick of stars slightly older (dynamically heated onto more
 inclined galactocentric orbits) and less enriched in elements like
 oxygen, the thick \alpha-poor disk.
+
+*N.B.:* Original definitions of thin and thick disk were only based on
+the position of the stars (vertical height above the midplane of the
+galaxy), but that is ill-defined: over millions of years (short time
+compared to the galaxy lifetime), that height changes. Today we use a
+mixture of kinematic and chemical signatures to assign a star to the
+thin or thick disk.
 
 *** Spiral arms
 
