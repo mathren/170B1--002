@@ -362,7 +362,9 @@ arms of a Galaxy are pile ups in the orbit of stars in the disk!
 #+CAPTION: Visualization of a two-arm spiral in a collection of elliptical orbits around a common center of mass.
 [[file:images/spiral_arm_graphic.png]]
 
-
+In these /stellar traffic jams/ the gas of the galaxy is compressed, and
+there are more "occasions" for perturbations to trigger star
+formation: most young stars are in the spiral arms of the thin disk!
 
 ** Bulge
 
@@ -382,9 +384,49 @@ because of this reason.
 
 
 ** Galactic center
-Nobel prize Andrea Ghez
 
-*** EHT
+The Galactic center is in the southern hemisphere and, according to
+Kepler's laws, it has stars with the shortest period orbits! To see
+these stars in this densest region of the galaxy, full of
+astrophysical dust, we need IR (the dust absorbs short wavelength
+photons and re-emits at longer wavelengths).
+
+#+CAPTION: Multi-epoch IR campaign to trace the orbits of the stars closest to the Galactic center resulted in the [[https://www.nobelprize.org/all-nobel-prizes-2020/][2020 Nobel Prize]]: those orbit undeniably show the presence of a large and invisible mass packed in a very small volume that can only be a super-massive BH.
+[[file:images/S2.png]]
+
+
+By tracing the orbits of the innermost stars of the Galaxy, the one
+with the shortest separation from the Galactic center, we can
+constrain the amount of mass /at/ the center.
+
+Not only it's more than we can see (like what causes the idea of DM),
+but also it has to be within these short orbits! So it has to be
+extremely dense: only a supermassive black hole (SMBH) can be there,
+with $M\gtrsim 10^{6}\,M_{\odot}$.
+
+Large galaxies like the MW host SMBHs! How these form remains a
+mystery between cosmology and accretion physics (the study of how
+matters falls into BHs). Whether smaller galaxies like the LMC host an
+SMBH or not remains to be seen.
+
+*** Event of Horizon Telescope
+
+The [[https://eventhorizontelescope.org/][EHT network]] has used radio-interferometry (i.e., reconstructing
+the shape of a source through timing of the arrival of radio photons
+at different locations) to image the center of the galaxy, so-called
+Sagittarius A^{*}.
+
+This "reconstructed" interferometric image shows a disk of gas slowly
+falling onto the SMBH and the "shadow" of the BH itself:
+
+#+CAPTION: EHT radio-interferometry image of Sag A^{*}.
+[[./images/EHT_sagastar.jpg]]
+
+Note that /despite its mass/, the SMBH gravitationally influences only a
+very small sub-parsec region around it, and the orbits of stars that
+allowed its confirmation are still Keplerian according to Newtonian
+gravity!
+
 
 * Galactic dynamics
 
@@ -402,7 +444,7 @@ can estimate it (in reality it's not uniform!):
 #+END_latex
 assuming $R=10\,\mathrm{kpc}$.
 
-
+*** Hypervelocity stars
 
 ** Dynamics among galaxies
 The MW is a spiral galaxy, and the LMC and SMC are dwarf galaxies
@@ -417,5 +459,6 @@ touching.
 
 * Galactic Evolution
 - Gas inflow (intergalactic)
+- Gas outflows: SN in the disk blowing bubbles
 - inside out mergers:build the bulge (from scaling relations and /Gaia/
   kinematics)
