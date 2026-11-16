@@ -20,11 +20,13 @@ of years of human history, most people had access to an even better
 view, and many saw what the Greeks called the "Milky way".
 
 #+CAPTION: The "milky way" was the ancient greek name for the whiter/brighter portion of the sky.
+#+ATTR_HTML: :width 75%
 [[./images/saguaro.jpg]]
 
 ** The Clouds
 
 #+CAPTION: The southern sky from Chile.
+#+ATTR_HTML: :width 75%
 [[./images/LMCSMC.jpg]]
 
 In the southern hemisphere, there are also two bright "patches", now
@@ -46,6 +48,7 @@ These 3 galaxies are part of the larger [[file:notes-lecture-01-intro.org::*Extr
 We now know that these are "galaxies".
 
 #+CAPTION: Optical all-sky image oriented disk edge on of the Milkyway galaxy.
+#+ATTR_HTML: :width 50%
 [[file:images/opticalMWbook.png]]
 
 
@@ -57,6 +60,7 @@ The "Milky way" is the projection on the sky of one of its spiral
 arms!
 
 #+CAPTION: We are /within/ the galaxy, so we cannot see it from outside! This is a composite image of the "[[https://en.wikipedia.org/wiki/Spiral_arm#/media/File:Messier51_sRGB.jpg][whirpool galaxy]]" or Messier 51 (M51) another example of spiral galaxy, seen face on (galaxies are randomly oriented in the sky) and qualitatively similar to what we think our galaxy is.
+#+ATTR_HTML: :width 50%
 [[./images/whirpool.jpg]]
 
 In common astrophysical jargon we use Milkyway (MW) to refer to the
@@ -162,6 +166,7 @@ Universes" or galaxies:
 - Hubble, using the stellar physics insight by Henrietta Swan Leavitt
   measured the distance to nebular objects.
   #+CAPTION: Cepheids are pulsating stars: measuring the /time/ for pulsations is easy, and Henrietta Leavitt had discovered that the period of pulsation gives the /luminosity/. From this, Hubble, measuring the /brightness/ of Cepheids and their period could calculate the distance to M31.
+  #+ATTR_HTML: :width 50%
   [[./images/cepheids.jpg]]
 
 
@@ -173,6 +178,7 @@ get a parallax and thus a distance, she found a proportionality
 between the period and visual-bang brightness.
 
 #+CAPTION: Correlation between Period and brightness of Cepheids in a paper by H. Leavitt 1912.
+#+ATTR_HTML: :width 50%
 [[./images/leavitt.png]]
 
 Both Shapley and Hubble used observations of the same kind of stars in
@@ -245,6 +251,7 @@ discovered "excess mass" that is /not/ made of shiny stuff in any of the
 electromagnetic wavelengths we look.
 
 #+CAPTION: Galaxy rotational curves show the /projected/ velocity of galactocentric motion through Doppler shifts, and velocities are higher than they should if all the mass was where the light is from.
+#+ATTR_HTML: :width 50%
 [[./images/galaxy_rotational_curve.jpg]]
 
 Galaxy rotation curves are empirical evidence that the /gravitational
@@ -265,6 +272,7 @@ have been found for DM at various scales:
   the molecules of the air carrying the sound) requires DM
 - [[https://science.nasa.gov/missions/webb/nasa-webb-pierces-bullet-cluster-refines-its-mass/][Bullet cluster]]:
   #+CAPTION: Composite image of the bullet cluster. The pink is X-rays tracing the hot gas, the blue is IR from /JWST/. The cold gas in blue "lags" the bulk of the mass, dragged ahead by dark matter whose presence is confirmed by the gravitationally lensed background galaxies.
+  #+ATTR_HTML: :width 50%
   [[./images/bullet_cluster.jpg]]
 - Strong lensing: In general relativity (GR), mass can bend space-time
   causing gravity (this, as any new scientific theory, englobes and
@@ -294,6 +302,7 @@ The mass of the MW is about $10^{12} M_{\odot}$ /in stars/ and which is only
 * Galactic structure
 
 #+CAPTION: Schematic representation of the Galatic structure
+#+ATTR_HTML: :width 50%
 [[file:images/MWschematic.png]]
 
 
@@ -360,6 +369,7 @@ can develop. Much like a traffic jam is a pile up of cars, the spiral
 arms of a Galaxy are pile ups in the orbit of stars in the disk!
 
 #+CAPTION: Visualization of a two-arm spiral in a collection of elliptical orbits around a common center of mass.
+#+ATTR_HTML: :width 50%
 [[file:images/spiral_arm_graphic.png]]
 
 In these /stellar traffic jams/ the gas of the galaxy is compressed, and
@@ -380,6 +390,7 @@ inclined and eccentric orbits, the bulge is also thicker than the disk
 because of this reason.
 
 #+CAPTION: Artist impression of a galactic bulge, from [[https://aasnova.org/2016/07/20/do-galactic-bars-buckle-to-form-bulges/][AAS Nova]].
+#+ATTR_HTML: :width 50%
 [[./images/bulge.jpg]]
 
 
@@ -392,6 +403,7 @@ astrophysical dust, we need IR (the dust absorbs short wavelength
 photons and re-emits at longer wavelengths).
 
 #+CAPTION: Multi-epoch IR campaign to trace the orbits of the stars closest to the Galactic center resulted in the [[https://www.nobelprize.org/all-nobel-prizes-2020/][2020 Nobel Prize]]: those orbit undeniably show the presence of a large and invisible mass packed in a very small volume that can only be a super-massive BH.
+#+ATTR_HTML: :width 50%
 [[file:images/S2.png]]
 
 
@@ -420,6 +432,7 @@ This "reconstructed" interferometric image shows a disk of gas slowly
 falling onto the SMBH and the "shadow" of the BH itself:
 
 #+CAPTION: EHT radio-interferometry image of Sag A^{*}.
+#+ATTR_HTML: :width 50%
 [[./images/EHT_sagastar.jpg]]
 
 Note that /despite its mass/, the SMBH gravitationally influences only a
@@ -433,6 +446,7 @@ gravity!
 ** Dynamics within the galaxy
 
 #+CAPTION: Stars orbit the center of the Galaxy, but it is /not/ a point mass: DM is spread uniformely
+#+ATTR_HTML: :width 50%
 [[file:images/galdyn.png]]
 
 Stellar collisions: /not/ really! The density of stars is too low, we
@@ -480,6 +494,7 @@ out with all the recoil (the mass of the star is very small compared
 to the SMBH), becoming an hypervelocity star and escaping the galaxy!
 
 #+CAPTION: The SMBH in the center of galaxies can (very rarely) fling out stars from a binary accelerating them beyond the galaxy's escape velocity.
+#+ATTR_HTML: :width 50%
 [[./images/hills_mechanism.jpg]]
 
 ** Dynamics among galaxies
@@ -495,6 +510,7 @@ often galaxy mergers host young stars and stellar explosions from
 massive stars.
 
 #+CAPTION: merger between two major spiral-arm galaxies (M31 and the MW will also merge in the far future!)
+#+ATTR_HTML: :width 50%
 [[./images/major_merger.jpg]]
 
 * Galactic Evolution
@@ -519,7 +535,7 @@ SN explosions of the stars in the galaxy and outbursts from the SMBH
 can drive galactic outflows:
 
 #+CAPTION: Galactic outflows are powered by energetic stellar phenomena in aggregate and outflows from the SMBH.
-#+ATTR_HTML: :width 20%
+#+ATTR_HTML: :width 50%
 [[file:images/gal_outflows.png]]
 
 See also the bubbles of hot gas raising in the X-ray images of the MW:
