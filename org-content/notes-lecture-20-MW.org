@@ -103,7 +103,8 @@ of "island Universes" or galaxies:
   stars in the sky did not really exist: they occupied the outermost
   celestial sphere, and the apparent clumping was of no concern. Their
   lack of detectable annual parallax (by naked eye) was considered
-  evidence for the lack of orbital motion of the Earth.
+  evidence for the lack of orbital motion of the Earth in support of
+  geocentrism.
   #+CAPTION: Medieval illustration of an Aristotelian geocentric Universe
   #+ATTR_HTML: :width 50%
   [[./images/geocentrism.png]]
