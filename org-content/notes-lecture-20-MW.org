@@ -239,7 +239,6 @@ $D=50\,\mathrm{kpc}$ from the Galaxy.
 *N.B.:* Tides are due to the difference in gravity between points of an
   extended body (like a Galaxy)
 
-
 That is however only the /visible/ part of the galaxy: effectively,
 where the /stars/ are. By trying to measure the /total mass/ of the
 galaxy, we found that this is only a small fraction (\sim23%) of a
@@ -258,11 +257,14 @@ system of Galaxies), but their orbits are:
    constant tug and pull of flybys by other galaxies
 2. take hundreds of millions of years (vs. sub-hour to centuries for
    stars)
-This means we cannot use the same /astronomical/ trick!
+This means we cannot use the same /astronomical/ trick! However, we can
+still use the physics /described/ by the Kepler laws (and /explained/ by
+the Universal law of gravitation by Newton): not /among/ galaxies, but
+by measuring the orbit of stars /around/ the galaxy.
 
-We can however still use the physics /described/ by the Kepler laws (and
-/explained/ by the Universal law of gravitation by Newton): not /among/
-galaxies, but by measuring the orbit of stars /around/ the galaxy.
+*N.B.:* The mass of a star is so small compared to the mass of a galaxy,
+that we can use stars as "test particle" that probe the local
+gravitational field of the galaxy without changing it significantly.
 
 The Sun's orbit takes about 250 million years (meaning we barely have
 moved since the genus homo appeared on Earth \sim 3 million years ago).
@@ -291,7 +293,11 @@ have been found for DM at various scales:
 - Cosmological: we can measure the equivalent of /sound waves/
   propagating across the distribution of /galaxies/ (as in galaxies are
   the molecules of the air carrying the sound) requires DM
-- [[https://science.nasa.gov/missions/webb/nasa-webb-pierces-bullet-cluster-refines-its-mass/][Bullet cluster]]:
+  #+CAPTION: Animated gif of baryonic acoustic oscillations, sound waves generated early in the Universe which are frozen in the "gas of galaxies"
+  [[./images/BAO.gif]]
+- [[https://science.nasa.gov/missions/webb/nasa-webb-pierces-bullet-cluster-refines-its-mass/][Bullet cluster]]: shows two merging galaxies with most of the mass
+  (hot pink gas) ahead of the stars. The mass location is confirmed by
+  lensing of background galaxies.
   #+CAPTION: Composite image of the bullet cluster. The pink is X-rays tracing the hot gas, the blue is IR from /JWST/. The cold gas in blue "lags" the bulk of the mass, dragged ahead by dark matter whose presence is confirmed by the gravitationally lensed background galaxies.
   #+ATTR_HTML: :width 50%
   [[./images/bullet_cluster.jpg]]
