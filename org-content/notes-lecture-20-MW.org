@@ -305,9 +305,11 @@ have been found for DM at various scales:
   #+CAPTION: "Einstein ring" produced by gravitational lensing by the yellow galaxy of a background blue galaxy.
   #+ATTR_HTML: :width 50%
   [[./images/einstein_ring.JPG]]
-- [[https://science.nasa.gov/missions/webb/nasa-webb-pierces-bullet-cluster-refines-its-mass/][Bullet cluster]]: shows two merging galaxies with most of the mass
-  (hot pink gas) ahead of the stars. The mass location is confirmed by
-  lensing of background galaxies.
+- [[https://science.nasa.gov/missions/webb/nasa-webb-pierces-bullet-cluster-refines-its-mass/][Bullet cluster]]: shows two merging galaxy clusters with most of the
+  mass (blue IR) ahead of the stars and gas (pink). The mass location
+  is confirmed by lensing of background galaxies: this shows how most
+  of the mass is not slowed down by the EM interactions in the
+  collision and goes straight past each other /because/ it is DM
   #+CAPTION: Composite image of the bullet cluster. The pink is X-rays tracing the hot gas (heated by the collision between these clusters of galaxies), the blue is IR from /JWST/. The gravitational lensing suggests that most of the mass is in the blue area, /not/ where most of the gas is (pink): this is because DM is unaffected by the collisional energy injection and overshoots the gas which instead slams into the gas of the other galaxy, slows down and heats up.
   #+ATTR_HTML: :width 75%
   [[./images/bullet_cluster.jpg]]
