@@ -495,6 +495,13 @@ very small sub-parsec region around it, and the orbits of stars that
 allowed its confirmation are still Keplerian according to Newtonian
 gravity!
 
+This image was obtained correlating the signal between several radio
+telescopes spread throughout the Earth: using the entire /planet/ as a
+radio telescope to get the highest possible resolution image!
+
+#+CAPTION: EHT is not one telescope, but the coordination between most major radio observatories on Earth.
+[[./images/EHT_process.png]]
+
 
 * Galactic dynamics
 
