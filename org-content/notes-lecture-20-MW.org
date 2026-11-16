@@ -505,6 +505,17 @@ radio telescope to get the highest possible resolution image!
 
 * Galactic dynamics
 
+As stars move within a galaxy, subject to the gravity from all bodies
+contained in the galaxy (other stars, gas, e.g., molecular clouds, and
+DM), and as galaxies interact with each other within a cluster, a lot
+of significant dynamics occurs.
+
+Studying galactic dynamics is interesting from the point of view of
+complex non-linear N-body systems, and the morphology of galaxies
+(which never settles onto a static equilibrium configuration) needs to
+be explained as an outcome of the dynamics.
+
+
 ** Dynamics within the galaxy
 
 #+CAPTION: Stars orbit the center of the Galaxy, but it is /not/ a point mass: DM is spread uniformely
@@ -559,7 +570,7 @@ to the SMBH), becoming an hypervelocity star and escaping the galaxy!
 
 #+CAPTION: The SMBH in the center of galaxies can (very rarely) fling out stars from a binary accelerating them beyond the galaxy's escape velocity.
 #+ATTR_HTML: :width 50%
-[[./images/hills_mechanism.jpg]]
+b[[./images/hills_mechanism.jpg]]
 
 ** Dynamics among galaxies
 The MW is a spiral galaxy, and the LMC and SMC are dwarf galaxies
@@ -625,7 +636,7 @@ with each other (much more rarely since big galaxies are rare!), like
 the MW and Andromeda/M31 will.
 
 The video below shows the gas density of a numerical simulations of
-the evolution of a galaxy and its satellites over billions of years:
+the evolution of a galaxy and its satellites over half a billion years:
 
 #+HTML: <iframe width="542" height="963" src="https://www.youtube.com/embed/rd7Ae_ksphY" title="Watch a Supercomputer Grow a Galaxy from Scratch! 🌌💻#Shorts #YouTubeShorts #Viral" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
