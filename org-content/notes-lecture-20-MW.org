@@ -183,6 +183,7 @@ of "island Universes" or galaxies:
   [[./images/cepheids.jpg]]
 
 
+** The Cepheids period-luminosity relation as distance measurement
 
 [[https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt][Henrietta Swan Leavitt]] was one of the Harvard computers in the early
 20^{th} century, and was studying /Cepheid/ stars, which change
@@ -199,6 +200,10 @@ GCs and M31 respectively, and using their measured periods determined
 their intrinsic luminosity and thus distances. Hubble's distance to
 M31 was so great that one had to conclude it was a separate
 "island Universe" or galaxy.
+
+*N.B.:* The understanding of stars underpins the entire galaxy evolution
+field, and even cosmology: Cepheids are still the first rung in the
+cosmological "distance ladder".
 
 * Size of the Milky Way and its neighborhood
 
