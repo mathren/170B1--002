@@ -4,7 +4,7 @@
 #+PREVIOUS_PAGE: study_guide_midterm2.org
 #+NEXT_PAGE: notes-lecture-21-.org
 
-*Reading*: Chapter 19, 20, 21
+*Reading*: Chapter 19, 20, 21, [[https://fire.northwestern.edu/visualizations/][simulations of galaxies]]
 
 * Recap
 
@@ -442,9 +442,45 @@ can estimate it (in reality it's not uniform!):
 \rho_{\star} \simeq {10^{12} \, \mathrm{stars}}{\mathrm{Vol}}=\frac{10^{12} \,
 \mathrm{stars}}{\frac{4}{3}\pi R^{3}} \simeq 0.2 \mathrm{pc}^{-3} \ \ ,
 #+END_latex
-assuming $R=10\,\mathrm{kpc}$.
+assuming $R=10\,\mathrm{kpc}$. Stars are almost never coming close
+enough to each other.
+
+Also, recall that most of the mass appears to be roughly uniformly
+distributed DM which determines to zeroth order the potential of the
+galaxy.
+
+As an example, the gif below from [[https://www.tomwagg.com/][Dr. Tom Wagg]] shows a binary system
+moving through a galaxy under the influence of the total gravitational
+potential of the galaxy. When a SN occurs in the binary, the explosion
+breaks the binary and sends the two stars (one of which is now a NS)
+on separate paths:
+
+#+CAPTION: Simulation of the galactic dynamics of a binary system in a galactic potential with [[https://cogsworth.readthedocs.io/en/latest/][cogsworth]].
+[[./images/one_bin_dyn.gif]]
+
+But, as we will see in a second, over billions of years, a galaxy is
+/not/ isolated, fly-bys within the galaxy cluster, and mergers occur,
+bringing in new mass and perturbing the orbits of long-lived low
+mass-stars. The longer the life of a star, the more chances of
+something perturbing it onto a high-inclination high-eccentricity
+orbit spending a lot more time (because of the second Kepler law) in
+the halo!
+
+*N.B.:* this is also a reason for old galaxies to be elliptical and
+puffy instead of "disky" and flat.
+
+The collection of all the orbits of stars determines the /evolving/
+shape of a galaxy
 
 *** Hypervelocity stars
+
+If a binary system gets too close to the SMBH, one star can be
+"swallowed" (maybe in a [[https://en.wikipedia.org/wiki/Tidal_disruption_event][tidal disruption event]]), and the other flung
+out with all the recoil (the mass of the star is very small compared
+to the SMBH), becoming an hypervelocity star and escaping the galaxy!
+
+#+CAPTION: The SMBH in the center of galaxies can (very rarely) fling out stars from a binary accelerating them beyond the galaxy's escape velocity.
+[[./images/hills_mechanism.jpg]]
 
 ** Dynamics among galaxies
 The MW is a spiral galaxy, and the LMC and SMC are dwarf galaxies
@@ -452,13 +488,60 @@ orbiting each other and the MW. About 150-200 million years ago, [[https://ui.ad
 and SMC collided]].
 
 
-Even when two galaxies merge, they
-basically go through each other with barely any stellar system
-touching.
+Even when two galaxies merge, they basically go through each other
+with barely any stellar system touching, but galaxy mergers can
+compress interstellar diffuse gas driving the formation of new stars:
+often galaxy mergers host young stars and stellar explosions from
+massive stars.
 
+#+CAPTION: merger between two major spiral-arm galaxies (M31 and the MW will also merge in the far future!)
+[[./images/major_merger.jpg]]
 
 * Galactic Evolution
-- Gas inflow (intergalactic)
-- Gas outflows: SN in the disk blowing bubbles
-- inside out mergers:build the bulge (from scaling relations and /Gaia/
-  kinematics)
+
+** Gas cycling: stars in the ISM and galaxies in the IGM
+
+We have [[file:notes-lecture-17-stellar-evo.org::*Mass determines the structure and thus the evolution][already seen]] that stars take the gas of the interstellar
+material and process it forming new elements, and return it at their
+deaths to the galaxy. This is a big part of the /chemical evolution/ of
+a galaxy, and since stars keep forming from new gas, their chemical
+composition allows to constrain /when/ they formed.
+
+#+CAPTION: Galaxies cycle the gas of galaxies
+[[file:images/star_recycling_gal.png]]
+
+Galaxy themselves act as gas processor at kiloparsec scale, with the
+reservoir being not the ISM, but the IGM, inter-galactic medium.
+
+Huge gas inflow made of cold hydrogen can fall into a galactic halo,
+refueling a galaxy. At the same time, energetic phenomena, for example
+SN explosions of the stars in the galaxy and outbursts from the SMBH
+can drive galactic outflows:
+
+#+CAPTION: Galactic outflows are powered by energetic stellar phenomena in aggregate and outflows from the SMBH.
+#+ATTR_HTML: :width 20%
+[[file:images/gal_outflows.png]]
+
+See also the bubbles of hot gas raising in the X-ray images of the MW:
+there is evidence for a past thick gaseous disk around the SMBH and
+possibly large bubbles blown above/below the equator (so-called Fermi
+bubbles).
+
+** Galaxy inside-out assembly
+
+
+
+** Stellar streams
+
+The picture of inside-out galaxy formation and evolution is /directly/
+supported by stellar streams within the MW. These are groups of
+kinematically and chemically related stars (i.e., they are made of the
+same composition and move along orbits with similar properties) which
+trace the tidally disrupted dwarf galaxies and clusters that fell into
+the Galaxy and were "spaghettified" by the gravitational field of the
+galaxy. Finding these streams is often a task referred to as Galactic
+archaeology since they are "fossil remnants" of the galaxies eat by
+the MW.
+
+#+CAPTION: /Gaia/ DR3 identified several streams of stars by constraining their velocity and motion.
+[[./images/Gaia_streams.jpg]]
