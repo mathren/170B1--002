@@ -165,12 +165,12 @@ of "island Universes" or galaxies:
   objects /part of the same "Universe"/ (in today's language he meant
   /galaxy/), much like globular clusters were.
 
-  Curtis position was that the universe was made of these large
+  Curtis position was that the Universe was made of these large
   "island Universes" separated by large swaths of space without stars,
   and the Solar system was in one of these "island Universes"
   (galaxies) together with /some/ nebulae (like the GCs), but some /other/
   nebulae are other farther "island Universes".
-  #+CAPTION: M31 (Andromeda galaxy) was a key object in the debate on the scale of the Universe
+  #+CAPTION: M31 (Andromeda galaxy, part of the Messier catalog and visible by naked eye in good conditions) was a key object in the debate on the scale of the Universe
   #+ATTR_HTML: :width 50%
   [[./images/M31.jpg]]
 
