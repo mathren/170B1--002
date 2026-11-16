@@ -48,7 +48,7 @@ from the greek "milky"+"way". These 3 galaxies are part of the larger
 
 
 #+CAPTION: Optical all-sky image oriented disk edge on of the Milkyway galaxy.
-#+ATTR_HTML: :width 50%
+#+ATTR_HTML: :width 100%
 [[./images/Gaia.jpg]]
 
 In the modern definition, *a galaxy is a /gravitationally bound/ system
@@ -79,7 +79,7 @@ a window, but there are thick walls everywhere blocking your view!
 
 
 Even today, despite a multiwavelength view of the Galaxy, we are still
-learning about the structure!
+learning about its structure and evolution that shaped it!
 
 #+CAPTION: Multiwavelength Mercator projection of the whole sky showing the galaxy. All celestial spheres are oriented tohave the Galactic disk in the middle.
 [[file:images/multiwavelengthMW.png]]
