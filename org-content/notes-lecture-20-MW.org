@@ -241,7 +241,7 @@ $D=50\,\mathrm{kpc}$ from the Galaxy.
 
 That is however only the /visible/ part of the galaxy: effectively,
 where the /stars/ are. By trying to measure the /total mass/ of the
-galaxy, we found that this is only a small fraction (\sim23%) of a
+galaxy, we found that this is only a small fraction (\sim20%) of a
 galaxy!
 
 ** Measuring the mass of a galaxy: dark matter
@@ -317,8 +317,8 @@ have been found for DM at various scales:
   #+ATTR_HTML: :width 75%
   [[./images/bullet_cluster.jpg]]
 
-All these point to about \sim25% of the mass of the Universe being /dark
-matter/ and \sim75% of the mass is /baryonic/ meaning, interacts with
+All these point to about \sim 5/6 of the mass of the Universe being /dark
+matter/ and \sim1/6 of the mass is /baryonic/ meaning, interacts with
 electromagnetic forces and thus can /shine/. The evidence for DM is
 strong and based on multiple coherent astrophysical measurements at
 various scales.
