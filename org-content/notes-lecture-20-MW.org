@@ -540,6 +540,9 @@ dwarf galaxies (the MW ultimately will the LMC and SMC), and merging
 with each other (much more rarely since big galaxies are rare!), like
 the MW and Andromeda/M31 will.
 
+The video below shows the gas density of a numerical simulations of
+the evolution of a galaxy and its satellites over billions of years:
+
 #+HTML: <iframe width="542" height="963" src="https://www.youtube.com/embed/rd7Ae_ksphY" title="Watch a Supercomputer Grow a Galaxy from Scratch! 🌌💻#Shorts #YouTubeShorts #Viral" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *** Stellar streams
@@ -559,7 +562,9 @@ the MW.
 
 /Gaia/ can do this by tracking position (through precision parallax) and
 velocity of each star, complemented by spectroscopy (on board or on
-the ground) to tag the composition:
+the ground) to tag the composition. The video below is from the third
+/Gaia/ public data release, and the 4^{th} is expected in December 2026,
+providing for free access to unprecedented new data to anyone!
 
 #+HTML: <div style="text-align: center;">
 #+HTML:   <video width="600" height="400" controls>
