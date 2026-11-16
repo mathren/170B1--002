@@ -334,6 +334,13 @@ The mass of the MW is about $10^{12} M_{\odot}$ /in stars/ and which is only
 
 * Galactic structure
 
+Let's briefly consider the observable /structure/ of the MW galaxy: as
+we will discuss below, the features are a product of the stellar and
+gas kinematic within the galaxy observed at a specific snapshot in
+time (since the timescales involved are often 100 of millions of
+years, the entire history of humanity is still just a snapshot in time
+from the galactic point of view).
+
 ** Halo
 
 *** DM component
