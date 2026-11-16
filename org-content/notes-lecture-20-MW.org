@@ -554,13 +554,15 @@ bringing in new mass and perturbing the orbits of long-lived low
 mass-stars. The longer the life of a star, the more chances of
 something perturbing it onto a high-inclination high-eccentricity
 orbit spending a lot more time (because of the second Kepler law) in
-the halo!
+the halo! This explains why the halo population is on average older
+(it takes time for a star to be sent on a halo-like orbit by
+perturbations), and why older galaxies tend to be more spherical.
 
 *N.B.:* this is also a reason for old galaxies to be elliptical and
 puffy instead of "disky" and flat.
 
-The collection of all the orbits of stars determines the /evolving/
-shape of a galaxy
+*The collection of all the orbits of stars determines the /evolving/
+shape of a galaxy*.
 
 *** Hypervelocity stars
 
