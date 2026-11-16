@@ -4,20 +4,18 @@
 #+PREVIOUS_PAGE: study_guide_midterm2.org
 #+NEXT_PAGE: notes-lecture-21-.org
 
-*Reading*: Chapter 19, 20, 21, [[https://fire.northwestern.edu/visualizations/][simulations of galaxies]]
+*Reading*: Chapter 19, 20, 21, [[https://fire.northwestern.edu/visualizations/][Library of simulations of galaxies]]
 
 * Recap
 
- - Top Hat Q1:
-   - nucleosynthesis
-   - Gas cycling
-   - disk (later)
+ - Top Hat Q1, Q2: nucleosynthesis, metallicity
 
 The geography of Tucson, and local regulation on light pollution, make
 it great for stargazing (see [[https://darkskysoaz.org/dark-sites/][here]] for specific places recommended by
 "Southern Arizona Dark Sky"). Throughout most of the 10s of thousands
 of years of human history, most people had access to an even better
-view, and many saw what the Greeks called the "Milky way".
+view, and many saw what the Greeks called the "Milky way", as a
+brighter, whiter patch of the sky.
 
 #+CAPTION: The "milky way" was the ancient greek name for the whiter/brighter portion of the sky.
 #+ATTR_HTML: :width 75%
@@ -40,12 +38,12 @@ Note however that the nature of these extended sources was unclear,
 and the clouds are /not/ the only extended sources (there are others in
 both hemispheres), complicating their interpretation.
 
-These 3 galaxies are part of the larger [[file:notes-lecture-01-intro.org::*Extra-galactic][Virgo cluster]].
-
-
 * What is a galaxy?
 
-We now know that these are "galaxies".
+We now know that these are "galaxies". The word /galaxy/ comes straight
+from the greek "milky"+"way". These 3 galaxies are part of the larger
+[[file:notes-lecture-01-intro.org::*Extra-galactic][Virgo cluster]].
+
 
 #+CAPTION: Optical all-sky image oriented disk edge on of the Milkyway galaxy.
 #+ATTR_HTML: :width 50%
@@ -189,7 +187,7 @@ M31 was so great that one had to conclude it was a separate
 
 * Size of the Milky Way and its neighborhood
 
-- Top Hat Q: appearance of young stars
+- Top Hat Q3: appearance of young stars
 
 The MW has a diameter of about $R=10\mathrm{kpc}$, with most of the /young/ stars in
 a thin disk of 100pc of thickness, and a /halo/ of older stars roughly
