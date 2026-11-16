@@ -469,7 +469,7 @@ constrain the amount of mass /at/ the center.
 Not only it's more than we can see (like what causes the idea of DM),
 but also it has to be within these short orbits! So it has to be
 extremely dense: only a supermassive black hole (SMBH) can be there,
-with $M\gtrsim 10^{6}\,M_{\odot}$.
+with $M\gtrsim 4\times10^{6}\,M_{\odot}$.
 
 Large galaxies like the MW host SMBHs! How these form remains a
 mystery between cosmology and accretion physics (the study of how
