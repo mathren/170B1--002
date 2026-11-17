@@ -99,6 +99,33 @@ This shows two things:
 
 ** Spiral
 
+We have already encountered spiral galaxies, the MW is /one/ of them.
+These are big galaxies, with disks containing most ongoing star
+formation, spiral arms that compress the gas (driving the stars
+together until they can trigger the formation of new stars from the
+gas), an extended halo composed of highly inclined and eccentric
+orbits of mostly old stars dynamically perturbed.
+
+#+CAPTION: Composite image of the "[[https://en.wikipedia.org/wiki/Spiral_arm#/media/File:Messier51_sRGB.jpg][whirpool galaxy]]" or Messier 51 (M51) another example of spiral galaxy, seen face on (galaxies are randomly oriented in the sky).
+#+ATTR_HTML: :width 50%
+[[./images/whirpool.jpg]]
+
+NASA maintains [[https://science.nasa.gov/category/universe/galaxies/spiral-galaxies/][here]] a catalog of composite images of spiral galaxies,
+which shows the diversity of features that can occur in a spiral
+galaxy. Recall that galaxies are /never/ in equilibrium because of
+flybys and mergers within a galaxy cluster! Therefore, by sampling the
+diversity of (spiral) galaxies in the Universe we understand which
+morphologies are easily realized and occur often in nature (ergodicity
+= studying distributions across space to understand distribution in
+time).
+
+*** Bar
+The rotation of the disk, coupled to the perturbations of incoming
+galaxy mergers and tides, can cause the formation of a central "bar"
+
+#+CAPTION: Bars can appear in fast rotating spiral galaxies because of rotational instabilities in the "gas of stars" that is the galaxy.
+[[./images/NGC1300.jpg]]
+
 ** Elliptical
 
 ** Irregular
