@@ -206,6 +206,8 @@ DEADLINE: Homework, In class exam
 # in class attendance
 DEADLINE: Homework
 
+[[./notes-lecture-21-galaxies.org][Notes]]
+
 ** Week 14:
 
 *** <2026-11-23 Mon> - Active Galaxies
