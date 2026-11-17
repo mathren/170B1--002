@@ -76,8 +76,26 @@ rate density per unit time:
 #+end_latex
 
 
-* Morphological diversity of Galaxies
+* Galaxy zoo
+Galaxies exhibit a diverse set of morphological properties, in terms
+of their shape, size, and colors. The [[https://zoo4.galaxyzoo.org/][Galaxy zoo]] project is an ongoing
+citizen-scientist effort to crowd source the visual classification of
+galaxies: this was used to label training set for machine learning
+classifications, but also provided unexpected discoveries, such as
+green pea galaxies.
 
+#+CAPTION: "Green pea" galaxies are spherical in shape, green in color, and usually very isolated: the current thinking is that these may be neaby analogs of the galaxies that caused the reionizatin of the Universe.
+[[./images/GP.jpg]]
+
+This shows two things:
+- we have so many observational data that professional astronomers
+  /need/ the help of amateurs to parse through them (which is useful to
+  design algorithms to then have computers do what thousands of
+  amateurs can collectively do, but faster)
+- there is so much unknown out there that dedicated amateur
+  astronomers and citizen scientists can contribute crucial insights
+  and even find and name entire new /classes/ of astronomical objects,
+  green pea galaxies being just one example.
 
 ** Spiral
 
