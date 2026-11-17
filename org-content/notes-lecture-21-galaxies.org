@@ -61,9 +61,19 @@ Moreover, earlier in the Universe (lighter colors corresponding to
 farther distances and thus galaxies seen earlier in the Universe's
 evolution) there are fewer galaxies.
 
-Note that since its launch, /JWST/ has been revealing very large
-galaxies very early in the Universe, possibly challenging key elements
-of the paradigm for galaxy evolution and cosmology.
+Since its launch, /JWST/ has been revealing very large galaxies very
+early in the Universe, possibly challenging key elements of the
+paradigm for galaxy evolution and cosmology.
+
+*N.B.:* We can use the number of galaxies per unit volume in a given
+mass-bin to convert estimates of events /per galaxy/ into an intrinsic
+rate density per unit time:
+
+#+begin_latex
+\begin{equation}
+ \mathcal{R} = \frac{\# \ events}{Galaxy}\times \frac{\# Galaxies}{Volume} \ \ .
+\end{equation}
+#+end_latex
 
 
 * Morphological diversity of Galaxies
