@@ -214,6 +214,11 @@ known patterns corresponding to specific elements, which probe the
 bulk velocity of the entire galaxy along the line of sight to the
 observer.
 
+*N.B.:* To know more about the distance ladder, I recommend [[https://www.youtube.com/watch?v=YdOXS_9_P4U&pp=ygULM2IxYiBsYWRkZXI%3D][this video]]
+by the youtube channel 3b1b (three blue one brown) with guest host the
+mathematician Terrence Tao. In general this channel is a good resource
+for math, physics, and science outreach.
+
 ** Hubble-Lemaitre's law
 
 Several people (including at Lowell observatory) had started noticing
