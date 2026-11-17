@@ -1,0 +1,46 @@
+#+title: ASTR170 Galaxies
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: notes-lecture-20-MW.org
+#+NEXT_PAGE: notes-lecture-21-galaxies.org
+
+*Reading*: Chapter 19, 20, 21, [[https://fire.northwestern.edu/visualizations/][Library of simulations of galaxies]]
+
+* Top Hat
+ - MW formation bottom up
+ -
+
+
+* Galaxies other than the MW
+
+#+CAPTION: /JWST/ deep field showing a field of galaxies
+[[./images/JWST_deep_field.jpg]]
+
+A decade ago, the Hubble space telescope (named after the person who
+measured the distance to M31 using Leavitt's law for Cepheids) was
+pointed for a very long time to /nothing/. This crazy observational
+program revealed faint and far galaxies, creating the "/HST/ deep field"
+images. Since then, this experiment has been repeated, increasing
+exposures and thus depth of the observations, and re-done with /JWST/,
+which was in part designed with the scientific goal of studying
+galaxies in the early Universe.
+
+* Morphological diversity of Galaxies
+- projection effects
+
+** Spiral
+
+** Elliptical
+
+** Irregular
+
+** Lenticular
+Intermediate between spiral and elliptical
+
+* Hubble Galaxy classification scheme
+
+* Distance ladder
+
+* Hubble-Lemaitre's law
+
+* Cosmological principle
