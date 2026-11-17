@@ -8,7 +8,7 @@
 
 * Top Hat
  - MW formation bottom up
- -
+ - DM question
 
 
 * Galaxies other than the MW
@@ -25,8 +25,43 @@ exposures and thus depth of the observations, and re-done with /JWST/,
 which was in part designed with the scientific goal of studying
 galaxies in the early Universe.
 
+** Galaxy density
+
+Based on observations like these (but typically performed on a wider
+area of the sky, with a trade-off of going less deep), we can estimate
+the /number density of galaxies/ in the Universe.
+
+However, we already know that not all galaxies have the same mass (the
+MW is much larger than both LMC /and/ SM for example!), so we may want
+to look not just at the number density, but the number density as a
+function of galaxy mass.
+
+Because the mass-budget is /dominated/ by DM, which we cannot directly
+/see/, we can use the /stellar mass/ $M_{\star}$ as a proxy, knowing that for
+example for the MW $M_{\rm tot} \simeq M_{\star} \times 1000$. In the figure below, from
+[[https://www.aanda.org/articles/aa/full_html/2025/03/aa52570-24/aa52570-24.html][Shuntov et al. 2025]], each color the number of galaxies per (10^{6}pc)^{3}
+elements of volume and as a function of their $M_{\star}$ on the x-axis for
+one spherical shell of the Universe centered around us:
+
+#+CAPTION: /JWST/ galaxy mass function for different slices of the Universe (each color correspond to a certain spherical shell of the Universe, labeled by the redshift $z$). Note the log-log scale.
+#+ATTR_HTML: :width 50%
+[[file:images/gal_density.png]]
+
+Black curves are closer to us: anywhere in the Universe, small
+galaxies outnumber large galaxies (which you would expect in the
+inside out repeated mergers picture of galaxy evolution) -- the curves
+slope downwards!
+
+Moreover, earlier in the Universe (lighter colors corresponding to
+farther distances and thus galaxies seen earlier in the Universe's
+evolution) there are fewer galaxies.
+
+Note that since its launch, /JWST/ has been revealing very large
+galaxies very early in the Universe, possibly challenging key elements
+of the paradigm for galaxy evolution and cosmology.
+
 * Morphological diversity of Galaxies
-- projection effects
+
 
 ** Spiral
 
