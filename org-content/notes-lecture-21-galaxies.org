@@ -4,7 +4,7 @@
 #+PREVIOUS_PAGE: notes-lecture-20-MW.org
 #+NEXT_PAGE: notes-lecture-21-galaxies.org
 
-*Reading*: Chapter 19, 20, 21, [[https://fire.northwestern.edu/visualizations/][Library of simulations of galaxies]]
+*Reading*: Chapter 19, 20, 21, [[https://science.nasa.gov/universe/galaxies/types/][NASA library of galaxy images]]
 
 * Top Hat
  - MW formation bottom up
@@ -78,11 +78,13 @@ rate density per unit time:
 
 * Galaxy zoo
 Galaxies exhibit a diverse set of morphological properties, in terms
-of their shape, size, and colors. The [[https://zoo4.galaxyzoo.org/][Galaxy zoo]] project is an ongoing
-citizen-scientist effort to crowd source the visual classification of
-galaxies: this was used to label training set for machine learning
-classifications, but also provided unexpected discoveries, such as
-green pea galaxies.
+of their shape, size, and colors, as you can see from the collection
+of NASA images classified by galaxy type [[https://science.nasa.gov/universe/galaxies/types/#intro][here]].
+
+The [[https://zoo4.galaxyzoo.org/][Galaxy zoo]] project is an ongoing citizen-scientist effort to crowd
+source the visual classification of galaxies: this was used to label
+training set for machine learning classifications, but also provided
+unexpected discoveries, such as green pea galaxies.
 
 #+CAPTION: "Green pea" galaxies are spherical in shape, green in color, and usually very isolated: the current thinking is that these may be neaby analogs of the galaxies that caused the reionizatin of the Universe.
 [[./images/GP.jpg]]
@@ -119,19 +121,58 @@ morphologies are easily realized and occur often in nature (ergodicity
 = studying distributions across space to understand distribution in
 time).
 
+Spiral galaxies usually are blue and rich in new stars forming in
+their disks. They are also the typical hosts of core-collapse SNe (the
+death of short-lived massive stars).
+
+
 *** Bar
 The rotation of the disk, coupled to the perturbations of incoming
-galaxy mergers and tides, can cause the formation of a central "bar"
+galaxy mergers and tides, can cause the formation of a central "bar":
 
 #+CAPTION: Bars can appear in fast rotating spiral galaxies because of rotational instabilities in the "gas of stars" that is the galaxy.
 [[./images/NGC1300.jpg]]
 
 ** Elliptical
 
-** Irregular
+Elliptical galaxies appear red, so their are rich in old, evolved, low
+mass stars, and don't have much active star formation. They are
+usually more massive and sit deeper in the DM halo of a galaxy cluster.
+
+#+CAPTION: NGC2865 is an example of elliptical galaxy.
+[[./images/NGC2865.jpeg]]
+
+Their "round" shape is because all the orbits in a hypothetical
+initial disk are perturbed onto high inclination, high eccentricity
+orbits, their larger mass and older age means they had more time for
+galaxy mergers to generate perturbations, and many stellar orbits.
+
+They can host SNIa (WD explosions), but rarely (if at all) host
+transient astrophysical sources related to massive stars.
 
 ** Lenticular
-Intermediate between spiral and elliptical
+This is an intermediate class between spiral and elliptical: they are
+disk-y galaxies, but with oversized bulges and no spiral arms. They
+tend to be dust rich and may be a transitional class.
+
+#+CAPTION: Example of lenticular galaxy NGC4886.
+[[./images/NGC4886.jpeg]]
+
+** Irregular
+Many (most) small galaxies have irregular shapes: they are never given
+the time to settle on equilibrium because of the interaction with
+other galaxies.
+
+We have already seen irregular dwarf galaxies, for example the LMC/SMC
+pair.
+
+#+CAPTION: IR image of the SMC
+[[./images/SMC.jpg]]
+
+*N.B.:* many pictures of galaxies are labeled as NGCxxxx. This is the
+"New Galaxy Catalog", a modern version of the Messier catalog of
+nebular (extended) sources from the 20^{th} century.
+
 
 * Hubble Galaxy classification scheme
 

@@ -203,8 +203,6 @@ DEADLINE: Homework, In class exam
 [[./notes-lecture-20-MW.org][Notes]]
 
 *** <2026-11-18 Wed> - Hubble's law
-# in class attendance
-DEADLINE: Homework
 
 [[./notes-lecture-21-galaxies.org][Notes]]
 
