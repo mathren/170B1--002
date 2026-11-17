@@ -221,6 +221,9 @@ for math, physics, and science outreach.
 
 ** Hubble-Lemaitre's law
 
+#+CAPTION: Original diagram from Hubble's paper. The x-axis is actually wrong and underestimated, and the fit (line calculated based on the point) is not very good, but this still made the "Hubble law" famous. It was later confirmed (changing the value of the constant $H$) with better data and data analysis.
+[[file:images/hubble_law.png]]
+
 Several people (including at Lowell observatory) had started noticing
 a tight correlation between distances and velocities measured through
 redshifts. Specifically George Lemaitre in a paper published in French
@@ -234,5 +237,15 @@ Hubble-Lemaitre) law:
 which states that the velocity $v$ of a galaxy relative to the MW is
 proportional to its distance $D$, and the proportionality constant $H$
 is *the same in every direction*.
+
+This is a strong hint that the universe is /homogeneous/ on large
+scales: we are like one raisin in the raisin cake which sees the
+farthest raising moving faster!
+
+Moreover, this also allows to work back in time to give an age to the
+Universe as a whole! $v=L/t=HD$ so taking $L=D$, that is looking at
+the velocity it takes for the universe to get to its size today, we
+get $H=1/t$ related to the age of the Universe - which now must have a
+*beginning* $1/H$ time units ago, and an *evolution*.
 
 * Cosmological principle
