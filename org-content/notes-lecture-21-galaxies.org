@@ -14,16 +14,21 @@
 * Galaxies other than the MW
 
 #+CAPTION: /JWST/ deep field showing a field of galaxies
-[[./images/JWST_deep_field.jpg]]
+[[./images/JWST_HST_deepfield.webp]]
 
 A decade ago, the Hubble space telescope (named after the person who
 measured the distance to M31 using Leavitt's law for Cepheids) was
-pointed for a very long time to /nothing/. This crazy observational
-program revealed faint and far galaxies, creating the "/HST/ deep field"
-images. Since then, this experiment has been repeated, increasing
-exposures and thus depth of the observations, and re-done with /JWST/,
-which was in part designed with the scientific goal of studying
-galaxies in the early Universe.
+pointed for a very long time (11.3 days of continuous exposure) to
+/nothing/, a dark area of the sky with no known sources. This crazy
+observational program revealed faint and far galaxies, creating the
+"/HST/ deep field" images. Since then, this experiment has been
+repeated, increasing exposures and thus depth of the observations, and
+re-done with /JWST/, which was in part designed with the scientific goal
+of studying galaxies in the early Universe.
+
+*N.B.:* /JWST/ has a bigger field of view, and more sensitive IR cameras
+with a bigger mirror, so it can outcompete /HST/ optical and UV sensors
+in a shorter exposure time.
 
 ** Galaxy density
 
@@ -59,6 +64,7 @@ evolution) there are fewer galaxies.
 Note that since its launch, /JWST/ has been revealing very large
 galaxies very early in the Universe, possibly challenging key elements
 of the paradigm for galaxy evolution and cosmology.
+
 
 * Morphological diversity of Galaxies
 
