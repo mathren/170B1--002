@@ -173,11 +173,61 @@ pair.
 "New Galaxy Catalog", a modern version of the Messier catalog of
 nebular (extended) sources from the 20^{th} century.
 
-
 * Hubble Galaxy classification scheme
+
+Based on the apparent morphology in the optical range, Galaxies can be
+classified as:
+- Elliptical (E) +  number characterizing the oblateness of the galaxy (S0
+  = spherical)
+- Spiral (S) + letter for prominence of the bulge
+- Barred spiral (Sb) + letter for the prominence of the bulge
+
+#+CAPTION: Schematic representation of the Galaxy classification scheme designed by Hubble.
+[[file:images/hubble_classification.png]]
+
+This was originally thought to be an evolutionary sequence, but /it is not/!
 
 * Distance ladder
 
-* Hubble-Lemaitre's law
+After using Leavitt's laws to measure the distance to Andromeda (M31)
+and resolving the great-debate on the size of the Universe in favor of
+Curtis and the existence of "isolated island universes" which we refer
+to as galaxies, Hubble started measuring the distances to all nebulae
+he could find.
+
+The Cepheids used in M31 could not really help for larger distances,
+and Hubble had to come up with experimental methods, which today have
+converged in the modern "distance ladder". Each rung at the bottom
+relies on more precise techniques but limited in the distances they
+can measure. Each successive rung is calibrated on the previous,
+allowing to extend the distance measurements:
+
+#+CAPTION: representation of the "Cosmic distance ladder" to measure the longest distances across the Universe.
+[[./images/distance_ladder.jpeg]]
+
+Hubble only had the second and third rung, and he made lots of wrong
+hypothesis, mis-identifying distant extragalactic clusters for
+individual stars, etc., but with these, he measured (typically
+underestimated) several distances to galaxies (D). By the early 1920s,
+it was already possible to obtain spectra and recognize red-shifts of
+known patterns corresponding to specific elements, which probe the
+bulk velocity of the entire galaxy along the line of sight to the
+observer.
+
+** Hubble-Lemaitre's law
+
+Several people (including at Lowell observatory) had started noticing
+a tight correlation between distances and velocities measured through
+redshifts. Specifically George Lemaitre in a paper published in French
+on a Belgian journal had stated what is now known as the Hubble (or
+Hubble-Lemaitre) law:
+#+begin_latex
+\begin{equation}
+ v = HD
+\end{equation}
+#+end_latex
+which states that the velocity $v$ of a galaxy relative to the MW is
+proportional to its distance $D$, and the proportionality constant $H$
+is *the same in every direction*.
 
 * Cosmological principle
