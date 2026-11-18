@@ -289,11 +289,11 @@ $\lambda_{\rm rest}$ to measure $z$:
 #+CAPTION: Original diagram from [[https://scixplorer.org/abs/1929PNAS...15..168H/abstract][Hubble 1929]]. The x-axis is actually wrong and underestimated, and the fit (line calculated based on the point) is not very good, but this still made the "Hubble law" famous. It was later confirmed (changing the value of the constant $H$) with better data and data analysis.
 [[file:images/hubble_law.png]]
 
-Several people (including at Lowell observatory) had started noticing
-a tight correlation between distances and velocities measured through
-redshifts. Specifically George Lemaitre in a paper published in French
-on a Belgian journal had stated what is now known as the Hubble (or
-Hubble-Lemaitre) law:
+Several people (including Slipher at Lowell observatory in northern
+Arizona) had started noticing a tight correlation between distances
+and velocities measured through redshifts. Specifically George
+Lemaitre in a paper published in French on a Belgian journal had
+stated what is now known as the Hubble (or Hubble-Lemaitre) law:
 #+begin_latex
 \begin{equation}
 \label{eq:hubble_law}
