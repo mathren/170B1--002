@@ -232,16 +232,33 @@ Hubble-Lemaitre) law:
 #+begin_latex
 \begin{equation}
 \label{eq:hubble_law}
- v = HD
+ v = H_{0}D
 \end{equation}
 #+end_latex
 which states that the velocity $v$ of a galaxy relative to the MW is
 proportional to its distance $D$, and the proportionality constant $H$
 is *the same in every direction*.
 
+*N.B.:* Because $v$ is measured
+spectroscopically through Doppler shifts, it is /only/ the component of
+the velocity vector away/towards the observer!
+
 This is a strong hint that the universe is /homogeneous/ on large
 scales: we are like one raisin in the raisin cake which sees the
 farthest raising moving faster!
+
+In practice, today, we typically measure $v$ (e.g., from a /JWST/
+spectrum!) and use Eq. \ref{eq:hubble_law} to determine the distance
+$D$. Complication arise because galaxies are not only "dragged" by the
+cosmological expansion of the Universe, but they also have "local"
+motion within their galaxy cluster that add to it: they don't follow
+perfectly the relation of Eq. \ref{eq:hubble_law}!
+
+Moreover, in the past 100 years, more than one method to measure $H_{0}$
+have been used, and there is a long-standing discrepancy which causes
+uncertainty in the correct present-day value of this constant.
+
+*** Age of the Universe
 
 Moreover, this also allows to work back in time to give an age to the
 Universe as a whole! $v=L/t=HD$ so taking $L=D$, that is looking at
@@ -251,7 +268,7 @@ get $H=1/t$ related to the age of the Universe - which now must have a
 
 ** Naming of constants and giving credit in the scientific literature
 
-The constant $H$ was called "Hubble constant" to credit his 1929
+The constant $H_{0}$ was called "Hubble constant" to credit his 1929
 paper. However, we have seen already cases where similar ideas
 germinate in multiple people's head at roughly the same time ([[file:notes-lecture-14-planetary-atmospheres.org::*Greenhouse gas molecules][e.g.,
 the discovery that CO_{2} has a high IR opacity]], or Hilbert and
