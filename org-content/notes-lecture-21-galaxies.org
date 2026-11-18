@@ -165,7 +165,7 @@ transient astrophysical sources related to massive stars.
 ** Lenticular
 This is an intermediate class between spiral and elliptical: they are
 disk-y galaxies, but with oversized bulges and no spiral arms. They
-tend to be dust rich and may be a transitional class.
+tend to be dust rich.
 
 #+CAPTION: Example of lenticular galaxy NGC4886.
 [[./images/NGC4886.jpeg]]
