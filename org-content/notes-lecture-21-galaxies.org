@@ -49,7 +49,7 @@ elements of volume and as a function of their $M_{\star}$ on the x-axis for
 one spherical shell of the Universe centered around us:
 
 #+CAPTION: /JWST/ galaxy mass function for different slices of the Universe (each color correspond to a certain spherical shell of the Universe, labeled by the redshift $z$). Note the log-log scale.
-#+ATTR_HTML: :width 50%
+#+ATTR_HTML: :width 75%
 [[file:images/gal_density.png]]
 
 Black curves are closer to us: anywhere in the Universe, small
@@ -71,7 +71,7 @@ rate density per unit time:
 
 #+begin_latex
 \begin{equation}
- \mathcal{R} = \frac{\# \ events}{Galaxy}\times \frac{\# Galaxies}{Volume} \ \ .
+ \mathcal{R} = \frac{\# \ \mathrm{events}}{\mathrm{Galaxy}\times \mathrm{time}}\times \frac{\# \mathrm{Galaxies}}{\mathrm{Volume}} \ \ .
 \end{equation}
 #+end_latex
 
@@ -87,6 +87,7 @@ training set for machine learning classifications, but also provided
 unexpected discoveries, such as green pea galaxies.
 
 #+CAPTION: "Green pea" galaxies are spherical in shape, green in color, and usually very isolated: the current thinking is that these may be neaby analogs of the galaxies that caused the reionizatin of the Universe.
+#+ATTR_HTML: :width 75%
 [[./images/GP.jpg]]
 
 This shows two things:
