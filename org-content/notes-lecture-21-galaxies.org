@@ -230,9 +230,8 @@ dynamics in a galaxy.
 
 After using Leavitt's laws to measure the distance to Andromeda (M31)
 and resolving the great-debate on the size of the Universe in favor of
-Curtis and the existence of "isolated island universes" which we refer
-to as galaxies, Hubble started measuring the distances to all nebulae
-he could find.
+Curtis and the existence of "isolated island universes"/galaxies,
+Hubble started measuring the distances to all nebulae he could find.
 
 The Cepheids used in M31 could not really help for larger distances,
 and Hubble had to come up with experimental methods, which today have
