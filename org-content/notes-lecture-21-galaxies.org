@@ -289,11 +289,12 @@ $\lambda_{\rm rest}$ to measure $z$:
 #+CAPTION: Original diagram from [[https://scixplorer.org/abs/1929PNAS...15..168H/abstract][Hubble 1929]]. The x-axis is actually wrong and underestimated, and the fit (line calculated based on the point) is not very good, but this still made the "Hubble law" famous. It was later confirmed (changing the value of the constant $H$) with better data and data analysis.
 [[file:images/hubble_law.png]]
 
-Several people (including Slipher at Lowell observatory in northern
-Arizona) had started noticing a tight correlation between distances
-and velocities measured through redshifts. Specifically George
-Lemaitre in a paper published in French on a Belgian journal had
-stated what is now known as the Hubble (or Hubble-Lemaitre) law:
+Several people (including [[https://en.wikipedia.org/wiki/Vesto_Slipher][Vesto Slipher]] at Lowell observatory in
+northern Arizona and [[https://en.wikipedia.org/wiki/Carl_Wilhelm_Wirtz][Carl Wirtz]] in Germany) had started noticing a
+tight correlation between distances and velocities measured through
+redshifts. George Lemaitre in a paper published in French on a Belgian
+journal had stated what is now known as the Hubble (or
+Hubble-Lemaitre) law:
 #+begin_latex
 \begin{equation}
 \label{eq:hubble_law}
@@ -347,11 +348,11 @@ also used to derive the same equation Eq. \ref{eq:hubble_law} in a
 publication in French in 1927. Lemaitre himself translated his work in
 English, but did not bother to translate the paragraph about Eq.
 \ref{eq:hubble_law}, suggesting he did not consider this a crucial
-contribution. Friedmann in 1922 had already derived theoretical models
-for an expanding Universe: that this was a possibility was "hanging in
-the air" in the community at the time, and data being collected slowly
-grew the empirical evidence supporting it. This is a very typical
-process in science.
+contribution. [[https://en.wikipedia.org/wiki/Alexander_Friedmann][Alexander Friedmann]] in 1922 had already derived
+theoretical models for an expanding Universe: that this was a
+possibility was "hanging in the air" in the community at the time, and
+data being collected slowly grew the empirical evidence supporting it.
+This is a very typical process in science.
 
 Despite this clear evidence that credit should never be attributed to
 individuals, because ideas come from the fertile ground of discussions
