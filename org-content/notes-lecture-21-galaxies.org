@@ -110,7 +110,6 @@ gas), an extended halo composed of highly inclined and eccentric
 orbits of mostly old stars dynamically perturbed.
 
 #+CAPTION: Composite image of the "[[https://en.wikipedia.org/wiki/Spiral_arm#/media/File:Messier51_sRGB.jpg][whirpool galaxy]]" or Messier 51 (M51) another example of spiral galaxy, seen face on (galaxies are randomly oriented in the sky).
-#+ATTR_HTML: :width 50%
 [[./images/whirpool.jpg]]
 
 NASA maintains [[https://science.nasa.gov/category/universe/galaxies/spiral-galaxies/][here]] a catalog of composite images of spiral galaxies,
@@ -222,7 +221,7 @@ for math, physics, and science outreach.
 
 ** Hubble-Lemaitre's law
 
-#+CAPTION: Original diagram from Hubble's paper. The x-axis is actually wrong and underestimated, and the fit (line calculated based on the point) is not very good, but this still made the "Hubble law" famous. It was later confirmed (changing the value of the constant $H$) with better data and data analysis.
+#+CAPTION: Original diagram from [[https://scixplorer.org/abs/1929PNAS...15..168H/abstract][Hubble 1929]]. The x-axis is actually wrong and underestimated, and the fit (line calculated based on the point) is not very good, but this still made the "Hubble law" famous. It was later confirmed (changing the value of the constant $H$) with better data and data analysis.
 [[file:images/hubble_law.png]]
 
 Several people (including at Lowell observatory) had started noticing
@@ -232,6 +231,7 @@ on a Belgian journal had stated what is now known as the Hubble (or
 Hubble-Lemaitre) law:
 #+begin_latex
 \begin{equation}
+\label{eq:hubble_law}
  v = HD
 \end{equation}
 #+end_latex
@@ -248,5 +248,46 @@ Universe as a whole! $v=L/t=HD$ so taking $L=D$, that is looking at
 the velocity it takes for the universe to get to its size today, we
 get $H=1/t$ related to the age of the Universe - which now must have a
 *beginning* $1/H$ time units ago, and an *evolution*.
+
+** Naming of constants
+
+The constant $H$ was called "Hubble constant" to credit his 1929
+paper. However, we have seen already cases where similar ideas
+germinate in multiple people's head at roughly the same time ([[file:notes-lecture-14-planetary-atmospheres.org::*Greenhouse gas molecules][e.g.,
+the discovery that CO_{2} has a high IR opacity]], or Hilbert and
+Einstein publishing a "geometric theory of gravity" -- general
+relativity -- one week apart).
+
+The very same thing happened for the measurements of the expansion of
+the Universe: Hubble used data already collected before at Lowell
+Observatory (in northern Arizona) by Slipher, which George Lemaitre
+also used to derive the same equation Eq. \ref{eq:hubble_law} in a
+publication in French in 1927. Lemaitre himself translated his work in
+English, but did not bother to translate the paragraph about Eq.
+\ref{eq:hubble_law}, suggesting he did not consider this a crucial
+contribution. Friedmann in 1922 had already derived theoretical models
+for an expanding Universe: that this was a possibility was "hanging in
+the air" in the community at the time, and data being collected slowly
+grew the empirical evidence supporting it. This is a very typical
+process in science.
+
+Despite this clear evidence that credit should never be attributed to
+individuals, because ideas come from the fertile ground of discussions
+among members of a community, in 2019 the IAU had a whole discussion
+on whether we should rename $H$ as the Hubble-Lemaitre constant.
+Personally, I think this was a missed opportunity to give a
+/descriptive/ name untied to the personalities -- which is always
+preferable.
+
+
+#+CAPTION: Portrait of George Lemaitre, who was a cosmologist at KU Leuven and a catholic priest.
+#+ATTR_HTML: :width 50%
+[[./images/Lemaitre.jpg]]
+
+#+CAPTION: Picture of Edwin Hubble observing through an eyepiece at Mount Wilson observatory.
+#+ATTR_HTML: :width 50%
+[[./images/Hubble.jpg]]
+
+
 
 * Cosmological principle
