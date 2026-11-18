@@ -26,6 +26,12 @@ of studying galaxies in the early Universe.
 with a bigger mirror, so it can outcompete /HST/ optical and UV sensors
 in a shorter exposure time.
 
+These /deep fields/ of photometric space-based observations revealed a
+plethora of faint galaxies! The area in the tilted square in the image
+above is of size comparable to the projection of your thumb at arm
+length onto the celestial sphere!
+
+
 ** Galaxy density
 
 Based on observations like these (but typically performed on a wider
@@ -251,7 +257,8 @@ where $\lambda_{\rm obs}$ is the wavelength /observed/ for a known transition
 which in a lab has wavelength $\lambda_{\rm rest}$. Often $z$ is used instead
 of $t$ or distances in extragalactic and cosmological studies, since
 it is a direct spectroscopic observable, while the others need a model
-of cosmology to be obtained from the observables.
+of cosmology to be obtained from the observables. See for examples the
+colors in Fig. 2 above.
 
 Note that typically all the lines from a given source will have the
 same redshift: one can use more than one specific transition of known
