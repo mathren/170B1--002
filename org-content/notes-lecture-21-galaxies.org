@@ -273,7 +273,7 @@ process in science.
 
 Despite this clear evidence that credit should never be attributed to
 individuals, because ideas come from the fertile ground of discussions
-among members of a community, in 2019 the IAU had a whole discussion
+among members of a community, in 2019 the [[https://web.archive.org/web/20190330010355/https://www.iau.org/news/pressreleases/detail/iau1812/?lang][IAU had a whole discussion]]
 on whether we should rename $H$ as the Hubble-Lemaitre constant.
 Personally, I think this was a missed opportunity to give a
 /descriptive/ name untied to the personalities -- which is always
