@@ -219,6 +219,24 @@ by the youtube channel 3b1b (three blue one brown) with guest host the
 mathematician Terrence Tao. In general this channel is a good resource
 for math, physics, and science outreach.
 
+*** Redshift
+This is a /descriptive/ term of what happens to the central frequency of
+an atomic/ionic transition (whose energy is fixed, and so also
+frequency \nu of the photons produced at de-excitation/absorbed at
+excitation), and formally it is defined as:
+
+#+begin_latex
+\begin{equation}
+z = \frac{\lambda_{\rm obs} - \lambda_{\rm rest}}{\lambda_{\rm rest}} \ \ ,
+\end{equation}
+#+end_latex
+
+where $\lambda_{\rm obs}$ is the wavelength /observed/ for a known transition
+which in a lab has wavelength $\lambda_{\rm rest}$. Often $z$ is used instead
+of $t$ or distances in extragalactic and cosmological studies, since
+it is a direct spectroscopic observable, while the others need a model
+of cosmology to be obtained from the observables.
+
 ** Hubble-Lemaitre's law
 
 #+CAPTION: Original diagram from [[https://scixplorer.org/abs/1929PNAS...15..168H/abstract][Hubble 1929]]. The x-axis is actually wrong and underestimated, and the fit (line calculated based on the point) is not very good, but this still made the "Hubble law" famous. It was later confirmed (changing the value of the constant $H$) with better data and data analysis.
