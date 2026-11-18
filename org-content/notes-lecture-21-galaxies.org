@@ -286,7 +286,7 @@ $\lambda_{\rm rest}$ to measure $z$:
 
 ** Hubble-Lemaitre's law
 
-#+CAPTION: Original diagram from [[https://scixplorer.org/abs/1929PNAS...15..168H/abstract][Hubble 1929]]. The x-axis is actually wrong and underestimated, and the fit (line calculated based on the point) is not very good, but this still made the "Hubble law" famous. It was later confirmed (changing the value of the constant $H$) with better data and data analysis.
+#+CAPTION: Original diagram from [[https://scixplorer.org/abs/1929PNAS...15..168H/abstract][Hubble 1929]]. The x-axis is actually wrong and underestimated, and the fit (line calculated based on the point) is not very good, but this still made the "Hubble law" famous. It was later confirmed (changing the value of the constant $H_{0}$) with better data and data analysis.
 [[file:images/hubble_law.png]]
 
 Several people (including [[https://en.wikipedia.org/wiki/Vesto_Slipher][Vesto Slipher]] at Lowell observatory in
