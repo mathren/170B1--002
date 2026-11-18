@@ -77,8 +77,10 @@ rate density per unit time:
 \end{equation}
 #+end_latex
 
+A useful number is the density of "Milkyway-equivalent galaxies" in
+the local Universe, which is \sim10^{7} Gpc^{-3}.
 
-* Galaxy zoo
+* The Galaxy zoo
 Galaxies exhibit a diverse set of morphological properties, in terms
 of their shape, size, and colors, as you can see from the collection
 of NASA images classified by galaxy type [[https://science.nasa.gov/universe/galaxies/types/#intro][here]].
