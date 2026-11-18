@@ -85,12 +85,12 @@ Galaxies exhibit a diverse set of morphological properties, in terms
 of their shape, size, and colors, as you can see from the collection
 of NASA images classified by galaxy type [[https://science.nasa.gov/universe/galaxies/types/#intro][here]].
 
-The [[https://zoo4.galaxyzoo.org/][Galaxy zoo]] project is an ongoing citizen-scientist effort to crowd
-source the visual classification of galaxies: this was used to label
-training set for machine learning classifications, but also provided
-unexpected discoveries, such as green pea galaxies.
+The [[https://zoo4.galaxyzoo.org/][Galaxy zoo]] project was an ongoing citizen-scientist effort to
+crowd source the visual classification of galaxies: this was used to
+label training set for machine learning classifications, but also
+provided unexpected discoveries, such as green pea galaxies.
 
-#+CAPTION: "Green pea" galaxies are spherical in shape, green in color, and usually very isolated: the current thinking is that these may be neaby analogs of the galaxies that caused the reionizatin of the Universe.
+#+CAPTION: "Green pea" galaxies are spherical in shape, green in color, and usually very isolated: the current thinking is that these may be neaby analogs of the galaxies that caused the reionization of the Universe.
 #+ATTR_HTML: :width 75%
 [[./images/GP.jpg]]
 
@@ -108,10 +108,14 @@ This shows two things:
 
 We have already encountered spiral galaxies, the MW is /one/ of them.
 These are big galaxies, with disks containing most ongoing star
-formation, spiral arms that compress the gas (driving the stars
-together until they can trigger the formation of new stars from the
-gas), an extended halo composed of highly inclined and eccentric
-orbits of mostly old stars dynamically perturbed.
+formation, spiral arms that compress the gas, an extended halo
+composed of highly inclined and eccentric orbits of mostly old stars
+dynamically perturbed.
+
+*N.B.:* The compression of the gas by the galaxy is itself insufficient
+to trigger star formation, but it increases the stellar density and
+gas density, allowing for stellar perturbations (e.g., a SN explosion)
+to efficiently trigger the formation of new stars.
 
 #+CAPTION: Composite image of the "[[https://en.wikipedia.org/wiki/Spiral_arm#/media/File:Messier51_sRGB.jpg][whirpool galaxy]]" or Messier 51 (M51) another example of spiral galaxy, seen face on (galaxies are randomly oriented in the sky).
 [[./images/whirpool.jpg]]
