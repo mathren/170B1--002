@@ -107,10 +107,14 @@ This shows two things:
 ** Spiral
 
 We have already encountered spiral galaxies, the MW is /one/ of them.
-These are big galaxies, with disks containing most ongoing star
-formation, spiral arms that compress the gas, an extended halo
-composed of highly inclined and eccentric orbits of mostly old stars
-dynamically perturbed.
+All the features we have described for the MW in the [[./notes-lecture-20-MW.org][previous lecture]]
+can and do appear in other spiral galaxies, although their relative
+sizes and ratios can differ from the MW.
+
+Spiral galaxies are big galaxies, with
+disks containing most ongoing star formation, spiral arms that
+compress the gas, an extended halo composed of highly inclined and
+eccentric orbits of mostly old stars dynamically perturbed.
 
 *N.B.:* The compression of the gas by the galaxy is itself insufficient
 to trigger star formation, but it increases the stellar density and
