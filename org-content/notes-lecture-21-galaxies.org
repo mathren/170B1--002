@@ -217,12 +217,14 @@ Typically the most important feedback sources are:
 While this makes sense from a theory perspective (as these are the
 common and energetic phenomena occurring in a galaxy), we also have
 empirical evidence for this in the form of relatively tight
-correlations between galaxy and SMBH properties.
+correlations between galaxy and SMBH properties. This correlation
+suggests at the very least a co-evolution of SMBH and stellar
+dynamics in a galaxy.
+
+*N.B.:* Note that the $M_{\rm SMBH}(\sigma)$ is plotted on a log-log scale.
 
 #+CAPTION: $M_{\rm SMBH}(\sigma)$ empirical relation between the mass of the supermassive BH in galaxy centers and the "velocity dispersion" $\sigma$, that is the width of the velocity distribution of stars in a galaxy.
 [[./images/Msigma.jpg]]
-
-*N.B.:* Note that the $M_{\rm SMBH}(\sigma)$ is plotted on a log-log scale.
 
 * Distance ladder
 
