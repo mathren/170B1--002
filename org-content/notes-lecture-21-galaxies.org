@@ -200,7 +200,11 @@ classified as:
 #+CAPTION: Schematic representation of the Galaxy classification scheme designed by Hubble.
 [[file:images/hubble_classification.png]]
 
-This was originally thought to be an evolutionary sequence, but /it is not/!
+This was originally thought to be an evolutionary sequence, starting
+from a spherical big cloud (E0 type) collapsing, forming a disk, and
+becoming a spiral galaxy (by analogy with star formation!). But /it is
+not/!
+
 Galaxies are constantly re-shaped by the dynamical perturbations of
 nearby galaxies, mergers, and churning. The inflow and outflows to the
 IGM are regulated by feedback processes by objects within the galaxy.
