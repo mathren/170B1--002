@@ -249,7 +249,7 @@ the velocity it takes for the universe to get to its size today, we
 get $H=1/t$ related to the age of the Universe - which now must have a
 *beginning* $1/H$ time units ago, and an *evolution*.
 
-** Naming of constants
+** Naming of constants and giving credit in the scientific literature
 
 The constant $H$ was called "Hubble constant" to credit his 1929
 paper. However, we have seen already cases where similar ideas
