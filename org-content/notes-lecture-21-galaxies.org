@@ -344,6 +344,14 @@ to the question: "expanding into what?"
 #+ATTR_HTML: :width 75%
 [[file:images/raisin_cake.png]]
 
+Another possible analogy is the surface of a balloon inflating (not
+the volume inside the balloon, just the skin):
+
+
+#+CAPTION: The "skin" of a balloon as it is inflated can be a useful analogy to understand why Hubble's law is evidence for an expanding homogeneous universe.
+#+ATTR_HTML: :width 50%
+[[file:images/baloon_cosmology.png]]
+
 
 This is /not/ a well posed question: the Universe /is/ the whole
 space-time continuum, it is /not contained/ in anything! While the
