@@ -354,6 +354,11 @@ possibility was "hanging in the air" in the community at the time, and
 data being collected slowly grew the empirical evidence supporting it.
 This is a very typical process in science.
 
+Presumably, Hubble was not aware of these works -- in fact, his 1929
+paper does not cite any of them, but he was definitely aware that the
+community was discussing the issue of a correlation between distances
+and velocity of the nebulae (see his introduction paragraph!).
+
 Despite this clear evidence that credit should never be attributed to
 individuals, because ideas come from the fertile ground of discussions
 among members of a community, in 2019 the [[https://web.archive.org/web/20190330010355/https://www.iau.org/news/pressreleases/detail/iau1812/?lang][IAU had a whole discussion]]
