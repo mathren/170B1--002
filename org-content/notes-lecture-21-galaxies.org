@@ -179,7 +179,8 @@ pair.
 
 *N.B.:* many pictures of galaxies are labeled as NGCxxxx. This is the
 "New Galaxy Catalog", a modern version of the Messier catalog of
-nebular (extended) sources from the 20^{th} century.
+nebular (extended) sources from the 20^{th} century, and it can be freely
+explored [[https://spider.seds.org/ngc/ngc.html][here]].
 
 * Hubble Galaxy classification scheme
 
