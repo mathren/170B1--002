@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2026-11-23 Mon 11:11 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ASTR170 SMBH &amp; AGN</title>
+<meta name="author" content="Mathieu Renzo" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="./css/style.css" />
+<link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.min.css">
+<meta name="keywords" content="Mathieu, Renzo, Mathieu Renzo,
+			       stellar evolution, ASTR170B1, University of
+			       Arizona, Steward Observatory">
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<div id="preamble" class="status">
+<!-- Preamble -->
+<!-- The header -->
+<div class="header">
+
+  <!-- The site name -->
+  <div class="site-name">
+    <a id="top" href="./index.html">ASTR170B1</a>
+  </div>
+
+  <!-- The hamburger -->
+  <div class="hamburger">
+    <div id="myLinks" class="menu">
+      <a href="./index.html">Home</a>
+      <a href="./syllabus170B1.html">Syllabus</a>
+      <a href="./access_howto.html">How to</a>
+      <a href="./schedule.html">Schedule</a>
+      <!-- <a href="./projects.html">Projects</a> -->
+    </div>
+    <a  href="javascript:void(0);" class="icon" onclick="HamburgerMenuFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="navbar">
+    <a href="./syllabus170B1.html">Syllabus</a>
+    <a href="./access_howto.html">How to access</a>
+    <a href="./schedule.html">Schedule</a>
+    <!-- <a href="./projects.html">Projects</a> -->
+  </div>
+</div>
+
+<!-- scripts -->
+<!-- menu  -->
+<script>
+  function HamburgerMenuFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+	  x.style.display = "none";
+      } else {
+	  x.style.display = "block";
+      }
+  }
+</script>
+
+<!-- toggle drawers -->
+<script>
+  function toggleDrawer(id) {
+      const drawer = document.getElementById(id);
+      drawer.style.display = drawer.style.display === "none" ? "block" : "none";
+  }
+</script>
+
+<!-- toggle dark mode -->
+<script>
+  window.onload = () => {
+      const toggleButton = document.getElementById("light-dark-toggle");
+      const body = document.body;
+      const html = document.documentElement;
+
+
+      // Check localStorage for user preference
+      if (localStorage.getItem("theme") === "dark") {
+          body.classList.add("dark-mode");
+	  html.classList.toggle("dark-mode");
+      }
+
+      // Toggle theme on click
+      toggleButton.addEventListener("click", () => {
+          body.classList.toggle("dark-mode");
+  html.classList.toggle("dark-mode");
+
+          // Save user preference
+          if (body.classList.contains("dark-mode")) {
+              localStorage.setItem("theme", "dark");
+          } else {
+              localStorage.setItem("theme", "light");
+          }
+      });
+  };
+</script>
+<!-- end scripts-->
+</div>
+<div id="content" class="content">
+<p>
+<b>Reading</b>: Chapter S2, 20, 21
+</p>
+<div id="outline-container-recap-and-aims-of-this-lecture" class="outline-2">
+<h2 id="recap-and-aims-of-this-lecture"><a href="#recap-and-aims-of-this-lecture">Recap and aims of this lecture</a></h2>
+<div class="outline-text-2" id="text-org-element-1">
+<p>
+We have seen that <a href="https://science.nasa.gov/universe/galaxies/types/">galaxies come in many shapes</a>, they are typically out
+of dynamical equilibrium because of the constant perturbations by
+nearby galaxies in their host galaxy cluster.
+</p>
+
+<p>
+Typically the vast majority of their mass is in the form of "dark
+matter", which forms a (as far as we know) <i>spherical</i> halo much bigger
+than the galaxy itself.
+</p>
+
+<p>
+We have seen that in the center of the MW (the galaxy that hosts the
+solar system), there is a "supermassive BH" (SMBH) called Sag A<sup>*</sup>, with
+mass \(M\simeq4\times10^{6}\,M_{☉}\).
+</p>
+
+
+<figure id="org-element-2">
+<img src="./images/EHT_sagastar.jpg" alt="EHT_sagastar.jpg" width="50%">
+
+<figcaption><span class="figure-number">Figure 1: </span>EHT radio-interferometry image of Sag A<sup>*</sup>.</figcaption>
+</figure>
+
+<p>
+This was first <i>inferred</i> from the Keplerian motion of stars in the
+innermost part of the galaxy, which constrain the total mass and the
+maximum extent of this mass distribution. Later, the tenuous accretion
+disk around it was resolved through radio-interferometry by EHT.
+</p>
+
+<p>
+Sag A<sup>*</sup> was actually the <i>second</i> SMBH imaged by EHT, after they released
+this image of the accretion disk and the shade of the BH in the galaxy
+M87 (one of the 110 objects in the Messier catalog!):
+</p>
+
+
+<figure id="org-element-3">
+<img src="./images/M87EHT.webp" alt="M87EHT.webp" width="100%">
+
+<figcaption><span class="figure-number">Figure 2: </span>Right: X-ray image of the center of the galaxy M87. Left: zoom-in with the EHT radio-interferometry.</figcaption>
+</figure>
+
+<p>
+These two SMBH and host galaxies (MW and M87) can both be imaged by
+EHT: the resolution it can achieve is of &sim;25 &mu; arcsecond (recall <a href="notes-lecture-02-scale.html#org-element-4">1
+arcsec = 1/60 arcminutes and 1 arcminute = 1/60 degrees</a>). In the MW,
+Sag A<sup>*</sup> has a mass of \(4\times10^{6}\,M_{☉}\) and distance of \(D\sim 8\,\mathrm{kpc}\),
+while M87 has a much more massive BH of \(6\times10^{9}\,M_{☉}\) and is at a
+distance of \(D\sim16\,000\,\mathrm{kpc}\).
+</p>
+
+<p>
+The ratio \(M_{\rm SMBH}/D\sim 0.5\times10^{3} M_{☉} \mathrm{pc}^{-1}\) is the same for both
+these objects! We will see below that the radius of a BH is
+proportional to it's mass, so \(M_{\rm SMBH}/D\propto R_{\rm SMBH}/D\): Sag A<sup>*</sup> and
+M87 SMBH have the same angular size on the sky, making them both
+viable targets for EHT.
+</p>
+</div>
+</div>
+<div id="outline-container-what-is-a-black-hole" class="outline-2">
+<h2 id="what-is-a-black-hole"><a href="#what-is-a-black-hole">What is a black hole?</a></h2>
+<div class="outline-text-2" id="text-org-element-5">
+<p>
+Until the &sim; late 1960s, BHs were thought to be a "mathematical
+curiosity", a particular solution of Einstein's equations that
+describe gravity beyond the Newtonian model, with general relativity
+(GR).
+</p>
+</div>
+<div id="outline-container-the-core-idea-of-general-relativity" class="outline-3">
+<h3 id="the-core-idea-of-general-relativity"><a href="#the-core-idea-of-general-relativity">The core idea of general relativity</a></h3>
+<div class="outline-text-3" id="text-org-element-6">
+<p>
+We cannot derive here GR, but we can focus on the key point that
+conceptually updates Newton's law of gravity. In Newtonian gravity
+<i>space-time</i> is a fixed structure in which gravity can propagate at
+infinite speed: if you remove the Sun, immediately the Earth lacks the
+centripetal gravitational pull to stay on its orbit and is launched
+along the tangent.
+</p>
+
+<p>
+Einstein (in his "annus mirabilis" 1905) showed however that he could
+derive all laws of electromagnetism in vacuum <i>postulating</i> that the
+speed of light in vacuum is the maximum speed for the propagation of
+information (e.g., the info that the Sun is still there pulling the
+Earth onto its orbit): this means Newtonian gravity is fundamentally
+incompatible with <i>special relativity</i>, the theory that correctly
+describes the dynamics of objects approaching the speed of light.
+</p>
+
+<p>
+In 1916, Einstein (and shortly after Hilbert &#x2013; no lone geniuses, but
+an active and debating community!) published his theory of <i>general
+relativity</i> that fixes this problem.
+</p>
+
+<p>
+In this picture, gravity is actually an "apparent force" due to the
+<i>curvature of space-time</i> (much like the centrifugal force in a rotating
+frame arising because the frame is not inertial): the Earth orbit's
+the Sun not because of it's attraction working as a centripetal force,
+but because the Sun's mass curves space time around it and the Earth
+is trying to "go straight on a curved surface", like the interior of a
+bowl!
+</p>
+
+
+<figure id="org-element-7">
+<img src="./images/space-time-curv.jpg" alt="space-time-curv.jpg" width="100%">
+
+<figcaption><span class="figure-number">Figure 3: </span>Space-time represented as a 2D plane (green grid) deformed by the massive object (the Sun): the deformed "shape" of space-time causes straight lines to "bend" acting like if there were a centripetal force.</figcaption>
+</figure>
+
+<p>
+Like any good <i>new</i> theory of something well understood empirically, GR
+reduces for small masses and low velocities to Newtonian gravity, and
+<i>extends</i> it to a new framework for large masses and speeds close to the
+speed of light. Einstein's field equation describes <i>how masses bend
+space-time</i> and at the same time <i>how space-time imposes to free-falling
+masses to move</i> (i.e., how masses only under the influence of gravity
+move):
+</p>
+
+<div class="latex" id="org-element-8">
+\begin{equation}\label{eq:einstein_eq}
+ \mathrm{Space-time\ curvature} \Leftrightarrow \mathrm{Mass\ distribution} \ \ .
+\end{equation}
+
+</div>
+</div>
+</div>
+<div id="outline-container-black-holes" class="outline-3">
+<h3 id="black-holes"><a href="#black-holes">Black holes</a></h3>
+<div class="outline-text-3" id="text-org-element-9">
+<p>
+One week only after Einstein's publication, Karl Schwarzschild, from a
+hospital bed during WWI, published solutions to Einstein's equation
+for a spherically symmetric space time around a point mass.
+</p>
+
+<p>
+<b>N.B.:</b> The assumption of spherical symmetry helps in the calculations!
+Schwarzschild looked for the simplest solution possible first!
+</p>
+
+<p>
+What he found is that there is a region of space around a mass with
+radius \(r_{g} = \frac{GM}{c^{2}}\) such that it would take infinite energy
+for an object within this region to escape the gravity of the mass
+\(M\). In other word, the <i>escape velocity</i> from within this region is
+faster than \(c\) and no object/information can reach it! This means not
+even photons can escape this region, and thus the name "black hole".
+</p>
+
+<p>
+<b>N.B.:</b> far away from this, \(r\gg r_{g}\) the space-time of Schwarzschild's
+solution becomes the "flat" spacetime of Newtonian gravity as
+expected.
+</p>
+
+
+<figure id="org-element-10">
+<img src="./images/BHinfographic.jpg" alt="BHinfographic.jpg" width="100%">
+
+<figcaption><span class="figure-number">Figure 4: </span>Infographic on a BHs.</figcaption>
+</figure>
+
+
+<p>
+So technically, <i>inside</i> a BH matter (but \(E=m\gamma c^{2}\), so all energy)
+falls towards the center, where "space-time" is "punctured" in GR.
+This singularity has \(r\rightarrow0\) and \(\rho\rightarrow+\infty\): the appearance of an infinite
+density suggests that interactions other than gravity will start to
+play a role: to treat the physics at the singularity we need a model
+of <i>gravity</i> (described by GR) <b>and</b> the other forces (described by
+quantum mechanics, QM). These two are still separate field without a
+synthesis between them: ultimately this suggests that \(\rho\rightarrow+\infty\) is a
+symptom that we cannot ignore QM anymore but we don't have a better
+theory to use.
+</p>
+
+<p>
+At the even of horizon though (the surface that has escape velocity
+\(c\)) nothing physically special is happening: if you were passing
+through the event of horizon, <b>you</b> wouldn't notice anything special (a
+part from the fact that the gas around you is getting very hot, and
+gravity is stretching you, these things were happening at \(r_{g}+\varepsilon\) and
+will continue at \(r_{g}-\varepsilon\) for small distances \(\varepsilon\)).
+</p>
+
+
+
+
+<p>
+<b>N.B.:</b> from 1916 (Einstein's first paper and Schwarzschild solution
+of the equations), it took &sim;40 years for Roy Kerr to find a second
+solution, for a spacetime around a "rotating" point mass in 1963.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-how-to-detect-a-bh" class="outline-2">
+<h2 id="how-to-detect-a-bh"><a href="#how-to-detect-a-bh">How to detect a BH</a></h2>
+<div class="outline-text-2" id="text-how-to-detect-a-bh">
+</div>
+<div id="outline-container-high-energy-emission-from-infalling-gas" class="outline-3">
+<h3 id="high-energy-emission-from-infalling-gas"><a href="#high-energy-emission-from-infalling-gas">High-energy emission from infalling gas</a></h3>
+</div>
+<div id="outline-container-orbital-motion-of-stars" class="outline-3">
+<h3 id="orbital-motion-of-stars"><a href="#orbital-motion-of-stars">Orbital motion of stars</a></h3>
+<div class="outline-text-3" id="text-org-element-11">
+<p>
+Used for the SMBH in the MW, but also for <i>Gaia</i> BHs
+</p>
+</div>
+</div>
+<div id="outline-container-gravitational-waves" class="outline-3">
+<h3 id="gravitational-waves"><a href="#gravitational-waves">Gravitational-waves</a></h3>
+<div class="outline-text-3" id="text-gravitational-waves">
+</div>
+<div id="outline-container-merger-of-two-stellar-mass-bhs" class="outline-4">
+<h4 id="merger-of-two-stellar-mass-bhs"><a href="#merger-of-two-stellar-mass-bhs">merger of two stellar-mass BHs</a></h4>
+</div>
+<div id="outline-container-future-lisa-pulsar-timing-arrays-for-smbh" class="outline-4">
+<h4 id="future-lisa-pulsar-timing-arrays-for-smbh"><a href="#future-lisa-pulsar-timing-arrays-for-smbh">Future: LISA pulsar timing arrays for SMBH</a></h4>
+</div>
+</div>
+</div>
+<div id="outline-container-bh-mass-distribution" class="outline-2">
+<h2 id="bh-mass-distribution"><a href="#bh-mass-distribution">BH mass distribution</a></h2>
+<div class="outline-text-2" id="text-org-element-12">
+
+<figure id="org-element-13">
+<img src="images/BH_mass_dist.png" alt="BH_mass_dist.png" width="100%">
+
+<figcaption><span class="figure-number">Figure 5: </span>Distribution of observed BH masses: the x-axis does not mean anything here. Red BHs are known through electromagnetic observations and blue through gravitational waves. This is <i>not</i> complete: we also have astrometric BHs detected by <i>Gaia</i>, and soon Roman will reveal hundreds of BHs through lensing.</figcaption>
+</figure>
+</div>
+<div id="outline-container-stellar-mass-bhs" class="outline-3">
+<h3 id="stellar-mass-bhs"><a href="#stellar-mass-bhs">Stellar mass BHs</a></h3>
+</div>
+
+<div id="outline-container-intermediate-mass-bhs" class="outline-3">
+<h3 id="intermediate-mass-bhs"><a href="#intermediate-mass-bhs">Intermediate mass BHs</a></h3>
+</div>
+
+<div id="outline-container-super-massive-bhs" class="outline-3">
+<h3 id="super-massive-bhs"><a href="#super-massive-bhs">Super-massive BHs</a></h3>
+</div>
+</div>
+<div id="outline-container-formation-of-smbh" class="outline-2">
+<h2 id="formation-of-smbh"><a href="#formation-of-smbh">Formation of SMBH</a></h2>
+</div>
+
+<div id="outline-container-little-red-dots" class="outline-2">
+<h2 id="little-red-dots"><a href="#little-red-dots">Little red dots</a></h2>
+</div>
+</div>
+<div id="postamble" class="status">
+<div class="footer">
+  <hr>
+  <a href="#light-dark-toggle"><i id="light-dark-toggle"><i class="fa-solid fa-circle-half-stroke"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="study_guide_midterm2.html"><i class="fa-solid fa-arrow-left" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="#top"><i class="fa-solid fa-arrow-up" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="notes-lecture-21-galaxies.html"><i class="fa-solid fa-arrow-right" style="font-size:16px"></i></a>&emsp;&emsp;&emsp;&emsp;<a href="https://github.com/mathren/170B1--002"><i class="fa-brands fa-github" style="font-size:16px"></i></a><hr>
+  <br>
+  Last updated on 23 November 2026 <br>
+  Made with Emacs 30.1 - Org mode 9.7.11
+  <br>
+</div>
+</div>
+</body>
+</html>

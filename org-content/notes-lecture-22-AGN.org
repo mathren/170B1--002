@@ -4,7 +4,7 @@
 #+PREVIOUS_PAGE: study_guide_midterm2.org
 #+NEXT_PAGE: notes-lecture-21-galaxies.org
 
-*Reading*: Chapter 20, 21
+*Reading*: Chapter S2, 20, 21
 
 # Top hat questions
 
@@ -52,6 +52,103 @@ M87 SMBH have the same angular size on the sky, making them both
 viable targets for EHT.
 
 * What is a black hole?
+Until the \sim late 1960s, BHs were thought to be a "mathematical
+curiosity", a particular solution of Einstein's equations that
+describe gravity beyond the Newtonian model, with general relativity
+(GR).
+
+** The core idea of general relativity
+We cannot derive here GR, but we can focus on the key point that
+conceptually updates Newton's law of gravity. In Newtonian gravity
+/space-time/ is a fixed structure in which gravity can propagate at
+infinite speed: if you remove the Sun, immediately the Earth lacks the
+centripetal gravitational pull to stay on its orbit and is launched
+along the tangent.
+
+Einstein (in his "annus mirabilis" 1905) showed however that he could
+derive all laws of electromagnetism in vacuum /postulating/ that the
+speed of light in vacuum is the maximum speed for the propagation of
+information (e.g., the info that the Sun is still there pulling the
+Earth onto its orbit): this means Newtonian gravity is fundamentally
+incompatible with /special relativity/, the theory that correctly
+describes the dynamics of objects approaching the speed of light.
+
+In 1916, Einstein (and shortly after Hilbert -- no lone geniuses, but
+an active and debating community!) published his theory of /general
+relativity/ that fixes this problem.
+
+In this picture, gravity is actually an "apparent force" due to the
+/curvature of space-time/ (much like the centrifugal force in a rotating
+frame arising because the frame is not inertial): the Earth orbit's
+the Sun not because of it's attraction working as a centripetal force,
+but because the Sun's mass curves space time around it and the Earth
+is trying to "go straight on a curved surface", like the interior of a
+bowl!
+
+#+CAPTION: Space-time represented as a 2D plane (green grid) deformed by the massive object (the Sun): the deformed "shape" of space-time causes straight lines to "bend" acting like if there were a centripetal force.
+[[./images/space-time-curv.jpg]]
+
+Like any good /new/ theory of something well understood empirically, GR
+reduces for small masses and low velocities to Newtonian gravity, and
+/extends/ it to a new framework for large masses and speeds close to the
+speed of light. Einstein's field equation describes /how masses bend
+space-time/ and at the same time /how space-time imposes to free-falling
+masses to move/ (i.e., how masses only under the influence of gravity
+move):
+
+#+begin_latex
+\begin{equation}\label{eq:einstein_eq}
+ \mathrm{Space-time\ curvature} \Leftrightarrow \mathrm{Mass\ distribution} \ \ .
+\end{equation}
+#+end_latex
+
+** Black holes
+One week only after Einstein's publication, Karl Schwarzschild, from a
+hospital bed during WWI, published solutions to Einstein's equation
+for a spherically symmetric space time around a point mass.
+
+*N.B.:* The assumption of spherical symmetry helps in the calculations!
+Schwarzschild looked for the simplest solution possible first!
+
+What he found is that there is a region of space around a mass with
+radius $r_{g} = \frac{GM}{c^{2}}$ such that it would take infinite energy
+for an object within this region to escape the gravity of the mass
+$M$. In other word, the /escape velocity/ from within this region is
+faster than $c$ and no object/information can reach it! This means not
+even photons can escape this region, and thus the name "black hole".
+
+*N.B.:* far away from this, $r\gg r_{g}$ the space-time of Schwarzschild's
+solution becomes the "flat" spacetime of Newtonian gravity as
+expected.
+
+#+CAPTION: Infographic on a BHs.
+[[./images/BHinfographic.jpg]]
+
+
+So technically, /inside/ a BH matter (but $E=m\gamma c^{2}$, so all energy)
+falls towards the center, where "space-time" is "punctured" in GR.
+This singularity has $r\rightarrow0$ and $\rho\rightarrow+\infty$: the appearance of an infinite
+density suggests that interactions other than gravity will start to
+play a role: to treat the physics at the singularity we need a model
+of /gravity/ (described by GR) *and* the other forces (described by
+quantum mechanics, QM). These two are still separate field without a
+synthesis between them: ultimately this suggests that $\rho\rightarrow+\infty$ is a
+symptom that we cannot ignore QM anymore but we don't have a better
+theory to use.
+
+At the even of horizon though (the surface that has escape velocity
+$c$) nothing physically special is happening: if you were passing
+through the event of horizon, *you* wouldn't notice anything special (a
+part from the fact that the gas around you is getting very hot, and
+gravity is stretching you, these things were happening at $r_{g}+\varepsilon$ and
+will continue at $r_{g}-\varepsilon$ for small distances $\varepsilon$).
+
+
+
+
+*N.B.:* from 1916 (Einstein's first paper and Schwarzschild solution
+of the equations), it took \sim40 years for Roy Kerr to find a second
+solution, for a spacetime around a "rotating" point mass in 1963.
 
 
 
@@ -59,7 +156,9 @@ viable targets for EHT.
 ** High-energy emission from infalling gas
 ** Orbital motion of stars
 Used for the SMBH in the MW, but also for /Gaia/ BHs
-** Gravitational-wave merger of two BHs
+** Gravitational-waves
+*** merger of two stellar-mass BHs
+*** Future: LISA pulsar timing arrays for SMBH
 
 * BH mass distribution
 
