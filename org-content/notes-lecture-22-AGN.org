@@ -360,6 +360,24 @@ puzzle, related to the formation of SMBHs (see below).
 
 ** Super-massive BHs
 
+Super-massive ($\ge 10^{6}\,M_{\odot}$) BHs have been first discovered in the
+center of galaxies as /quasars/:
+
+#+CAPTION: Artist impression of a quasar spectrum.
+[[./images/quasar.jpg]]
+
+These are cosmological objects (distances of the order of the size of
+the observable Universe!), and so their light has to filter through a
+large swath of intergalactic clouds, galaxies with their interstellar
+medium, etc, each leaving their absorption imprint on the spectrum.
+
+We now know SMBH can be at the center of large galaxies, and we have
+seen that they probably co-evolve: the SMBH mass and mass of the
+galaxy are tightly correlated across many many orders of magnitude.
+
+#+CAPTION: $M_{\rm SMBH}(\sigma)$ empirical relation between the mass of the supermassive BH in galaxy centers and the "velocity dispersion" $\sigma$, that is the width of the velocity distribution of stars in a galaxy.
+[[./images/Msigma.jpg]]
+
 *** Active Galactic Nuclei
 
 
@@ -370,6 +388,9 @@ puzzle, related to the formation of SMBHs (see below).
 
 * Formation of SMBH
 
+Problem: /JWST/ is finding many massive galaxies and SMBH in the early
+Universe. How can we explain their very rapid growth? And how does
+this relate to the apparent rarity of IMBH?
 
 #+CAPTION: Schematic representation of the possible growth of SMBH from seeds produced by the collapse of the first stars
 [[file:images/IMBH_growth.png]]

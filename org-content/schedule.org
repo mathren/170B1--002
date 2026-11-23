@@ -221,10 +221,13 @@ DEADLINE: Signature assignment, Homework
 
 *** <2026-11-30 Mon> - Cosmology
 # in class attendance
-*** <2026-12-02 Wed> - Cosmology
+*** <2026-12-02 Wed> - lab 3: Large Language Models
 # in class attendance
 # Deadline Homework 13, Assign Homework 14
 DEADLINE: Homework
+
+[[./lab3/Build a language model by hand.html][Lab 3 playground]]
+
 
 ** Week 16: Chapter 13, 24
 
