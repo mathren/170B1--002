@@ -306,7 +306,28 @@ entire galaxy as a detector/ with pulsar timing arrays (PTA).
 #+CAPTION: Pulsar timing allows to probe GW with $\lambda\sim\,\mathrm{kpc}$ by seeing them stretch and compress the space-time between us and a series of pulsars, i.e., NS spread all over the galaxy.
 [[./images/PTA.jpg]]
 
+*** Lensing
+We have already hinted at [[file:notes-lecture-20-MW.org::*Measuring the mass of a galaxy: dark matter][gravitational lensing]] in the context of DM.
+The /Roman/ space telescope, currently on its way to the L2 point behind
+the Earth as seen from the Sun, promised to find 100s of (stellar
+mass) BHs throughout the galaxy thanks to its wide field of view and
+galactic center survey (where the density of stars is highest).
+
+#+CAPTION: Light curve of the microlensing event caused by a stellar-mass BH passing in front of a star, from [[https://scixplorer.org/abs/2022ApJ...933...83S/abstract][Sahu et al. 2022]].
+[[file:images/sahu22_bh.png]]
+
+
+
+
+
 * BH mass distribution
+
+Effectively, has you can infer from the /history/ of BH detection, the
+game is to find objects too massive and compact in radius to /not/ be
+visible.
+
+With a variety of techniques, we are now probing the mass distribution
+of BHs throughout the Universe:
 
 #+CAPTION:Distribution of observed BH masses: the x-axis does not mean anything here. Red BHs are known through electromagnetic observations and blue through gravitational waves. This is /not/ complete: we also have astrometric BHs detected by /Gaia/, and soon Roman will reveal hundreds of BHs through lensing.
 [[file:images/BH_mass_dist.png]]
