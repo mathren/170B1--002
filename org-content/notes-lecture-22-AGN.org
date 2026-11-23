@@ -70,7 +70,9 @@ conceptually updates Newton's law of gravity. In Newtonian gravity
 /space-time/ is a fixed structure in which gravity can propagate at
 infinite speed: if you remove the Sun, immediately the Earth lacks the
 centripetal gravitational pull to stay on its orbit and is launched
-along the tangent.
+along the tangent. This means gravity propagates /faster/ than light
+(which, recall, takes \sim 8 minutes to travel the 150 000 000 million
+kilometers between Earth and Sun).
 
 Einstein (in his "annus mirabilis" 1905) showed however that he could
 derive all laws of electromagnetism in vacuum /postulating/ that the
