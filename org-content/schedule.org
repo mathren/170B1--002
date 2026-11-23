@@ -203,19 +203,19 @@ DEADLINE: Homework, In class exam
 [[./notes-lecture-20-MW.org][Notes]]
 
 *** <2026-11-18 Wed> - Hubble's law
-
+DEADLINE: Homework
 [[./notes-lecture-21-galaxies.org][Notes]]
 
 ** Week 14:
 
 *** <2026-11-23 Mon> - Active Galaxies
 # in class attendance
-# Deadline Homework 12, assign Homework 13
-DEADLINE: Homework
+
+[[./notes-lecture-22-AGN.org][Notes]]
 
 *** <2026-11-25 Wed> - *No Lecture*: Thanksgiving
 # in class attendance
-DEADLINE: Signature assignment
+DEADLINE: Signature assignment, Homework
 
 ** Week 15: Chapter 22, 23; Lab 3
 

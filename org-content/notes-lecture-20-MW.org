@@ -95,7 +95,6 @@ to directly map the phases of galactic evolution!
 of the same physical processes have a great importance from asteroid
 to galaxy scale!
 
-
 * Timeline
 Let's discuss a brief and partial timeline of the shaping of the idea
 of "island Universes" or galaxies:
@@ -596,7 +595,7 @@ M87, and many others!), then the merger can pair the two SMBH in a
 binary, which can emit gravitational waves in the millihertz frequency
 range, accessible from space-based observatories.
 
-* Galactic Evolution
+* Galactic evolution
 
 ** Gas cycling: stars in the ISM and galaxies in the IGM
 

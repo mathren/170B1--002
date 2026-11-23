@@ -1,0 +1,77 @@
+#+title: ASTR170 SMBH & AGN
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: study_guide_midterm2.org
+#+NEXT_PAGE: notes-lecture-21-galaxies.org
+
+*Reading*: Chapter 20, 21
+
+# Top hat questions
+
+* Recap and aims of this lecture
+
+We have seen that [[https://science.nasa.gov/universe/galaxies/types/][galaxies come in many shapes]], they are typically out
+of dynamical equilibrium because of the constant perturbations by
+nearby galaxies in their host galaxy cluster.
+
+Typically the vast majority of their mass is in the form of "dark
+matter", which forms a (as far as we know) /spherical/ halo much bigger
+than the galaxy itself.
+
+We have seen that in the center of the MW (the galaxy that hosts the
+solar system), there is a "supermassive BH" (SMBH) called Sag A^{*}, with
+mass $M\simeq4\times10^{6}\,M_{\odot}$.
+
+#+CAPTION: EHT radio-interferometry image of Sag A^{*}.
+#+ATTR_HTML: :width 50%
+[[./images/EHT_sagastar.jpg]]
+
+This was first /inferred/ from the Keplerian motion of stars in the
+innermost part of the galaxy, which constrain the total mass and the
+maximum extent of this mass distribution. Later, the tenuous accretion
+disk around it was resolved through radio-interferometry by EHT.
+
+Sag A^{*} was actually the /second/ SMBH imaged by EHT, after they released
+this image of the accretion disk and the shade of the BH in the galaxy
+M87 (one of the 110 objects in the Messier catalog!):
+
+#+CAPTION: Right: X-ray image of the center of the galaxy M87. Left: zoom-in with the EHT radio-interferometry.
+[[./images/M87EHT.webp]]
+
+These two SMBH and host galaxies (MW and M87) can both be imaged by
+EHT: the resolution it can achieve is of \sim25 \mu arcsecond (recall [[file:notes-lecture-02-scale.org::*Angular distances and size][1
+arcsec = 1/60 arcminutes and 1 arcminute = 1/60 degrees]]). In the MW,
+Sag A^{*} has a mass of $4\times10^{6}\,M_{\odot}$ and distance of $D\sim 8\,\mathrm{kpc}$,
+while M87 has a much more massive BH of $6\times10^{9}\,M_{\odot}$ and is at a
+distance of $D\sim16\,000\,\mathrm{kpc}$.
+
+The ratio $M_{\rm SMBH}/D\sim 0.5\times10^{3} M_{\odot} \mathrm{pc}^{-1}$ is the same for both
+these objects! We will see below that the radius of a BH is
+proportional to it's mass, so $M_{\rm SMBH}/D\propto R_{\rm SMBH}/D$: Sag A^{*} and
+M87 SMBH have the same angular size on the sky, making them both
+viable targets for EHT.
+
+* What is a black hole?
+
+
+
+* How to detect a BH
+** High-energy emission from infalling gas
+** Orbital motion of stars
+Used for the SMBH in the MW, but also for /Gaia/ BHs
+** Gravitational-wave merger of two BHs
+
+* BH mass distribution
+
+#+CAPTION:Distribution of observed BH masses: the x-axis does not mean anything here. Red BHs are known through electromagnetic observations and blue through gravitational waves. This is /not/ complete: we also have astrometric BHs detected by /Gaia/, and soon Roman will reveal hundreds of BHs through lensing.
+[[file:images/BH_mass_dist.png]]
+
+** Stellar mass BHs
+
+** Intermediate mass BHs
+
+** Super-massive BHs
+
+* Formation of SMBH
+
+* Little red dots

@@ -6,7 +6,6 @@
 
 *Reading*: Chapter 19, 20, 21, [[https://science.nasa.gov/universe/galaxies/types/][NASA library of galaxy images]]
 
-
 * Galaxies other than the MW
 
 #+CAPTION: /JWST/ deep field showing a field of galaxies
@@ -375,7 +374,6 @@ preferable.
 #+CAPTION: Picture of Edwin Hubble observing through an eyepiece at Mount Wilson observatory.
 #+ATTR_HTML: :width 50%
 [[./images/Hubble.jpg]]
-
 
 * Cosmological principle
 
