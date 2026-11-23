@@ -117,6 +117,13 @@ $M$. In other word, the /escape velocity/ from within this region is
 faster than $c$ and no object/information can reach it! This means not
 even photons can escape this region, and thus the name "black hole".
 
+Note that *any mass* compressed sufficiently (so that it is smaller than
+its $r_{g}$) can be a BH! For instance, for the Sun, $r_{g}\sim
+3\,\mathrm{km}$: if you were to compress it from $R_{\odot}\simeq7\times
+10^{10}\,\mathrm{cm}$ below $r_{g}$ it would be a BH. *BHs can have any mass
+in theory*.
+
+
 *N.B.:* far away from this, $r\gg r_{g}$ the space-time of Schwarzschild's
 solution becomes the "flat" spacetime of Newtonian gravity as
 expected.
@@ -143,22 +150,115 @@ part from the fact that the gas around you is getting very hot, and
 gravity is stretching you, these things were happening at $r_{g}+\varepsilon$ and
 will continue at $r_{g}-\varepsilon$ for small distances $\varepsilon$).
 
-
-
-
-*N.B.:* from 1916 (Einstein's first paper and Schwarzschild solution
-of the equations), it took \sim40 years for Roy Kerr to find a second
-solution, for a spacetime around a "rotating" point mass in 1963.
-
-
+*N.B.:* from 1916 (Einstein's first paper and Schwarzschild solution of
+the equations), it took \sim40 years for Roy Kerr to find a second
+solution, for a spacetime around a "rotating" point mass in 1963. Also
+note how BHs are both a theoretical/mathematical playground to study
+gravity in a simple curved space-time, /and/ astrophysical objects of
+interest!
 
 * How to detect a BH
+
+Since there is /nothing/ to see for a BH, until the late 60s they
+remained a theoretical "curiosity".
+
 ** High-energy emission from infalling gas
+However, with the advent of rocket
+powered X-ray observatories, sources of X-ray photons other than the
+Sun started appearing. This required sending the telescopes above the
+Earth's atmosphere, which blocks these short-wavelengths, high-energy
+photons.
+
+#+CAPTION: Position of Cyg X1 (red dot) in the constellation of Cygnus.
+[[./images/Cygnus_const.webp]]
+
+The first source detected was Cyg-X1, and [[https://scixplorer.org/abs/1972Natur.235...37W/abstract?fromADS=true&ads_compat=1][Webster & Murdin 1971]] showed
+this X-ray source was coincident with a particular star suggesting a
+physical association between the star (optical source) and the X-rays.
+[[https://scixplorer.org/abs/1972Natur.235..271B/abstract][Bolton 1972]] used then Kepler laws and geometric arguments (same as for
+the SMBH in the center of the MW 50 years later!) to show that the
+star and X-ray source were indeed a binary system, made of a star, and
+an object that had to be massive and compact (from Kepler laws). If
+the X-ray source were a second star, it should be visible in the
+optical too: this became evidence that it could not be a star and had
+to be a BH.
+
+#+CAPTION: Artist impression of an X-ray binary.
+[[./images/XRB.png]]
+
+The X-rays are produced by gas coming /from the star/ (either its wind,
+or the star is too big to fit the volume of space dominated by its own
+gravity and overflows) and falling /onto/ the BH.
+
+Because this gas in the frame of the binary acquires angular momentum
+(due to the Coriolis force), as it reaches the BH it forms an
+accretion disk, and spirals downward (*N.B.:* if the star was made of DM
+this would not work, because the infalling DM particles could not
+torque each other and exchange energy as a collisional gas). The
+release gravitational potential energy heats up the gas, and remember
+that [[file:notes-lecture-07-light-matter.org::*Thermal radiation][thermal radiation]] peaks at shorter wavelengths/higher energy for
+higher temperatures): the gas becomes so hot that its peak thermal
+emission is in the X-rays.
+
+X-ray binaries became the first astrophysical object /recognized/ as a
+BH: the X-rays that we see come from matter /outside/ the event of
+horizon, in the process of falling into the BH.
+
 ** Orbital motion of stars
-Used for the SMBH in the MW, but also for /Gaia/ BHs
+
+#+CAPTION: Artist impression of VFTS243, the first X-ray quiet astrometric BH, the background is an optical image of the LMC, from [[https://scixplorer.org/abs/2022NatAs...6.1085S/abstract][Shenar et al. 2022]].
+[[file:images/VFTS243_artist.png]]
+
+In 2022, [[https://scixplorer.org/abs/2022NatAs...6.1085S/abstract][Shenar et al.]] used a large spectroscopic campaign to
+characterize the binary orbits of stars in the 30 Doradus region of
+the LMC, and found a X-ray quiet system which could also be
+geometrically constrained to host a BH (much like Cyg X1), ushering
+the era of /astrometric/ detection of BHs, that is not /directly/ seeing
+gas falling in the BH, but inferring its presence from the orbital
+motion of companion stars.
+
+Since the advent of the /Gaia/ space-mission we have expanded this
+method, to include wide orbits where the radial velocity shifts would
+be too small, but that can be resolved by /Gaia/'s astrometric
+precision. This has so far produced 3 stellar-mass BH, with hundreds
+expected with /Gaia/ DR4 in December.
+
+#+CAPTION: Example of orbit reconstruction for a star orbiting an unseen companion
+[[./images/astrometric_orbit.jpg]]
+
+** Orbital motion of gas
+So far, we have talked about methods capable of measuring BHs in the
+stellar-mass range ($M\sim 10-100\,M_{\odot}$). But if you have a much bigger
+BH, $r_{g}\propto M_{\rm BH}$ grows, and if it is large, maybe mass doesn't fall
+that far before getting in the BH, and doesn't heat up all the way to
+producing X-rays!
+
+In fact, the very first ideas of BH predate Einstein, and were
+proposed by Mitchell and Laplace, who in the 18^{th} century proposed
+objects so large that even light could not escape them.
+
+#+CAPTION: Schematic representation of the regions of gas orbiting an SMBH from [[https://scixplorer.org/abs/2018ApJ...863....1C/abstract][Chilingarian et al. 2018]].
+[[./images/BLR.jpg]]
+
+As gas gets closer to the BH (shorter orbital separation $a$), its
+orbital period has to decrease (faster orbit) by Kepler's laws: this
+means taking a spectrum of the central region of a galaxy, which is
+/unresolved/ we will see lines (typically in emission) that are getting
+broader and broader (because of Doppler shifts along the /unresolved/
+orbit) as we get close: from the width of spectral lines we can
+measure BH masses in the center of galaxies!
+
+These spectra were first detected as /quasars/ (= quasi star) and
+interpreted as signatures of accreting SMBH.
+
+
 ** Gravitational-waves
-*** merger of two stellar-mass BHs
+*** Merger of two stellar-mass BHs
 *** Future: LISA pulsar timing arrays for SMBH
+
+
+
+
 
 * BH mass distribution
 
