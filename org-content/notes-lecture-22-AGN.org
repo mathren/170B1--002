@@ -317,9 +317,6 @@ galactic center survey (where the density of stars is highest).
 [[file:images/sahu22_bh.png]]
 
 
-
-
-
 * BH mass distribution
 
 Effectively, has you can infer from the /history/ of BH detection, the
@@ -332,9 +329,34 @@ of BHs throughout the Universe:
 #+CAPTION:Distribution of observed BH masses: the x-axis does not mean anything here. Red BHs are known through electromagnetic observations and blue through gravitational waves. This is /not/ complete: we also have astrometric BHs detected by /Gaia/, and soon Roman will reveal hundreds of BHs through lensing.
 [[file:images/BH_mass_dist.png]]
 
+Understanding this landscape is a primary ongoing goal of the
+community.
+
 ** Stellar mass BHs
+These are the end point of the evolution of massive stars, reaching up
+to \sim100s of solar masses -- I have done some research on the
+most-massive stellar-mass BHs, relevant to present GW detections.
+
+In general, the question of stellar collapse and possible explosion,
+and understanding the formation of these BHs is still open, despite a
+lot of recent progress.
 
 ** Intermediate mass BHs
+We barely see any BHs with masses between $\sim 10^{3}\,M_{\odot}$ and $\sim 10^{6}\,M_{\odot}$.
+These are theorized "intermediate mass BHs".
+
+There have been a few claims, e.g., the detection of ultra-luminous
+X-ray sources. Of these, only one (HLX-1) still stands: for many other
+ULXs /pulsations/ have been found, which implies the existence of a
+solid surface oscillating, and thus /not/ an event of horizon (which is
+not a physical boundary that can oscillate).
+
+#+CAPTION: The yellow circle marks the location of HLX-1, the only possible X-ray source associated to an IMBH.
+[[./images/HLX1.jpg]]
+
+
+The reason for an apparent lack of detection of IMBHs is an open
+puzzle, related to the formation of SMBHs (see below).
 
 ** Super-massive BHs
 
