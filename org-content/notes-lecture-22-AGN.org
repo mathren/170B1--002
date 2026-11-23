@@ -251,14 +251,60 @@ measure BH masses in the center of galaxies!
 These spectra were first detected as /quasars/ (= quasi star) and
 interpreted as signatures of accreting SMBH.
 
-
 ** Gravitational-waves
+Einstein himself derived another consequence of GR initially
+interpreted as a non-physical mathematical curiosity: gravitational
+waves.
+
+If space-time is bent by matter, an oscillating matter distribution
+can generate an oscillating space-time even far away from the
+source (*N.B.:* because of conservation of momentum, this requires a
+quadrupole moment), that is a "gravitational wave".
+
+*N.B.:* Do /not/ confuse this with a /gravity/ wave which is a wave in a
+fluid (e.q., water) where the restoring force is gravity.
+
+In 1975, the discovery of the double pulsar by Hulse and Taylor,
+showed an inspiral consistent with the emission of GWs /indirectly/
+confirming their physical nature ([[https://www.nobelprize.org/prizes/physics/1993/summary/][Nobel in 1993]]), and in 2015 we had
+the first /direct/ detection of GW from a binary black-hole merger!
+
 *** Merger of two stellar-mass BHs
-*** Future: LISA pulsar timing arrays for SMBH
 
+#+CAPTION: Signal detection in two laboratories a speed-crossing-time apart confirming the first BBH GW merger.
+[[./images/GW150914.png]]
 
+GW150914 was the first BBH merger detected in GWs, which:
+- proved the existence of $\sim30\,M_{\odot}$ BHs
+- proved the existence of binary BHs (unknown until then!)
+- proved the direct detectability of GWs
 
+This discovery has the /huge/ implication that now GW provide a
+completely /new/ way to explore the Universe, with the potential of
+being as revolutionary as the invention of telescopes and their
+astronomical application by Galileo had.
 
+We can now not only "see" the Universe but also "hear it", since
+ground-based GW detector operate in the same wavelength range as
+audible sound (but GWs \neq sound waves! they propagate in vacuum unlike
+sound for example).
+
+*** Future of GWs: space-based GW and pulsar timing arrays for SMBH
+In the 2040s, several space-based GW detectors, sensitive to much
+longer wavelengths of GWs are planned.
+
+#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/GUyRKOex7rU?si=suaPbejT14zdwCNa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+The most famous is probably [[https://lisa.nasa.gov/][LISA]], which will be sensitive to binary
+SMBH (e.g., formed by galaxy mergers) and double WDs in the galaxy.
+The first proof-of-concept of the 3 spacecrafts has already been
+successfully launched.
+
+At the same time, the /longest/ GW wavelength can be probed using /the
+entire galaxy as a detector/ with pulsar timing arrays (PTA).
+
+#+CAPTION: Pulsar timing allows to probe GW with $\lambda\sim\,\mathrm{kpc}$ by seeing them stretch and compress the space-time between us and a series of pulsars, i.e., NS spread all over the galaxy.
+[[./images/PTA.jpg]]
 
 * BH mass distribution
 
