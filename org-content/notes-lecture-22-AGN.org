@@ -399,7 +399,7 @@ These are one of the most exciting discoveries by /JWST/ so far: compact
 sources showing broad H\alpha lines, that appear as "little red dots"
 (LRDs). Their current interpretation is very debated.
 
-#+CAPTION: Sample of LRDs from /JWST/: in their rest frame they are blue, but cosmological redshift makes them appear red to us.
+#+CAPTION: Sample of LRDs from /JWST/ from [[https://scixplorer.org/abs/2025ApJ...986..126K][Kocevski et al. 2025]]: in their rest frame they are blue, but cosmological redshift makes them appear red to us.
 [[file:images/LRD.png]]
 
 These are /not/ AGNs: they show no X-rays and little variability. One
