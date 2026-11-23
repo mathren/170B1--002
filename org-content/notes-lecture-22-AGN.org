@@ -360,6 +360,16 @@ puzzle, related to the formation of SMBHs (see below).
 
 ** Super-massive BHs
 
+*** Active Galactic Nuclei
+
+
+*** Blazars
+
+
+*** Little red dots (?)
+
 * Formation of SMBH
 
-* Little red dots
+
+#+CAPTION: Schematic representation of the possible growth of SMBH from seeds produced by the collapse of the first stars
+[[file:images/IMBH_growth.png]]

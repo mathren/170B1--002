@@ -45,3 +45,8 @@ the repository of this website.
 *** Only for students at University of Arizona
 
 Homework assignments and other official communications will be on [[https://d2l.arizona.edu/d2l/home/1802755][D2L]].
+
+
+* Link for lab 3
+
+[[./lab3/Build a language model by hand.html]]
