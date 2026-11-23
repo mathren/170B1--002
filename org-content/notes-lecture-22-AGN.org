@@ -437,9 +437,31 @@ and to kpc scale!)
 #+CAPTION: /HST/ image of M87, we have seen the jet for a long time, EHT confirms this is launched by an SMBH.
 [[./images/M87.jpg]]
 
+Large radio-jets can be used to study the center of galaxies looking
+much farther out!
 
-*** Blazars
+#+CAPTION: Centaurus A is a galaxy with two "wobbling" jets.
+[[./images/centaurusA.jpg]]
 
+Note that the MW is /not/ an AGN galaxy, but it may have been a few
+million years ago: we see bubbles around it (maybe signature of a
+jet), we see very massive stars in the center (maybe signature of
+stellar evolution in a disk), and EHT has found a residual accretion
+disk!
+
+How AGNs turn on/off is still debated and likely depends on the
+coupling of the galaxy with its intergalactic surroundings.
+
+
+**** Blazars: AGNs with jets pointing at the observer
+Galaxies are oriented in a random direction: sometimes an AGN galaxy
+will be face on with the barrel of the jet pointing at Earth: this
+makes them much brighter, and deserving of a special class
+observationally: blazars. These are some of the brightest sources in
+the sky.
+
+#+CAPTION: Artist impression of a blazar
+[[./images/blazar.jpg]]
 
 *** Little red dots (?)
 These are one of the most exciting discoveries by /JWST/ so far: compact
@@ -455,9 +477,6 @@ embedded in a spherical cocoon of gas -- akin to a "quasi-star"
 powered by accretion on the BH (release of gravitational potential)
 and not nuclear reactions.
 
-* BHs and jets
-
-
 * Formation of SMBH
 
 Problem: /JWST/ is finding many massive galaxies and SMBH in the early
@@ -466,3 +485,11 @@ this relate to the apparent rarity of IMBH?
 
 #+CAPTION: Schematic representation of the possible growth of SMBH from seeds produced by the collapse of the first stars
 [[file:images/IMBH_growth.png]]
+
+The question is seed vs. accretion: either there is a way to bypass
+radiation pressure and accrete at arbitrarily high $\dot{M}$ onto a BH
+(surprising but possible), or the first stars have to form very
+massive BHs (IMBH or more) -- which is puzzling given the lack of IMBH
+detections, or the first BHs formed without stars, as primordial BHs
+from fluctuations in the early Universe, or direct collapse BH from
+clouds of gas destabilized by GR.
