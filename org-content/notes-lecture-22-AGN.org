@@ -367,6 +367,12 @@ puzzle, related to the formation of SMBHs (see below).
 Super-massive ($\ge 10^{6}\,M_{\odot}$) BHs have been first discovered in the
 center of galaxies as /quasars/:
 
+#+CAPTION: /HST/ image of a quasar: it's an extremely bright point mass, the spikes are caused by diffraction in the telescope.
+#+ATTR_HTML: :width 75%
+[[file:images/HST_quasar.png]]
+
+
+
 #+CAPTION: Artist impression of a quasar spectrum.
 [[./images/quasar.jpg]]
 
@@ -408,7 +414,11 @@ embedded in a spherical cocoon of gas -- akin to a "quasi-star"
 powered by accretion on the BH (release of gravitational potential)
 and not nuclear reactions.
 
+* BHs and jets
 
+
+#+CAPTION: /HST/ image of M87, we have seen the jet for a long time, EHT confirms this is launched by an SMBH.
+[[./images/M87.jpg]]
 
 * Formation of SMBH
 
