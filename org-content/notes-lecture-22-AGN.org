@@ -395,6 +395,47 @@ gives powerful feedback throughout the galaxy influencing its
 evolution (see also below).
 
 *** Active Galactic Nuclei
+Many central regions of galaxies are very "active", earning them the
+name AGNs. These regions contain a SMBH orbited by a disk of gas: the
+amount of mass available is enormous, and lots of things (many of
+unknown nature) may and do happen in AGNs.
+
+[[https://spt3g.ncsa.illinois.edu/datasets/spt_agn_lightcurves/][Here]] you can find examples of light curves $L(t)$ of some AGNs: as you
+can see, they have many "flares" (these have /nothing/ to do with
+stellar flares, despite the name), many of unexplained causes.
+
+#+CAPTION: Cartoon sketch of stars and stellar-mass BH/NS that could be embedded in the AGN disk.
+[[./images/immortal_stars.png]]
+
+Stars could form inside the disk (and explode as SNe possibly causing
+flares), or they can be "captured" in the disk because of friction.
+These stars embedded in dense gas may evolve differently than normal
+stars, and have many chances to interact with other stars, the AGN
+disk, or compact objects embedded in it: AGN disks are a great
+playground for theorist, because they show a rich and unexplained
+phenomenology, and theorist can hide all sorts of engines in these
+disks.
+
+Recently, the detection of Quasi Periodic Eruptions from AGNs, that is
+quasi-periodic X-ray flares has been interpreted as the signal of a
+star orbiting the SMBH at an inclination w.r.t. the AGN disk and
+periodically smashing into the disk (although this is still very new
+and debated):
+
+#+CAPTION: Example light curves in X-rays of QPE from AGN sources.
+[[./images/QPE.png]]
+
+AGNs can also launch jets (remember that accreting objects receive
+energy from the gravitational potential released by accreted matter,
+we encountered this for [[file:notes-lecture-17-stellar-evo.org::*Star
+formation][young stellar objects]] already!)
+
+These massive jets provide a direct way for the BH to influence its
+host galaxy far beyond $r_{g}$ (*N.B.:* $r_{g}\simeq 10^{-8}$ pc only for a $10^{6}\,M_{\odot}$
+and to kpc scale!)
+
+#+CAPTION: /HST/ image of M87, we have seen the jet for a long time, EHT confirms this is launched by an SMBH.
+[[./images/M87.jpg]]
 
 
 *** Blazars
@@ -416,9 +457,6 @@ and not nuclear reactions.
 
 * BHs and jets
 
-
-#+CAPTION: /HST/ image of M87, we have seen the jet for a long time, EHT confirms this is launched by an SMBH.
-[[./images/M87.jpg]]
 
 * Formation of SMBH
 
