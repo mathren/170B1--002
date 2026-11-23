@@ -51,6 +51,10 @@ proportional to it's mass, so $M_{\rm SMBH}/D\propto R_{\rm SMBH}/D$: Sag A^{*} 
 M87 SMBH have the same angular size on the sky, making them both
 viable targets for EHT.
 
+However, M87 is physically larger, so the timescale for its
+variability is longer (it scales with size/$c$): M87 was easier to
+observe than Sag A^{*}.
+
 * What is a black hole?
 Until the \sim late 1960s, BHs were thought to be a "mathematical
 curiosity", a particular solution of Einstein's equations that
@@ -378,6 +382,12 @@ galaxy are tightly correlated across many many orders of magnitude.
 #+CAPTION: $M_{\rm SMBH}(\sigma)$ empirical relation between the mass of the supermassive BH in galaxy centers and the "velocity dispersion" $\sigma$, that is the width of the velocity distribution of stars in a galaxy.
 [[./images/Msigma.jpg]]
 
+The tentative explanation for this correlation is that the BH at the
+center goes through phases of accretion (e.g., when a cloud of
+baryonic mass falls into a galaxy from the IGM), and this accretion
+gives powerful feedback throughout the galaxy influencing its
+evolution (see also below).
+
 *** Active Galactic Nuclei
 
 
@@ -385,6 +395,20 @@ galaxy are tightly correlated across many many orders of magnitude.
 
 
 *** Little red dots (?)
+These are one of the most exciting discoveries by /JWST/ so far: compact
+sources showing broad H\alpha lines, that appear as "little red dots"
+(LRDs). Their current interpretation is very debated.
+
+#+CAPTION: Sample of LRDs from /JWST/: in their rest frame they are blue, but cosmological redshift makes them appear red to us.
+[[file:images/LRD.png]]
+
+These are /not/ AGNs: they show no X-rays and little variability. One
+promising candidate interpretation is that they are accreting SMBH
+embedded in a spherical cocoon of gas -- akin to a "quasi-star"
+powered by accretion on the BH (release of gravitational potential)
+and not nuclear reactions.
+
+
 
 * Formation of SMBH
 
