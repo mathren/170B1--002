@@ -62,7 +62,7 @@ really these are objects that require a geometric theory of gravity
 (general relativity) to be formalized. Until the \sim late 1960s, BHs
 were thought to be a "mathematical curiosity", a particular solution
 of Einstein's equations that describe gravity beyond the Newtonian
-model, with general relativity (GR).
+model, with no real physical application.
 
 ** The core idea of general relativity
 We cannot derive here GR, but we can focus on the key point that
