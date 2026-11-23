@@ -56,10 +56,13 @@ variability is longer (it scales with size/$c$): M87 was easier to
 observe than Sag A^{*}.
 
 * What is a black hole?
-Until the \sim late 1960s, BHs were thought to be a "mathematical
-curiosity", a particular solution of Einstein's equations that
-describe gravity beyond the Newtonian model, with general relativity
-(GR).
+In the 18^{th} century, [[https://en.wikipedia.org/wiki/John_Michell][John Michell]] and, independently, [[https://en.wikipedia.org/wiki/Pierre-Simon_Laplace][Pierre-Simon
+Laplace]] proposed proto-ideas of what we think of as a BH today, but
+really these are objects that require a geometric theory of gravity
+(general relativity) to be formalized. Until the \sim late 1960s, BHs
+were thought to be a "mathematical curiosity", a particular solution
+of Einstein's equations that describe gravity beyond the Newtonian
+model, with general relativity (GR).
 
 ** The core idea of general relativity
 We cannot derive here GR, but we can focus on the key point that
@@ -469,7 +472,7 @@ sources showing broad H\alpha lines, that appear as "little red dots"
 (LRDs). Their current interpretation is very debated.
 
 #+CAPTION: Sample of LRDs from /JWST/ from [[https://scixplorer.org/abs/2025ApJ...986..126K][Kocevski et al. 2025]]: in their rest frame they are blue, but cosmological redshift makes them appear red to us.
-[[file:images/LRD.png]]
+[[file:images/LRD.png]]l
 
 These are /not/ AGNs: they show no X-rays and little variability. One
 promising candidate interpretation is that they are accreting SMBH
