@@ -13,3 +13,13 @@
 - walk through scales?
 - Planck scale
 - Friedman Robertson Walker?
+* Scientific method
+1. Lab experiment: controlled, repeatable setup
+2. Observations: possibly repeatable, uncontrolled (take what you
+   get). Usual to compensate for lack of control with sample sizes,
+   astronomical numbers of objects!
+
+Cosmology? Observational \check , but sample size is 1 Universe! *We need
+many ways to look at one single sample*. Note how curiosity and
+organized collective methodological skepticism work "around" the
+constraints of a problem if deemed interesting!
