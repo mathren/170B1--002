@@ -2,7 +2,7 @@
 #+author: Mathieu Renzo
 #+email: mrenzo@arizona.edu
 #+PREVIOUS_PAGE: study_guide_midterm2.org
-#+NEXT_PAGE: notes-lecture-21-galaxies.org
+#+NEXT_PAGE: notes-lecture-23-cosmology.org
 
 *Reading*: Chapter S2, 20, 21
 

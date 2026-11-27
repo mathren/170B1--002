@@ -1,0 +1,15 @@
+#+title: ASTR170 Cosmology
+#+author: Mathieu Renzo
+#+email: mrenzo@arizona.edu
+#+PREVIOUS_PAGE: notes-lecture-22-AGN.org
+#+NEXT_PAGE: lab3.org
+
+* TODO Assign homework!
+
+* Recap
+
+- Hubble law
+- Cosmological principle
+- walk through scales?
+- Planck scale
+- Friedman Robertson Walker?

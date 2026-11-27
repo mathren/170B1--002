@@ -221,6 +221,8 @@ DEADLINE: Signature assignment, Homework
 
 *** <2026-11-30 Mon> - Cosmology
 # in class attendance
+
+[[./notes-lecture-23-cosmology.org][Notes]]
 *** <2026-12-02 Wed> - lab 3: Large Language Models
 # in class attendance
 # Deadline Homework 13, Assign Homework 14
